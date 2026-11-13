@@ -1,0 +1,178 @@
+{
+  "categories": [
+    {
+      "key": "news",
+      "keywords": [
+        "新闻",
+        "news",
+        "发布",
+        "release",
+        "公告",
+        "announcement",
+        "上线",
+        "launch",
+        "更新",
+        "update"
+      ],
+      "label": "新闻动态"
+    },
+    {
+      "key": "guide",
+      "keywords": [
+        "教程",
+        "tutorial",
+        "指南",
+        "guide",
+        "怎么做",
+        "how to",
+        "入门",
+        "getting started",
+        "实践",
+        "案例",
+        "case study"
+      ],
+      "label": "教程指南"
+    },
+    {
+      "key": "opinion",
+      "keywords": [
+        "观点",
+        "opinion",
+        "分析",
+        "analysis",
+        "洞察",
+        "insight",
+        "趋势",
+        "trend",
+        "复盘",
+        "postmortem",
+        "思考",
+        "观察",
+        "评论",
+        "commentary"
+      ],
+      "label": "观点洞察"
+    }
+  ],
+  "scoring": {
+    "base": 50,
+    "daily_hours": 24,
+    "daily_top": 10,
+    "decay_base": 0.8,
+    "dev_keyword_bonus": 5,
+    "dev_keyword_cap": 25,
+    "dev_keywords": [
+      "教程",
+      "tutorial",
+      "工具",
+      "tool",
+      "数据",
+      "data",
+      "案例",
+      "case study",
+      "开源",
+      "open source",
+      "指南",
+      "guide",
+      "复盘",
+      "postmortem",
+      "引擎",
+      "engine",
+      "优化",
+      "optimization",
+      "性能",
+      "performance",
+      "收入",
+      "revenue",
+      "销量",
+      "sales",
+      "经验",
+      "教训",
+      "lesson",
+      "源码",
+      "source code",
+      "工作流",
+      "workflow"
+    ],
+    "history_days": 30,
+    "hot_days": 7,
+    "hot_top": 20,
+    "noise_keyword_floor": -15,
+    "noise_keyword_penalty": -5,
+    "noise_keywords": [
+      "免费领取",
+      "free",
+      "速通",
+      "speedrun",
+      "彩蛋",
+      "easter egg",
+      "cosplay",
+      "mod",
+      "壁纸",
+      "wallpaper"
+    ],
+    "recency": [
+      {
+        "bonus": 25,
+        "max_hours": 6
+      },
+      {
+        "bonus": 20,
+        "max_hours": 24
+      },
+      {
+        "bonus": 10,
+        "max_hours": 72
+      }
+    ],
+    "selected_hours": 48,
+    "selected_min": 65,
+    "tier_bonus": {
+      "T1": 10,
+      "T2": 0,
+      "T3": -15
+    },
+    "timeline_days": 7,
+    "timeline_max": 100
+  },
+  "site": {
+    "about_blocks": [
+      {
+        "h": "定位",
+        "paras": [
+          "HOT 是给读者看的热点站。（示例文字，搭建新站时改成新站的定位。）"
+        ]
+      },
+      {
+        "h": "怎么做",
+        "paras": [
+          "采集——公开 RSS 信源，每半小时拉一次。",
+          "打分——规则打分（时效、相关度、来源），不是 AI 打分。",
+          "出报——只展示标题、摘要与原文链接，不转载全文。"
+        ]
+      },
+      {
+        "h": "制作人",
+        "paras": [
+          "XXX。（示例文字，搭建新站时改。）"
+        ]
+      }
+    ],
+    "audience": "读者",
+    "crawler_name": "HOTBot/1.0",
+    "description": "示例描述：每天从一批信源里收动态，按规则打分精选，只显示标题、一句简介与原文链接，不转载全文。",
+    "edition_time_cst": "06:00",
+    "footer_note": "本站由 HOT 流水线模板生成，代码按 MIT 协议开源。",
+    "launch_date": "",
+    "mcp_url": "",
+    "name": "HOT",
+    "repo": "https://github.com/EXAMPLE/REPO",
+    "slug": "hot",
+    "subtitle": "示例副标题",
+    "tagline": "示例 tagline：换成你自己的一句话。",
+    "timezone": "Asia/Shanghai",
+    "tips": [],
+    "title": "HOT 热点",
+    "url": "https://EXAMPLE.github.io/REPO"
+  }
+}
