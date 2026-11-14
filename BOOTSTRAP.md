@@ -149,8 +149,7 @@ python3 ~/workspace/custom-connectors/custom.cloudflare/bin/cf.py deploy \
 - [ ] GitHub Pages 首页 200，内容最新，详情页能打开（无 404）。
 - [ ] Cloudflare 镜像首页 200，页头时间当前。
 - [ ] `feed.xml`、`sitemap.xml`、`robots.txt` 均 200。
-- [ ] `llms.txt`、`geo-audit.html` 均 200；`data/geo-audit.json` 无失败项
-      （sitemap 漏 `index.html` 的口径问题除外，见下一节）。
+- [ ] `llms.txt`、`geo-audit.html` 均 200；`data/geo-audit.json` 无失败项。
 - [ ] MCP：initialize / tools/list / 三个工具调用均成功；GET `/mcp` 返回 405。
 - [ ] 版权自查：公开文件里只有标题 + 一句话简介 + 链接，0 源站摘要残留。
 - [ ] 两个定时任务已建，下一轮能正常跑（看一次运行记录）。
@@ -183,9 +182,9 @@ python3 ~/workspace/custom-connectors/custom.cloudflare/bin/cf.py deploy \
 2. **不加站长平台验证文件**——Google / Bing / 百度等验证码没拿到之前，
    不要新建任何验证文件，等用户给验证码再加。
 
-已知口径问题：geo-audit 的 sitemap 检查目前会把首页报成漏页（首页以
-`/` 入 sitemap，检查器按磁盘文件名找 `index.html`）。先记下来，不要擅自
-改生成器或检查器的口径，等统一口径后再动。
+首页进 sitemap：首页以规范根路径 `/` 入 sitemap（生成器 `_add_sitemap`
+允许空路径项），检查器认 `site_url/` 等价于磁盘上的 `index.html`。不要
+往 sitemap 里加 `index.html`，那会和 canonical 根路径构成重复内容。
 
 ## 铁律（开新站与日常运行通用）
 
