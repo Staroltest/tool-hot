@@ -51,6 +51,9 @@ cd {{WORK_DIR}} && rm -rf tools/__pycache__ data/store.json data/zh_draft.json
 - `site.edition_time_cst`：`{{DAILY_TIME}}`。
 - `site.mcp_url`：先留空，Cloudflare 部署成功后再填
   `https://{{CF_PROJECT}}.pages.dev/mcp`，填完重新生成一次。
+- `site.mirror_url`：镜像站根地址（例如 `https://{{CF_PROJECT}}.pages.dev`），
+  先留空，镜像部署成功后再填；留空时 robots.txt 与 llms.txt 不写镜像行、
+  geo-audit 里镜像检查记为“未配置”。
 - `site.footer_note`：页脚第二段（署名/出处链，纯文本）。
 - `site.tips`：赞赏码列表，默认为空；用户给了码再加
   `[{"label": "USDT · TRC20", "image": "assets/tip-xxx.png", "address": "..."}]`，
@@ -58,7 +61,8 @@ cd {{WORK_DIR}} && rm -rf tools/__pycache__ data/store.json data/zh_draft.json
 - `site.about_blocks`：关于页各段 `[{"h": "标题", "paras": ["段落", ...]}]`，
   至少含定位、怎么做、制作人；段落里可用 `<code>`、`<a>`。
 - `categories`：按 `{{TOPIC}}` 定 4–8 个分类，每类 `key`（英文）、`label`（中文）、
-  `keywords`（中英关键词 15–25 个，分类器只靠它）。
+  `keywords`（中英关键词 15–25 个，分类器只靠它）；`label_en` 可选（英文类名，
+  只用于 llms.txt 的分类行，不填则只写中文 label）。
 - `scoring`：默认打分参数可直接用；`dev_keywords` / `noise_keywords` 按主题改词表，
   其余数值（门槛、衰减、tier 加成）先不动，等每日把关根据实测再调。
 
@@ -145,11 +149,43 @@ python3 ~/workspace/custom-connectors/custom.cloudflare/bin/cf.py deploy \
 - [ ] GitHub Pages 首页 200，内容最新，详情页能打开（无 404）。
 - [ ] Cloudflare 镜像首页 200，页头时间当前。
 - [ ] `feed.xml`、`sitemap.xml`、`robots.txt` 均 200。
+- [ ] `llms.txt`、`geo-audit.html` 均 200；`data/geo-audit.json` 无失败项
+      （sitemap 漏 `index.html` 的口径问题除外，见下一节）。
 - [ ] MCP：initialize / tools/list / 三个工具调用均成功；GET `/mcp` 返回 405。
 - [ ] 版权自查：公开文件里只有标题 + 一句话简介 + 链接，0 源站摘要残留。
 - [ ] 两个定时任务已建，下一轮能正常跑（看一次运行记录）。
 - [ ] 汇报给用户：站名、两个站的地址、MCP 端点、信源数量、分类、待她拍板的事
       （如 PAT 作用域、About/话题是否已设）。
+
+## SEO / GEO（生成器自带，不用另搭）
+
+每轮生成自动产出，全部取自 `config.json`，不要手改生成物（下轮生成会覆盖）：
+
+- **全站 head**：`canonical`、hreflang `zh-CN` + `x-default`、`robots` meta、
+  RSS 发现链接、WebSite JSON-LD（含 `inLanguage: zh-CN`）。
+- **`robots.txt`**：点名放行 GPTBot、ClaudeBot、PerplexityBot 等 AI 爬虫，
+  屏蔽 Bytespider 与 PetalBot；站名、规范域名、镜像行取自 `site.name` /
+  `site.url` / `site.mirror_url`（镜像未配置时不写镜像行）。
+- **`sitemap.xml`**：真实发布日期 lastmod，全量页面（含存档页与详情页）。
+- **`llms.txt`**：给 AI 客户端的站点说明。介绍段首行取 `site.tagline`，
+  分类行取 `categories[].label_en`（可选）；MCP 段只在 `site.mcp_url` 已填时写，
+  镜像行只在 `site.mirror_url` 已填时写。
+- **详情页**：`og:type=article`、`article:published_time` / `article:modified_time`、
+  JSON-LD 补 `dateModified` 与 `inLanguage`；日报/周报/月报的描述取当期摘要。
+- **`/geo-audit`**：9 项自检页（`geo-audit.html` + `data/geo-audit.json`），
+  每轮自动刷新；也可以单独跑 `python3 tools/geo_audit.py` 只做自检。
+  MCP 可达性与镜像部署在仓库内无法验证，恒记为警告，不造假。
+
+两条硬规则：
+
+1. **hreflang 只写 `zh-CN` + `x-default`，绝不加 `hreflang="en"`**——本站
+   0 个英文页，凭空写英文互链是造假，会被搜索引擎判为作弊。真做了英文版再补。
+2. **不加站长平台验证文件**——Google / Bing / 百度等验证码没拿到之前，
+   不要新建任何验证文件，等用户给验证码再加。
+
+已知口径问题：geo-audit 的 sitemap 检查目前会把首页报成漏页（首页以
+`/` 入 sitemap，检查器按磁盘文件名找 `index.html`）。先记下来，不要擅自
+改生成器或检查器的口径，等统一口径后再动。
 
 ## 铁律（开新站与日常运行通用）
 

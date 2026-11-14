@@ -14,7 +14,8 @@
         "更新",
         "update"
       ],
-      "label": "新闻动态"
+      "label": "新闻动态",
+      "label_en": "News"
     },
     {
       "key": "guide",
@@ -31,7 +32,8 @@
         "案例",
         "case study"
       ],
-      "label": "教程指南"
+      "label": "教程指南",
+      "label_en": "Guides & tutorials"
     },
     {
       "key": "opinion",
@@ -51,7 +53,8 @@
         "评论",
         "commentary"
       ],
-      "label": "观点洞察"
+      "label": "观点洞察",
+      "label_en": "Opinion & analysis"
     }
   ],
   "scoring": {
@@ -165,6 +168,7 @@
     "footer_note": "本站由 HOT 流水线模板生成，代码按 MIT 协议开源。",
     "launch_date": "",
     "mcp_url": "",
+    "mirror_url": "",
     "name": "HOT",
     "repo": "https://github.com/EXAMPLE/REPO",
     "slug": "hot",
