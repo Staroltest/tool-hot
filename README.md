@@ -35,23 +35,25 @@ agent 按 [BOOTSTRAP.md](BOOTSTRAP.md) 里的 playbook 全套办完：
 ## 站点长什么样
 
 首页（精选 10 条 + 热点框）、全部动态（30 天全量按天分组）、热点榜、
-日报 / 周报 / 月报、主题页、收藏、RSS（`feed.xml`）、MCP（`/mcp`）。
+日报 / 周报 / 月报、主题页、收藏、RSS（`feed.xml`）、MCP（`/mcp`），
+中英双语（`/en/` 英文树与中文树同构，按浏览器语言自动切换、可手动切换）。
 只展示原标题 + 一句自己写的一句话简介 + 原文链接，不转载正文与摘要。
 
 ## SEO / GEO（生成器自带）
 
-每轮生成自动产出：全站 `canonical`、hreflang（`zh-CN` + `x-default`）、
-`robots` meta、RSS 发现链接、WebSite JSON-LD；`robots.txt` 点名放行 AI 爬虫
-并屏蔽 Bytespider / PetalBot；`sitemap.xml` 用真实发布日期；`llms.txt`
-（站点说明 + MCP 端点 + 数据入口）；详情页 `og:type=article` 与
-`dateModified`；`/geo-audit` 9 项自检页。全部取自 `config.json`：
-站名/域名/`tagline`（llms.txt 介绍段首行）、`mcp_url`、`mirror_url`、
-`edition_time_cst` / `timezone`（llms.txt 出刊行）、分类的 `label_en`（可选）。
+每轮生成自动产出：全站 `canonical`、hreflang 三元组（`zh-CN` + `en` +
+`x-default`，指向英文树）、`robots` meta、RSS 发现链接、WebSite JSON-LD；
+`robots.txt` 点名放行 AI 爬虫并屏蔽 Bytespider / PetalBot；`sitemap.xml`
+用真实发布日期（中文条目在前、英文追加）；`llms.txt`（站点说明 + MCP 端点 +
+数据入口，英文版在 `/en/llms.txt`）；详情页 `og:type=article` 与
+`dateModified`；`/geo-audit` 9 项自检页（覆盖双树）。全部取自 `config.json`：
+站名/域名/`tagline` / `tagline_en`（llms.txt 介绍段首行）、`mcp_url`、
+`mirror_url`、`edition_time_cst` / `timezone`（llms.txt 出刊行）、
+分类的 `label_en`（英文树与 llms.txt 用）。
 `mcp_url` / `mirror_url` 留空时对应行段直接省略。
 
-两条硬规则：hreflang 只写 `zh-CN` + `x-default`，绝不加 `hreflang="en"`
-（0 个英文页，造假互链会被判作弊）；站长平台验证文件等用户给验证码再加，
-不要凭空新建。
+两条硬规则：hreflang 三元组由生成器自动写，绝不手改（双语版确实有英文树，
+互链是真实的）；站长平台验证文件等用户给验证码再加，不要凭空新建。
 
 ## 成本
 

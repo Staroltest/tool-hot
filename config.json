@@ -161,11 +161,36 @@
         ]
       }
     ],
+    "about_blocks_en": [
+      {
+        "h": "What it is",
+        "paras": [
+          "HOT is a hotspot site for readers. (Example text — replace it with your new site's positioning.)"
+        ]
+      },
+      {
+        "h": "How it works",
+        "paras": [
+          "Collect — public RSS sources, fetched every 30 minutes.",
+          "Score — rule-based scoring (recency, relevance, source), not AI scoring.",
+          "Publish — only titles, summaries and links to the originals, no full text republished."
+        ]
+      },
+      {
+        "h": "Made by",
+        "paras": [
+          "XXX. (Example text — replace it when setting up a new site.)"
+        ]
+      }
+    ],
     "audience": "读者",
+    "audience_en": "readers",
     "crawler_name": "HOTBot/1.0",
     "description": "示例描述：每天从一批信源里收动态，按规则打分精选，只显示标题、一句简介与原文链接，不转载全文。",
+    "description_en": "Example description: HOT collects updates from a set of sources every day, scores them by rules, and shows only the title, a one-line summary and a link to the original — no full text republished.",
     "edition_time_cst": "06:00",
     "footer_note": "本站由 HOT 流水线模板生成，代码按 MIT 协议开源。",
+    "footer_note_en": "Built with the HOT pipeline template; code is open source under the MIT License.",
     "launch_date": "",
     "mcp_url": "",
     "mirror_url": "",
@@ -173,10 +198,13 @@
     "repo": "https://github.com/EXAMPLE/REPO",
     "slug": "hot",
     "subtitle": "示例副标题",
+    "subtitle_en": "Example subtitle",
     "tagline": "示例 tagline：换成你自己的一句话。",
+    "tagline_en": "Example tagline: replace it with your own one-liner.",
     "timezone": "Asia/Shanghai",
     "tips": [],
     "title": "HOT 热点",
+    "title_en": "HOT News",
     "url": "https://EXAMPLE.github.io/REPO"
   }
 }

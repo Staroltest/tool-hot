@@ -7,36 +7,46 @@
 // SERVER_NAME（MCP 服务名，一般取站点的 slug）。
 // 协议：MCP Streamable HTTP，无状态（无会话、无 SSE 流）。
 // 数据来自本站公开 JSON，只返回标题 + 一句简介 + 原文链接。
+//
+// 双语：三个工具都接受可选 `lang` 参数（"zh" 默认，或 "en"）。
+// lang=en 读 /en/data/ 树，取 en_title/en_oneliner（由本站中文简介译出，
+// 绝非源站摘要）；中文树不带 en_* 字段，所以两种语言必须读不同路径。
 
 const SITE_ORIGIN = "https://EXAMPLE.github.io/REPO";
 const SERVER_NAME = "hot";
-const SERVER_INFO = { name: SERVER_NAME, version: "1.0.0" };
+const SERVER_INFO = { name: SERVER_NAME, version: "1.1.0" };
 const KNOWN_PROTOCOLS = ["2025-06-18", "2025-03-26", "2024-11-05"];
 const CATEGORIES = ["engine", "publishing", "devlog", "industry", "events", "reviews", "official"];
 
 const TOOLS = [
   {
     name: "get_hot",
-    description: "当前热点榜：社区正在关注的热门动态，按热度排序。返回中文标题、一句简介、原文链接、来源与热度分。",
+    description: "当前热点榜：社区正在关注的热门动态，按热度排序。返回标题、一句简介、原文链接、来源与热度分。默认中文，lang=en 返回英文版。",
     inputSchema: {
       type: "object",
       properties: {
         limit: { type: "integer", description: "返回条数，1-20，默认 10。", minimum: 1, maximum: 20, default: 10 },
+        lang: { type: "string", description: "返回语言：zh 中文（默认）或 en 英文。", enum: ["zh", "en"], default: "zh" },
       },
     },
   },
   {
     name: "get_daily",
-    description: "最新一期日报：过去 24 小时的收录总数、精选条数与精选内容（含导读摘要）。每天北京时间 06:00 出新一期。",
-    inputSchema: { type: "object", properties: {} },
-  },
-  {
-    name: "search_items",
-    description: "搜索本站最近一段时间收录的动态。可按关键词和分类筛选，结果按评分排序。返回中文标题、一句简介、原文链接、来源、发布时间与分类。",
+    description: "最新一期日报：过去 24 小时的收录总数、精选条数与精选内容（含导读摘要）。每天北京时间 06:00 出新一期。默认中文，lang=en 返回英文版。",
     inputSchema: {
       type: "object",
       properties: {
-        query: { type: "string", description: "关键词，匹配中文标题、原标题、简介与来源（不区分大小写）。留空则不按关键词过滤。" },
+        lang: { type: "string", description: "返回语言：zh 中文（默认）或 en 英文。", enum: ["zh", "en"], default: "zh" },
+      },
+    },
+  },
+  {
+    name: "search_items",
+    description: "搜索本站最近一段时间收录的动态。可按关键词和分类筛选，结果按评分排序。返回标题、一句简介、原文链接、来源、发布时间与分类。默认中文，lang=en 返回英文版，关键词匹配对应语言的标题与简介。",
+    inputSchema: {
+      type: "object",
+      properties: {
+        query: { type: "string", description: "关键词，匹配对应语言的标题、原标题、简介与来源（不区分大小写）。留空则不按关键词过滤。" },
         category: {
           type: "string",
           description: "分类筛选。",
@@ -44,6 +54,7 @@ const TOOLS = [
         },
         days: { type: "integer", description: "往回搜多少天，1-30，默认 7。", minimum: 1, maximum: 30, default: 7 },
         limit: { type: "integer", description: "返回条数，1-20，默认 10。", minimum: 1, maximum: 20, default: 10 },
+        lang: { type: "string", description: "返回语言：zh 中文（默认）或 en 英文。", enum: ["zh", "en"], default: "zh" },
       },
     },
   },
@@ -55,17 +66,28 @@ function clampInt(value, fallback, min, max) {
   return Math.min(max, Math.max(min, n));
 }
 
-function shapeItem(item) {
+function resolveLang(args) {
+  const raw = args && typeof args.lang === "string" ? args.lang.trim().toLowerCase() : "";
+  return raw === "en" || raw.startsWith("en-") || raw.startsWith("en_") ? "en" : "zh";
+}
+
+function dataPrefix(lang) {
+  return lang === "en" ? "/en/data" : "/data";
+}
+
+function shapeItem(item, lang) {
+  const titleKey = lang === "en" ? "en_title" : "zh_title";
+  const onelinerKey = lang === "en" ? "en_oneliner" : "zh_oneliner";
   const out = {
-    title: item.zh_title || item.title,
-    oneliner: item.zh_oneliner || "",
+    title: item[titleKey] || item.title,
+    oneliner: item[onelinerKey] || "",
     link: item.link,
     source: item.source,
     published: item.published,
     category: item.category_label || item.category,
     score: item.score,
   };
-  if (item.zh_title && item.title && item.zh_title !== item.title) {
+  if (item[titleKey] && item.title && item[titleKey] !== item.title) {
     out.original_title = item.title;
   }
   return out;
@@ -80,37 +102,43 @@ async function fetchJson(path) {
 }
 
 async function callGetHot(args) {
+  const lang = resolveLang(args);
   const limit = clampInt(args.limit, 10, 1, 20);
-  const data = await fetchJson("/data/hot.json");
+  const data = await fetchJson(`${dataPrefix(lang)}/hot.json`);
   const hot = Array.isArray(data.hot) ? data.hot : [];
   return {
+    lang,
     updated_at: data.generated_at_cst || data.generated_at,
     total_7d: data.counts ? data.counts.total_7d : undefined,
-    items: hot.slice(0, limit).map(shapeItem),
+    items: hot.slice(0, limit).map((item) => shapeItem(item, lang)),
   };
 }
 
-async function callGetDaily() {
-  const data = await fetchJson("/data/daily.json");
+async function callGetDaily(args) {
+  const lang = resolveLang(args);
+  const data = await fetchJson(`${dataPrefix(lang)}/daily.json`);
   const items = Array.isArray(data.items) ? data.items : [];
   return {
+    lang,
     date: data.label || data.date_iso,
     issue: data.issue,
     summary: data.summary,
-    items: items.map(shapeItem),
+    items: items.map((item) => shapeItem(item, lang)),
   };
 }
 
 async function callSearchItems(args) {
+  const lang = resolveLang(args);
+  const prefix = dataPrefix(lang);
   const query = typeof args.query === "string" ? args.query.trim().toLowerCase() : "";
   const category = typeof args.category === "string" ? args.category.trim() : "";
   const days = clampInt(args.days, 7, 1, 30);
   const limit = clampInt(args.limit, 10, 1, 20);
-  const index = await fetchJson("/data/days/index.json");
+  const index = await fetchJson(`${prefix}/days/index.json`);
   const dayList = Array.isArray(index.days) ? index.days.slice(0, days) : [];
   const settled = await Promise.all(
     dayList.map((d) =>
-      fetchJson(`/data/days/${d.date}.json`)
+      fetchJson(`${prefix}/days/${d.date}.json`)
         .then((day) => (Array.isArray(day.items) ? day.items : []))
         .catch(() => [])
     )
@@ -118,8 +146,10 @@ async function callSearchItems(args) {
   let items = settled.flat();
   if (category) items = items.filter((it) => it.category === category);
   if (query) {
+    const titleKey = lang === "en" ? "en_title" : "zh_title";
+    const onelinerKey = lang === "en" ? "en_oneliner" : "zh_oneliner";
     items = items.filter((it) =>
-      [it.zh_title, it.title, it.zh_oneliner, it.source]
+      [it[titleKey], it.title, it[onelinerKey], it.source]
         .filter(Boolean)
         .some((text) => text.toLowerCase().includes(query))
     );
@@ -128,11 +158,12 @@ async function callSearchItems(args) {
     (a, b) => (b.score || 0) - (a.score || 0) || String(b.published).localeCompare(String(a.published))
   );
   return {
+    lang,
     query: query || undefined,
     category: category || undefined,
     days_searched: dayList.length,
     matched: items.length,
-    items: items.slice(0, limit).map(shapeItem),
+    items: items.slice(0, limit).map((item) => shapeItem(item, lang)),
   };
 }
 
@@ -142,7 +173,7 @@ async function callTool(name, args) {
     case "get_hot":
       return callGetHot(input);
     case "get_daily":
-      return callGetDaily();
+      return callGetDaily(input);
     case "search_items":
       return callSearchItems(input);
     default:

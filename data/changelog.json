@@ -1,1 +1,1 @@
-{"comment":"更新日志：手动维护，每次改版在最前面加一条。version 用日期（YYYY-MM-DD），/more 页的红点靠它判断有没有新内容。","entries":[{"date":"2026-01-01","items":["示例：第一版上线。（搭建新站时改成真实的第一条。）"],"title":"示例：第一版","version":"2026-01-01"}]}
+{"comment": "更新日志：手动维护，每次改版在最前面加一条。version 用日期（YYYY-MM-DD），/more 页的红点靠它判断有没有新内容。", "entries": [{"date": "2026-01-01", "items": ["示例：第一版上线。（搭建新站时改成真实的第一条。）"], "items_en": ["Example: first release is live. (Replace with the real first entry when setting up a new site.)"], "title": "示例：第一版", "title_en": "Example: first release", "version": "2026-01-01"}]}

@@ -60,9 +60,15 @@ cd {{WORK_DIR}} && rm -rf tools/__pycache__ data/store.json data/zh_draft.json
   图片放 `assets/`。
 - `site.about_blocks`：关于页各段 `[{"h": "标题", "paras": ["段落", ...]}]`，
   至少含定位、怎么做、制作人；段落里可用 `<code>`、`<a>`。
+- 双语键（英文树用，只加键、不改结构，全填英文）：
+  `site.title_en` / `site.tagline_en` / `site.description_en` /
+  `site.subtitle_en` / `site.footer_note_en` / `site.audience_en` /
+  `site.about_blocks_en`（与 `about_blocks` 同结构）。缺了也不会崩——英文页
+  回落中文标题/描述、省略页脚注与英文关于段落——但新站上线前应全部填好，
+  否则英文页会混进中文文案。
 - `categories`：按 `{{TOPIC}}` 定 4–8 个分类，每类 `key`（英文）、`label`（中文）、
-  `keywords`（中英关键词 15–25 个，分类器只靠它）；`label_en` 可选（英文类名，
-  只用于 llms.txt 的分类行，不填则只写中文 label）。
+  `keywords`（中英关键词 15–25 个，分类器只靠它）；`label_en` 是英文类名，
+  英文树与 llms.txt 都用它，不填时英文树回落中文 `label`。
 - `scoring`：默认打分参数可直接用；`dev_keywords` / `noise_keywords` 按主题改词表，
   其余数值（门槛、衰减、tier 加成）先不动，等每日把关根据实测再调。
 
@@ -83,20 +89,28 @@ cd {{WORK_DIR}} && rm -rf tools/__pycache__ data/store.json data/zh_draft.json
 
 文件头部的 `SITE_ORIGIN`（新站 GitHub Pages 地址）、`SERVER_NAME`（取 `{{SLUG}}`）。
 工具描述里的“每天北京时间 06:00”若日报时间不同，一并改。
-`_routes.json` 不用动。
+`_routes.json` 不用动。三个工具都接受可选 `lang` 参数（`zh` 默认 / `en`），
+`lang=en` 时读 `/en/data/` 树——不用另写代码，第 7 步实测时覆盖一次即可。
 
-## 5. 首次生成 + 中文 + 自查
+## 5. 首次生成 + 双语 + 自查
 
 ```bash
 cd {{WORK_DIR}} && python3 tools/generate.py
 ```
 
 - 第一轮 `data/store.json` 从空开始，只有当天条目，正常；历史随时间累积。
-- 找出没有中文标题的条目（链接不在 `data/zh_draft.json` 里）：写 `zh_title`
-  （专有名词保留英文）与 `zh_oneliner`（一句自己表述的简介，给 `{{AUDIENCE}}` 看，
-  不照搬源站摘要措辞，不用省略号结尾）。**绝不写 `zh_summary` / `zh_summary_full`**。
+- 找出没有中文标题的条目（链接不在 `data/zh_draft.json` 里）：中英同写——
+  `zh_title`（专有名词保留英文）与 `zh_oneliner`（一句自己表述的简介，给
+  `{{AUDIENCE}}` 看，不照搬源站摘要措辞，不用省略号结尾），再加
+  `en_title`（英文原标题直接用原标题，中文标题翻成英文）与 `en_oneliner`
+  （只翻译自家 `zh_oneliner`，绝不照搬源站摘要）。**绝不写 `zh_summary` /
+  `zh_summary_full`**。`en_oneliner` 缺失时英文版只显示标题 + 链接，
+  绝不回退显示中文简介。
 - 写完重新生成一次。自查：首页首屏时间线 + 精选标题全中文、每条只有标题 +
   一句话简介、页头时间是当前时间、页面上无源站摘要文字、页脚品牌与链接正确。
+  英文版自查：`en/index.html` 标题与简介全英文、无中文简介泄露；
+  `en/data/hot.json` 里 0 个 `zh_*` 键，`data/hot.json` 里 0 个 `en_*` 键；
+  中英各抽一页有 hreflang 三元组（`zh-CN` / `en` / `x-default` 指向英文树）。
 - 再跑一次 `python3 tools/generate.py --daily`，确认日报能出（`data/daily.json`、
   `daily.html`），期号为 1。
 
@@ -131,7 +145,8 @@ python3 ~/workspace/custom-connectors/custom.cloudflare/bin/cf.py deploy \
 - 部署成功后抽查：`https://{{CF_PROJECT}}.pages.dev/` 200 且页头时间当前；
   填好 `site.mcp_url` 重新生成并重新部署一次，让关于页与页脚出现 MCP 入口。
 - 然后实测 MCP：POST `/mcp` 做 initialize、tools/list、三次 tools/call
-  （get_hot / get_daily / search_items）全部成功，且首页与 `/data/hot.json` 仍 200。
+  （get_hot / get_daily / search_items）全部成功，再加一次 `lang=en` 调用
+  （返回英文标题/简介且带 `lang: "en"` 字段），且首页与 `/data/hot.json` 仍 200。
 
 ## 8. 建两个定时任务
 
@@ -147,10 +162,15 @@ python3 ~/workspace/custom-connectors/custom.cloudflare/bin/cf.py deploy \
 ## 9. 验收清单（全部通过才算完）
 
 - [ ] GitHub Pages 首页 200，内容最新，详情页能打开（无 404）。
+- [ ] 英文树完整：`/en/`、`/en/all.html`、`/en/hot.html`、`/en/daily.html`、
+      `/en/feed.xml`、`/en/llms.txt`、`/en/data/hot.json` 均 200，英文详情页能打开；
+      英文页无中文简介泄露，页头语言切换可用。
 - [ ] Cloudflare 镜像首页 200，页头时间当前。
-- [ ] `feed.xml`、`sitemap.xml`、`robots.txt` 均 200。
+- [ ] `feed.xml`、`sitemap.xml`、`robots.txt` 均 200；sitemap 含根 loc 与 `/en/` loc，
+      0 个 `index.html` loc。
 - [ ] `llms.txt`、`geo-audit.html` 均 200；`data/geo-audit.json` 无失败项。
-- [ ] MCP：initialize / tools/list / 三个工具调用均成功；GET `/mcp` 返回 405。
+- [ ] MCP：initialize / tools/list / 三个工具调用均成功，`lang=en` 调用返回英文；
+      GET `/mcp` 返回 405。
 - [ ] 版权自查：公开文件里只有标题 + 一句话简介 + 链接，0 源站摘要残留。
 - [ ] 两个定时任务已建，下一轮能正常跑（看一次运行记录）。
 - [ ] 汇报给用户：站名、两个站的地址、MCP 端点、信源数量、分类、待她拍板的事
@@ -160,25 +180,30 @@ python3 ~/workspace/custom-connectors/custom.cloudflare/bin/cf.py deploy \
 
 每轮生成自动产出，全部取自 `config.json`，不要手改生成物（下轮生成会覆盖）：
 
-- **全站 head**：`canonical`、hreflang `zh-CN` + `x-default`、`robots` meta、
-  RSS 发现链接、WebSite JSON-LD（含 `inLanguage: zh-CN`）。
+- **全站 head**：`canonical`、hreflang 三元组（`zh-CN` + `en` + `x-default`，
+  `x-default` 指向英文树）、`robots` meta、RSS 发现链接、WebSite JSON-LD
+  （`inLanguage` 按语言树取 `zh-CN` / `en`）；英文页 canonical 指向自身。
 - **`robots.txt`**：点名放行 GPTBot、ClaudeBot、PerplexityBot 等 AI 爬虫，
   屏蔽 Bytespider 与 PetalBot；站名、规范域名、镜像行取自 `site.name` /
   `site.url` / `site.mirror_url`（镜像未配置时不写镜像行）。
-- **`sitemap.xml`**：真实发布日期 lastmod，全量页面（含存档页与详情页）。
+- **`sitemap.xml`**：真实发布日期 lastmod，全量页面（含存档页与详情页）；
+  中文条目在前、英文条目追加，英文首页以 `en/` 入站，绝不出现
+  `index.html` / `en/index.html` 的 loc。
 - **`llms.txt`**：给 AI 客户端的站点说明。介绍段首行取 `site.tagline`，
   分类行取 `categories[].label_en`（可选）；MCP 段只在 `site.mcp_url` 已填时写，
-  镜像行只在 `site.mirror_url` 已填时写。
+  镜像行只在 `site.mirror_url` 已填时写。英文版在 `/en/llms.txt`（取
+  `tagline_en` 与 `label_en`，含 MCP 的 `lang` 参数说明）。
 - **详情页**：`og:type=article`、`article:published_time` / `article:modified_time`、
   JSON-LD 补 `dateModified` 与 `inLanguage`；日报/周报/月报的描述取当期摘要。
 - **`/geo-audit`**：9 项自检页（`geo-audit.html` + `data/geo-audit.json`），
-  每轮自动刷新；也可以单独跑 `python3 tools/geo_audit.py` 只做自检。
-  MCP 可达性与镜像部署在仓库内无法验证，恒记为警告，不造假。
+  每轮自动刷新，检查覆盖中英双树；也可以单独跑 `python3 tools/geo_audit.py`
+  只做自检。MCP 可达性与镜像部署在仓库内无法验证，恒记为警告，不造假。
 
 两条硬规则：
 
-1. **hreflang 只写 `zh-CN` + `x-default`，绝不加 `hreflang="en"`**——本站
-   0 个英文页，凭空写英文互链是造假，会被搜索引擎判为作弊。真做了英文版再补。
+1. **hreflang 三元组由生成器自动写，绝不手改**——双语版确实有英文树，
+   每页的 `zh-CN` / `en` / `x-default`（指向英文树）互链是真实的。
+   不要删掉其中任何一元，也不要给没有对应英文页的页面硬加互链。
 2. **不加站长平台验证文件**——Google / Bing / 百度等验证码没拿到之前，
    不要新建任何验证文件，等用户给验证码再加。
 
@@ -190,7 +215,8 @@ python3 ~/workspace/custom-connectors/custom.cloudflare/bin/cf.py deploy \
 
 1. **版权**：全站只放原标题 + 一句自己表述的简介 + 跳转链接；源站正文、摘要、
    完整摘要及翻译件不展示、不打包进任何公开数据文件。日报导读是自写概括，不动。
-2. **`zh_draft.json` 永不直接覆盖**：按链接取头上与本地的并集，冲突保留本地。
+2. **`zh_draft.json` 永不直接覆盖，字段级合并**：按链接取头上与本地的并集，
+   同一链接的同一字段冲突时保留本地，`en_title` / `en_oneliner` 永不丢。
    直接覆盖曾丢过 228 条翻译。
 3. **绝不推送 `.github/workflows/*`**，绝不启用 Actions。
 4. **推送/部署失败不强行重试**：记下来下一轮补推；连续两轮失败才汇报。
