@@ -400,5 +400,131 @@
   "zh_oneliner": "Rconsole-Ark 的最新进展：让每个人都能免费拥有一个 Linux 开发环境，适合想低成本搭开发机的读者。",
   "en_title": "Overall Update of Rconsole-Ark, a project that lets everyone have a Linux development environment for free.",
   "en_oneliner": "The latest update on Rconsole-Ark, a project that gives everyone a free Linux development environment, for readers who want a dev machine at no cost."
+ },
+ "https://dev.to/umutgungor/how-to-catch-missing-env-variables-and-envexample-drift-before-production-deploy-1ii4": {
+  "zh_title": "如何在上线前发现缺失的 .env 变量与 .env.example 不同步",
+  "zh_oneliner": "在 CI 里拦住 .env 和 .env.example 悄悄跑偏的问题，别等缺了环境变量、服务上线才崩。",
+  "en_title": "How to Catch Missing .env Variables and .env.example Drift Before Production Deploy",
+  "en_oneliner": "Catch .env and .env.example quietly drifting apart in CI, before a missing variable breaks production."
+ },
+ "https://dev.to/codelevel/why-is-my-aws-bill-so-high-when-traffic-is-flat-3fmg": {
+  "zh_title": "流量没涨，AWS 账单为什么这么高？",
+  "zh_oneliner": "流量平稳账单却上涨，多半是没删的数据、到期的折扣或新冒出来的收费项，顺着这三条就能查到原因。",
+  "en_title": "Why is my AWS bill so high when traffic is flat?",
+  "en_oneliner": "When traffic is flat but the bill climbs, it is usually undeleted data, an expired discount, or a new charge — here is how to trace which one."
+ },
+ "https://objectiveobservations.substack.com/p/no-pain-no-mind": {
+  "zh_title": "无痛无念：我的禅修第一年",
+  "zh_oneliner": "作者写下自己练禅第一年的真实体会，关于疼痛、专注与放下，适合对禅修好奇又不知从何了解的读者。",
+  "en_title": "No Pain (no) Mind: my first year of Zen",
+  "en_oneliner": "A first-hand account of one year of Zen practice — pain, focus, and letting go — for readers curious about what meditation actually feels like."
+ },
+ "https://dev.to/hua_sun_6c12aacb6561fc6c5/put-yourself-in-a-viral-clip-with-one-photo-no-prompt-1760": {
+  "zh_title": "一张照片把自己放进热门短视频，不用写提示词",
+  "zh_oneliner": "上传一张照片就能把自己放进流行的视频片段里，保留原片动作，不用写提示词也不用画分镜。",
+  "en_title": "Put yourself in a viral clip with one photo — no prompt",
+  "en_oneliner": "Upload one photo to place yourself into a viral video clip, keeping the original moves — no prompts, no storyboards."
+ },
+ "https://dev.to/dr_delta234/one-hand-typed-number-made-my-drug-valuation-45x-too-high-4h2b": {
+  "zh_title": "一个手输数字让我的药物估值虚高 4.5 倍",
+  "zh_oneliner": "一款抗癌药估值从 12.9 亿美元掉到 2.8 亿，只因两个不起眼的小错误，讲估值模型里最容易漏掉的检查点。",
+  "en_title": "One Hand-Typed Number Made My Drug Valuation 4.5x Too High",
+  "en_oneliner": "A cancer drug's valuation fell from $1.29B to $283.5M over two small mistakes — a lesson in the checks valuation models most often miss."
+ },
+ "https://dev.to/kalemi/github-actions-unexpected-symbol-in-a-expression-2f67": {
+  "zh_title": "GitHub Actions 的 ${{ }} 表达式里出现意外符号怎么办",
+  "zh_oneliner": "表达式解析器遇到不认的字符就直接停下，YAML 本身没错、工作流却跑不起来，教你快速定位这个报错。",
+  "en_title": "GitHub Actions unexpected symbol in a ${{ }} expression",
+  "en_oneliner": "When the expression parser hits a character it has no rule for, the workflow never starts even though the YAML is fine — here is how to track it down."
+ },
+ "https://dev.to/ofer_fryman_69213ebc646a7/how-to-build-an-offline-on-device-voice-to-voice-ai-agent-in-react-native-2a69": {
+  "zh_title": "用 React Native 打造离线端侧语音对语音 AI 助手",
+  "zh_oneliner": "从唤醒词到语音识别再到本地模型，五个环节全在手机上跑，教你搭一个不用联网的语音助手。",
+  "en_title": "How to Build an Offline, On-Device Voice-to-Voice AI Agent in React Native",
+  "en_oneliner": "From wake-word detection to speech recognition and an on-device model, all five stages run on the phone — a guide to building a voice agent that works offline."
+ },
+ "https://dev.to/oracle6688/building-a-consistent-ai-art-pipeline-for-a-tarot-content-site-2ed7": {
+  "zh_title": "给塔罗内容站搭一套风格统一的 AI 绘图流程",
+  "zh_oneliner": "小塔罗站需要持续产出原创配图，图库不是风格不对就是版权别扭，这套流程让每篇文章的插画都保持一致。",
+  "en_title": "Building a Consistent AI Art Pipeline for a Tarot Content Site",
+  "en_oneliner": "A small tarot site needed a steady stream of original art — this pipeline keeps every article's illustrations in one consistent style."
+ },
+ "https://dev.to/ashkan/building-a-bench-of-senior-developers-without-sitting-on-idle-cost-56bn": {
+  "zh_title": "组建高级开发后备队，又不被闲置成本拖垮",
+  "zh_oneliner": "客户一签约就要人，平时养人又烧钱，讲软件服务公司怎么搭一支随时能上的高级开发队伍。",
+  "en_title": "Building a Bench of Senior Developers Without Sitting on Idle Cost",
+  "en_oneliner": "Clients want a strong team next week, but idle seniors burn money — how a services firm builds a bench that is ready without the carrying cost."
+ },
+ "https://dev.to/urielbitton/javascript-noindex-removal-fix-the-initial-html-before-trusting-the-dom-fk3": {
+  "zh_title": "JavaScript 删 noindex：先修好初始 HTML，别信 DOM",
+  "zh_oneliner": "公开页面的首屏 HTML 里带 noindex，就别指望 JS 事后删掉它，先修好服务器返回的初始内容再验证渲染结果。",
+  "en_title": "JavaScript noindex Removal: Fix the Initial HTML Before Trusting the DOM",
+  "en_oneliner": "If a public page's initial HTML carries a noindex tag, don't rely on JavaScript to remove it later — fix the first response, then verify the rendered page."
+ },
+ "https://datatracker.ietf.org/doc/draft-banffy-httpbis-not-a-freezer": {
+  "zh_title": "HTTP 状态码 483（我不是冰箱）",
+  "zh_oneliner": "一份 IETF 玩笑草案，给 HTTP 状态码 483 配上「我不是冰箱」的含义，是程序员式的冷幽默。",
+  "en_title": "The Hypertext Transfer Protocol Status Code 483 (I'm Not a Freezer)",
+  "en_oneliner": "A tongue-in-cheek IETF draft giving HTTP status code 483 the meaning \"I'm Not a Freezer\" — programmer humor, filed as a real draft."
+ },
+ "https://dev.to/miura_acoustic_s1pro/turning-a-spare-mini-pc-into-an-always-on-claude-code-machine-remote-control-tmux-cron-2980": {
+  "zh_title": "把闲置迷你主机变成 7×24 小时的 Claude Code 工作站（远程 + tmux + cron）",
+  "zh_oneliner": "拿一台闲置迷你主机做常驻的 Claude Code 机器，远程加 tmux 加定时任务，随时都能把活交过去。",
+  "en_title": "Turning a Spare Mini PC into an Always-On Claude Code Machine (Remote Control + tmux + cron)",
+  "en_oneliner": "Turn a spare mini PC into an always-on Claude Code machine with remote access, tmux, and cron, so work can be handed off any time."
+ },
+ "https://securevibe-dev.vercel.app": {
+  "zh_title": "Show HN：SecureVibe——上线前发现并追踪漏洞",
+  "zh_oneliner": "发版越来越快，安全流程却跟不上，这个工具帮你在上线前找到漏洞并一路追踪到修复。",
+  "en_title": "Show HN: SecureVibe – Find and trace vulnerabilities before shipping",
+  "en_oneliner": "Shipping keeps getting faster than security setup — this tool finds vulnerabilities before release and traces them through to the fix."
+ },
+ "https://dev.to/calcukapp/show-your-working-why-an-online-calculator-should-print-its-formula-43dl": {
+  "zh_title": "算出结果也要亮出公式：在线计算器该这么做",
+  "zh_oneliner": "多数在线计算器只给一个数字，不说怎么算出来的，把公式一起印出来，用户才敢信这个结果。",
+  "en_title": "Show your working: why an online calculator should print its formula",
+  "en_oneliner": "Most online calculators hand you one number with no workings — printing the formula alongside the answer is what makes the result trustworthy."
+ },
+ "https://dev.to/devtalk94/git-security-release-6-vulnerabilities-and-cve-2026-111760-1910": {
+  "zh_title": "Git 安全更新：修复 6 个漏洞与 CVE-2026-111760",
+  "zh_oneliner": "Git 发布安全更新，一次修掉 6 个漏洞，包括 CVE-2026-111760，用 Git 的团队都该尽快升级。",
+  "en_title": "Git Security Release: 6 Vulnerabilities and CVE-2026-111760",
+  "en_oneliner": "A Git security release fixing six vulnerabilities, including CVE-2026-111760 — every Git user should upgrade soon."
+ },
+ "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents": {
+  "zh_title": "亚马逊威胁情报：攻击者正用 ARTEX AI 智能体发起攻击",
+  "zh_oneliner": "亚马逊威胁情报观察到，有攻击者用 ARTEX AI 智能体跑网络犯罪活动，讲 AI 是怎么被接进攻击链的。",
+  "en_title": "Amazon Threat Intelligence observes threat actor campaigns with ARTEX AI agents",
+  "en_oneliner": "Amazon's threat intelligence team observed attackers running cybercrime campaigns with ARTEX AI agents — a look at how AI is being wired into the attack chain."
+ },
+ "https://int8.io/implanting-ai-with-lazarus": {
+  "zh_title": "木马解剖：只改几个休眠神经元就能给 LLM 埋后门",
+  "zh_oneliner": "不用重训整个模型，只动少数几个休眠神经元就能植入后门，拆解这种隐蔽的木马手法。",
+  "en_title": "Anatomy of a trojan: backdooring an LLM by editing few dormant neurons",
+  "en_oneliner": "No full retraining needed — editing just a few dormant neurons can plant a backdoor in an LLM. A dissection of this stealthy trojan technique."
+ },
+ "https://www.reddit.com/r/coolgithubprojects/comments/1xwwtul/working_on_qurbspace_an_application_to_send_files": {
+  "zh_title": "QurbSpace：手机上传文件、备份数据、远程访问桌面",
+  "zh_oneliner": "一个手机应用：不管隔着什么网络，都能传文件、备份恢复数据，还能远程访问自己的桌面电脑。",
+  "en_title": "Working on QurbSpace: An application to send files, backup data, restore data and remote access desktop from mobile devices irregardless of network or distance.",
+  "en_oneliner": "A mobile app for sending files, backing up and restoring data, and remotely accessing your desktop from your phone, whatever network you are on."
+ },
+ "https://github.com/drakestapleton/omega-mv": {
+  "zh_title": "Show HN：一门能把计算内核编译到 AMD GPU 上跑的语言",
+  "zh_oneliner": "一门新造的语言，专门把计算内核编译到 AMD GPU 上执行，给想折腾 GPU 编程的开发者多一个选择。",
+  "en_title": "Show HN: A custom language that compiles and runs compute kernels on AMD GPUs",
+  "en_oneliner": "A custom language built to compile and run compute kernels on AMD GPUs — another option for developers tinkering with GPU programming."
+ },
+ "https://www.reddit.com/r/coolgithubprojects/comments/1xwx50o/altaria_2in1_adfree_soundcloud_player_localfirst": {
+  "zh_title": "altaria：无广告 SoundCloud 播放器 + 本地健身记录二合一",
+  "zh_oneliner": "健身时最烦两件事：SoundCloud 广告正好在开练时响起，健身记录还要付费订阅，这个应用把无广告听歌和健身追踪合到了一起。",
+  "en_title": "altaria — 2in1 ad-free SoundCloud player + local-first gym tracker",
+  "en_oneliner": "Two gym annoyances in one fix: SoundCloud ads firing mid-set and paywalled gym trackers — this app combines ad-free listening with a local-first workout log."
+ },
+ "https://asostudio.app/connect": {
+  "zh_title": "Show HN：ASO Studio Connect——在 iPhone 上追踪应用评论与 ASO 关键词",
+  "zh_oneliner": "想在手机上清爽地查看应用数据和状态，就做了这个工具，应用评论和 ASO 关键词都能随手追踪。",
+  "en_title": "Show HN: ASO Studio Connect – Track App Review and Your ASO Keywords on iPhone",
+  "en_oneliner": "A clean way to track app analytics and statuses from your phone — app reviews and ASO keywords included."
  }
 }
