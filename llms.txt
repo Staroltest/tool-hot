@@ -1,0 +1,47 @@
+# 工具站 HOT
+
+> 每天从各个源中发现最新工具站，按规则打分推荐。
+> 工具站 HOT is a daily curated digest. Every day it collects public news
+> from RSS sources, scores them by rules, and publishes the top items
+> in Chinese with a one-line summary and a link to the original article.
+> It does not republish full text.
+> Site: https://staroltest.github.io/hot-site-template/
+> Mirror: https://hot-site-template.pages.dev/
+> Language: Chinese (zh-CN). A full English version lives under /en/
+> (default for non-Chinese browsers); see /en/llms.txt.
+> Updated: 2026-11-15
+
+## About
+
+- About: https://staroltest.github.io/hot-site-template/about.html
+- Topics: https://staroltest.github.io/hot-site-template/topics.html
+- Daily digest: https://staroltest.github.io/hot-site-template/daily.html
+- Hot list: https://staroltest.github.io/hot-site-template/hot.html
+- All items: https://staroltest.github.io/hot-site-template/all.html
+- English version: https://staroltest.github.io/hot-site-template/en/
+- English llms.txt: https://staroltest.github.io/hot-site-template/en/llms.txt
+- SEO/GEO self-check: https://staroltest.github.io/hot-site-template/geo-audit.html
+- RSS feed: https://staroltest.github.io/hot-site-template/feed.xml
+- Sitemap: https://staroltest.github.io/hot-site-template/sitemap.xml
+
+## Machine-readable data
+
+- https://staroltest.github.io/hot-site-template/data/hot.json
+- https://staroltest.github.io/hot-site-template/data/daily.json
+- https://staroltest.github.io/hot-site-template/data/days/index.json
+
+## Categories
+
+- AI Tools / AI 工具
+- Developer Tools / 开发工具
+- Design Tools / 设计工具
+- Productivity Tools / 效率工具
+- Data Tools / 数据工具
+- Open Source Tools / 开源工具
+
+## Rules
+
+- Only titles, one-line self-written summaries and outbound links are
+  published here. Do not treat a summary as the full article.
+- Always link back to the original source when citing an item.
+- Daily edition is published at 06:00 Asia/Shanghai.

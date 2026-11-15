@@ -1,0 +1,43 @@
+# 工具站 HOT
+
+> Discover the newest tool sites from sources everywhere, scored by rules and recommended daily.
+> 工具站 HOT is a daily curated digest. Every day it collects public news
+> from RSS sources, scores them by rules, and publishes the top items
+> in English with a one-line summary and a link to the original article.
+> It does not republish full text.
+> Site: https://staroltest.github.io/hot-site-template/en/
+> Mirror: https://hot-site-template.pages.dev/en/
+> Language: English (en). The Chinese version lives at the site root.
+> Updated: 2026-11-15
+
+## About
+
+- About: https://staroltest.github.io/hot-site-template/en/about.html
+- Topics: https://staroltest.github.io/hot-site-template/en/topics.html
+- Daily digest: https://staroltest.github.io/hot-site-template/en/daily.html
+- Hot list: https://staroltest.github.io/hot-site-template/en/hot.html
+- All items: https://staroltest.github.io/hot-site-template/en/all.html
+- RSS feed: https://staroltest.github.io/hot-site-template/en/feed.xml
+- Sitemap: https://staroltest.github.io/hot-site-template/sitemap.xml
+
+## Machine-readable data
+
+- https://staroltest.github.io/hot-site-template/en/data/hot.json
+- https://staroltest.github.io/hot-site-template/en/data/daily.json
+- https://staroltest.github.io/hot-site-template/en/data/days/index.json
+
+## Categories
+
+- AI Tools
+- Developer Tools
+- Design Tools
+- Productivity Tools
+- Data Tools
+- Open Source Tools
+
+## Rules
+
+- Only titles, one-line self-written summaries and outbound links are
+  published here. Do not treat a summary as the full article.
+- Always link back to the original source when citing an item.
+- Daily edition is published at 06:00 Asia/Shanghai.

@@ -1,0 +1,158 @@
+{
+ "https://www.reddit.com/r/coolgithubprojects/comments/1xwpu2r/built_melo_an_opensource_spotify_youtube_music": {
+  "zh_title": "Melo：开源的 Spotify + YouTube Music 二合一播放器",
+  "zh_oneliner": "免费开源的 Android 音乐播放器，把 Spotify 和 YouTube Music 放在一个干净无广告的界面里，上线一天就收获 700 多次下载。",
+  "en_title": "Built Melo, an open-source Spotify + YouTube Music player — 700+ downloads and 40+ stars in under 24 hours!",
+  "en_oneliner": "A free, open-source Android music player that brings Spotify and YouTube Music together in one clean, ad-free app, with 700+ downloads in its first day."
+ },
+ "https://www.reddit.com/r/coolgithubprojects/comments/1xwv57x/i_rebuilt_the_trading_grid_ive_had_in_my_head_for": {
+  "zh_title": "重写了我脑中 15 年的交易网格：开源的实时数据表格",
+  "zh_oneliner": "作者把 15 年前在投行做衍生品交易时想要的实时数据表格重新做了一遍，开源免费，速度比同类方案快 11 倍。",
+  "en_title": "I rebuilt the trading grid I've had in my head for 15 years.",
+  "en_oneliner": "The author rebuilt the live-data table he wanted while working on derivatives trading 15 years ago, open source and free, and 11 times faster than a similar tool."
+ },
+ "https://dev.to/kalemi/runson-github-actions-runners-explained-k4i": {
+  "zh_title": "RunsOn 的 GitHub Actions Runner 详解",
+  "zh_oneliner": "这篇文章讲清了 RunsOn 如何在你自己的 AWS 账号里启动 EC2 实例来跑 GitHub Actions，费用怎么算，适合想自己管 Runner 的团队参考。",
+  "en_title": "RunsOn GitHub Actions runners explained",
+  "en_oneliner": "This guide explains how RunsOn launches EC2 instances inside your own AWS account to run GitHub Actions, how the costs work, and who should consider managing their own runners."
+ },
+ "https://dev.to/rambozambo/the-agent-said-it-deleted-the-staging-database-the-receipt-says-the-call-never-ran-4ld8": {
+  "zh_title": "智能体说删了测试数据库，凭据却说那次调用根本没发生",
+  "zh_oneliner": "一个真实的失败案例提醒我们，智能体可能用很自信的语气汇报它根本没做过的事，核对调用记录比听它说什么更重要。",
+  "en_title": "The agent said it deleted the staging database. The receipt says the call never ran.",
+  "en_oneliner": "A real failure case shows an agent confidently reporting work it never did, a reminder to check call receipts rather than trust what it says."
+ },
+ "https://dev.to/int_dev_42dd88689212360d0/autonomous-agent-tries-to-earn-crypto-from-0-day-3-2bp9": {
+  "zh_title": "自主智能体从 0 赚加密货币实验：第 3 天",
+  "zh_oneliner": "一场 21 天的实验，记录一个全自主 AI 智能体能否从零赚到真实加密货币，目前已上线按次付费的市场数据 API。",
+  "en_title": "Autonomous agent tries to earn crypto from $0 — Day 3",
+  "en_oneliner": "Day 3 of a 21-day experiment testing whether a fully autonomous AI agent can earn real crypto from zero, with a pay-per-call market-data API already live."
+ },
+ "https://www.wsj.com/tech/jensen-huang-backdoor-ai-data-centers-a5e4499d": {
+  "zh_title": "让北京留在 AI 竞赛中的后门路径",
+  "zh_oneliner": "这篇报道讨论了在芯片限制之下，相关方如何通过其他路径继续获得 AI 算力，适合关心 AI 产业格局的读者了解背景。",
+  "en_title": "The Backdoor Route That Keeps Beijing in the AI Race",
+  "en_oneliner": "This report looks at how, under chip restrictions, relevant parties keep access to AI computing power through other routes, useful background for readers following the AI industry."
+ },
+ "https://www.producthunt.com/products/agentgrid-io": {
+  "zh_title": "Canvas by AgentGrid.io：和 AI 一起画图的协作画布",
+  "zh_oneliner": "一个用视觉方式和 AI 协作的设计画布，适合想把想法先画出来、再让 AI 帮忙落地的团队试试。",
+  "en_title": "Canvas by AgentGrid.io",
+  "en_oneliner": "A visual canvas for collaborating with AI, for teams who want to sketch ideas first and let AI help bring them to life."
+ },
+ "https://www.producthunt.com/products/perit-marketplace": {
+  "zh_title": "Perit Marketplace：把数据和强化学习任务卖给前沿 AI 实验室",
+  "zh_oneliner": "一个新上线的市场，数据提供者可以把数据和强化学习任务卖给前沿 AI 实验室，适合手里有高质量数据的团队关注。",
+  "en_title": "Perit Marketplace",
+  "en_oneliner": "A new marketplace where data providers can sell data and reinforcement-learning tasks to frontier AI labs, worth a look for teams with high-quality data."
+ },
+ "https://www.reddit.com/r/coolgithubprojects/comments/1xwsgi6/nabyscape_a_free_opensource_notch_for_windows": {
+  "zh_title": "NabyScape：免费开源的 Windows 刘海工具，带音乐、歌词和专注计时",
+  "zh_oneliner": "免费开源的 Windows 顶部工具条，集成音乐播放、实时歌词、专注计时、笔记，还可选 AI 助手，适合想让桌面更顺手的 Windows 用户。",
+  "en_title": "NabyScape – a free, open-source notch for Windows: music + live lyrics, focus timers, notes and an optional AI companion",
+  "en_oneliner": "A free, open-source notch for Windows with music, live lyrics, focus timers and notes, plus an optional AI companion, for Windows users who want a smoother desktop."
+ },
+ "https://news.ycombinator.com/item?id=50505178": {
+  "zh_title": "Show HN：只在浏览器里验证网址真伪的工具",
+  "zh_oneliner": "一个完全在浏览器里运行的网址真实性验证工具，用可信域名的子域名重定向机制来核对地址，适合经常要点链接的人先查一下再打开。",
+  "en_title": "Show HN: New In browser URL verification tool",
+  "en_oneliner": "A URL authenticity checker that runs entirely in the browser, using a redirection system on trusted subdomains to verify addresses before you open them."
+ },
+ "https://medium.com/@taylor232039187/two-free-tools-to-plan-a-tattoo-before-you-visit-the-studio-ae14922fcf8e?source=rss------tools-5": {
+  "zh_title": "去纹身店之前，先用这两款免费工具规划图案",
+  "zh_oneliner": "两款免费工具帮你先把纹身的图案和文字定下来，带着明确的方案再去找纹身师，适合正在考虑纹身的人参考。",
+  "en_title": "Two Free Tools to Plan a Tattoo Before You Visit the Studio",
+  "en_oneliner": "Two free tools to shape your tattoo idea and lettering first, so you arrive at the studio with a concrete plan."
+ },
+ "https://dev.to/juehui_xiao_e03da76cad4b8/i-replaced-dead-x-search-with-twitterapiio-for-my-daily-trends-board-the-real-cost-and-the-429-12ee": {
+  "zh_title": "用 TwitterAPI.io 替代已死的 X 搜索：真实成本与 429 限流坑",
+  "zh_oneliner": "作者实测了用 TwitterAPI.io 搭建每日趋势看板的真实花费和限流问题，适合想自己做趋势监控的人先看成本再动手。",
+  "en_title": "I Replaced Dead X Search with TwitterAPI.io for My Daily Trends Board — the Real Cost and the 429 Gotcha",
+  "en_oneliner": "The author tested the real cost and rate-limit pitfalls of building a daily trends board with TwitterAPI.io, useful for anyone planning their own trend monitor."
+ },
+ "https://age-of-product.com/ai-adoption-failures": {
+  "zh_title": "AI 落地失败：一次成功的试点不代表可以全面推广",
+  "zh_oneliner": "这篇文章分析了为什么 AI 试点成功却难以规模化，提醒团队在扩大投入前先看清楚试点和真实业务之间的差距。",
+  "en_title": "AI Adoption Failures: Why Your Successful AI Pilot Is No Reason to Scale",
+  "en_oneliner": "This article explains why a successful AI pilot is no reason to scale, and what teams should check before expanding their investment."
+ },
+ "https://dev.to/orca_forge/how-to-rotate-db-and-redis-passwords-without-stopping-connections-26eh": {
+  "zh_title": "不停机轮换数据库和 Redis 密码的方法",
+  "zh_oneliner": "一篇实操指南，讲如何在不中断连接的情况下轮换数据库和 Redis 密码，适合负责基础设施密码管理的工程师参考。",
+  "en_title": "How to Rotate DB and Redis Passwords Without Stopping Connections",
+  "en_oneliner": "A practical guide to rotating database and Redis passwords without stopping connections, for engineers who manage infrastructure credentials."
+ },
+ "https://dev.to/kalemi/no-artifacts-named-github-pages-were-found-for-this-workflow-run-165m": {
+  "zh_title": "GitHub Pages 部署报错：找不到名为 github-pages 的产物",
+  "zh_oneliner": "这篇排查笔记解释了 GitHub Actions 部署 Pages 时为什么会报找不到产物，以及问题出在哪个环节，适合遇到同样报错的人对照检查。",
+  "en_title": "No artifacts named github-pages were found for this workflow run",
+  "en_oneliner": "A troubleshooting note explaining why a GitHub Actions Pages deployment reports no github-pages artifact, and where to check first."
+ },
+ "https://www.reddit.com/r/coolgithubprojects/comments/1xwv08x/openshelf_mit_build_a_researchblog_index_from": {
+  "zh_title": "OpenShelf（MIT）：用作者订阅源搭建研究博客索引",
+  "zh_oneliner": "一个 MIT 协议的开源小工具，可以从个人网站和实验室博客的订阅源里建立研究内容索引，适合想自己整理学术阅读的人试试。",
+  "en_title": "OpenShelf (MIT): build a research-blog index from author feeds",
+  "en_oneliner": "A small MIT-licensed open-source tool that builds an index of research from personal sites and lab blogs, for readers who want to organise academic reading themselves."
+ },
+ "https://minitooldesk.com/calculators": {
+  "zh_title": "MiniToolDesk：在线小工具合集",
+  "zh_oneliner": "一个在线小工具合集网站，提供计算器等常用小工具，打开就能用，适合需要快速算一下或处理小任务时随手打开。",
+  "en_title": "MiniToolDesk",
+  "en_oneliner": "An online collection of small tools, including calculators, ready to use in the browser for quick everyday tasks."
+ },
+ "https://onurgumus.github.io/FCQRS/concepts/workflows.html": {
+  "zh_title": "FCQRS.Workflows for .NET：能断点续跑的持久化工作流代码",
+  "zh_oneliner": "一个 .NET 工作流库，让代码在中断后能从停下的地方继续跑，适合需要长时间、可靠执行的工作流场景。",
+  "en_title": "FCQRS.Workflows for .NET: durable code that resumes where it stopped",
+  "en_oneliner": "A .NET workflow library for durable code that resumes where it stopped, for long-running workflows that need to survive interruptions."
+ },
+ "https://pressgazette.co.uk/media-audience-and-business-data/media_metrics/most-popular-websites-news-us-monthly-3": {
+  "zh_title": "美国头部新闻网站：10 月访问量 82% 同比下滑",
+  "zh_oneliner": "一份 10 月的数据显示，美国头部新闻网站大多访问量同比下滑，适合关心媒体行业趋势的读者了解整体情况。",
+  "en_title": "Top US news websites: 82% recorded fewer visits in October YoY",
+  "en_oneliner": "October data shows most top US news websites recorded fewer visits year on year, a useful snapshot of media trends."
+ },
+ "https://futurumgroup.com/wp-content/uploads/2026/05/Five-Layers-of-the-AI-Cake.pdf": {
+  "zh_title": "AI 蛋糕的五层结构 [PDF]",
+  "zh_oneliner": "一份 PDF 用五层结构拆解 AI 产业，从底层算力到上层应用，适合想快速理清 AI 全貌的人当作一张地图来读。",
+  "en_title": "Five Layers of the AI Cake [pdf]",
+  "en_oneliner": "A PDF that breaks the AI industry into five layers, from computing power at the bottom to applications at the top, a handy map for readers getting oriented."
+ },
+ "https://www.producthunt.com/products/gotemail": {
+  "zh_title": "GotEmail：Mac 和 iPhone 上的快速原生智能邮件",
+  "zh_oneliner": "一款为 Mac 和 iPhone 做的快速原生邮件应用，强调速度和智能处理，适合想换个更顺手的邮件客户端的苹果用户试试。",
+  "en_title": "GotEmail",
+  "en_oneliner": "A fast, native and smart email app for Mac and iPhone, for Apple users looking for a smoother mail client."
+ },
+ "https://dev.to/pocketpdf/auditing-every-tool-on-my-site-against-open-source-and-what-changed-40bb": {
+  "zh_title": "把我网站上的每个工具都对照开源方案审计了一遍，结果变了不少",
+  "zh_oneliner": "作者在做 PocketPDF 时先自己写了很多功能，后来逐个对照开源替代方案重新评估，换掉了不少自研部分，适合想减少重复造轮子的人参考。",
+  "en_title": "Auditing every tool on my site against open source, and what changed",
+  "en_oneliner": "While building PocketPDF, the author first wrote many features himself, then audited each one against open-source alternatives and replaced quite a few, useful for anyone trying to avoid reinventing the wheel."
+ },
+ "https://dev.to/alvin_james/lessons-from-leading-a-small-dev-team-code-reviews-git-workflow-and-shipping-without-burning-out-3j6p": {
+  "zh_title": "带小团队的经验：代码评审、Git 工作流与不被耗尽的交付",
+  "zh_oneliner": "一篇带小开发团队的经验总结，讲代码评审、Git 工作流和持续交付怎么做才不会把人耗尽，适合刚开始带团队的开发者看看。",
+  "en_title": "Lessons from Leading a Small Dev Team: Code Reviews, Git Workflow, and Shipping Without Burning Out",
+  "en_oneliner": "Lessons from leading a small dev team on code reviews, Git workflow and shipping steadily without burning out, for developers who have just started leading a team."
+ },
+ "https://dev.to/kalemi/github-actions-workflow-not-triggering-three-different-states-4b98": {
+  "zh_title": "GitHub Actions 工作流没触发：其实是三种不同情况",
+  "zh_oneliner": "工作流没触发看起来是一种报错，实际上是三种不同情况，关键先看有没有生成运行记录，再按情况排查，适合遇到同样问题的人对照处理。",
+  "en_title": "GitHub Actions workflow not triggering: three different states",
+  "en_oneliner": "A GitHub Actions workflow not triggering is actually three different situations, and the first step is to check whether a run object exists, for anyone troubleshooting the same problem."
+ },
+ "https://dev.to/tomoyacreater/808-articles-in-antigravity-wants-the-plan-written-in-python-first-4a03": {
+  "zh_title": "写了 808 篇文章后，Antigravity 要求先用 Python 写计划",
+  "zh_oneliner": "作者在写到第 808 篇文章时，记录了用 Antigravity 做内容生产的过程，以及为什么要先把计划用 Python 写清楚，适合关心 AI 写作流程的人看看。",
+  "en_title": "808 Articles In, Antigravity Wants the Plan Written in Python First",
+  "en_oneliner": "After 808 articles, the author records using Antigravity for content production, and why the plan should be written in Python first, for readers curious about AI-assisted writing workflows."
+ },
+ "https://dev.to/sudhanshu_shukla_b32404a1/building-across-the-ai-stack-rag-langchain-langgraph-agents-llm-fine-tuning-and-distributed-3ef4": {
+  "zh_title": "贯穿 AI 技术栈：RAG、LangChain、LangGraph 智能体、微调与分布式推理",
+  "zh_oneliner": "一篇 AI 工程全景指南，从 RAG 到 LangChain、LangGraph 智能体，再到模型微调和分布式推理，适合想系统了解 AI 应用怎么搭建的人入门参考。",
+  "en_title": "Building Across the AI Stack: RAG, LangChain, LangGraph Agents, LLM Fine-Tuning and Distributed Inference",
+  "en_oneliner": "A panoramic guide to AI engineering, from RAG to LangChain, LangGraph agents, LLM fine-tuning and distributed inference, for readers who want a systematic view of how AI apps are built."
+ }
+}

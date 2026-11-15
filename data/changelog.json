@@ -1,1 +1,17 @@
-{"comment": "更新日志：手动维护，每次改版在最前面加一条。version 用日期（YYYY-MM-DD），/more 页的红点靠它判断有没有新内容。", "entries": [{"date": "2026-01-01", "items": ["示例：第一版上线。（搭建新站时改成真实的第一条。）"], "items_en": ["Example: first release is live. (Replace with the real first entry when setting up a new site.)"], "title": "示例：第一版", "title_en": "Example: first release", "version": "2026-01-01"}]}
+{
+ "comment": "更新日志：手动维护，每次改版在最前面加一条。version 用日期（YYYY-MM-DD），/more 页的红点靠它判断有没有新内容。",
+ "entries": [
+  {
+   "date": "2026-11-15",
+   "items": [
+    "工具站 HOT 第一版上线：从 20 个信源发现最新工具站，每半小时更新，中英双语。"
+   ],
+   "items_en": [
+    "Tool Site HOT first release is live: discovering the newest tool sites from 20 sources, updated every 30 minutes, in Chinese and English."
+   ],
+   "title": "第一版上线",
+   "title_en": "First release",
+   "version": "2026-11-15"
+  }
+ ]
+}

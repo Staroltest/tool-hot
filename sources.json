@@ -1,1 +1,145 @@
-{"comment":"格式：每条 {id, name, tier, url, category_hint}。tier: T1 官方一手，T2 媒体/社区，T3 综合媒体（降权，见 config.json tier_bonus）。收录标准：逐个实测 HTTP 200 且能解析出条目；403、超时、空 feed 的不收。category_hint 须是 config.json 里 categories 的 key。见 BOOTSTRAP.md 第 3 步。","sources":[{"category_hint":"guide","id":"example-devto","name":"示例：Dev.to","tier":"T2","url":"https://dev.to/feed"},{"category_hint":"news","id":"example-hn","name":"示例：Hacker News 首页","tier":"T2","url":"https://hnrss.org/frontpage"}]}
+{
+  "comment": "工具站发现信源：2026-11-15 实测，HTTP 200 且能解析出条目才收录。失败淘汰：Reddit SideProject 403、BetaList 404、Toolify 403、TheresAnAIForThat 连接中断、FutureTools 404、IndieHackers 403、Product Hunt AI 主题页 403、AI News 返回 HTML 非 RSS。tier: T1 官方一手，T2 媒体/社区，T3 综合媒体（降权）。category_hint 须是 config.json 里 categories 的 key。",
+  "sources": [
+    {
+      "id": "producthunt",
+      "name": "Product Hunt",
+      "tier": "T1",
+      "url": "https://www.producthunt.com/feed",
+      "category_hint": "ai"
+    },
+    {
+      "id": "hn-frontpage",
+      "name": "Hacker News 首页",
+      "tier": "T2",
+      "url": "https://hnrss.org/frontpage",
+      "category_hint": "dev"
+    },
+    {
+      "id": "hn-show",
+      "name": "Hacker News Show",
+      "tier": "T2",
+      "url": "https://hnrss.org/show",
+      "category_hint": "dev"
+    },
+    {
+      "id": "hn-new",
+      "name": "Hacker News 最新",
+      "tier": "T2",
+      "url": "https://hnrss.org/newest",
+      "category_hint": "dev"
+    },
+    {
+      "id": "hn-rss",
+      "name": "Hacker News RSS",
+      "tier": "T2",
+      "url": "https://news.ycombinator.com/rss",
+      "category_hint": "dev"
+    },
+    {
+      "id": "devto",
+      "name": "Dev.to",
+      "tier": "T2",
+      "url": "https://dev.to/feed",
+      "category_hint": "dev"
+    },
+    {
+      "id": "github-blog",
+      "name": "GitHub Blog",
+      "tier": "T1",
+      "url": "https://github.blog/feed/",
+      "category_hint": "dev"
+    },
+    {
+      "id": "hackernoon",
+      "name": "HackerNoon",
+      "tier": "T2",
+      "url": "https://hackernoon.com/feed",
+      "category_hint": "ai"
+    },
+    {
+      "id": "smashing",
+      "name": "Smashing Magazine",
+      "tier": "T2",
+      "url": "https://www.smashingmagazine.com/feed/",
+      "category_hint": "design"
+    },
+    {
+      "id": "css-tricks",
+      "name": "CSS-Tricks",
+      "tier": "T2",
+      "url": "https://css-tricks.com/feed/",
+      "category_hint": "design"
+    },
+    {
+      "id": "freecodecamp",
+      "name": "freeCodeCamp News",
+      "tier": "T2",
+      "url": "https://www.freecodecamp.org/news/rss/",
+      "category_hint": "dev"
+    },
+    {
+      "id": "stackoverflow-blog",
+      "name": "Stack Overflow Blog",
+      "tier": "T2",
+      "url": "https://stackoverflow.blog/feed/",
+      "category_hint": "dev"
+    },
+    {
+      "id": "lobsters",
+      "name": "Lobsters",
+      "tier": "T2",
+      "url": "https://lobste.rs/rss",
+      "category_hint": "dev"
+    },
+    {
+      "id": "reddit-coolgithub",
+      "name": "Reddit r/coolgithubprojects",
+      "tier": "T2",
+      "url": "https://www.reddit.com/r/coolgithubprojects/.rss",
+      "category_hint": "opensource"
+    },
+    {
+      "id": "reddit-internetbeautiful",
+      "name": "Reddit r/InternetIsBeautiful",
+      "tier": "T3",
+      "url": "https://www.reddit.com/r/InternetIsBeautiful/.rss",
+      "category_hint": "productivity"
+    },
+    {
+      "id": "techcrunch",
+      "name": "TechCrunch",
+      "tier": "T3",
+      "url": "https://techcrunch.com/feed/",
+      "category_hint": "ai"
+    },
+    {
+      "id": "verge",
+      "name": "The Verge",
+      "tier": "T3",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "category_hint": "ai"
+    },
+    {
+      "id": "medium-tools",
+      "name": "Medium Tools 标签",
+      "tier": "T2",
+      "url": "https://medium.com/feed/tag/tools",
+      "category_hint": "productivity"
+    },
+    {
+      "id": "vercel-blog",
+      "name": "Vercel Blog",
+      "tier": "T1",
+      "url": "https://vercel.com/blog/rss",
+      "category_hint": "dev"
+    },
+    {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "tier": "T1",
+      "url": "https://blog.cloudflare.com/rss/",
+      "category_hint": "dev"
+    }
+  ]
+}

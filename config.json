@@ -1,60 +1,190 @@
 {
   "categories": [
     {
-      "key": "news",
+      "key": "ai",
+      "label": "AI 工具",
+      "label_en": "AI Tools",
       "keywords": [
-        "新闻",
-        "news",
+        "AI",
+        "人工智能",
+        "ChatGPT",
+        "LLM",
+        "大模型",
+        "语言模型",
+        "生成式",
+        "生成",
+        "智能体",
+        "agent",
+        "助手",
+        "assistant",
+        "copilot",
+        "模型",
+        "model",
+        "推理",
+        "inference",
+        "提示词",
+        "prompt",
+        "聊天机器人",
+        "chatbot",
+        "机器学习",
+        "machine learning",
+        "深度学习",
+        "deep learning"
+      ]
+    },
+    {
+      "key": "dev",
+      "label": "开发工具",
+      "label_en": "Developer Tools",
+      "keywords": [
+        "开发",
+        "developer",
+        "代码",
+        "code",
+        "编程",
+        "programming",
+        "GitHub",
+        "API",
+        "SDK",
+        "CLI",
+        "部署",
+        "deploy",
+        "调试",
+        "debug",
+        "测试",
+        "testing",
+        "框架",
+        "framework",
+        "库",
+        "library",
+        "开源",
+        "open source",
+        "命令行",
+        "terminal",
+        "编辑器",
+        "editor",
+        "版本控制"
+      ]
+    },
+    {
+      "key": "design",
+      "label": "设计工具",
+      "label_en": "Design Tools",
+      "keywords": [
+        "设计",
+        "design",
+        "UI",
+        "UX",
+        "Figma",
+        "图片",
+        "image",
+        "视频",
+        "video",
+        "字体",
+        "font",
+        "配色",
+        "color",
+        "图标",
+        "icon",
+        "插画",
+        "illustration",
+        "排版",
+        "typography",
+        "原型",
+        "prototype",
+        "视觉",
+        "visual",
+        "作图",
+        "绘图"
+      ]
+    },
+    {
+      "key": "productivity",
+      "label": "效率工具",
+      "label_en": "Productivity Tools",
+      "keywords": [
+        "效率",
+        "productivity",
+        "笔记",
+        "note",
+        "待办",
+        "todo",
+        "日程",
+        "calendar",
+        "自动化",
+        "automation",
+        "工作流",
+        "workflow",
+        "协作",
+        "collaboration",
+        "任务管理",
+        "task",
+        "时间管理",
+        "文档",
+        "document",
+        "表格",
+        "spreadsheet",
+        "日程表",
+        "提醒",
+        "办公",
+        "office"
+      ]
+    },
+    {
+      "key": "data",
+      "label": "数据工具",
+      "label_en": "Data Tools",
+      "keywords": [
+        "数据",
+        "data",
+        "分析",
+        "analytics",
+        "可视化",
+        "visualization",
+        "数据库",
+        "database",
+        "统计",
+        "statistics",
+        "仪表盘",
+        "dashboard",
+        "报表",
+        "report",
+        "数据分析",
+        "SQL",
+        "图表",
+        "chart",
+        "监控",
+        "monitoring",
+        "指标",
+        "metrics"
+      ]
+    },
+    {
+      "key": "opensource",
+      "label": "开源工具",
+      "label_en": "Open Source Tools",
+      "keywords": [
+        "开源",
+        "open source",
+        "自托管",
+        "self-hosted",
+        "免费",
+        "free",
+        "源码",
+        "source code",
+        "免费开源",
+        "社区",
+        "community",
+        "仓库",
+        "repository",
         "发布",
         "release",
-        "公告",
-        "announcement",
-        "上线",
-        "launch",
-        "更新",
-        "update"
-      ],
-      "label": "新闻动态",
-      "label_en": "News"
-    },
-    {
-      "key": "guide",
-      "keywords": [
-        "教程",
-        "tutorial",
-        "指南",
-        "guide",
-        "怎么做",
-        "how to",
-        "入门",
-        "getting started",
-        "实践",
-        "案例",
-        "case study"
-      ],
-      "label": "教程指南",
-      "label_en": "Guides & tutorials"
-    },
-    {
-      "key": "opinion",
-      "keywords": [
-        "观点",
-        "opinion",
-        "分析",
-        "analysis",
-        "洞察",
-        "insight",
-        "趋势",
-        "trend",
-        "复盘",
-        "postmortem",
-        "思考",
-        "观察",
-        "评论",
-        "commentary"
-      ],
-      "label": "观点洞察",
-      "label_en": "Opinion & analysis"
+        "下载",
+        "download",
+        "安装",
+        "install",
+        "免费工具"
+      ]
     }
   ],
   "scoring": {
@@ -65,37 +195,39 @@
     "dev_keyword_bonus": 5,
     "dev_keyword_cap": 25,
     "dev_keywords": [
-      "教程",
-      "tutorial",
       "工具",
       "tool",
+      "AI",
+      "人工智能",
+      "开源",
+      "open source",
+      "免费",
+      "free",
+      "新工具",
+      "发布",
+      "launch",
+      "效率",
+      "productivity",
+      "设计",
+      "design",
+      "开发",
+      "developer",
       "数据",
       "data",
       "案例",
       "case study",
-      "开源",
-      "open source",
       "指南",
       "guide",
-      "复盘",
-      "postmortem",
-      "引擎",
-      "engine",
-      "优化",
-      "optimization",
-      "性能",
-      "performance",
-      "收入",
-      "revenue",
-      "销量",
-      "sales",
-      "经验",
-      "教训",
-      "lesson",
-      "源码",
-      "source code",
+      "教程",
+      "tutorial",
       "工作流",
-      "workflow"
+      "workflow",
+      "自动化",
+      "automation",
+      "助手",
+      "assistant",
+      "生成",
+      "生成式"
     ],
     "history_days": 30,
     "hot_days": 7,
@@ -104,7 +236,6 @@
     "noise_keyword_penalty": -5,
     "noise_keywords": [
       "免费领取",
-      "free",
       "速通",
       "speedrun",
       "彩蛋",
@@ -112,7 +243,12 @@
       "cosplay",
       "mod",
       "壁纸",
-      "wallpaper"
+      "wallpaper",
+      "抽奖",
+      "lottery",
+      "返利",
+      "cashback",
+      "刷单"
     ],
     "recency": [
       {
@@ -143,7 +279,8 @@
       {
         "h": "定位",
         "paras": [
-          "HOT 是给读者看的热点站。（示例文字，搭建新站时改成新站的定位。）"
+          "工具站 HOT 是给工具爱好者看的发现站，每天从各个源中发现最新工具站，帮你快速找到好用的 AI 工具、开发工具、设计工具与效率工具。",
+          "我们只收真正能用的工具站，不收纯促销信息。"
         ]
       },
       {
@@ -151,13 +288,13 @@
         "paras": [
           "采集——公开 RSS 信源，每半小时拉一次。",
           "打分——规则打分（时效、相关度、来源），不是 AI 打分。",
-          "出报——只展示标题、摘要与原文链接，不转载全文。"
+          "出报——只展示标题、一句简介与原文链接，不转载全文。"
         ]
       },
       {
         "h": "制作人",
         "paras": [
-          "XXX。（示例文字，搭建新站时改。）"
+          "Staroltest（Darin Petrov）。"
         ]
       }
     ],
@@ -165,7 +302,8 @@
       {
         "h": "What it is",
         "paras": [
-          "HOT is a hotspot site for readers. (Example text — replace it with your new site's positioning.)"
+          "Tool Site HOT is a discovery site for tool lovers. Every day it finds the newest tool sites from sources everywhere, helping you quickly find useful AI tools, developer tools, design tools and productivity tools.",
+          "We only list tool sites that are genuinely useful, not pure promotions."
         ]
       },
       {
@@ -173,38 +311,38 @@
         "paras": [
           "Collect — public RSS sources, fetched every 30 minutes.",
           "Score — rule-based scoring (recency, relevance, source), not AI scoring.",
-          "Publish — only titles, summaries and links to the originals, no full text republished."
+          "Publish — only titles, one-line summaries and links to the originals, no full text republished."
         ]
       },
       {
         "h": "Made by",
         "paras": [
-          "XXX. (Example text — replace it when setting up a new site.)"
+          "Staroltest (Darin Petrov)."
         ]
       }
     ],
-    "audience": "读者",
-    "audience_en": "readers",
-    "crawler_name": "HOTBot/1.0",
-    "description": "示例描述：每天从一批信源里收动态，按规则打分精选，只显示标题、一句简介与原文链接，不转载全文。",
-    "description_en": "Example description: HOT collects updates from a set of sources every day, scores them by rules, and shows only the title, a one-line summary and a link to the original — no full text republished.",
+    "audience": "工具爱好者、开发者、设计师与效率控",
+    "audience_en": "tool lovers, developers, designers and productivity fans",
+    "crawler_name": "ToolHotBot/1.0",
+    "description": "工具站 HOT 每天从 Product Hunt、Hacker News、GitHub 等信源发现最新工具站，按规则打分精选，只显示标题、一句简介与原文链接，不转载全文。",
+    "description_en": "Tool Site HOT discovers the newest tool sites every day from Product Hunt, Hacker News, GitHub and more, scores them by rules, and shows only the title, a one-line summary and a link to the original — no full text republished.",
     "edition_time_cst": "06:00",
-    "footer_note": "本站由 HOT 流水线模板生成，代码按 MIT 协议开源。",
-    "footer_note_en": "Built with the HOT pipeline template; code is open source under the MIT License.",
-    "launch_date": "",
+    "footer_note": "本站由 HOT 流水线模板生成，代码按 MIT 协议开源。只展示标题、一句简介与原文链接，不转载全文。",
+    "footer_note_en": "Built with the HOT pipeline template; code is open source under the MIT License. Only titles, one-line summaries and links to the originals are shown, no full text republished.",
+    "launch_date": "2026-11-15",
     "mcp_url": "",
-    "mirror_url": "",
-    "name": "HOT",
-    "repo": "https://github.com/EXAMPLE/REPO",
-    "slug": "hot",
-    "subtitle": "示例副标题",
-    "subtitle_en": "Example subtitle",
-    "tagline": "示例 tagline：换成你自己的一句话。",
-    "tagline_en": "Example tagline: replace it with your own one-liner.",
+    "mirror_url": "https://hot-site-template.pages.dev",
+    "name": "工具站 HOT",
+    "repo": "https://github.com/Staroltest/hot-site-template",
+    "slug": "tool-hot",
+    "subtitle": "每天发现最新工具站",
+    "subtitle_en": "Discover the newest tool sites every day",
+    "tagline": "每天从各个源中发现最新工具站，按规则打分推荐。",
+    "tagline_en": "Discover the newest tool sites from sources everywhere, scored by rules and recommended daily.",
     "timezone": "Asia/Shanghai",
     "tips": [],
-    "title": "HOT 热点",
-    "title_en": "HOT News",
-    "url": "https://EXAMPLE.github.io/REPO"
+    "title": "工具站 HOT",
+    "title_en": "Tool Site HOT",
+    "url": "https://staroltest.github.io/hot-site-template"
   }
 }
