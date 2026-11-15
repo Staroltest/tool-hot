@@ -330,7 +330,7 @@
     "footer_note": "本站由 HOT 流水线模板生成，代码按 MIT 协议开源。只展示标题、一句简介与原文链接，不转载全文。",
     "footer_note_en": "Built with the HOT pipeline template; code is open source under the MIT License. Only titles, one-line summaries and links to the originals are shown, no full text republished.",
     "launch_date": "2026-11-15",
-    "mcp_url": "",
+    "mcp_url": "https://hot-site-template.pages.dev/mcp",
     "mirror_url": "https://hot-site-template.pages.dev",
     "name": "工具站 HOT",
     "repo": "https://github.com/Staroltest/hot-site-template",

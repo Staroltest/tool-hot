@@ -24,11 +24,16 @@
 - RSS feed: https://staroltest.github.io/hot-site-template/feed.xml
 - Sitemap: https://staroltest.github.io/hot-site-template/sitemap.xml
 
-## Machine-readable data
+## For AI clients (MCP)
 
-- https://staroltest.github.io/hot-site-template/data/hot.json
-- https://staroltest.github.io/hot-site-template/data/daily.json
-- https://staroltest.github.io/hot-site-template/data/days/index.json
+- MCP endpoint (Streamable HTTP, no key required):
+  https://hot-site-template.pages.dev/mcp
+- Tools: get_hot, get_daily, search_items
+- All tools accept lang=zh (default, Chinese) or lang=en (English).
+- Machine-readable data:
+  https://staroltest.github.io/hot-site-template/data/hot.json
+  https://staroltest.github.io/hot-site-template/data/daily.json
+  https://staroltest.github.io/hot-site-template/data/days/index.json
 
 ## Categories
 

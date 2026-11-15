@@ -5,8 +5,8 @@
  "date": "2026年11月15日",
  "date_iso": "2026-11-15",
  "issue": 1,
- "generated_at": "2026-11-15T13:21:35.917754+00:00",
- "summary": "过去 30 天共收录 456 条动态，精选 10 条（AI 工具 9 条、开发工具 1 条）。头条：Canvas by AgentGrid.io：和 AI 一起画图的协作画布。",
+ "generated_at": "2026-11-15T13:31:04.397677+00:00",
+ "summary": "过去 30 天共收录 478 条动态，精选 10 条（AI 工具 9 条、开发工具 1 条）。头条：Canvas by AgentGrid.io：和 AI 一起画图的协作画布。",
  "items": [
   {
    "id": "364a104be9b37e40c2bfaa8fcbe3ab9b6920e40d",
@@ -27,8 +27,8 @@
    "score": 90,
    "reason": "官方来源 · 涉及AI与design · 24 小时内发布",
    "is_new": true,
-   "trend": "same",
-   "hot_score": 84.3,
+   "trend": "down",
+   "hot_score": 84.2,
    "prev_rank": 9,
    "prev_hot_score": 84.3
   },
@@ -51,8 +51,8 @@
    "score": 90,
    "reason": "官方来源 · 涉及AI与数据 · 24 小时内发布",
    "is_new": true,
-   "trend": "same",
-   "hot_score": 83.3,
+   "trend": "down",
+   "hot_score": 83.2,
    "prev_rank": 10,
    "prev_hot_score": 83.3
   },
@@ -77,7 +77,7 @@
    "reason": "涉及开源与free · 6 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 85.6,
+   "hot_score": 85.4,
    "prev_rank": 2,
    "prev_hot_score": 85.6
   },
@@ -102,9 +102,34 @@
    "reason": "涉及工具与AI · 6 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 89.9,
+   "hot_score": 89.8,
    "prev_rank": 1,
-   "prev_hot_score": 90.0
+   "prev_hot_score": 89.9
+  },
+  {
+   "id": "b536fad5cb8070daac62ea005ebc3e18333249c2",
+   "title": "AI Observer coding assistants: local costs and traces",
+   "link": "https://dev.to/spanobserver/ai-observer-coding-assistants-local-costs-and-traces-4mk5",
+   "source": "Dev.to",
+   "source_id": "devto",
+   "published": "2026-11-15T13:30:13+00:00",
+   "zh_title": "",
+   "zh_oneliner": "",
+   "category": "ai",
+   "category_label": "AI 工具",
+   "tier": "T2",
+   "tags": [
+    "AI",
+    "developer",
+    "assistant"
+   ],
+   "score": 90,
+   "reason": "涉及AI与developer · 6 小时内发布",
+   "is_new": true,
+   "trend": "new",
+   "hot_score": 90.0,
+   "prev_rank": null,
+   "prev_hot_score": null
   },
   {
    "id": "f32f58797a41741e81e6ae7dbad9b98fb2e01a0d",
@@ -125,7 +150,7 @@
    "reason": "官方来源 · 涉及AI · 24 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 70.8,
+   "hot_score": 70.7,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -148,8 +173,8 @@
    "score": 85,
    "reason": "涉及工具与AI · 6 小时内发布",
    "is_new": true,
-   "trend": "same",
-   "hot_score": 81.4,
+   "trend": "down",
+   "hot_score": 81.3,
    "prev_rank": 12,
    "prev_hot_score": 81.4
   },
@@ -172,8 +197,8 @@
    "score": 85,
    "reason": "涉及AI与数据 · 6 小时内发布",
    "is_new": true,
-   "trend": "same",
-   "hot_score": 84.6,
+   "trend": "down",
+   "hot_score": 84.5,
    "prev_rank": 8,
    "prev_hot_score": 84.6
   },
@@ -196,8 +221,8 @@
    "score": 85,
    "reason": "涉及AI与launch · 6 小时内发布",
    "is_new": true,
-   "trend": "same",
-   "hot_score": 84.8,
+   "trend": "down",
+   "hot_score": 84.7,
    "prev_rank": 5,
    "prev_hot_score": 84.8
   },
@@ -220,33 +245,9 @@
    "score": 85,
    "reason": "涉及AI与数据 · 6 小时内发布",
    "is_new": true,
-   "trend": "same",
-   "hot_score": 84.8,
+   "trend": "down",
+   "hot_score": 84.7,
    "prev_rank": 6,
-   "prev_hot_score": 84.8
-  },
-  {
-   "id": "0b702ebdf5890ecb3e43838f19b7e47de196714d",
-   "title": "Autonomous agent tries to earn crypto from $0 — Day 3",
-   "link": "https://dev.to/int_dev_42dd88689212360d0/autonomous-agent-tries-to-earn-crypto-from-0-day-3-2bp9",
-   "source": "Dev.to",
-   "source_id": "devto",
-   "published": "2026-11-15T13:04:31+00:00",
-   "zh_title": "自主智能体从 0 赚加密货币实验：第 3 天",
-   "zh_oneliner": "一场 21 天的实验，记录一个全自主 AI 智能体能否从零赚到真实加密货币，目前已上线按次付费的市场数据 API。",
-   "category": "ai",
-   "category_label": "AI 工具",
-   "tier": "T2",
-   "tags": [
-    "AI",
-    "数据"
-   ],
-   "score": 85,
-   "reason": "涉及AI与数据 · 6 小时内发布",
-   "is_new": true,
-   "trend": "same",
-   "hot_score": 84.8,
-   "prev_rank": 7,
    "prev_hot_score": 84.8
   }
  ]

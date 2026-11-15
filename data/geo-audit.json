@@ -18,13 +18,13 @@
    "key": "sitemap",
    "label": "sitemap.xml 条数与漏页",
    "status": "pass",
-   "detail": "共 973 条 URL，磁盘 971 个 HTML 页全部在列"
+   "detail": "共 1017 条 URL，磁盘 1015 个 HTML 页全部在列"
   },
   {
    "key": "llms",
    "label": "llms.txt 存在",
    "status": "pass",
-   "detail": "中英 llms.txt 已生成，含数据 JSON 入口（未配置 MCP 端点）"
+   "detail": "中英 llms.txt 已生成，含 MCP 端点与数据 JSON 入口"
   },
   {
    "key": "canonical",
@@ -48,7 +48,7 @@
    "key": "mcp",
    "label": "MCP 端点可达性",
    "status": "warn",
-   "detail": "未配置 MCP 端点（site.mcp_url 为空），llms.txt 不含 MCP 段"
+   "detail": "端点 https://hot-site-template.pages.dev/mcp 已写入 llms.txt；本轮未做在线请求，可达性需线上验证"
   },
   {
    "key": "mirror",
