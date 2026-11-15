@@ -1270,5 +1270,503 @@
     "zh_oneliner": "一篇标题很直白的博客文章，聊的是机器人相关话题。",
     "en_title": "Robo-Fuckers",
     "en_oneliner": "A bluntly titled blog post about robots."
+  },
+  "https://github.com/TomerAberbach/profiler-md": {
+    "zh_title": "profiler-md：把性能分析报告转成 Markdown",
+    "zh_oneliner": "命令行与 JS 库一把梭，把 17 种格式、29 个分析器、22 门语言的性能分析结果统一转成易读易分享的 Markdown。",
+    "en_title": "Show HN: profiler-md converts performance profiles to Markdown",
+    "en_oneliner": "A CLI and JS library that converts performance profiles from 17 formats, 29 profilers, and 22 languages into readable, shareable Markdown."
+  },
+  "https://pizza.hertzbeat.com": {
+    "zh_title": "Pizza：事件驱动的 AI Agent，没有 while true",
+    "zh_oneliner": "开源的事件驱动 AI Agent，每轮对话都是状态机，对话与工具调用全部记进不可变的 SQLite 日志里。",
+    "en_title": "Show HN: Pizza – An event-driven AI agent, no while true",
+    "en_oneliner": "An open-source, event-driven AI agent where every turn is a state machine and conversations and tool calls go into an immutable SQLite log."
+  },
+  "https://github.com/robertodf99/hook-me-up": {
+    "zh_title": "hook-me-up：帮一线工程师别在 Claude Code 里漏掉人工确认步骤",
+    "zh_oneliner": "给 Claude Code 加一道保险的小工具，提醒一线工程师在关键步骤前完成人工确认，别让流程悄悄跳过去。",
+    "en_title": "Show HN: Simple tool for FDEs to avoid missing HITL steps in claude code",
+    "en_oneliner": "A small safety net for Claude Code that reminds field engineers to complete human-in-the-loop checks before key steps slip through."
+  },
+  "https://ferd.ca/control-and-complexity-tension-in-systems-design.html": {
+    "zh_title": "控制与复杂度：系统设计中的张力",
+    "zh_oneliner": "一篇谈系统设计的文章，聊控制欲与复杂度之间的拉扯，以及设计者该如何在这对矛盾里取舍。",
+    "en_title": "Control and complexity: tension in systems design",
+    "en_oneliner": "An essay on systems design about the tension between control and complexity, and how designers should trade off between the two."
+  },
+  "https://somuchtechnews.substack.com/p/so-much-tech-news-the-week-of-11082026": {
+    "zh_title": "本周科技新闻大杂烩：11 月 8 日那周",
+    "zh_oneliner": "一周科技新闻的快速合集，把本周值得知道的大事浓缩成一篇，适合周末一次性补课。",
+    "en_title": "So Much Tech News: The Week of 11/08/2026",
+    "en_oneliner": "A quick roundup of the week's tech news, packing everything worth knowing into one read for a weekend catch-up."
+  },
+  "https://medium.com/@smoking2man/when-ai-knows-more-than-it-can-offer-how-training-turns-an-intelligent-assistant-into-a-generator-7e700f05163e": {
+    "zh_title": "当 AI 懂得比它能给的多",
+    "zh_oneliner": "一篇反思训练方式的文章，讲模型明明“知道”很多，输出时却被训练目标束缚，变成了只会生成的机器。",
+    "en_title": "When AI Knows More Than It Can Offer",
+    "en_oneliner": "A reflection on training that asks why a model can know so much yet offer so little, boxed in by its own training objectives."
+  },
+  "https://nostalgiarider.com": {
+    "zh_title": "Nostalgia Rider：浏览器里重温 Line Rider 与滑雪特技",
+    "zh_oneliner": "把 Line Rider 和 Ski Stunt Simulator 揉在一起的浏览器小玩具，无需注册，打开就能画线骑行找童年。",
+    "en_title": "Show HN: Nostalgia Rider",
+    "en_oneliner": "A browser toy mashing up Line Rider and Ski Stunt Simulator — no account needed, just open it and draw lines to ride down memory lane."
+  },
+  "https://smol-ninja.github.io/little-brain": {
+    "zh_title": "little-brain：把 Codex 会话放进 Mac 菜单栏",
+    "zh_oneliner": "一个 Mac 菜单栏小应用，专治 Codex 会话太多管不过来，不用再靠通知盯着每个会话的进度。",
+    "en_title": "Show HN: Codex sessions in the Mac menu bar",
+    "en_oneliner": "A tiny Mac menu bar app that keeps track of your Codex sessions, so you no longer have to babysit each one through notifications."
+  },
+  "https://flaient.com": {
+    "zh_title": "FlAIent：跟着真 Agent 学交互式 AI 编程",
+    "zh_oneliner": "一个交互式 AI 编程学习平台，让真实的 AI Agent 带你一步步写代码，边做边学而不是光看教程。",
+    "en_title": "Show HN: FlAIent – Learn interactive AI coding with real agents",
+    "en_oneliner": "An interactive AI coding platform where real agents guide you through writing code, learning by doing instead of just watching tutorials."
+  },
+  "https://bhopstudio.com/floodtide": {
+    "zh_title": "Floodtide：带备份与回滚的 Mac 应用更新器",
+    "zh_oneliner": "Mac 应用更新工具，每次更新前先备份，出问题一键回滚，告别更新翻车的焦虑。",
+    "en_title": "Show HN: Floodtide – A Mac app updater with backups and rollback",
+    "en_oneliner": "A Mac app updater that backs up before every update and rolls back in one click when something goes wrong."
+  },
+  "https://github.com/figranium/folate": {
+    "zh_title": "Folate：本地运行的 DOM 选择器模型，体量只有 7B 视觉语言模型的六十分之一",
+    "zh_oneliner": "一个本地运行的轻量 DOM 选择器模型，效果超过 7B 视觉语言模型，体积却只有后者的六十分之一。",
+    "en_title": "Show HN: Folate – Local DOM selector model that beats 7B VLMs at 1/60th the size",
+    "en_oneliner": "A lightweight local DOM selector model that beats 7B vision-language models at one-sixtieth of the size."
+  },
+  "https://www.youtube.com/watch?v=ZCAHP50Zly8": {
+    "zh_title": "新开源 C4 架构图工具",
+    "zh_oneliner": "一个新开源的 C4 架构图工具，视频演示了它如何帮你把系统架构画得清晰又规范。",
+    "en_title": "New open source C4 Diagram tool",
+    "en_oneliner": "A newly open-sourced C4 diagram tool, demoed on video to show how it keeps your system architecture drawings clear and consistent."
+  },
+  "https://www.outsideonline.com/outdoor-gear/clothing-apparel/grandmother-flannel": {
+    "zh_title": "我 99 岁的奶奶用法兰绒建起了一个隐形帝国",
+    "zh_oneliner": "一篇人物特写，讲一位 99 岁的奶奶如何围绕法兰绒面料，悄悄经营起属于自己的小小商业版图。",
+    "en_title": "My 99-Year-Old Grandmother Built a Hidden Empire Around Flannel",
+    "en_oneliner": "A profile of a 99-year-old grandmother who quietly built her own little business empire around flannel fabric."
+  },
+  "https://news.mit.edu/2026/brains-striatum-atlas-could-guide-researchers-new-drug-treatments-0901": {
+    "zh_title": "大脑纹状体图谱或为新药研发指路",
+    "zh_oneliner": "MIT 的新研究绘制出大脑纹状体的精细图谱，有望帮研究者找到治疗脑部疾病的新药靶点。",
+    "en_title": "Atlas of the brain's striatum could guide researchers to new drug treatments",
+    "en_oneliner": "A new MIT study maps the brain's striatum in fine detail, pointing researchers toward new drug targets for brain disorders."
+  },
+  "https://archlog.dev": {
+    "zh_title": "ArchLog：给团队工程决策留一份记忆",
+    "zh_oneliner": "帮团队把“为什么这样设计”记录下来的工具，免得半年后没人记得当初的取舍理由。",
+    "en_title": "Show HN: ArchLog – a memory for your team's engineering decisions",
+    "en_oneliner": "A tool that records why your team made each engineering decision, so nobody has to guess the reasoning six months later."
+  },
+  "https://demo.glyphh.ai/bot": {
+    "zh_title": "教机器人一条秘密规则，看它从你的回答里学会",
+    "zh_oneliner": "一个互动小演示，你先给机器人定一条秘密规则，再看它如何从你的回答中一点点把它学到手。",
+    "en_title": "HN: Teach a bot a secret rule and watch it learn from your answers",
+    "en_oneliner": "An interactive demo where you teach a bot a secret rule, then watch it learn the rule from your answers."
+  },
+  "https://www.reuters.com/business/megaspeed-says-alice-huang-left-company-august-2025-2026-11-15": {
+    "zh_title": "Megaspeed 称 Alice Huang 已于 2025 年 8 月离职",
+    "zh_oneliner": "路透社消息，Megaspeed 表示 Alice Huang 已于 2025 年 8 月离开公司。",
+    "en_title": "Megaspeed says Alice Huang left the company in August 2025",
+    "en_oneliner": "Reuters reports that Megaspeed says Alice Huang left the company in August 2025."
+  },
+  "https://github.com/NixOS/nixpkgs/pull/588623": {
+    "zh_title": "Apfel-LLM：Drop",
+    "zh_oneliner": "Nixpkgs 上的一条合并请求，涉及 Apfel-LLM 的 Drop 相关改动。",
+    "en_title": "Apfel-LLM: Drop",
+    "en_oneliner": "A nixpkgs pull request covering Drop-related changes for Apfel-LLM."
+  },
+  "https://railyard.run/blog/rollback-release-from-chat": {
+    "zh_title": "在聊天里回滚一次糟糕的发布",
+    "zh_oneliner": "讲如何直接在聊天中完成回滚、恢复变量并重新部署，把一次翻车的发布快速收拾干净。",
+    "en_title": "Roll back a bad release from chat: rollbacks, restored variables and deploys",
+    "en_oneliner": "How to roll back a bad release, restore variables, and redeploy straight from chat, cleaning up a failed release fast."
+  },
+  "https://dev.to/bit4bit_dfir/sonicwall-cve-2026-19868-a-valid-password-that-skips-saml-and-your-mfa-4ogi": {
+    "zh_title": "SonicWall CVE-2026-19868：一个能绕过 SAML 与 MFA 的有效密码",
+    "zh_oneliner": "一篇给真正管系统的人写的实战笔记，讲 SonicWall 防火墙的 SSL VPN 登录如何被一个有效密码绕过 SAML 与多因素认证。",
+    "en_title": "SonicWall CVE-2026-19868: A Valid Password That Skips SAML and Your MFA",
+    "en_oneliner": "Practical notes for people who actually run the systems, on how a valid password can bypass SAML and MFA on SonicWall firewall SSL VPN logins."
+  },
+  "https://dev.to/saqib2619/offline-first-zero-backend-building-a-tailoring-business-app-that-works-without-internet-1lf1": {
+    "zh_title": "离线优先、零后端：给裁缝店做一个不用联网也能用的生意 App",
+    "zh_oneliner": "一位开发者给裁缝店做的生意管理应用，全程离线、没有后端，把原来记在纸本上的量体、订单和账目都搬进了手机。",
+    "en_title": "Offline-First, Zero Backend: Building a Tailoring Business App That Works Without Internet",
+    "en_oneliner": "A business app built for tailors that works fully offline with no backend, moving measurements, orders, and payments off paper notebooks and into a phone."
+  },
+  "https://dev.to/jamilxt/awss-spring-ai-agent-blueprint-gets-the-boring-parts-right-24e5": {
+    "zh_title": "AWS 的 Spring AI Agent 蓝图把无聊但关键的部分做对了",
+    "zh_oneliner": "一篇解读文章，聊 AWS 的 Spring AI Agent 蓝图如何把权限、记忆、人工复核与问题追踪这些“无聊却关键”的生产问题都考虑到了。",
+    "en_title": "AWS's Spring AI Agent Blueprint Gets the Boring Parts Right",
+    "en_oneliner": "A walkthrough of how AWS's Spring AI Agent blueprint gets the boring-but-critical production questions right: permissions, memory, human review, and tracing bad decisions."
+  },
+  "https://dev.to/suikeke9/i-had-never-written-a-line-of-code-then-i-shipped-a-paid-app-with-ai-1ag5": {
+    "zh_title": "我一行代码都没写过，然后用 AI 上线了一款付费应用",
+    "zh_oneliner": "一位日本的完全零基础作者自述，只靠提示词和 AI 搭档，从零做出一款真实产品并成功收费的经历。",
+    "en_title": "I Had Never Written a Line of Code. Then I Shipped a Paid App With AI.",
+    "en_oneliner": "A complete non-coder in Japan tells how she built, launched, and charged for a real product using only prompts and an AI partner."
+  },
+  "https://dev.to/celticgemini001/linear-light-upscaling-is-correct-and-it-cost-me-18-shadow-levels-1m40": {
+    "zh_title": "线性光照放大是对的，但它让我丢了 18 级阴影",
+    "zh_oneliner": "一篇图像处理实战文章，讲线性光照重采样为什么理论上正确，实践中却会让阴影细节悄悄丢失 18 个层级。",
+    "en_title": "Linear Light Upscaling Is Correct, and It Cost Me 18 Shadow Levels",
+    "en_oneliner": "A hands-on image-processing piece on why linear-light resampling is theoretically correct, yet quietly costs you 18 levels of shadow detail in practice."
+  },
+  "https://dev.to/raylabs/power-bi-product-kpi-dashboard-architecture-and-design-3c3o": {
+    "zh_title": "Power BI 产品 KPI 仪表盘：架构与设计",
+    "zh_oneliner": "一篇讲仪表盘设计方法的文章，聊如何把零散指标组织成真正能推动决策的产品 KPI 视图，而不是一堆静态数字。",
+    "en_title": "Power BI Product KPI Dashboard: Architecture and Design",
+    "en_oneliner": "A guide to designing product KPI dashboards in Power BI, turning disconnected metrics into views that actually drive decisions instead of static displays."
+  },
+  "https://dev.to/mashiah/cross-validation-and-the-split-that-hides-a-models-failure-1hbc": {
+    "zh_title": "交叉验证，以及那种会藏住模型失败的数据切分",
+    "zh_oneliner": "一篇手算拆解文章，用六个点讲清 k 折交叉验证的原理，以及同一模型只因切分方式不同，得分就能从 0.80 跌到 -0.67。",
+    "en_title": "Cross-validation, and the split that hides a model's failure",
+    "en_oneliner": "A hand-worked explainer showing how k-fold cross-validation works, and how the same model can score 0.80 or −0.67 depending only on how the data was split."
+  },
+  "https://dev.to/ganeshjoshi/prisma-migrations-when-ai-features-touch-your-database-4521": {
+    "zh_title": "当 AI 功能碰到数据库时，Prisma 迁移该怎么做",
+    "zh_oneliner": "一篇实践指南，讲给 AI 功能加对话、消息与向量数据时，数据库迁移要预留哪些位置、避开哪些坑。",
+    "en_title": "Prisma Migrations When AI Features Touch Your Database",
+    "en_oneliner": "A practical guide to database migrations when AI features arrive, covering where to store conversations, messages, and vectors — and which pitfalls to avoid."
+  },
+  "https://dev.to/xiaoshengyi/how-i-added-a-free-ai-product-photo-generator-to-a-zero-budget-toolbox-4l38": {
+    "zh_title": "我如何给零预算工具箱加了一个免费 AI 产品图生成器",
+    "zh_oneliner": "作者运营着一个面向中国电商卖家的 AI 工具箱，全靠原生 HTML、便宜 Node 服务器与免费 API，这次给它添上了第九个工具：产品图生成器。",
+    "en_title": "How I Added a Free AI Product Photo Generator to a Zero-Budget Toolbox",
+    "en_oneliner": "The author of a small AI toolbox for Chinese e-commerce sellers — built on vanilla HTML, one cheap Node server, and free APIs — adds a ninth tool: a product-photo generator."
+  },
+  "https://dev.to/ioneyrezende/turning-remote-access-inventory-into-an-rmm-governance-control-2kde": {
+    "zh_title": "把远程访问清单变成 RMM 治理抓手",
+    "zh_oneliner": "一篇 IT 治理文章，讲如何把远程监控管理工具的资产清单用起来，变成真正能管住补丁、脚本与遥测数据的治理手段。",
+    "en_title": "Turning Remote-Access Inventory Into an RMM Governance Control",
+    "en_oneliner": "An IT governance piece on turning remote monitoring and management inventory into a real control over patching, scripts, and telemetry."
+  },
+  "https://dev.to/jslab/jslab-is-out-write-code-watch-it-run-as-you-type-3m6k": {
+    "zh_title": "JSLab 发布：边写代码边看它运行",
+    "zh_oneliner": "面向 Apple Silicon Mac 的原生 JavaScript 与 TypeScript 速写本，打开标签页敲代码，结果、日志与报错实时落在输出面板里。",
+    "en_title": "JSLab is out: write code, watch it run as you type",
+    "en_oneliner": "A native JavaScript and TypeScript scratchpad for Apple Silicon Macs — open a tab, type, and every result, log, and error lands in the output pane live."
+  },
+  "https://dev.to/mubashir_arham/beyond-rporto-the-three-business-decisions-that-anchor-disaster-recovery-success-4e3g": {
+    "zh_title": "超越 RPO/RTO：决定灾难恢复成败的三个业务决策",
+    "zh_oneliner": "一篇灾备文章，提醒云原生组织别只盯着 RPO 与 RTO 指标，真正决定恢复成败的是背后的三个业务决策。",
+    "en_title": "Beyond RPO/RTO: The Three Business Decisions that Anchor Disaster Recovery Success",
+    "en_oneliner": "A disaster-recovery piece arguing that cloud-native teams should look past RPO and RTO metrics to the three business decisions that actually decide whether recovery succeeds."
+  },
+  "https://www.reddit.com/r/InternetIsBeautiful/comments/1xfc9kd/skyetch_a_free_svg_star_map_generator": {
+    "zh_title": "SkyEtch：免费的 SVG 星图生成器",
+    "zh_oneliner": "免费且高度可定制的浏览器星图工具，在线生成 SVG 星图，灵感来自经典的 PP3 天文制图工具。",
+    "en_title": "SkyEtch - A free SVG star map generator",
+    "en_oneliner": "A free, highly customizable browser tool for creating star maps as SVG, inspired by the classic PP3 celestial charting tool."
+  },
+  "https://techcrunch.com/2026/11/15/the-tech-products-we-enthusiastically-recommend-this-holiday-season": {
+    "zh_title": "这个假日季我们真心推荐的科技产品",
+    "zh_oneliner": "TechCrunch 编辑部一年测评下来最喜欢的几款产品合集，正好赶上黑五，给节日购物做个参考。",
+    "en_title": "The tech products we enthusiastically recommend this holiday season",
+    "en_oneliner": "TechCrunch's editors round up the gadgets they loved most after a year of reviews, in time for Black Friday shopping."
+  },
+  "https://www.theverge.com/entertainment/1033895/rachelle-hampton-normal-gossip-interview": {
+    "zh_title": "Rachelle Hampton 不肯承认自己花了多久统计《暮光之城》里的“murmur”",
+    "zh_oneliner": "一篇播客主访谈，聊 Normal Gossip 主持人 Rachelle Hampton 如何一本正经地统计《暮光之城》里“murmur”这个词的出现次数。",
+    "en_title": "Rachelle Hampton won’t admit how long she spent charting the use of ‘murmur’ in Twilight",
+    "en_oneliner": "An interview with Normal Gossip host Rachelle Hampton on how long she spent charting the word “murmur” across Twilight."
+  },
+  "https://dev.to/ai-ksk/character-swap-15-motion-transfer-plus-sam-31-masking-eight-steps-125l": {
+    "zh_title": "Character Swap 1.5：动作迁移加 SAM 3.1 遮罩，八步换角色",
+    "zh_oneliner": "视频换角色分两步走：先决定换掉哪里，再让新角色跟着原动作走，这篇教程用八步讲清怎么做。",
+    "en_title": "Character Swap 1.5: Motion Transfer Plus SAM 3.1 Masking, Eight Steps",
+    "en_oneliner": "Swapping a character in a video takes two steps: deciding what to replace, then making the new character move like the original, and this tutorial walks through it in eight steps."
+  },
+  "https://dev.to/hridoy_dev/mongodb-vs-postgresql-how-i-choose-between-them-58ol": {
+    "zh_title": "MongoDB 对比 PostgreSQL：我是怎么选的",
+    "zh_oneliner": "作者两个数据库都在项目里用过，按数据形态给选择建议：关系强的数据用 PostgreSQL，灵活多变的文档数据用 MongoDB。",
+    "en_title": "MongoDB vs PostgreSQL: how I choose between them",
+    "en_oneliner": "The author uses both databases in real projects and shares how he picks between them: PostgreSQL for strongly relational data, MongoDB for flexible, document-shaped data."
+  },
+  "https://dev.to/vishall/is-your-lovable-or-supabase-app-readable-without-a-login-a-15-minute-check-85f": {
+    "zh_title": "你的 Lovable 或 Supabase 应用不用登录就能被看光吗？15 分钟自查",
+    "zh_oneliner": "一家德国安全公司抽查了 15 万多个 Lovable 搭建的应用，发现不少无需登录就能读取数据，这篇文章教你 15 分钟自查自己的应用有没有同样的问题。",
+    "en_title": "Is your Lovable or Supabase app readable without a login? A 15-minute check",
+    "en_oneliner": "A German security firm audited over 159,000 apps built with Lovable and found many readable without logging in, and this guide shows you how to check your own app in 15 minutes."
+  },
+  "https://dev.to/vishall/nextjs-november-2026-security-release-are-you-affected-and-how-to-patch-1645-and-15529-4oo2": {
+    "zh_title": "Next.js 2026 年 11 月安全更新：你受影响吗，怎么打补丁（16.4.5 与 15.5.29）",
+    "zh_oneliner": "Next.js 发布了 16.4.5 和 15.5.29，修复七个安全问题，最严重的是跨租户缓存串号，这篇文章帮你判断是否受影响并给出升级步骤。",
+    "en_title": "Next.js November 2026 security release: are you affected, and how to patch (16.4.5 and 15.5.29)",
+    "en_oneliner": "Next.js shipped 16.4.5 and 15.5.29 to fix seven security issues, the worst being cached data leaking across tenants, and this guide helps you check whether you are affected and how to patch."
+  },
+  "https://www.reddit.com/r/coolgithubprojects/comments/1xwzs3a/nuvo_a_localfirst_desktop_music_player_in": {
+    "zh_title": "Nuvo：本地优先的桌面音乐播放器，支持 YouTube 与 SoundCloud",
+    "zh_oneliner": "免费开源的桌面音乐播放器，用 TypeScript 和 Rust 写成，能播 YouTube、SoundCloud 和本地文件，还支持同步歌词、卡拉 OK 和加密曲库，无需注册账号。",
+    "en_title": "Nuvo, a local-first desktop music player in TypeScript and Rust",
+    "en_oneliner": "A free, open-source desktop music player written in TypeScript and Rust that plays YouTube, SoundCloud and local files, with synced lyrics, karaoke and an encrypted library, no account needed."
+  },
+  "https://dev.to/mekkial_bilal_e9f1a806a8d/the-clever-retrieval-trick-lost-a-boring-if-statement-won-12fd": {
+    "zh_title": "花哨的检索技巧输了，一个无聊的 if 语句赢了",
+    "zh_oneliner": "作者给自由职业接单助手做了实测，结果打脸了自己最喜欢的方案：复杂的检索技巧不如一句简单的条件判断管用。",
+    "en_title": "The clever retrieval trick lost. A boring if statement won.",
+    "en_oneliner": "The author measured his freelance bidding copilot properly and found his favorite idea lost: a fancy retrieval trick was beaten by a plain if statement."
+  },
+  "https://dev.to/mason_super_7b5a477af0ffd/nei-rong-xi-tong-ying-bao-cun-zhen-shi-biao-ti-gong-cheng-jiao-du-de-si-kao-3dfj": {
+    "zh_title": "内容系统应保存真实标题：工程角度的思考",
+    "zh_oneliner": "从工程角度看，内容系统应该直接保存真实标题，而不是事后从 URL 的 slug 反推，因为 slug 的有损转换会永久丢失原始信息。",
+    "en_title": "Content systems should store the real title: an engineering perspective",
+    "en_oneliner": "From an engineering view, a content system should store the real title directly instead of reconstructing it from the URL slug, because the slug's lossy transformation permanently drops the original information."
+  },
+  "https://dev.to/_5d2fb8ff09bc02ff4d6b73/i-classified-63-item-categories-for-shipping-personal-luggage-to-china-here-is-the-open-dataset-5dom": {
+    "zh_title": "我给寄往中国的个人行李分了 63 类物品：开源数据集（CC BY）",
+    "zh_oneliner": "作者把 63 类常见物品能不能寄往中国整理成一份中英对照的开源数据集，查一件东西不用再逐条翻指南。",
+    "en_title": "I classified 63 item categories for shipping personal luggage to China — here is the open dataset (CC BY)",
+    "en_oneliner": "The author turned 63 everyday item categories into an open, bilingual dataset answering what can be shipped to China, so you can check one item without reading guide after guide."
+  },
+  "https://dev.to/hemapriya_kanagala/dev-pet-corner-6-show-us-your-pets-2gd3": {
+    "zh_title": "🐾 DEV 宠物角第 6 期：晒晒你的宠物！",
+    "zh_oneliner": "DEV 社区每周日的轻松栏目又回来了，这期邀请大家晒出宠物照片和故事，暂时从技术里抽身一下。",
+    "en_title": "DEV Pet Corner #6: Show Us Your Pets!",
+    "en_oneliner": "DEV's weekly Sunday breather is back, inviting the community to share pet photos and stories and take a break from tech for a while."
+  },
+  "https://dev.to/bigdomainhost/installing-cpanel-whm-on-a-vps-requirements-the-install-command-and-what-breaks-420p": {
+    "zh_title": "在 VPS 上安装 cPanel 和 WHM：配置要求、安装命令与常见坑",
+    "zh_oneliner": "cPanel 安装失败大多发生在安装程序真正启动之前，这篇文章列了一份检查清单，帮你先把服务器准备到能顺利安装的状态。",
+    "en_title": "Installing cPanel & WHM on a VPS: requirements, the install command and what breaks",
+    "en_oneliner": "Most cPanel installs fail before the installer really starts, so this guide gives you a checklist to prepare a server the installer will actually accept."
+  },
+  "https://dev.to/vishall/migrating-an-existing-nextjs-app-to-cache-components-before-nextjs-17-20ag": {
+    "zh_title": "在 Next.js 17 之前，把现有应用迁移到 Cache Components",
+    "zh_oneliner": "从 Next.js 16.4 起官方推荐所有应用启用 Cache Components，17 版会成为默认，这篇文章讲怎么把现有项目平滑迁移过去。",
+    "en_title": "Migrating an existing Next.js app to Cache Components before Next.js 17",
+    "en_oneliner": "Since Next.js 16.4 the team recommends Cache Components for every app, and it becomes the default in version 17, so this guide shows how to migrate an existing project smoothly."
+  },
+  "https://codedynasty.dev/posts/ncm_model-are_memory-hungry_LLMs_dead": {
+    "zh_title": "Show HN：新模型 NCM——吃内存的大模型要过时了吗",
+    "zh_oneliner": "本地跑顶级开源模型最大的瓶颈是显存带宽和内存价格，作者提出一个新模型思路，想看看能不能让大模型不再那么吃内存。",
+    "en_title": "Show HN: New Model — NCM Model: Are Memory Hungry LLMs Dead",
+    "en_oneliner": "The biggest bottleneck for running top open models locally is memory bandwidth and RAM prices, so the author proposes a new model design to see whether LLMs can stop being so memory-hungry."
+  },
+  "https://dev.to/hridoy_dev/7-tips-id-give-to-beginner-developers-11jl": {
+    "zh_title": "给新手开发者的 7 条建议",
+    "zh_oneliner": "一位全栈开发者回顾自己的起步经历，总结了七条最想早点知道的建议，核心是多动手做项目而不是只看教程。",
+    "en_title": "7 tips I'd give to beginner developers",
+    "en_oneliner": "A full-stack developer looks back at how he started and shares seven lessons he wishes he had known earlier, with building real projects at the core."
+  },
+  "https://dev.to/aiexplore369zoho/build-an-llm-from-scratch-in-5-minutes-on-a-free-gpu-i-trained-a-59-million-parameter-j2c": {
+    "zh_title": "5 分钟在免费 GPU 上从零手搓一个 LLM：我训练了一个 590 万参数的故事机",
+    "zh_oneliner": "这是十篇系列的第一篇，用大白话带你走一遍从零搭建 LLM 的第一课，作者在免费 GPU 上训练了一个 590 万参数的小模型来讲故事。",
+    "en_title": "Build an LLM From Scratch in 5 Minutes on a Free GPU: I Trained a 5.9-Million-Parameter Storyteller",
+    "en_oneliner": "The first of a ten-part series that walks through building an LLM from scratch in plain words, with the author training a 5.9-million-parameter storyteller on a free GPU."
+  },
+  "https://www.reddit.com/r/coolgithubprojects/comments/1xwzqjd/simple_tool_for_fdes_to_avoid_missing_hitl_steps": {
+    "zh_title": "给 FDE 的小工具：别再错过 Claude Code 里需要人工确认的步骤",
+    "zh_oneliner": "作者同时服务多个客户时，总错过 Claude Code 里等他确认的对话，于是写了一个极简小工具，在需要人工介入时及时提醒他。",
+    "en_title": "Simple tool for FDEs to avoid missing HITL steps in Claude Code",
+    "en_oneliner": "Juggling several clients, the author kept missing conversations in Claude Code that were waiting for his input, so he built a minimal tool that nudges him whenever human confirmation is needed."
+  },
+  "https://news.ycombinator.com/item?id=50508142": {
+    "zh_title": "Ask HN：本地跑哪个开源 LLM 最好，需要什么硬件？",
+    "zh_oneliner": "网友在 HN 上提问：想在本地跑开源大模型，选哪个模型、配什么硬件最合适，欢迎有实战经验的人分享配置。",
+    "en_title": "Ask HN: Which open source LLM works best locally, and on what hardware?",
+    "en_oneliner": "A Hacker News thread asking which open-source LLM runs best locally and what hardware it takes, inviting people with hands-on setups to share their configs."
+  },
+  "https://thealliance.ai/projects/tapestry": {
+    "zh_title": "Tapestry 项目：用联盟模式训练前沿基础模型",
+    "zh_oneliner": "一个新联盟想换种方式训练前沿基础模型：多家机构联合出资出力，而不是由一家巨头单打独斗。",
+    "en_title": "Project Tapestry: A consortium approach to training frontier foundation models",
+    "en_oneliner": "A new consortium wants to train frontier foundation models a different way, with several organizations pooling resources instead of one giant going it alone."
+  },
+  "https://github.com/ceifa/steamworks.js": {
+    "zh_title": "Show HN：Steamworks.js，给网页游戏接 Steam 功能",
+    "zh_oneliner": "一个让网页游戏也能调用 Steam 功能的库，成就、联机这些 Steam 能力不用原生客户端也能接进来。",
+    "en_title": "Show HN: Steamworks.js, Steam integration for web based games",
+    "en_oneliner": "A library that brings Steam features to web-based games, so achievements and multiplayer work without a native client."
+  },
+  "https://news.ycombinator.com/item?id=50508089": {
+    "zh_title": "Ask HN：用 AI 做硬件会是什么样子？",
+    "zh_oneliner": "网友在 HN 上讨论 AI 参与硬件制造的未来：是 3D 打印，还是直接画 CAD，AI 原生的打印机又会长什么样。",
+    "en_title": "Ask HN: What does building hardware with AI look like?",
+    "en_oneliner": "A Hacker News discussion on what hardware built with AI might look like, from 3D printing to CAD and what an AI-native printer could become."
+  },
+  "https://claramap.com/blog/what-picasso-taught-me-about-building-ai-agents": {
+    "zh_title": "毕加索教我的 AI 智能体开发课",
+    "zh_oneliner": "作者从毕加索的创作方法里借来几条经验，聊聊做 AI 智能体时怎么取舍、迭代和保持风格。",
+    "en_title": "What Picasso taught me about building AI Agents",
+    "en_oneliner": "The author borrows a few lessons from Picasso's way of working and applies them to building AI agents, from making trade-offs to iterating with a consistent style."
+  },
+  "https://www.sciencealert.com/volcanic-springs-amoeba-survives-63-c-setting-a-new-heat-record-for-complex-life": {
+    "zh_title": "火山温泉里的变形虫在 63°C 下存活，刷新复杂生命耐热纪录",
+    "zh_oneliner": "科学家在火山温泉里发现一种能在 63°C 下存活的变形虫，这是迄今复杂生命耐受的最高温度，重新划定了生命的耐热边界。",
+    "en_title": "Volcanic Springs Amoeba Survives 63 °C, Setting Heat Record for Complex Life",
+    "en_oneliner": "Scientists found an amoeba surviving at 63 °C in volcanic springs, the highest temperature ever recorded for complex life, redrawing the known heat limit for living things."
+  },
+  "https://futhark-lang.org/blog/2026-11-04-nondeterminism.html": {
+    "zh_title": "Futhark 语言里的不确定性",
+    "zh_oneliner": "Futhark 语言团队的博客文章，讲这门函数式并行语言怎么处理不确定性，对写 GPU 并行代码的人有参考价值。",
+    "en_title": "Nondeterminism in Futhark (language)",
+    "en_oneliner": "A blog post from the Futhark language team on how this functional parallel language handles nondeterminism, useful reading for anyone writing GPU parallel code."
+  },
+  "https://jordivillar.com/blog/building-a-serverless-clickhouse": {
+    "zh_title": "搭建无服务器版 ClickHouse",
+    "zh_oneliner": "作者分享自己动手搭建无服务器 ClickHouse 的过程，数据仓库不用常驻服务器也能跑起来，适合想省成本的团队参考。",
+    "en_title": "Building a Serverless ClickHouse",
+    "en_oneliner": "The author shares how he built a serverless ClickHouse setup, showing a data warehouse can run without always-on servers, a useful reference for teams watching costs."
+  },
+  "https://suchanek.name/texts/atheism": {
+    "zh_title": "《无神论圣经》",
+    "zh_oneliner": "一本系统梳理无神论观点的在线文集，从哲学和历史角度展开论述，适合对这个话题感兴趣的读者慢慢读。",
+    "en_title": "The Atheist Bible",
+    "en_oneliner": "An online collection that lays out the atheist case systematically, arguing from philosophy and history for readers curious about the topic."
+  },
+  "https://dev.to/sorrelthorncroft/an-advisory-to-evidence-triage-playbook-for-cve-2026-112687-111p": {
+    "zh_title": "CVE-2026-112687 分流手册：从安全公告到证据核查",
+    "zh_oneliner": "一份安全公告发布后，先别急着下结论，这篇手册讲怎么一步步核对证据，确认 CVE-2026-112687 到底影响谁、影响多大。",
+    "en_title": "An Advisory-to-Evidence Triage Playbook for CVE-2026-112687",
+    "en_oneliner": "When a security advisory lands, don't jump to conclusions: this playbook walks through verifying the evidence step by step to pin down who CVE-2026-112687 affects and how much."
+  },
+  "https://dev.to/voltwake/how-to-calculate-print-ppi-after-a-canvas-crop-1lii": {
+    "zh_title": "在 Canvas 里裁剪后，怎么算打印 PPI",
+    "zh_oneliner": "一张 6000×4000 的照片裁剪后印成 10×8 英寸，PPI 该怎么算，这篇文章用具体数字把裁剪和打印尺寸的关系讲明白。",
+    "en_title": "How to calculate print PPI after a Canvas crop",
+    "en_oneliner": "After cropping a 6,000×4,000 photo for a 10×8-inch print, what PPI do you actually get — this guide works through the numbers behind crop and print size."
+  },
+  "https://dev.to/ai-ksk/refmod-without-lora-training-bundling-a-character-a-fight-move-a-voice-and-a-set-into-loadable-b5g": {
+    "zh_title": "RefMod：不用训练 LoRA，把角色、招式、声音和场景打包成可加载文件",
+    "zh_oneliner": "想让模型记住某个角色或招式，通常要训练 LoRA，RefMod 换了个办法：把参考信息存成可直接加载的修改文件，不用训练就能用。",
+    "en_title": "RefMod Without LoRA Training: Bundling a Character, a Fight Move, a Voice and a Set Into Loadable Files",
+    "en_oneliner": "Making a model hold a character or a fight move usually means training a LoRA, but RefMod stores the reference as a loadable modification file instead, no training required."
+  },
+  "https://www.reddit.com/r/coolgithubprojects/comments/1xx01us/tremend_toolkit_v33_an_opensource_python": {
+    "zh_title": "TREMEND Toolkit V3.3：开源的 Python 与 PowerShell 瑞士军刀，95+ 工具",
+    "zh_oneliner": "面向电脑维修技术员、系统管理员和蓝队防守的开源桌面工具箱，集成了 95 多个 Python 和 PowerShell 小工具，修电脑、查系统都能用上。",
+    "en_title": "TREMEND Toolkit V3.3, an open-source Python & PowerShell Swiss Army Knife with 95+ tools",
+    "en_oneliner": "An open-source desktop toolkit for PC technicians, sysadmins and blue-team defenders, packing 95+ Python and PowerShell utilities for repair and system checks."
+  },
+  "https://dev.to/hridoy_dev/consistency-beats-talent-in-coding-46": {
+    "zh_title": "写代码这件事，坚持比天赋重要",
+    "zh_oneliner": "作者入行时以为好程序员天生聪明，几年下来发现真正拉开差距的是持续投入：每天稳定写代码，比天赋更管用。",
+    "en_title": "Consistency beats talent in coding",
+    "en_oneliner": "The author used to think great developers were just born smarter, but years of building taught him that steady, daily practice matters more than talent."
+  },
+  "https://dev.to/julianneagu/i-built-a-3d-chord-progression-generator-that-visualizes-music-theory-in-your-browser-112i": {
+    "zh_title": "我做了个 3D 和弦进行生成器，在浏览器里把乐理可视化",
+    "zh_oneliner": "乐理很难直观理解，这个浏览器小工具把和弦画在 3D 键盘上，还能按情绪生成和弦进行，顺带展示声波泛音。",
+    "en_title": "I Built a 3D Chord Progression Generator That Visualizes Music Theory in Your Browser",
+    "en_oneliner": "Music theory is hard to picture, so this browser tool draws chords on a 3D keyboard, generates progressions by mood, and shows wave harmonics alongside the theory."
+  },
+  "https://dev.to/robinsishodia/aws-cloudwatch-alarms-and-sns-get-notified-when-something-goes-wrong-47d": {
+    "zh_title": "AWS CloudWatch 告警与 SNS：出问题时第一时间收到通知",
+    "zh_oneliner": "账号和登录都搭好了，接下来最实际的问题是：系统出故障时谁最先知道，这篇文章讲怎么用 CloudWatch 告警加 SNS 把通知接起来。",
+    "en_title": "AWS CloudWatch Alarms and SNS: Get Notified When Something Goes Wrong",
+    "en_oneliner": "With accounts and sign-in set up, the next practical question is who finds out first when something breaks, and this guide wires up CloudWatch alarms with SNS notifications."
+  },
+  "https://dev.to/alwaysaladdin/moving-a-browser-games-controls-into-the-arena-2p1m": {
+    "zh_title": "把浏览器游戏的操作区搬进竞技场",
+    "zh_oneliner": "作者在做一款浏览器游戏时，把操作控件直接放进竞技场画面里，聊聊这种布局对操作手感和界面空间的影响。",
+    "en_title": "Moving a browser game's controls into the arena",
+    "en_oneliner": "While building a browser game, the author moved the controls right into the arena view, and shares how that layout changes the feel and the screen space."
+  },
+  "https://dev.to/ai-ksk/turning-an-old-phone-into-an-ai-lens-real-time-reality-to-otherworld-rendering-3kho": {
+    "zh_title": "把旧手机变成 AI 镜头：实时把现实渲染成异世界",
+    "zh_oneliner": "一台旧手机加上图像模型，就成了一副能实时改写现实的镜头：镜头对准哪里，画面就实时变成另一种风格，作者分享了这套硬件玩法。",
+    "en_title": "Turning an Old Phone Into an AI Lens: Real-Time Reality-to-Otherworld Rendering",
+    "en_oneliner": "An old phone plus an image model becomes a lens that restyles reality in real time: point it anywhere and every frame comes back reimagined, and the author shares how he built it."
+  },
+  "https://dev.to/elias_0549e0e2ef8cf6ad89a/spec-tables-on-product-pages-keep-them-as-real-tables-and-make-them-work-on-a-phone-2jlo": {
+    "zh_title": "产品页的参数表：保留真正的表格，并让它在手机上好用",
+    "zh_oneliner": "硬件和电子产品页的参数表是用户最常翻的部分，这篇文章讲怎么保留语义正确的表格，同时让它在手机小屏幕上也能顺畅查看。",
+    "en_title": "Spec tables on product pages: keep them as real tables, and make them work on a phone",
+    "en_oneliner": "The spec table is the part of a hardware product page people scroll straight to, so this guide shows how to keep it a real table while making it work well on a phone."
+  },
+  "https://dev.to/ghostoraner/steganography-for-developers-hiding-data-in-plain-sight-4jlh": {
+    "zh_title": "写给开发者的隐写术：把数据藏在明处",
+    "zh_oneliner": "隐写术是把信息藏进图片、音频这些日常文件里的技术，这篇文章面向开发者，讲它背后的原理和常见的实现方式。",
+    "en_title": "Steganography for Developers: Hiding Data in Plain Sight",
+    "en_oneliner": "Steganography hides information inside everyday files like images and audio, and this guide explains the ideas behind it and how developers typically implement it."
+  },
+  "https://dev.to/hridoy_dev/want-to-build-a-browser-extension-if-you-know-javascript-youre-already-most-of-the-way-there-1lml": {
+    "zh_title": "想写浏览器扩展？会 JavaScript 你就已经会了一大半",
+    "zh_oneliner": "浏览器扩展是 Web 开发者最容易低估的小项目：个头小、实用、上线快，作者讲清了扩展由哪几部分组成，新手可以照着上手。",
+    "en_title": "Want to build a browser extension? If you know JavaScript, you're already most of the way there.",
+    "en_oneliner": "Browser extensions are one of the most underrated projects for a web developer: small, useful and quick to ship, and the author breaks down what one is made of so beginners can start."
+  },
+  "https://dev.to/dheerajramasahayam/fusion-splice-loss-what-the-003-db-on-the-splicer-screen-actually-means-2kn8": {
+    "zh_title": "熔接损耗：熔接机屏幕上的 0.03 dB 到底意味着什么",
+    "zh_oneliner": "数据中心现场手记系列第八篇：熔接机打完弧光、屏幕跳出 0.03 dB，这个数字背后代表什么，作者结合一线排障经验讲明白。",
+    "en_title": "Fusion splice loss: what the 0.03 dB on the splicer screen actually means",
+    "en_oneliner": "Part eight of the data-center field notes: the splicer finishes its arc and shows 0.03 dB, and the author draws on real break-fix work to explain what that number actually means."
+  },
+  "https://c3-lang.org/blog/archive/2026": {
+    "zh_title": "C3 0.8.6：来拿这些库",
+    "zh_oneliner": "C3 语言发布 0.8.6 版，这次更新重点是库的获取方式，写 C3 的开发者可以看看新版本带来了什么变化。",
+    "en_title": "C3 0.8.6 – Let's grab those libraries",
+    "en_oneliner": "C3 ships version 0.8.6, with library fetching in focus, and C3 developers can see what changed in this release."
+  },
+  "https://groundbinary.com": {
+    "zh_title": "数据到底值多少钱？",
+    "zh_oneliner": "数据是资产还是负债，这个问题没有标准答案，作者试着从几个角度算一算数据的价值，帮你换个思路看自己手里的数据。",
+    "en_title": "How much is data worth?",
+    "en_oneliner": "Is data an asset or a liability? There is no single answer, so the author works through a few angles to put a value on data and rethink what yours is worth."
+  },
+  "https://blog.plan28.org/2026/11/framework-of-analytical-engine.html": {
+    "zh_title": "巴贝奇分析机的框架",
+    "zh_oneliner": "一篇文章梳理巴贝奇分析机的整体框架，这台 19 世纪设计的机器被看作现代计算机的先驱，值得对计算历史感兴趣的人一读。",
+    "en_title": "Framework of Babbage's the Analytical Engine",
+    "en_oneliner": "A walk through the framework of Babbage's Analytical Engine, the 19th-century machine regarded as a forerunner of the modern computer, for anyone curious about computing history."
+  },
+  "https://news.ycombinator.com/item?id=50508220": {
+    "zh_title": "Ask HN：你的 AI 助手是怎么有性格的？",
+    "zh_oneliner": "网友在 HN 上提问：AI 助手表现出来的性格是怎么来的，是提示词、微调，还是别的什么，欢迎大家分享自己的做法。",
+    "en_title": "Ask HN: How does your AI assistant have a personality?",
+    "en_oneliner": "A Hacker News thread asking where an AI assistant's personality comes from — prompts, fine-tuning, or something else — and how people shape it in practice."
+  },
+  "https://en.wikipedia.org/wiki/Monkey_selfie_copyright_dispute": {
+    "zh_title": "猴子自拍版权争议",
+    "zh_oneliner": "一只猴子按下快门拍出的自拍照，版权到底归谁，这场著名的版权争议至今仍是讨论 AI 与动物创作归属时的经典案例。",
+    "en_title": "Monkey Selfie Copyright Dispute",
+    "en_oneliner": "Who owns the copyright to a selfie taken by a monkey pressing the shutter? This famous dispute is still the classic case cited when debating who owns machine-made work."
+  },
+  "https://www.highlighthealth.com/respiratory-disorders/closing-arguments-on-big-tobacco-boston-legal-style": {
+    "zh_title": "烟草巨头的结案陈词，波士顿法律风",
+    "zh_oneliner": "一篇文章用《波士顿法律》的风格复盘烟草诉讼的结案陈词，把庭审辩论写得像电视剧一样精彩，法学生和剧迷都能看。",
+    "en_title": "Closing Arguments on Big Tobacco, Boston Legal Style",
+    "en_oneliner": "A recap of the closing arguments in a Big Tobacco case, written in the style of Boston Legal, turning courtroom debate into something as gripping as the show itself."
+  },
+  "https://www.gamingonlinux.com/2026/11/gdc-november-2026-survey-shows-40-percent-of-developers-using-generative-ai": {
+    "zh_title": "GDC 2026 年 11 月调查：40% 的开发者在用生成式 AI",
+    "zh_oneliner": "游戏开发者大会的最新调查显示，四成开发者已经在工作中使用生成式 AI，这篇文章看看这份数据背后还有哪些值得注意的变化。",
+    "en_title": "GDC November 2026 survey shows 40% of developers using generative AI",
+    "en_oneliner": "The latest Game Developers Conference survey finds 40% of developers already using generative AI at work, with more shifts worth noting behind the headline number."
+  },
+  "https://nathanclonts.com/visualizing-neural-networks": {
+    "zh_title": "把神经网络在不同模态下的连接可视化",
+    "zh_oneliner": "作者做了一个可视化项目，把神经网络在文本、图像等不同模态下的连接关系画出来，让抽象的网络结构变得直观可看。",
+    "en_title": "Visualizing connections in neural networks across various modalities",
+    "en_oneliner": "A visualization project that draws how neural networks connect across text, image and other modalities, turning abstract network structure into something you can actually see."
+  },
+  "https://hackaday.com/2026/11/15/reverse-engineer-that-usb-device-in-style": {
+    "zh_title": "优雅地逆向那个 USB 设备",
+    "zh_oneliner": "Hackaday 的一篇文章，讲怎么有章法地逆向分析 USB 设备，从抓包到读懂协议，喜欢折腾硬件的人可以照着思路试试。",
+    "en_title": "Reverse Engineer That USB Device in Style",
+    "en_oneliner": "A Hackaday guide to reverse-engineering a USB device methodically, from capturing traffic to understanding the protocol, for hardware tinkerers."
+  },
+  "https://news.ycombinator.com/item?id=50508183": {
+    "zh_title": "命令行工具要不要正经支持鼠标？",
+    "zh_oneliner": "作者在 SWE-bench 实测里发现一款命令行编程助手支持鼠标操作，用起来顺手不少，于是在 HN 上讨论：CLI 工具是不是都该补上鼠标支持。",
+    "en_title": "Should proper mouse support be added in CLI harnesses",
+    "en_oneliner": "While testing models on SWE-bench live, the author found a CLI coding assistant that supports the mouse and felt smoother for it, sparking a discussion on whether CLI tools should add mouse support."
+  },
+  "https://www.spaceacademy.net.au/watch/nudet/nds.htm": {
+    "zh_title": "如何探测核爆炸",
+    "zh_oneliner": "一篇科普文章，讲人类用什么方法探测核爆炸：地震波、放射性微粒和次声波各有什么用，适合对监测技术感兴趣的读者。",
+    "en_title": "Detecting Nuclear Explosions",
+    "en_oneliner": "A primer on how nuclear explosions are detected, covering seismic waves, radioactive particles and infrasound, for readers curious about monitoring tech."
+  },
+  "https://twitter.com/brianchau57/status/2121465308368265231": {
+    "zh_title": "《华尔街日报》被指捏造新加坡政府关于 Alice Huang 的表态",
+    "zh_oneliner": "一条推文指控《华尔街日报》捏造了新加坡政府有关 Alice Huang 的声明，HN 上的讨论集中在报道核实与信源可信度上。",
+    "en_title": "WSJ fabricated statements from the Singapore government regarding Alice Huang",
+    "en_oneliner": "A post accuses the Wall Street Journal of fabricating statements from Singapore's government about Alice Huang, with the Hacker News discussion focused on verification and source credibility."
   }
 }
