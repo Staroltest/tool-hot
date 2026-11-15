@@ -5086,5 +5086,605 @@
   "zh_oneliner": "加州大学伯克利分校的 SuperMimic 用一个可微世界模型训练人形机器人全身控制，1 张 GPU 训练 3 小时就超过了用 128 张 GPU 练 7 天的 SONIC，还能在真实 Unitree G1 上运行。",
   "en_title": "SuperMimic",
   "en_oneliner": "SuperMimic from UC Berkeley trains humanoid whole-body control with a single differentiable world model — 3 hours on one GPU to surpass SONIC, which took 7 days on 128 GPUs — and runs on a real Unitree G1."
+ },
+ "https://dev.to/robust_true_try/your-ai-generated-code-has-no-license-2edl": {
+  "zh_title": "AI 生成的代码没有许可证",
+  "zh_oneliner": "团队每天把 AI 生成的代码贴进生产环境，但这些代码既无许可证也无作者归属，文章教你核查 AI 工具的实际承诺并记录生成代码的来源。",
+  "en_title": "Your AI-Generated Code Has No License",
+  "en_oneliner": "Teams paste AI-generated code into production every day, yet it arrives with no license and no author, and this article shows how to check what your AI tools actually promise and record where generated code came from."
+ },
+ "https://dev.to/bianliang/invoiceplanes-administrator-and-guest-boundary-deserves-a-version-check-2e5o": {
+  "zh_title": "InvoicePlane 的管理员与访客边界值得一次版本检查",
+  "zh_oneliner": "开源开票软件 InvoicePlane 只区分管理员和访客两种账号，文章结合 1.6 版文档剖析公开付款页与私有客户数据之间的权限边界。",
+  "en_title": "InvoicePlane's Administrator and Guest Boundary Deserves a Version Check",
+  "en_oneliner": "Open-source invoicing software InvoicePlane only distinguishes Administrator and Guest accounts, and this article examines the permission boundary between public payment pages and private customer data against its 1.6 documentation."
+ },
+ "https://dev.to/lu1tr0n/clice-10-ya-aisla-cada-archivo-c-en-su-propio-proceso-4eli": {
+  "zh_title": "Clice 1.0：每个 C++ 文件都在独立进程中隔离解析",
+  "zh_oneliner": "用 C++23 从头写的 C/C++ 语言服务器 Clice 发布 1.0 版，四个月 Alpha 测试、超一千次提交之后正式登场，主打给每个文件单独的解析进程。",
+  "en_title": "Clice 1.0 isolates each C++ file in its own process",
+  "en_oneliner": "Clice, a C/C++ language server written from scratch in C++23, reaches 1.0 after four months of alpha testing and over a thousand commits, giving each file its own parsing process."
+ },
+ "https://dev.to/prewalk/automating-360deg-virtual-tours-from-your-own-app-a-rest-webhooks-workflow-1ekl": {
+  "zh_title": "在自家应用里自动生成 360° 虚拟看房：REST + Webhooks 工作流",
+  "zh_oneliner": "房源平台不用再逐套手动点进看房编辑器，这篇文章以 Prewalk API 为例，讲如何用 REST 加 Webhooks 把全景图推送成可分享的看房链接。",
+  "en_title": "Automating 360 virtual tours from your own app: a REST + webhooks workflow",
+  "en_oneliner": "Listing platforms no longer need to click through a tour editor property by property; using the Prewalk API as an example, this article shows how REST plus webhooks turn pushed panoramas into shareable tour links."
+ },
+ "https://dev.to/kobima6813/pgcoalesce-a-postgres-proxy-that-merges-concurrent-point-reads-4nc9": {
+  "zh_title": "pgcoalesce：合并并发点查的 Postgres 代理",
+  "zh_oneliner": "一个 Postgres 线协议代理，把几毫秒内涌入的同类主键读合并成一次查询执行，而且不是缓存，每次答案都实时读库，无法证明安全时直接失败。",
+  "en_title": "pgcoalesce: a Postgres proxy that merges concurrent point reads",
+  "en_oneliner": "A Postgres wire-protocol proxy that merges identical primary-key reads arriving within a few milliseconds into a single query; it is not a cache, since every answer is read live from Postgres, and it fails closed when safety cannot be proven."
+ },
+ "https://dev.to/prewalk/embedding-a-360-virtual-tour-on-any-website-iframe-vs-script-sizing-and-the-gotchas-436a": {
+  "zh_title": "在任意网站嵌入 360° 虚拟看房：iframe 与脚本之争、尺寸与坑点",
+  "zh_oneliner": "想把可漫游的 360° 看房直接放在房源页而不是只给链接，底层只是 iframe，但选错嵌入方式和尺寸就会显得格格不入，文章总结了 Prewalk 团队踩过的坑。",
+  "en_title": "Embedding a 360 virtual tour on any website: iframe vs. script, sizing and the gotchas",
+  "en_oneliner": "Putting a walkable 360° tour directly on a listing page instead of just linking out is just an iframe under the hood, but the wrong embedding choice or sizing makes it feel broken, and this article sums up the pitfalls the Prewalk team hit."
+ },
+ "https://dev.to/ahmad_dogar_7d098f5e48f72/nemotron-35-parse-vs-lightonocr-3-vs-docling-on-hard-invoices-what-the-numbers-mean-538k": {
+  "zh_title": "Nemotron 3.5 Parse 对比 LightOnOCR 3 与 Docling：难发票实测数字解读",
+  "zh_oneliner": "NVIDIA 6.31 亿参数的小文档解析器 Nemotron 3.5 Parse 撞上两张故意刁难的扫描发票，作者用实测分数拆解三款 OCR 工具在真实票据上的差距。",
+  "en_title": "Nemotron 3.5 Parse vs LightOnOCR 3 vs Docling on hard invoices: what the numbers mean",
+  "en_oneliner": "NVIDIA's 631-million-parameter document parser Nemotron 3.5 Parse takes on two deliberately difficult scanned invoices, and the author breaks down what the benchmark numbers actually say about three OCR tools on real receipts."
+ },
+ "https://dev.to/matsjohansson6547/how-to-compare-pricing-for-scalable-object-storage-services-continuous-app-data-backups-24f9": {
+  "zh_title": "可扩展对象存储怎么比价：以应用持续数据备份为例",
+  "zh_oneliner": "比对象存储价格不能只看每 GB 标价，文章教你按同一份持续备份 workload 把存储、请求、取回、传输与保留成本一次性算清楚。",
+  "en_title": "How to Compare Pricing for Scalable Object Storage Services — Continuous App Data Backups",
+  "en_oneliner": "Comparing object storage prices takes more than the per-GB sticker price; this article shows how to price storage, requests, retrieval, transfer, and retention against the same continuous backup workload."
+ },
+ "https://dev.to/ruslanower/the-zero-infrastructure-architecture-building-mobile-utilities-without-a-backend-3e91": {
+  "zh_title": "零基础设施架构：不用后端做移动小工具",
+  "zh_oneliner": "从一个 Firebase 实例起步，不知不觉就陷入基础设施泥潭，文章介绍一种不搭后端的移动小工具做法，把精力还给产品本身。",
+  "en_title": "The Zero-Infrastructure Architecture: Building Mobile Utilities Without a Backend",
+  "en_oneliner": "Starting from a single Firebase instance, developers slide into infrastructure creep without noticing, and this article presents a backend-free way to build mobile utilities that keeps the focus on the product itself."
+ },
+ "https://dev.to/godfreysterling1574/go-event-guarantees-for-heartbeat-monitoring-inside-an-incident-response-dashboard-4jco": {
+  "zh_title": "Go 事件保证与心跳监控：藏在事件响应看板里的设计",
+  "zh_oneliner": "心跳只能证明最近还有联系，绝不能证明每个事件都到了看板，文章讲如何用有序事件流、按设备序号与可续游标给市场设备状态做可靠监控。",
+  "en_title": "Go Event Guarantees for Heartbeat Monitoring (Inside an Incident Response Dashboard)",
+  "en_oneliner": "A heartbeat only proves recent contact, never that every event reached the dashboard, and this article explains how ordered event streams, per-device sequence numbers, and resumable cursors make marketplace device monitoring reliable."
+ },
+ "https://dev.to/nabeelbaghoor/my-cron-job-returns-200-when-every-fetch-fails-13k5": {
+  "zh_title": "我的定时任务每次抓取都失败，却还返回 200",
+  "zh_oneliner": "最糟的故障是悄无声息的失败：没有异常、没有 500，只是该发生的事没发生，作者反思自己明明写了“为沉默设警报”，却还是踩了这个坑。",
+  "en_title": "My Cron Job Returns 200 When Every Fetch Fails",
+  "en_oneliner": "The worst failures are silent ones: no exception, no 500, just something that should have happened and did not, and the author reflects on preaching \"alert on silence\" while falling into the same trap."
+ },
+ "https://dev.to/guidance_white/cve-2026-126187-unauthenticated-rce-in-react-server-components-flight-protocol-5e4h": {
+  "zh_title": "CVE-2026-126187：React Server Components Flight 协议未授权远程代码执行",
+  "zh_oneliner": "React Server Components 的 Flight 协议存在 CVSS 9.5 分的反序列化漏洞，未授权即可远程执行代码，影响 19.0 至 19.3 多个版本，官方已发布修复版。",
+  "en_title": "[CVE-2026-126187] — Unauthenticated RCE in React Server Components' Flight Protocol",
+  "en_oneliner": "A deserialization flaw in React Server Components' Flight protocol allows unauthenticated remote code execution with a CVSS score of 9.5, affecting versions 19.0 through 19.3, with fixed releases already out."
+ },
+ "https://www.reddit.com/r/coolgithubprojects/comments/1xx7gnz/kiwi_next": {
+  "zh_title": "Kiwi Next",
+  "zh_oneliner": "曾把桌面扩展带到安卓的 Kiwi 浏览器回来了，这次全面翻新，还内置了原生 AI 智能体工具。",
+  "en_title": "Kiwi Next",
+  "en_oneliner": "The browser that once brought desktop extensions to Android is back, fully modernized and supercharged with native AI agent tools."
+ },
+ "https://www.reddit.com/r/coolgithubprojects/comments/1xx7fkn/move_it_v010_move_your_whole_browser_logins": {
+  "zh_title": "Move It v0.1.0：把整个浏览器搬到任意设备",
+  "zh_oneliner": "开源工具 Move It 能把登录状态、Cookie、扩展及设置、书签和历史一并搬到另一台设备，甚至能在同一台电脑的不同浏览器之间迁移，全程加密且无需账号。",
+  "en_title": "Move It v0.1.0: move your whole browser (logins, cookies, extensions, history) to any device. Open source, GPL-3.0",
+  "en_oneliner": "Open-source tool Move It carries logins, cookies, extensions with their settings, bookmarks, and history to another device, even between different browsers on the same machine, fully encrypted and with no account needed."
+ },
+ "https://economist.com/business/2026/11/15/anthropics-giant-ipo-puts-the-heat-on-openai": {
+  "zh_title": "Anthropic 大规模 IPO 给 OpenAI 施压",
+  "zh_oneliner": "《经济学人》分析 Anthropic 筹备中的巨额上市将如何改变大模型厂商的竞争格局，给 OpenAI 带来新的压力。",
+  "en_title": "Anthropic's giant IPO puts the heat on OpenAI",
+  "en_oneliner": "The Economist examines how Anthropic's planned giant IPO could reshape competition among large-model makers and put fresh pressure on OpenAI."
+ },
+ "https://www.farmdash.one/agents": {
+  "zh_title": "FarmDash：面向 DeFi 智能体的零托管情报与控制层",
+  "zh_oneliner": "FarmDash 想给 DeFi 智能体做一个不用托管资产的情报与控制层，让自动化策略在不交出资金控制权的前提下运行。",
+  "en_title": "FarmDash: A zero-custody intelligence and control layer for DeFi agents",
+  "en_oneliner": "FarmDash aims to give DeFi agents an intelligence and control layer that never takes custody of assets, letting automated strategies run without handing over control of funds."
+ },
+ "https://adlrocha.substack.com/p/adlrocha-base-models-stopped-being": {
+  "zh_title": "基础模型不再是瓶颈",
+  "zh_oneliner": "作者认为大模型竞赛的瓶颈已经从基础模型本身转移，值得关注的战场换到了别处。",
+  "en_title": "Base Models Stopped Being the Bottleneck",
+  "en_oneliner": "The author argues the bottleneck in the model race has moved on from base models themselves, and the contest worth watching has shifted elsewhere."
+ },
+ "https://www.youtube.com/watch?v=9PznwFjA4to": {
+  "zh_title": "人类速度与 AI 速度的当下对比（视频）",
+  "zh_oneliner": "一段视频直观对比人类与 AI 在处理速度上的现状差距。",
+  "en_title": "Current human speed versus AI speed [video]",
+  "en_oneliner": "A video that visually compares how human speed stacks up against AI speed right now."
+ },
+ "https://dokira.com": {
+  "zh_title": "Dokira：由人工调优的发布商广告收入",
+  "zh_oneliner": "Dokira 帮内容发布商打理广告收入，主打人工调优而非完全交给算法。",
+  "en_title": "Dokira – Ad revenue for publishers, tuned by people",
+  "en_oneliner": "Dokira manages ad revenue for publishers, tuned by people rather than left entirely to algorithms."
+ },
+ "https://github.com/plannotator/sem-jiff": {
+  "zh_title": "Show HN：由 Jev 驱动的语义/结构化差异对比",
+  "zh_oneliner": "开源项目 sem-jiff 用 Jev 引擎做语义与结构层面的差异对比，作者还附了一段演示视频。",
+  "en_title": "Show HN: Semantic/Structural diffs powered by Jev",
+  "en_oneliner": "Open-source project sem-jiff uses the Jev engine for semantic and structural diffs, with a demo video from the author."
+ },
+ "https://retrocomputing.stackexchange.com/questions/11765": {
+  "zh_title": "调制解调器为什么会有扬声器？",
+  "zh_oneliner": "复古计算社区里一个有趣的问题：当年拨号调制解调器上的扬声器到底是用来干什么的。",
+  "en_title": "Why did modems have speakers?",
+  "en_oneliner": "A fun question from the retrocomputing community: what were the speakers on old dial-up modems actually for?"
+ },
+ "https://www.usnews.com/news/top-news/articles/2026-11-15/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports": {
+  "zh_title": "黄仁勋与盟友商讨回归 Nvidia CEO 之事",
+  "zh_oneliner": "据《金融时报》报道，黄仁勋正与盟友讨论重返 Nvidia 首席执行官岗位的可能性。",
+  "en_title": "Jensen Huang Discusses Comeback as Nvidia CEO with Allies",
+  "en_oneliner": "According to the Financial Times, Jensen Huang is discussing a possible return as Nvidia CEO with allies."
+ },
+ "https://longreads.com/2026/11/12/ice-loss-ravenna-koenig": {
+  "zh_title": "冰的消逝",
+  "zh_oneliner": "Longreads 的一篇长文，讲述冰层消融背后的人与故事。",
+  "en_title": "Ice Loss",
+  "en_oneliner": "A Longreads feature on the people and stories behind disappearing ice."
+ },
+ "https://www.cnn.com/2026/11/15/europe/estonia-close-russian-border-attack-intl": {
+  "zh_title": "爱沙尼亚将关闭与俄罗斯的边境，指责莫斯科策划纵火阴谋未遂",
+  "zh_oneliner": "爱沙尼亚宣布关闭与俄罗斯的边境，称挫败了一起由莫斯科策划的纵火阴谋。",
+  "en_title": "Estonia to shut its border with Russia, blaming Moscow for foiled arson plot",
+  "en_oneliner": "Estonia announces it will shut its border with Russia, saying it foiled an arson plot orchestrated by Moscow."
+ },
+ "https://www.nytimes.com/2026/11/15/business/technology-dependence-microsoft-airlines.html": {
+  "zh_title": "当技术“升级”出了岔子",
+  "zh_oneliner": "《纽约时报》盘点技术升级翻车的案例，从微软到航空公司，提醒人们对技术依赖的另一面。",
+  "en_title": "When Tech 'Upgrades' Go Awry",
+  "en_oneliner": "The New York Times rounds up cases of tech upgrades gone wrong, from Microsoft to airlines, as a reminder of the other side of technology dependence."
+ },
+ "https://www.reddit.com/r/InternetIsBeautiful/comments/1xx7ucf/i_built_an_open_archive_of_20000_vhs_covers": {
+  "zh_title": "我建了一个收录 2 万多张 VHS 封面的开放档案库",
+  "zh_oneliner": "作者自建了一个开放的 VHS 封面档案库，收录超过两万张怀旧录像带封面，可免费浏览。",
+  "en_title": "I built an open archive of 20,000+ VHS covers",
+  "en_oneliner": "The author built an open archive of more than 20,000 nostalgic VHS covers, free to browse."
+ },
+ "https://lemire.me/blog/2026/11/14/reading-json-at-277-gb-s-in-python": {
+  "zh_title": "用 Python 以 277 GB/s 的速度读取 JSON",
+  "zh_oneliner": "Daniel Lemire 的博客实测 Python 读取 JSON 达到 277 GB/s，拆解背后的加速思路。",
+  "en_title": "Reading JSON at 277 GB/s in Python",
+  "en_oneliner": "Daniel Lemire's blog benchmarks Python reading JSON at 277 GB/s and breaks down how the speedup works."
+ },
+ "https://www.yudkowsky.net/singularity/aibox": {
+  "zh_title": "AI 盒子实验（2002）",
+  "zh_oneliner": "Yudkowsky 在 2002 年做的 AI 盒子实验，探讨被关在盒子里的人工智能能否说服看守放它出来。",
+  "en_title": "The AI-Box Experiment (2002)",
+  "en_oneliner": "Yudkowsky's 2002 AI-box experiment explores whether an AI locked in a box could talk its gatekeeper into letting it out."
+ },
+ "https://github.com/ivanjoz/colbin": {
+  "zh_title": "Colbin：比 Protobuf 更快更小的序列化格式，无需代码生成",
+  "zh_oneliner": "开源序列化格式 Colbin 号称比 Protobuf 更快、体积更小，而且不需要代码生成步骤。",
+  "en_title": "Colbin: Serialization format faster and smaller than Protobuf. No code-gen",
+  "en_oneliner": "Open-source serialization format Colbin claims to be faster and smaller than Protobuf, with no code-generation step required."
+ },
+ "https://www.reuters.com/business/aerospace-defense/us-rocket-fails-after-launch-payload-amazon-internet-satellites-destroyed-2026-11-15": {
+  "zh_title": "波音-洛克希德火箭飞行中失败，亚马逊卫星载荷尽毁",
+  "zh_oneliner": "波音与洛克希德合资的火箭发射后飞行中失败，搭载的亚马逊互联网卫星全部损毁。",
+  "en_title": "Boeing-Lockheed rocket fails mid-flight, destroys payload of Amazon satellites",
+  "en_oneliner": "A rocket from the Boeing-Lockheed joint venture failed mid-flight after launch, destroying its payload of Amazon internet satellites."
+ },
+ "https://www.reddit.com/r/coolgithubprojects/comments/1xx7yfq/topiqu_an_opensource_blogging_platform_built_with": {
+  "zh_title": "Topiqu：用 Nuxt、Vue 与 PostgreSQL 搭建的开源博客平台",
+  "zh_oneliner": "开源博客平台 Topiqu 基于 Nuxt、Vue 和 PostgreSQL，可自建博客、自定义外观并发布文章，代码以 AGPL-3.0 协议公开。",
+  "en_title": "Topiqu - An open-source blogging platform built with Nuxt, Vue and PostgreSQL",
+  "en_oneliner": "Open-source blogging platform Topiqu, built with Nuxt, Vue, and PostgreSQL, lets you run your own blog, customize its look, and publish posts, with source code released under AGPL-3.0."
+ },
+ "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry": {
+  "zh_title": "黄仁勋的坏消息，对 AI 行业也是坏消息吗？",
+  "zh_oneliner": "TechCrunch 探讨一个问题：黄仁勋几乎就是 Nvidia 的代名词，而太多经济增长都押在 Nvidia 身上，他的麻烦会不会拖累整个 AI 行业。",
+  "en_title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+  "en_oneliner": "TechCrunch asks whether trouble for Jensen Huang spells trouble for the AI industry, given that he is practically synonymous with Nvidia and so much of the economy rides on it."
+ },
+ "https://www.theverge.com/entertainment/1034013/armand-hammers-snakes-ladders-review": {
+  "zh_title": "听听这首：Armand Hammer 的《Snakes & Ladders》",
+  "zh_oneliner": "The Verge 推荐 Armand Hammer 本周突然上线的专辑《Snakes & Ladders》，两位主创一贯水准在线。",
+  "en_title": "Listen to this: Armand Hammer’s Snakes &#038; Ladders",
+  "en_oneliner": "The Verge recommends Armand Hammer's surprise album Snakes & Ladders, which dropped this week, from a duo that rarely misses."
+ },
+ "https://dev.to/rosgluk/idiomatic-go-with-ai-coding-agents-what-works-and-what-fails-4m77": {
+  "zh_title": "用 AI 编程智能体写地道 Go：哪些行得通、哪些会翻车",
+  "zh_oneliner": "AI 编程智能体写 Go 很快，但写出来的代码常常偏离地道风格，文章拆解智能体容易踩的坑，以及如何让 Go 项目保持可维护。",
+  "en_title": "Idiomatic Go with AI Coding Agents: What Works and What Fails",
+  "en_oneliner": "AI coding agents write Go fast, but the result often drifts from idiomatic style; this article breaks down where agents fail and how to keep a Go project maintainable."
+ },
+ "https://rbit.sh": {
+  "zh_title": "Show HN：Rbit——用 Rust 写的自托管 Git 锻造平台",
+  "zh_oneliner": "自托管 Git 平台 Rbit 用 Rust、Axum、Gitoxide 等打造，主打速度、安全与高效，适合想自己搭代码托管的人。",
+  "en_title": "Show HN: Rbit – Self Hosted Git Forge in Rust",
+  "en_oneliner": "Self-hosted git forge Rbit, built in Rust with Axum, Gitoxide, and SQLite, is designed around speed, security, and efficiency for anyone wanting to host their own code."
+ },
+ "https://dev.to/erasmuspierce7981/nextjs-feature-flag-toggle-admin-page-and-server-side-backend-api-5f6j": {
+  "zh_title": "Next.js 功能开关切换：管理页与服务端后端 API",
+  "zh_oneliner": "定价开关只有在运营能还原某次结账时服务器用了哪个值才算安全，文章给小型 Next.js 应用讲了一个简单可控的管理端开关做法。",
+  "en_title": "Next.js Feature Flag Toggle: Admin Page and Server-Side Backend API",
+  "en_oneliner": "A pricing flag is only safe when an operator can reconstruct which value the server used for a particular checkout, and this article shows a simple, controllable admin-side toggle for small Next.js apps."
+ },
+ "https://dev.to/migas_moreno/google-agent-platform-across-clouds-with-spiffe-zero-secrets-between-google-cloud-and-microsoft-1hjg": {
+  "zh_title": "跨云 Google Agent Platform 与 SPIFFE：Google Cloud 和 Microsoft Entra 之间零密钥",
+  "zh_oneliner": "一个跨云概念验证：跑在 Azure Microsoft Foundry 的智能体与跑在 Google Cloud 的智能体用 SPIFFE 互认身份，全程不用共享任何密钥。",
+  "en_title": "Google Agent Platform across clouds with SPIFFE: zero secrets between Google Cloud and Microsoft Entra",
+  "en_oneliner": "A cross-cloud proof of concept where an agent on Azure's Microsoft Foundry and another on Google Cloud verify each other with SPIFFE, sharing no secrets at all."
+ },
+ "https://dev.to/michaelpolowczuk/what-i-learned-building-my-first-electron-application-2o1o": {
+  "zh_title": "我做第一个 Electron 应用学到的东西",
+  "zh_oneliner": "作者用熟悉的 Web 技术做跨平台桌面应用 Axion Notes，复盘第一次上手 Electron 的实战心得。",
+  "en_title": "What I Learned Building My First Electron Application",
+  "en_oneliner": "The author built cross-platform desktop app Axion Notes with familiar web technologies and shares what they learned using Electron for the first time."
+ },
+ "https://dev.to/ryan_williams_6702931dbee/how-i-built-spendsight-to-track-multi-model-ai-api-spend-without-monthly-saas-subscriptions-5g92": {
+  "zh_title": "我怎么做 Spendsight 追踪多模型 AI API 花费（不用按月订 SaaS）",
+  "zh_oneliner": "同时用 OpenAI、Anthropic、Gemini 和 Azure OpenAI 时花销去向很快变得一团糟，作者自己做了 Spendsight 来统一追踪，还省掉了月度订阅。",
+  "en_title": "How I Built Spendsight to Track Multi-Model AI API Spend (Without Monthly SaaS Subscriptions)",
+  "en_oneliner": "Juggling OpenAI, Anthropic, Gemini, and Azure OpenAI makes API spending hard to track, so the author built Spendsight to watch it all in one place without a monthly SaaS subscription."
+ },
+ "https://thehill.com/homenews/administration/6221360-duffy-blames-congress-air-traffic": {
+  "zh_title": "Duffy 把停飞归咎于国会拨款不足",
+  "zh_oneliner": "美国交通部长 Duffy 称全国停飞源于国会拨款不到位。",
+  "en_title": "Duffy pins ground stop on Congress's lack of funding",
+  "en_oneliner": "US Transportation Secretary Duffy blames the nationwide ground stop on Congress's lack of funding."
+ },
+ "https://dev.to/ctrlcheese/google-plays-12-testers-for-14-days-rule-nearly-killed-my-launch-so-i-built-a-marketplace-to-479o": {
+  "zh_title": "Google Play“12 名测试者测满 14 天”的规则差点毁了我的上线，于是我做了个市场来解决它",
+  "zh_oneliner": "个人 Google Play 开发者账号发应用前必须有 12 名测试者连续封闭测试 14 天，作者自己找人太慢，干脆做了个测试者撮合市场。",
+  "en_title": "Google Play's '12 testers for 14 days' rule nearly killed my launch — so I built a marketplace to fix it",
+  "en_oneliner": "A personal Google Play developer account cannot publish until 12 testers have been in a closed test for 14 continuous days, and finding testers alone was so slow the author built a marketplace to fix it."
+ },
+ "https://dev.to/nitricware/using-fastlane-as-a-solo-dev-1oep": {
+  "zh_title": "独立开发者怎么用 fastlane",
+  "zh_oneliner": "以前给 App Store 截图只要在模拟器里手动点一点就行，直到一次要出 5 套截图，作者聊聊独立开发者用 fastlane 提效的做法。",
+  "en_title": "Using fastlane as a solo dev",
+  "en_oneliner": "App Store screenshots used to mean manually tapping through a simulator, until one release needed five sets, and the author shares how a solo dev uses fastlane to speed that up."
+ },
+ "https://dev.to/minia2a/a-402-after-payment-is-not-a-402-before-payment-57kc": {
+  "zh_title": "付款后的 402 不是付款前的 402",
+  "zh_oneliner": "同样是 HTTP 402，付款前和付款后完全是两回事，文章结合 Base 链上 USDC 按调用付费的 x402 模式讲清其中的差别。",
+  "en_title": "A 402 after payment is not a 402 before payment",
+  "en_oneliner": "The same HTTP 402 means something completely different before payment than after it, and this article explains the distinction through the x402 pay-per-call model in USDC on Base."
+ },
+ "https://dev.to/pich/your-next-llm-has-a-loops-knob-what-looped-transformers-do-to-latency-memory-and-your-bill-15ig": {
+  "zh_title": "你的下一个大模型有个“循环”旋钮：循环 Transformer 对延迟、内存和账单的影响",
+  "zh_oneliner": "一个 36 层模型每生成一个 token 实际跑了 96 层，权重却没变，这就是循环 Transformer，文章讲它会如何影响延迟、内存和成本。",
+  "en_title": "Your next LLM has a \"loops\" knob: what looped transformers do to latency, memory and your bill",
+  "en_oneliner": "A 36-layer model just ran 96 layers per token without changing its weights; that is what a looped transformer does, and this article explains what it means for latency, memory, and cost."
+ },
+ "https://www.sciencealert.com/scientists-invented-an-electric-comb-and-tests-in-mice-show-it-promotes-rapid-hair-growth": {
+  "zh_title": "电动梳子促进小鼠毛发快速生长",
+  "zh_oneliner": "科学家发明了一种电动梳子，小鼠实验显示它能促进毛发快速生长。",
+  "en_title": "Electric Comb Promotes Rapid Hair Growth in Mice",
+  "en_oneliner": "Scientists invented an electric comb, and tests in mice show it promotes rapid hair growth."
+ },
+ "https://www.nytimes.com/2026/11/15/world/europe/ron-arad-missing-israel-iran-asgari-hunt.html": {
+  "zh_title": "以色列为寻找 Ron Arad 绑架伊朗将军并打死一人",
+  "zh_oneliner": "《纽约时报》披露，以色列为寻找失踪飞行员 Ron Arad 绑架了伊朗将军，其中一人被打死。",
+  "en_title": "Israel kidnapped Iranian generals, killed one, in effort to locate Ron Arad",
+  "en_oneliner": "The New York Times reports Israel kidnapped Iranian generals, killing one, in an effort to locate missing airman Ron Arad."
+ },
+ "https://dev.to/artbanrox/a-scam-email-from-the-real-google-4l3k": {
+  "zh_title": "一封来自真正 Google 的诈骗邮件",
+  "zh_oneliner": "去年一封钓鱼邮件发自真正的 no-reply@google.com，还通过了 Google 自己的签名校验，骗子让 Google 的系统替他们发了信。",
+  "en_title": "A scam email from the real Google",
+  "en_oneliner": "Last year a phishing email arrived from the real no-reply@google.com and passed Google's own signature check, because scammers got Google's system to send it for them."
+ },
+ "https://dev.to/artbanrox/the-scam-email-that-comes-from-your-own-company-54i2": {
+  "zh_title": "那封“来自”你自己公司的诈骗邮件",
+  "zh_oneliner": "有些诈骗邮件看起来发自你自己的公司，连域名和工资单通知格式都一模一样，文章揭开 Microsoft 365 的 Direct Send 功能如何被利用。",
+  "en_title": "The scam email that comes \"from\" your own company",
+  "en_oneliner": "Some scam emails look like they came from inside your own company, domain and payroll-notice format included, and this article shows how Microsoft 365's Direct Send feature gets abused."
+ },
+ "https://dev.to/artbanrox/your-banks-email-can-be-faked-and-still-follow-the-rules-5dk7": {
+  "zh_title": "银行邮件也能伪造，而且还合规",
+  "zh_oneliner": "多数人以为银行邮件伪造不了，其实可以，文章讲 DMARC 的三种处理策略如何让伪造邮件照样通过规则。",
+  "en_title": "Your bank's email can be faked, and still follow the rules",
+  "en_oneliner": "Most people think email from a bank cannot be faked, but it can, and this article explains how DMARC's three handling options let spoofed mail still follow the rules."
+ },
+ "https://speech.tobiokewole.com": {
+  "zh_title": "从零用 Rust 写一个语音识别器，零依赖",
+  "zh_oneliner": "作者从零实现了一个 Rust 语音识别器，不用任何第三方依赖。",
+  "en_title": "Building a Speech Recognizer from Scratch in Rust, No Dependencies",
+  "en_oneliner": "The author built a speech recognizer from scratch in Rust, with no dependencies at all."
+ },
+ "https://x.com/paulg/status/2122033524857589799": {
+  "zh_title": "限制因素不是投资，而是创始人的能力",
+  "zh_oneliner": "Paul Graham 认为制约创业公司的不是钱，而是创始人的能力。",
+  "en_title": "The limiting factor isn't investment. It's founder ability",
+  "en_oneliner": "Paul Graham argues the limiting factor for startups is not investment, but founder ability."
+ },
+ "https://www.nytimes.com/2026/11/11/opinion/jensen-huang-leather-jacket.html": {
+  "zh_title": "《纽约时报》：黄仁勋背叛了皮衣社区",
+  "zh_oneliner": "《纽约时报》一篇观点文章调侃：黄仁勋换下标志性皮衣，算是背叛了皮衣爱好者群体。",
+  "en_title": "NYT: Jensen Huang betrayed the leather jacket community",
+  "en_oneliner": "A New York Times opinion piece jokes that Jensen Huang betrayed the leather-jacket community by ditching his signature look."
+ },
+ "https://dev.to/mubashir_arham/decoding-bmw-groups-graviton-powered-leap-a-deep-dive-into-arm-first-connected-vehicle-26hj": {
+  "zh_title": "解读宝马集团的 Graviton 飞跃：ARM 优先车联网架构深挖",
+  "zh_oneliner": "汽车行业谈车联网总绕不开远程信息处理与 OTA，文章深挖宝马如何用 Graviton 走 ARM 优先的车联网架构。",
+  "en_title": "Decoding BMW Group’s Graviton‑Powered Leap: A Deep Dive into ARM‑First Connected Vehicle Architecture",
+  "en_oneliner": "Connected-vehicle talk usually circles telematics and OTA updates, and this article digs into how BMW is betting on a Graviton-powered, ARM-first architecture."
+ },
+ "https://dev.to/marcoblch/my-qa-bot-left-a-199-unpaid-checkout-every-30-minutes-5cn1": {
+  "zh_title": "我的 QA 机器人每 30 分钟留下一个 1.99 美元的未付款订单",
+  "zh_oneliner": "某天早上打开 Stripe 应用，作者发现 QA 机器人每半小时就留下一笔 1.99 美元的未付款结账，复盘这个真实的生产小事故。",
+  "en_title": "My QA Bot Left a $1.99 Unpaid Checkout Every 30 Minutes",
+  "en_oneliner": "One morning in the Stripe app, the author found the QA bot leaving a $1.99 unpaid checkout every 30 minutes, and retraces how that small production mishap happened."
+ },
+ "https://dev.to/marcoblch/i-sent-32-ai-agents-to-find-a-hackathon-idea-none-survived-1cj5": {
+  "zh_title": "我派 32 个 AI 智能体去找黑客松点子，全军覆没",
+  "zh_oneliner": "Marc Lou 办了一场 10 万美元黑客松，作者派出 32 个 AI 智能体去找点子，结果一个都没活下来。",
+  "en_title": "I Sent 32 AI Agents to Find a Hackathon Idea. None Survived.",
+  "en_oneliner": "With Marc Lou running a $100K hackathon, the author sent 32 AI agents hunting for an idea, and none of them survived."
+ },
+ "https://dev.to/raxxostudios/i-measured-whether-trycatch-still-slows-a-hot-loop-5c00": {
+  "zh_title": "我实测了 try/catch 是否还会拖慢热循环",
+  "zh_oneliner": "老建议说 try/catch 包的代码越少越好因为慢，作者在 Node 22 上实测：五千万次循环裸跑 524.6 毫秒、包 try/catch 跑 502.9 毫秒，基本没差别。",
+  "en_title": "I Measured Whether try/catch Still Slows a Hot Loop",
+  "en_oneliner": "Old advice says to wrap less code in try/catch because it is slow, so the author measured it on Node 22: a 50-million-iteration loop took 524.6ms plain and 502.9ms wrapped, with no real gap."
+ },
+ "https://dev.to/maciejziel/my-n1-test-plugin-failed-551-tests-on-someone-elses-project-nearly-all-of-them-were-noise-2pip": {
+  "zh_title": "我的 N+1 测试插件在别人的项目上挂了 551 个测试，几乎全是噪声",
+  "zh_oneliner": "作者维护的 pytest 插件 pytest-queryguard 会在代码每行发一条查询时让测试失败，可在别人项目上跑出的 551 个失败里几乎全是误报。",
+  "en_title": "My N+1 test plugin failed 551 tests on someone else's project. Nearly all of them were noise.",
+  "en_oneliner": "The author maintains pytest-queryguard, a pytest plugin that fails tests when code sends one query per row, but of the 551 failures it raised on someone else's project, nearly all were noise."
+ },
+ "https://dev.to/yanoai/secure-ai-framework-how-uber-governs-autonomous-agents-across-their-lifecycle-3696": {
+  "zh_title": "安全 AI 框架：Uber 如何在全生命周期治理自主智能体",
+  "zh_oneliner": "到 2028 年智能体 AI 可能进入三分之一的企业软件，文章讲 Uber 如何给自主智能体从上线到退役的全生命周期立规矩。",
+  "en_title": "Secure AI Framework: How Uber Governs Autonomous Agents Across Their Lifecycle",
+  "en_oneliner": "With agentic AI projected inside a third of enterprise software by 2028, this article explains how Uber governs autonomous agents across their whole lifecycle."
+ },
+ "https://dev.to/celesteraine1783/nodejs-logistics-watermark-3-public-crops-from-one-private-original-135i": {
+  "zh_title": "Node.js 物流水印：同一张私密原图切出 3 张公开裁剪图",
+  "zh_oneliner": "物流图片管线里每次公开查看都碰私密原图既贵又不安全，文章讲如何用 Node.js 从一张私密原图生成多张公开裁剪图并打上水印。",
+  "en_title": "Node.js Logistics Watermark: 3 Public Crops from One Private Original",
+  "en_oneliner": "A logistics image pipeline gets expensive and unsafe when every public view touches the private master, and this article shows how Node.js turns one private original into several watermarked public crops."
+ },
+ "https://dev.to/admire_chagaresango_fa630/the-world-of-math-and-games-3fia": {
+  "zh_title": "数学与游戏的世界",
+  "zh_oneliner": "每次流畅的跳跃、爽快的命中与漂亮的漂移背后，都有一层简单的数学在默默工作，文章以 Brawlhalla 和 FUMES 两款游戏为例拆解其中的数学。",
+  "en_title": "The world of Math and Games",
+  "en_oneliner": "Behind every smooth jump, satisfying hit, and drift around a corner, a layer of simple math is quietly at work, explained here through two very different games, Brawlhalla and FUMES."
+ },
+ "https://dev.to/redomic/otomoto-has-no-public-api-how-to-get-its-car-listings-as-json-or-csv-36dh": {
+  "zh_title": "Otomoto 没有公开 API：怎么把它的汽车列表抓成 JSON 或 CSV",
+  "zh_oneliner": "Otomoto 是波兰最大的汽车交易市场却没有公开 API，文章讲如何用代码拿到它的车源列表，拿来估价、跟踪折旧或盯着竞争对手。",
+  "en_title": "Otomoto has no public API: how to get its car listings as JSON or CSV",
+  "en_oneliner": "Otomoto is Poland's biggest car marketplace with no public API, and this article shows how to pull its listings as code for pricing cars, tracking depreciation, or watching rival dealers."
+ },
+ "https://www.reddit.com/r/coolgithubprojects/comments/1xx804d/display_hot_keys_450_release_added_localization": {
+  "zh_title": "Display Hot Keys 4.5.0 发布：新增本地化",
+  "zh_oneliner": "一键切换显示器分辨率、刷新率、DPI 缩放与方向的工具 Display Hot Keys 发布 4.5.0 版，新增十种语言的本地化。",
+  "en_title": "Display Hot Keys 4.5.0 Release - Added Localization",
+  "en_oneliner": "Display Hot Keys, a tool that applies resolution, refresh rate, DPI scale, and orientation with user-defined hotkeys, releases 4.5.0 with localization into ten languages."
+ },
+ "https://dev.to/oceancoldiron/how-i-evaluate-a-rag-system-before-it-touches-healthcare-data-m7b": {
+  "zh_title": "医疗数据上岗前，我怎么评估 RAG 系统",
+  "zh_oneliner": "医疗数据里一个自信的错误答案比缓慢的正确答案更糟，文章讲 RAG 演示一下午就能搭出来，但一碰真实医疗数据就可能翻车，该怎么提前评估。",
+  "en_title": "How I Evaluate a RAG System Before It Touches Healthcare Data",
+  "en_oneliner": "In healthcare data, a confident wrong answer is worse than a slow right one, and this article explains how to evaluate a RAG system before it meets real medical data, even though a demo can look finished in an afternoon."
+ },
+ "https://dev.to/papajams/can-a-small-open-weights-model-learn-to-enforce-its-own-spending-mandate-4ln3": {
+  "zh_title": "小型开源权重模型能学会执行自己的花钱授权吗？",
+  "zh_oneliner": "企业智能体开始握有钱包，治理却停在钱包门口，文章探讨小型开源权重模型能否学会自我约束花钱，来自 Lexsi AI 安全黑客松的参赛思路。",
+  "en_title": "Can a Small Open-Weights Model Learn to Enforce Its Own Spending Mandate?",
+  "en_oneliner": "Enterprise agents are starting to hold the wallet while governance stops at its door, and this article explores whether a small open-weights model can learn to enforce its own spending mandate."
+ },
+ "https://dev.to/hongye_dev/four-layers-of-bot-detection-and-why-disabling-the-first-one-changes-nothing-3fnn": {
+  "zh_title": "机器人检测的四层防线，以及为什么关掉第一层毫无作用",
+  "zh_oneliner": "多数人对抗反机器人系统时找到哪项检查失败就绕过哪项，文章讲机器人检测其实有四层防线，只关第一层根本改变不了什么。",
+  "en_title": "Four layers of bot detection, and why disabling the first one changes nothing",
+  "en_oneliner": "Most people fighting anti-bot systems defeat whichever check is failing, but this article explains that bot detection has four layers, and disabling the first one changes nothing."
+ },
+ "https://dev.to/jeffreyciend/openhim-channel-access-should-be-audited-through-clients-and-roles-4pf7": {
+  "zh_title": "OpenHIM 的通道访问应该按客户端和角色来审计",
+  "zh_oneliner": "开源医疗信息中介 OpenHIM 负责在各系统间收发并路由医疗交易，文章主张按客户端和角色来审计它的通道访问权限。",
+  "en_title": "OpenHIM channel access should be audited through clients and roles",
+  "en_oneliner": "OpenHIM, an open-source health information mediator that routes transactions between client systems and services, should have its channel access audited through clients and roles, this article argues."
+ },
+ "https://dev.to/saveshelf/how-to-unsave-and-clean-up-reddit-saved-posts-safely-59l8": {
+  "zh_title": "如何安全地取消收藏并清理 Reddit 保存的帖子",
+  "zh_oneliner": "Reddit 收藏夹攒成杂物间之后想一键清空并不安全，文章讲官方并没有批量取消收藏的入口，以及作者自家的 SaveShelf 是怎么帮你一条条稳妥清理的。",
+  "en_title": "How to unsave and clean up Reddit saved posts safely",
+  "en_oneliner": "Once your Reddit saved list turns into a junk drawer, clearing it all at once is not safe, and this article explains that Reddit offers no official bulk-unsave option and how the author's SaveShelf cleans it up one item at a time."
+ },
+ "https://dev.to/darkveilcorvyn26/queue-fanout-beats-monolithic-cron-for-large-recipient-list-email-retries-45m2": {
+  "zh_title": "大收件人列表的邮件重试，队列扇出胜过单体 Cron",
+  "zh_oneliner": "给成千上万收件人发日报邮件时，一个定时任务包揽一切很容易在重试时翻车，文章主张只用 Cron 认领任务，再让队列工作线程逐封发送并带上幂等键。",
+  "en_title": "Queue Fanout Beats Monolithic Cron for Large Recipient List Email Retries",
+  "en_oneliner": "When a daily report email goes to thousands of recipients, one cron job doing everything tends to break on retries, so this article argues for letting cron only admit the work while queue-backed workers send each email with bounded retries and a dedupe key."
+ },
+ "https://dev.to/himanshubhambri/oracle-project-cost-exceptions-assistant-agent-4ne": {
+  "zh_title": "Oracle 项目成本异常助手 Agent",
+  "zh_oneliner": "Oracle Fusion Cloud 里项目成本导入失败会卡在月结关口，文章介绍一个助手 Agent 如何盯住这些成本异常并帮你定位缺失费率或会计期间等问题。",
+  "en_title": "Oracle Project Cost Exceptions Assistant Agent",
+  "en_oneliner": "In Oracle Fusion Cloud, failed project cost imports can stall the month-end close, and this article introduces an assistant agent that watches these cost exceptions and helps pinpoint missing rates or accounting period issues."
+ },
+ "https://dev.to/hatchlit/where-to-launch-a-side-project-in-2026-what-each-free-launch-site-asks-for-5bmn": {
+  "zh_title": "2026 年副业产品去哪首发：各免费发布站都要你准备什么",
+  "zh_oneliner": "作者把两个小产品免费挂上约 40 个发布站才发现，写介绍只要一小时，满足各站五花八门的前置要求却要花好几天，这篇按门槛类型帮你排好首发周计划。",
+  "en_title": "Where to launch a side project in 2026: what each free launch site asks for",
+  "en_oneliner": "After listing two small products on about 40 launch sites using only free options, the author found writing the listing took an hour while satisfying each site's different prerequisites took days, and this guide groups those hurdles so you can plan your launch week."
+ },
+ "https://dev.to/kevin_menesesgonzlez/8-best-mcp-servers-for-financial-data-in-2026-tested-41o1": {
+  "zh_title": "2026 年 8 个最好的金融数据 MCP 服务器（实测）",
+  "zh_oneliner": "多数所谓最佳 MCP 榜单只抄 README、从不真接数据，作者逐个实测了 8 个金融数据 MCP 服务器，从 EODHD 的一站式行情到免费的 SEC EDGAR，给出该选谁的实在结论。",
+  "en_title": "8 Best MCP Servers for Financial Data in 2026 (Tested)",
+  "en_oneliner": "Most so-called best MCP server lists just copy the README without connecting anything, so the author tested eight financial data MCP servers hands-on, from EODHD's one-stop market data to the free SEC EDGAR, and gives a straight answer on which to pick."
+ },
+ "https://dev.to/randomchaos/claude-office-party-enables-linux-code-execution-41h": {
+  "zh_title": "Claude Office Party 漏洞可在 Linux 上执行代码",
+  "zh_oneliner": "Claude 官方文档处理技能里一条写死的临时文件路径，会让 LibreOffice 在 Linux 上加载并执行攻击者提供的共享库，文章讲这个名为 Office Party 的漏洞是怎么被发现的。",
+  "en_title": "Claude Office Party Enables Linux Code Execution",
+  "en_oneliner": "A fixed temporary-file path in Claude's official document-processing skills can make LibreOffice load and execute an attacker-supplied shared library on Linux, and this article explains how the flaw, named Office Party, was found."
+ },
+ "https://dev.to/franklinai/google-labs-is-testing-tabletop-a-shared-prompt-driven-planning-space-23fl": {
+  "zh_title": "Google Labs 正在测试 Tabletop，一个共享的提示词驱动规划空间",
+  "zh_oneliner": "Google Labs 的新实验 Tabletop 把提示词和模板变成可以多人协作的互动工作区，旅行行程、聚餐投票、分摊费用都能在里面边聊边改。",
+  "en_title": "Google Labs is testing Tabletop, a shared prompt-driven planning space",
+  "en_oneliner": "Google Labs' new experiment Tabletop turns prompts and templates into shared interactive workspaces where trip itineraries, dinner polls, and expense splitting can evolve live with collaborators."
+ },
+ "https://dev.to/tatianakoval/building-a-web3-product-in-dubai-how-vara-licensing-maps-onto-your-architecture-34mh": {
+  "zh_title": "在迪拜做 Web3 产品：VARA 牌照如何对应你的架构",
+  "zh_oneliner": "加密创业者常常产品都上线了才撞上监管，文章讲迪拜 VARA 是按业务活动逐项发牌的，你的产品功能清单几乎就是牌照清单，架构设计时就得对上号。",
+  "en_title": "Building a Web3 product in Dubai: how VARA licensing maps onto your architecture",
+  "en_oneliner": "Crypto founders often meet regulation only after the product ships, and this article explains that Dubai's VARA licenses activities one by one, so your feature list effectively becomes your license list and your architecture has to match from the start."
+ },
+ "https://dev.to/edith_ogechiodo_48a0e8ed/deploying-a-flask-api-to-kubernetes-with-kind-and-argo-cd-52fi": {
+  "zh_title": "用 KIND 和 Argo CD 把 Flask API 部署到 Kubernetes",
+  "zh_oneliner": "一个 DevOps 实战项目的收尾篇，作者用 KIND 在本地起 Kubernetes 集群，再用 Argo CD 做 GitOps 部署，并接上 Prometheus 与 Grafana 做监控。",
+  "en_title": "Deploying a Flask API to Kubernetes with KIND and Argo CD",
+  "en_oneliner": "The closing chapter of a DevOps capstone project, where the author spins up a local Kubernetes cluster with KIND, deploys with Argo CD using GitOps, and wires up Prometheus and Grafana for monitoring."
+ },
+ "https://dev.to/gde/one-model-gateway-across-clouds-litellm-on-cloud-run-and-azure-with-zero-api-keys-3ma7": {
+  "zh_title": "一个跨云模型网关：LiteLLM 跑在 Cloud Run 与 Azure，全程零 API 密钥",
+  "zh_oneliner": "两个分处 Google Cloud 与 Azure 的 AI Agent 要调用模型却不想存任何密钥，文章讲如何用 LiteLLM 搭一个双云模型网关，让双方凭身份直接访问 Gemini 与 Azure OpenAI。",
+  "en_title": "One model gateway across clouds: LiteLLM on Cloud Run and Azure with zero API keys",
+  "en_oneliner": "Two AI agents on Google Cloud and Azure need to call models without storing any secrets, and this article shows how a LiteLLM gateway running in both clouds lets them reach Gemini and Azure OpenAI using identity alone."
+ },
+ "https://dev.to/sterlingvance2196/realtime-trading-watchlists-audit-trails-for-notification-preference-verification-4fkp": {
+  "zh_title": "实时交易自选股：用审计轨迹验证通知偏好设置",
+  "zh_oneliner": "交易台的共享工作区里“在线”只说明连着，不代表有权看别人的自选股，文章讲把授权判定和审计记录当成一笔确定性事务来测，才能验证通知偏好没被越权改动。",
+  "en_title": "Realtime Trading Watchlists: Audit Trails for Notification Preference Verification",
+  "en_oneliner": "In a trading desk's shared workspace, being online only means connected, not authorized to view someone else's watchlist, and this article explains how to test the authorization decision and its audit record as one deterministic transaction to verify notification preferences."
+ },
+ "https://dev.to/stark_zhuang_df5076f35c68/senaite-api-access-needs-role-scoped-credentials-and-https-566a": {
+  "zh_title": "SENAITE API 访问需要按角色划分的凭证与 HTTPS",
+  "zh_oneliner": "开源实验室信息管理系统 SENAITE 的 JSON API 能读写样本与工作流，凭证一旦泄露就可能动到实验室的证据链，文章讲为什么必须用角色限定的凭证并走 HTTPS。",
+  "en_title": "SENAITE API access needs role-scoped credentials and HTTPS",
+  "en_oneliner": "The JSON API of SENAITE, an open-source lab information system, can read and write samples and workflows, so a leaked credential could reach the lab's evidence chain, and this article explains why access needs role-scoped credentials over HTTPS."
+ },
+ "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html": {
+  "zh_title": "Eric Trump 支持的机器人士兵初创公司发不出工资，创始人挪用 460 万美元",
+  "zh_oneliner": "一家背靠 Eric Trump 的机器人士兵初创公司连工资都发不出来了，CNBC 报道称创始人涉嫌挪用 460 万美元，曾经风光的军工 AI 故事翻了车。",
+  "en_title": "Eric Trump-backed robot soldier startup can't pay staff; founder embezzled $4.6M",
+  "en_oneliner": "A robot soldier startup backed by Eric Trump can no longer pay its staff, and CNBC reports its founder allegedly embezzled $4.6 million, turning a once-hyped military AI story upside down."
+ },
+ "https://raymii.org/s/blog/Placeholder.html": {
+  "zh_title": "网站改版说明",
+  "zh_oneliner": "Raymii 个人站的一则简短更新，记下网站最近的改动，篇幅不大，路过可以顺手一读。",
+  "en_title": "Site Changes",
+  "en_oneliner": "A brief update from Raymii's personal site noting its recent changes, short in length and worth a quick look if you pass by."
+ },
+ "https://twitter.com/WalterIsaacson/status/2121725076919717899": {
+  "zh_title": "“Musk 先是提议，后来坚持认为 Mechazilla 能接住 Starship”",
+  "zh_oneliner": "Walter Isaacson 的新书爆料里，Musk 从随口提议到坚持己见，认定巨型机械臂 Mechazilla 能稳稳接住返回的 Starship，读来像 SpaceX 内部决策的一则侧写。",
+  "en_title": "\"Musk suggested, then insisted, that Mechazilla could catch Starship\"",
+  "en_oneliner": "In a story from Walter Isaacson's new book, Musk went from casually suggesting to firmly insisting that the giant Mechazilla arms could catch a returning Starship, a small window into how SpaceX makes its calls."
+ },
+ "https://blog.jimgrey.net/2026/11/11/happy-100th-birthday-to-the-u-s-highway-system": {
+  "zh_title": "美国公路系统 100 岁生日快乐",
+  "zh_oneliner": "美国公路系统迎来一百周年，文章回望这条改变了美国人出行与城镇格局的公路网，顺带讲讲它一路走来的那些数字与故事。",
+  "en_title": "Happy 100th birthday to the U.S. highway system",
+  "en_oneliner": "The U.S. highway system turns one hundred, and this article looks back at the road network that reshaped how Americans travel and where towns grew, along with the numbers and stories from its century."
+ },
+ "https://www.reddit.com/r/coolgithubprojects/comments/1xx8bs7/i_built_replicator_your_local_first_3d_workshop": {
+  "zh_title": "我做了 Replicator，一个本地优先的 3D 工作坊与研究中心",
+  "zh_oneliner": "一句话描述想要的东西，语言模型按工程知识写出建造程序，实体建模内核一步步搭出来再跑 13 项实测检验，Replicator 想让你在本地电脑上就把想法变成能造的模型。",
+  "en_title": "I built Replicator, your local first 3d workshop and research center",
+  "en_oneliner": "Describe what you want in a sentence and a language model writes a build program from engineering knowledge, a solid-modelling kernel builds it step by step and runs thirteen measured checks, and Replicator aims to turn ideas into buildable models on your own machine."
+ },
+ "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026": {
+  "zh_title": "旧的 Bitly 短链接正在被劫持",
+  "zh_oneliner": "一条汉堡王推文里的老 Bitly 链接被人劫持后指向了别处，文章提醒多年前的短链接一旦过期易主，就会变成现成的钓鱼跳板。",
+  "en_title": "Old Bitly Links Are Being Hijacked",
+  "en_oneliner": "An old Bitly link in a Burger King tweet was hijacked to point elsewhere, and this article warns that short links from years ago can become ready-made phishing springboards once they expire and change hands."
+ },
+ "https://www.youtube.com/watch?v=ZVmRe8OVZtE": {
+  "zh_title": "DefCon：用尽一切办法打开 Amazon 储物柜",
+  "zh_oneliner": "DefCon 演讲现场演示研究者如何用各种手段打开 Amazon 自提柜，顺带提醒你放在柜子里的包裹并没有想象中那么保险。",
+  "en_title": "DefCon: Breaking into Amazon Lockers by Any Means Necessary",
+  "en_oneliner": "A DefCon talk demonstrates how researchers opened Amazon pickup lockers by any means necessary, and reminds you that parcels sitting in those lockers are not as safe as they look."
+ },
+ "https://archiveofourown.org/admin_posts/36761": {
+  "zh_title": "庆祝 AO3 的 17 周年",
+  "zh_oneliner": "同人作品存档站 AO3 迎来 17 周年，官方发文回顾这个由志愿者撑起来的非营利社区一路走来的历程。",
+  "en_title": "Celebrating AO3's 17th Anniversary",
+  "en_oneliner": "AO3, the fanworks archive, celebrates its 17th anniversary, and the official post looks back at the volunteer-run nonprofit community's journey so far."
+ },
+ "https://davebarry.substack.com/p/the-healthcare-system": {
+  "zh_title": "所谓的医疗体系，或者随你怎么叫它",
+  "zh_oneliner": "Dave Barry 一贯的幽默笔法，吐槽美国医疗体系里那些让人哭笑不得的账单、流程与术语，读着解压，笑完又有点心酸。",
+  "en_title": "The Healthcare System, Or whatever you call it",
+  "en_oneliner": "Dave Barry turns his usual humor on the American healthcare system, poking fun at its bewildering bills, processes, and jargon, funny to read and a little bleak once the laughter fades."
+ },
+ "https://www.jdsupra.com/legalnews/delaware-considers-ai-managed-companies-7749604": {
+  "zh_title": "特拉华州正在考虑 AI 管理的公司",
+  "zh_oneliner": "特拉华州在讨论要不要允许由 AI 来管理公司，这一步要是落地，公司治理的责任归属与董事义务都得重新写规则。",
+  "en_title": "Delaware considers AI-managed companies",
+  "en_oneliner": "Delaware is considering whether companies can be managed by AI, and if that goes ahead, the rules on who bears responsibility and what directors owe will need rewriting."
+ },
+ "https://shmck.substack.com/p/sandboxes-for-ai-agents": {
+  "zh_title": "给 AI Agent 的沙箱",
+  "zh_oneliner": "让 AI Agent 放手干活之前得先关进沙箱，文章讲沙箱该怎么搭、该隔离什么，才能既让 Agent 帮你跑命令改文件，又不至于把系统搞砸。",
+  "en_title": "Sandboxes for AI Agents",
+  "en_oneliner": "Before letting an AI agent loose, it belongs in a sandbox, and this article explains how to build one and what to isolate so an agent can run commands and change files for you without wrecking the system."
+ },
+ "https://garrettstimpson.ca/posts/2026/11/14/i-had-some-time-on-my-lunch-break-so-i-killed-artex": {
+  "zh_title": "我在午休时间干掉了 ARTEX",
+  "zh_oneliner": "作者利用午休的一点空闲，把一个叫 ARTEX 的东西彻底干掉了，文章记录这次短平快的清理行动，读起来像极客版的午间小冒险。",
+  "en_title": "I killed ARTEX on my lunch break",
+  "en_oneliner": "The author used a lunch break to kill off something called ARTEX for good, and this post records the quick cleanup as a geeky little midday adventure."
+ },
+ "https://burntsushi.net/jiff": {
+  "zh_title": "Jiff：Rust 的日期时间库发布 1.0",
+  "zh_oneliner": "Rust 的日期时间库 Jiff 终于发布 1.0，作者 BurntSushi 长期打磨的时区与日期处理方案至此稳定下来，Rust 开发者可以放心用在生产里了。",
+  "en_title": "Jiff – A datetime library for Rust – reaches 1.0",
+  "en_oneliner": "Jiff, the datetime library for Rust, has finally reached 1.0, and BurntSushi's long-polished approach to time zones and date handling is now stable enough for Rust developers to rely on in production."
+ },
+ "https://news.ycombinator.com/item?id=50511285": {
+  "zh_title": "Ask HN：你有上网导致的决策/情绪瘫痪吗？",
+  "zh_oneliner": "整整一个周末只刷 YouTube 和 Hacker News，什么正事都没干，楼主问大家是否也有这种被网络麻痹、做不了决定的感觉，评论区里不少人表示感同身受。",
+  "en_title": "Ask HN: Do you have internet decision/emotional paralysis?",
+  "en_oneliner": "A whole weekend spent only watching YouTube and reading Hacker News with nothing meaningful done prompts the poster to ask whether others feel the same internet-induced paralysis, and many commenters say they do."
+ },
+ "https://www.reddit.com/r/coolgithubprojects/comments/1xx8y0c/i_made_iphone_apps_buildable_on_windows": {
+  "zh_title": "我让 iPhone 应用能在 Windows 上构建了",
+  "zh_oneliner": "不用 Mac 也能把 SwiftUI 应用装到真 iPhone 上，作者用 USB 直连加免费 Apple ID 打通了这条路，项目开源免费，正招人来试。",
+  "en_title": "i made iphone apps buildable on windows",
+  "en_oneliner": "You can now build SwiftUI apps for a real iPhone over USB without a Mac, and the author used a free Apple ID to make it work, with the project open source and free, looking for people to try it."
+ },
+ "https://opdo.ai/insights/how-to-design-camera-data-center-robot": {
+  "zh_title": "别再堆算法了，从光学入手提升机器人感知",
+  "zh_oneliner": "机器人看不清往往不是算法不够强，而是镜头与光学设计没跟上，文章讲数据中心机器人如何围绕光学来设计感知系统。",
+  "en_title": "Improve perception in robots by building around the optics instead",
+  "en_oneliner": "When a robot cannot see well, the problem is often the lens and optics rather than the algorithm, and this article explains how data center robots can be designed around optics to improve perception."
+ },
+ "https://futureciso.tech/thales-unveils-software-protection-against-ai-led-reverse-engineering": {
+  "zh_title": "Thales 推出针对 AI 主导逆向工程的软件保护方案",
+  "zh_oneliner": "AI 让逆向工程的速度和规模都上了新台阶，Thales 拿出一套新的软件保护方案，专门对付由 AI 主导的代码破解。",
+  "en_title": "Thales unveils software protection against AI-led reverse engineering",
+  "en_oneliner": "AI has made reverse engineering faster and larger in scale, and Thales has unveiled a software protection solution built specifically against AI-led code cracking."
+ },
+ "https://github.com/OrchardLinux/omarchy-a": {
+  "zh_title": "Omarchy A：给 iPad 与 iPhone（A 系列）准备的桌面系统",
+  "zh_oneliner": "Omarchy 的衍生项目 Omarchy A 想把桌面体验搬到 A 系列芯片的 iPad 与 iPhone 上，让苹果移动设备也能当正经的生产力桌面来用。",
+  "en_title": "Omarchy A – Desktop for Apple iPad and iPhone (A-Series)",
+  "en_oneliner": "Omarchy A, a spin-off of Omarchy, aims to bring a desktop experience to A-series iPads and iPhones, turning Apple mobile devices into a proper productivity desktop."
+ },
+ "https://www.brettmacfarlane.com/blog/2026/innovation-mentorship-ejxzc": {
+  "zh_title": "在动荡的工作环境中前行",
+  "zh_oneliner": "行业动荡、方向常变，文章从创新与师徒传承的角度聊聊，今天的职场人该怎么在不确定里找到自己的立足点。",
+  "en_title": "Navigating Turbulent Work Today",
+  "en_oneliner": "With industries in flux and directions changing constantly, this article looks at innovation and mentorship to explore how workers today can find their footing amid uncertainty."
+ },
+ "https://bsky.app/profile/brittanyellich.com/post/3n2bv2kr6s22e": {
+  "zh_title": "ATProto 即将迎来拐点",
+  "zh_oneliner": "Bluesky 背后的 ATProto 协议正在接近一个拐点，作者认为去中心化社交的下一波变化已经在路上了，值得提前关注。",
+  "en_title": "We are about to hit an inflection point for ATProto",
+  "en_oneliner": "ATProto, the protocol behind Bluesky, is about to hit an inflection point, and the author argues the next wave of change in decentralized social is already on its way and worth watching early."
+ },
+ "https://cosmonautmag.com/2026/07/a-thesis-on-the-history-of-the-21st-century-technocracy-ai-and-the-end-of-the-world/?hl=en-US": {
+  "zh_title": "技术统治、AI 与世界末日",
+  "zh_oneliner": "一篇 2026 年 7 月的长文，从 21 世纪的历史切入，讨论技术统治与 AI 如何一步步把世界推向尽头，适合周末慢慢读。",
+  "en_title": "Technocracy, AI, and the End of the World",
+  "en_oneliner": "A long essay from July 2026 that starts from the history of the 21st century to examine how technocracy and AI are pushing the world toward its end, best read slowly over a weekend."
+ },
+ "https://harpers.org/archive/2023/12/the-hofmann-wobble-wikipedia-and-the-problem-of-historical-memory": {
+  "zh_title": "Hofmann 摇摆：Wikipedia 与历史记忆的问题",
+  "zh_oneliner": "一篇 2023 年的 Harper's 长文，借 Hofmann 的故事讨论 Wikipedia 如何塑造我们对历史的记忆，以及这种记忆为什么会摇摆不定。",
+  "en_title": "The Hofmann Wobble: Wikipedia and the problem of historical memory",
+  "en_oneliner": "A 2023 Harper's essay that uses Hofmann's story to explore how Wikipedia shapes our memory of history, and why that memory wobbles."
  }
 }
