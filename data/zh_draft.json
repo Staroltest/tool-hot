@@ -154,5 +154,251 @@
   "zh_oneliner": "一篇 AI 工程全景指南，从 RAG 到 LangChain、LangGraph 智能体，再到模型微调和分布式推理，适合想系统了解 AI 应用怎么搭建的人入门参考。",
   "en_title": "Building Across the AI Stack: RAG, LangChain, LangGraph Agents, LLM Fine-Tuning and Distributed Inference",
   "en_oneliner": "A panoramic guide to AI engineering, from RAG to LangChain, LangGraph agents, LLM fine-tuning and distributed inference, for readers who want a systematic view of how AI apps are built."
+ },
+ "https://dev.to/spanobserver/ai-observer-coding-assistants-local-costs-and-traces-4mk5": {
+  "zh_title": "AI Observer：给编程助手算本地成本、看调用链路",
+  "zh_oneliner": "介绍 AI Observer 如何帮你看清编程助手在本地跑一次花了多少钱、调用链路长什么样，适合想管住 AI 编码成本的开发者。",
+  "en_title": "AI Observer coding assistants: local costs and traces",
+  "en_oneliner": "A look at how AI Observer shows what a coding assistant costs to run locally and what its call traces look like, for developers who want to keep AI coding costs under control."
+ },
+ "https://dev.to/devaland/lovable-data-exposure-november-2026-what-was-found-and-the-rls-test-to-run-on-your-own-app-today-4j2g": {
+  "zh_title": "Lovable 数据泄露事件复盘：今天就能在你自己的应用上跑一遍 RLS 检查",
+  "zh_oneliner": "复盘 Lovable 应用泄露护照信息等隐私数据的事件，并给出一个 Row Level Security 自查方法，帮你在自己的应用上验证权限有没有配对。",
+  "en_title": "Lovable data exposure (November 2026): what was found, and the RLS test to run on your own app today",
+  "en_oneliner": "A recap of the Lovable incident that exposed passport details and other private data, plus a Row Level Security self-check you can run on your own app today to verify your permissions are set up correctly."
+ },
+ "https://dev.to/leadreef_ai/pagespeed-insights-vs-lighthouse-vs-gtmetrix-vs-webpagetest-which-audit-tool-to-use-for-client-2o6k": {
+  "zh_title": "PageSpeed Insights、Lighthouse、GTmetrix、WebPageTest 四款测速工具怎么选",
+  "zh_oneliner": "把四款主流网站性能检测工具放在一起对比，讲清各自适合什么场景，帮接客户项目的开发者快速选对检测工具。",
+  "en_title": "PageSpeed Insights vs Lighthouse vs GTmetrix vs WebPageTest: which audit tool to use for client sites",
+  "en_oneliner": "A side-by-side comparison of four popular website performance audit tools, explaining which fits which scenario so developers working on client sites can pick the right one fast."
+ },
+ "https://dev.to/alondrilich/furnishing-a-room-is-mostly-arithmetic-five-interior-design-rules-as-code-kok": {
+  "zh_title": "布置房间基本是算术：五条室内设计规则写成代码",
+  "zh_oneliner": "作者把五条室内布置经验总结成可以照着算的规则，像写代码一样排布家具，适合喜欢用理性方法搞定家居的读者。",
+  "en_title": "Furnishing a room is mostly arithmetic: five interior-design rules as code",
+  "en_oneliner": "The author turns five interior-design rules of thumb into something you can calculate like code, arranging furniture by numbers, for readers who like a rational approach to furnishing a home."
+ },
+ "https://github.com/db-branch/db-branch": {
+  "zh_title": "db-branch：几秒钟为 AI 智能体和 CI 开出数据库分支，基于 ZFS",
+  "zh_oneliner": "用 ZFS 快照给数据库开分支，几秒就能为 AI 智能体和 CI 各配一个隔离的数据库环境，用完即弃。",
+  "en_title": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS",
+  "en_oneliner": "Database branches in seconds using ZFS snapshots, giving AI agents and CI pipelines an isolated database environment each, disposable when done."
+ },
+ "https://dev.to/nicholas1991/from-monitoring-to-diagnosis-redis-hot-key-troubleshooting-and-mitigation-fi9": {
+  "zh_title": "从监控到诊断：Redis 热 Key 排查与缓解",
+  "zh_oneliner": "讲清 Redis 热 Key 是怎么被发现、定位和缓解的，从监控指标一路讲到根因诊断，适合正在被缓存热点困扰的后端开发者。",
+  "en_title": "From Monitoring to Diagnosis: Redis Hot Key Troubleshooting and Mitigation",
+  "en_oneliner": "How Redis hot keys are spotted, located, and mitigated, from monitoring signals all the way to root-cause diagnosis, for backend developers wrestling with cache hotspots."
+ },
+ "https://dev.to/stackandcraft/handling-missing-information-when-an-ai-assistant-should-abstain-jg3": {
+  "zh_title": "信息不足时，AI 助手什么时候该说不知道",
+  "zh_oneliner": "讨论 AI 助手在信息不全时应该主动放弃回答而不是瞎编，给做智能体产品的开发者一个判断标准。",
+  "en_title": "Handling missing information: when an AI assistant should abstain",
+  "en_oneliner": "When an AI assistant should hold back instead of guessing with incomplete information, offering builders of agent products a rule of thumb for when to abstain."
+ },
+ "https://dev.to/fateh_muhammad_1f23886cc0/how-agentic-commerce-actually-works-a-developer-guide-to-chatgpt-wallet-20ko": {
+  "zh_title": "智能体电商到底怎么运转：ChatGPT Wallet 开发者指南",
+  "zh_oneliner": "讲清 ChatGPT Wallet 背后的智能体电商流程，开发者怎么让 AI 助手替用户完成下单，适合想接入这波新渠道的开发者。",
+  "en_title": "How Agentic Commerce Actually Works: A Developer Guide to ChatGPT Wallet",
+  "en_oneliner": "How agentic commerce works behind ChatGPT Wallet, and how developers can let an AI assistant complete purchases for users, for developers looking to plug into this new channel."
+ },
+ "https://dev.to/sergheipogor/at-the-first-ai-music-awards-the-ai-was-fine-everything-else-broke-5d3g": {
+  "zh_title": "首届 AI 音乐奖：AI 没翻车，翻车的是其他一切",
+  "zh_oneliner": "复盘首届 AI 音乐奖现场，AI 生成的音乐本身表现不错，真正出问题的是舞台、流程和组织，给想办 AI 活动的组织者提了个醒。",
+  "en_title": "At the First AI Music Awards, the AI Was Fine. Everything Else Broke.",
+  "en_oneliner": "A recap of the first AI Music Awards, where the AI-generated music itself held up fine while the staging, flow, and organization fell apart, a cautionary tale for anyone planning an AI event."
+ },
+ "https://dev.to/muhammadameenkhan804/i-built-a-pay-increase-calculator-in-vanilla-js-heres-the-math-and-the-currency-trick-4461": {
+  "zh_title": "我用原生 JS 写了个加薪计算器：算法与货币换算技巧",
+  "zh_oneliner": "作者用原生 JavaScript 写了一个加薪计算器，分享了背后的数学逻辑和货币换算的小技巧，适合想练手前端小工具的开发者。",
+  "en_title": "I Built a Pay Increase Calculator in Vanilla JS - Here's the Math (and the Currency Trick)",
+  "en_oneliner": "The author built a pay-increase calculator in vanilla JavaScript, sharing the math behind it and a currency-conversion trick, a nice weekend project for developers practicing small frontend tools."
+ },
+ "https://www.reddit.com/r/TheMachineLearning/comments/1xwp0kp/dont_work_on_llms_ylecun_at_corl": {
+  "zh_title": "LeCun：想做人类水平 AI，就别只盯着大语言模型",
+  "zh_oneliner": "LeCun 在演讲中提醒想做人类水平 AI 的研究者别只盯着大语言模型，值得关心通用智能路线的读者一看。",
+  "en_title": "LeCun: If you're interested in human-level AI, don't work on LLMs",
+  "en_oneliner": "In a talk, LeCun advises researchers aiming for human-level AI not to focus only on large language models, worth a look for anyone following the path to general intelligence."
+ },
+ "https://philippdubach.com/posts/proportional-personal-security": {
+  "zh_title": "适度的个人数字安全：按需配置，不必过度防护",
+  "zh_oneliner": "主张个人数字安全讲究适度，按自己的风险等级搭配防护措施，不必为用不上的威胁过度折腾。",
+  "en_title": "Proportional Personal Digital Security",
+  "en_oneliner": "A case for right-sized personal digital security: match your defenses to your actual risk level instead of over-engineering against threats you will never face."
+ },
+ "https://www.wsj.com/arts-culture/food-cooking/crisp-apple-varieties-test-c12940ba": {
+  "zh_title": "我在全美寻找最脆的苹果",
+  "zh_oneliner": "作者跑遍美国品尝对比，只为找出最脆的苹果品种，一篇轻松有趣的美食测评。",
+  "en_title": "My Quest to Find the Crispest Apple in America",
+  "en_oneliner": "The author tastes and compares apples across America in search of the crispest variety, a light and entertaining food review."
+ },
+ "https://medium.com/@smoking2man/a-stroke-instead-of-a-picture-the-evolution-of-recognition-paradigms-as-exemplified-by-speech-and-5ce9bbab7c73": {
+  "zh_title": "一笔代替一张图：从语音看识别范式的演变",
+  "zh_oneliner": "从语音识别的演变聊起，讲识别范式如何从整图匹配走向笔画与结构，适合对识别技术感兴趣的读者。",
+  "en_title": "A Stroke Instead of a Picture",
+  "en_oneliner": "Starting from speech recognition, this piece traces how recognition moved from whole-image matching toward strokes and structure, for readers curious about recognition technology."
+ },
+ "https://dev.to/josh99smith/check-which-companies-run-shopify-wordpress-webflow-wix-or-squarespace-in-bulk-4m8": {
+  "zh_title": "批量查询网站用的是 Shopify、WordPress 还是 Webflow 等建站平台",
+  "zh_oneliner": "介绍一个能批量查出目标网站用的是 Shopify、WordPress、Webflow、Wix 还是 Squarespace 的方法，适合做竞品调研和销售线索挖掘的读者。",
+  "en_title": "Check which companies run Shopify, WordPress, Webflow, Wix or Squarespace, in bulk",
+  "en_oneliner": "A way to check in bulk whether target websites run on Shopify, WordPress, Webflow, Wix, or Squarespace, handy for competitive research and lead prospecting."
+ },
+ "https://dev.to/cirrela/your-ai-says-dada-wrong-heres-how-we-make-voices-pronounce-any-kids-name-24hi": {
+  "zh_title": "AI 把孩子的名字念错了：让语音读对任何名字的方法",
+  "zh_oneliner": "讲 AI 语音怎么正确读出孩子的名字，分享了发音处理的做法，适合做儿童语音产品或语音合成的开发者。",
+  "en_title": "Your AI says \"Dada\" wrong — here's how we make voices pronounce any kid's name",
+  "en_oneliner": "How AI voices can pronounce any child's name correctly, with a look at the pronunciation techniques involved, for developers building kids' voice products or speech synthesis."
+ },
+ "https://dev.to/dbsoul/my-evening-summary-kept-promising-a-login-window-the-morning-task-had-stopped-opening-it-32fc": {
+  "zh_title": "晚间汇总总说要弹登录窗，早上任务却打不开了",
+  "zh_oneliner": "记录一次自动化任务排障：晚间汇总一直承诺弹出登录窗口，早上的任务却再也没打开过，适合喜欢看真实排障过程的开发者。",
+  "en_title": "My Evening Summary Kept Promising a Login Window. The Morning Task Had Stopped Opening It.",
+  "en_oneliner": "A real debugging story about an automation task: the evening summary kept promising a login window while the morning task had stopped opening one, for developers who enjoy honest troubleshooting tales."
+ },
+ "https://github.com/accl-kaust/PhiTeX": {
+  "zh_title": "PhiTeX：快速实时增量 TeX 引擎",
+  "zh_oneliner": "一个快速实时增量的 TeX 排版引擎，改动即刻渲染，适合经常写论文和公式的读者。",
+  "en_title": "PhiTeX: Fast Live Incremental TeX Engine",
+  "en_oneliner": "A fast, live, incremental TeX typesetting engine that renders changes as you type, for anyone who writes papers and formulas regularly."
+ },
+ "https://dev.to/zero_heartbeat_06a3625d7a/the-runtime-cost-of-string-encryption-in-a-hot-loop-and-how-to-scope-it-47he": {
+  "zh_title": "热循环里字符串加密的运行成本，以及如何控制作用范围",
+  "zh_oneliner": "分析在热循环里做字符串加密要付出多少运行成本，并给出控制加密范围的做法，适合关注性能的后端开发者。",
+  "en_title": "The runtime cost of string encryption in a hot loop (and how to scope it)",
+  "en_oneliner": "What string encryption costs at runtime inside a hot loop, and how to scope it to keep the cost down, for backend developers who care about performance."
+ },
+ "https://dev.to/kalemi/no-docker-tag-has-been-generated-by-dockermetadata-action-21ml": {
+  "zh_title": "docker/metadata-action 没有生成 Docker 标签怎么办",
+  "zh_oneliner": "排查 docker/metadata-action 没生成标签的原因并给出解法，适合正在配置镜像自动打标签的开发者。",
+  "en_title": "No Docker tag has been generated by docker/metadata-action",
+  "en_oneliner": "Why docker/metadata-action sometimes generates no Docker tag, and how to fix it, for developers setting up automatic image tagging."
+ },
+ "https://dev.to/henry_chen_b141ee0a9bfae6/uav-balloon-popper-222l": {
+  "zh_title": "UAV Balloon Popper：无人机戳气球小项目",
+  "zh_oneliner": "一个用无人机戳气球的小项目分享，适合对无人机动手项目感兴趣的读者。",
+  "en_title": "UAV Balloon Popper",
+  "en_oneliner": "A small hands-on project that pops balloons with a drone, for readers who enjoy DIY drone builds."
+ },
+ "https://dev.to/delayrun/before-your-payment-webhooks-go-live-a-12-point-production-checklist-3fn9": {
+  "zh_title": "支付 Webhook 上线前的 12 项生产检查清单",
+  "zh_oneliner": "上线支付 Webhook 之前值得逐项核对的 12 件事，从签名验签到重试策略，帮你避开收款环节的常见坑。",
+  "en_title": "Before your payment webhooks go live: a 12-point production checklist",
+  "en_oneliner": "Twelve things to check before your payment webhooks go live, from signature verification to retry strategy, to help you avoid common pitfalls in the payment flow."
+ },
+ "https://dev.to/delayrun/how-to-fix-no-signatures-found-matching-the-expected-signature-for-payload-stripe-webhooks-in-12i3": {
+  "zh_title": "修复 Stripe Webhook 签名校验失败：Express、Next.js 与 Flask 通用解法",
+  "zh_oneliner": "讲清 Stripe Webhook 签名报错的常见原因，并给出 Express、Next.js 和 Flask 三种框架下的修复方法。",
+  "en_title": "How to fix 'No signatures found matching the expected signature for payload' (Stripe webhooks in Express, Next.js and Flask)",
+  "en_oneliner": "Common causes of Stripe webhook signature errors, with fixes for Express, Next.js, and Flask."
+ },
+ "https://dev.to/umutgungor/how-to-remove-leaked-api-keys-and-env-files-from-git-history-git-filter-repo-guide-2pe5": {
+  "zh_title": "用 git filter-repo 清掉 Git 历史里泄露的 API 密钥和 .env 文件",
+  "zh_oneliner": "手把手教你用 git filter-repo 把不小心提交进 Git 历史的 API 密钥和 .env 文件彻底清掉，附完整操作步骤。",
+  "en_title": "How to Remove Leaked API Keys and .env Files from Git History (git filter-repo Guide)",
+  "en_oneliner": "A step-by-step guide to using git filter-repo to purge leaked API keys and .env files from Git history for good."
+ },
+ "https://github.com/hbbio/rc": {
+  "zh_title": "Rust Commander：用 Rust 写的终端小工具",
+  "zh_oneliner": "一个用 Rust 实现的终端小工具，把常用命令收进一个顺手的指挥界面，适合喜欢折腾终端效率的开发者。",
+  "en_title": "Show HN: Rust Commander (RC)",
+  "en_oneliner": "A Rust-built terminal helper that gathers everyday commands into one handy command interface, for developers who like tuning their terminal workflow."
+ },
+ "https://shkspr.mobi/blog/2026/11/variable-electricity-pricing-the-highs-and-the-lows": {
+  "zh_title": "动态电价的利与弊",
+  "zh_oneliner": "聊动态电价机制的好处与麻烦，电价随供需波动时用户该怎么应对，适合关心能源与电费的读者。",
+  "en_title": "Variable Electricity Pricing – The Highs and the Lows",
+  "en_oneliner": "The upsides and headaches of variable electricity pricing, and how households can cope when prices move with supply and demand."
+ },
+ "https://twitter.com/GrindingPoet/status/2121314087728718309": {
+  "zh_title": "Wow：一条获 Jensen Huang 点赞的推文",
+  "zh_oneliner": "Grinding Poet 只发了一个词 Wow，配上一张点赞列表截图，其中有 Jensen Huang，110 万浏览量让它成了热门推文。",
+  "en_title": "Wow",
+  "en_oneliner": "Grinding Poet posted just the word Wow with a screenshot of the likes list, which includes Jensen Huang, and the post took off with 1.1M views."
+ },
+ "https://dev.to/alexis_markarian_d5d36ed8/ai-concept-renders-are-not-technical-drawings-a-practical-quality-control-workflow-d39": {
+  "zh_title": "AI 概念渲染图不是技术图纸：一套实用的质量检查流程",
+  "zh_oneliner": "讲 AI 生成的概念渲染图为什么不能直接当技术图纸用，并给出一套检查流程，适合用 AI 出图的建筑与设计从业者。",
+  "en_title": "AI Concept Renders Are Not Technical Drawings: A Practical Quality-Control Workflow",
+  "en_oneliner": "Why AI-generated concept renders cannot be used directly as technical drawings, plus a practical quality-control workflow, for architects and designers working with AI imagery."
+ },
+ "https://dev.to/ledgerlinehq/the-400-rule-when-your-side-income-becomes-taxable-self-employment-1ao6": {
+  "zh_title": "400 美元规则：副业收入什么时候算应税个体经营",
+  "zh_oneliner": "讲清副业收入达到 400 美元后为什么会被算作应税个体经营，适合有副业收入的自由职业者参考。",
+  "en_title": "The $400 rule: when your side income becomes taxable self-employment",
+  "en_oneliner": "Why side income over $400 counts as taxable self-employment, a useful explainer for freelancers with income on the side."
+ },
+ "https://dev.to/aiexplore369zoho/ai-embeddings-break-columnar-assumptions-in-parquet-and-arrow-45p3": {
+  "zh_title": "AI 向量正在打破 Parquet 与 Arrow 的列式存储假设",
+  "zh_oneliner": "分析 AI 向量数据为什么会打破 Parquet 和 Arrow 的列式存储假设，适合做数据工程的开发者。",
+  "en_title": "AI Embeddings Break Columnar Assumptions in Parquet and Arrow",
+  "en_oneliner": "Why AI embedding data breaks the columnar storage assumptions behind Parquet and Arrow, for data engineers."
+ },
+ "https://dev.to/kalemi/no-files-were-found-with-the-provided-path-in-upload-artifact-2068": {
+  "zh_title": "upload-artifact 报错找不到指定路径的文件怎么办",
+  "zh_oneliner": "排查 GitHub Actions 里 upload-artifact 报错找不到文件的常见原因并给出解法，适合正在修 CI 流程的开发者。",
+  "en_title": "No files were found with the provided path in upload-artifact",
+  "en_oneliner": "Common causes of the upload-artifact file-not-found error in GitHub Actions, and how to fix them, for developers debugging CI workflows."
+ },
+ "https://dev.to/madgpt/context-rot-why-your-ai-assistant-gets-worse-after-200-messages-and-a-5-line-fix-2i3n": {
+  "zh_title": "上下文腐烂：AI 助手聊过 200 条消息后为什么变差，附 5 行修复",
+  "zh_oneliner": "解释 AI 助手在对话超过 200 条消息后为什么会变差，并给出一个 5 行代码的修复办法，适合天天用 AI 助手写代码的开发者。",
+  "en_title": "Context rot: why your AI assistant gets worse after 200 messages (and a 5-line fix)",
+  "en_oneliner": "Why an AI assistant gets worse after 200 messages of context, and a five-line fix, for developers who code with AI assistants every day."
+ },
+ "https://dev.to/aliosn_bekarthiagosilba/a-five-minute-triage-for-remote-desktop-lag-3ngg": {
+  "zh_title": "五分钟排查远程桌面卡顿",
+  "zh_oneliner": "一套五分钟就能跑完的远程桌面卡顿排查流程，快速定位是网络、编码还是服务端的问题。",
+  "en_title": "A five-minute triage for remote-desktop lag",
+  "en_oneliner": "A five-minute triage for remote-desktop lag that quickly narrows the cause down to network, encoding, or server."
+ },
+ "https://dev.to/boblied/pwc-399-5320": {
+  "zh_title": "Perl 每周挑战第 399 期",
+  "zh_oneliner": "第 399 期 Perl 每周挑战的题目，适合喜欢用 Perl 练手算法题的读者。",
+  "en_title": "PWC 399",
+  "en_oneliner": "The 399th Perl Weekly Challenge, for readers who enjoy practicing algorithms in Perl."
+ },
+ "https://dev.to/seotto/how-to-measure-how-much-of-your-crawl-traffic-is-ai-bots-from-your-own-access-logs-in-python-1hfd": {
+  "zh_title": "用 Python 从访问日志里算出多少爬虫流量来自 AI 机器人",
+  "zh_oneliner": "教你用 Python 分析自己的访问日志，算出爬取流量里 AI 机器人占了多少，适合管网站的开发者和站长。",
+  "en_title": "How to measure how much of your crawl traffic is AI bots, from your own access logs (in Python)",
+  "en_oneliner": "How to analyze your own access logs in Python to measure how much crawl traffic comes from AI bots, for developers and site owners."
+ },
+ "https://dev.to/zekecross3245/image-upload-moderation-retaining-nsfw-evidence-with-json-schema-fallback-56me": {
+  "zh_title": "图片上传审核：用 JSON Schema 兜底保留违规证据",
+  "zh_oneliner": "讲图片上传审核里怎么保留违规内容证据，并用 JSON Schema 做兜底，适合做内容审核功能的开发者。",
+  "en_title": "Image Upload Moderation: Retaining NSFW Evidence with JSON Schema Fallback",
+  "en_oneliner": "How image upload moderation can retain evidence of violating content, with a JSON Schema fallback, for developers building moderation features."
+ },
+ "https://dev.to/seotto/should-you-block-ai-crawlers-gptbot-claudebot-ccbot-in-robotstxt-lets-argue-about-it-18af": {
+  "zh_title": "该不该在 robots.txt 里屏蔽 AI 爬虫？来辩一辩",
+  "zh_oneliner": "讨论要不要在 robots.txt 里屏蔽 GPTBot、ClaudeBot、CCBot 这些 AI 爬虫，列出正反两方的理由，适合正在纠结的站长。",
+  "en_title": "Should you block AI crawlers (GPTBot, ClaudeBot, CCBot) in robots.txt? Let's argue about it",
+  "en_oneliner": "The case for and against blocking AI crawlers like GPTBot, ClaudeBot, and CCBot in robots.txt, for site owners weighing the decision."
+ },
+ "https://dev.to/kalemi/github-actions-run-name-env-not-available-and-what-it-can-read-3m73": {
+  "zh_title": "GitHub Actions 的 run-name 环境变量不可用，以及它能读到什么",
+  "zh_oneliner": "讲 GitHub Actions 里 run-name 环境变量为什么不可用，以及它实际能读到哪些信息，适合正在写工作流的开发者。",
+  "en_title": "GitHub Actions run-name env not available, and what it can read",
+  "en_oneliner": "Why the run-name environment variable is unavailable in GitHub Actions, and what it can actually read, for developers writing workflows."
+ },
+ "https://dev.to/wardterm/how-to-use-mosh-on-mac-and-iphone-and-keep-sessions-alive-with-tmux-58lc": {
+  "zh_title": "在 Mac 和 iPhone 上用 Mosh，配合 tmux 保持会话不断线",
+  "zh_oneliner": "介绍如何在 Mac 和 iPhone 上用 Mosh 连远程服务器，再配合 tmux 让会话一直活着，适合经常移动办公的开发者。",
+  "en_title": "How to use Mosh on Mac and iPhone, and keep sessions alive with tmux",
+  "en_oneliner": "How to connect to remote servers with Mosh on Mac and iPhone, and keep sessions alive with tmux, for developers who work on the go."
+ },
+ "https://www.reddit.com/r/coolgithubprojects/comments/1xww2a8/a_free_research_app_that_explains_the_best_new_ai": {
+  "zh_title": "免费研究应用：每天早上解读最新 AI 论文，还展示 120 多家公司的落地做法",
+  "zh_oneliner": "一个免费的研究应用，每天早上解读最新 AI 论文，现在还能看到 120 多家公司如何把同样的想法用到生产中。",
+  "en_title": "A free research app that explains the best new AI papers every morning, and now shows how 120+ companies used the same ideas in production (repo link on the platform itself)",
+  "en_oneliner": "A free research app that explains the best new AI papers every morning, now also showing how 120+ companies put the same ideas into production."
+ },
+ "https://www.reddit.com/r/coolgithubprojects/comments/1xwwq6q/overall_update_of_rconsoleark_a_project_that_lets": {
+  "zh_title": "Rconsole-Ark 更新：人人都能免费拥有一个 Linux 开发环境",
+  "zh_oneliner": "Rconsole-Ark 的最新进展：让每个人都能免费拥有一个 Linux 开发环境，适合想低成本搭开发机的读者。",
+  "en_title": "Overall Update of Rconsole-Ark, a project that lets everyone have a Linux development environment for free.",
+  "en_oneliner": "The latest update on Rconsole-Ark, a project that gives everyone a free Linux development environment, for readers who want a dev machine at no cost."
  }
 }
