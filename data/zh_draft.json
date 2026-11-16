@@ -8236,5 +8236,17 @@
     "zh_oneliner": "把音频或视频上传上去就能得到带说话人和时间戳的文字稿，外加一份 AI 摘要，每天可免费转一个 30 分钟以内的文件，无需注册。",
     "en_title": "Sum: Transcribe audio to text with speaker labels and AI summaries",
     "en_oneliner": "Upload audio or video and get a transcript with speaker labels and timestamps, plus an AI summary — one free file up to 30 minutes a day, no account needed."
+  },
+  "https://supergorilla.ai": {
+    "zh_title": "SuperGorilla：让 AI 模拟真实用户测你的 PR，附视频回放",
+    "zh_oneliner": "每次提交 PR 后自动派 AI 像真人一样跑一遍你的应用，出问题就把录屏、截图和复现步骤贴回 PR 里。",
+    "en_title": "Building a simulated user that runs your PR and posts the video. Does this solve a real problem?",
+    "en_oneliner": "Every time you open a PR, an AI tester runs your app like a real user and posts back a recording, screenshots, and steps to reproduce any bug it finds."
+  },
+  "https://fmrl.live": {
+    "zh_title": "fmrl.live：用浏览器标签页托管网站和直播",
+    "zh_oneliner": "不用服务器也能发布网站和直播：内容就放在你的浏览器标签页里，访客通过 WebRTC 直连你的浏览器读取。",
+    "en_title": "fmrl.live - a site that lets you host a website, content, or livestream from a browser tab, and serves it directly to clients over WebRTC",
+    "en_oneliner": "Publish a website or livestream with no server at all: the content lives in your browser tab, and visitors load it straight from your browser over WebRTC."
   }
 }
