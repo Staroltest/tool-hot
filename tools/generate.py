@@ -339,6 +339,12 @@ BLOCKED_DOMAINS = {
     # 企业的加密会议室 SaaS 服务（卖的是会议服务与安全巡检，不是点开能用的
     # 工具本身）；wheelgap 是 PyPI 缺失 wheels 的 pip 安装索引页（须 pip
     # install 下载安装），不是能在浏览器里直接用的工具；四者标题均不露痕迹
+    # 抽查确认不是在线工具（2026-11-17 03:00 CST 轮，浏览器实测）：
+    # Lirico 是 Windows 桌面应用（官网“free · Windows 10 & 11”、
+    # “Starts with Windows”“More info → Run anyway”），歌词显示在
+    # 任务栏里，须下载安装才能用；标题只写“lyrics in your taskbar”，
+    # 标题门拦不住，域名封禁；标题门同步加 \btaskbar\b
+    "getlirico.pages.dev",
     "useview.app", "netrix-console.com", "qube.so",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
@@ -474,6 +480,9 @@ _TITLE_BLOCK_RES = [
         # 标题里不会出现（2026-11-17 02:40 CST 轮：View）
         r"\bmac\s+mini\b",
         r"\b(desktop|mobile)\s+(app|application|version|edition|client|software)\b",
+        # “任务栏”（如“lyrics in your taskbar”）：任务栏是 Windows 桌面
+        # 专属概念，网页工具标题里不会出现（2026-11-17 03:00 CST 轮：Lirico）
+        r"\btaskbar\b",
         r"\b\w+\s+desktop\b",
         r"\bapp\s+store\b",
         r"\bgoogle\s+play\b",
