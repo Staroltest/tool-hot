@@ -268,11 +268,22 @@ BLOCKED_DOMAINS = {
     # 是给开发者把 AI 助手嵌进自家应用的 SDK，官网只有“选 SDK、注册任务”的
     # 接入指引，浏览器里无法直接使用，不是能直接用的工具
     "avenappagent.com",
+    # 抽查确认不是在线工具（2026-11-16 晚间轮，浏览器实测）：Jensen World
+    # 链到 mods.factorio.com，是 Factorio 游戏 mod 下载页，需要先装游戏
+    # 再下载 mod 才能用，不是“在网站上就能用”的工具；标题门同步加 \bmod\b
+    "mods.factorio.com",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
-BLOCKED_EXACT = {"vercel.com"}
+BLOCKED_EXACT = {
+    "vercel.com",
+    # Codecaine：官网首页是 Mac 桌面应用营销页（主推 .dmg 下载），
+    # 标题说的“AI Landing Page Builder”与实测产品（给已有代码做可视化
+    # 编辑的桌面编辑器）也不符；浏览器版在 web.codecainehq.com 子域，
+    # 只拦根域，子域直接被信源链到时仍可收（2026-11-16 晚间轮实测）
+    "codecainehq.com",
+}
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
     "blog", "blogs", "news", "posts", "post", "article", "articles",
@@ -326,6 +337,11 @@ def tool_gate(url):
             return False, "blocked_domain"
     if host in BLOCKED_EXACT:
         return False, "blocked_domain"
+    # Cookie 检查页（__cookie_check.html）：点开是“授权安全 Cookie”的
+    # 拦截页，不是工具本身；实测 TalentRadar 的根地址本身也是这个拦截页，
+    # 访客点开用不了工具（2026-11-16 晚间轮）
+    if "__cookie_check" in u.path:
+        return False, "cookie_check"
     # Hugging Face：模型/数据集页是仓库页（Quick start 是 pip install +
     # hf download，要下载安装才能用），一律拦；只放行 /spaces/——Spaces
     # 是能直接在浏览器里用的在线应用（2026-11-16 时间线泄漏：
@@ -372,6 +388,9 @@ _TITLE_BLOCK_RES = [
         r"\bgoogle\s+play\b",
         r"\b(chrome|firefox|edge|safari|browser|vscode)\s+extension\b",
         r"\bself[- ]hosted\b",
+        # 游戏 mod（如“a Factorio mod for GPU nerds”）：mod 要下载安装到游戏
+        # 里才能用，不是“在网站上就能用”的工具；域名门同步封 mods.factorio.com
+        r"\bmod\b",
         r"下载.{0,6}(windows|mac|ios|安卓|苹果|桌面|电脑|手机)",
         r"(windows|mac|macos|ios|安卓|苹果)版",
         r"在\s*(iphone|ipad|安卓|苹果手机|手机)\s*上",
