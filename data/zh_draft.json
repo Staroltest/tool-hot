@@ -8104,5 +8104,35 @@
   "zh_oneliner": "一分钟搭个手绘风的个人链接页，六种风格随便挑，还能让 AI 帮你更新链接和内容，免费版不限链接数。",
   "en_title": "Posy: a link-in-bio page that looks hand-made",
   "en_oneliner": "A link-in-bio page that looks hand-made — pick one of six styles, add your links, and let AI update it for you. Free with unlimited links."
+ },
+ "https://airtruth.vercel.app": {
+  "zh_title": "AirTruth：用雷达数据拆穿航司“天气原因”延误借口",
+  "zh_oneliner": "输入航班号就能对照雷达、机场天气和机组值班记录，核查延误的真实原因，还能免费生成索赔信。",
+  "en_title": "I built AirTruth — a tool that cross-checks ADS-B radar and airport weather to bust fake airline \"weather\" delay excuses",
+  "en_oneliner": "Enter a flight number to cross-check radar, airport weather, and crew duty records for the real cause of a delay, and get a free compensation claim letter."
+ },
+ "https://toolifyhub.tools/tools/background-remover": {
+  "zh_title": "ToolifyHub 背景移除：免费在线抠图",
+  "zh_oneliner": "上传照片两秒就能抠出透明底主体，可选本机处理不上传，全分辨率导出 PNG，免费无水印不用注册。",
+  "en_title": "Show HN: Free AI Background Remover with Local Browser Privacy Mode (No Sign-Up)",
+  "en_oneliner": "Upload a photo and get a transparent cutout in seconds, with an on-device mode that never uploads your image — free, full-resolution, no sign-up or watermark."
+ },
+ "https://gummytype.com": {
+  "zh_title": "GummyType：免费 3D 气泡字生成器",
+  "zh_oneliner": "输入一句话就能生成光泽立体的气泡字，六种字形九种效果任选，导出透明 PNG，不用注册也不上传。",
+  "en_title": "Show HN: GummyType – Free bubble letter generator with transparent PNG export",
+  "en_oneliner": "Turn any short phrase into glossy 3D bubble letters with six shapes and nine finishes, and export a transparent PNG — free, no sign-up, everything stays in your browser."
+ },
+ "https://letter.dev/replicate?ref=producthunt": {
+  "zh_title": "Replicate：把建站工具做的网站一键转成代码仓库",
+  "zh_oneliner": "把用网站搭建器做的站点逐页还原成代码，图片、动画和内容一并迁移，最后直接提交到你的 GitHub 仓库。",
+  "en_title": "Replicate",
+  "en_oneliner": "Turn a website-builder site into a real code repository, page by page and pixel by pixel, committed straight to your GitHub."
+ },
+ "https://hoverine.com/?ref=producthunt": {
+  "zh_title": "Hoverine：可交互的 Rive 动效模板库",
+  "zh_oneliner": "一堆能点能拖的 Rive 交互动效模板，换上自己的标志、颜色和文案就能下载可用的 .riv 文件。",
+  "en_title": "Hoverine",
+  "en_oneliner": "Interactive Rive templates you can poke, customize with your own logo, colors, and words, then download as working .riv files."
  }
 }
