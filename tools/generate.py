@@ -255,6 +255,10 @@ BLOCKED_DOMAINS = {
     # 每日猜车游戏，官网主推 TestFlight 内测下载，不是能在浏览器里
     # 直接用的网页工具；标题不露痕迹，标题门拦不住，域名封禁
     "vindle.app",
+    # Tabletop：Google Labs 是实验展示站，labs.google 根地址是目录页；
+    # 其实测 tabletop.google/about 是仅限邀请的候补名单落地页，访客无法
+    # 直接使用工具（2026-11-16 时间线泄漏：Tabletop 链到 labs.google 根地址）
+    "labs.google",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
 }
@@ -313,6 +317,13 @@ def tool_gate(url):
             return False, "blocked_domain"
     if host in BLOCKED_EXACT:
         return False, "blocked_domain"
+    # Hugging Face：模型/数据集页是仓库页（Quick start 是 pip install +
+    # hf download，要下载安装才能用），一律拦；只放行 /spaces/——Spaces
+    # 是能直接在浏览器里用的在线应用（2026-11-16 时间线泄漏：
+    # Nano-Edge-TTS 链到 huggingface.co/drmhse/nano-edge-tts 模型页）
+    if host == "huggingface.co" or host.endswith(".huggingface.co"):
+        if not u.path.startswith("/spaces/"):
+            return False, "blocked_domain"
     segs = [s.lower() for s in u.path.split("/") if s]
     if any(s in ARTICLE_PATH_SEGMENTS for s in segs):
         return False, "article_path"
