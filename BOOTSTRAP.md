@@ -164,7 +164,7 @@ python3 ~/workspace/custom-connectors/custom.cloudflare/bin/cf.py deploy \
 - [ ] GitHub Pages 首页 200，内容最新，详情页能打开（无 404）。
 - [ ] 英文树完整：`/en/`、`/en/all.html`、`/en/hot.html`、`/en/daily.html`、
       `/en/feed.xml`、`/en/llms.txt`、`/en/data/hot.json` 均 200，英文详情页能打开；
-      英文页无中文简介泄露，页头语言切换可用。
+      英文页无中文简介泄露，侧栏左下角语言切换可用（与 GitHub 仓库同排）。
 - [ ] Cloudflare 镜像首页 200，页头时间当前。
 - [ ] `feed.xml`、`sitemap.xml`、`robots.txt` 均 200；sitemap 含根 loc 与 `/en/` loc，
       0 个 `index.html` loc。
