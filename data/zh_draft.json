@@ -8044,5 +8044,11 @@
   "zh_oneliner": "免费开源的浏览器 2D CAD，画直线、圆、多段线和圆弧，能打开 DXF/DWG 文件，不用装软件。",
   "en_title": "CADCraft: Free Open-Source 2D CAD in Your Browser",
   "en_oneliner": "Free open-source 2D CAD in your browser — draw precise designs, open DXF and DWG files, no install needed."
+ },
+ "https://stockrip.com/?rl=gami0x": {
+  "zh_title": "StockRip：像收集球星卡一样收集上市公司",
+  "zh_oneliner": "开盲盒收集万亿市值公司的卡牌，组自己的投资组合，边玩边赚 Ripcoins。",
+  "en_title": "StockRip – Trading Cards, Literally",
+  "en_oneliner": "Collect trillion-dollar companies like trading cards — open mystery packs, build your portfolio and earn Ripcoins."
  }
 }
