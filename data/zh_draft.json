@@ -8152,5 +8152,47 @@
   "zh_oneliner": "每天更新的美股市场仪表盘：指数行情、热门股票、ETF 和大宗商品一目了然，还附个股评级和投资点子。",
   "en_title": "Show HN: Maz Vantage Stock Research and Analysis Platform",
   "en_oneliner": "A daily-updated US stock market dashboard with index quotes, hot stocks, ETFs and commodities at a glance, plus stock ratings and investment ideas."
+ },
+ "https://lexicad.com/?ref=producthunt": {
+  "zh_title": "LexiCAD：用一句话生成可打印的 CAD 零件",
+  "zh_oneliner": "用日常语言描述一个零件，AI 智能体就会完成 CAD 建模、校核尺寸，并导出 STEP、STL、3MF 等可直接打印的文件。",
+  "en_title": "LexiCAD",
+  "en_oneliner": "Describe a part in plain language and an AI agent designs the CAD, checks it against your spec, and exports STEP, STL and 3MF files ready to print."
+ },
+ "https://www.justpuffin.tech/?ref=producthunt": {
+  "zh_title": "Puffin：给 AI 智能体配邮箱与收件箱",
+  "zh_oneliner": "给你的 AI 智能体一个专属邮箱、Discord 与 Telegram 席位和日历，它按你的文档起草回复，每封外发消息都等你点头才发出。",
+  "en_title": "Puffin",
+  "en_oneliner": "Give your AI agent its own email address, Discord and Telegram seats and a calendar: it drafts replies from your documents and nothing goes out until you approve it."
+ },
+ "https://freebuff.com/?ref=producthunt&via=rewards_link": {
+  "zh_title": "Freebuff：免费的 AI 编程智能体",
+  "zh_oneliner": "不用订阅、不用记点数就能用的 AI 编程智能体，靠广告支撑，在浏览器、桌面、手机或终端里都能接着手头的任务干活。",
+  "en_title": "Freebuff",
+  "en_oneliner": "A free AI coding agent with no subscription and no credits to watch, funded by ads, that works in your browser, on desktop, on your phone or in the terminal."
+ },
+ "https://www.mazvantage.com/ideas": {
+  "zh_title": "Maz Vantage 投资思路：48 个可验证的选股策略",
+  "zh_oneliner": "48 个覆盖全市场的选股策略，分成 13 组，每个策略都写明了筛选规则，点开就能看到今天符合条件的公司。",
+  "en_title": "Show HN: Best Stock Investments Ideas Maz Vantage",
+  "en_oneliner": "48 stock screens across the whole listed market in 13 groups, each with its exact rules — open one to see the companies that pass it today."
+ },
+ "https://trustycsv.com/?ref=producthunt": {
+  "zh_title": "Trusty CSV：不改动原文件的 CSV 编辑器",
+  "zh_oneliner": "直接打开 CSV 文件本身来编辑：按表格查看、按代码按键，28 项质量检查一键修掉乱码与格式问题，文件不上传，只保存你改动的地方。",
+  "en_title": "Trusty CSV",
+  "en_oneliner": "A CSV editor that opens the file itself: read it as a table, edit it with code-editor keys, and fix encoding and formatting issues with a 28-point quality check — nothing uploaded, only your changes saved."
+ },
+ "https://www.usecentralize.com/?ref=producthunt": {
+  "zh_title": "Centralize：企业大单的关系作战室",
+  "zh_oneliner": "给企业销售团队的关系作战室：从 CRM、邮件和通话里自动画出客户组织架构，标出还没打通的关键人，并推荐下一步该找谁、怎么谈。",
+  "en_title": "Centralize",
+  "en_oneliner": "A relationship workspace for enterprise deal teams: it builds org charts from your CRM, email and calls, surfaces the stakeholders you haven't met yet, and recommends your next move."
+ },
+ "https://www.laurence.com/?ref=producthunt": {
+  "zh_title": "Laurence：电商广告的操作系统",
+  "zh_oneliner": "给电商品牌的广告操作系统：把广告当成数学问题来解，按利润、获客成本和市场规模自动投放，还能优化 Listing、管库存、盯竞品。",
+  "en_title": "Laurence",
+  "en_oneliner": "An operating system for e-commerce marketers: it treats advertising as a math problem, running ads against profit, CAC and market size, while optimizing listings, tracking inventory and watching competitors."
  }
 }

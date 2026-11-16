@@ -264,6 +264,38 @@ BLOCKED_DOMAINS = {
     # `pip install codegraphy-lite`，浏览器里只有固定示例项目的界面预览，
     # 无法上传/分析自己的代码库；Pro 购买按钮还链到一个无关 Telegram 账号
     "codegraphy.software",
+    # 抽查确认不是在线工具（2026-11-16 16:00 轮，浏览器实测本轮 9 条新品，
+    # 6 条泄漏）：LingoMic 是 Chrome 扩展 + Windows 桌面应用，核心功能要
+    # 安装扩展/客户端；ByteVoice 只有 macOS 桌面应用下载；Notebook to Notes
+    # 是 19 美元 macOS 付费应用（.dmg 下载）；StateWeave 是给编码智能体
+    # 做沙箱测试的平台，要装 sw CLI 才能用；UI SDK 是供智能体生成 UI 的
+    # 行为库/SDK（同第二轮已封的 JS 组件库）；go.cal.com 短链本轮链到
+    # Product Hunt 的 Cal.com Companion Apps，即 iOS/Android 原生应用 +
+    # 浏览器扩展；apps.shopify.com 是 Shopify 应用商店（同已封的
+    # apps.apple.com / play.google.com），时间线里的 AgentWatch 即链此
+    "lingomic.com", "bytevoice.app", "notebooktonotes.com",
+    "stateweave.net", "ui-sdk.dev", "go.cal.com", "apps.shopify.com",
+    # Black Pixel：69 字节 PNG 的 NFT 收购 dossier 销售页（413 ETH 买断、
+    # 出价、询价表单与收藏条款），内嵌的解剖演示只能看固定文件、不能处理
+    # 自己的数据，不是能直接用的工具（2026-11-16 16:00 轮补位条目实测）
+    "black-pixel-1x1.vercel.app",
+    # Glifa：macOS 桌面 Markdown 编辑器，需 Apple Silicon 与 macOS 15，
+    # 付费下载（2026-11-16 16:00 轮补位条目，Product Hunt 页实测）
+    "glifa.app",
+    # 抽查确认不是在线工具（2026-11-16 16:00 轮，时间线补翻 7 条时实测）：
+    # Papyras 是写手文章站（SEO 指南与评测合集），不是工具；
+    # Findy 是 macOS 桌面文件搜索应用（11 美元买断，须装客户端）；
+    # Kafkador 是自托管 Kafka 控制台，要 Docker / jar 或装桌面应用；
+    # Fluid 是语音模型 API（按分钟计费的 speech-to-speech 模型页）；
+    # Blomma 是手机应用（官网主推 Download the app），/orgs 是创始机构
+    # 候补名单页，都没有能在浏览器里直接用的工具
+    "papyras.com", "getfindy.xyz", "codestreamlab.com",
+    "kugelaudio.com", "blomma.com",
+    # Intelligent Eyewear：三星 AI 智能眼镜硬件产品页（Warby Parker /
+    # Gentle Monster 联名，需配手机蓝牙使用，购买走零售店），不是工具
+    # （2026-11-16 16:00 轮，时间线补翻时实测）；samsung.com 是硬件商城，
+    # 不托管网页工具
+    "samsung.com",
     # 抽查确认不是在线工具（2026-11-16 午后轮，浏览器实测）：Aven App Agent
     # 是给开发者把 AI 助手嵌进自家应用的 SDK，官网只有“选 SDK、注册任务”的
     # 接入指引，浏览器里无法直接使用，不是能直接用的工具
