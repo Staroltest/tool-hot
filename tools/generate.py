@@ -315,6 +315,14 @@ BLOCKED_EXACT = {
     # 编辑的桌面编辑器）也不符；浏览器版在 web.codecainehq.com 子域，
     # 只拦根域，子域直接被信源链到时仍可收（2026-11-16 晚间轮实测）
     "codecainehq.com",
+    # 2026-11-16 晚间轮实测封禁：balajsaleem.github.io 是个人博客，
+    # /weight-space-editing 是讲权重编辑研究的长文，不是能用的工具；
+    # yashnandvana.in 是个人作品集主页（服务介绍 + 联系方式），不是工具；
+    # xargaar-tools.com/lead-rescue 是 SaaS 等候名单营销页（留邮箱等开通），
+    # 点开用不了工具本身，只有演示表单
+    "balajsaleem.github.io",
+    "yashnandvana.in",
+    "xargaar-tools.com",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
@@ -423,6 +431,14 @@ _TITLE_BLOCK_RES = [
         # 游戏 mod（如“a Factorio mod for GPU nerds”）：mod 要下载安装到游戏
         # 里才能用，不是“在网站上就能用”的工具；域名门同步封 mods.factorio.com
         r"\bmod\b",
+        # 个人作品集主页（如“My developer portfolio with an interactive
+        # terminal”）：点开是自我介绍和服务列表，不是能用的工具；只拦
+        # 表意明确的“作品集主页”说法，不拦 portfolio tracker 之类的工具
+        # （2026-11-16 晚间轮：yashnandvana.in）
+        r"\bmy\s+developer\s+portfolio\b",
+        r"\bdeveloper\s+portfolio\b",
+        r"\bportfolio\s+(website|site|page)\b",
+        r"个人作品集",
         r"下载.{0,6}(windows|mac|ios|安卓|苹果|桌面|电脑|手机)",
         r"(windows|mac|macos|ios|安卓|苹果)版",
         r"在\s*(iphone|ipad|安卓|苹果手机|手机)\s*上",
