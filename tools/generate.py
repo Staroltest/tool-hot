@@ -264,6 +264,10 @@ BLOCKED_DOMAINS = {
     # `pip install codegraphy-lite`，浏览器里只有固定示例项目的界面预览，
     # 无法上传/分析自己的代码库；Pro 购买按钮还链到一个无关 Telegram 账号
     "codegraphy.software",
+    # 抽查确认不是在线工具（2026-11-16 午后轮，浏览器实测）：Aven App Agent
+    # 是给开发者把 AI 助手嵌进自家应用的 SDK，官网只有“选 SDK、注册任务”的
+    # 接入指引，浏览器里无法直接使用，不是能直接用的工具
+    "avenappagent.com",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
 }
