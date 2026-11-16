@@ -7,9 +7,10 @@
 
 流水线（参考 AIHOT 的信息架构：采集 -> 判重 -> 评分 -> 精选 -> 日报，
 但全部落成静态文件，供 GitHub Pages 托管、定时任务驱动更新）：
-  1. 拉取 sources.json 里的公开 RSS/Atom（只读标题+摘要+链接，不转载全文）
+  1. 拉取 sources.json 里的公开 RSS/Atom 与 JSON API（只读标题+摘要+链接，不转载全文）
   2. 按规范化链接去重，与 data/store.json 里的本地历史合并（增量更新；store.json 不推送）；
-     链接解析到工具本身（Product Hunt 跟随 /r/p/ 跳转，Reddit 取正文 [link] 外链）
+     链接解析到工具本身（Product Hunt 跟随 /r/p/ 跳转，Reddit 取正文 [link] 外链；
+     Ignlab 走 /api/v1/listings，url 字段直接就是工具官网）
   3. 工具站收录门：只收点开就能用的工具网站，文章/新闻/博客/帖子/仓库页/
      目录页一律拦下；再规则打分（时间新鲜度 + 信源分级 + 主题关键词，config.json 可调）
   4. 产出 data/hot.json（热点榜 Top 20）、data/days/（按天分块）与 index.html
@@ -220,6 +221,17 @@ BLOCKED_DOMAINS = {
     # 抽查确认不是在线工具（2026-11-16 第四轮）：亲子场所目录/攻略站，
     # 主站是行程与指南内容并主推 iPhone 应用，不是能直接用的工具
     "ourplayday.com",
+    # 抽查确认不是在线工具（2026-11-16 第五轮，Ignlab 接入首批）：
+    # Divi Digital 是迪拜 SEM 代运营公司官网，不是工具；
+    # Reels Blocker 与 ChatSweep 是浏览器扩展（落地页）；
+    # GamersVPN 是 VPN 客户端下载服务；GrabaRobot 是机器人厂商目录站
+    "dividigital.ae", "reelsblocker.biznift.com", "gamersvpn.com",
+    "chatgptbulkdelete.net", "grabarobot.com",
+    # WhyArc：实测首页是 iPhone 应用落地页（App Store 链接 7 处），不是网页工具
+    "whyarc.com",
+    # 抽查确认不是在线工具（2026-11-16 第五轮）：原生 iPhone/iPad/Mac 笔记应用，
+    # 首页主推原生应用下载，网页版只是附属，不符合“完全在网站上就能用”
+    "remindly.com",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
 }
@@ -447,6 +459,68 @@ def parse_feed(body, source):
             item["_redirect"] = redirect
         if ext_link:
             item["_ext_link"] = ext_link
+        if summary_full:
+            item["summary_full"] = summary_full
+        items.append(item)
+    return items
+
+
+
+# ---------------------------------------------------------------- Ignlab JSON 信源
+# Ignlab Launch 公开 API（2026-11-16 实测，无需认证）：
+#   GET https://launch.ignlab.net/api/v1/listings?limit=50&offset=0
+# 返回 {"listings": [...], "categories": [...], "total": 7853,
+#        "offset": 0, "limit": 50}，默认按 created_at 倒序（最新在前），
+# limit/offset 分页可用；站方 FAQ 说明免费公开只读、有限流。
+# 每条 listing：id / name / slug / url（工具官网）/ tagline /
+# description / category / tags / pricing / upvotes /
+# created_at（"2026-11-15 12:01:33"，UTC）/ listing_url。
+# 每轮只取最新 50 条（约 8 小时量），不回填 7,853 条全库；去重与
+# 收录门和 RSS 条目完全一样（按规范化链接判重、tool_gate + title_gate）。
+IGNLAB_LIMIT = 50
+IGNLAB_CATEGORY_MAP = {
+    "Productivity": "productivity",
+    "Developer Tools": "dev",
+    "Design": "design",
+    "Marketing": "productivity",
+    "AI": "ai",
+    "Analytics": "data",
+    "Finance": "productivity",
+    "No-Code": "dev",
+    "Security": "dev",
+    "Other": "productivity",
+}
+
+
+def parse_ignlab(body, source):
+    """Ignlab /api/v1/listings 的 JSON，映射成与 parse_feed 相同的条目形状。"""
+    try:
+        data = json.loads(body)
+    except (json.JSONDecodeError, TypeError, ValueError):
+        return []
+    items = []
+    for raw in (data.get("listings") or [])[:IGNLAB_LIMIT]:
+        if not isinstance(raw, dict):
+            continue
+        name = (raw.get("name") or "").strip()
+        link = norm_link(raw.get("url") or "")
+        if not name or not link:
+            continue
+        tagline = (raw.get("tagline") or "").strip()
+        desc = (raw.get("description") or "").strip()
+        summary = shorten(tagline or desc)
+        summary_full = complete_para(desc, 1500) if len(desc) > 200 else ""
+        pub = parse_date(raw.get("created_at") or "")
+        item = {
+            "title": name,
+            "link": link,
+            "source": source["name"],
+            "source_id": source["id"],
+            "published": pub,
+            "summary": summary,
+            "_cat_hint": IGNLAB_CATEGORY_MAP.get(raw.get("category") or "",
+                                                 "productivity"),
+        }
         if summary_full:
             item["summary_full"] = summary_full
         items.append(item)
@@ -4245,12 +4319,13 @@ def main():
     # 当前信源 = 工具发现渠道；已下线信源（文章/新闻源）的历史条目不再上榜
     kept_sources = set(src_by_id)
 
-    def enrich_store_item(it):
+    def enrich_store_item(it, fallback=None):
         """给历史条目补上与时间无关的派生字段（B16/B2 供 JS 动态渲染用）：
-        信源分级、分类、中文标签。"""
+        信源分级、分类、中文标签。fallback 为单条目的分类提示
+        （Ignlab 按其 category 映射），没有时用信源的 category_hint。"""
         it["tier"] = src_by_id.get(it.get("source_id", ""), {}).get("tier", "T2")
         it["category"] = classify(it, cats,
-                                  src_by_id.get(it.get("source_id", ""), {}).get(
+                                  fallback or src_by_id.get(it.get("source_id", ""), {}).get(
                                       "category_hint", "industry"))
         it["category_label"] = cat_label.get(it["category"], it["category"])
         it["tags"] = labels_for(it, cfg)[:3]
@@ -4300,7 +4375,10 @@ def main():
     for src in sources:
         try:
             body = fetch(src["url"])
-            new_items = parse_feed(body, src)
+            if src.get("kind") == "json":
+                new_items = parse_ignlab(body, src)
+            else:
+                new_items = parse_feed(body, src)
         except Exception as e:  # noqa: BLE001 - 单个信源失败不中断整轮
             failed.append((src["id"], str(e)[:80]))
             continue
@@ -4369,7 +4447,7 @@ def main():
                 entry["resolved_link"] = resolved
             if it.get("summary_full"):
                 entry["summary_full"] = it["summary_full"]
-            enrich_store_item(entry)
+            enrich_store_item(entry, it.get("_cat_hint"))
             history[it["id"]] = entry
             by_link[key] = entry
             by_link[norm_link(it["link"])] = entry
