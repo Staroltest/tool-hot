@@ -8308,5 +8308,23 @@
   "zh_oneliner": "在浏览器里给坦克写行驶与开火算法，扔进大逃杀赛场和别人的坦克对战，比拼谁的代码能活到最后。",
   "en_title": "Show HN: AlgoTank, battle royale tank algorithm",
   "en_oneliner": "Write the algorithm that drives your tank in the browser, then drop it into a battle-royale arena against other players' tanks to see whose code survives."
+ },
+ "https://yadavan88.github.io/sketchprobe": {
+  "zh_title": "SketchProbe：浏览器里解码 Apache DataSketches",
+  "zh_oneliner": "把 MongoDB、Parquet 或 Spark 里导出的 DataSketches 密文粘贴进来，直接在浏览器里解出 HLL、Theta、KLL 等 sketch 的估算结果，全程不上传数据。",
+  "en_title": "Show HN: SketchProbe – decode Apache DataSketches binaries, runs via WebAssembly",
+  "en_oneliner": "Paste a DataSketches value exported from MongoDB, Parquet or Spark and decode HLL, Theta and KLL sketches right in your browser, with nothing uploaded."
+ },
+ "https://bootform.com": {
+  "zh_title": "BootForm：不用注册就能用的静态站表单后端",
+  "zh_oneliner": "给静态网站接表单不用写后端代码，生成一个表单 ID、把 HTML 表单指过去就能收提交，自带反垃圾、邮件与 Discord 通知，还有给 AI 助手用的 MCP 服务。",
+  "en_title": "Show HN: BootForm, an MCP-first form back end that works before you sign up",
+  "en_oneliner": "Add a form backend to a static site with no backend code: generate a form ID, point your HTML form at it and start collecting submissions, with built-in spam protection, email and Discord notifications, and an MCP server for AI agents."
+ },
+ "https://bozzetto.dev": {
+  "zh_title": "Bozzetto：开工前先把工程决策对齐",
+  "zh_oneliner": "帮工程团队在动手写代码之前把技术决策讲清楚、达成一致，避免返工和推倒重来，适合多方协作、跨时区和 AI 助手参与的团队。",
+  "en_title": "Show HN: Bozzetto – a Place to Align on Engineering Decisions",
+  "en_oneliner": "Helps engineering teams get aligned on technical decisions before writing code, so the work starts from a shared understanding instead of ending in rework — built for multi-stakeholder, distributed and agent-assisted teams."
  }
 }

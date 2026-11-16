@@ -313,6 +313,14 @@ BLOCKED_DOMAINS = {
     # Prettywhale 链到 VS Code Marketplace 扩展下载页；Offline PDF Desk
     # 链到 Gumroad 商品页（单个 HTML 文件，需下载才能用）
     "marketplace.visualstudio.com", "gumroad.com",
+    # 抽查确认不是在线工具（2026-11-16 23:00 轮，浏览器实测本轮 6 条新品，
+    # 3 条泄漏）：Codjiva 是 macOS/Windows/Linux 桌面应用（官网“Free, for
+    # macOS, Windows and Linux”“Pick the build for your system”），须下载安装；
+    # Localhost2137 是本地服务模拟运行时，`pnpm add -g localhost2137` 全局
+    # 安装后跑在本机，不在浏览器里用；Flintty 是 Mac 终端应用（Apple Silicon
+    # + macOS 13，官网“A Mac app”），须下载安装；三者标题均不露痕迹，标题门
+    # 拦不住，域名封禁
+    "codjiva.aay.sh", "localhost2137.dev", "flintty.com",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
 }
