@@ -8326,5 +8326,11 @@
   "zh_oneliner": "帮工程团队在动手写代码之前把技术决策讲清楚、达成一致，避免返工和推倒重来，适合多方协作、跨时区和 AI 助手参与的团队。",
   "en_title": "Show HN: Bozzetto – a Place to Align on Engineering Decisions",
   "en_oneliner": "Helps engineering teams get aligned on technical decisions before writing code, so the work starts from a shared understanding instead of ending in rework — built for multi-stakeholder, distributed and agent-assisted teams."
+ },
+ "https://catcopter.com": {
+  "zh_title": "Catcopter：开着四旋翼猫咪打翼龙的多人小游戏",
+  "zh_oneliner": "免费多人浏览器小游戏，开着装了螺旋桨的猫咪在热带岛屿上空抢猫薄荷、跟翼龙空战，选好猫就能直接开打。",
+  "en_title": "I built catcopter - a multiplayer game where you can fly a quadcopter cat and fight with pterodactyls!",
+  "en_oneliner": "A free multiplayer browser game: pilot a propeller-pawed cat over tropical islands, grab catnip and dogfight pterodactyls — pick your cat and jump straight in."
  }
 }

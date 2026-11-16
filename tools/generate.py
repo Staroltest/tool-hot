@@ -321,6 +321,11 @@ BLOCKED_DOMAINS = {
     # + macOS 13，官网“A Mac app”），须下载安装；三者标题均不露痕迹，标题门
     # 拦不住，域名封禁
     "codjiva.aay.sh", "localhost2137.dev", "flintty.com",
+    # 抽查确认不是在线工具（2026-11-16 23:30 轮，浏览器实测本轮 4 条新品，
+    # 3 条泄漏）：Mnestiq 是 Python SDK（pip install mnestiq，仪表盘只跑在
+    # 本机），须下载安装才能用；InvoiceForge 链到 Codester 代码市集商品页
+    # （25 美元 JS 库购买/下载页），不是能直接用的工具；两者标题均不露痕迹
+    "mnestiq.com", "codester.com",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
 }
@@ -340,6 +345,11 @@ BLOCKED_EXACT = {
     "balajsaleem.github.io",
     "yashnandvana.in",
     "xargaar-tools.com",
+    # Tyrus：tyruslang.org 根地址是编程语言文档站（编译型语言工具链，
+    # 须装 tyrus CLI 才能用），不是能直接用的工具；只拦根域，Web Playground
+    # 在 playground.tyruslang.org 子域，信源直接链到时仍可收
+    # （2026-11-16 23:30 轮，浏览器实测）；标题门同步加 programming language
+    "tyruslang.org",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
@@ -456,6 +466,11 @@ _TITLE_BLOCK_RES = [
         # 游戏 mod（如“a Factorio mod for GPU nerds”）：mod 要下载安装到游戏
         # 里才能用，不是“在网站上就能用”的工具；域名门同步封 mods.factorio.com
         r"\bmod\b",
+        # 编程语言（如“Show HN: Tyrus – TypeScript Syntax. Rust Semantics.
+        # Programming Language”）：语言工具链要下载安装才能用，链到的官网
+        # 只是文档站；浏览器里直接用的在线 Playground 另有子域地址，标题带
+        # “runs in your browser”等豁免词时不拦（2026-11-16 23:30 轮：Tyrus）
+        r"\bprogramming language\b",
         # 个人作品集主页（如“My developer portfolio with an interactive
         # terminal”）：点开是自我介绍和服务列表，不是能用的工具；只拦
         # 表意明确的“作品集主页”说法，不拦 portfolio tracker 之类的工具
