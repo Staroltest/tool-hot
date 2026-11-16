@@ -373,6 +373,13 @@ BLOCKED_DOMAINS = {
     "showstartup.com", "sourcesli.st",
     "chisle.jaypokale.me", "box.simular.ai",
     "useview.app", "netrix-console.com", "qube.so",
+    # 抽查确认不是在线工具（2026-11-17 07:00 轮，浏览器实测本轮 5 条新品，
+    # 3 条泄漏）：Standard Support 是“AI 智能体提交工单的约定”规范文档站，
+    # 站上只有规范文本与参考实现说明，没有能直接用的工具；NOS 是 Rust 写的
+    # x86-64 hypervisor 操作系统，/en/demo 是演示视频解说页，系统本身须装到
+    # 裸机服务器上才能用；Brewlet 是 Kubernetes 运行时管理工具（git clone +
+    # make build 装到集群里），不是能在浏览器里直接用的工具；三者标题均不露痕迹
+    "standardsupport.dev", "nos-os.tech", "brewlet.sh",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
 }
@@ -533,6 +540,10 @@ _TITLE_BLOCK_RES = [
         # 只是文档站；浏览器里直接用的在线 Playground 另有子域地址，标题带
         # “runs in your browser”等豁免词时不拦（2026-11-16 23:30 轮：Tyrus）
         r"\bprogramming language\b",
+        # hypervisor（如“Show HN: NOS x86-64 hypervisor, written in Rust”）：
+        # 虚拟机监控程序是装到裸机服务器上的基础设施，不是能在浏览器里直接
+        # 用的工具；域名门同步封 nos-os.tech（2026-11-17 07:00 轮：NOS）
+        r"\bhypervisor\b",
         # 个人作品集主页（如“My developer portfolio with an interactive
         # terminal”）：点开是自我介绍和服务列表，不是能用的工具；只拦
         # 表意明确的“作品集主页”说法，不拦 portfolio tracker 之类的工具
