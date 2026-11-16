@@ -8332,5 +8332,47 @@
   "zh_oneliner": "免费多人浏览器小游戏，开着装了螺旋桨的猫咪在热带岛屿上空抢猫薄荷、跟翼龙空战，选好猫就能直接开打。",
   "en_title": "I built catcopter - a multiplayer game where you can fly a quadcopter cat and fight with pterodactyls!",
   "en_oneliner": "A free multiplayer browser game: pilot a propeller-pawed cat over tropical islands, grab catnip and dogfight pterodactyls — pick your cat and jump straight in."
+ },
+ "https://theliarsledger.com/play": {
+  "zh_title": "Liar's Ledger：单人狼人杀推理游戏，靠逻辑揪出说谎者",
+  "zh_oneliner": "一局单人狼人杀推理游戏，六名嫌疑人围坐一桌，只有一人在说谎，靠线索和逻辑推理把他揪出来。",
+  "en_title": "Show HN: Liar's Ledger – Werewolf deduction for one player, solved by reasoning",
+  "en_oneliner": "A solo Werewolf-style deduction game: six suspects at the table, one of them lying — use the clues and your logic to catch them."
+ },
+ "https://www.dockship42.com": {
+  "zh_title": "DockShip42：开着星舰降落到发射塔机械臂上的小游戏",
+  "zh_oneliner": "一款浏览器小游戏，驾驶星舰对准发射塔的机械臂缓缓降落，速度和角度稍有偏差就会坠毁。",
+  "en_title": "Show HN: DockShip42, small browser game to land Starship",
+  "en_oneliner": "A tiny browser game where you pilot a Starship down onto the launch tower's arms — get the speed or angle slightly wrong and you crash."
+ },
+ "https://mirrors.dev": {
+  "zh_title": "Mirrors：给生产环境 AI 智能体做上下文编排的工具",
+  "zh_oneliner": "给线上 AI 智能体写一次规则，它会在合适的步骤自动获得该看的上下文，还能衡量每条规则到底有没有帮上忙。",
+  "en_title": "Show HN: Mirrors – a context compiler for your production agents",
+  "en_oneliner": "Write a rule once and your production agents get the right context at the right step — with measurements showing whether each rule actually helped."
+ },
+ "https://taxvant.com/try": {
+  "zh_title": "TaxVant：自己动手算税，看看每个理财决定对税单的影响",
+  "zh_oneliner": "一款在线税务测算器，输入工资、Roth 转换和抚养人数，实时算出联邦税和加州税，拖动图表就能预览不同选择对税单的影响。",
+  "en_title": "I built a DIY Tax planner - Shows the tax impact of your financial decisions https://taxvant.com/try",
+  "en_oneliner": "An online tax planner: enter your wages, Roth conversions and dependents to see your federal and California tax live, and drag the chart to preview how each decision changes the bill."
+ },
+ "https://heardloom.com": {
+  "zh_title": "Heardloom：把移民家庭的故事留下来，别让它们失传",
+  "zh_oneliner": "用母语和长辈聊聊天，Heardloom 会把口述的故事整理成双语篇章，最后印成一本可以传家的家庭故事书。",
+  "en_title": "Show HN: Heardloom – Preserve immigrant family stories before they're lost",
+  "en_oneliner": "Chat with elders in their own language and Heardloom turns their spoken stories into bilingual chapters, finally printed as a family keepsake book."
+ },
+ "https://pinangle.app": {
+  "zh_title": "PinAngle：把网页内容一键做成 Pinterest 图钉",
+  "zh_oneliner": "粘贴一篇博客或商品页链接，它会自动生成 Pinterest 风格的图片和文案，改好排版字体就能直接发布到你的画板上。",
+  "en_title": "Show HN: PinAngle – Page content into Pinterest-ready Pins",
+  "en_oneliner": "Paste a blog post or product page and it generates Pinterest-style images and copy — tweak the layout and fonts, then publish straight to your board."
+ },
+ "https://facevaluepress.com": {
+  "zh_title": "FaceValue Press：把亲友的脸印成一副定制扑克牌",
+  "zh_oneliner": "上传亲友或宠物的照片，AI 会把它们画成古典木刻风格的扑克牌面，拼成一副 54 张的实体牌组寄到你手里。",
+  "en_title": "Show HN: Make a custom deck of playing cards with your family and friend's faces",
+  "en_oneliner": "Upload photos of friends, family or pets and AI draws them as classic woodcut-style court cards, printed as a 54-card deck and shipped to you."
  }
 }

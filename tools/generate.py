@@ -326,6 +326,12 @@ BLOCKED_DOMAINS = {
     # 本机），须下载安装才能用；InvoiceForge 链到 Codester 代码市集商品页
     # （25 美元 JS 库购买/下载页），不是能直接用的工具；两者标题均不露痕迹
     "mnestiq.com", "codester.com",
+    # 抽查确认不是在线工具（2026-11-17 00:30 轮，浏览器实测本轮 9 条新品，
+    # 2 条泄漏）：Torsher 是 Jellyfin/*ARR 平替的 Docker 自托管媒体服务，
+    # 官网 demo 只是假数据的电视界面展示，真正工具须自己部署 Docker 才能用；
+    # CoderBaba 是终端 AI 编程助手，`npm install -g coderbaba` 装到本机跑，
+    # 不是能在浏览器里直接用的工具；两者标题均不露痕迹，标题门拦不住，域名封禁
+    "torsher.app", "coderbaba.si",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
 }
