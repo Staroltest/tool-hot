@@ -7162,5 +7162,143 @@
     "zh_oneliner": "澳大利亚连锁超市 Coles 遭遇网络安全事件的最新消息，细节以官方更新为准。",
     "en_title": "Coles hit by a cybersecurity incident",
     "en_oneliner": "News of a cybersecurity incident at Australian supermarket chain Coles — details as published in the official update."
+  },
+  "https://www.reddit.com/r/coolgithubprojects/comments/1xxclot/python_turtle_baby_lucy_coding_python_learnpython": {
+    "zh_title": "Python 海龟画图：Baby Lucy",
+    "zh_oneliner": "用 Python 海龟画图加 Pygame 做的小分享，适合跟着练手的 Python 初学者。",
+    "en_title": "Python Turtle Baby Lucy #coding #python #learnpython #turtle #pygame",
+    "en_oneliner": "A small Python turtle-graphics and Pygame share — a hands-on exercise for Python beginners."
+  },
+  "https://dev.to/juanpabloabadiamedin/what-makes-a-technology-project-trustworthy-1od3": {
+    "zh_title": "什么样的技术项目值得信任？",
+    "zh_oneliner": "演示好看不等于真实可用，作者给出选技术前的三个问题：数据从哪来、结果能不能独立验证、出问题时怎么办。",
+    "en_title": "What Makes a Technology Project Trustworthy?",
+    "en_oneliner": "An impressive demo does not mean a dependable system — three questions to ask before choosing a technology: where the data comes from, whether results can be verified independently, and what happens when it fails."
+  },
+  "https://dev.to/fenju_fu/agents-can-code-but-cant-see-why-multimodal-perception-is-the-missing-skill-layer-51f3": {
+    "zh_title": "助手会写代码却看不见：多模态感知是缺失的技能层",
+    "zh_oneliner": "编码助手技能正在垂直化，但缺了多模态感知这一层，文章结合 GitHub 热榜新工具聊这个缺口为什么关键。",
+    "en_title": "Agents Can Code But Can't See: Why Multimodal Perception Is the Missing Skill Layer",
+    "en_oneliner": "Agent skills are going vertical, but multimodal perception is the missing layer — the piece uses this week's trending skill libraries to explain why the gap matters."
+  },
+  "https://dev.to/solutionmarket/our-mysql-rollup-job-blocked-the-sensors-it-was-supposed-to-summarize-2fe3": {
+    "zh_title": "我们的 MySQL 汇总任务堵住了它本该汇总的传感器",
+    "zh_oneliner": "InfraGuard 工程日志第六篇：汇总进程与生命周期的错配让数据库语句活得比客户端还久，阻塞了传感器写入。",
+    "en_title": "Our MySQL rollup job blocked the sensors it was supposed to summarize",
+    "en_oneliner": "InfraGuard engineering devlog, part 6: a mismatch between database work and process lifetime let statements outlive the client and block sensor inserts."
+  },
+  "https://dev.to/virorum/sentinel-dev-diary-reading-after-the-build-3e86": {
+    "zh_title": "Sentinel 开发日记：先建后读",
+    "zh_oneliner": "Sentinel 第六步规则引擎的复盘：审计发生在代码之后，缝隙评审比标记完成晚了近三周，聊聊先读后建与先建后读的区别。",
+    "en_title": "Sentinel Dev Diary: Reading After the Build",
+    "en_oneliner": "Sentinel dev diary on step six, the rules engine: the audit came after the code, and the seam review nearly three weeks after the step was marked done."
+  },
+  "https://dev.to/solutionmarket/a-repaired-sensor-made-our-dashboard-take-28-seconds-to-load-1548": {
+    "zh_title": "修好一个传感器，仪表盘加载却要 28 秒",
+    "zh_oneliner": "InfraGuard 工程日志第五篇：传感器恢复后遥测更健康了，控制台却变慢了，一条覆盖索引把 13 秒的查询拉了回来。",
+    "en_title": "A repaired sensor made our dashboard take 28 seconds to load",
+    "en_oneliner": "InfraGuard engineering devlog, part 5: restoring a sensor made telemetry healthier and the console slower — one covering index pulled a 13-second query back."
+  },
+  "https://dev.to/suttonhawkins6723/recovering-logistics-user-reminders-4-wrong-cron-expression-and-timezone-safeguards-2c23": {
+    "zh_title": "找回物流用户提醒：4 条防错 Cron 表达式与时区保障",
+    "zh_oneliner": "物流提醒的容错设计：用 UTC 短周期调度发现到期行、用持久投递键认领、重试 worker 发 webhook，时区写错或漏跑也不会重复投递。",
+    "en_title": "Recovering Logistics User Reminders — 4 Wrong Cron Expression and Timezone Safeguards",
+    "en_oneliner": "A resilient design for logistics reminders: a short fixed-rate scheduler discovers due rows in UTC, claims each with a durable delivery key, and a retry worker delivers the webhook — no duplicate delivery when a timezone is wrong or a run is missed."
+  },
+  "https://dev.to/anoymask/fbi-artex-threat-overview-ttps-iocs-and-investigation-items-for-multi-agent-attacks-18o9": {
+    "zh_title": "FBI ARTEX 威胁概览：多智能体攻击的战术、指标与调查要点",
+    "zh_oneliner": "整理 FBI 关于 ARTEX 自主渗透测试框架的威胁概览：战术手法、入侵指标与调查清单，以及它背后的攻击组织。",
+    "en_title": "FBI ARTEX Threat Overview: TTPs, IOCs, and Investigation Items for Multi-Agent Attacks",
+    "en_oneliner": "A digest of the FBI's threat overview on the ARTEX autonomous penetration-testing framework: tactics, indicators of compromise, investigation items, and the actors behind it."
+  },
+  "https://dev.to/bdonald/introducing-builder-garage-an-open-source-agentic-engineering-framework-p49": {
+    "zh_title": "Builder Garage 发布：开源智能体工程框架",
+    "zh_oneliner": "作者把自己与 AI 编码助手协作的工程技能、工作流与标准整理成开源项目 Builder Garage，让智能体按既定规范干活。",
+    "en_title": "Introducing Builder Garage: An Open-Source Agentic Engineering Framework",
+    "en_oneliner": "The author turns the engineering skills, workflows and standards built for working with AI coding agents into Builder Garage, an open-source agentic engineering framework."
+  },
+  "https://dev.to/designify101/export-a-framer-site-as-a-static-site-with-vite-5609": {
+    "zh_title": "把 Framer 网站导出为 Vite 静态站",
+    "zh_oneliner": "Framer 不支持导出静态文件，但可以用 Deframer 转成 Vite + React 工程，构建后每个页面都是预渲染的 HTML，丢到任何静态托管就能跑。",
+    "en_title": "Export a Framer site as a static site with Vite",
+    "en_oneliner": "Framer can't export static files, but Deframer converts a published site into a Vite and React project — every page prerendered to HTML, ready for any static host."
+  },
+  "https://dev.to/beth-ai/218-cold-pitches-0-eur-5-reproducible-bug-reports-1571-sats-data-from-568-ai-cycles-32ll": {
+    "zh_title": "218 封冷推销赚了 0 欧元，5 份可复现 Bug 报告赚了 1571 sats",
+    "zh_oneliner": "一个自治 AI 助手跑了 568 个周期后的账本：218 封群发推销零成交，唯一赚到钱的是给测试网游戏提交可验证的 Bug 报告。",
+    "en_title": "218 cold pitches = 0 EUR; 5 reproducible bug reports = 1,571 sats (data from 568 AI cycles)",
+    "en_oneliner": "The ledger after 568 cycles of an autonomous AI agent: 218 cold pitches earned nothing, while five verifiable bug reports on a testnet game paid 1,571 sats in Lightning bounties."
+  },
+  "https://dev.to/frankchu/7546996-lines-of-lean-i-counted-deepminds-signal-proof-31oo": {
+    "zh_title": "7546996 行 Lean：我数了 DeepMind 的 Signal 证明",
+    "zh_oneliner": "DeepMind 说 AlphaProof 生成了约 650 万行 Lean 证明来验证 Signal 密码学，作者把公开仓库亲自数了一遍：7546996 行，多出来的半百万行藏在哪才是重点。",
+    "en_title": "7,546,996 lines of Lean: I counted DeepMind's Signal proof",
+    "en_oneliner": "DeepMind says AlphaProof generated about 6.5 million lines of Lean proof verifying Signal's cryptography — the author counted the public repo himself: 7,546,996 lines, and where the extra half-million live is the interesting part."
+  },
+  "https://dev.to/frankchu/57-of-97-trump-bitly-links-arent-the-original-anymore-3ofp": {
+    "zh_title": "97 个特朗普 bit.ly 链接里有 57 个已不是原链接",
+    "zh_oneliner": "作者逐一核查了特朗普 2009 至 2013 年推文里的 97 个 bit.ly 链接：49 个多年后被重建，7 个已停用，1 个被标为恶意，还有 1 个悄悄指向了迷因币页面。",
+    "en_title": "57 of 97 Trump bit.ly links aren't the original anymore",
+    "en_oneliner": "The author re-checked all 97 bit.ly links in Donald Trump's 2009–2013 tweets one by one: 49 were recreated years later, 7 deactivated, 1 blocked as malicious, and one quietly leads to a memecoin page."
+  },
+  "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health": {
+    "zh_title": "苹果推出新应用，研究人们如何用 AI 处理健康问题",
+    "zh_oneliner": "苹果为一项新研究推出应用，专门观察人们怎么用 AI 回答日常医疗问题、效果如何。",
+    "en_title": "Apple launches new app to study how people use AI for health",
+    "en_oneliner": "Apple has launched a new app for a study on how people use AI to answer everyday medical questions — and how well it works."
+  },
+  "https://nix.dev/manual/nix/2.35/advanced-topics/eval-profiler": {
+    "zh_title": "Nix：用 eval-profiler 做求值性能分析",
+    "zh_oneliner": "Nix 官方手册里的 eval-profiler 进阶主题，讲怎么定位 Nix 表达式求值慢在哪里。",
+    "en_title": "Nix: Using the eval-profiler",
+    "en_oneliner": "An advanced topic from the official Nix manual: how to use the eval-profiler to find where Nix expression evaluation gets slow."
+  },
+  "https://www.hntrends.com/2026/november.html": {
+    "zh_title": "「Who is Hiring？」招聘帖跌至 12 年低点，AI 已触及半数岗位",
+    "zh_oneliner": "HN 招聘趋势数据显示招聘帖跌到 12 年低点，而 AI 相关岗位已占到一半，聊聊这波变化意味着什么。",
+    "en_title": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
+    "en_oneliner": "HN hiring-trend data shows job postings near 12-year lows while AI now reaches half of all jobs."
+  },
+  "https://www.c82.net/blog/visualizing-metra": {
+    "zh_title": "可视化 Metra（2011）",
+    "zh_oneliner": "2011 年的老文章，讲如何把芝加哥 Metra 通勤铁路的数据做成可视化。",
+    "en_title": "Visualizing Metra (2011)",
+    "en_oneliner": "A 2011 piece on visualizing Chicago's Metra commuter-rail data."
+  },
+  "https://cpldcpu.github.io/2026/11/14/touchsynth": {
+    "zh_title": "智能体 AI 设计了一台模拟合成器",
+    "zh_oneliner": "一个智能体 AI 设计模拟合成器的项目（TouchSynth），看 AI 从电路设计走到能出声的硬件。",
+    "en_title": "Agentic AI Designs an Analog Synthesizer",
+    "en_oneliner": "A project where agentic AI designed an analog synthesizer (TouchSynth) — from circuit design to hardware that makes sound."
+  },
+  "https://demudhra.sh": {
+    "zh_title": "Demudhra.sh：从你的电脑上清除泄露的 eMudhra 证书",
+    "zh_oneliner": "一个帮你清除泄露的 eMudhra 证书的小工具，跑一条命令就能扫出并移除有问题的证书。",
+    "en_title": "Demudhra.sh, remove the leaked eMudhra certs from your machine",
+    "en_oneliner": "A small tool that removes leaked eMudhra certificates from your machine — one command to find and clear the bad certs."
+  },
+  "https://ianbarber.blog/2026/08/24/vocab-break": {
+    "zh_title": "Vocab Break",
+    "zh_oneliner": "一篇关于词汇学习间隙的短文，讲在背单词时有意留白的用处。",
+    "en_title": "Vocab Break",
+    "en_oneliner": "A short note on taking deliberate breaks in vocabulary learning — and why the gaps help."
+  },
+  "https://pluralistic.net/2023/08/20/everything-made-by-an-ai-is-in-the-public-domain": {
+    "zh_title": "AI 生成的一切都属于公有领域",
+    "zh_oneliner": "Cory Doctorow 2023 年的老文章：AI 生成的内容不受版权保护，等于直接进了公有领域，聊聊这对创作者意味着什么。",
+    "en_title": "Everything Made by an AI Is in the Public Domain",
+    "en_oneliner": "A 2023 Cory Doctorow piece: AI-made works can't be copyrighted, so they land straight in the public domain — and what that means for creators."
+  },
+  "https://www.latimes.com/california/story/2026-11-13/voters-pass-proposition-42-barring-new-taxes-on-personal-assets": {
+    "zh_title": "加州禁止征收财富税",
+    "zh_oneliner": "加州选民通过 42 号提案，禁止对个人资产征收新税，《洛杉矶时报》的报道。",
+    "en_title": "California Bans Wealth Taxes",
+    "en_oneliner": "California voters passed Proposition 42, barring new taxes on personal assets — covered by the Los Angeles Times."
+  },
+  "https://orangc.net/notes/compose-key": {
+    "zh_title": "绝妙的 Compose 键",
+    "zh_oneliner": "一篇讲 Compose 键的短文：这个被遗忘的按键能让你打出几乎所有特殊字符，值得重新认识。",
+    "en_title": "The Brilliant Compose Key",
+    "en_oneliner": "A short note on the compose key — the forgotten key that lets you type almost any special character."
   }
 }
