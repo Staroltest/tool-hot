@@ -333,7 +333,7 @@
     "mcp_url": "https://hot-site-template.pages.dev/mcp",
     "mirror_url": "https://hot-site-template.pages.dev",
     "name": "工具站 HOT",
-    "repo": "https://github.com/Staroltest/hot-site-template",
+    "repo": "https://github.com/Staroltest/tool-hot",
     "slug": "tool-hot",
     "subtitle": "每天发现最新工具站",
     "subtitle_en": "Discover the newest tool sites every day",
@@ -343,6 +343,6 @@
     "tips": [],
     "title": "工具站 HOT",
     "title_en": "Tool Site HOT",
-    "url": "https://staroltest.github.io/hot-site-template"
+    "url": "https://staroltest.github.io/tool-hot"
   }
 }

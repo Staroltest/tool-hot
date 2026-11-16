@@ -6994,5 +6994,59 @@
     "zh_oneliner": "Vulcan 火箭发射失利的最新报道，聊聊这次失败对 ULA 与商业发射竞争格局意味着什么。",
     "en_title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
     "en_oneliner": "Coverage of the Vulcan rocket's launch failure and what the setback means for ULA and the commercial launch race."
+  },
+  "https://dev.to/asher_hu_42c5945e09721211/sandblasting-grit-why-320-shows-die-cast-porosity-3hgg": {
+    "zh_title": "喷砂目数：为什么 320 目会暴露压铸气孔",
+    "zh_oneliner": "喷砂目数决定铝件手感与光泽，120 目遮得住铸造气孔，320 目接近丝滑却会把压铸的孔洞缺陷全露出来，细不等于好。",
+    "en_title": "Sandblasting grit: why 320 shows die-cast porosity",
+    "en_oneliner": "Blasting grit sets an aluminium part's feel and gloss: 120 grit hides casting porosity, while 320 grit feels near-silky yet exposes every die-cast pore — finer is not better."
+  },
+  "https://dev.to/anders_lee_28dbcc2fd8e034/our-test-orders-were-paying-for-real-ai-renders-so-we-made-them-dry-runs-50ji": {
+    "zh_title": "测试订单也在烧真钱做 AI 渲染，于是我们加了演练模式",
+    "zh_oneliner": "每次测试下单都会触发两路付费视频生成，一单烧掉一美元多，文章讲他们如何用演练模式挡住这笔冤枉钱。",
+    "en_title": "Our test orders were paying for real AI renders, so we made them dry runs",
+    "en_oneliner": "Every test order triggered two paid video-generation jobs at over a dollar a pop — the post shows how a dry-run mode stopped the bleed."
+  },
+  "https://mib-viewer.com/products/mib-viewer-desktop": {
+    "zh_title": "Show HN：MIB Viewer Desktop，内置 2 万个 MIB 的 SNMP 浏览器",
+    "zh_oneliner": "Show HN 新品：内置 2 万个 MIB 的 SNMP 浏览器，查网络设备不用再翻枯燥的 MIB 定义文件。",
+    "en_title": "Show HN: MIB Viewer Desktop – SNMP MIB Browser with 20k MIBs",
+    "en_oneliner": "A Show HN desktop SNMP MIB browser shipping with 20,000 MIBs, so you can browse network-device definitions without digging through raw MIB files."
+  },
+  "https://github.com/V0val0x/DroidPath": {
+    "zh_title": "DroidPath：绕过 ADB，用 TCP 以 60Hz 串流 Android 界面树",
+    "zh_oneliner": "不用 ADB，直接走 TCP 以每秒 60 次的速度串流 Android 界面树，给自动化与无障碍工具一条更快的路。",
+    "en_title": "DroidPath – Stream Android UI Trees at 60Hz over TCP (Bypassing ADB)",
+    "en_oneliner": "Streams Android UI trees at 60Hz over TCP, bypassing ADB entirely — a faster pipe for automation and accessibility tooling."
+  },
+  "https://nimony.org": {
+    "zh_title": "Nimony：Nim 语言的新编译器",
+    "zh_oneliner": "Nim 语言的新编译器亮相，HN 上的讨论焦点是它与现有 Nim 编译器相比改了什么。",
+    "en_title": "Nimony: A New Compiler for Nim",
+    "en_oneliner": "A new compiler for the Nim language, with the HN discussion centered on what it changes versus the existing Nim compiler."
+  },
+  "https://www.csiro.au/en/research/technology-space/it/Wireless-LAN": {
+    "zh_title": "让快速无线连接走向世界",
+    "zh_oneliner": "CSIRO 回顾无线局域网技术如何从实验室走向全世界，讲一段 Wi-Fi 背后的澳大利亚故事。",
+    "en_title": "Bringing fast wireless connectivity to the world",
+    "en_oneliner": "CSIRO looks back at how wireless LAN technology travelled from the lab to the world — the Australian story behind Wi-Fi."
+  },
+  "https://keytrace.dev": {
+    "zh_title": "Keytrace：一个身份，多重证明",
+    "zh_oneliner": "一个身份、多重证明的身份方案，主页信息不多，先把它当作值得留意的身份工具新面孔。",
+    "en_title": "Keytrace – One identity, many proofs",
+    "en_oneliner": "An identity scheme promising one identity with many proofs — a new face in identity tooling worth keeping an eye on."
+  },
+  "https://invoice-funnel.com": {
+    "zh_title": "Show HN：把 Cliniko 发票自动搬到 QuickBooks 的小服务",
+    "zh_oneliner": "给同时用 Cliniko 和 QuickBooks 的小型诊所做的发票搬运小服务，自动同步，有免费档和沙箱可试。",
+    "en_title": "Show HN: Small service for moving invoices from Cliniko to QuickBooks",
+    "en_oneliner": "A small service that moves invoices automatically from Cliniko to QuickBooks for small medical practices, with a free tier and a sandbox to try."
+  },
+  "https://daringfireball.net/linked/2026/11/15/legion-of-pcast": {
+    "zh_title": "PCAST 军团",
+    "zh_oneliner": "Daring Fireball 转载的一篇短评，标题指向 PCAST（总统科技顾问委员会）相关的人事动态。",
+    "en_title": "The Legion of PCAST",
+    "en_oneliner": "A Daring Fireball link on PCAST (the President's Council of Advisors on Science and Technology) and its latest personnel moves."
   }
 }

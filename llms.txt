@@ -5,7 +5,7 @@
 > from RSS sources, scores them by rules, and publishes the top items
 > in Chinese with a one-line summary and a link to the original article.
 > It does not republish full text.
-> Site: https://staroltest.github.io/hot-site-template/
+> Site: https://staroltest.github.io/tool-hot/
 > Mirror: https://hot-site-template.pages.dev/
 > Language: Chinese (zh-CN). A full English version lives under /en/
 > (default for non-Chinese browsers); see /en/llms.txt.
@@ -13,16 +13,16 @@
 
 ## About
 
-- About: https://staroltest.github.io/hot-site-template/about.html
-- Topics: https://staroltest.github.io/hot-site-template/topics.html
-- Daily digest: https://staroltest.github.io/hot-site-template/daily.html
-- Hot list: https://staroltest.github.io/hot-site-template/hot.html
-- All items: https://staroltest.github.io/hot-site-template/all.html
-- English version: https://staroltest.github.io/hot-site-template/en/
-- English llms.txt: https://staroltest.github.io/hot-site-template/en/llms.txt
-- SEO/GEO self-check: https://staroltest.github.io/hot-site-template/geo-audit.html
-- RSS feed: https://staroltest.github.io/hot-site-template/feed.xml
-- Sitemap: https://staroltest.github.io/hot-site-template/sitemap.xml
+- About: https://staroltest.github.io/tool-hot/about.html
+- Topics: https://staroltest.github.io/tool-hot/topics.html
+- Daily digest: https://staroltest.github.io/tool-hot/daily.html
+- Hot list: https://staroltest.github.io/tool-hot/hot.html
+- All items: https://staroltest.github.io/tool-hot/all.html
+- English version: https://staroltest.github.io/tool-hot/en/
+- English llms.txt: https://staroltest.github.io/tool-hot/en/llms.txt
+- SEO/GEO self-check: https://staroltest.github.io/tool-hot/geo-audit.html
+- RSS feed: https://staroltest.github.io/tool-hot/feed.xml
+- Sitemap: https://staroltest.github.io/tool-hot/sitemap.xml
 
 ## For AI clients (MCP)
 
@@ -31,9 +31,9 @@
 - Tools: get_hot, get_daily, search_items
 - All tools accept lang=zh (default, Chinese) or lang=en (English).
 - Machine-readable data:
-  https://staroltest.github.io/hot-site-template/data/hot.json
-  https://staroltest.github.io/hot-site-template/data/daily.json
-  https://staroltest.github.io/hot-site-template/data/days/index.json
+  https://staroltest.github.io/tool-hot/data/hot.json
+  https://staroltest.github.io/tool-hot/data/daily.json
+  https://staroltest.github.io/tool-hot/data/days/index.json
 
 ## Categories
 

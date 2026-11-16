@@ -12,7 +12,7 @@
 // lang=en 读 /en/data/ 树，取 en_title/en_oneliner（由本站中文简介译出，
 // 绝非源站摘要）；中文树不带 en_* 字段，所以两种语言必须读不同路径。
 
-const SITE_ORIGIN = "https://staroltest.github.io/hot-site-template";
+const SITE_ORIGIN = "https://staroltest.github.io/tool-hot";
 const SERVER_NAME = "tool-hot";
 const SERVER_INFO = { name: SERVER_NAME, version: "1.1.0" };
 const KNOWN_PROTOCOLS = ["2025-06-18", "2025-03-26", "2024-11-05"];

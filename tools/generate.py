@@ -274,6 +274,16 @@ REASON_LABELS = {
 
 # 主题关键词 -> 英文标签（英文版推荐理由与标签用；键与 REASON_LABELS 完全一致）
 REASON_LABELS_EN = {
+    "AI": "AI", "人工智能": "AI",
+    "免费": "Free", "free": "Free",
+    "新工具": "New Tool",
+    "发布": "Release", "launch": "Launch",
+    "效率": "Productivity", "productivity": "Productivity",
+    "设计": "Design", "design": "Design",
+    "开发": "Development", "developer": "Development",
+    "自动化": "Automation", "automation": "Automation",
+    "助手": "Assistant", "assistant": "Assistant",
+    "生成": "Generative", "生成式": "Generative",
     "教程": "Tutorial", "tutorial": "Tutorial",
     "工具": "Tools", "tool": "Tools",
     "数据": "Data", "data": "Data",

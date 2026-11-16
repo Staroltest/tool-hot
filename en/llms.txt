@@ -5,20 +5,20 @@
 > from RSS sources, scores them by rules, and publishes the top items
 > in English with a one-line summary and a link to the original article.
 > It does not republish full text.
-> Site: https://staroltest.github.io/hot-site-template/en/
+> Site: https://staroltest.github.io/tool-hot/en/
 > Mirror: https://hot-site-template.pages.dev/en/
 > Language: English (en). The Chinese version lives at the site root.
 > Updated: 2026-11-16
 
 ## About
 
-- About: https://staroltest.github.io/hot-site-template/en/about.html
-- Topics: https://staroltest.github.io/hot-site-template/en/topics.html
-- Daily digest: https://staroltest.github.io/hot-site-template/en/daily.html
-- Hot list: https://staroltest.github.io/hot-site-template/en/hot.html
-- All items: https://staroltest.github.io/hot-site-template/en/all.html
-- RSS feed: https://staroltest.github.io/hot-site-template/en/feed.xml
-- Sitemap: https://staroltest.github.io/hot-site-template/sitemap.xml
+- About: https://staroltest.github.io/tool-hot/en/about.html
+- Topics: https://staroltest.github.io/tool-hot/en/topics.html
+- Daily digest: https://staroltest.github.io/tool-hot/en/daily.html
+- Hot list: https://staroltest.github.io/tool-hot/en/hot.html
+- All items: https://staroltest.github.io/tool-hot/en/all.html
+- RSS feed: https://staroltest.github.io/tool-hot/en/feed.xml
+- Sitemap: https://staroltest.github.io/tool-hot/sitemap.xml
 
 ## For AI clients (MCP)
 
@@ -27,9 +27,9 @@
 - Tools: get_hot, get_daily, search_items
 - All tools accept lang=zh (default, Chinese) or lang=en (English).
 - Machine-readable data:
-  https://staroltest.github.io/hot-site-template/en/data/hot.json
-  https://staroltest.github.io/hot-site-template/en/data/daily.json
-  https://staroltest.github.io/hot-site-template/en/data/days/index.json
+  https://staroltest.github.io/tool-hot/en/data/hot.json
+  https://staroltest.github.io/tool-hot/en/data/daily.json
+  https://staroltest.github.io/tool-hot/en/data/days/index.json
 
 ## Categories
 

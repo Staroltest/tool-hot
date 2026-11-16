@@ -1,11 +1,11 @@
 {
  "generated_at": "2026-11-16",
- "site": "https://staroltest.github.io/hot-site-template",
+ "site": "https://staroltest.github.io/tool-hot",
  "summary": {
   "total": 9,
-  "passed": 7,
+  "passed": 6,
   "warn": 2,
-  "failed": 0
+  "failed": 1
  },
  "checks": [
   {
@@ -17,8 +17,8 @@
   {
    "key": "sitemap",
    "label": "sitemap.xml 条数与漏页",
-   "status": "pass",
-   "detail": "共 3397 条 URL，磁盘 3395 个 HTML 页全部在列"
+   "status": "fail",
+   "detail": "共 3447 条 URL，漏 9 页：https://staroltest.github.io/tool-hot/en/topics/assistant.html、https://staroltest.github.io/tool-hot/en/topics/automation.html、https://staroltest.github.io/tool-hot/en/topics/design.html、https://staroltest.github.io/tool-hot/en/topics/developer.html、https://staroltest.github.io/tool-hot/en/topics/free.html…"
   },
   {
    "key": "llms",
