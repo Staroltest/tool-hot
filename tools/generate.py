@@ -251,6 +251,10 @@ BLOCKED_DOMAINS = {
     # 是印尼语 K-Pop 音乐流媒体站（首页 0 处 AI/编曲相关内容，链接
     # 全是歌曲页、榜单与曲库），没有能用的工具，属内容站而非工具站
     "matikiri.net",
+    # 抽查确认不是在线工具（2026-11-16 午间轮）：Vindle 是 iPhone/iPad
+    # 每日猜车游戏，官网主推 TestFlight 内测下载，不是能在浏览器里
+    # 直接用的网页工具；标题不露痕迹，标题门拦不住，域名封禁
+    "vindle.app",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
 }
