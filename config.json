@@ -279,14 +279,14 @@
       {
         "h": "定位",
         "paras": [
-          "工具站 HOT 是给工具爱好者看的发现站，每天从各个源中发现最新工具站，帮你快速找到好用的 AI 工具、开发工具、设计工具与效率工具。",
-          "我们只收真正能用的工具站，不收纯促销信息。"
+          "工具站 HOT 是给工具爱好者看的发现站，每天从各个源中发现最新工具网站，帮你快速找到好用的 AI 工具、开发工具、设计工具与效率工具。",
+          "我们只收点开就能用的工具网站：汇率计算器、格式转换、图片处理、代码工具……文章、新闻、博客、帖子一律不收。"
         ]
       },
       {
         "h": "怎么做",
         "paras": [
-          "采集——公开 RSS 信源，每半小时拉一次。",
+          "采集——公开 RSS 信源，每半小时拉一次；链接解析到工具本身，只收能直接用的工具站。",
           "打分——规则打分（时效、相关度、来源），不是 AI 打分。",
           "出报——只展示标题、一句简介与原文链接，不转载全文。"
         ]
@@ -302,14 +302,14 @@
       {
         "h": "What it is",
         "paras": [
-          "Tool Site HOT is a discovery site for tool lovers. Every day it finds the newest tool sites from sources everywhere, helping you quickly find useful AI tools, developer tools, design tools and productivity tools.",
-          "We only list tool sites that are genuinely useful, not pure promotions."
+          "Tool Site HOT is a discovery site for tool lovers. Every day it finds the newest tool websites from sources everywhere, helping you quickly find useful AI tools, developer tools, design tools and productivity tools.",
+          "We only list tool websites you can open and use right away — converters, formatters, image tools, code tools and more. No articles, no news, no blog posts, no forum threads."
         ]
       },
       {
         "h": "How it works",
         "paras": [
-          "Collect — public RSS sources, fetched every 30 minutes.",
+          "Collect — public RSS sources, fetched every 30 minutes; links are resolved to the tool itself, and only usable tool sites are listed.",
           "Score — rule-based scoring (recency, relevance, source), not AI scoring.",
           "Publish — only titles, one-line summaries and links to the originals, no full text republished."
         ]
@@ -324,8 +324,8 @@
     "audience": "工具爱好者、开发者、设计师与效率控",
     "audience_en": "tool lovers, developers, designers and productivity fans",
     "crawler_name": "ToolHotBot/1.0",
-    "description": "工具站 HOT 每天从 Product Hunt、Hacker News、GitHub 等信源发现最新工具站，按规则打分精选，只显示标题、一句简介与原文链接，不转载全文。",
-    "description_en": "Tool Site HOT discovers the newest tool sites every day from Product Hunt, Hacker News, GitHub and more, scores them by rules, and shows only the title, a one-line summary and a link to the original — no full text republished.",
+    "description": "工具站 HOT 只收录能直接用的工具网站：汇率计算器、格式转换、图片处理、代码工具……每天从 Product Hunt、Hacker News、Reddit 等信源发现最新工具站，按规则打分精选，只显示标题、一句简介与原文链接，不转载全文，不收文章和新闻。",
+    "description_en": "Tool Site HOT lists only tool websites you can use right away — converters, formatters, image tools, code tools and more. It discovers the newest tool sites every day from Product Hunt, Hacker News, Reddit and more, scores them by rules, and shows only the title, a one-line summary and a link to the original — no articles, no news, no full text republished.",
     "edition_time_cst": "06:00",
     "footer_note": "本站由 HOT 流水线模板生成，代码按 MIT 协议开源。只展示标题、一句简介与原文链接，不转载全文。",
     "footer_note_en": "Built with the HOT pipeline template; code is open source under the MIT License. Only titles, one-line summaries and links to the originals are shown, no full text republished.",
@@ -335,10 +335,10 @@
     "name": "工具站 HOT",
     "repo": "https://github.com/Staroltest/tool-hot",
     "slug": "tool-hot",
-    "subtitle": "每天发现最新工具站",
-    "subtitle_en": "Discover the newest tool sites every day",
-    "tagline": "每天从各个源中发现最新工具站，按规则打分推荐。",
-    "tagline_en": "Discover the newest tool sites from sources everywhere, scored by rules and recommended daily.",
+    "subtitle": "只收能直接用的工具网站",
+    "subtitle_en": "Only tool websites you can use right away",
+    "tagline": "每天从各个源中发现最新工具站，只收点开就能用的工具。",
+    "tagline_en": "Discover the newest tool sites from sources everywhere — only tools you can open and use right away.",
     "timezone": "Asia/Shanghai",
     "tips": [],
     "title": "工具站 HOT",

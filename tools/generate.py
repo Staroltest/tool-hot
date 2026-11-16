@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""HOT 站点生成器：拉取 RSS -> 去重 -> 规则打分 -> 生成静态站。
+"""HOT 站点生成器：拉取 RSS -> 去重 -> 链接解析到工具本身 -> 工具收录门
+-> 规则打分 -> 生成静态站。
 
 只用 Python 标准库（urllib + xml.etree），不依赖任何外部包，也不依赖
 大模型 API 或数据库；数据层就是 data/ 下的 JSON 文件。
@@ -7,8 +8,10 @@
 流水线（参考 AIHOT 的信息架构：采集 -> 判重 -> 评分 -> 精选 -> 日报，
 但全部落成静态文件，供 GitHub Pages 托管、定时任务驱动更新）：
   1. 拉取 sources.json 里的公开 RSS/Atom（只读标题+摘要+链接，不转载全文）
-  2. 按规范化链接去重，与 data/store.json 里的本地历史合并（增量更新；store.json 不推送）
-  3. 规则打分：时间新鲜度 + 信源分级 + 主题关键词（config.json 可调）
+  2. 按规范化链接去重，与 data/store.json 里的本地历史合并（增量更新；store.json 不推送）；
+     链接解析到工具本身（Product Hunt 跟随 /r/p/ 跳转，Reddit 取正文 [link] 外链）
+  3. 工具站收录门：只收点开就能用的工具网站，文章/新闻/博客/帖子/仓库页/
+     目录页一律拦下；再规则打分（时间新鲜度 + 信源分级 + 主题关键词，config.json 可调）
   4. 产出 data/hot.json（热点榜 Top 20）、data/days/（按天分块）与 index.html
   5. 带 --daily 时额外产出 data/daily.json 与 daily.html（当日日报）
 
@@ -159,6 +162,83 @@ def local_name(tag):
     return tag.rsplit("}", 1)[-1]
 
 
+# ---------------------------------------------------------------- 工具站收录门（2026-11-16 起：只收能直接用的工具网站）
+# 目标链接必须是点开就能用的工具本身（转换器、格式化、生成器、计算器、
+# 编辑器等）；文章、新闻、博客、帖子、仓库页、目录页一律不上榜。
+# 标题措辞只是次要信号，一律按目标链接的域名与路径判定；直接链到工具
+# 本身的上线公告可以收。
+
+# 域名黑名单：后缀匹配（子域名同样拦截），覆盖文章/博客/新闻/社交/
+# 仓库/视频/目录站与短链
+BLOCKED_DOMAINS = {
+    "dev.to", "medium.com", "hackernoon.com", "smashingmagazine.com",
+    "css-tricks.com", "freecodecamp.org", "stackoverflow.blog",
+    "github.blog", "techcrunch.com", "theverge.com", "lobste.rs",
+    "github.com", "gitlab.com", "reddit.com", "x.com", "twitter.com",
+    "youtube.com", "youtu.be", "ycombinator.com", "substack.com",
+    "wordpress.com", "cloudflare.com", "producthunt.com",
+    "alternativeto.net", "toolify.ai", "betalist.com",
+    "theresanaiforthat.com", "futuretools.io", "indiehackers.com",
+    "facebook.com", "instagram.com", "linkedin.com", "tiktok.com",
+    "apps.apple.com", "play.google.com",
+    "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
+    "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
+}
+# 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
+BLOCKED_EXACT = {"vercel.com"}
+# 文章味路径段（按段全等匹配）
+ARTICLE_PATH_SEGMENTS = {
+    "blog", "blogs", "news", "posts", "post", "article", "articles",
+    "story", "stories", "p", "journal", "docs", "documentation",
+    "wiki", "changelog", "press",
+}
+
+
+def tool_gate(url):
+    """目标链接收录判定：返回 (通过, 原因)，原因仅在不通过时有值。"""
+    if not url:
+        return False, "no_url"
+    try:
+        u = urllib.parse.urlparse(url)
+    except ValueError:
+        return False, "bad_url"
+    if u.scheme not in ("http", "https"):
+        return False, "bad_scheme"
+    host = (u.hostname or "").lower()
+    if (not host or "." not in host or host == "localhost"
+            or host.endswith((".local", ".test", ".example", ".invalid"))):
+        return False, "bad_host"
+    if host.split(".")[0] in ("blog", "docs", "news"):
+        return False, "blocked_subdomain"
+    for d in BLOCKED_DOMAINS:
+        if host == d or host.endswith("." + d):
+            return False, "blocked_domain"
+    if host in BLOCKED_EXACT:
+        return False, "blocked_domain"
+    segs = [s.lower() for s in u.path.split("/") if s]
+    if any(s in ARTICLE_PATH_SEGMENTS for s in segs):
+        return False, "article_path"
+    return True, ""
+
+
+def resolve_url(url, timeout=15):
+    """跟随跳转解析真实目标地址（HEAD 请求，不下载正文）。
+    Product Hunt 的 /r/p/ 跳转链接用这个办法拿到工具官网；失败返回 None。"""
+    try:
+        req = urllib.request.Request(url, headers=UA, method="HEAD")
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.geturl()
+    except urllib.error.HTTPError as e:
+        loc = e.headers.get("Location") if e.headers else None
+        if e.code in (301, 302, 303, 307, 308) and loc:
+            nxt = urllib.parse.urljoin(url, loc)
+            if nxt != url:
+                return resolve_url(nxt, timeout=timeout)
+        return None
+    except (urllib.error.URLError, TimeoutError, OSError, ValueError):
+        return None
+
+
 # ---------------------------------------------------------------- 抓取与解析
 
 def fetch(url, timeout=25, attempts=2):
@@ -208,6 +288,21 @@ def parse_feed(body, source):
         # 才存，短摘要本身已完整的条目不存，省体积。收成完整的一段话，
         # 不截断到半句、不挂省略号（导读/正文摘要不允许截断）。
         summary_full = complete_para(summary, 1500) if len(summary) > 200 else ""
+        # 工具站收录：Product Hunt 的 /r/p/ 跳转链接与 Reddit 的 [link]
+        # 外链都藏在正文 HTML 里，先抠出来（跳转跟随在调用方做）。
+        raw_html = (fields.get("content") or fields.get("encoded")
+                    or fields.get("description") or "")
+        redirect = ""
+        ext_link = ""
+        if source["id"] == "producthunt":
+            m = re.search(r"https://www\.producthunt\.com/r/p/\d+[^\"'\s<>]*", raw_html)
+            redirect = m.group(0) if m else ""
+            if "Discussion | Link" in summary:
+                summary = summary.split("Discussion | Link")[0].strip()
+                summary_full = complete_para(summary, 1500) if len(summary) > 200 else ""
+        elif source["id"].startswith("reddit-"):
+            m = re.search(r'href="([^"]+)"[^>]*>\[link\]', raw_html)
+            ext_link = m.group(1) if m else ""
         pub = parse_date(fields.get("pubDate") or fields.get("published")
                          or fields.get("updated"))
         item = {
@@ -218,6 +313,10 @@ def parse_feed(body, source):
             "published": pub,  # datetime 或 None（调用方补抓取时间）
             "summary": shorten(summary),
         }
+        if redirect:
+            item["_redirect"] = redirect
+        if ext_link:
+            item["_ext_link"] = ext_link
         if summary_full:
             item["summary_full"] = summary_full
         items.append(item)
@@ -4032,6 +4131,7 @@ def main():
         _it["tier"] = src_by_id.get(_it.get("source_id", ""), {}).get("tier", "T2")
 
     fetched, failed = 0, []
+    resolve_stats = {"ph_ok": 0, "ph_fail": 0, "reddit_ok": 0, "reddit_nolink": 0}
     # 中文翻译（data/zh_draft.json，按规范化链接匹配；每日精选把关时更新草稿，
     # 下一轮生成自动合入并写回 store.json，Actions 重生成也不会丢）
     zh_map = {}
@@ -4041,7 +4141,9 @@ def main():
             zh_map = load_json(zh_path)
             applied = 0
             for it in history.values():
-                tr = zh_map.get(norm_link(it.get("link", "")))
+                # 翻译按发布链接（解析后的工具网址）匹配；旧条目没有
+                # resolved_link 时回落原始链接
+                tr = zh_map.get(norm_link(it.get("resolved_link") or it.get("link", "")))
                 if not tr:
                     continue
                 if tr.get("zh_title"):
@@ -4071,12 +4173,32 @@ def main():
             it["id"] = hashlib.sha1(norm_link(it["link"]).encode()).hexdigest()
             if it["id"] in history:
                 continue  # 已收录：去重
+            # 工具站收录：把链接解析到工具本身（Product Hunt 跟随 /r/p/
+            # 跳转；Reddit 取正文里的 [link] 外链；解析失败直接丢弃）
+            resolved = None
+            if src["id"] == "producthunt":
+                red = it.get("_redirect", "")
+                final = resolve_url(red) if red else None
+                if not final:
+                    resolve_stats["ph_fail"] += 1
+                    continue
+                resolved = norm_link(final)
+                resolve_stats["ph_ok"] += 1
+            elif src["id"].startswith("reddit-"):
+                ext = it.get("_ext_link", "")
+                if not ext:
+                    resolve_stats["reddit_nolink"] += 1
+                    continue
+                resolved = norm_link(ext)
+                resolve_stats["reddit_ok"] += 1
             entry = {
                 "id": it["id"], "title": it["title"], "link": it["link"],
                 "source": it["source"], "source_id": it["source_id"],
                 "published": it["published"], "summary": it["summary"],
                 "fetched_at": now.isoformat(),
             }
+            if resolved:
+                entry["resolved_link"] = resolved
             if it.get("summary_full"):
                 entry["summary_full"] = it["summary_full"]
             enrich_store_item(entry)
@@ -4086,14 +4208,27 @@ def main():
     history = {k: v for k, v in history.items()
                if datetime.fromisoformat(v["published"]) >= cutoff_hist}
     save_json(hist_path, {"updated_at": now.isoformat(), "items": list(history.values())})
+    print(f"resolve: ph_ok {resolve_stats['ph_ok']} ph_fail {resolve_stats['ph_fail']} "
+          f"reddit_ok {resolve_stats['reddit_ok']} reddit_nolink {resolve_stats['reddit_nolink']}")
 
     # 分类与打分（在内存里算，不写回历史文件，保持历史干净）
+    gate_stats = {}
     live = []
     for it in history.values():
         pub = datetime.fromisoformat(it["published"])
         if pub.tzinfo is None:
             pub = pub.replace(tzinfo=timezone.utc)
         item = dict(it)
+        # 工具站收录门：按解析后的目标链接判定（历史条目同样过门；
+        # Product Hunt 旧条目仍是 products/* 目录页、Reddit 旧条目仍是
+        # 帖子链接，都会被拦下，不会再上榜）
+        if it.get("resolved_link"):
+            item["link"] = it["resolved_link"]
+        ok, why = tool_gate(item["link"])
+        if not ok:
+            gate_stats[why] = gate_stats.get(why, 0) + 1
+            continue
+        gate_stats["pass"] = gate_stats.get("pass", 0) + 1
         item["_pub"] = pub
         item["_tier"] = it.get("tier") or src_by_id.get(it["source_id"], {}).get("tier", "T2")
         item["category"] = it.get("category") or classify(
@@ -4120,6 +4255,10 @@ def main():
                 pass
         item["is_new"] = is_new
         live.append(item)
+
+    _rej = {k: v for k, v in gate_stats.items() if k != "pass"}
+    print(f"gate: pass {gate_stats.get('pass', 0)} / rejected {sum(_rej.values())} "
+          f"({', '.join(f'{k} {v}' for k, v in sorted(_rej.items())) or 'none'})")
 
     # 可选 LLM 重排（无 Key 时直接跳过）
     live.sort(key=lambda x: x["score"], reverse=True)
@@ -4440,7 +4579,7 @@ def main():
         _pub_dates[_it["id"]] = _it["_pub"].astimezone(CST).date().isoformat()
     for _it_id, _it in history.items():
         _pub_dates.setdefault(_it_id, (_it.get("published") or "")[:10] or today_iso)
-    for _it_id in list(history.keys()) + [_it["id"] for _it in live]:
+    for _it_id in [_it["id"] for _it in live]:
         _add_sitemap("items/" + _it_id + ".html", _pub_dates.get(_it_id, today_iso))
     for _sub in ("daily", "weekly", "monthly"):
         _sub_dir = os.path.join(root, _sub)
@@ -4463,7 +4602,7 @@ def main():
         _add_sitemap(_p, today_iso)
     for _l, slug, _n in tag_counts_en:
         _add_sitemap("en/topics/" + slug + ".html", today_iso)
-    for _it_id in list(history.keys()) + [_it["id"] for _it in live]:
+    for _it_id in [_it["id"] for _it in live]:
         _add_sitemap("en/items/" + _it_id + ".html", _pub_dates.get(_it_id, today_iso))
     for _sub in ("daily", "weekly", "monthly"):
         _sub_dir = os.path.join(en_root, _sub)
@@ -4826,6 +4965,17 @@ def main():
                                 it["id"] in sel_ids,
                                 daily_issue_en.get(it["id"]), lang="en"))
         n_items += 1
+    # 工具站收录门：删掉被拦下的条目残留的详情页（中英两棵树），否则旧
+    # 文章页仍可通过直接链接访问；30 天窗口外已过期的工具页按原规则保留。
+    _live_ids = {it["id"] for it in live}
+    _removed = 0
+    for _d in (items_dir, en_items_dir):
+        for _fn in os.listdir(_d):
+            if _fn.endswith(".html") and _fn[:-5] in history and _fn[:-5] not in _live_ids:
+                os.remove(os.path.join(_d, _fn))
+                _removed += 1
+    if _removed:
+        print(f"gate: removed {_removed} stale detail pages")
     print(f"items: {n_items} detail pages (x2 trees)")
     print(f"en: {len(tag_counts_en)} topics, {len(en_day_index)} day files")
     # --- /geo-audit 自检页 + 数据（SEO/GEO：每轮生成后自检，日报复用同一份数据）---

@@ -1,6 +1,6 @@
 # 工具站 HOT
 
-> 每天从各个源中发现最新工具站，按规则打分推荐。
+> 每天从各个源中发现最新工具站，只收点开就能用的工具。
 > 工具站 HOT is a daily curated digest. Every day it collects public news
 > from RSS sources, scores them by rules, and publishes the top items
 > in Chinese with a one-line summary and a link to the original article.
