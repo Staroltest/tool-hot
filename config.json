@@ -340,7 +340,18 @@
     "tagline": "每天从各个源中发现最新工具站，只收点开就能用的工具。",
     "tagline_en": "Discover the newest tool sites from sources everywhere — only tools you can open and use right away.",
     "timezone": "Asia/Shanghai",
-    "tips": [],
+    "tips": [
+      {
+        "label": "USDT · TRC20",
+        "image": "assets/tip-usdt-trc20.png",
+        "address": "TBH8fAi6Vbr9G4VW3PDm3DugZU6fknr6na"
+      },
+      {
+        "label": "USDT · Solana",
+        "image": "assets/tip-usdt-solana.png",
+        "address": "7pitxN5xECR2NH2qdhFiSRC3fDdMsmVczqFSY4Zz4v5H"
+      }
+    ],
     "title": "工具站 HOT",
     "title_en": "Tool Site HOT",
     "url": "https://staroltest.github.io/tool-hot"
