@@ -7732,5 +7732,29 @@
     "en_title": "I built a site that shows every satellite that passed over any location",
     "zh_oneliner": "输入地球上任意地点，看看有哪些成像、气象、雷达和载人卫星从它上空飞过。",
     "zh_title": "watched.earth：查任意地点上空飞过的卫星"
+  },
+  "https://HowLongWillTheMoneyLast.com": {
+    "zh_title": "How Long Will The Money Last：算算你的钱能撑多久",
+    "zh_oneliner": "输入收入、支出和存款，算一算按现在的花法钱能撑到什么时候，帮你看清自己的财务状况。",
+    "en_title": "How Long Will The Money Last",
+    "en_oneliner": "Enter your income, spending and savings to see how long your money lasts at your current pace, and get a clear picture of where you stand financially."
+  },
+  "https://chesspositions973.lovable.app": {
+    "zh_title": "国际象棋局面计算器：摆出的局面真的下得出来吗",
+    "zh_oneliner": "在棋盘上摆出任意局面，点一下就能验算它在真实对局里是否可能出现，还会给出 FEN 串。",
+    "en_title": "I made a chessposition caculator",
+    "en_oneliner": "Set up any chess position on the board and check whether it could actually arise in a real game, with a FEN string included."
+  },
+  "https://wordgambits.com": {
+    "zh_title": "Word Gambits：吃子拼词的每日棋谜",
+    "zh_oneliner": "每天一局的吃子拼词棋谜：吃掉棋子拼出三个单词，最后棋盘上只剩一子。",
+    "en_title": "Show HN: Word Gambits, Daily Puzzle Capture Chess Pieces to Form Words",
+    "en_oneliner": "A daily puzzle: capture chess pieces to form three words, and leave just one piece on the board."
+  },
+  "https://galleries.artfish.ai/aquarium": {
+    "zh_title": "AquarIum：AI 生成的鱼缸画廊，选出你最喜欢的一缸",
+    "zh_oneliner": "多个 AI 各造一个会动的鱼缸并排展出，点一点投出你最喜欢的那一缸。",
+    "en_title": "Show HN: AquarIum – pick your favorite (AI-generated) fish tank",
+    "en_oneliner": "Several AI models each built a living fish tank; browse the gallery side by side and vote for your favorite."
   }
 }

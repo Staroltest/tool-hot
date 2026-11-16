@@ -199,6 +199,9 @@ BLOCKED_DOMAINS = {
     "tumblr.com", "notion.site", "notion.so",
     "docs.google.com", "drive.google.com",
     "arxiv.org", "zenodo.org", "archive.org", "web.archive.org",
+    # 论文分享站（2026-11-16 第四轮泄漏：Perfect Numbers Generator 链到
+    # academia.edu 的论文页，且该链接 404；论文站不是在线工具）
+    "academia.edu", "researchgate.net", "semanticscholar.org",
     "stackexchange.com", "stackoverflow.com",
     "chromewebstore.google.com", "addons.mozilla.org",
     "hub.docker.com", "apps.microsoft.com",
@@ -214,6 +217,9 @@ BLOCKED_DOMAINS = {
     # 抽查确认不是在线工具（2026-11-16 第三轮）：Mac/安卓桌面应用、自托管智能体、打车应用内功能
     "tacie.app", "pocketdbforsupabase.netlify.app", "defaulttamer.app",
     "freeflow.audio", "uber.com", "screengo.app", "rakazo.com",
+    # 抽查确认不是在线工具（2026-11-16 第四轮）：亲子场所目录/攻略站，
+    # 主站是行程与指南内容并主推 iPhone 应用，不是能直接用的工具
+    "ourplayday.com",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
 }

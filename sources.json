@@ -1,1 +1,61 @@
-{"comment":"工具站发现信源（2026-11-16 改版：只收能直接用的工具网站）：Product Hunt 经 /r/p/ 跳转解析到工具官网；Reddit 取正文 [link] 外链；Hacker News Show 只留直链工具站。文章/新闻/博客源已全部移除。测试：Reddit .json 接口 403（改用 RSS 内的 [link] 解析）；Product Hunt 主题页 403；Toolify、BetaList、FutureTools、IndieHackers、TheresAnAIForThat 此前测试已淘汰，不再加入。category_hint 须是 config.json 里 categories 的 key。","sources":[{"category_hint":"ai","id":"producthunt","name":"Product Hunt","tier":"T1","url":"https://www.producthunt.com/feed"},{"category_hint":"dev","id":"hn-show","name":"Hacker News Show","tier":"T2","url":"https://hnrss.org/show"},{"category_hint":"productivity","id":"reddit-webtools","name":"Reddit r/webtools","tier":"T2","url":"https://www.reddit.com/r/webtools/.rss"},{"category_hint":"productivity","id":"reddit-internetbeautiful","name":"Reddit r/InternetIsBeautiful","tier":"T3","url":"https://www.reddit.com/r/InternetIsBeautiful/.rss"},{"category_hint":"dev","id":"reddit-sideproject","name":"Reddit r/SideProject","tier":"T2","url":"https://www.reddit.com/r/SideProject/.rss"},{"category_hint":"opensource","id":"reddit-coolgithub","name":"Reddit r/coolgithubprojects","tier":"T2","url":"https://www.reddit.com/r/coolgithubprojects/.rss"}]}
+{
+ "comment": "工具站发现信源（2026-11-16 改版：只收能直接用的工具网站）：Product Hunt 经 /r/p/ 跳转解析到工具官网；Reddit 取正文 [link] 外链；Hacker News Show 只留直链工具站。文章/新闻/博客源已全部移除。测试：Reddit .json 接口 403（改用 RSS 内的 [link] 解析）；Product Hunt 主题页 403；Toolify、BetaList、FutureTools、IndieHackers、TheresAnAIForThat 此前测试已淘汰，不再加入。2026-11-16 扩源：新增 r/coolwebsites（25 取 10，通过率与 r/InternetIsBeautiful 同类）、r/WebApps（25 取 2，约 2 条/天，稳定流）。淘汰：无 RSS/Atom——uneed、devhunt、futurepedia、fazier、topaitools、insidr、opentools、tinylaunch、dailypings；RSS 只链本站目录页——ignlab（/rss.xml 50 条）、launchingnext（/rss/ 15 条）、listbulb（/rss.xml 100 条）、sideprojectors（/rss 30 条）、listmaro（/feed.xml 60 条）、missumai（/new/feed.xml，/p/ 路径被拦）、consoledev（10 条全是本站）；内容不符——aitoolhunt（feed 被 spam/盗版内容占据）、agenticweekly（新闻稿）、r/opensource（0 通过）、r/IMadeThis（2 通过，1 条是 newsletter）、r/shutupandtakemycode（空 feed）、hn-shownew（502/404）、r/UsefulWebsites（403）。后续可选：Ignlab 公开 API /api/v1/listings 直接给工具官网（需 JSON 信源支持）；目录站 RSS 需取站内链接才可用。category_hint 须是 config.json 里 categories 的 key。",
+ "sources": [
+  {
+   "category_hint": "ai",
+   "id": "producthunt",
+   "name": "Product Hunt",
+   "tier": "T1",
+   "url": "https://www.producthunt.com/feed"
+  },
+  {
+   "category_hint": "dev",
+   "id": "hn-show",
+   "name": "Hacker News Show",
+   "tier": "T2",
+   "url": "https://hnrss.org/show"
+  },
+  {
+   "category_hint": "productivity",
+   "id": "reddit-webtools",
+   "name": "Reddit r/webtools",
+   "tier": "T2",
+   "url": "https://www.reddit.com/r/webtools/.rss"
+  },
+  {
+   "category_hint": "productivity",
+   "id": "reddit-internetbeautiful",
+   "name": "Reddit r/InternetIsBeautiful",
+   "tier": "T3",
+   "url": "https://www.reddit.com/r/InternetIsBeautiful/.rss"
+  },
+  {
+   "category_hint": "dev",
+   "id": "reddit-sideproject",
+   "name": "Reddit r/SideProject",
+   "tier": "T2",
+   "url": "https://www.reddit.com/r/SideProject/.rss"
+  },
+  {
+   "category_hint": "opensource",
+   "id": "reddit-coolgithub",
+   "name": "Reddit r/coolgithubprojects",
+   "tier": "T2",
+   "url": "https://www.reddit.com/r/coolgithubprojects/.rss"
+  },
+  {
+   "category_hint": "productivity",
+   "id": "reddit-coolwebsites",
+   "name": "Reddit r/coolwebsites",
+   "tier": "T3",
+   "url": "https://www.reddit.com/r/coolwebsites/.rss"
+  },
+  {
+   "category_hint": "productivity",
+   "id": "reddit-webapps",
+   "name": "Reddit r/WebApps",
+   "tier": "T2",
+   "url": "https://www.reddit.com/r/WebApps/.rss"
+  }
+ ]
+}
