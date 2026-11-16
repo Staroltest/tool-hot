@@ -181,6 +181,39 @@ BLOCKED_DOMAINS = {
     "theresanaiforthat.com", "futuretools.io", "indiehackers.com",
     "facebook.com", "instagram.com", "linkedin.com", "tiktok.com",
     "apps.apple.com", "play.google.com",
+    "nytimes.com", "theguardian.com", "reuters.com", "washingtonpost.com",
+    "cnn.com", "bbc.com", "bbc.co.uk", "economist.com", "ft.com", "wsj.com",
+    "theatlantic.com", "newyorker.com", "thehill.com", "cnbc.com",
+    "businessinsider.com", "engadget.com", "gizmodo.com", "venturebeat.com",
+    "arstechnica.com", "tomshardware.com", "techpowerup.com", "spacenews.com",
+    "space.com", "sciencealert.com", "quantamagazine.org", "theweek.com",
+    "telegraph.co.uk", "euronews.com", "dw.com", "nltimes.nl", "fortune.com",
+    "lithub.com", "harpers.org", "science.org", "newscientist.com",
+    "livescience.com", "wired.com", "bloomberg.com", "apnews.com", "npr.org",
+    "axios.com", "vox.com", "cnet.com", "zdnet.com", "pcworld.com",
+    "mashable.com", "hackaday.com", "ieee.org", "ietf.org",
+    "googleblog.com", "openai.com", "anthropic.com",
+    "v.redd.it", "i.redd.it", "preview.redd.it",
+    "imgur.com",
+    "blogspot.com", "ghost.io", "hashnode.dev", "livejournal.com",
+    "tumblr.com", "notion.site", "notion.so",
+    "docs.google.com", "drive.google.com",
+    "arxiv.org", "zenodo.org", "archive.org", "web.archive.org",
+    "stackexchange.com", "stackoverflow.com",
+    "chromewebstore.google.com", "addons.mozilla.org",
+    "hub.docker.com", "apps.microsoft.com",
+    "snapcraft.io", "flathub.org", "f-droid.org", "testflight.apple.com",
+    "npmjs.com", "pypi.org", "crates.io", "rubygems.org",
+    "packagist.org", "nuget.org",
+    # 抽查确认不是在线工具（2026-11-16）：Mac 桌面应用、研究论文站、电子书售卖页
+    "minutenotes.app", "getswiftapi.com", "bestmillionstartups.com",
+    # Agency：无法验证为网页工具，摘要显示是给智能体配电脑的本地搭建工具
+    "agency.makors.xyz",
+    # 抽查确认不是在线工具（2026-11-16 第二轮）：JS 组件库、iPhone 应用、数据买卖市场
+    "dynaura.ashutoshswamy.in", "asostudio.app", "perit.ai",
+    # 抽查确认不是在线工具（2026-11-16 第三轮）：Mac/安卓桌面应用、自托管智能体、打车应用内功能
+    "tacie.app", "pocketdbforsupabase.netlify.app", "defaulttamer.app",
+    "freeflow.audio", "uber.com", "screengo.app", "rakazo.com",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
 }
@@ -191,6 +224,30 @@ ARTICLE_PATH_SEGMENTS = {
     "blog", "blogs", "news", "posts", "post", "article", "articles",
     "story", "stories", "p", "journal", "docs", "documentation",
     "wiki", "changelog", "press",
+    "insights", "press-releases", "news-centre", "newsroom", "cover",
+    "opinion", "magazine", "podcast", "podcasts", "videos", "features",
+    "analysis", "books", "category", "tag", "author", "archives",
+    "coding",
+}
+# 下载/安装味路径段：链到下载页、安装页、发布包、扩展页的都不是在线工具
+DOWNLOAD_PATH_SEGMENTS = {
+    "download", "downloads", "dl", "installer", "install", "setup",
+    "releases", "release", "extension", "extensions",
+}
+# 安装包文件后缀：链到安装包本身的也不是在线工具
+DOWNLOAD_EXTENSIONS = (
+    ".exe", ".dmg", ".apk", ".msi", ".pkg", ".deb", ".rpm",
+    ".appimage", ".msix", ".appxbundle", ".iso", ".cab", ".bin",
+    ".zip", ".tar.gz", ".tgz",
+)
+
+
+_YEAR_SEG = re.compile(r"^(19|20)\d{2}([-.]\\d{1,2}([-.]\\d{1,2})?)?$")
+_MONTH_SEG = {
+    "january", "february", "march", "april", "may", "june", "july",
+    "august", "september", "october", "november", "december",
+    "jan", "feb", "mar", "apr", "jun", "jul", "aug", "sep", "sept",
+    "oct", "nov", "dec",
 }
 
 
@@ -218,6 +275,73 @@ def tool_gate(url):
     segs = [s.lower() for s in u.path.split("/") if s]
     if any(s in ARTICLE_PATH_SEGMENTS for s in segs):
         return False, "article_path"
+    # 日期路径（/2026/11/14/、/2023/08/20/、/2014/february.htm 等）几乎只
+    # 出现在博客/新闻文章链接上；工具站首页或功能页不会用年份做路径段
+    for s in segs:
+        if _YEAR_SEG.match(s) or s in _MONTH_SEG:
+            return False, "article_path"
+    # 下载/安装：链到下载页、安装页、发布包、扩展页或安装包文件的，
+    # 打开就要下载安装，不是“在网站上就能用”的工具
+    if any(s in DOWNLOAD_PATH_SEGMENTS for s in segs):
+        return False, "download_page"
+    _path_low = u.path.lower()
+    if any(_path_low.endswith(ext) for ext in DOWNLOAD_EXTENSIONS):
+        return False, "download_file"
+    return True, ""
+
+
+# 标题里的“要下载安装”信号（2026-11-16 用户补充：工具必须完全在网站
+# 上就能用）。只拦表意明确的：下载/平台专属应用/自托管/扩展。标题里
+# 明确写“免安装/无需安装/不用安装/无需下载”的，反而是在线工具，不拦。
+_TITLE_EXEMPT = ("免安装", "无需安装", "不用安装", "无需下载", "不用下载",
+                 "no install", "no download", "no installation",
+                 "runs in your browser", "in your browser", "web-based",
+                 "browser-based")
+_TITLE_BLOCK_RES = [
+    re.compile(p, re.IGNORECASE) for p in (
+        r"download\s+(for|on|now|free)\b",
+        r"\bfor\s+(windows|mac|macos|ios|android|linux|iphone|ipad)\b",
+        r"\bon\s+your\s+(mac|windows|iphone|ipad|android)\b",
+        r"\bon\s+(macos|windows|ios|android|linux)\b",
+        r"\b(mac|macos|windows|ios|android|linux)\s+"
+        r"(app|assistant|client|software|version|edition|dictation)\b",
+        r"\b(desktop|mobile)\s+(app|application|version|edition|client|software)\b",
+        r"\b\w+\s+desktop\b",
+        r"\bapp\s+store\b",
+        r"\bgoogle\s+play\b",
+        r"\b(chrome|firefox|edge|safari|browser|vscode)\s+extension\b",
+        r"\bself[- ]hosted\b",
+        r"下载.{0,6}(windows|mac|ios|安卓|苹果|桌面|电脑|手机)",
+        r"(windows|mac|macos|ios|安卓|苹果)版",
+        r"在\s*(iphone|ipad|安卓|苹果手机|手机)\s*上",
+        r"桌面版|桌面应用|客户端|浏览器扩展|浏览器插件|应用商店|免费下载",
+        r"自托管",
+        r"下载安装|下载.{0,4}安装",
+    )
+]
+
+
+def title_gate(*titles):
+    """标题收录判定：返回 (通过, 原因)。标题透露出要下载安装的不要。"""
+    for t in titles:
+        if not t:
+            continue
+        low = t.lower()
+        if any(e in low for e in _TITLE_EXEMPT):
+            continue
+        # “离线 + 本地”同时出现 = 在本机上跑的工具（如本地大模型桌面应用）；
+        # 单独的“离线”不拦——有的网页工具本身就是离线可用的（如钢琴学习站）
+        if "offline" in low and "local" in low:
+            return False, "installable_title"
+        if "离线" in t and "本地" in t:
+            return False, "installable_title"
+        if "remote desktop" in low or "desktop wallpaper" in low:
+            # “远程桌面/桌面壁纸”是特例：remote desktop 有网页版，
+            # desktop wallpaper 生成器本身就是在线工具
+            continue
+        for rx in _TITLE_BLOCK_RES:
+            if rx.search(t):
+                return False, "installable_title"
     return True, ""
 
 
@@ -4112,6 +4236,8 @@ def main():
             print("items.json damaged, starting fresh", file=sys.stderr)
 
     src_by_id = {s["id"]: s for s in sources}
+    # 当前信源 = 工具发现渠道；已下线信源（文章/新闻源）的历史条目不再上榜
+    kept_sources = set(src_by_id)
 
     def enrich_store_item(it):
         """给历史条目补上与时间无关的派生字段（B16/B2 供 JS 动态渲染用）：
@@ -4131,7 +4257,8 @@ def main():
         _it["tier"] = src_by_id.get(_it.get("source_id", ""), {}).get("tier", "T2")
 
     fetched, failed = 0, []
-    resolve_stats = {"ph_ok": 0, "ph_fail": 0, "reddit_ok": 0, "reddit_nolink": 0}
+    resolve_stats = {"ph_ok": 0, "ph_fail": 0, "reddit_ok": 0, "reddit_nolink": 0,
+                     "backfill": 0, "reattr": 0}
     # 中文翻译（data/zh_draft.json，按规范化链接匹配；每日精选把关时更新草稿，
     # 下一轮生成自动合入并写回 store.json，Actions 重生成也不会丢）
     zh_map = {}
@@ -4159,6 +4286,11 @@ def main():
                 print(f"zh: {applied} items matched from zh_draft.json")
         except (json.JSONDecodeError, AttributeError) as e:
             print("zh_draft.json skipped (%s)" % e, file=sys.stderr)
+    # 链接反查：发布链接（解析后或原始）-> 历史条目，用于回填与按工具去重
+    by_link = {}
+    for _h in history.values():
+        by_link[norm_link(_h.get("resolved_link") or _h["link"])] = _h
+        by_link[norm_link(_h["link"])] = _h
     for src in sources:
         try:
             body = fetch(src["url"])
@@ -4171,10 +4303,14 @@ def main():
             pub = it["published"] or now
             it["published"] = pub.astimezone(timezone.utc).isoformat()
             it["id"] = hashlib.sha1(norm_link(it["link"]).encode()).hexdigest()
-            if it["id"] in history:
-                continue  # 已收录：去重
+            # 已收录且已解析过：无需再请求
+            _ex0 = history.get(it["id"])
+            if (_ex0 is not None and _ex0.get("resolved_link")
+                    and _ex0.get("source_id") in kept_sources):
+                continue
             # 工具站收录：把链接解析到工具本身（Product Hunt 跟随 /r/p/
-            # 跳转；Reddit 取正文里的 [link] 外链；解析失败直接丢弃）
+            # 跳转；Reddit 取正文里的 [link] 外链；HN Show 直链无需解析）
+            # 解析要在去重之前做：旧条目入库时还没解析过链接，回填靠这一轮
             resolved = None
             if src["id"] == "producthunt":
                 red = it.get("_redirect", "")
@@ -4191,6 +4327,32 @@ def main():
                     continue
                 resolved = norm_link(ext)
                 resolve_stats["reddit_ok"] += 1
+            # 已收录同一帖子：只回填解析链接，不重复入库
+            if it["id"] in history:
+                ex = history[it["id"]]
+                if resolved and not ex.get("resolved_link"):
+                    ex["resolved_link"] = resolved
+                    resolve_stats["backfill"] += 1
+                if ex.get("source_id") not in kept_sources:
+                    ex["source_id"] = src["id"]
+                    ex["source"] = src["name"]
+                    ex["tier"] = src_by_id.get(src["id"], {}).get("tier", "T2")
+                    resolve_stats["reattr"] += 1
+                continue
+            # 已收录同一工具（另一帖子先收过）：不重复入库；原条目若来自
+            # 已下线信源，改记到当前信源，工具本身不丢
+            key = resolved or norm_link(it["link"])
+            ex = by_link.get(key)
+            if ex is not None:
+                if resolved and not ex.get("resolved_link"):
+                    ex["resolved_link"] = resolved
+                    resolve_stats["backfill"] += 1
+                if ex.get("source_id") not in kept_sources:
+                    ex["source_id"] = src["id"]
+                    ex["source"] = src["name"]
+                    ex["tier"] = src_by_id.get(src["id"], {}).get("tier", "T2")
+                    resolve_stats["reattr"] += 1
+                continue
             entry = {
                 "id": it["id"], "title": it["title"], "link": it["link"],
                 "source": it["source"], "source_id": it["source_id"],
@@ -4203,13 +4365,16 @@ def main():
                 entry["summary_full"] = it["summary_full"]
             enrich_store_item(entry)
             history[it["id"]] = entry
+            by_link[key] = entry
+            by_link[norm_link(it["link"])] = entry
     # 淘汰超过 history_days 的旧条目
     cutoff_hist = now - timedelta(days=sc["history_days"])
     history = {k: v for k, v in history.items()
                if datetime.fromisoformat(v["published"]) >= cutoff_hist}
     save_json(hist_path, {"updated_at": now.isoformat(), "items": list(history.values())})
     print(f"resolve: ph_ok {resolve_stats['ph_ok']} ph_fail {resolve_stats['ph_fail']} "
-          f"reddit_ok {resolve_stats['reddit_ok']} reddit_nolink {resolve_stats['reddit_nolink']}")
+          f"reddit_ok {resolve_stats['reddit_ok']} reddit_nolink {resolve_stats['reddit_nolink']} "
+          f"backfill {resolve_stats['backfill']} reattr {resolve_stats['reattr']}")
 
     # 分类与打分（在内存里算，不写回历史文件，保持历史干净）
     gate_stats = {}
@@ -4219,12 +4384,23 @@ def main():
         if pub.tzinfo is None:
             pub = pub.replace(tzinfo=timezone.utc)
         item = dict(it)
+        # 只收工具发现渠道的条目：已下线文章/新闻源的历史条目不再上榜
+        # （域名门拦不住个人博客与小众新闻站的长尾，源头上断掉才干净）
+        if it.get("source_id") not in kept_sources:
+            gate_stats["dropped_source"] = gate_stats.get("dropped_source", 0) + 1
+            continue
         # 工具站收录门：按解析后的目标链接判定（历史条目同样过门；
         # Product Hunt 旧条目仍是 products/* 目录页、Reddit 旧条目仍是
         # 帖子链接，都会被拦下，不会再上榜）
         if it.get("resolved_link"):
             item["link"] = it["resolved_link"]
         ok, why = tool_gate(item["link"])
+        if not ok:
+            gate_stats[why] = gate_stats.get(why, 0) + 1
+            continue
+        # 标题关：标题透露出要下载安装（桌面/手机应用、自托管、扩展、
+        # 下载页）的不要；工具必须完全在网站上就能用
+        ok, why = title_gate(item.get("title", ""), item.get("zh_title", ""))
         if not ok:
             gate_stats[why] = gate_stats.get(why, 0) + 1
             continue
