@@ -259,6 +259,11 @@ BLOCKED_DOMAINS = {
     # 其实测 tabletop.google/about 是仅限邀请的候补名单落地页，访客无法
     # 直接使用工具（2026-11-16 时间线泄漏：Tabletop 链到 labs.google 根地址）
     "labs.google",
+    # 抽查确认不是在线工具（2026-11-16 晚间轮，浏览器实测）：CodeGraphy 是
+    # 本地优先的 AST 代码图 + 11 工具 MCP 服务器，首页主推
+    # `pip install codegraphy-lite`，浏览器里只有固定示例项目的界面预览，
+    # 无法上传/分析自己的代码库；Pro 购买按钮还链到一个无关 Telegram 账号
+    "codegraphy.software",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
 }
