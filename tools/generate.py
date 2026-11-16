@@ -255,6 +255,16 @@ BLOCKED_DOMAINS = {
     # 每日猜车游戏，官网主推 TestFlight 内测下载，不是能在浏览器里
     # 直接用的网页工具；标题不露痕迹，标题门拦不住，域名封禁
     "vindle.app",
+    # 抽查确认不是在线工具（2026-11-17 凌晨轮实测）：
+    # Solipsist 是本地安装的 Markdown 编辑器（curl | sh 安装，在本机
+    # 跑 localhost:3000 服务），要下载安装才能用，不是浏览器里直接
+    # 用的工具；RightNow AI 是开源模型推理 API 落地页，站上没有能直
+    # 接用的工具，只能写代码调 API；Sample 是 Android 音乐播放器，
+    # 官网只给 APK 下载（留邮箱发下载链接），手机应用不算在线工具；
+    # Dustify 演示本身静音，实际播放必须连接 Spotify Premium，核心
+    # 功能不在站内完成，不算“完全在网站上就能用”
+    "solipsist.sh", "rightnowai.co", "sample-music-player.netlify.app",
+    "dustify.org",
     # Tabletop：Google Labs 是实验展示站，labs.google 根地址是目录页；
     # 其实测 tabletop.google/about 是仅限邀请的候补名单落地页，访客无法
     # 直接使用工具（2026-11-16 时间线泄漏：Tabletop 链到 labs.google 根地址）
