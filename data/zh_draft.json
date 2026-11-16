@@ -7756,5 +7756,11 @@
     "zh_oneliner": "多个 AI 各造一个会动的鱼缸并排展出，点一点投出你最喜欢的那一缸。",
     "en_title": "Show HN: AquarIum – pick your favorite (AI-generated) fish tank",
     "en_oneliner": "Several AI models each built a living fish tank; browse the gallery side by side and vote for your favorite."
+  },
+  "https://gatrends.com/?ref=producthunt": {
+    "zh_title": "GAtrends：关键词异动提醒",
+    "zh_oneliner": "盯住你关心的关键词，新闻、搜索和社区里一有异常热度就通过 Telegram 提醒你，还能问 Claude 或 ChatGPT 它为什么火。",
+    "en_title": "GAtrends: Keyword Spike Alerts",
+    "en_oneliner": "Watch the keywords you care about: when an unusual spike appears across news, search and communities, it pings you on Telegram, and you can ask Claude or ChatGPT what is rising and why."
   }
 }
