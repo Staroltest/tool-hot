@@ -304,6 +304,11 @@ BLOCKED_DOMAINS = {
     # 链到 mods.factorio.com，是 Factorio 游戏 mod 下载页，需要先装游戏
     # 再下载 mod 才能用，不是“在网站上就能用”的工具；标题门同步加 \bmod\b
     "mods.factorio.com",
+    # 抽查确认不是在线工具（2026-11-16 21:00 轮，浏览器实测）：Candela 是
+    # macOS 桌面应用（Apple Silicon + macOS 15，官网写“Free to try. Just
+    # download it.”和“Move Candela to Applications”），须下载安装才能用，
+    # 不是能在浏览器里直接用的工具；标题不露痕迹，标题门拦不住，域名封禁
+    "livoni.software",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
 }

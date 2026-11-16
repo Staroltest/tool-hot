@@ -8248,5 +8248,41 @@
     "zh_oneliner": "不用服务器也能发布网站和直播：内容就放在你的浏览器标签页里，访客通过 WebRTC 直连你的浏览器读取。",
     "en_title": "fmrl.live - a site that lets you host a website, content, or livestream from a browser tab, and serves it directly to clients over WebRTC",
     "en_oneliner": "Publish a website or livestream with no server at all: the content lives in your browser tab, and visitors load it straight from your browser over WebRTC."
+  },
+  "https://artificialliabilities.com": {
+    "zh_title": "Artificial Liabilities：追踪 AI 基建泡沫风险的数据仪表盘",
+    "zh_oneliner": "一张实时更新的 AI 基建金融风险仪表盘，盯着大厂资本开支、借贷成本、GPU 租赁价和二手芯片行情这些早期预警信号，帮你判断这轮 AI 建设潮是不是跑得太快了。",
+    "en_title": "Show HN: AI Infra Finance tracker (Data-vis project)",
+    "en_oneliner": "A live dashboard tracking early warning signs of the AI build-out — big tech capex, borrowing costs, GPU rental prices and used-chip resale values — to judge whether the AI infrastructure boom is running ahead of itself."
+  },
+  "https://otusanalytics.com": {
+    "zh_title": "Otus：欧盟托管的网站分析，配 Mistral AI 分析师",
+    "zh_oneliner": "注重隐私的网站分析工具，数据只留在欧洲，每周由 Mistral 驱动的 AI 分析师用大白话告诉你网站哪里变了，还能直接向它提问查自己的数据。",
+    "en_title": "Show HN: Otus – EU web analytics with a Mistral powered AI analyst",
+    "en_oneliner": "Privacy-friendly web analytics hosted entirely in the EU, with a Mistral-powered AI analyst that sends a plain-language weekly summary of what changed on your site and answers questions about your own data."
+  },
+  "https://pickmovies.cool.computer": {
+    "zh_title": "PickMovies：把喜欢的电影排成一排书脊",
+    "zh_oneliner": "输入喜欢的电影名字，就能生成一排像书架上书脊一样的电影海报墙，把你的片单变成一张可以分享的视觉收藏。",
+    "en_title": "Show HN: My fav movies spine generator",
+    "en_oneliner": "Type in films you love and it builds a shelf of movie spines, turning your watchlist into a shareable visual collection."
+  },
+  "https://maxanti.com": {
+    "zh_title": "Maxanti：数石子的逻辑解谜游戏",
+    "zh_oneliner": "一款在浏览器里直接玩的逻辑解谜游戏，根据线索数字在棋盘上布子，规则简单但越往后越烧脑。",
+    "en_title": "Show HN: Maxanti – A Logic Puzzle",
+    "en_oneliner": "A logic puzzle game that plays right in the browser: place stones on the board using the clue numbers around them — simple rules, increasingly tricky boards."
+  },
+  "https://algotank.awala.my.id": {
+    "zh_title": "AlgoTank：写算法指挥坦克打赢战斗",
+    "zh_oneliner": "在浏览器里给坦克写行驶与开火算法，和别人的坦克同场对战，比拼谁的算法更聪明，边玩边练编程思维。",
+    "en_title": "Show HN: AlgoTank-Build the best algorithm to drive your tank and win the battle",
+    "en_oneliner": "Write the algorithm that drives your tank in the browser, then battle other players' tanks to see whose code wins — a game that teaches programming thinking as you play."
+  },
+  "https://make-a-beat.com": {
+    "zh_title": "Make a Beat：浏览器里的多人协作编曲台",
+    "zh_oneliner": "打开浏览器就能编曲的在线节拍器，点格子排鼓点、用钢琴卷轴写旋律，还能发链接和朋友实时合编，免下载免注册。",
+    "en_title": "Free collaborative browser beatmaker focused on simplicity",
+    "en_oneliner": "A beat maker that runs entirely in the browser: tap cells to lay down drums, write melodies on the piano roll, and invite friends to produce together in real time — no download, no account needed."
   }
 }
