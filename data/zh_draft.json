@@ -1,4 +1,22 @@
 {
+ "https://treestamp.reponomics.org": {
+  "zh_title": "Treestamp：给 README 画项目目录树的在线编辑器",
+  "zh_oneliner": "在浏览器里编辑项目目录结构树，排好样式直接放进 README，不用再手敲 ASCII 树形图。",
+  "en_title": "Show HN: Treestamp – An editor for project directory trees",
+  "en_oneliner": "Edit your project's directory tree in the browser and drop it straight into your README — no more hand-drawing ASCII trees."
+ },
+ "https://fakemetrics.com": {
+  "zh_title": "FakeMetrics：伪造爆款数据的截图生成器",
+  "zh_oneliner": "选一个平台、编一组漂亮数字，生成以假乱真的成功截图，专治朋友圈里的凡尔赛式晒单。",
+  "en_title": "Show HN: Fakemetrics.com – \"build in public\" like a superstar",
+  "en_oneliner": "Pick a platform, invent some glorious numbers, and export a convincing screenshot of your entirely fictional success."
+ },
+ "https://daw.onlychan.xyz": {
+  "zh_title": "DAW：全网网友合写同一首歌的在线编曲室",
+  "zh_oneliner": "打开浏览器就能进钢琴卷轴编曲，和全网网友同时改同一首歌，音符、混音和标记实时同步。",
+  "en_title": "Show HN: A DAW where everyone on the internet edits the same song",
+  "en_oneliner": "A DAW in the browser where everyone on the internet edits the same song, with notes, mixing and markers synced live."
+ },
  "https://www.reddit.com/r/coolgithubprojects/comments/1xwpu2r/built_melo_an_opensource_spotify_youtube_music": {
   "zh_title": "Melo：开源的 Spotify + YouTube Music 二合一播放器",
   "zh_oneliner": "免费开源的 Android 音乐播放器，把 Spotify 和 YouTube Music 放在一个干净无广告的界面里，上线一天就收获 700 多次下载。",

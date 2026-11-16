@@ -332,6 +332,14 @@ BLOCKED_DOMAINS = {
     # CoderBaba 是终端 AI 编程助手，`npm install -g coderbaba` 装到本机跑，
     # 不是能在浏览器里直接用的工具；两者标题均不露痕迹，标题门拦不住，域名封禁
     "torsher.app", "coderbaba.si",
+    # 抽查确认不是在线工具（2026-11-17 02:40 CST 轮，浏览器实测本轮 7 条新品，
+    # 4 条泄漏）：View（useview.app）是 Mac 桌面应用（Download for Mac，
+    # "No browser in a trench coat"），须下载安装；Netrix 是 Windows 桌面
+    # SSH/SFTP 客户端（Tauri，下载 .exe 安装包），须下载安装；Qube 是面向
+    # 企业的加密会议室 SaaS 服务（卖的是会议服务与安全巡检，不是点开能用的
+    # 工具本身）；wheelgap 是 PyPI 缺失 wheels 的 pip 安装索引页（须 pip
+    # install 下载安装），不是能在浏览器里直接用的工具；四者标题均不露痕迹
+    "useview.app", "netrix-console.com", "qube.so",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
 }
@@ -356,6 +364,10 @@ BLOCKED_EXACT = {
     # 在 playground.tyruslang.org 子域，信源直接链到时仍可收
     # （2026-11-16 23:30 轮，浏览器实测）；标题门同步加 programming language
     "tyruslang.org",
+    # wheelgap：wheelgap.github.io/tracker/wheels 是 PyPI 缺失 wheels 的
+    # pip 安装索引页（表格 + pip install 指令），工具本身须 pip install
+    # 下载安装，不是能在浏览器里直接用的工具（2026-11-17 02:40 CST 轮实测）
+    "wheelgap.github.io",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
@@ -457,6 +469,10 @@ _TITLE_BLOCK_RES = [
         r"\bon\s+(macos|windows|ios|android|linux)\b",
         r"\b(mac|macos|windows|ios|android|linux)\s+"
         r"(app|assistant|client|software|version|edition|dictation)\b",
+        # “Mac Mini 应用”（如“Build native Mac Mini apps”）：“Mac Mini”
+        # 中间隔了 Mini，上面那条拦不住；Mac Mini 只能指苹果硬件，网页工具
+        # 标题里不会出现（2026-11-17 02:40 CST 轮：View）
+        r"\bmac\s+mini\b",
         r"\b(desktop|mobile)\s+(app|application|version|edition|client|software)\b",
         r"\b\w+\s+desktop\b",
         r"\bapp\s+store\b",
