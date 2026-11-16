@@ -8050,5 +8050,59 @@
   "zh_oneliner": "开盲盒收集万亿市值公司的卡牌，组自己的投资组合，边玩边赚 Ripcoins。",
   "en_title": "StockRip – Trading Cards, Literally",
   "en_oneliner": "Collect trillion-dollar companies like trading cards — open mystery packs, build your portfolio and earn Ripcoins."
+ },
+ "https://chatmizer.com": {
+  "zh_title": "Chatmizer：WhatsApp 与社媒 AI 客服机器人",
+  "zh_oneliner": "给 WhatsApp、Instagram 和 TikTok 做 AI 客服机器人，不用写代码就能自动回消息、跟进客户和卖货。",
+  "en_title": "Chatmizer: AI chatbot for WhatsApp, Instagram & TikTok",
+  "en_oneliner": "Build AI chatbots for WhatsApp, Instagram and TikTok that reply, follow up and sell without writing code."
+ },
+ "https://codersera.com/tools/ai-agent-task-board": {
+  "zh_title": "Codersera：多 AI 编程助手并行任务板",
+  "zh_oneliner": "一个任务板同时跑多个 AI 编程助手，排好任务让它们自己领活汇报，不用注册就能开始。",
+  "en_title": "Codersera: run multiple AI coding agents in parallel",
+  "en_oneliner": "A task board that runs several AI coding agents in parallel — queue tasks, let agents pick them up and report back, no signup needed."
+ },
+ "https://freeaitools.ideaaize.com": {
+  "zh_title": "IdeaAize 免费在线工具箱：50+ 浏览器工具",
+  "zh_oneliner": "50 多个免费浏览器小工具，PDF、图片、代码、二维码全都有，文件本地处理不上传，不用注册也没有水印。",
+  "en_title": "IdeaAize Free Online Tools: 50+ browser tools",
+  "en_oneliner": "More than 50 free browser utilities for PDFs, images, code and more — files are processed locally, nothing is uploaded, no account or watermark."
+ },
+ "https://invoiceize.com": {
+  "zh_title": "Invoiceize：免费在线发票生成器",
+  "zh_oneliner": "免费给自由职业者和小生意做发票和报价单，实时预览、能加税率和折扣，导出 PDF 不用注册也没有水印。",
+  "en_title": "Invoiceize: free invoice generator",
+  "en_oneliner": "A free invoice generator for freelancers and small businesses — live preview, taxes and discounts, PDF export with no signup or watermark."
+ },
+ "https://levcharity.com": {
+  "zh_title": "LevCharity：非营利组织筹款平台",
+  "zh_oneliner": "给非营利组织的一站式筹款平台，捐款、活动、捐赠人管理和报表都在浏览器里搞定。",
+  "en_title": "LevCharity: fundraising platform for nonprofits",
+  "en_oneliner": "An all-in-one fundraising platform for nonprofits — donations, campaigns, donor CRM and reporting, all in the browser."
+ },
+ "https://matikiri.net": {
+  "zh_title": "Matikiri：AI 音乐发现与编曲",
+  "zh_oneliner": "在线听歌加 AI 编曲的音乐平台，发现新歌、按流派浏览，还能直接用 AI 生成属于自己的节拍和旋律。",
+  "en_title": "Matikiri: discover music and generate beats with AI",
+  "en_oneliner": "A music streaming platform with AI tools — discover new tracks by genre and generate your own beats and compositions in the browser."
+ },
+ "https://crmflow.io/en": {
+  "zh_title": "CRM Flow：牙科诊所管理软件",
+  "zh_oneliner": "给牙科诊所的一站式管理软件，预约、牙位图、病历和收费都在一个界面里，不用安装。",
+  "en_title": "CRM Flow: dental practice management software",
+  "en_oneliner": "Dental practice management in one screen — appointments, tooth charts, patient records and payments, with nothing to install."
+ },
+ "https://paraphrase.bot": {
+  "zh_title": "Paraphrase：像改文字一样剪音频",
+  "zh_oneliner": "AI 音视频剪辑工具，改字幕稿就能删掉口头禅和重复片段，声音还是你自己的，不用再拖时间轴。",
+  "en_title": "Paraphrase: edit your voice like text",
+  "en_oneliner": "An AI audio and video editor that cleans up recordings by editing the transcript — cut filler words and repeats without touching the timeline."
+ },
+ "https://posy.page": {
+  "zh_title": "Posy：手绘风个人链接页",
+  "zh_oneliner": "一分钟搭个手绘风的个人链接页，六种风格随便挑，还能让 AI 帮你更新链接和内容，免费版不限链接数。",
+  "en_title": "Posy: a link-in-bio page that looks hand-made",
+  "en_oneliner": "A link-in-bio page that looks hand-made — pick one of six styles, add your links, and let AI update it for you. Free with unlimited links."
  }
 }

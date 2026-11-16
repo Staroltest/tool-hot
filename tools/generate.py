@@ -232,6 +232,25 @@ BLOCKED_DOMAINS = {
     # 抽查确认不是在线工具（2026-11-16 第五轮）：原生 iPhone/iPad/Mac 笔记应用，
     # 首页主推原生应用下载，网页版只是附属，不符合“完全在网站上就能用”
     "remindly.com",
+    # 抽查确认不是在线工具（2026-11-16 第六轮，ListBulb 接入首批 22 条
+    # 逐条审描述后封禁）：AI Rank Inspector 是 Chrome 扩展；
+    # Battery Orbit 是 Mac 菜单栏应用；Interview Clozo（clozo.ai）是 Mac
+    # 桌面应用；Buildingnow 是播客+邮件订阅，不是工具；BuzzLaunches /
+    # PeekLaunch / Launchgp / MegaLaunch 是新品发布与发现目录站；
+    # Dotleadlist 是卡车线索售卖服务；FieldForm Templates 是模板文件
+    # 下载库；Ibuildinpublic 是 builder 社区；Indish Marketer 是营销
+    # 自动化代运营服务；Ecommerce Data API 是付费 REST API，不是能在
+    # 浏览器里直接用的工具
+    "airankinspector.com", "batteryorbit.app", "clozo.ai",
+    "buildingnow.fm", "buzzlaunches.com", "peeklaunch.com",
+    "launchgp.io", "megalaun.ch", "dotleadlist.com",
+    "fieldformtemplates.com", "ibuildinpublic.com",
+    "indishmarketer.com", "ecommercedataapi.com",
+    # 抽查确认不是在线工具（2026-11-16 第六轮，ListBulb 抽查实测）：
+    # Matikiri 上榜描述写的是“AI 音乐工具、可生成节拍”，但实测官网
+    # 是印尼语 K-Pop 音乐流媒体站（首页 0 处 AI/编曲相关内容，链接
+    # 全是歌曲页、榜单与曲库），没有能用的工具，属内容站而非工具站
+    "matikiri.net",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
 }
@@ -525,6 +544,76 @@ def parse_ignlab(body, source):
             item["summary_full"] = summary_full
         items.append(item)
     return items
+
+
+# ---------------------------------------------------------------- ListBulb JSON 信源
+# ListBulb 公开 API（2026-11-16 实测，无需认证；站方 OpenAPI：
+# https://www.listbulb.com/api/v1/openapi.json，说明“Read live catalog
+# anonymously (no API key, at most 25 results per list call, rate
+# limited per IP)”）：
+#   GET https://www.listbulb.com/api/v1/recent?limit=25
+# 返回 {"data": {"items": [...]}, "meta": {"apiVersion": "v1"}}；
+# /recent 是“最近上线的工具”，每周日批量上新；前 3 条是 featured 置顶
+# （2026-06/08 的旧条目，历史库 30 天淘汰会直接丢掉），其余按周次
+# 分组，并非严格按 listedAt 倒序——但去重按规范化链接，旧条目不会
+# 重复入库；每轮固定 25 条，稳态每周新增约 15-20 条。
+# 每条 tool：slug / name / websiteUrl（工具官网）/ listbulbUrl /
+# description / listingHeadline / logoUrl / imageUrl /
+# category（{slug, name, liveToolCount}）/ tags / listedAt
+# （ISO 8601，"2026-08-03T03:00:41.129Z"）/ featured / verification。
+# 全站 live 工具共 541 条（/api/v1/tools 的 totalCount）。
+# /api/v1/tools 支持 cursor 分页（limit 最大 25），暂不用；/recent
+# 一轮 25 条已够用。每轮只取 /recent 一页，不回填全库；去重与收录门
+# 和 RSS/Ignlab 条目完全一样（按规范化链接判重、tool_gate + title_gate）。
+LISTBULB_LIMIT = 25
+LISTBULB_CATEGORY_MAP = {
+    "saas-marketing": "productivity",
+    "dev-workflow": "dev",
+    "small-accounts-mvps": "productivity",
+    "ui-libraries": "design",
+    "launch-websites": "productivity",
+    "landing-page-waitlist": "design",
+}
+
+
+def parse_listbulb(body, source):
+    """ListBulb /api/v1/recent 的 JSON，映射成与 parse_feed 相同的条目形状。"""
+    try:
+        data = json.loads(body)
+    except (json.JSONDecodeError, TypeError, ValueError):
+        return []
+    raw_items = (data.get("data") or {}).get("items") or []
+    items = []
+    for raw in raw_items[:LISTBULB_LIMIT]:
+        if not isinstance(raw, dict):
+            continue
+        name = (raw.get("name") or "").strip()
+        link = norm_link(raw.get("websiteUrl") or "")
+        if not name or not link:
+            continue
+        headline = (raw.get("listingHeadline") or "").strip()
+        desc = (raw.get("description") or "").strip()
+        summary = shorten(headline or desc)
+        summary_full = complete_para(desc, 1500) if len(desc) > 200 else ""
+        pub = parse_date(raw.get("listedAt") or "")
+        cat = raw.get("category") or {}
+        cat_slug = cat.get("slug", "") if isinstance(cat, dict) else ""
+        item = {
+            "title": name,
+            "link": link,
+            "source": source["name"],
+            "source_id": source["id"],
+            "published": pub,
+            "summary": summary,
+            "_cat_hint": LISTBULB_CATEGORY_MAP.get(cat_slug, "productivity"),
+        }
+        if summary_full:
+            item["summary_full"] = summary_full
+        items.append(item)
+    return items
+
+
+JSON_PARSERS = {"ignlab": parse_ignlab, "listbulb": parse_listbulb}
 
 
 # ---------------------------------------------------------------- 分类与打分
@@ -4376,7 +4465,7 @@ def main():
         try:
             body = fetch(src["url"])
             if src.get("kind") == "json":
-                new_items = parse_ignlab(body, src)
+                new_items = JSON_PARSERS.get(src["id"], parse_ignlab)(body, src)
             else:
                 new_items = parse_feed(body, src)
         except Exception as e:  # noqa: BLE001 - 单个信源失败不中断整轮
