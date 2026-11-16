@@ -6,7 +6,7 @@
 > in English with a one-line summary and a link to the original article.
 > It does not republish full text.
 > Site: https://staroltest.github.io/tool-hot/en/
-> Mirror: https://hot-site-template.pages.dev/en/
+> Mirror: https://tool-hot.pages.dev/en/
 > Language: English (en). The Chinese version lives at the site root.
 > Updated: 2026-11-16
 
@@ -23,7 +23,7 @@
 ## For AI clients (MCP)
 
 - MCP endpoint (Streamable HTTP, no key required):
-  https://hot-site-template.pages.dev/mcp
+  https://tool-hot.pages.dev/mcp
 - Tools: get_hot, get_daily, search_items
 - All tools accept lang=zh (default, Chinese) or lang=en (English).
 - Machine-readable data:

@@ -7048,5 +7048,119 @@
     "zh_oneliner": "Daring Fireball 转载的一篇短评，标题指向 PCAST（总统科技顾问委员会）相关的人事动态。",
     "en_title": "The Legion of PCAST",
     "en_oneliner": "A Daring Fireball link on PCAST (the President's Council of Advisors on Science and Technology) and its latest personnel moves."
+  },
+  "https://dev.to/knutberg8412/edtech-cost-attribution-go-failure-alerting-via-metrics-api-poll-queries-23e0": {
+    "zh_title": "教育科技成本归因：用 Metrics API 轮询做 Go 故障告警",
+    "zh_oneliner": "一分钟轮询一次，检测下限就是一分钟，文章算清了这笔账：只有当成本归因值得你自己维护调度、去重和通知链路时，才值得用 API 轮询代替内置告警。",
+    "en_title": "Edtech Cost Attribution: Go Failure Alerting via Metrics API Poll Queries",
+    "en_oneliner": "A one-minute poll sets a one-minute detection floor — the piece works out when owning the scheduler, dedup and notification path for cost attribution is worth it versus built-in alerting."
+  },
+  "https://dev.to/juanpabloabadiamedin/before-adding-ai-or-blockchain-define-the-failure-1748": {
+    "zh_title": "上 AI 或区块链之前，先定义失败",
+    "zh_oneliner": "架构先问出什么错，而不是先挑最时髦的技术，拿文档验证服务为例讲清：区块链保完整性、AI 做分类，但谁也包揽不了整个问题。",
+    "en_title": "Before Adding AI or Blockchain, Define the Failure",
+    "en_oneliner": "Architecture should start by defining what can go wrong, not by picking the flashiest tech — a document-verification example shows blockchain guards integrity and AI classifies, but neither solves the whole problem."
+  },
+  "https://dev.to/crbro/a-prompt-cant-see-the-second-copy-of-a-bug-a-program-can-1okj": {
+    "zh_title": "提示词看不见 Bug 的第二个副本，程序可以",
+    "zh_oneliner": "编码助手修了一处大于等于，另一处同样的比较还错着，作者用实测数据说明：在改动时刻留一句备注，就能让第二处副本不再漏网。",
+    "en_title": "A prompt can't see the second copy of a bug. A program can.",
+    "en_oneliner": "A coding agent fixed one off-by-one and missed its twin elsewhere — measured results show a note left at edit time catches the second copy every time."
+  },
+  "https://dev.to/midnightbluelog/if-i-can-do-it-anybody-can-5km": {
+    "zh_title": "我能做到，任何人都能做到",
+    "zh_oneliner": "27 岁从突尼斯起步转行 AI 的自述，从小想当宇航员的好奇心一路带他走进这个行业，写给同样想转行的人。",
+    "en_title": "If I can do it, anybody can",
+    "en_oneliner": "A first-person story of starting an AI career at 27 from Tunisia — childhood curiosity about astronauts carried into the field, written for anyone considering the same switch."
+  },
+  "https://dev.to/veilvm/terser-and-uglifyjs-mangling-is-a-build-step-not-a-security-control-22b0": {
+    "zh_title": "Terser 与 UglifyJS 混淆只是构建步骤，不是安全措施",
+    "zh_oneliner": "变量名缩短了，算法、常量和控制流一点没少，文章讲清压缩混淆到底改了什么、留下了什么，以及什么时候才需要真正的防护。",
+    "en_title": "Terser and UglifyJS mangling is a build step, not a security control",
+    "en_oneliner": "Identifiers shrink, but algorithms, constants and control flow stay intact — the piece explains what mangling actually changes, what it leaves behind, and when you need real protection."
+  },
+  "https://dev.to/paohaijiao/gauge-chart-for-cluster-resource-utilisation-5hhm": {
+    "zh_title": "集群资源利用率仪表盘图",
+    "zh_oneliner": "jquick-pdf 系列第 22 个可直接跑的示例：把 CPU、内存和磁盘用量画成一张运维仪表盘里的表盘图，附完整模板与 Java 类。",
+    "en_title": "Gauge Chart for Cluster Resource Utilisation",
+    "en_oneliner": "Demo #22 in the jquick-pdf series: a complete, runnable example drawing CPU, memory and disk usage as gauges on one ops dashboard page, template and Java class included."
+  },
+  "https://dev.to/designify101/how-to-convert-a-framer-site-to-astro-2f9i": {
+    "zh_title": "如何把 Framer 网站转成 Astro",
+    "zh_oneliner": "要么手工重建，要么用转换器直接读已发布站点生成 Astro 7 工程，文章以 Deframer 为例讲清动画、CMS 内容和表单如何带过去。",
+    "en_title": "How to convert a Framer site to Astro",
+    "en_oneliner": "Rebuild by hand or let a converter read the published site and emit an Astro 7 project — the walkthrough uses Deframer to show how animations, CMS content and forms carry over."
+  },
+  "https://dev.to/griffinhayes3461/server-side-feature-flags-for-game-rollbacks-admin-crud-without-client-leakage-564f": {
+    "zh_title": "服务端特性开关做游戏回滚：管理端 CRUD 且不向客户端泄漏",
+    "zh_oneliner": "游戏后端管 AI 智能体循环时，一套小型管理端开关就够了：判定放服务端、回滚只改一个状态，同时讲清它什么时候顶替不了成熟开关平台。",
+    "en_title": "Server-Side Feature Flags for Game Rollbacks — Admin CRUD Without Client Leakage",
+    "en_oneliner": "For a game backend driving an AI agent loop, a small admin-managed flag system suffices: evaluate server-side and roll back with a single state change — plus when it can't replace a mature flag platform."
+  },
+  "https://dev.to/harrisonford3572/cost-aware-secure-direct-browser-uploads-for-generic-gaming-training-artifacts-3ne3": {
+    "zh_title": "兼顾成本与安全的浏览器直传：游戏训练素材上传方案",
+    "zh_oneliner": "用私有对象存储加服务端签发的短期上传凭证，让应用而不是浏览器说了算：租户隔离与留存策略才是关键，上传按钮不是。",
+    "en_title": "Cost-Aware Secure Direct Browser Uploads for Generic Gaming Training Artifacts",
+    "en_oneliner": "A private object-storage bucket with server-issued, short-lived upload credentials — the app, not the browser, decides tenant ownership and retention, because isolation matters more than the upload button."
+  },
+  "https://dev.to/solutionmarket/why-a-weekly-backup-kept-rebuilding-a-5-gb-archive-dj6": {
+    "zh_title": "为什么每周备份总在重建一个 5 GB 的归档",
+    "zh_oneliner": "PM2 每分钟重启备份进程、SIGPIPE 悄悄杀掉子进程、没有上报就不推进下次运行时间，五个环节串起来的故障链让每周备份反复生成完整归档。",
+    "en_title": "Why a weekly backup kept rebuilding a 5 GB archive",
+    "en_oneliner": "PM2 restarting the backup runner every minute, SIGPIPE silently killing its child, and no report to advance the next-run time — five links in a failure chain that rebuilt a full archive every week."
+  },
+  "https://dev.to/techoptio/how-i-set-up-immich-on-proxmox-for-iphone-photo-backups-3h6o": {
+    "zh_title": "我在 Proxmox 上搭 Immich，给 iPhone 照片做备份",
+    "zh_oneliner": "不想再为 iCloud 扩容付费，就在家里 Proxmox 小主机上自托管 Immich：Debian 容器跑服务、NAS 存照片，附踩过的坑与回头看想改的地方。",
+    "en_title": "How I Set Up Immich on Proxmox for iPhone Photo Backups",
+    "en_oneliner": "Done paying for extra iCloud storage, the author self-hosts Immich on a Proxmox homelab — a Debian container for the service, NAS for photos, with the gotchas and do-overs included."
+  },
+  "https://dev.to/dorianvale91583/how-to-fix-vector-collection-errors-after-nodejs-deploys-marketplace-telemetry-12oj": {
+    "zh_title": "Node.js 部署后向量集合报错怎么修：市场遥测实战",
+    "zh_oneliner": "把「集合不存在」当成身份不匹配而不是检索质量问题：启动时解析一次环境相关的集合名、预检存在性再批量入库，预检失败就让部署失败。",
+    "en_title": "How to Fix Vector Collection Errors After Node.js Deploys — Marketplace Telemetry",
+    "en_oneliner": "Treat 'collection not found' after a deploy as an identity mismatch, not a retrieval problem: resolve the environment-specific collection name at startup, verify it exists before ingestion, and fail the deploy when the preflight fails."
+  },
+  "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools": {
+    "zh_title": "苹果新研究：让 AI 健康工具真正管用",
+    "zh_oneliner": "苹果启动一项新研究，想弄清人们怎么和对话式 AI 健康工具打交道、它的回答到底有没有用。",
+    "en_title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+    "en_oneliner": "Apple has launched a study to understand how people interact with conversational AI health tools — and how useful their answers actually are."
+  },
+  "https://www.reddit.com/r/coolgithubprojects/comments/1xxckhc/numpy_vs_python_coding_pythonnumpy": {
+    "zh_title": "NumPy 对比 Python",
+    "zh_oneliner": "一段对比 NumPy 与纯 Python 的分享，适合刚上手数据处理的读者先看清两者分工。",
+    "en_title": "NumPy vs Python #coding #python#numpy",
+    "en_oneliner": "A comparison of NumPy versus plain Python — a useful primer for readers starting out with data work."
+  },
+  "https://zlu.me/2026/11/16/ja4-same-fingerprint-many-user-agents.html": {
+    "zh_title": "Show HN：JA4 指纹，为什么一个摘要能覆盖多种 User-Agent",
+    "zh_oneliner": "JA4 指纹用一个摘要概括 TLS 握手特征，文章解释它为什么能把多个 User-Agent 归到同一个指纹之下。",
+    "en_title": "Show HN: JA4 Fingerprinting: Why One Digest Can Cover User-Agents",
+    "en_oneliner": "JA4 fingerprinting condenses TLS handshake traits into one digest — the post explains why it can cover many different user-agents."
+  },
+  "https://sciencenotes.org/petrichor-and-geosmin-the-smell-of-rain": {
+    "zh_title": "雨的气味：Petrichor 与土臭素",
+    "zh_oneliner": "雨后泥土味从哪来：一篇讲 Petrichor 与土臭素的科普，解释雨滴、土壤与微生物如何联手造出这种气味。",
+    "en_title": "Petrichor and Geosmin – The Smell of Rain",
+    "en_oneliner": "A short explainer on where the smell of rain comes from — how raindrops, soil and microbes team up to produce petrichor and geosmin."
+  },
+  "https://github.com/SafeScript/safescript/releases/tag/v2.0.0": {
+    "zh_title": "SafeScript 2.0：安全的 JavaScript 子集，现已支持浏览器内调试",
+    "zh_oneliner": "SafeScript 2.0 发布：JavaScript 的安全子集，这次把调试也搬进了浏览器。",
+    "en_title": "SafeScript 2.0: safe subset of JavaScript, now supports debugging in the browser",
+    "en_oneliner": "SafeScript 2.0 is out: the safe JavaScript subset now supports debugging right in the browser."
+  },
+  "https://uka-135-map.pplx.app": {
+    "zh_title": "我用持续纠正维持了 50 万词的人机对话",
+    "zh_oneliner": "作者记录自己如何通过不断纠正，把一段人机对话维持到 50 万词，聊长期对话里的对齐与漂移。",
+    "en_title": "I Sustained 500K Words of Human–AI Dialogue Through Continuous Correction",
+    "en_oneliner": "One author's account of sustaining a 500,000-word human–AI dialogue through continuous correction — and what long conversations do to alignment and drift."
+  },
+  "https://www.colesgroup.com.au/updates": {
+    "zh_title": "Coles 遭遇网络安全事件",
+    "zh_oneliner": "澳大利亚连锁超市 Coles 遭遇网络安全事件的最新消息，细节以官方更新为准。",
+    "en_title": "Coles hit by a cybersecurity incident",
+    "en_oneliner": "News of a cybersecurity incident at Australian supermarket chain Coles — details as published in the official update."
   }
 }

@@ -1,6 +1,6 @@
 # 工具站 HOT — 允许搜索引擎与 AI 爬虫抓取公开内容
 # 规范域名为 https://staroltest.github.io/tool-hot/
-# 镜像 https://hot-site-template.pages.dev 内容相同，请以规范域名为准
+# 镜像 https://tool-hot.pages.dev 内容相同，请以规范域名为准
 # 给 AI 看的站点说明见 llms.txt（站根 /llms.txt）
 
 User-agent: *

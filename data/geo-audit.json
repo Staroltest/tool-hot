@@ -3,9 +3,9 @@
  "site": "https://staroltest.github.io/tool-hot",
  "summary": {
   "total": 9,
-  "passed": 6,
+  "passed": 7,
   "warn": 2,
-  "failed": 1
+  "failed": 0
  },
  "checks": [
   {
@@ -17,8 +17,8 @@
   {
    "key": "sitemap",
    "label": "sitemap.xml 条数与漏页",
-   "status": "fail",
-   "detail": "共 3447 条 URL，漏 9 页：https://staroltest.github.io/tool-hot/en/topics/assistant.html、https://staroltest.github.io/tool-hot/en/topics/automation.html、https://staroltest.github.io/tool-hot/en/topics/design.html、https://staroltest.github.io/tool-hot/en/topics/developer.html、https://staroltest.github.io/tool-hot/en/topics/free.html…"
+   "status": "pass",
+   "detail": "共 3479 条 URL，磁盘 3477 个 HTML 页全部在列"
   },
   {
    "key": "llms",
@@ -48,13 +48,13 @@
    "key": "mcp",
    "label": "MCP 端点可达性",
    "status": "warn",
-   "detail": "端点 https://hot-site-template.pages.dev/mcp 已写入 llms.txt；本轮未做在线请求，可达性需线上验证"
+   "detail": "端点 https://tool-hot.pages.dev/mcp 已写入 llms.txt；本轮未做在线请求，可达性需线上验证"
   },
   {
    "key": "mirror",
    "label": "镜像站部署",
    "status": "warn",
-   "detail": "镜像 https://hot-site-template.pages.dev 的部署状态在仓库内无法验证，请以托管平台控制台最新部署为准"
+   "detail": "镜像 https://tool-hot.pages.dev 的部署状态在仓库内无法验证，请以托管平台控制台最新部署为准"
   },
   {
    "key": "feed",

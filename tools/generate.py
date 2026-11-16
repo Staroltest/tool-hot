@@ -316,6 +316,11 @@ TAG_SLUGS = {
 TAG_LABELS_EN = {}
 for _kw, _cn in REASON_LABELS.items():
     TAG_LABELS_EN[_cn] = REASON_LABELS_EN[_kw]
+# 补上 labels_for 能产出、但 REASON_LABELS 未覆盖的中文标签
+# （dev_keywords 里的 AI/开发/设计/免费等）：否则英文存档报告的标签
+# 回退成中文，且英文主题页会出现中文 slug 文件
+for _kw, _en in REASON_LABELS_EN.items():
+    TAG_LABELS_EN.setdefault(REASON_LABELS.get(_kw, _kw), _en)
 TAG_SLUGS_EN = {TAG_LABELS_EN[cn]: slug for cn, slug in TAG_SLUGS.items()}
 TAG_SLUGS_ALL = dict(TAG_SLUGS)
 TAG_SLUGS_ALL.update(TAG_SLUGS_EN)
@@ -4374,6 +4379,12 @@ def main():
         tag_counts.append((label, slug, len(tag_items[label])))
         with open(os.path.join(topics_dir, slug + ".html"), "w", encoding="utf-8") as f:
             f.write(render_topic(site, label, slug, [pub_item(it) for it in items]))
+    # 清理过期主题页：标签集合随映射变化，旧 slug 文件不删会残留，
+    # sitemap 只列当前页，geo-audit 会把残留文件判为漏页
+    _keep = {s + ".html" for _, s, _ in tag_counts}
+    for _fn in os.listdir(topics_dir):
+        if _fn.endswith(".html") and _fn not in _keep:
+            os.remove(os.path.join(topics_dir, _fn))
     with open(os.path.join(root, "topics.html"), "w", encoding="utf-8") as f:
         f.write(render_topics_index(site, tag_counts))
     # 英文版主题页：同一批 slug，英文标签
@@ -4390,6 +4401,10 @@ def main():
         tag_counts_en.append((label, slug, len(tag_items_en[label])))
         with open(os.path.join(en_topics_dir, slug + ".html"), "w", encoding="utf-8") as f:
             f.write(render_topic(site, label, slug, [pub_item_en(it) for it in items], lang="en"))
+    _keep_en = {s + ".html" for _, s, _ in tag_counts_en}
+    for _fn in os.listdir(en_topics_dir):
+        if _fn.endswith(".html") and _fn not in _keep_en:
+            os.remove(os.path.join(en_topics_dir, _fn))
     with open(os.path.join(en_root, "topics.html"), "w", encoding="utf-8") as f:
         f.write(render_topics_index(site, tag_counts_en, lang="en"))
 
