@@ -6856,5 +6856,143 @@
     "zh_oneliner": "一篇 Substack 文章，聊这场奔向通用人工智能的竞赛里一个根本性的缺陷。",
     "en_title": "The Fundamental Flaw in the Race to AGI",
     "en_oneliner": "A Substack essay on a fundamental flaw in the race to AGI."
+  },
+  "https://dev.to/remielbarrett8283/go-sequencing-windows-containing-partial-batch-failures-on-a-delivery-tracking-map-2pdl": {
+    "zh_title": "Go 排序窗口：让配送追踪地图扛住批量部分失败",
+    "zh_oneliner": "给每条设备状态事件编号排序、逐条确认，断线重连后从最后一个连续位置续传，批量失败也不丢事件。",
+    "en_title": "Go Sequencing Windows — Containing Partial Batch Failures on a Delivery Tracking Map",
+    "en_oneliner": "Number every device-status event, acknowledge batch members individually, and resume from the last contiguous position after a disconnect so partial batch failures lose nothing."
+  },
+  "https://dev.to/dustinliang/sector-heat-rolling-window-comparison-unit-testing-ai-theme-heat-from-1h-to-3d-316f": {
+    "zh_title": "板块热度滚动窗口对比：像写单元测试一样验证 AI 主题热度",
+    "zh_oneliner": "把 1 小时和 3 天两个窗口的热度榜当成待测代码，先写断言再下结论，免得把窗口口径差异误读成趋势反转。",
+    "en_title": "Sector Heat Rolling Window Comparison: Unit-Testing AI Theme Heat from 1h to 3d",
+    "en_oneliner": "Treat the 1-hour and 3-day heat boards as code under test: write assertions before drawing conclusions, so a window-aperture difference is never mistaken for a trend reversal."
+  },
+  "https://dev.to/ipvora/kiem-thu-ban-dia-hoa-va-xac-minh-quang-cao-theo-khu-vuc-bang-playwright-proxy-dan-cu-5fdn": {
+    "zh_title": "用 Playwright + 住宅代理做本地化测试与分地区广告验证",
+    "zh_oneliner": "拿住宅代理按地区跑 Playwright，逐个市场截图核对语言、货币和广告位，比公司 VPN 更接近真实用户看到的页面。",
+    "en_title": "Kiểm thử bản địa hoá và xác minh quảng cáo theo khu vực bằng Playwright + proxy dân cư",
+    "en_oneliner": "Run Playwright through residential proxies market by market, screenshotting each locale to check language, currency and ad slots — far closer to what real users see than a corporate VPN."
+  },
+  "https://dev.to/cuelark/ai-updates-for-developers-nov-9-16-2026-fable-52-gemini-4-carbon-decision-models-and-what-14j1": {
+    "zh_title": "开发者 AI 周报（11 月 9–16 日）：Fable 5.2、Gemini 4 Carbon 与决策模型",
+    "zh_oneliner": "一周模型与 API 动态全汇总：Anthropic 和 Google 齐发新模型、两家推出只答封闭问题的决策模型，附价格与可能破坏现有代码的变更。",
+    "en_title": "AI updates for developers, Nov 9–16 2026: Fable 5.2, Gemini 4 Carbon, decision models, and what breaks",
+    "en_oneliner": "A week's model and API changes in one place: new frontier models from Anthropic and Google, decision models that answer closed questions, plus prices and the changes that can break existing code."
+  },
+  "https://dev.to/mattleeee/three-layer-strategy-validation-and-the-blind-spot-that-bit-me-16f3": {
+    "zh_title": "三层策略验证与坑了我的盲点",
+    "zh_oneliner": "三层统计验证全绿，回测却因前视漏洞偷看了未来数据，提醒你验证的是交易序列本身，查不出生成序列的方式有问题。",
+    "en_title": "Three-Layer Strategy Validation and the Blind Spot That Bit Me",
+    "en_oneliner": "Three layers of statistical validation all passed, yet the backtest had a lookahead bug peeking at future candles — a reminder that validation checks the trade sequence, not how it was generated."
+  },
+  "https://dev.to/goodpa/the-ordering-layer-or-it-went-through-is-not-the-same-as-it-went-through-in-order-378i": {
+    "zh_title": "排序层：「成功了」不等于「按顺序成功了」",
+    "zh_oneliner": "去重防得住重复，防不住乱序，文章把「先付款再发货」这类业务规则读成排序约束，教你给事件流加上顺序防线。",
+    "en_title": "The Ordering Layer — Or, \"It Went Through\" Is Not the Same as \"It Went Through in Order\"",
+    "en_oneliner": "Dedup guards against repeats, not reordering — the piece reads rules like 'no shipment before payment' as ordering constraints and shows how to add a sequencing guard to event streams."
+  },
+  "https://dev.to/bianliang/readarr-title-matches-show-why-retired-admin-consoles-still-need-ownership-2j0e": {
+    "zh_title": "Readarr 标题匹配揭示：退役管理后台仍需有人负责",
+    "zh_oneliner": "退役产品暴露在外网的管理后台照样握着凭证与操作权限，文章用 Readarr 的扫描数据说明下线不等于断电。",
+    "en_title": "Readarr title matches show why retired admin consoles still need ownership",
+    "en_oneliner": "A retired product's admin console exposed to the internet still holds credentials and operational authority — the Readarr scan data shows decommissioned does not mean disconnected."
+  },
+  "https://dev.to/mubashir_arham/inside-bharat-semis-ai-enabled-sensor-chip-architecture-trade-offs-and-what-it-means-for-the-3fil": {
+    "zh_title": "拆解 Bharat Semi 的 AI 传感芯片：架构、取舍与边缘 AI 的下一步",
+    "zh_oneliner": "印度芯片初创把模拟前端、片上推理和功耗管理塞进 1 克、10 毫瓦以下的器件，文章逐层拆开它的硬件栈与数据流设计。",
+    "en_title": "Inside Bharat Semi’s AI‑Enabled Sensor Chip: Architecture, Trade‑offs, and What It Means for the Next‑Gen Edge AI Landscape",
+    "en_oneliner": "An Indian chip startup packs analog front-end, on-chip inference and power management into a sub-10 mW, 1-gram device — the piece takes its hardware stack and data flow apart layer by layer."
+  },
+  "https://dev.to/uehara/alive365-an-uptime-monitor-that-checks-past-the-login-page-1e6o": {
+    "zh_title": "alive365：能测过登录页的可用性监控",
+    "zh_oneliner": "首页返回 200 不代表能登录，alive365 用真实浏览器走完登录或结账流程，把「页面能打开但功能全挂」的故障也抓出来。",
+    "en_title": "alive365: An Uptime Monitor That Checks Past the Login Page",
+    "en_oneliner": "A homepage returning 200 does not mean anyone can log in — alive365 drives a real browser through login or checkout steps to catch the 'page loads but nothing works' class of outage."
+  },
+  "https://dev.to/_dccc66abbe7a7eb861e7b5/dubbing-vs-subtitling-the-localisation-decision-nobody-makes-deliberately-3p54": {
+    "zh_title": "配音还是字幕：没人认真做过的本地化决策",
+    "zh_oneliner": "字幕适合会读目标语言的观众，配音适合只想听的观众，文章按受众和场景给出一套先定输出形式再谈翻译的决策框架。",
+    "en_title": "Dubbing vs subtitling: the localisation decision nobody makes deliberately",
+    "en_oneliner": "Subtitles suit audiences who read the target language, dubbing suits those who would rather listen — the piece offers a decision framework that picks the output format by audience and scene before any translation happens."
+  },
+  "https://dev.to/emongmarcc/using-embeddings-and-pinecone-for-semantic-search-in-laravel-a-production-ready-guide-2lj0": {
+    "zh_title": "用 Embeddings 与 Pinecone 给 Laravel 做语义搜索：生产级指南",
+    "zh_oneliner": "关键词搜索听不懂同义词和错别字，这篇指南手把手把 OpenAI 向量、Pinecone 存储和 Laravel 接线拼成一条能直接改着用的语义搜索流水线。",
+    "en_title": "Using Embeddings and Pinecone for Semantic Search in Laravel: A Production-Ready Guide",
+    "en_oneliner": "Keyword search cannot hear synonyms or typos — this guide wires OpenAI embeddings, Pinecone storage and a Laravel app into a semantic search pipeline you can adapt directly."
+  },
+  "https://dev.to/cavedu/cosmos-3-edge-part-1-understanding-physical-ai-on-nvidia-jetson-joc": {
+    "zh_title": "Cosmos 3 Edge（上）：在 NVIDIA Jetson 上理解物理 AI",
+    "zh_oneliner": "约 40 亿参数的边缘世界模型系列开篇，讲清它在 Jetson 上的部署方式与推理表现，以及视觉输入如何一步步变成机器人动作。",
+    "en_title": "Cosmos 3 Edge, Part 1: Understanding Physical AI on NVIDIA Jetson",
+    "en_oneliner": "The opening article of a series on the roughly 4-billion-parameter edge world model, covering its Jetson deployment options, reported inference performance, and how visual input becomes robot action."
+  },
+  "https://www.reddit.com/r/coolgithubprojects/comments/1xxbyup/i_built_weki_an_offline_wikipedia_reader_that": {
+    "zh_title": "WekI：离线维基百科阅读器，联网后自动同步更新",
+    "zh_oneliner": "本地 ZIM 档案离线可读，联网后用 SQLite 覆盖层同步新文章与改动，40 万篇简易英语维基已跑通 188 个测试。",
+    "en_title": "I built WekI . an offline Wikipedia reader that syncs when you're back online",
+    "en_oneliner": "A local ZIM archive for offline reading, with a SQLite overlay syncing new articles and changes on reconnect — tested on 400k+ Simple English Wikipedia articles with 188 tests passing."
+  },
+  "https://www.reddit.com/r/coolgithubprojects/comments/1xxbx1s/i_built_jarvs_a_local_ai_agent_that_cant_execute": {
+    "zh_title": "jarvS：本地 AI 助手，想干什么都得先过权限关",
+    "zh_oneliner": "Rust 运行时说了算：AI 只能规划和申请动作，敏感操作要人批准，模型、记忆和审计日志全留在本机跑 Ollama。",
+    "en_title": "I built jarvS - a local AI agent that can't execute everything it wants",
+    "en_oneliner": "A Rust runtime has the final say: the AI can plan and request actions, but sensitive ones need human approval, while models, memory and audit logs all stay on your machine via Ollama."
+  },
+  "https://www.reddit.com/r/coolgithubprojects/comments/1xxbvrv/i_built_agenttrace_an_observability_platform_for": {
+    "zh_title": "AgentTrace：给 AI 助手装上的可观测平台",
+    "zh_oneliner": "开源的 Rust + SQLite 追踪工具，把模型调用、工具执行、重试与报错记成可回放的时间线，密钥入库前先脱敏。",
+    "en_title": "I built AgentTrace - an observability platform for AI agents",
+    "en_oneliner": "An open-source Rust and SQLite tracer that records model calls, tool executions, retries and errors as replayable timelines, with secrets redacted before anything is stored."
+  },
+  "https://photostructure.com/coding/gavel": {
+    "zh_title": "Show HN：Gavel，开源本地代码评审工具",
+    "zh_oneliner": "让编码助手给本地 PR 写一份「导览」，评审时顺着线索逐行看代码，有问题直接在代码上下文里和助手对话。",
+    "en_title": "Show HN: Gavel, an open source local code review tool",
+    "en_oneliner": "Lets a coding agent write a guided tour of your local PR, so you review line by line along its trail and ask questions in a threaded chat right in the code's context."
+  },
+  "https://www.theguardian.com/books/ng-interactive/2026/nov/14/its-like-the-wild-west-how-ai-has-rocked-the-literary-world": {
+    "zh_title": "「像狂野西部」：AI 如何震动文学界",
+    "zh_oneliner": "《卫报》的互动长文，梳理 AI 写作、版权与出版冲击下文学世界正在发生的混乱与重组。",
+    "en_title": "'It's like the Wild West': how AI has rocked the literary world",
+    "en_oneliner": "A Guardian interactive long read on the chaos and reshaping AI writing, copyright and publishing pressure are bringing to the literary world."
+  },
+  "https://github.com/randy-/librsvg": {
+    "zh_title": "Librsvg 2.62.3：把 SVG 渲染到 Cairo 的 C 语言库",
+    "zh_oneliner": "老牌 SVG 渲染库的新版本，继续为需要把矢量图画进 Cairo 画布的程序提供稳定的底层支持。",
+    "en_title": "Librsvg 2.62.3: a C library that renders SVG to Cairo",
+    "en_oneliner": "A new release of the long-running SVG rendering library, still providing the stable low-level support apps need to draw vector graphics onto a Cairo canvas."
+  },
+  "https://medium.com/@adnan3.0gpa/how-to-edit-pdfs-compress-images-and-format-json-without-uploading-your-files-anywhere-5f684d576bba?source=rss------tools-5": {
+    "zh_title": "不上传文件也能改 PDF、压图片、格式化 JSON",
+    "zh_oneliner": "一本实用指南，教你用纯浏览器端工具处理文件：编辑 PDF、压缩图片、格式化 JSON，全程不离开自己的设备。",
+    "en_title": "How to Edit PDFs, Compress Images and Format JSON Without Uploading Your Files Anywhere",
+    "en_oneliner": "A practical guide to browser-based tools for editing PDFs, compressing images and formatting JSON — all without your files ever leaving your device."
+  },
+  "https://www.youtube.com/watch?v=KA6cHlighO0": {
+    "zh_title": "演化设计一支国际象棋军团［视频］",
+    "zh_oneliner": "一段用演化算法设计国际象棋棋子的视频，看随机变异与选择如何一步步拼出一支能用的棋军。",
+    "en_title": "Evolution Design a Chess Army [video]",
+    "en_oneliner": "A video on designing a chess army with evolutionary algorithms, watching random mutation and selection gradually assemble a playable set of pieces."
+  },
+  "https://thenewinquiry.com/book-of-lamentations": {
+    "zh_title": "书评：《精神疾病诊断与统计手册》第五版（2013）",
+    "zh_oneliner": "一篇关于 DSM-5 的书评，读它如何界定精神疾病，以及这本手册十余年来引发的争论。",
+    "en_title": "Book review of the DSM-5 (2013)",
+    "en_oneliner": "A review of the DSM-5, examining how it defines mental illness and the debates the manual has stirred for over a decade."
+  },
+  "https://www.stripeeconomics.com/p/the-saaspocalypse-was-more-like-a": {
+    "zh_title": "SaaS 末日更像一场 SaaS 文艺复兴",
+    "zh_oneliner": "所谓 SaaS 末日并没有到来，文章认为这场震荡更像一次文艺复兴：旧模式退场，新玩法正在接管。",
+    "en_title": "The SaaSpocalypse was more like a RenaiSaaS",
+    "en_oneliner": "The so-called SaaS apocalypse never arrived — the essay argues the shakeout looks more like a renaissance, with old models exiting and new ones taking over."
+  },
+  "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors": {
+    "zh_title": "Vulcan 火箭发射失败，给 SpaceX 的竞争对手沉重一击",
+    "zh_oneliner": "Vulcan 火箭发射失利的最新报道，聊聊这次失败对 ULA 与商业发射竞争格局意味着什么。",
+    "en_title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+    "en_oneliner": "Coverage of the Vulcan rocket's launch failure and what the setback means for ULA and the commercial launch race."
   }
 }
