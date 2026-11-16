@@ -8398,5 +8398,29 @@
   "zh_oneliner": "AI 社交媒体经理，了解你的生意后每天自动写帖、做图、剪视频并发布到 Instagram、TikTok 等平台，每条发之前可先由你过目，免费版就能先试一个品牌。",
   "en_title": "Show HN: Emelyn, Your AI Social Media Manager",
   "en_oneliner": "An AI social media manager that learns your business, then writes posts, makes images and videos, and publishes them daily to Instagram, TikTok and more — every post waits for your OK first, and the free plan covers one brand."
+ },
+ "https://softytools.com": {
+  "zh_title": "Softytools：17 个免费交易计算器，免注册",
+  "zh_oneliner": "17 个免费交易计算器一次给齐，算仓位、风险和收益都不用注册，打开网页直接用。",
+  "en_title": "Show HN: Softytools – 17 free trading calculators, no signup",
+  "en_oneliner": "Seventeen free trading calculators in one place — work out position size, risk and returns with no signup, right in the browser."
+ },
+ "https://data.beetl.io/flights": {
+  "zh_title": "US Ground Stop Tracker：美国航班地面停飞恢复追踪",
+  "zh_oneliner": "盯着美国各机场的地面停飞令，实时看航班延误多久才能恢复，赶飞机前先查一眼。",
+  "en_title": "Show HN: US Ground Stop Tracker – how long flights take to recover",
+  "en_oneliner": "Tracks US airport ground stops in real time, showing how long flights take to recover — check before you head to the airport."
+ },
+ "https://erl-j.github.io/fun-zone/birds.html": {
+  "zh_title": "Birds as Code：用代码画出来的小鸟",
+  "zh_oneliner": "一个程序化小鸟生成器，每只鸟都由 46 个数字和 17 种颜色定义，在地图上拖动就能让附近的小鸟互相融合，还能打开面板读它的生成代码。",
+  "en_title": "Show HN: Birds as Code",
+  "en_oneliner": "A procedural bird generator where each bird is defined by 46 numbers and 17 colors — drag across the map to blend nearby birds, then open the panel to read the code behind them."
+ },
+ "https://incpption.com": {
+  "zh_title": "Cppgm：比 Clang 快 4 倍的浏览器内 C++ 编译器",
+  "zh_oneliner": "在浏览器里直接编译 C++ 项目，全程本地运行不走服务器，实测比 Clang 快 4 倍，还能逐个文件对照看编译结果。",
+  "en_title": "Show HN: Cppgm compiles C++ to WASM 4x faster than Clang",
+  "en_oneliner": "Compiles C++ projects right in your browser, entirely locally with nothing running server-side — up to 4x faster than Clang, with per-file results to compare."
  }
 }

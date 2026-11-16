@@ -345,6 +345,12 @@ BLOCKED_DOMAINS = {
     # 任务栏里，须下载安装才能用；标题只写“lyrics in your taskbar”，
     # 标题门拦不住，域名封禁；标题门同步加 \btaskbar\b
     "getlirico.pages.dev",
+    # 抽查确认不是在线工具（2026-11-17 03:37 CST 轮，浏览器实测本轮 6 条新品，
+    # 2 条泄漏）：Chisle 是 Claude Code 插件（npx 安装进编码助手才能用），
+    # 不是能在浏览器里直接用的工具，标题门同步加 \bplugin\b；box.simular.ai
+    # 是给 AI 智能体配云电脑的 MCP 服务（须注册账号、接 MCP 才能用），官网
+    # 只是落地页与接入手册，不是点开能用的工具本身；两者标题均不露痕迹
+    "chisle.jaypokale.me", "box.simular.ai",
     "useview.app", "netrix-console.com", "qube.so",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
@@ -487,6 +493,10 @@ _TITLE_BLOCK_RES = [
         r"\bapp\s+store\b",
         r"\bgoogle\s+play\b",
         r"\b(chrome|firefox|edge|safari|browser|vscode)\s+extension\b",
+        # 插件（如“Claude Code plugin”）：插件要装进宿主应用里才能用，
+        # 不是“在网站上就能用”的工具（2026-11-17 03:37 CST 轮：Chisle）
+        r"\bplugin\b",
+        r"插件",
         # CLI / 命令行工具（如“a refactoring CLI for coding agents”）：
         # 要下载安装才能用，不是“在网站上就能用”的工具
         # （2026-11-16 22:00 轮：Claktor）
