@@ -8194,5 +8194,23 @@
   "zh_oneliner": "给电商品牌的广告操作系统：把广告当成数学问题来解，按利润、获客成本和市场规模自动投放，还能优化 Listing、管库存、盯竞品。",
   "en_title": "Laurence",
   "en_oneliner": "An operating system for e-commerce marketers: it treats advertising as a math problem, running ads against profit, CAC and market size, while optimizing listings, tracking inventory and watching competitors."
+ },
+ "https://dhiraj-niural.github.io/few-distance-lab": {
+  "zh_title": "Few-Distance Lab：源自 Erdős 问题的几何布点谜题",
+  "zh_oneliner": "在按 √2 拉伸过的网格上布点，让点与点之间的距离尽可能重复，每块棋盘的最优解都经过穷举证明，边玩边理解 Erdős 第 659 号问题。",
+  "en_title": "Show HN: A geometry puzzle from an Erdős problem, with every optimum proven",
+  "en_oneliner": "Place points on a grid stretched by √2 so the distances between them repeat as much as possible; every board's optimum has been proven by exhaustive search, and you learn Erdős problem #659 by playing."
+ },
+ "https://junctioneda.com": {
+  "zh_title": "JunctionEDA：浏览器里的实时协作 KiCad",
+  "zh_oneliner": "在浏览器里和朋友一起画 PCB，像 KiCad 一样画原理图、布线，还能直接搜索 LCSC 的元器件，不用安装任何软件。",
+  "en_title": "Show HN: Real-time collaborative KiCad",
+  "en_oneliner": "Design PCBs together with friends in the browser, with KiCad-style schematics and layout plus direct LCSC part search, no install needed."
+ },
+ "https://bill.nguyentonhoang.com/terror-space": {
+  "zh_title": "Terror Space：五人联机的浏览器生存游戏",
+  "zh_oneliner": "向魔兽争霸 3 自定义生存图致敬的浏览器游戏，五名玩家一起造炮塔、砌围墙，守住基地撑过十波进攻。",
+  "en_title": "Show HN: Terror Space: 5-player browser survival game inspired",
+  "en_oneliner": "A browser survival game inspired by Warcraft 3 custom maps: five players build turrets and walls together to hold the base through ten waves."
  }
 }
