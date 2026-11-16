@@ -309,6 +309,10 @@ BLOCKED_DOMAINS = {
     # download it.”和“Move Candela to Applications”），须下载安装才能用，
     # 不是能在浏览器里直接用的工具；标题不露痕迹，标题门拦不住，域名封禁
     "livoni.software",
+    # 抽查确认不是在线工具（2026-11-16 22:00 轮，本轮 9 条新品，5 条泄漏）：
+    # Prettywhale 链到 VS Code Marketplace 扩展下载页；Offline PDF Desk
+    # 链到 Gumroad 商品页（单个 HTML 文件，需下载才能用）
+    "marketplace.visualstudio.com", "gumroad.com",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
 }
@@ -338,6 +342,8 @@ ARTICLE_PATH_SEGMENTS = {
     "opinion", "magazine", "podcast", "podcasts", "videos", "features",
     "analysis", "books", "category", "tag", "author", "archives",
     "coding",
+    # “the making of”类幕后文章页（2026-11-16 22:00 轮：daventry.io/making-of）
+    "making-of",
 }
 # 下载/安装味路径段：链到下载页、安装页、发布包、扩展页的都不是在线工具
 DOWNLOAD_PATH_SEGMENTS = {
@@ -432,7 +438,13 @@ _TITLE_BLOCK_RES = [
         r"\bapp\s+store\b",
         r"\bgoogle\s+play\b",
         r"\b(chrome|firefox|edge|safari|browser|vscode)\s+extension\b",
-        r"\bself[- ]hosted\b",
+        # CLI / 命令行工具（如“a refactoring CLI for coding agents”）：
+        # 要下载安装才能用，不是“在网站上就能用”的工具
+        # （2026-11-16 22:00 轮：Claktor）
+        r"\bcli\b",
+        # 自托管：除 self-hosted / self hosted 外，还有“(self) hosted”
+        # 这种带括号的写法（2026-11-16 22:00 轮：Ivy）
+        r"\bself[\)\s\-]*hosted\b",
         # 游戏 mod（如“a Factorio mod for GPU nerds”）：mod 要下载安装到游戏
         # 里才能用，不是“在网站上就能用”的工具；域名门同步封 mods.factorio.com
         r"\bmod\b",
