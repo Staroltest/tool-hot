@@ -409,6 +409,13 @@ BLOCKED_DOMAINS = {
     # 无法验证为网页工具；五者标题均不露痕迹，标题门拦不住，域名封禁
     "cookieaway.com", "degla.ai", "trynexus.io", "rankspot.ai",
     "polyroom.ai",
+    # 抽查确认不是在线工具（2026-11-17 23:07 CST 轮，浏览器实测本轮 10 条新品，
+    # 3 条泄漏）：Flexible Sim 链到 JetBrains Marketplace 插件页，是 JetBrains
+    # IDE 插件（须装 IDE 与 Julia/Python/OpenModelica 运行时），不是浏览器里
+    # 能直接用的工具；Darkroom Finder 是摄影暗房目录站（按城市/邮编找暗房），
+    # 本身是目录页；Kompromat 是开源协议 + CLI 工具（须安装 kompromat 命令行），
+    # 不是能在浏览器里直接用的工具；三者标题均不露痕迹，标题门拦不住，域名封禁
+    "plugins.jetbrains.com", "darkroomfinder.org", "kompromat.sh",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {

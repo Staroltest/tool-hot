@@ -119,6 +119,12 @@
     "zh_oneliner": "输入航班号就能对照雷达、机场天气和机组值班记录，核查延误的真实原因，还能免费生成索赔信。",
     "zh_title": "AirTruth：用雷达数据拆穿航司“天气原因”延误借口"
   },
+  "https://aktor.app/welcome": {
+    "en_oneliner": "Describe the outcome you want and Aktor's team of agents divides the work, uses the tools you allow, and delivers a finished result — monitored and kept within limits you set.",
+    "en_title": "Show HN: Aktor – Agents that hire their own sub-agents for deep work",
+    "zh_oneliner": "说清想要的结果，Aktor 的智能体团队自己分工、调用工具把活干完，全程可监控、可设限。",
+    "zh_title": "Aktor：会雇下属的 AI 智能体团队"
+  },
   "https://algotank.awala.my.id": {
     "en_oneliner": "Write the algorithm that drives your tank in the browser, then battle other players' tanks to see whose code wins — a game that teaches programming thinking as you play.",
     "en_title": "Show HN: AlgoTank-Build the best algorithm to drive your tank and win the battle",
@@ -4895,6 +4901,12 @@
     "zh_oneliner": "选一个平台、编一组漂亮数字，生成以假乱真的成功截图，专治朋友圈里的凡尔赛式晒单。",
     "zh_title": "FakeMetrics：伪造爆款数据的截图生成器"
   },
+  "https://farvoices.com": {
+    "en_oneliner": "Live signals from NASA's Deep Space Network sung as a choir — open it and listen to antennas talking to distant spacecraft.",
+    "en_title": "Show HN: A choir that sings NASA's Deep Space Network traffic, live",
+    "zh_oneliner": "NASA 深空网络的实时信号被唱成合唱，点开就能听天线与探测器之间的对话。",
+    "zh_title": "Farvoices：NASA 深空网络信号化身合唱"
+  },
   "https://ferd.ca/control-and-complexity-tension-in-systems-design.html": {
     "en_oneliner": "An essay on systems design about the tension between control and complexity, and how designers should trade off between the two.",
     "en_title": "Control and complexity: tension in systems design",
@@ -5939,6 +5951,12 @@
     "zh_oneliner": "Longreads 的一篇长文，讲述冰层消融背后的人与故事。",
     "zh_title": "冰的消逝"
   },
+  "https://mailyen.com/demo?via=hn": {
+    "en_oneliner": "Mail from strangers waits outside your inbox until the sender adds a $5 stamp to get in — refunded the moment you reply — and the demo page lets you try it on the spot.",
+    "en_title": "Show HN: Mailyen – a card hold on cold emails, released when you answer",
+    "zh_oneliner": "陌生来信先拦在收件箱外，对方贴一张 5 美元邮票才能进来，你一回复就退钱，演示页当场就能试。",
+    "zh_title": "Mailyen：给陌生邮件加个 5 美元邮票"
+  },
   "https://make-a-beat.com": {
     "en_oneliner": "A beat maker that runs entirely in the browser: tap cells to lay down drums, write melodies on the piano roll, and invite friends to produce together in real time — no download, no account needed.",
     "en_title": "Free collaborative browser beatmaker focused on simplicity",
@@ -5968,6 +5986,12 @@
     "en_title": "A2A (Agent2Agent) Protocol Is Fundamentally Flawed",
     "zh_oneliner": "一篇批评 A2A 智能体间通信协议的文章，认为它的设计思路本身站不住脚。",
     "zh_title": "A2A（Agent2Agent）协议从根本上就有缺陷"
+  },
+  "https://matchdayfeed.com": {
+    "en_oneliner": "Pick your teams and subscribe once — every match of the whole season lands on your calendar and updates itself when fixtures move.",
+    "en_title": "Show HN: Matchday – your team's whole season in one auto-updating calendar",
+    "zh_oneliner": "挑好主队一键订阅，整赛季每场比赛自动进日历，赛程改了也会自己更新。",
+    "zh_title": "Matchday：球队整个赛季的日历订阅"
   },
   "https://matikiri.net": {
     "en_oneliner": "A music streaming platform with AI tools — discover new tracks by genre and generate your own beats and compositions in the browser.",
@@ -6706,6 +6730,12 @@
     "en_title": "Show HN: SecureVibe – Find and trace vulnerabilities before shipping",
     "zh_oneliner": "发版越来越快，安全流程却跟不上，这个工具帮你在上线前找到漏洞并一路追踪到修复。",
     "zh_title": "Show HN：SecureVibe——上线前发现并追踪漏洞"
+  },
+  "https://select.supply/game/retro": {
+    "en_oneliner": "An Eastern European-inspired living room where you can jump straight into retro games, atmosphere included.",
+    "en_title": "Show HN: Play retro games on an Eastern European-inspired setup",
+    "zh_oneliner": "一个东欧风味的小客厅场景，点开就能在里面玩复古游戏，氛围拉满。",
+    "zh_title": "Retro：东欧风客厅里玩复古游戏"
   },
   "https://sf-bay-area-connectivity.wn.r.appspot.com": {
     "en_oneliner": "A map project showing climate-resilient connectivity across the San Francisco Bay Area, layering infrastructure over climate risk — for readers interested in urban planning and climate adaptation.",
@@ -7540,6 +7570,12 @@
     "en_title": "Bringing fast wireless connectivity to the world",
     "zh_oneliner": "CSIRO 回顾无线局域网技术如何从实验室走向全世界，讲一段 Wi-Fi 背后的澳大利亚故事。",
     "zh_title": "让快速无线连接走向世界"
+  },
+  "https://www.dailyscribe.ca": {
+    "en_oneliner": "Every morning it binds news, crosswords, chess puzzles and handwriting practice into a newspaper delivered to your Kindle — write your answers by hand and send them back for grading.",
+    "en_title": "Show HN: Daily Scribe – a daily newspaper for Kindle you can write back to",
+    "zh_oneliner": "每天清晨把新闻、填字、棋局和汉字练习订成一份报纸发到 Kindle 上，手写答案寄回还能批改。",
+    "zh_title": "Daily Scribe：能回写的 Kindle 晨报"
   },
   "https://www.dnjournal.com/cover/2014/february.htm": {
     "en_oneliner": "The story of how Michael Castello turned a free domain into a $3.1M sale back in 2014 — a classic domaining tale.",
@@ -8404,6 +8440,12 @@
     "en_title": "UK to expand jobs guarantee scheme for young people",
     "zh_oneliner": "英国政府计划扩大年轻人就业保障项目，给更多年轻人提供有保障的工作机会。",
     "zh_title": "英国将扩大面向年轻人的就业保障计划"
+  },
+  "https://www.revix.ai": {
+    "en_oneliner": "It reads the standards your repo already follows, then reviews every pull request like a senior engineer who knows your codebase's style.",
+    "en_title": "Show HN: Revix AI – PR review against the standards your repo follows",
+    "zh_oneliner": "读懂仓库里已有的规范再审每一个 PR，像一位熟悉你们代码风格的资深工程师。",
+    "zh_title": "Revix AI：按你家仓库规范审 PR"
   },
   "https://www.rewildingmag.com/the-forest-is-us-and-we-are-it-too": {
     "en_oneliner": "A piece on the bond between people and forests, and the human thinking behind rewilding and restoration.",
