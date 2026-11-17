@@ -59,6 +59,12 @@
   "zh_oneliner": "一款 Firefox 扩展，在内容发往 ChatGPT 或 Claude 之前先在本地清除其中的个人信息与密钥，像防火墙一样守住你的隐私。",
   "zh_title": "CloakPrompt：在发给 ChatGPT/Claude 之前清除隐私与密钥的本地浏览器防火墙"
  },
+ "https://adi-devv.github.io/sunken/sunken.html": {
+  "en_oneliner": "A 3D underwater world ray-marched and rendered live as text, packed into a single HTML file — just open it and look around.",
+  "en_title": "Show HN: 3D underwater world ray-marched and rendered in text (one HTML file)",
+  "zh_oneliner": "单个 HTML 文件跑出的 3D 海底世界，用光线步进实时渲染成文字，点开就能看。",
+  "zh_title": "Sunken：一个 HTML 文件里的 3D 文字海底世界"
+ },
  "https://adlrocha.substack.com/p/adlrocha-base-models-stopped-being": {
   "en_oneliner": "The author argues the bottleneck in the model race has moved on from base models themselves, and the contest worth watching has shifted elsewhere.",
   "en_title": "Base Models Stopped Being the Bottleneck",
@@ -647,6 +653,12 @@
   "zh_oneliner": "每天从 eBay 抓二手配件价，按性能与价格排好整机方案，还能自己搭配置比一比，打开网页直接用。",
   "zh_title": "CheapRig：按性价比挑二手电脑配件的装机助手"
  },
+ "https://check.importflow.dev": {
+  "en_oneliner": "Paste your SQL and check a PostgreSQL migration before you build the import — it flags what the source must provide and what could break, all in your browser.",
+  "en_title": "Show HN: PG Import Check – Analyze PostgreSQL schemas before importing data",
+  "zh_oneliner": "导入数据之前先粘贴 SQL 查一遍，表结构哪里会出问题一目了然，全程在浏览器里完成。",
+  "zh_title": "PG Import Check：导数据前先查 PostgreSQL 结构"
+ },
  "https://chesspositions973.lovable.app": {
   "en_oneliner": "Set up any chess position on the board and check whether it could actually arise in a real game, with a FEN string included.",
   "en_title": "I made a chessposition caculator",
@@ -748,6 +760,12 @@
   "en_title": "Design your own SRAM like it's 1969",
   "zh_oneliner": "一篇手把手文章，带你用上世纪六十年代的方式从头设计一块静态存储器，复古又硬核。",
   "zh_title": "像 1969 年那样自己设计 SRAM"
+ },
+ "https://confidentialinference.net": {
+  "en_oneliner": "Compare confidential AI inference providers by model, price and attestation, and verify their security claims in one place.",
+  "en_title": "Show HN: Confidential inference providers, checks and comparisons",
+  "zh_oneliner": "把各家机密推理服务商按模型、价格和可验证性拉出来逐项对照，还能在线核查安全声明。",
+  "zh_title": "Confidential Inference：机密推理服务商对照表"
  },
  "https://conoroneill.net/2026/11/15/chatgpt-on-nokia-n95": {
   "en_oneliner": "ChatGPT Voice running on a 2007 Nokia N95 — old hardware meets new AI in a delightful hack.",
@@ -6161,6 +6179,12 @@
   "zh_oneliner": "Longreads 的一篇长文，讲述冰层消融背后的人与故事。",
   "zh_title": "冰的消逝"
  },
+ "https://lumber-jack.koenvangilst.nl": {
+  "en_oneliner": "Play as an engineer who lost his job to AI and chop wood in the browser — a small game about being replaced.",
+  "en_title": "Show HN: Lumberjack – a browser game about an engineer who lost his job to AI",
+  "zh_oneliner": "扮演被 AI 抢走工作的工程师，在浏览器里砍树解压的网页小游戏。",
+  "zh_title": "Lumberjack：被 AI 抢了饭碗的工程师砍树记"
+ },
  "https://luvvoice.com/?ref=smollaunch": {
   "en_oneliner": "Create multilingual voiceovers from text and download the MP3 when it sounds right.",
   "en_title": "Luvvoice: multilingual voiceovers",
@@ -6328,6 +6352,12 @@
   "en_title": "Show HN: Mirrors – a context compiler for your production agents",
   "zh_oneliner": "给线上 AI 智能体写一次规则，它会在合适的步骤自动获得该看的上下文，还能衡量每条规则到底有没有帮上忙。",
   "zh_title": "Mirrors：给生产环境 AI 智能体做上下文编排的工具"
+ },
+ "https://modelrefs.com": {
+  "en_oneliner": "Look up AI model specs and benchmark numbers where every figure comes with a citable source.",
+  "en_title": "Show HN: ModelRefs – AI model data where every number must cite a source",
+  "zh_oneliner": "查 AI 模型参数与跑分数据，每一个数字都附来源，拒绝无据之谈。",
+  "zh_title": "ModelRefs：每个 AI 模型数字都有出处"
  },
  "https://modulify.ai": {
   "en_oneliner": "Generate full websites and web apps from a prompt.",
