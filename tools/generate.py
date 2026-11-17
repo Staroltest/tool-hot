@@ -423,6 +423,33 @@ BLOCKED_EXACT = {
     # pip 安装索引页（表格 + pip install 指令），工具本身须 pip install
     # 下载安装，不是能在浏览器里直接用的工具（2026-11-17 02:40 CST 轮实测）
     "wheelgap.github.io",
+    # 2026-11-17 22:07 CST 轮实测封禁（Ignlab 大批量上新，54 条新到里
+    # 抽查出 13 个泄漏，标题均不露痕迹）：
+    # howtousemuse.com 是 Meta Muse 提示词与工作流指南站（内容站，不是工具）；
+    # soloconsultantaiteam.com 卖 $29 付费 playbook/指南（内容站，不是工具）；
+    # promptcrate.pages.dev 是 500+ AI 视频提示词库（可复制的提示词合集，
+    # 内容站，不是能用的工具）；bothunt.xyz 是 Grok 机器人发现目录（目录页）；
+    # releaseszn.com 是软件发版截图展示 feed（内容 feed，不是工具）；
+    # desktrack.timentask.com 是员工监控桌面软件（须下载安装）；
+    # peatflow.com 是 Mac 桌面截图应用（"a Mac app"）；anxinzhuan.cn 是
+    # Windows/Mac/Linux/Android 离线语音转文字软件（须下载安装）；
+    # sellviaapp.com 与 autologa.com.au 都是 iOS/Android 应用（应用商店）；
+    # glide.work 仅限邀请、只能加等候名单（点开用不了）；remvora.com 是
+    # 纪念影片定制服务预览版、明确不接单（不是自助能用的工具）；
+    # openlegion.ai 是须 SDK 接入的 Agent 基础设施平台（不是点开能用的工具）
+    "howtousemuse.com",
+    "soloconsultantaiteam.com",
+    "promptcrate.pages.dev",
+    "bothunt.xyz",
+    "releaseszn.com",
+    "desktrack.timentask.com",
+    "peatflow.com",
+    "anxinzhuan.cn",
+    "sellviaapp.com",
+    "autologa.com.au",
+    "glide.work",
+    "remvora.com",
+    "openlegion.ai",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
