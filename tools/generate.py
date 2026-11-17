@@ -381,6 +381,12 @@ BLOCKED_DOMAINS = {
     # 裸机服务器上才能用；Brewlet 是 Kubernetes 运行时管理工具（git clone +
     # make build 装到集群里），不是能在浏览器里直接用的工具；三者标题均不露痕迹
     "standardsupport.dev", "nos-os.tech", "brewlet.sh",
+    # 抽查确认不是在线工具（2026-11-17 13:37 CST 轮，浏览器实测本轮 3 条新到
+    # 热点泄漏）：Fluxtail 链到 indielaunches.com 的项目页，是新品发布目录站
+    # 的条目页，不是工具本身；FocusBlock 链到 Edge 扩展商店页，是浏览器扩展；
+    # Blobby 是 Mac/Windows/Linux 桌面应用（官网“Download free”、项目存在
+    # 本机文件夹），须下载安装才能用；三者标题均不露痕迹，标题门拦不住，域名封禁
+    "indielaunches.com", "microsoftedge.microsoft.com", "useblobby.com",
     "bit.ly", "t.co", "goo.gl", "tinyurl.com", "ow.ly", "is.gd",
     "buff.ly", "cutt.ly", "rebrand.ly", "shorturl.at",
 }
