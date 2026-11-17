@@ -8584,5 +8584,11 @@
     "en_title": "Show HN: JA4 Fingerprinting: Why One Digest Can Cover User-Agents",
     "zh_oneliner": "JA4 指纹用一个摘要概括 TLS 握手特征，文章解释它为什么能把多个 User-Agent 归到同一个指纹之下。",
     "zh_title": "Show HN：JA4 指纹，为什么一个摘要能覆盖多种 User-Agent"
+  },
+  "https://shiye.leiping.dev": {
+    "en_oneliner": "Parents pick the textbook edition and unit, and in 3 minutes get an interactive one-page journal with flip cards, quizzes, and stamps; kids just open the link and start, and it prints neatly on A4.",
+    "en_title": "Shiye: Turn a Textbook Page into an Interactive Learning Journal Kids Actually Finish",
+    "zh_oneliner": "家长选好教材版本和单元，3 分钟生成一张能翻卡、答题、盖章的互动学习单页，孩子点开链接就能做，做完还能直接打印成 A4 手账。",
+    "zh_title": "Shiye 拾页：把课本一页变成孩子愿意做完的互动学习手账"
   }
 }
