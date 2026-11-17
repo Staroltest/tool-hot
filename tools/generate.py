@@ -503,6 +503,19 @@ BLOCKED_DOMAINS = {
     # 本身是目录页；Kompromat 是开源协议 + CLI 工具（须安装 kompromat 命令行），
     # 不是能在浏览器里直接用的工具；三者标题均不露痕迹，标题门拦不住，域名封禁
     "plugins.jetbrains.com", "darkroomfinder.org", "kompromat.sh",
+    # 抽查确认不是在线工具（2026-11-18 00:07 CST 轮，浏览器实测本轮新品）：
+    # Quebec（quebec.yarn.so）是纯 API 平台：curl 建 key、按音频时长付费、
+    # 调 /transcribe 接口拿词级时间戳，站上没有能在浏览器里直接用的工具，
+    # 同 TokLab；Alloy CSS 示例页（alloyhtml.com/example.html）是 CSS 组件
+    # 库的静态演示页（自述“假数据、无 JavaScript”），库本身须安装使用，
+    # 页上没有能用的工具；两者标题均不露痕迹，标题门拦不住，域名封禁
+    "quebec.yarn.so", "alloyhtml.com",
+    # 抽查确认不是在线工具（2026-11-18 00:07 CST 轮，复查时间线旧条目）：
+    # Mirrors（mirrors.dev）是给生产环境 AI 智能体做上下文编排的基础设施，
+    # 须 npm install mirrors-sdk 并用 API key 在自己的智能体代码里接 API/MCP，
+    # 核心功能不在站内完成，同已封的纯 API/SDK 类（uniroute、usestring.ai、
+    # flowmails.net）；网页后台只是规则管理，不能单独算“完全在网站上就能用”
+    "mirrors.dev",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {

@@ -9520,5 +9520,35 @@
   "zh_oneliner": "录一段语音发给旅行者 1 号：其实只到 AWS S3，但要等 24 小时才算送达。",
   "en_title": "I built a website that sends your voice message to Voyager 1. It only gets as far as AWS S3, but it takes 24 hours to \"arrive\"",
   "en_oneliner": "Record a voice message for Voyager 1 — it only gets as far as AWS S3, but it takes 24 hours to 'arrive'."
+ },
+ "https://timelock.dev": {
+  "en_oneliner": "Write a note, pick a date, and it gets delivered on that day — like a letter mailed to the future.",
+  "en_title": "Show HN: Timelock.dev: Send a Message into the Future",
+  "zh_oneliner": "写一句话、定个日子，到那天它就把消息发给对方，像给未来寄出的定时信。",
+  "zh_title": "Timelock.dev：给未来寄一封信"
+ },
+ "https://la-speed-cameras-nine.vercel.app": {
+  "en_oneliner": "Draw your route on the map and it counts how many new speed cameras sit along it — check before you drive.",
+  "en_title": "Show HN: I mapped LA's new speed cameras so you can count them on your route",
+  "zh_oneliner": "在地图上画出你的出行路线，它会数出沿途有多少个新装的测速摄像头，出门前先看一眼。",
+  "zh_title": "洛杉矶测速摄像头地图：数一数路线上有几个"
+ },
+ "https://aispar.app": {
+  "en_oneliner": "Feed it two conflicting AI answers and it stages a structured debate between them, so you can see which side holds up.",
+  "en_title": "Show HN: AI Spar – Turn conflicting AI answers into a structured debate",
+  "zh_oneliner": "把两个互相矛盾的 AI 回答丢进来，它会组织一场结构化辩论，帮你看出哪边更有道理。",
+  "zh_title": "AI Spar：让互相矛盾的 AI 答案当面辩论"
+ },
+ "https://useplinth.cloud": {
+  "en_oneliner": "Tell the AI what app you want and it hands you a link — open it to use the app, or share it with anyone.",
+  "en_title": "Show HN: Plinth – Ask your AI for an app, get a link to share",
+  "zh_oneliner": "跟 AI 说你想要什么应用，它做好就给你一个链接，点开就能用，也能直接分享给别人。",
+  "zh_title": "Plinth：向 AI 要一个应用，拿到就能分享的链接"
+ },
+ "https://dailyplay.org/rally": {
+  "en_oneliner": "A 3D rally racing game that runs right in a browser tab — no download, just open and drive.",
+  "en_title": "Show HN: A 3D rally game that runs in a browser tab",
+  "zh_oneliner": "点开就能玩的 3D 拉力赛车游戏，不用下载，在浏览器标签页里就能跑完一圈。",
+  "zh_title": "3D 拉力赛：浏览器标签页里直接开"
  }
 }
