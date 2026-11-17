@@ -531,6 +531,14 @@ BLOCKED_DOMAINS = {
     # 清单），收听须拥有或自制实体设备，不是能在浏览器里直接用的工具；
     # 标题不露痕迹，标题门拦不住，域名封禁
     "cala.studio",
+    # 抽查确认不是在线工具（2026-11-18 01:37 CST 轮，浏览器实测本轮 8 条新品，
+    # 2 条泄漏）：Atlas 是给 AI 智能体做网页上下文的确定性编译基础设施，
+    # 核心是 workspace + API key 的 REST API / SDK / MCP（同已封的 TokLab、
+    # uniroute.app 等纯 API 平台），Playground 只是工作台入口、点开仍是落地页，
+    # 没有免登录能直接用的工具；athrael.net/courses/gpu-inference 是一门
+    # GPU 推理短课程（章节课文 + 可运行图解），内容站而非工具站；两者标题
+    # 均不露痕迹，标题门拦不住，域名封禁
+    "atlas-compiler.com", "athrael.net",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {

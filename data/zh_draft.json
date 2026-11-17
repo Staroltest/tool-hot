@@ -845,6 +845,12 @@
   "zh_oneliner": "Daring Fireball 转载的一篇短评，标题指向 PCAST（总统科技顾问委员会）相关的人事动态。",
   "zh_title": "PCAST 军团"
  },
+ "https://darksinian.github.io/soccer-bench": {
+  "en_oneliner": "Two teams of LLM agents play 5v5 soccer, and you can watch the whole match in your browser.",
+  "en_title": "Show HN: Soccer-Bench – Watch teams of LLM agents play 5v5 soccer",
+  "zh_oneliner": "两支由大模型智能体组成的球队在场上踢 5v5，你可以在浏览器里直接看完整场比赛。",
+  "zh_title": "Soccer-Bench：看 LLM 智能体球队踢 5v5 足球"
+ },
  "https://data.beetl.io/flights": {
   "en_oneliner": "Tracks US airport ground stops in real time, showing how long flights take to recover — check before you head to the airport.",
   "en_title": "Show HN: US Ground Stop Tracker – how long flights take to recover",
@@ -5051,6 +5057,12 @@
   "zh_oneliner": "把笔记、文档或一句话想法交给 AI，直接生成排版漂亮的幻灯片，挑好设计再自己微调，不用懂设计也能出片。",
   "zh_title": "Flamigo：笔记一键变幻灯片"
  },
+ "https://flappymail.net": {
+  "en_oneliner": "Write a digital letter and let an 8-bit carrier pigeon deliver it, Flappy-style.",
+  "en_title": "Show HN: Flappy Mail, digital letters sent by 8-bit carrier pigeons",
+  "zh_oneliner": "给朋友写一封数字信，让一只 8 位像素信鸽替你送出去，边玩边送信。",
+  "zh_title": "Flappy Mail：让 8 位像素信鸽替你送信"
+ },
  "https://flashvmm.com": {
   "en_oneliner": "A tool that jails your AI agent in a MicroVM that boots in 18 ms — for developers who want agent isolation without the slowdown.",
   "en_title": "FlashVMM – jail your AI agent in a MicroVM that boots in 18 ms",
@@ -6137,6 +6149,12 @@
   "zh_oneliner": "一个页面收齐你的视频、店铺、预约、音乐和社交账号，几秒搭好，也能让 AI 帮你生成，免费就能用。",
   "zh_title": "Link.bio：免费个人链接主页"
  },
+ "https://llmcost.pitropatro.com": {
+  "en_oneliner": "Covers 45 models and prompt caching to work out exactly what an agent run costs in tokens.",
+  "en_title": "Show HN: LLM cost calculator for agent runs (45 models, prompt caching included)",
+  "zh_oneliner": "覆盖 45 个模型、算上提示词缓存，帮你算清一次智能体任务到底要花多少 Token 钱。",
+  "zh_title": "LLM Cost Calculator：算清智能体跑一次要花多少钱"
+ },
  "https://longreads.com/2026/11/12/ice-loss-ravenna-koenig": {
   "en_oneliner": "A Longreads feature on the people and stories behind disappearing ice.",
   "en_title": "Ice Loss",
@@ -7205,6 +7223,12 @@
   "zh_oneliner": "说一句话，AI 给你搭出真正能用的全栈产品。",
   "zh_title": "SpinBuild：AI 全栈应用搭建"
  },
+ "https://spreadsheettoapp.ai": {
+  "en_oneliner": "Use your spreadsheet as the database and turn it into a working app without writing a backend.",
+  "en_title": "Show HN: Your Spreadsheet Is Your Database",
+  "zh_oneliner": "把电子表格直接当成数据库，不用写后端就能把它变成可用的应用。",
+  "zh_title": "Spreadsheet to App：表格即数据库"
+ },
  "https://steveblank.com/2026/11/15/whats-next-for-nvidia": {
   "en_oneliner": "An analysis from Steve Blank on where Nvidia might go next, for readers following the chip and AI landscape.",
   "en_title": "What's Next for Nvidia?",
@@ -8182,6 +8206,12 @@
   "en_title": "GatherHQ Agent Research",
   "zh_oneliner": "把你的 AI 助手接进调研小组，让它凭你授权的偏好替你回答调研问题，答案附证据，不知道就直说不知道。",
   "zh_title": "GatherHQ 智能体调研"
+ },
+ "https://www.gbmaps.com/mcs/map4-ui-test5.php?mapRegion=uk&mapType=district": {
+  "en_oneliner": "Colour UK postcode districts on a map to plan sales territories and delivery zones at a glance.",
+  "en_title": "Show HN: Postcode map colouring tool for sales territories and delivery zones",
+  "zh_oneliner": "在英国邮编地图上给不同区域涂色，划销售片区或配送范围一目了然。",
+  "zh_title": "GBMaps：给邮编区上色的地图工具"
  },
  "https://www.getalignmint.org?ref=smollaunch": {
   "en_oneliner": "One system for a nonprofit's money, donors and people — all in one place.",
@@ -9532,6 +9562,12 @@
   "en_title": "Building a 40k lumen DIY lamp",
   "zh_oneliner": "作者自己动手做了一盏亮度高达 4 万流明的灯，从选件到散热都自己搞定，喜欢 DIY 的人可以照着学。",
   "zh_title": "自制一盏 4 万流明的灯"
+ },
+ "https://yc.datacity.app": {
+  "en_oneliner": "Every YC company since 2005 becomes a building in a walkable 3D city of startup history.",
+  "en_title": "Show HN: YC City – every YC company since 2005 as a 3D city",
+  "zh_oneliner": "把 2005 年至今的每一家 YC 公司都建成一栋楼，漫步在这座 3D 城市里逛创业史。",
+  "zh_title": "YC City：2005 年以来所有 YC 公司组成的 3D 城市"
  },
  "https://ykiko.me/en/articles/2105384023094834022": {
   "en_oneliner": "Clice 1.0 is out, focused on a modern C++ developer experience — worth a look if you write C++.",
