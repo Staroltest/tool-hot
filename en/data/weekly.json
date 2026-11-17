@@ -5,58 +5,9 @@
  "date": "November 17, 2026",
  "date_iso": "2026-11-17",
  "issue": 1,
- "generated_at": "2026-11-16T22:08:00.321795+00:00",
- "summary": "162 items collected in the past 7 days, 10 picks (AI Tools 9, Open Source Tools 1). Headline: LexiCAD.",
+ "generated_at": "2026-11-17T01:47:29.207868+00:00",
+ "summary": "165 items collected in the past 7 days, 10 picks (AI Tools 8, Open Source Tools 1, Developer Tools 1). Headline: YopTools – Free, no-signup AI text tools (Humanizer, Detector, Summarizer, Google Review Reply Generator and more useful tools).",
  "items": [
-  {
-   "id": "54d9089d5d4cccc973f11c609916a851923590e3",
-   "title": "LexiCAD",
-   "link": "https://lexicad.com/?ref=producthunt",
-   "source": "Product Hunt",
-   "source_id": "producthunt",
-   "published": "2026-11-15T23:41:27+00:00",
-   "en_title": "LexiCAD",
-   "en_oneliner": "Describe a part in plain language and an AI agent designs the CAD, checks it against your spec, and exports STEP, STL and 3MF files ready to print.",
-   "category": "ai",
-   "category_label": "AI Tools",
-   "tier": "T1",
-   "tags": [
-    "AI",
-    "Design"
-   ],
-   "score": 90,
-   "reason": "Official source · Covers AI and Design · Published within 24 hours",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 73.1,
-   "prev_rank": 9,
-   "prev_hot_score": 73.3
-  },
-  {
-   "id": "d288a5e33fc9ff2b339660246b9055d8d75c132f",
-   "title": "IdeaAize Free Online Tools",
-   "link": "https://freeaitools.ideaaize.com",
-   "source": "ListBulb",
-   "source_id": "listbulb",
-   "published": "2026-11-16T01:05:19.671000+00:00",
-   "en_title": "IdeaAize Free Online Tools: 50+ browser tools",
-   "en_oneliner": "More than 50 free browser utilities for PDFs, images, code and more — files are processed locally, nothing is uploaded, no account or watermark.",
-   "category": "ai",
-   "category_label": "AI Tools",
-   "tier": "T2",
-   "tags": [
-    "Tools",
-    "AI",
-    "Free"
-   ],
-   "score": 85,
-   "reason": "Covers Tools and AI · Published within 24 hours",
-   "is_new": false,
-   "trend": "new",
-   "hot_score": 69.9,
-   "prev_rank": null,
-   "prev_hot_score": null
-  },
   {
    "id": "249706bb542996477ff3685d10365efc02c94732",
    "title": "YopTools – Free, no-signup AI text tools (Humanizer, Detector, Summarizer, Google Review Reply Generator and more useful tools)",
@@ -78,33 +29,9 @@
    "reason": "Covers Tools and AI · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 76.3,
-   "prev_rank": 6,
-   "prev_hot_score": 76.6
-  },
-  {
-   "id": "496b1e78f5cfda9267582f2213d1684efa49d5a3",
-   "title": "Show HN: Softytools – 17 free trading calculators, no signup",
-   "link": "https://softytools.com",
-   "source": "Hacker News Show",
-   "source_id": "hn-show",
-   "published": "2026-11-16T18:56:20+00:00",
-   "en_title": "Show HN: Softytools – 17 free trading calculators, no signup",
-   "en_oneliner": "Seventeen free trading calculators in one place — work out position size, risk and returns with no signup, right in the browser.",
-   "category": "opensource",
-   "category_label": "Open Source Tools",
-   "tier": "T2",
-   "tags": [
-    "Tools",
-    "Free"
-   ],
-   "score": 85,
-   "reason": "Covers Tools and Free · Published within 6 hours",
-   "is_new": true,
-   "trend": "same",
-   "hot_score": 82.5,
-   "prev_rank": 2,
-   "prev_hot_score": 82.8
+   "hot_score": 73.7,
+   "prev_rank": 7,
+   "prev_hot_score": 73.8
   },
   {
    "id": "3ef5f4541133fafcf15b6785c3472b72c4f57d46",
@@ -126,9 +53,9 @@
    "reason": "Covers AI and Free · Published within 6 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 83.6,
+   "hot_score": 80.8,
    "prev_rank": 1,
-   "prev_hot_score": 83.9
+   "prev_hot_score": 80.9
   },
   {
    "id": "364a104be9b37e40c2bfaa8fcbe3ab9b6920e40d",
@@ -150,7 +77,7 @@
    "reason": "Official source · Covers AI and Design",
    "is_new": false,
    "trend": "same",
-   "hot_score": 55.3,
+   "hot_score": 53.4,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -175,7 +102,7 @@
    "reason": "Covers Tools and AI · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 67.6,
+   "hot_score": 65.3,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -199,7 +126,7 @@
    "reason": "Covers Tools and AI · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 67.9,
+   "hot_score": 65.6,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -223,7 +150,31 @@
    "reason": "Covers AI and Data · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 68.3,
+   "hot_score": 66.0,
+   "prev_rank": 19,
+   "prev_hot_score": 66.1
+  },
+  {
+   "id": "54d9089d5d4cccc973f11c609916a851923590e3",
+   "title": "LexiCAD",
+   "link": "https://lexicad.com/?ref=producthunt",
+   "source": "Product Hunt",
+   "source_id": "producthunt",
+   "published": "2026-11-15T23:41:27+00:00",
+   "en_title": "LexiCAD",
+   "en_oneliner": "Describe a part in plain language and an AI agent designs the CAD, checks it against your spec, and exports STEP, STL and 3MF files ready to print.",
+   "category": "ai",
+   "category_label": "AI Tools",
+   "tier": "T1",
+   "tags": [
+    "AI",
+    "Design"
+   ],
+   "score": 80,
+   "reason": "Official source · Covers AI and Design",
+   "is_new": false,
+   "trend": "same",
+   "hot_score": 62.8,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -247,9 +198,56 @@
    "reason": "Covers AI and Data · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 72.9,
-   "prev_rank": 10,
-   "prev_hot_score": 73.2
+   "hot_score": 70.5,
+   "prev_rank": 12,
+   "prev_hot_score": 70.6
+  },
+  {
+   "id": "496b1e78f5cfda9267582f2213d1684efa49d5a3",
+   "title": "Show HN: Softytools – 17 free trading calculators, no signup",
+   "link": "https://softytools.com",
+   "source": "Hacker News Show",
+   "source_id": "hn-show",
+   "published": "2026-11-16T18:56:20+00:00",
+   "en_title": "Show HN: Softytools – 17 free trading calculators, no signup",
+   "en_oneliner": "Seventeen free trading calculators in one place — work out position size, risk and returns with no signup, right in the browser.",
+   "category": "opensource",
+   "category_label": "Open Source Tools",
+   "tier": "T2",
+   "tags": [
+    "Tools",
+    "Free"
+   ],
+   "score": 80,
+   "reason": "Covers Tools and Free · Published within 24 hours",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 75.1,
+   "prev_rank": 5,
+   "prev_hot_score": 75.2
+  },
+  {
+   "id": "9ee00d376f4d309d230bca327829ee51a8791bd6",
+   "title": "I made a free, open-source Markdown editor that keeps your files GitHub-compatible",
+   "link": "https://amilcarmalave.github.io/CalmMD",
+   "source": "Reddit r/coolgithubprojects",
+   "source_id": "reddit-coolgithub",
+   "published": "2026-11-16T20:10:21+00:00",
+   "en_title": "I made a free, open-source Markdown editor that keeps your files GitHub-compatible",
+   "en_oneliner": "Write Markdown in your browser with files that stay fully GitHub-compatible — free, open source, no account needed, and it works offline.",
+   "category": "dev",
+   "category_label": "Developer Tools",
+   "tier": "T2",
+   "tags": [
+    "Free"
+   ],
+   "score": 80,
+   "reason": "Covers Free · Published within 6 hours",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 75.9,
+   "prev_rank": 4,
+   "prev_hot_score": 76.0
   }
  ]
 }

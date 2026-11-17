@@ -41,6 +41,7 @@ CST = timezone(timedelta(hours=8))
 UA = {"User-Agent": "HOTBot/1.0"}
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ANALYTICS = "<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"45ad8fc57fc1481caa995c5bcdeb9072\"}'></script><!-- End Cloudflare Web Analytics -->"  # Cloudflare Web Analytics 统计代码
 
 
 # ---------------------------------------------------------------- 工具函数
@@ -584,6 +585,297 @@ def title_gate(*titles):
             if rx.search(t):
                 return False, "installable_title"
     return True, ""
+
+
+# ---------------------------------------------------------------- 进榜前实测（方案 B）
+# 2026-11-17 用户选定方案 B：新条目进热点榜前，先实测一次链接网站本身。
+# 背景：目录（Ignlab、ListBulb）描述与实站不符的泄漏（Matikiri 自称 AI
+# 音乐工具、实为印尼语 K-Pop 流媒体站；Codecaine 标题不提 Mac、却是 macOS
+# 桌面应用；CodeGraphy 只 local 安装；Vindle 需 TestFlight）靠域名黑名单
+# 与标题门看不出来，此前全靠每轮人工浏览器抽查才拦得住。
+# 实测是 HTTP 拉取 + 内容信号，不是浏览器渲染：能拦住“要下载安装”类
+# （下载按钮、安装包、pip/npm/npx、docker、git clone、应用商店、扩展、
+# macOS/Apple Silicon 平台表述等在首页正文里露痕迹的），拦不住纯语义
+# 不符类（流媒体站、目录站、规范文档站、纯 API 落地页等——首页正文里
+# 没有安装信号，需人工抽查）与 JS 空壳页（正文几乎无字）。
+# 信号调优：离线以 165 条在榜好工具 + 82 条已知泄漏为基准测得
+# （好集误拦 10 条、坏集拦住 47 条、另 4 条因 403 暂不上榜）；
+# 紧豁免（页上明确说工具本身在浏览器里用）只救好页、不放坏页；
+# waitlist / self_hosted 已去掉（误伤多、独特拦截为 0）。
+# 适用范围：所有信源的新到条目（泄漏同样来自 HN Show、Reddit、Product
+# Hunt，不只目录站；每轮新到过机械门约 3 条，覆盖全部只多几次检查）。
+# 结果按规范化链接缓存进 data/verify_cache.json（本机文件，不推送）：
+# pass 只验一次；fail 记原因、7 天后复验；unknown（403/429/5xx/超时/
+# 网络错/机器人验证页）本轮不上榜、下轮重试，最多 3 次后每天复验一次，
+# 永不因网络抖动把好工具永久封掉。功能上线前已入库的老条目不追溯。
+# 人工复核：删掉 data/verify_cache.json 里某条记录即可让它下轮重验
+# （但信号是确定性的，重验仍会拦）；误拦的好工具由人工在浏览器里核实后，
+# 把该条目的 status 改成 "pass"（reason 记 manual），之后不再复验、照常上榜。
+PROBE_TIMEOUT = 10
+PROBE_MAX_BYTES = 1024 * 1024
+PROBE_WORKERS = 8
+PROBE_MAX_PER_ROUND = 40
+PROBE_MAX_UNKNOWN_ATTEMPTS = 3
+PROBE_UNKNOWN_RETRY_HOURS = 24
+PROBE_FAIL_RETRY_DAYS = 7
+PROBE_VERIFY_WINDOW_DAYS = 7
+
+# 首页正文里的“要下载安装”信号（只拦表意明确的安装动作，不拦“下载结果”
+# 之类的输出动作——例如“Download PDF/CSV/PNG”是导出文件，不是装应用）。
+PROBE_SIGNALS = [
+    ("download_platform",
+     r"download\s+(for|on)\s+(mac|macos|windows|ios|android|linux|iphone|ipad)\b"),
+    ("download_app", r"download\s+(the\s+)?app\b"),
+    # "Agent App Store"（代理应用商店导航）不是苹果 App Store，用否定回顾
+    # 排除；开头的 \b 不能丢，否则会命中 "WhatsApp Store"。
+    ("app_store", r"(?<!agent\s)\bapp\s+store\b"),
+    ("google_play", r"\bgoogle\s+play\b"),
+    ("testflight", r"\btestflight\b"),
+    # 多语言下载包：韩文 다운로드 / 中文 下载 + 安装包后缀
+    ("download_pkg",
+     r"(download|다운로드|下载)\b[^\n]{0,80}\.(dmg|exe|apk|msi|pkg)\b"),
+    ("pip_install", r"\bpip\s+install\b"),
+    ("npm_install", r"\bnpm\s+(install|i)\s+\S"),
+    ("npx_run", r"\bnpx\s+\S"),
+    ("pnpm_add", r"\bpnpm\s+(add|install)\b"),
+    ("yarn_add", r"\byarn\s+(add|install)\b"),
+    ("brew_install", r"\bbrew\s+install\b"),
+    ("cargo_install", r"\bcargo\s+install\b"),
+    ("go_install", r"\bgo\s+install\b"),
+    ("gem_install", r"\bgem\s+install\b"),
+    ("docker_run", r"\bdocker\s+(run|compose|pull)\b"),
+    ("git_clone", r"\bgit\s+clone\b"),
+    ("curl_pipe_sh", r"\bcurl\b[^|\n]{0,120}\|\s*(sh|bash)\b"),
+    ("wget_pipe_sh", r"\bwget\b[^|\n]{0,120}\|\s*(sh|bash)\b"),
+    ("add_to_chrome", r"\badd\s+to\s+chrome\b"),
+    ("extension_install",
+     r"(install|add|get)\s+(the\s+)?(chrome|firefox|browser|edge|safari)\s+extension\b"),
+    ("mac_app", r"\b(mac|macos)\s+app\b"),
+    ("windows_app", r"\bwindows\s+app\b"),
+    ("requires_platform",
+     r"\brequires?\s+(macos|windows\s+10|windows\s+11|ios|android)\b"),
+    ("hypervisor", r"\bhypervisor\b"),
+    ("iso_download", r"download\b[^\n]{0,80}\.iso\b"),
+    ("apk_download", r"download\b[^\n]{0,60}\.apk\b"),
+    ("plugin_install", r"\binstall\b[^\n]{0,80}\bplugin\b"),
+    ("cli_install", r"\binstall\b[^\n]{0,40}\bcli\b"),
+    # 桌面应用的平台表述（离线调优 R10 选定：好集 165 条误拦 10 条、
+    # 坏集 82 条拦住 47 条、另 4 条因 403 暂不上榜；apple_silicon 排除
+    # "Apple Silicon LLMs Guide" 之类指南标题，macbook 要求 40 字内出现
+    # app，避免浏览器兼容列表误伤；waitlist / self_hosted 已去掉，
+    # 误伤多、独特拦截为 0）
+    ("apple_silicon", r"\bapple\s+silicon\b(?!\s+llm)"),
+    ("macos_version", r"\bmacos\s+\d+(\.\d+)?\s+or\s+later\b"),
+    ("macos_version_ko", r"\bmacos\s+\d+\s*이상\b"),
+    ("notarized_apple", r"\bnotarized\s+by\s+apple\b"),
+    ("macbook", r"\bmacbook\b[^.]{0,40}\bapp\b"),
+    ("debian_iso", r"\bdebian\s+iso\b"),
+]
+_PROBE_RES = [(name, re.compile(pat, re.IGNORECASE))
+              for name, pat in PROBE_SIGNALS]
+
+# 紧豁免：页上明确说“工具本身就在浏览器里用”的强表述（动词紧贴
+# in your browser / online），出现时取消信号拦下——离线调优证明它
+# 只救好页、不放坏页（坏页的 "in your browser" 指的都是别的东西：
+# 扩展在浏览器里跑、从 OneDrive 在浏览器里下载、聊天记录留在浏览器等）。
+# 不用宽泛的 "in your browser"：扩展页也会说 "runs in your browser"。
+PROBE_EXEMPT_PATTERNS = [
+    r"\buse\s+(it\s+)?in\s+(your\s+)?browser\b",
+    r"\btry\s+(it\s+)?in\s+(your\s+)?browser\b",
+    r"\bstart\s+(free\s+)?in\s+your\s+browser\b",
+    r"\bruns?\s+in\s+your\s+browser\b",
+    r"\brunning\s+in\s+your\s+browser\b",
+    r"\bworks?\s+in\s+your\s+browser\b",
+    r"\bprocessed\s+in\s+your\s+browser\b",
+    r"\buse\s+online\b",
+    r"\btry\s+online\b",
+    r"\bno\s+(download|install)\s+(needed|required)\b",
+    r"\bruns\s+on\s+this\s+page\b",
+]
+_PROBE_EXEMPT_RES = [re.compile(p, re.IGNORECASE)
+                     for p in PROBE_EXEMPT_PATTERNS]
+
+
+def _visible_text(html_text):
+    """去掉 script/style 标签后取可见文本（信号只在可见文本里找，
+    不命中 <script> 里的 JSON 数据，避免误拦）。"""
+    no_js = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", html_text)
+    no_tag = re.sub(r"(?is)<[^>]+>", " ", no_js)
+    return re.sub(r"\s+", " ", html.unescape(no_tag)).strip()
+
+
+def probe_site(url):
+    """实测一个工具网站：返回 (状态, 原因, 详情)。
+    状态：pass（像能直接用的网页工具）/ fail（确认不是）/
+    unknown（这次没验出来：403/429/5xx/超时/网络错/机器人验证页）。
+    只做一轮 HTTP 拉取，不渲染 JS、不点页面——SPA 空壳页也能过，
+    靠“安装信号”拦，不靠“有没有交互元素”拦。"""
+    try:
+        req = urllib.request.Request(url, headers=UA)
+        with urllib.request.urlopen(req, timeout=PROBE_TIMEOUT) as r:
+            final_url = r.geturl()
+            ctype = (r.headers.get("Content-Type") or "").lower()
+            encoding = (r.headers.get("Content-Encoding") or "").lower()
+            raw = r.read(PROBE_MAX_BYTES + 1)
+    except urllib.error.HTTPError as e:
+        if e.code in (404, 410):
+            return "fail", "http_404", f"HTTP {e.code}"
+        return "unknown", f"http_{e.code}", f"HTTP {e.code}"
+    except (urllib.error.URLError, TimeoutError, OSError, ValueError) as e:
+        return "unknown", "fetch_error", str(e)[:120]
+    if len(raw) > PROBE_MAX_BYTES:
+        raw = raw[:PROBE_MAX_BYTES]
+    if encoding == "gzip":
+        try:
+            import gzip
+            raw = gzip.decompress(raw)
+        except Exception:
+            return "unknown", "gzip_error", ""
+    elif encoding and encoding != "identity":
+        return "unknown", "unsupported_encoding", encoding[:40]
+    # 跳转后的最终地址也要过收录门（防止链到应用商店/下载页）
+    ok, why = tool_gate(final_url)
+    if not ok:
+        return "fail", "redirect_blocked", f"final URL blocked: {why} ({final_url[:120]})"
+    if ctype and "html" not in ctype and "text" not in ctype:
+        return "fail", "not_html", f"Content-Type: {ctype[:80]}"
+    try:
+        page = raw.decode("utf-8", errors="ignore")
+    except Exception:
+        return "unknown", "decode_error", ""
+    m = re.search(r"(?is)<title[^>]*>(.*?)</title>", page)
+    title = re.sub(r"\s+", " ", (m.group(1) if m else "")).strip().lower()
+    if "404" in title or "page not found" in title:
+        return "fail", "soft_404", f"title: {title[:80]}"
+    text = _visible_text(page)
+    low = text.lower()
+    if ("verify you are human" in low or "checking your browser" in low
+            or ("just a moment" in low and "cloudflare" in low)):
+        return "unknown", "bot_check", "bot challenge page"
+    if (len(text) < 600
+            and re.search(r"(?i)<input[^>]*type=[\"']password[\"']", page)
+            and ("log in" in low or "sign in" in low)):
+        return "fail", "login_wall", "login-only page"
+    exempt = any(rx.search(text) for rx in _PROBE_EXEMPT_RES)
+    for name, rx in _PROBE_RES:
+        for hit in rx.finditer(text):
+            # "Coming soon App Store / Google Play" 只是页脚预告，
+            # 不是已上架应用：跳过该次命中、继续找同信号的下一次命中
+            if name in ("app_store", "google_play"):
+                before = text[max(0, hit.start() - 25):hit.start()].lower()
+                if "coming soon" in before:
+                    continue
+            if exempt:
+                return "pass", "exempt", f"browser-use claim overrides signal:{name}"
+            snippet = text[max(0, hit.start() - 60):hit.end() + 60].strip()
+            return "fail", f"signal:{name}", snippet[:200]
+    return "pass", "", f"final: {final_url[:120]}"
+
+
+def load_verify_cache(data_dir, now=None):
+    """读 data/verify_cache.json；没有则新建（started_at 记功能上线时间，
+    在此之前入库的老条目不追溯实测）。
+    now 必须传本轮的 now：新建缓存时 started_at 取本轮 now，本轮新到
+    条目（fetched_at == now）才能当轮成为候选；若取调用时刻的
+    datetime.now()，会比 fetched_at 晚几秒，导致首轮永远 0 候选、
+    缓存文件又因 0 候选不落盘，started_at 每轮后移、实测永不启动。"""
+    path = os.path.join(data_dir, "verify_cache.json")
+    if os.path.exists(path):
+        try:
+            cache = load_json(path)
+            if isinstance(cache, dict) and isinstance(cache.get("items"), dict):
+                return cache
+        except (json.JSONDecodeError, AttributeError):
+            pass
+    started = now or datetime.now(timezone.utc)
+    return {"version": 1,
+            "started_at": started.isoformat(),
+            "items": {}}
+
+
+def run_verify_phase(history, kept_sources, cache, now, data_dir):
+    """本轮实测：对新到、过机械门、未验过（或可重试）的条目并发拉取
+    首页并判信号；结果写回缓存并原子落盘。返回统计 dict。"""
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    try:
+        started_dt = datetime.fromisoformat(cache.get("started_at", ""))
+        if started_dt.tzinfo is None:
+            started_dt = started_dt.replace(tzinfo=timezone.utc)
+    except ValueError:
+        started_dt = now
+    window = timedelta(days=PROBE_VERIFY_WINDOW_DAYS)
+    cands = {}
+    for it in history.values():
+        if it.get("source_id") not in kept_sources:
+            continue
+        link = norm_link(it.get("resolved_link") or it.get("link", ""))
+        if not link:
+            continue
+        ok, _ = tool_gate(link)
+        if not ok:
+            continue
+        ok, _ = title_gate(it.get("title", ""), it.get("zh_title", ""))
+        if not ok:
+            continue
+        ent = cache["items"].get(link)
+        try:
+            fa = it.get("fetched_at", "")
+            fdt = datetime.fromisoformat(fa) if fa else None
+            if fdt is not None and fdt.tzinfo is None:
+                fdt = fdt.replace(tzinfo=timezone.utc)
+        except ValueError:
+            fdt = None
+        if ent is None:
+            # 新条目才验：上线前入库的老条目不追溯；超出 7 天补验窗口的不补
+            if fdt is None or fdt < started_dt or (now - fdt) > window:
+                continue
+            cands[link] = fdt
+            continue
+        try:
+            last = datetime.fromisoformat(ent.get("checked_at", ""))
+            if last.tzinfo is None:
+                last = last.replace(tzinfo=timezone.utc)
+        except ValueError:
+            last = None
+        st = ent.get("status")
+        if st == "unknown":
+            attempts = ent.get("attempts", 0)
+            retry_after = (timedelta(minutes=30) if attempts < PROBE_MAX_UNKNOWN_ATTEMPTS
+                           else timedelta(hours=PROBE_UNKNOWN_RETRY_HOURS))
+            if last is None or (now - last) >= retry_after:
+                cands[link] = fdt or now
+        elif st == "fail":
+            if last is None or (now - last) >= timedelta(days=PROBE_FAIL_RETRY_DAYS):
+                cands[link] = fdt or now
+    ordered = sorted(cands.items(), key=lambda kv: kv[1], reverse=True)
+    ordered = ordered[:PROBE_MAX_PER_ROUND]
+    stats = {"probed": 0, "pass": 0, "fail": 0, "unknown": 0, "fails": []}
+    if not ordered:
+        # 0 候选也要落盘：否则新建缓存的 started_at 丢了，下轮重新
+        # 建、started_at 后移，实测永远等不到候选
+        save_json(os.path.join(data_dir, "verify_cache.json"), cache)
+        return stats
+    with ThreadPoolExecutor(max_workers=PROBE_WORKERS) as ex:
+        futs = {ex.submit(probe_site, link): link for link, _ in ordered}
+        for fut in as_completed(futs):
+            link = futs[fut]
+            try:
+                status, reason, detail = fut.result()
+            except Exception as e:  # noqa: BLE001 - 单条实测异常不中断整轮
+                status, reason, detail = "unknown", "probe_error", str(e)[:120]
+            prev = cache["items"].get(link) or {}
+            attempts = prev.get("attempts", 0) + 1 if prev.get("status") == "unknown" else 1
+            cache["items"][link] = {
+                "status": status, "reason": reason,
+                "checked_at": now.isoformat(), "attempts": attempts,
+                "detail": detail[:200],
+            }
+            stats["probed"] += 1
+            stats[status] += 1
+            if status == "fail":
+                stats["fails"].append((link, reason))
+    save_json(os.path.join(data_dir, "verify_cache.json"), cache)
+    return stats
 
 
 def resolve_url(url, timeout=15):
@@ -3080,13 +3372,10 @@ def page_open(site, active, title, description, prefix="", base="", canonical=""
             f'<div class="main">{topbar_html(site, active, prefix, base, lang, alt_href)}<div class="page{page_cls}">')
 
 
-CF_BEACON = """<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45ad8fc57fc1481caa995c5bcdeb9072"}'></script><!-- End Cloudflare Web Analytics -->"""
-
-
 def page_close(site, active, prefix="", base="", lang="zh"):
     to_top = (f'<button type="button" class="to-top" id="toTop" aria-label="{_L(lang, "回到顶部", "Back to top")}">'
               f'{icon("arrow-up", 18)}</button>')
-    return (f"{footer_html(site, base, lang)}</div></div></div>{to_top}{tabbar_html(active, prefix, base, lang)}<script src='{base}assets/site.js'></script>{CF_BEACON}</body></html>\n")
+    return (f"{footer_html(site, base, lang)}</div></div></div>{to_top}{tabbar_html(active, prefix, base, lang)}<script src='{base}assets/site.js'></script>{ANALYTICS}</body></html>\n")
 
 
 def day_header(d, items, today, aside=False, lang="zh"):
@@ -4016,7 +4305,7 @@ def render_404(site):
             f'<div class="empty-actions">'
             f'<a class="empty-btn primary" href="{site_url}/index.html">回首页</a>'
             f'<a class="empty-btn" href="{site_url}/hot.html">去看热点榜</a>'
-            f'</div></div></div></div></div></div>{boot_404}{CF_BEACON}</body></html>\n')
+            f'</div></div></div></div></div></div>{boot_404}{ANALYTICS}</body></html>\n')
 
 
 def render_hot(site, hot, generated_at, counts, cfg, lang="zh"):
@@ -4756,6 +5045,21 @@ def main():
           f"reddit_ok {resolve_stats['reddit_ok']} reddit_nolink {resolve_stats['reddit_nolink']} "
           f"backfill {resolve_stats['backfill']} reattr {resolve_stats['reattr']}")
 
+    # 进榜前实测（方案 B）：新到、过机械门的条目先实测一次链接网站本身，
+    # 验不过的本轮不上榜；老条目不追溯。实测失败不中断整轮（机械门 +
+    # 人工抽查仍在，下一轮再验）。
+    verify_cache = load_verify_cache(data_dir, now)
+    try:
+        verify_stats = run_verify_phase(history, kept_sources, verify_cache, now, data_dir)
+        print(f"verify: probed {verify_stats['probed']} pass {verify_stats['pass']} "
+              f"fail {verify_stats['fail']} unknown {verify_stats['unknown']}")
+        for _l, _r in verify_stats["fails"]:
+            print(f"  verify fail: {_l} [{_r}]")
+    except Exception as e:  # noqa: BLE001 - 实测异常不中断整轮
+        print(f"verify phase failed ({e}); continuing without new checks",
+              file=sys.stderr)
+        verify_stats = {"probed": 0, "pass": 0, "fail": 0, "unknown": 0, "fails": []}
+
     # 分类与打分（在内存里算，不写回历史文件，保持历史干净）
     gate_stats = {}
     live = []
@@ -4784,6 +5088,16 @@ def main():
         if not ok:
             gate_stats[why] = gate_stats.get(why, 0) + 1
             continue
+        # 实测关（方案 B）：缓存里 fail / unknown（未验出）的本轮不上榜；
+        # 无缓存记录的老条目（功能上线前入库）不受影响，照常上榜
+        vent = verify_cache["items"].get(norm_link(item["link"]))
+        if vent is not None:
+            if vent.get("status") == "fail":
+                gate_stats["verify_fail"] = gate_stats.get("verify_fail", 0) + 1
+                continue
+            if vent.get("status") == "unknown":
+                gate_stats["verify_unknown"] = gate_stats.get("verify_unknown", 0) + 1
+                continue
         gate_stats["pass"] = gate_stats.get("pass", 0) + 1
         item["_pub"] = pub
         item["_tier"] = it.get("tier") or src_by_id.get(it["source_id"], {}).get("tier", "T2")

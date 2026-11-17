@@ -8464,5 +8464,11 @@
     "zh_oneliner": "在浏览器里玩每日数独，也能扫描报纸或书上的数独题、或手动输入一道题，扫过的题目都会存下来随时接着玩。",
     "en_title": "Show HN: Doku, a browser-based Sudoku app I built",
     "en_oneliner": "Play a daily Sudoku in the browser, scan a puzzle from a newspaper or book or type one in, and keep your scanned puzzles saved to pick up anytime."
+  },
+  "https://app.midflight.dev/drills/microsoft-365-outlook-outage": {
+    "zh_title": "Midflight：扮演值班工程师，重演 Outlook 宕机事件",
+    "zh_oneliner": "以值班工程师的身份重演 11 月 Outlook 大规模宕机，在 10 分钟内分阶段恢复服务、抢救延迟邮件，免费免注册就能玩。",
+    "en_title": "Midflight: Play the On-Call Responder and Replay the Outlook Outage",
+    "en_oneliner": "Step into the on-call responder's shoes and replay November's Outlook outage — restore service in stages and rescue delayed mail within 10 minutes, free with no signup."
   }
 }
