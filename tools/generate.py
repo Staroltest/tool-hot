@@ -669,6 +669,12 @@ PROBE_SIGNALS = [
     ("apk_download", r"download\b[^\n]{0,60}\.apk\b"),
     ("plugin_install", r"\binstall\b[^\n]{0,80}\bplugin\b"),
     ("cli_install", r"\binstall\b[^\n]{0,40}\bcli\b"),
+    # 2026-11-17 补：AWS Emulator 漏网——页上写 "Install AWS Emulator
+    # and start it on your laptop" 与 "runs as a native binary"，本地
+    # 二进制需下载安装，旧信号（cli_install 等）够不着这两句。
+    ("native_binary", r"\bnative\s+binary\b"),
+    ("install_on_device",
+     r"\binstall\b[^\n]{0,80}\bon\s+your\s+(laptop|computer|machine|device)\b"),
     # 桌面应用的平台表述（离线调优 R10 选定：好集 165 条误拦 10 条、
     # 坏集 82 条拦住 47 条、另 4 条因 403 暂不上榜；apple_silicon 排除
     # "Apple Silicon LLMs Guide" 之类指南标题，macbook 要求 40 字内出现
