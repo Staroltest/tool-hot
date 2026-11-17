@@ -287,6 +287,12 @@
   "zh_oneliner": "美国众议员的股票交易跑赢大盘了吗？这项研究用 8900 笔交易数据给出了答案。",
   "zh_title": "众议员的股票交易跑赢大盘了吗？8900 笔交易实测"
  },
+ "https://arnov.github.io/faces/index.html": {
+  "en_oneliner": "Pick any country and see an AI-generated portrait made for it — like flipping through a world atlas of faces.",
+  "en_title": "Faces: AI Portraits for Every Country",
+  "zh_oneliner": "点开任意一个国家，就能看到 AI 为它画的一张人物肖像，像在翻一本世界人像图鉴。",
+  "zh_title": "Faces：AI 给每个国家画一幅肖像"
+ },
  "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors": {
   "en_oneliner": "Coverage of the Vulcan rocket's launch failure and what the setback means for ULA and the commercial launch race.",
   "en_title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
@@ -5945,6 +5951,12 @@
   "zh_oneliner": "20 个城市的伊斯兰礼拜时间、月度时刻表、伊斯兰历和朝向查询，免费查。",
   "zh_title": "Islamic Prayer Times HQ：伊斯兰礼拜时间"
  },
+ "https://isometric-montevideo.pages.dev": {
+  "en_oneliner": "An isometric pixel-art map of Montevideo built from Uruguay's open data — zoom, pan, and explore ten places worth visiting.",
+  "en_title": "Isometric Montevideo: a pixel art map built from Uruguay's open data",
+  "zh_oneliner": "用乌拉圭开放数据拼出的等距像素地图，拖动平移、滚动缩放，还能顺路逛逛城里十个值得去的地方。",
+  "zh_title": "Isometric Montevideo：乌拉圭开放数据像素地图"
+ },
  "https://itsbenlong.com/floppyface": {
   "en_oneliner": "Upload a selfie and get a springy 3D head you can grab, stretch, and spin, just like Mario 64's face.",
   "en_title": "Show HN: Turn any selfie into a 3D head you can stretch like Mario 64",
@@ -6785,6 +6797,12 @@
   "zh_oneliner": "开源的事件驱动 AI Agent，每轮对话都是状态机，对话与工具调用全部记进不可变的 SQLite 日志里。",
   "zh_title": "Pizza：事件驱动的 AI Agent，没有 while true"
  },
+ "https://playrisca.com/en": {
+  "en_oneliner": "Draw a single straight cut to split a shape into the exact target percentages — a steady-hand puzzle game where precision scores.",
+  "en_title": "Risca: draw one line to split two shapes into target percentages",
+  "zh_oneliner": "一笔画切开图形，让两边的面积正好等于目标百分比，切得越准分越高，考验手稳和眼力的小游戏。",
+  "zh_title": "Risca：一笔画切出目标比例"
+ },
  "https://pleasejusttext.me": {
   "en_oneliner": "Hate voice messages? This little tool replies with a video of someone typing, nudging the sender to text instead.",
   "en_title": "Please Just Text Me – reply to voice message with a typing video",
@@ -6935,6 +6953,12 @@
   "zh_oneliner": "讲如何直接在聊天中完成回滚、恢复变量并重新部署，把一次翻车的发布快速收拾干净。",
   "zh_title": "在聊天里回滚一次糟糕的发布"
  },
+ "https://rallywith.ai": {
+  "en_oneliner": "Ask Rally to build dashboards and micro-apps that update themselves from events in Slack, Gmail, GitHub and more, then let your team tweak them together.",
+  "en_title": "Rally: Self-Updating Multi-Player Artifacts",
+  "zh_oneliner": "让 AI 把仪表盘、小应用做成会自己更新的协作成品，接上 Slack、Gmail、GitHub 后有新动态就自动改内容，团队成员还能接着改。",
+  "zh_title": "Rally：会自己更新的多人协作 Artifacts"
+ },
  "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026": {
   "en_oneliner": "An old Bitly link in a Burger King tweet was hijacked to point elsewhere, and this article warns that short links from years ago can become ready-made phishing springboards once they expire and change hands.",
   "en_title": "Old Bitly Links Are Being Hijacked",
@@ -7018,6 +7042,12 @@
   "en_title": "Why did modems have speakers?",
   "zh_oneliner": "复古计算社区里一个有趣的问题：当年拨号调制解调器上的扬声器到底是用来干什么的。",
   "zh_title": "调制解调器为什么会有扬声器？"
+ },
+ "https://ripperskipper.com": {
+  "en_oneliner": "A wakeboarding game that runs right in the browser — carve, ollie, spin, flip and grab your way through tricks with the keyboard.",
+  "en_title": "Ripper Skipper: wakeboarding game in the browser",
+  "zh_oneliner": "在浏览器里玩尾波滑水：踩板、跳跃、空翻抓板，一整套花式动作都能用键盘搓出来。",
+  "zh_title": "Ripper Skipper：浏览器滑水游戏"
  },
  "https://rodneybrooks.com/does-until-it-doesnt-and-doesnt-until-it-does": {
   "en_oneliner": "A Rodney Brooks essay on the strange way things work until they don't — and don't until they do.",
@@ -7342,6 +7372,12 @@
   "en_title": "Systemap: architecture you can play",
   "zh_oneliner": "画好架构图，按下播放：数据流、认证、请求路径都动起来给你看。",
   "zh_title": "Systemap：架构图动起来"
+ },
+ "https://tabletop-grand-prix.typeonce.games": {
+  "en_oneliner": "A tabletop-style racing game in the browser — race against anyone's ghost and chase their best laps.",
+  "en_title": "Tabletop Grand Prix: race anyone's ghost in the browser",
+  "zh_oneliner": "在浏览器里开桌面小赛车，还能和别人的幽灵成绩同场竞速。",
+  "zh_title": "Tabletop Grand Prix：浏览器桌面赛车"
  },
  "https://tangled.org/nvim-mini.org/mini.nvim": {
   "en_oneliner": "The mini.nvim Neovim plugin collection is now on Tangled, the decentralized code hosting platform — worth a look for editor tinkerers.",
@@ -9658,35 +9694,5 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
- },
- "https://isometric-montevideo.pages.dev": {
-  "en_oneliner": "An isometric pixel-art map of Montevideo built from Uruguay's open data — zoom, pan, and explore ten places worth visiting.",
-  "en_title": "Isometric Montevideo: a pixel art map built from Uruguay's open data",
-  "zh_oneliner": "用乌拉圭开放数据拼出的等距像素地图，拖动平移、滚动缩放，还能顺路逛逛城里十个值得去的地方。",
-  "zh_title": "Isometric Montevideo：乌拉圭开放数据像素地图"
- },
- "https://playrisca.com/en": {
-  "en_oneliner": "Draw a single straight cut to split a shape into the exact target percentages — a steady-hand puzzle game where precision scores.",
-  "en_title": "Risca: draw one line to split two shapes into target percentages",
-  "zh_oneliner": "一笔画切开图形，让两边的面积正好等于目标百分比，切得越准分越高，考验手稳和眼力的小游戏。",
-  "zh_title": "Risca：一笔画切出目标比例"
- },
- "https://ripperskipper.com": {
-  "en_oneliner": "A wakeboarding game that runs right in the browser — carve, ollie, spin, flip and grab your way through tricks with the keyboard.",
-  "en_title": "Ripper Skipper: wakeboarding game in the browser",
-  "zh_oneliner": "在浏览器里玩尾波滑水：踩板、跳跃、空翻抓板，一整套花式动作都能用键盘搓出来。",
-  "zh_title": "Ripper Skipper：浏览器滑水游戏"
- },
- "https://tabletop-grand-prix.typeonce.games": {
-  "en_oneliner": "A tabletop-style racing game in the browser — race against anyone's ghost and chase their best laps.",
-  "en_title": "Tabletop Grand Prix: race anyone's ghost in the browser",
-  "zh_oneliner": "在浏览器里开桌面小赛车，还能和别人的幽灵成绩同场竞速。",
-  "zh_title": "Tabletop Grand Prix：浏览器桌面赛车"
- },
- "https://rallywith.ai": {
-  "en_oneliner": "Ask Rally to build dashboards and micro-apps that update themselves from events in Slack, Gmail, GitHub and more, then let your team tweak them together.",
-  "en_title": "Rally: Self-Updating Multi-Player Artifacts",
-  "zh_oneliner": "让 AI 把仪表盘、小应用做成会自己更新的协作成品，接上 Slack、Gmail、GitHub 后有新动态就自动改内容，团队成员还能接着改。",
-  "zh_title": "Rally：会自己更新的多人协作 Artifacts"
  }
 }
