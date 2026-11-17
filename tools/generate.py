@@ -516,6 +516,21 @@ BLOCKED_DOMAINS = {
     # 核心功能不在站内完成，同已封的纯 API/SDK 类（uniroute、usestring.ai、
     # flowmails.net）；网页后台只是规则管理，不能单独算“完全在网站上就能用”
     "mirrors.dev",
+    # 抽查确认不是在线工具（2026-11-18 01:07 CST 轮，浏览器实测本轮 3 条新到
+    # 热点，3 条泄漏）：Barnacle 是手机 AI 应用（Picture in Picture 浮窗助手，
+    # 官网主推 Join the waitlist，须装手机应用才能用），不是浏览器里直接用的
+    # 工具；Confidential Cloud 的链接本身就是控制台登录页（须注册登录才能进
+    # 实例管理），且是云虚拟机服务，不是点开能用的工具；Kerala Botanics 是
+    # 阿育吠陀护肤品网店（所谓“给 AI 购物智能体的谜题”只是店内噱头），
+    # 是电商站不是工具；三者标题均不露痕迹，标题门拦不住，域名封禁
+    "barnacle.qa", "confidential.ai", "keralabotanics.com",
+    # 抽查确认不是在线工具（2026-11-18 01:07 CST 轮，浏览器实测本轮 1 条新到
+    # 时间线条目）：Cala Radio 的链接是硬件收音机制作日志长文（回收 Beoplay
+    # A1 扬声器单元、自制铝壳胡桃木机身的实体收音机，页内无电台列表、无播放
+    # 控件、无音频流，Files 一节全是 .FPD/.STL/.PDF 设计文件与 GitHub 零件
+    # 清单），收听须拥有或自制实体设备，不是能在浏览器里直接用的工具；
+    # 标题不露痕迹，标题门拦不住，域名封禁
+    "cala.studio",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
