@@ -701,6 +701,12 @@
     "zh_oneliner": "一个智能体 AI 设计模拟合成器的项目（TouchSynth），看 AI 从电路设计走到能出声的硬件。",
     "zh_title": "智能体 AI 设计了一台模拟合成器"
   },
+  "https://creatify.ai/ad-agent?ref=producthunt": {
+    "en_oneliner": "Hand AI a product link or a one-liner and get ready-to-run ad creatives that keep optimizing as they perform.",
+    "en_title": "Creatify Max",
+    "zh_oneliner": "把产品链接或一句话交给 AI，自动生成能投放的广告素材，边跑边优化，省掉来回改稿的时间。",
+    "zh_title": "Creatify Max：AI 广告智能体"
+  },
   "https://criticalbananas.com/play": {
     "en_oneliner": "A browser runner where the server replays every ranked run in full to verify the score, stopping cheaters with replays instead of trust.",
     "en_title": "Show HN: A browser runner where the server replays every ranked run to verify it",
@@ -724,6 +730,12 @@
     "en_title": "CryptoShep",
     "zh_oneliner": "以卢布计价，模拟比特币买入金额与持仓价值，算算这笔投资现在值多少。",
     "zh_title": "CryptoShep：卢布计价比特币模拟"
+  },
+  "https://curates.io/?ref=producthunt": {
+    "en_oneliner": "One home for your client work — share it, collect feedback on every frame, keep files in order and show off the best of it.",
+    "en_title": "Curates",
+    "zh_oneliner": "给客户的作品、反馈和文件安一个家，逐帧留评、文件归档、精选展示都在同一个页面里完成。",
+    "zh_title": "Curates：创作者客户作品主页"
   },
   "https://dailyfootbillion.com": {
     "en_oneliner": "Seven football questions on the rooftop court — a trivia game where every correct answer counts.",
@@ -4697,6 +4709,12 @@
     "zh_oneliner": "糖尿病自护网站，免费血糖计算器、互动课程、数好碳水的食谱和一周餐单，都能直接在浏览器里用。",
     "zh_title": "Show HN：16 岁确诊糖尿病，我做了 Diabic 糖尿病自护站"
   },
+  "https://dialectlayer.com/?ref=producthunt": {
+    "en_oneliner": "Describe what a camera should observe and get a live API your software and agents can use — nothing to train.",
+    "en_title": "Dialect",
+    "zh_oneliner": "用一句话告诉摄像头该盯着什么，就能得到一个实时 API，软件和智能体直接调用，不用训练任何模型。",
+    "zh_title": "Dialect：给现实世界接 API"
+  },
   "https://dieometer.com": {
     "en_oneliner": "A life expectancy model that runs entirely in your browser — enter your details and see how many days the model counts.",
     "en_title": "Show HN: Dieometer – a life expectancy model that runs in the browser",
@@ -4901,6 +4919,12 @@
     "zh_oneliner": "一个交互式 AI 编程学习平台，让真实的 AI Agent 带你一步步写代码，边做边学而不是光看教程。",
     "zh_title": "FlAIent：跟着真 Agent 学交互式 AI 编程"
   },
+  "https://flamigo.ai/?ref=producthunt": {
+    "en_oneliner": "Turn notes, documents or a single idea into beautifully designed slides with AI — pick a style, tweak it yourself, no design skills needed.",
+    "en_title": "Flamigo",
+    "zh_oneliner": "把笔记、文档或一句话想法交给 AI，直接生成排版漂亮的幻灯片，挑好设计再自己微调，不用懂设计也能出片。",
+    "zh_title": "Flamigo：笔记一键变幻灯片"
+  },
   "https://flashvmm.com": {
     "en_oneliner": "A tool that jails your AI agent in a MicroVM that boots in 18 ms — for developers who want agent isolation without the slowdown.",
     "en_title": "FlashVMM – jail your AI agent in a MicroVM that boots in 18 ms",
@@ -5074,6 +5098,12 @@
     "en_title": "Show HN: Instash share any link, auto-categorises it",
     "zh_oneliner": "一个分享链接就自动分类的工具，丢进任何链接都能帮你归好类，适合喜欢收藏和整理网上内容的读者。",
     "zh_title": "Show HN：Instash——分享任意链接，自动帮你分类"
+  },
+  "https://getridian.com/?ref=producthunt": {
+    "en_oneliner": "Booking pages, calendar sync, funnels with a CRM and AI agents for your calendars and inboxes — Ridian handles the work around your meetings.",
+    "en_title": "Ridian",
+    "zh_oneliner": "预约页面、日历同步、跟进漏斗和 CRM 收到一处，AI 智能体还帮你打理日程和收件箱，会议前后的杂活都省了。",
+    "zh_title": "Ridian：预约、日程与 CRM 一体化"
   },
   "https://getswiftapi.com": {
     "en_oneliner": "A strange, reproducible behavior in frontier LLMs where generation stalls instead of continuing, with a link to EOS logit gating.",
@@ -5441,6 +5471,12 @@
     "zh_oneliner": "Gizmodo 报道，声援英伟达 CEO 黄仁勋的声音正在聚集，这股“Stand with Jensen”运动越闹越大。",
     "zh_title": "“支持黄仁勋”运动正在壮大"
   },
+  "https://glasspage.ai/?ref=producthunt": {
+    "en_oneliner": "Your coding agent publishes what it makes as a shareable page, people review it in threads, and the agent answers with a new version.",
+    "en_title": "Glass Page",
+    "zh_oneliner": "让 Claude、ChatGPT 或 Cursor 等智能体把做好的东西发成一个链接，别人直接在评论串里评审，智能体再按意见出新版。",
+    "zh_title": "Glass Page：AI 成果评审页"
+  },
   "https://glimt.hellocyberspace.com": {
     "en_oneliner": "A generous interface for browsing Europeana's collections — wander through European digital heritage without needing a search query.",
     "en_title": "Show HN: Europeana \"Generous Interface\"",
@@ -5608,6 +5644,12 @@
     "en_title": "Hoverine",
     "zh_oneliner": "一堆能点能拖的 Rive 交互动效模板，换上自己的标志、颜色和文案就能下载可用的 .riv 文件。",
     "zh_title": "Hoverine：可交互的 Rive 动效模板库"
+  },
+  "https://hub.pharen.de/?ref=producthunt": {
+    "en_oneliner": "One AI workspace for your whole team — chats, docs, projects, mail and calendar in one place, with agents handling routine work and you approving the critical steps.",
+    "en_title": "Pharen Hub",
+    "zh_oneliner": "把 AI 对话、文档、项目、邮件和日程收进同一个工作台，重复活交给智能体，关键步骤再由你放行。",
+    "zh_title": "Pharen Hub：团队 AI 工作台"
   },
   "https://huggingface.co/drmhse/nano-edge-tts": {
     "en_oneliner": "A lightweight Kokoro-based text-to-speech model running at 70x realtime, try it on Hugging Face.",
@@ -5777,6 +5819,12 @@
     "zh_oneliner": "免费记账工具，直接在浏览器里跑：记开销、排月度账单、跟进贷款和净资产，支持 31 种货币，不用绑银行卡。",
     "zh_title": "Show HN：Kasa，最简单的记账应用"
   },
+  "https://kaulvishesh.github.io/bharat-itihaas": {
+    "en_oneliner": "Scrub through 2,500 years of Indian history on one interactive map, with empires, journeys and events pinned along the timeline — just open and explore.",
+    "en_title": "I built a free interactive atlas of India (500 BCE to today) with Claude Code",
+    "zh_oneliner": "拖动时间轴穿越 2500 年印度历史，帝国更迭、旅程与事件都标在同一张互动地图上，点开就能逛。",
+    "zh_title": "Bharat Itihaas：2500 年印度历史互动地图"
+  },
   "https://keytrace.dev": {
     "en_oneliner": "An identity scheme promising one identity with many proofs — a new face in identity tooling worth keeping an eye on.",
     "en_title": "Keytrace – One identity, many proofs",
@@ -5878,6 +5926,12 @@
     "en_title": "Linclips: Local Reputation Marketing",
     "zh_oneliner": "帮本地商家管口碑的在线工具，AI 回复谷歌评价、做社媒内容，把好评变成持续获客。",
     "zh_title": "Linclips：本地商家口碑营销"
+  },
+  "https://link.bio/?ref=producthunt": {
+    "en_oneliner": "One page for your videos, shop, bookings, music and socials — build it in seconds or let AI build it for you, free to start.",
+    "en_title": "Link.bio",
+    "zh_oneliner": "一个页面收齐你的视频、店铺、预约、音乐和社交账号，几秒搭好，也能让 AI 帮你生成，免费就能用。",
+    "zh_title": "Link.bio：免费个人链接主页"
   },
   "https://longreads.com/2026/11/12/ice-loss-ravenna-koenig": {
     "en_oneliner": "A Longreads feature on the people and stories behind disappearing ice.",
@@ -6718,6 +6772,12 @@
     "en_title": "Show HN: Codex sessions in the Mac menu bar",
     "zh_oneliner": "一个 Mac 菜单栏小应用，专治 Codex 会话太多管不过来，不用再靠通知盯着每个会话的进度。",
     "zh_title": "little-brain：把 Codex 会话放进 Mac 菜单栏"
+  },
+  "https://snapshot.fyi/?ref=iib": {
+    "en_oneliner": "A live word cloud of what the internet is talking about right now, refreshed every minute — one glance tells you what's trending.",
+    "en_title": "A live word cloud of what the internet is talking about right now, updated every minute",
+    "zh_oneliner": "把此刻全网正在聊的话题做成一朵实时词云，每分钟刷新一次，瞥一眼就知道互联网在热议什么。",
+    "zh_title": "Snapshot：全网热议实时词云"
   },
   "https://snowfluke.github.io/algotank": {
     "en_oneliner": "Write the algorithm that drives your tank in the browser, then drop it into a battle-royale arena against other players' tanks to see whose code survives.",

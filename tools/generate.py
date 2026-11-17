@@ -397,6 +397,18 @@ BLOCKED_DOMAINS = {
     # Save North Korea 的 /watch 是朝鲜动态监测仪表盘（导弹发射、朝中社
     # 露面、制裁名单），核心是时事新闻内容，不是工具；三者标题均不露痕迹
     "mainstreetwealth.ai", "agentsinthewild.co", "savenorthkorea.org",
+    # 抽查确认不是在线工具（2026-11-17 22:37 CST 轮，补翻 13 条旧日归档
+    # Product Hunt 条目时实测）：Cookie Away 是 Chrome 扩展官网（首页自称
+    # free open-source Chrome extension，功能是自动拒 cookie 横幅），
+    # 浏览器扩展不在收录范围；Degla AI 是无人机自主飞行系统（自然语言
+    # 指令派无人机出任务、看演示视频），官网只是硬件产品展示站，不是
+    # 浏览器里能用的工具；Nexus（trynexus.io）只有等候名单与预约演示，
+    # 点开用不了工具本身；RankSpot 是给智能体用的 SEO/MCP 执行层
+    # （mcp.rankspot.ai，接 Claude/ChatGPT 等智能体才能用），站上没有能
+    # 直接用的工具；polyroom.ai 首页渲染后只有站名、无任何可用内容，
+    # 无法验证为网页工具；五者标题均不露痕迹，标题门拦不住，域名封禁
+    "cookieaway.com", "degla.ai", "trynexus.io", "rankspot.ai",
+    "polyroom.ai",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
