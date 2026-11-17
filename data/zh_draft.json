@@ -9550,5 +9550,11 @@
   "en_title": "Show HN: A 3D rally game that runs in a browser tab",
   "zh_oneliner": "点开就能玩的 3D 拉力赛车游戏，不用下载，在浏览器标签页里就能跑完一圈。",
   "zh_title": "3D 拉力赛：浏览器标签页里直接开"
+ },
+ "https://www.linuxexercises.com/learn/where-am-i": {
+  "en_oneliner": "No virtual machine needed — open the page and practice real Linux commands in your browser, learning the essentials step by step.",
+  "en_title": "Linux Exercises: Practice Linux Commands in Your Browser",
+  "zh_oneliner": "不用装虚拟机，打开网页就能敲真实的 Linux 命令练手，跟着引导一步步熟悉常用命令。",
+  "zh_title": "Linux Exercises：在浏览器里练 Linux 命令"
  }
 }
