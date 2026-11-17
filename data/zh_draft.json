@@ -9682,5 +9682,11 @@
   "en_title": "Tabletop Grand Prix: race anyone's ghost in the browser",
   "zh_oneliner": "在浏览器里开桌面小赛车，还能和别人的幽灵成绩同场竞速。",
   "zh_title": "Tabletop Grand Prix：浏览器桌面赛车"
+ },
+ "https://rallywith.ai": {
+  "en_oneliner": "Ask Rally to build dashboards and micro-apps that update themselves from events in Slack, Gmail, GitHub and more, then let your team tweak them together.",
+  "en_title": "Rally: Self-Updating Multi-Player Artifacts",
+  "zh_oneliner": "让 AI 把仪表盘、小应用做成会自己更新的协作成品，接上 Slack、Gmail、GitHub 后有新动态就自动改内容，团队成员还能接着改。",
+  "zh_title": "Rally：会自己更新的多人协作 Artifacts"
  }
 }
