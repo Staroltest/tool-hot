@@ -1,7 +1,7 @@
-# 工具站 HOT
+# Tool Site HOT
 
 > Discover the newest tool sites from sources everywhere — only tools you can open and use right away.
-> 工具站 HOT is a daily curated digest. Every day it collects public news
+> Tool Site HOT is a daily curated digest. Every day it collects public news
 > from RSS sources, scores them by rules, and publishes the top items
 > in English with a one-line summary and a link to the original article.
 > It does not republish full text.
