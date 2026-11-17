@@ -9658,5 +9658,29 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
+ },
+ "https://isometric-montevideo.pages.dev": {
+  "en_oneliner": "An isometric pixel-art map of Montevideo built from Uruguay's open data — zoom, pan, and explore ten places worth visiting.",
+  "en_title": "Isometric Montevideo: a pixel art map built from Uruguay's open data",
+  "zh_oneliner": "用乌拉圭开放数据拼出的等距像素地图，拖动平移、滚动缩放，还能顺路逛逛城里十个值得去的地方。",
+  "zh_title": "Isometric Montevideo：乌拉圭开放数据像素地图"
+ },
+ "https://playrisca.com/en": {
+  "en_oneliner": "Draw a single straight cut to split a shape into the exact target percentages — a steady-hand puzzle game where precision scores.",
+  "en_title": "Risca: draw one line to split two shapes into target percentages",
+  "zh_oneliner": "一笔画切开图形，让两边的面积正好等于目标百分比，切得越准分越高，考验手稳和眼力的小游戏。",
+  "zh_title": "Risca：一笔画切出目标比例"
+ },
+ "https://ripperskipper.com": {
+  "en_oneliner": "A wakeboarding game that runs right in the browser — carve, ollie, spin, flip and grab your way through tricks with the keyboard.",
+  "en_title": "Ripper Skipper: wakeboarding game in the browser",
+  "zh_oneliner": "在浏览器里玩尾波滑水：踩板、跳跃、空翻抓板，一整套花式动作都能用键盘搓出来。",
+  "zh_title": "Ripper Skipper：浏览器滑水游戏"
+ },
+ "https://tabletop-grand-prix.typeonce.games": {
+  "en_oneliner": "A tabletop-style racing game in the browser — race against anyone's ghost and chase their best laps.",
+  "en_title": "Tabletop Grand Prix: race anyone's ghost in the browser",
+  "zh_oneliner": "在浏览器里开桌面小赛车，还能和别人的幽灵成绩同场竞速。",
+  "zh_title": "Tabletop Grand Prix：浏览器桌面赛车"
  }
 }
