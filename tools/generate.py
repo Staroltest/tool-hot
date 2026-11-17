@@ -228,6 +228,93 @@ BLOCKED_DOMAINS = {
     # GamersVPN 是 VPN 客户端下载服务；GrabaRobot 是机器人厂商目录站
     "dividigital.ae", "reelsblocker.biznift.com", "gamersvpn.com",
     "chatgptbulkdelete.net", "grabarobot.com",
+    # 2026-11-17 扩源实测封禁（MakerHunt 首批 25 条）：
+    # dokira.com 是 B2B 广告平台落地页（须申请接入），不是点开能用的工具；
+    # dragontraveler.gg 是游戏 wiki/梯队榜数据库（内容站）；papaya.chat 仅限
+    # 等候名单（点开用不了）；website-ai-agent.com 是企业 AI 客服落地页
+    # （须购买嵌入），站内无直接可用的工具；jobswithpay.com 是薪资招聘版
+    # （职位目录）；soleapp.com.au 是记账移动应用（App Store/Google Play）；
+    # flowmails.net 是 AI 代理邮箱 SDK 服务（须 npm 安装接入）；
+    # cybermaps.dev 是 WordPress 插件（须安装）；provimedia.de 的 Code
+    # Guardian 是须 npm 安装的开发工具；opensoundconnect.app 是 Mac 桌面应用
+    "dokira.com", "dragontraveler.gg", "papaya.chat",
+    "website-ai-agent.com", "jobswithpay.com", "soleapp.com.au",
+    "flowmails.net", "cybermaps.dev", "provimedia.de",
+    "opensoundconnect.app",
+    # 2026-11-17 扩源实测封禁（Smol Launch 首批 50 条）：
+    # talat.app 是桌面转录应用（Download for Mac/Windows）；
+    # hiapi.ai 是 OpenAI 兼容 API 平台（须 npm 安装 CLI）；
+    # toklab.ai 是统一 AI 模型 API 平台（纯 API，无浏览器工具）；
+    # newbornlog.com 是婴儿追踪移动应用（App Store/Google Play）；
+    # tapmap.net 是地图社交网络 + 移动应用；publishyoursaas.com 与
+    # listmaro.com 是 SaaS 目录站；secretpass.com 是优惠券会员站 + 浏览器
+    # 扩展；myzucoins.org 是加密货币钱包项目站（主推下载钱包）；
+    # fundraisebase.com 是创业融资数据库/新闻站；importz.fi 是芬兰汽车
+    # 进口资讯站（数据库 + 文章）；gpt288.com 是 ChatGPT 订阅代充平台；
+    # pluginpeer.com 是 WordPress 插件 QA 社区服务；alook.ai 是须下载的
+    # 多智能体协作应用（接 Claude Code/Codex 桌面端）；applylah.com 仅限
+    # 等候名单；fast.io 是 AI 数据层 B2B 服务（无直接可用工具）；
+    # intakerun.com 是原生邮件客户端（macOS/iPhone/iPad/Android）
+    "talat.app", "hiapi.ai", "toklab.ai", "newbornlog.com", "tapmap.net",
+    "publishyoursaas.com", "listmaro.com", "secretpass.com",
+    "myzucoins.org", "fundraisebase.com", "importz.fi", "gpt288.com",
+    "pluginpeer.com", "alook.ai", "applylah.com", "fast.io",
+    "intakerun.com",
+    # 2026-11-17 扩源实测封禁（DevHunt 首批 129 条，描述自述即非浏览器工具）：
+    # rustable.app 是原生数据库客户端；micronotch.app 是 Mac 工具栏应用；
+    # trina.app 须装到公司自有服务器；infracanvas.app 须安装 agent；
+    # lookbk.dev 是 Claude Code 等的 agent skills 资料库；
+    # uniroute.app / kennmarq.com / sully.ai / modellix.ai 是纯 API 平台；
+    # strg.com 是 S3 存储服务；haipay.net 是支付基础设施；
+    # cadenya.com 是托管运行时；usagerail.com 是 SDK；
+    # mailkube.com 是交易邮件 API 服务；foragent.io 是给 AI 代理的电话
+    # 号码服务；tenpace.com 的 Review Router 是 GitHub→Slack 路由服务
+    "rustable.app", "micronotch.app", "trina.app", "infracanvas.app",
+    "lookbk.dev", "uniroute.app", "kennmarq.com", "sully.ai",
+    "modellix.ai", "strg.com", "haipay.net", "cadenya.com",
+    "usagerail.com", "mailkube.com", "foragent.io", "tenpace.com",
+    # 2026-11-17 扩源实测封禁（DevHunt 第二批，人工抽查 103 条在榜条目）：
+    # wtfm.sh 是 Claude Code/Codex 插件；cuehq.social 是 MCP 服务器；
+    # eased.dev 是 React 动效组件库；raziel.co 是 API + MCP 服务器；
+    # skilder.ai 把 Agent Skills/MCP 打包成插件；apilabs.ai 是 Claude Code
+    # 插件/技能；lowrouter.ai 是 AI 网关 API；autorouter.com 是 Agent 编排
+    # 服务；vidkraken.com 是下载 YouTube 视频的 REST API；sqlly.app 是原生
+    # SQL 桌面客户端；caprock.dev 是 macOS 桌面应用；atriumkit.com 是 Chrome
+    # 扩展；storesynk.com 是 Shopify-Webflow 集成服务；gnista.sh 监控编码
+    # CLI；jilebi.ai 是云 Linux 虚拟机；aplite.ai 是自托管 OpenClaw 实例；
+    # terminay.com 是桌面终端；uncensoredlabs.dev 是无审查模型 API；
+    # remotejobsrock.com 是远程招聘版；symvibe.com 是编码 CLI 并行运行器；
+    # eigenflux.ai 是 Agent 数据基础设施；bench47.com 是 Agent 软件工厂服务；
+    # evoforge.cc 是代办任务的 Agent 服务；captapi.com 是社媒数据 API；
+    # agentivity.io 是 AI 团队服务；gortex.ai 是决策 API；usetyton.com 是
+    # Meta Pixel 代装服务；extraheadroom.com 是 macOS/Windows/Linux 菜单栏
+    # 应用；gnsoftlab.com 的 NetIntel 是 Linux 边缘系统监控；mcpexplorer.com
+    # 是 MCP 服务器目录；lassocut.com 是去背景 API；logoapi.sh 是 Logo API；
+    # avastudio.com 是 Agent 接入服务；bearconnect.io 是 LinkedIn 自动化；
+    # ibertechsolutions.co.uk 是网页设计公司页面；canopyapi.co 是亚马逊商品
+    # 数据 API；stateofpixel.com 是 CI 视觉回归服务；motokoui.com 是 Next.js
+    # SaaS 起手模板；pr-viz.com 是 IDE skill；oreoui.com 是图标素材库；
+    # marketmee.app 是营销自动化服务；prodlaunch.xyz 是产品展示目录；
+    # borehole.dev 是并购尽调服务；brewless.eu 是 Laravel 部署服务；
+    # yt2wav.net 是 YouTube 转音频下载站；slcr.dev 是需求规范文档站；
+    # zerotime.dev/thinker.sh 是 npx 安装的 CLI 工具；ac-bridge.com 是接
+    # Claude Code 的智能灯桥接服务；kathe.app 是 Mac/Windows 桌面应用；
+    # usestring.ai 是纯 API/MCP（/web-access 页只对 AI Agent 说话）；
+    # usevoicy.com 是 Mac/Windows/Linux/iPhone/Android 听写应用
+    "wtfm.sh", "cuehq.social", "eased.dev", "raziel.co", "skilder.ai",
+    "apilabs.ai", "lowrouter.ai", "autorouter.com", "vidkraken.com",
+    "sqlly.app", "caprock.dev", "atriumkit.com", "storesynk.com",
+    "gnista.sh", "jilebi.ai", "aplite.ai", "terminay.com",
+    "uncensoredlabs.dev", "remotejobsrock.com", "symvibe.com",
+    "eigenflux.ai", "bench47.com", "evoforge.cc", "captapi.com",
+    "agentivity.io", "gortex.ai", "usetyton.com", "extraheadroom.com",
+    "gnsoftlab.com", "mcpexplorer.com", "lassocut.com", "logoapi.sh",
+    "avastudio.com", "bearconnect.io", "ibertechsolutions.co.uk",
+    "canopyapi.co", "stateofpixel.com", "motokoui.com", "pr-viz.com",
+    "oreoui.com", "marketmee.app", "prodlaunch.xyz", "borehole.dev",
+    "brewless.eu", "yt2wav.net", "slcr.dev", "zerotime.dev",
+    "thinker.sh", "ac-bridge.com", "kathe.app", "usestring.ai",
+    "usevoicy.com",
     # WhyArc：实测首页是 iPhone 应用落地页（App Store 链接 7 处），不是网页工具
     "whyarc.com",
     # 抽查确认不是在线工具（2026-11-16 第五轮）：原生 iPhone/iPad/Mac 笔记应用，
@@ -469,6 +556,12 @@ BLOCKED_EXACT = {
     "glide.work",
     "remvora.com",
     "openlegion.ai",
+    # XuTerm：移动 SSH 客户端（App Store/Google Play），不是浏览器工具；
+    # 链接在 xuterm.vercel.app 子域，只拦这一个 host（2026-11-17 扩源实测）
+    "xuterm.vercel.app",
+    # SuperSpecs：AI Agent 纪律框架方法论站（内容站，不是能用的工具），
+    # 链接在 superspecs.vercel.app 子域，只拦这一个 host（2026-11-17 扩源实测）
+    "superspecs.vercel.app",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
@@ -971,6 +1064,24 @@ def resolve_url(url, timeout=15):
         return None
 
 
+def resolve_smollaunch_page(url, timeout=10):
+    """Smol Launch 产品页解析：RSS 只给目录站自己的 /products/<slug> 页，
+    工具官网在页内 "Visit Website" 锚点上；失败返回 None（该条目跳过，
+    不把目录页本身入库）。"""
+    try:
+        req = urllib.request.Request(url, headers=UA)
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            page = r.read(500000).decode("utf-8", "ignore")
+    except (urllib.error.URLError, TimeoutError, OSError, ValueError):
+        return None
+    for m in re.finditer(r'<a[^>]+href="(https?://[^"]+)"[^>]*>(.*?)</a>',
+                         page, re.I | re.S):
+        text = re.sub(r"<[^>]+>", "", m.group(2)).strip()
+        if text.lower() == "visit website":
+            return html.unescape(m.group(1))
+    return None
+
+
 # ---------------------------------------------------------------- 抓取与解析
 
 def fetch(url, timeout=25, attempts=2):
@@ -1184,7 +1295,140 @@ def parse_listbulb(body, source):
     return items
 
 
-JSON_PARSERS = {"ignlab": parse_ignlab, "listbulb": parse_listbulb}
+# ---------------------------------------------------------------- MakerHunt JSON 信源
+# MakerHunt 公开 API（2026-11-17 实测，无需认证）：
+#   GET https://makerhunt.io/api/projects?sort=recent&limit=25
+# 返回 {"success": true, "data": {"projects": [...], "pagination": {...}}}；
+# sort=recent 按 created_at 倒序（默认 sort=upvotes 是全站热度榜，不是新品）；
+# 每页 25 条，全站 1358 个项目，每轮只取第 1 页，不回填全库。
+# 每条 project：id / name / slug / website_url（工具官网）/
+# short_description / full_description（HTML）/ categories（列表）/
+# created_at / launched_at / published_at / upvotes。
+# 首批实测（2026-11-17）：25 条新品里机械门过 23 条，实测拦 7 条
+# （移动应用/插件/SDK/纯 API），人工抽查又拦 5 条（广告平台、游戏 wiki、
+# 等候名单、企业客服落地页、招聘版），可用 13 条。
+MAKERHUNT_LIMIT = 25
+MAKERHUNT_CATEGORY_MAP = {
+    "Artificial Intelligence": "ai",
+    "AI": "ai",
+    "Developer Tools": "dev",
+    "DevOps & Cloud": "dev",
+    "APIs & Integrations": "dev",
+    "Mobile Development": "dev",
+    "Testing & QA": "dev",
+    "Security": "dev",
+    "Design Tools": "design",
+    "UI/UX": "design",
+    "Marketing Tools": "productivity",
+    "SEO": "data",
+    "Business Analytics": "data",
+    "Finance & FinTech": "productivity",
+    "E-commerce": "productivity",
+    "Open Source": "opensource",
+    "Gaming Tech": "productivity",
+    "AR/VR": "productivity",
+    "Robotics": "dev",
+    "Prototyping": "design",
+    "SaaS": "productivity",
+    "Platforms": "productivity",
+    "Productivity": "productivity",
+}
+
+
+def parse_makerhunt(body, source):
+    """MakerHunt /api/projects?sort=recent 的 JSON，映射成 parse_feed 同款条目。"""
+    try:
+        data = json.loads(body)
+    except (json.JSONDecodeError, TypeError, ValueError):
+        return []
+    raw_items = (data.get("data") or {}).get("projects") or []
+    items = []
+    for raw in raw_items[:MAKERHUNT_LIMIT]:
+        if not isinstance(raw, dict):
+            continue
+        name = (raw.get("name") or "").strip()
+        link = norm_link(raw.get("website_url") or "")
+        if not name or not link:
+            continue
+        short = (raw.get("short_description") or "").strip()
+        full = strip_html(raw.get("full_description") or "")
+        summary = shorten(short or full)
+        summary_full = complete_para(full, 1500) if len(full) > 200 else ""
+        pub = parse_date(raw.get("launched_at") or raw.get("published_at")
+                         or raw.get("created_at") or "")
+        cat_hint = "productivity"
+        for c in (raw.get("categories") or []):
+            if c in MAKERHUNT_CATEGORY_MAP:
+                cat_hint = MAKERHUNT_CATEGORY_MAP[c]
+                break
+        item = {
+            "title": name,
+            "link": link,
+            "source": source["name"],
+            "source_id": source["id"],
+            "published": pub,
+            "summary": summary,
+            "_cat_hint": cat_hint,
+        }
+        if summary_full:
+            item["summary_full"] = summary_full
+        items.append(item)
+    return items
+
+
+# ---------------------------------------------------------------- DevHunt JSON 信源
+# DevHunt 公开 API（2026-11-17 实测，无需认证；/api/week-tools 本周
+# 进行中返回 403，只取已完结周）：
+#   GET https://devhunt.org/api/past-week-tools
+# 返回最近 2 个已完结周的列表 [{week, startDate, endDate, products: [...]}]；
+# 每周约 50-80 条新品（周一批量上新），只取接口返回的 2 周窗口，不回填全库。
+# 每条 product：id / name / link（工具官网）/ description /
+# devhunt_link（目录站内页）/ launch_date / votes_count。
+# 首批实测（2026-11-17）：129 条里机械门过 107 条；开发工具目录含大量
+# API/SDK/原生客户端/自托管，描述自述即非浏览器工具的已先行封域名，
+# 其余走实测 + 每轮人工抽查。
+
+
+def parse_devhunt(body, source):
+    """DevHunt /api/past-week-tools 的 JSON，映射成 parse_feed 同款条目。"""
+    try:
+        data = json.loads(body)
+    except (json.JSONDecodeError, TypeError, ValueError):
+        return []
+    if not isinstance(data, list):
+        return []
+    items = []
+    for week in data:
+        if not isinstance(week, dict):
+            continue
+        for raw in (week.get("products") or []):
+            if not isinstance(raw, dict):
+                continue
+            name = (raw.get("name") or "").strip()
+            link = norm_link(raw.get("link") or "")
+            if not name or not link:
+                continue
+            desc = strip_html(raw.get("description") or "")
+            summary = shorten(desc)
+            summary_full = complete_para(desc, 1500) if len(desc) > 200 else ""
+            pub = parse_date(raw.get("launch_date") or "")
+            item = {
+                "title": name,
+                "link": link,
+                "source": source["name"],
+                "source_id": source["id"],
+                "published": pub,
+                "summary": summary,
+                "_cat_hint": "dev",
+            }
+            if summary_full:
+                item["summary_full"] = summary_full
+            items.append(item)
+    return items
+
+
+JSON_PARSERS = {"ignlab": parse_ignlab, "listbulb": parse_listbulb,
+                "makerhunt": parse_makerhunt, "devhunt": parse_devhunt}
 
 
 # ---------------------------------------------------------------- 分类与打分
@@ -5027,6 +5271,7 @@ def main():
 
     fetched, failed = 0, []
     resolve_stats = {"ph_ok": 0, "ph_fail": 0, "reddit_ok": 0, "reddit_nolink": 0,
+                     "smol_ok": 0, "smol_fail": 0,
                      "backfill": 0, "reattr": 0}
     # 中文翻译（data/zh_draft.json，按规范化链接匹配；每日精选把关时更新草稿，
     # 下一轮生成自动合入并写回 store.json，Actions 重生成也不会丢）
@@ -5099,6 +5344,13 @@ def main():
                     continue
                 resolved = norm_link(ext)
                 resolve_stats["reddit_ok"] += 1
+            elif src["id"] == "smollaunch":
+                ext = resolve_smollaunch_page(it["link"])
+                if not ext:
+                    resolve_stats["smol_fail"] += 1
+                    continue
+                resolved = norm_link(ext)
+                resolve_stats["smol_ok"] += 1
             # 已收录同一帖子：只回填解析链接，不重复入库
             if it["id"] in history:
                 ex = history[it["id"]]
@@ -5146,6 +5398,7 @@ def main():
     save_json(hist_path, {"updated_at": now.isoformat(), "items": list(history.values())})
     print(f"resolve: ph_ok {resolve_stats['ph_ok']} ph_fail {resolve_stats['ph_fail']} "
           f"reddit_ok {resolve_stats['reddit_ok']} reddit_nolink {resolve_stats['reddit_nolink']} "
+          f"smol_ok {resolve_stats['smol_ok']} smol_fail {resolve_stats['smol_fail']} "
           f"backfill {resolve_stats['backfill']} reattr {resolve_stats['reattr']}")
 
     # 进榜前实测（方案 B）：新到、过机械门的条目先实测一次链接网站本身，

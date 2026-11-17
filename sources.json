@@ -1,5 +1,5 @@
 {
- "comment": "工具站发现信源（2026-11-16 改版：只收能直接用的工具网站）：Product Hunt 经 /r/p/ 跳转解析到工具官网；Reddit 取正文 [link] 外链；Hacker News Show 只留直链工具站。文章/新闻/博客源已全部移除。测试：Reddit .json 接口 403（改用 RSS 内的 [link] 解析）；Product Hunt 主题页 403；Toolify、BetaList、FutureTools、IndieHackers、TheresAnAIForThat 此前测试已淘汰，不再加入。2026-11-16 扩源：新增 r/WebApps（25 取 2，约 2 条/天，稳定流，首轮即有 2 条进热点）。淘汰：r/coolwebsites（25 取 10 但 feed 已停更，最新帖 2025-03-09，全部超 30 天被历史库淘汰，实际贡献 0）；无 RSS/Atom——uneed、devhunt、futurepedia、fazier、topaitools、insidr、opentools、tinylaunch、dailypings；RSS 只链本站目录页——ignlab（/rss.xml 50 条）、launchingnext（/rss/ 15 条）、listbulb（/rss.xml 100 条）、sideprojectors（/rss 30 条）、listmaro（/feed.xml 60 条）、missumai（/new/feed.xml，/p/ 路径被拦）、consoledev（10 条全是本站）；内容不符——aitoolhunt（feed 被 spam/盗版内容占据）、agenticweekly（新闻稿）、r/opensource（0 通过）、r/IMadeThis（2 通过，1 条是 newsletter）、r/shutupandtakemycode（空 feed）、hn-shownew（502/404）、r/UsefulWebsites（403）。后续可选：Ignlab 公开 API /api/v1/listings 直接给工具官网（需 JSON 信源支持）；目录站 RSS 需取站内链接才可用。category_hint 须是 config.json 里 categories 的 key。2026-11-16 扩源：新增 Ignlab API（launch.ignlab.net/api/v1/listings?limit=50，公开免认证，默认最新在前，每轮只取最新 50 条，url 字段即工具官网）。2026-11-16 扩源：新增 ListBulb API（www.listbulb.com/api/v1/recent?limit=25，公开免认证，OpenAPI 说明 at most 25 results per list call，每轮固定 25 条，websiteUrl 字段即工具官网；/recent 每周日批量上新，前 3 条为 featured 置顶旧条目，由历史库 30 天淘汰丢掉）。",
+ "comment": "工具站发现信源（2026-11-16 改版：只收能直接用的工具网站）：Product Hunt 经 /r/p/ 跳转解析到工具官网；Reddit 取正文 [link] 外链；Hacker News Show 只留直链工具站。文章/新闻/博客源已全部移除。测试：Reddit .json 接口 403（改用 RSS 内的 [link] 解析）；Product Hunt 主题页 403；Toolify、BetaList、FutureTools、IndieHackers、TheresAnAIForThat 此前测试已淘汰，不再加入。2026-11-16 扩源：新增 r/WebApps（25 取 2，约 2 条/天，稳定流，首轮即有 2 条进热点）。淘汰：r/coolwebsites（25 取 10 但 feed 已停更，最新帖 2025-03-09，全部超 30 天被历史库淘汰，实际贡献 0）；无 RSS/Atom——uneed、devhunt、futurepedia、fazier、topaitools、insidr、opentools、tinylaunch、dailypings；RSS 只链本站目录页——ignlab（/rss.xml 50 条）、launchingnext（/rss/ 15 条）、listbulb（/rss.xml 100 条）、sideprojectors（/rss 30 条）、listmaro（/feed.xml 60 条）、missumai（/new/feed.xml，/p/ 路径被拦）、consoledev（10 条全是本站）；内容不符——aitoolhunt（feed 被 spam/盗版内容占据）、agenticweekly（新闻稿）、r/opensource（0 通过）、r/IMadeThis（2 通过，1 条是 newsletter）、r/shutupandtakemycode（空 feed）、hn-shownew（502/404）、r/UsefulWebsites（403）。后续可选：Ignlab 公开 API /api/v1/listings 直接给工具官网（需 JSON 信源支持）；目录站 RSS 需取站内链接才可用。category_hint 须是 config.json 里 categories 的 key。2026-11-16 扩源：新增 Ignlab API（launch.ignlab.net/api/v1/listings?limit=50，公开免认证，默认最新在前，每轮只取最新 50 条，url 字段即工具官网）。2026-11-16 扩源：新增 ListBulb API（www.listbulb.com/api/v1/recent?limit=25，公开免认证，OpenAPI 说明 at most 25 results per list call，每轮固定 25 条，websiteUrl 字段即工具官网；/recent 每周日批量上新，前 3 条为 featured 置顶旧条目，由历史库 30 天淘汰丢掉）。2026-11-17 扩源：新增 MakerHunt API（makerhunt.io/api/projects?sort=recent&limit=25，公开免认证，sort=recent 按创建时间倒序，每轮只取第 1 页 25 条，website_url 即工具官网；首批 25 条里可用 13 条）、Smol Launch RSS（smollaunch.com/feed，每日约 4-5 条新品，RSS 只给目录站内页、生成时抓产品页取 Visit Website 锚点解析到工具官网；首批 50 条里可用 32 条）、DevHunt API（devhunt.org/api/past-week-tools，公开免认证，返回最近 2 个已完结周、每周约 50-80 条，link 即工具官网；/api/week-tools 进行中返回 403 只取已完结周）。淘汰：itch.io tools/games RSS（通过率高但内容多为下载包/模板/桌面应用，实测拦不住 Windows 下载游戏）、Lobsters RSS（25 取 3 且 3 条全是文章）、Hugging Face Spaces API（最新流 50 条里 33 条是 static spam/测试页，trending 流每周仅约 9 条新品且混有榜单/报名表）、OpenTools API（无 newest 排序、无创建日期、默认按收藏数排、含成人/换脸工具）、r/microsaas 与 r/productivity 与 r/SaaS（25 取 0，全是站内讨论帖无外链）、r/WebDevShowcase（404，版块不存在）、Startup Stash /feed（空频道 0 条）、Peerlist API（403）、Tiny Startups（无 RSS/API）、Launching Today（连接被关）、Startups.fyi（无 RSS）、SaaSHub（无 feed/API）、AlternativeTo /feed（403）、FutureTools /api（404）、TheresAnAIForThat /api（403）、BetaList（重测仍无 feed）、SideProjectors/TinyLaunch/Microlaunch/Launching Next/Uneed/Fazier（首页与 /api/* 探不到公开 API，只有 SPA 渲染）、Streamlit 画廊（精选画廊无新品流，数据只嵌在 Next.js payload 里）。",
  "sources": [
   {
    "category_hint": "ai",
@@ -65,6 +65,29 @@
    "name": "ListBulb",
    "tier": "T2",
    "url": "https://www.listbulb.com/api/v1/recent?limit=25"
+  },
+  {
+   "category_hint": "productivity",
+   "id": "makerhunt",
+   "kind": "json",
+   "name": "MakerHunt",
+   "tier": "T2",
+   "url": "https://makerhunt.io/api/projects?sort=recent&limit=25"
+  },
+  {
+   "category_hint": "productivity",
+   "id": "smollaunch",
+   "name": "Smol Launch",
+   "tier": "T2",
+   "url": "https://smollaunch.com/feed"
+  },
+  {
+   "category_hint": "dev",
+   "id": "devhunt",
+   "kind": "json",
+   "name": "DevHunt",
+   "tier": "T2",
+   "url": "https://devhunt.org/api/past-week-tools"
   }
  ]
 }
