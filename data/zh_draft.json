@@ -9724,5 +9724,23 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
+  },
+  "https://www.infoboxing.net": {
+    "en_title": "Show HN: Infoboxing – Guess the Wikipedia article from its infobox",
+    "zh_title": "Infoboxing：只看信息框猜维基百科条目",
+    "zh_oneliner": "只给你看维基百科的信息框，猜猜这是哪篇文章，考知识面和眼力的猜谜小游戏。",
+    "en_oneliner": "It shows you only a Wikipedia infobox and asks you to guess the article — a quick guessing game that tests your knowledge and eye for detail."
+  },
+  "https://vyroclipping.org": {
+    "en_title": "Show HN: Vyro Clipping Calculator – what your views actually pay",
+    "zh_title": "Vyro Clipping Calculator：算算播放量到底值多少钱",
+    "zh_oneliner": "输入剪辑视频的播放数据，算出每条视频实际能赚多少钱，帮剪辑创作者看清真实收益。",
+    "en_oneliner": "Enter your clip's view stats and see what each video actually earns, so clipping creators can see their real revenue."
+  },
+  "https://www.roblox.com/games/129981060143619/Roxy-Island-Math-Reading": {
+    "en_title": "Show HN: A non-brainrot, education Roblox game for your kids",
+    "zh_title": "Roxy Island：教孩子数学和阅读的 Roblox 教育游戏",
+    "zh_oneliner": "在 Roblox 里边玩边学数学和阅读，没有无脑刷屏式的内容，适合给孩子当益智游戏。",
+    "en_oneliner": "A Roblox game where kids learn math and reading through play, with no brainrot-style content — an educational game made for children."
   }
 }
