@@ -8458,5 +8458,11 @@
     "zh_oneliner": "一次调用就把同一条视频按各平台规则裁好、定时发到 TikTok、Instagram、Facebook 和 YouTube 的全部账号，还能看哪个平台、哪条文案赢了。",
     "en_title": "Show HN: One API and MCP Server to Publish to TikTok, Instagram and YouTube",
     "en_oneliner": "One call fits and schedules the same clip across TikTok, Instagram, Facebook and YouTube on all your accounts, then shows which platform and caption won."
+  },
+  "https://doku-psi.vercel.app": {
+    "zh_title": "Doku：浏览器里的数独",
+    "zh_oneliner": "在浏览器里玩每日数独，也能扫描报纸或书上的数独题、或手动输入一道题，扫过的题目都会存下来随时接着玩。",
+    "en_title": "Show HN: Doku, a browser-based Sudoku app I built",
+    "en_oneliner": "Play a daily Sudoku in the browser, scan a puzzle from a newspaper or book or type one in, and keep your scanned puzzles saved to pick up anytime."
   }
 }
