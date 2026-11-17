@@ -191,6 +191,12 @@
   "zh_oneliner": "一个打开就能用的在线量角器，量角度不用再翻抽屉找实物工具了。",
   "zh_title": "Show HN：在线量角器"
  },
+ "https://aquasand.ru/en": {
+  "en_oneliner": "A shared pixel-art aquarium with 346 real species — open it in your browser and start keeping fish.",
+  "en_title": "Show HN: Aquasand – A pixel-art aquarium everyone shares, with 346 real species",
+  "zh_oneliner": "和所有人共享一个像素风水族馆，里面有 346 种真实鱼类，点开就能养。",
+  "zh_title": "Aquasand：人人共享的像素水族馆"
+ },
  "https://archive.org/details/manual_20260914": {
   "en_oneliner": "An old manual preserved on Internet Archive, documenting a multitasking operating system for Atari ST computers — a treat for retro computing fans.",
   "en_title": "A Multitasking Universal Operating System for Atari ST Computers",
@@ -4673,6 +4679,12 @@
   "zh_oneliner": "《经济学人》分析 Anthropic 筹备中的巨额上市将如何改变大模型厂商的竞争格局，给 OpenAI 带来新的压力。",
   "zh_title": "Anthropic 大规模 IPO 给 OpenAI 施压"
  },
+ "https://elak.app": {
+  "en_oneliner": "Negotiate a better deal when you buy, lease, or finance a car.",
+  "en_title": "Show HN: Elak – helps you buy/lease/finance a car with better negotiation",
+  "zh_oneliner": "买车、租车或贷款时帮你谈判，争取更划算的价格和条款。",
+  "zh_title": "Elak：帮你砍价买车"
+ },
  "https://eli.thegreenplace.net/2009/03/14/some-problems-of-recursive-descent-parsers": {
   "en_oneliner": "A classic write-up on the common problems with recursive descent parsers — worth revisiting if you build parsers or compilers.",
   "en_title": "Some problems of recursive descent parsers",
@@ -6155,6 +6167,12 @@
   "zh_oneliner": "AI 音视频剪辑工具，改字幕稿就能删掉口头禅和重复片段，声音还是你自己的，不用再拖时间轴。",
   "zh_title": "Paraphrase：像改文字一样剪音频"
  },
+ "https://parserai.co": {
+  "en_oneliner": "Turn invoices, scans, and long PDFs into structured JSON or Excel.",
+  "en_title": "Show HN: Parser – Turn invoices, scans and long PDFs into JSON or Excel",
+  "zh_oneliner": "把发票、扫描件和长 PDF 里的内容提取出来，转成 JSON 或 Excel 表格。",
+  "zh_title": "Parser：把发票和 PDF 转成表格"
+ },
  "https://paxper.com/?ref=producthunt": {
   "en_oneliner": "Create cloud infrastructure visually and review every change before it ships.",
   "en_title": "Paxper",
@@ -6280,6 +6298,12 @@
   "en_title": "I created a super simple browser game",
   "zh_oneliner": "反向叠叠乐：从二维城市的高楼里抽走方块，掉到街上的都算分，每轮只有 10 次机会。",
   "zh_title": "Pullapse：点方块，看整座城市塌下来"
+ },
+ "https://push.tg": {
+  "en_oneliner": "Create email aliases and send alerts to Telegram with a single curl command.",
+  "en_title": "Show HN: Push.tg – Email aliases and one-curl alerts, delivered to Telegram",
+  "zh_oneliner": "生成邮箱别名收邮件，一条 curl 命令就能把提醒推送到 Telegram。",
+  "zh_title": "Push.tg：邮箱别名与一键推送提醒"
  },
  "https://py-code.org/blog/removed-stdlib-modules-pypi": {
   "en_oneliner": "Reviews PyPI code patterns that break on Python 3.12 and 3.13, helping you spot upgrade risks early — for developers maintaining Python packages.",
@@ -6454,6 +6478,12 @@
   "en_title": "Sandboxes for AI Agents",
   "zh_oneliner": "让 AI Agent 放手干活之前得先关进沙箱，文章讲沙箱该怎么搭、该隔离什么，才能既让 Agent 帮你跑命令改文件，又不至于把系统搞砸。",
   "zh_title": "给 AI Agent 的沙箱"
+ },
+ "https://shoptimist.co": {
+  "en_oneliner": "Shop Amazon-style, but every product is hand-curated so you skip the low-quality listings.",
+  "en_title": "Show HN: Shoptimist – Amazon but Curated",
+  "zh_oneliner": "像逛亚马逊一样购物，但商品都经过人工精选，帮你跳过海量低质商品。",
+  "zh_title": "Shoptimist：精选版亚马逊"
  },
  "https://shutte.rs": {
   "en_oneliner": "The author's mom, a photographer and artist, didn't enjoy the existing options for storing, sharing and organizing her work — so he built her Shutters.",
