@@ -8488,5 +8488,17 @@
     "zh_oneliner": "上传一段音频，轻量模型当场把它转成 MIDI，还能直接下载结果，在浏览器里就能试。",
     "en_title": "Show HN: I made an audio-to-MIDI model 60x more efficient",
     "en_oneliner": "Upload a recording and this lightweight model transcribes it to MIDI right in your browser, with the result ready to download."
+  },
+  "https://studio.sinapsdata.com.br": {
+    "zh_title": "Sinaps Academy：免费互动式 AI 智能体治理课程",
+    "zh_oneliner": "在浏览器里直接学的 AI 智能体治理互动课程，第一模块免注册就能上，边做边练。",
+    "en_title": "Show HN: A free interactive course on AI agent governance",
+    "en_oneliner": "A free interactive course on AI agent governance you can take right in the browser — Module 1 needs no registration, learn by doing."
+  },
+  "https://wine-assembly.berrry.app": {
+    "zh_title": "Wine-Assembly：浏览器里跑 Windows 98 应用和游戏",
+    "zh_oneliner": "在浏览器标签页里直接运行原版 Windows 98 程序和游戏，弹珠台、扫雷、纸牌、Winamp 都能玩，不用安装，进度存在本地。",
+    "en_title": "Show HN: Win98 PE Interpreter in WebAssembly – StarCraft and Diablo on Phones",
+    "en_oneliner": "Run original Windows 98 apps and games right in a browser tab — Pinball, Minesweeper, Solitaire and Winamp included, nothing to install, progress stays in local storage."
   }
 }

@@ -421,6 +421,10 @@ ARTICLE_PATH_SEGMENTS = {
     "coding",
     # “the making of”类幕后文章页（2026-11-16 22:00 轮：daventry.io/making-of）
     "making-of",
+    # 研究/调研文章页（2026-11-17 11:07 CST 轮：kobi.music/research/dettato
+    # 是音频转 MIDI 模型的发布长文，内嵌演示只是文章一小部分，不是工具站
+    # 本身；全库 5 条含 research 路径段的均为文章/研究介绍页，无一是工具）
+    "research",
 }
 # 下载/安装味路径段：链到下载页、安装页、发布包、扩展页的都不是在线工具
 DOWNLOAD_PATH_SEGMENTS = {
