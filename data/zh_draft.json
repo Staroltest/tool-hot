@@ -6251,6 +6251,12 @@
     "zh_oneliner": "免费的多人词语游戏，轮到谁就限时说出不重复的答案，超时河豚就传下去了。",
     "zh_title": "Puffer Party：多人词语接龙游戏"
   },
+  "https://pullapse.com": {
+    "en_oneliner": "Reverse Jenga in the browser: pull blocks out of a 2D city of towers, score a point for every block that lands on the street, and you only get 10 pulls per round.",
+    "en_title": "I created a super simple browser game",
+    "zh_oneliner": "反向叠叠乐：从二维城市的高楼里抽走方块，掉到街上的都算分，每轮只有 10 次机会。",
+    "zh_title": "Pullapse：点方块，看整座城市塌下来"
+  },
   "https://py-code.org/blog/removed-stdlib-modules-pypi": {
     "en_oneliner": "Reviews PyPI code patterns that break on Python 3.12 and 3.13, helping you spot upgrade risks early — for developers maintaining Python packages.",
     "en_title": "PyPI code that breaks on Python 3.12 and 3.13",
