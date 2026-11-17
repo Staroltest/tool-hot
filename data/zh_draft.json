@@ -239,6 +239,12 @@
     "zh_oneliner": "现代汽车正在测试电梯 API，让机器人也能自己乘电梯，解决机器人按不了按钮的难题。",
     "zh_title": "“机器人按不了电梯按钮”：现代汽车测试电梯 API 帮机器人乘梯"
   },
+  "https://askingprice.io": {
+    "en_oneliner": "A daily guessing game that shows you seven real marketplace listings and asks what they actually sold for — the closer your guess, the higher your score.",
+    "en_title": "Show HN: Askingprice.io – guess the price of 7 marketplace listings each day",
+    "zh_oneliner": "每天给你 7 条真实二手市场挂牌，猜猜它们到底标了多少钱，猜得越准分越高，逛闲置市场的人会玩上瘾。",
+    "zh_title": "Askingprice.io：每天猜 7 件二手商品标价的小游戏"
+  },
   "https://asostudio.app/connect": {
     "en_oneliner": "A clean way to track app analytics and statuses from your phone — app reviews and ASO keywords included.",
     "en_title": "Show HN: ASO Studio Connect – Track App Review and Your ASO Keywords on iPhone",
@@ -280,6 +286,12 @@
     "en_title": "BASE Studio",
     "zh_oneliner": "在浏览器里用 AI 生成 3D 模型、调材质灯光，一键发布成可在手机上直接看 AR 的商品展示页。",
     "zh_title": "BASE Studio"
+  },
+  "https://basteez.itch.io/wild-shift": {
+    "en_oneliner": "Your weapon is a ring of bits: shift it mid-fight to line up combos and squash living software bugs like infinite loops and null pointers, right in your browser with nothing to install.",
+    "en_title": "Looking for playtesters for my GitHub Game Off 2026 entry 🎮",
+    "zh_oneliner": "武器就是一串比特：边打边左右移位，凑出连招去拍扁无限循环、空指针这些活生生的软件 Bug，浏览器里直接开打，不用安装。",
+    "zh_title": "Wild Shift：拿比特寄存器当武器的除虫动作游戏"
   },
   "https://berryde.com/projects/satellites": {
     "en_oneliner": "An interactive visualisation of every satellite launched since 1957, built from the GCAT database.",
@@ -4750,6 +4762,12 @@
     "en_title": "Expo Simulators",
     "zh_oneliner": "为 AI 智能体准备的云端手机模拟器，让智能体在云里测试应用。",
     "zh_title": "Expo Simulators：给智能体用的云端模拟器"
+  },
+  "https://f1-metrix-front.vercel.app": {
+    "en_oneliner": "An interactive data visualization that puts Formula 1 drivers from every era side by side so you can decide for yourself who the greatest of all time really was.",
+    "en_title": "Show HN: F1 Metrix, who was the Formula 1 GOAT? An homage to f1metrics",
+    "zh_oneliner": "把历代 F1 车手的数据拉到同一张图里比个高下，用可视化回答谁才是真正的历史最佳，车迷可以自己翻着玩。",
+    "zh_title": "F1 Metrix：谁是 F1 历史最佳？用数据说话"
   },
   "https://facetypes.xyz": {
     "en_oneliner": "A hand-picked collection of free typefaces that helps designers quickly find good fonts that cost nothing — for designers sourcing type for a project.",
