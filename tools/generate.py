@@ -358,6 +358,21 @@ BLOCKED_DOMAINS = {
     # 阅读内容，站上没有能直接用的工具；标题带 "zines" 但标题门未覆盖，
     # 域名封禁
     "securityzines.com",
+    # 抽查确认不是在线工具（2026-11-18 16:07 轮实测）：Incredible Agents
+    # 是 Mac/Windows 桌面应用（官网 "Download for Mac/Windows"），实测
+    # 命中 download_platform 信号，但被 "Agents work in your browser"
+    # 触发豁免放行——豁免句说的是桌面智能体在浏览器里操作，别的东西，
+    # 不是工具本身在浏览器里用；UI Verify 是视觉回归测试服务，用之
+    # 前须把 @uiverify/* 包接进自家测试并跑 CI（站上写 "fetch
+    # install.md with curl"），不是点开就能用的工具，探查信号够不着
+    # 这种写法；两站域名封禁
+    "incredible.one", "uiverify.ai",
+    # 抽查确认不是在线工具（2026-11-18 16:07 轮自查补漏）：Beacon MCP 是
+    # Chrome 扩展 + 中继服务（官网第一步就是 "Install the extension /
+    # Load the Chrome extension"），没有扩展用不了；浏览器扩展不收。
+    # 探查信号够不着这种写法（extension_install 要求 install 后紧跟
+    # 浏览器名），域名封禁
+    "trybeacon.space",
     # Tabletop：Google Labs 是实验展示站，labs.google 根地址是目录页；
     # 其实测 tabletop.google/about 是仅限邀请的候补名单落地页，访客无法
     # 直接使用工具（2026-11-16 时间线泄漏：Tabletop 链到 labs.google 根地址）

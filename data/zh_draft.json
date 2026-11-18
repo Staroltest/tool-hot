@@ -4859,6 +4859,12 @@
   "zh_oneliner": "糖尿病自护网站，免费血糖计算器、互动课程、数好碳水的食谱和一周餐单，都能直接在浏览器里用。",
   "zh_title": "Show HN：16 岁确诊糖尿病，我做了 Diabic 糖尿病自护站"
  },
+ "https://diagramly.xyz/?ref=producthunt": {
+  "en_oneliner": "Describe a system in plain words or type one line, and get a hand-drawn architecture diagram, flowchart or cheat sheet — free in the browser.",
+  "en_title": "Diagramly 2.0",
+  "zh_oneliner": "一句话描述系统或敲一行文字，就能画出手绘风架构图、流程图和速查表，浏览器里免费就能用。",
+  "zh_title": "Diagramly 2.0：免费手绘风图表制作器"
+ },
  "https://dialectlayer.com/?ref=producthunt": {
   "en_oneliner": "Describe what a camera should observe and get a live API your software and agents can use — nothing to train.",
   "en_title": "Dialect",
@@ -6029,6 +6035,12 @@
   "zh_oneliner": "不用重训整个模型，只动少数几个休眠神经元就能植入后门，拆解这种隐蔽的木马手法。",
   "zh_title": "木马解剖：只改几个休眠神经元就能给 LLM 埋后门"
  },
+ "https://introzy.com/?ref=producthunt": {
+  "en_oneliner": "Track every partner referral from first touch to closed deal and commission payout, all in one place — no spreadsheet needed.",
+  "en_title": "Introzy",
+  "zh_oneliner": "帮你跟踪合作伙伴介绍来的客户，从首次接触到达成交易、结算佣金全程记录，不用再靠表格对账。",
+  "zh_title": "Introzy：转介绍追踪与佣金管理"
+ },
  "https://investingwontmakeyourich.com": {
   "en_oneliner": "Enter your sum and horizon to see what an investment is really worth year by year, after inflation and taxes take their cut.",
   "en_title": "Show HN: Investing Won't Make You Rich",
@@ -6262,6 +6274,12 @@
   "en_title": "LensNote: AI Lecture Note Taker",
   "zh_oneliner": "AI 讲座笔记工具，上传录音就能出带时间戳的笔记，每张幻灯片都留着。",
   "zh_title": "LensNote：AI 课堂笔记"
+ },
+ "https://lepoly.com/?ref=producthunt": {
+  "en_oneliner": "Keep all your 3D assets in one searchable library in the browser — preview, tag and compare versions without installing anything.",
+  "en_title": "lepoly",
+  "zh_oneliner": "把 3D 模型都收进浏览器里的一个库：在线预览、打标签、比对版本，不用装软件也能审模型。",
+  "zh_title": "lepoly：浏览器里的 3D 资产管理"
  },
  "https://letter.dev/replicate?ref=producthunt": {
   "en_oneliner": "Turn a website-builder site into a real code repository, page by page and pixel by pixel, committed straight to your GitHub.",
@@ -8308,6 +8326,12 @@
   "en_title": "Alphascope: prediction market assistant",
   "zh_oneliner": "预测市场的 AI 交易助手：行情和机会都帮你盯着。",
   "zh_title": "Alphascope：预测市场助手"
+ },
+ "https://www.arcade.software/?ref=producthunt": {
+  "en_oneliner": "Describe the video you want and get an on-brand marketing video built around your product in minutes, editable scene by scene.",
+  "en_title": "Arcade",
+  "zh_oneliner": "说一句话就能按你的产品和品牌风格生成营销视频，成片几分钟出来，还能随时改场景、文案和配乐。",
+  "zh_title": "Arcade：AI 营销视频生成器"
  },
  "https://www.atomic14.com/2026/11/15/im-not-open-sourcing-this": {
   "en_oneliner": "The author chose not to open-source the project but explains the thinking so readers can build their own version.",
