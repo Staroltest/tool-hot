@@ -656,6 +656,12 @@ BLOCKED_DOMAINS = {
     # datingrepublican.com 是约会交友服务站（州/城市指南、约会建议文章、
     # 交友应用对比），不是转换器/计算器/编辑器这类点开即用的工具网站
     "datingrepublican.com",
+    # ClearOffice Hub（2026-11-19 04:07 CST 轮，浏览器实测热点榜第 2 条）：
+    # clearofficehub.com 是 Windows 桌面应用（FAQ 自述 "a Windows desktop
+    # application"，"only available for Microsoft Windows"），须下载安装，
+    # 不是点开就能在浏览器里直接用的工具网站；标题与摘要均不露痕迹，
+    # 标题门与实测信号（缺 desktop application 信号）均拦不住，域名封禁
+    "clearofficehub.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
