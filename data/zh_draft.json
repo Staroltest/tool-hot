@@ -6233,6 +6233,12 @@
     "zh_oneliner": "多语种配音工具，文字粘进去就能生成配音，顺手下个 MP3。",
     "zh_title": "Luvvoice：多语配音"
   },
+  "https://mailtopdf.top/en": {
+    "en_oneliner": "Drop EML or MBOX mailbox files into the browser and turn them into PDFs — one per email or one merged file — all processed locally, nothing uploaded.",
+    "en_title": "Show HN: Convert EML/MBOX mailboxes to PDF in the browser, no upload",
+    "zh_oneliner": "把 EML 或 MBOX 邮箱文件拖进浏览器就地转成 PDF，可单封可合并，全程本地处理不用上传。",
+    "zh_title": "Mail to PDF：浏览器里把邮件转成 PDF"
+  },
   "https://mailyen.com/demo?via=hn": {
     "en_oneliner": "Mail from strangers waits outside your inbox until the sender adds a $5 stamp to get in — refunded the moment you reply — and the demo page lets you try it on the spot.",
     "en_title": "Show HN: Mailyen – a card hold on cold emails, released when you answer",
@@ -7433,6 +7439,12 @@
     "zh_oneliner": "一款在线税务测算器，输入工资、Roth 转换和抚养人数，实时算出联邦税和加州税，拖动图表就能预览不同选择对税单的影响。",
     "zh_title": "TaxVant：自己动手算税，看看每个理财决定对税单的影响"
   },
+  "https://tea.rinn7e.com": {
+    "en_oneliner": "The Elm Architecture's core ideas — Model, Msg, update and more — reimplemented in many languages and frameworks, each graded against Elm.",
+    "en_title": "Show HN: I made a site showcasing The Elm Architecture in many other languages",
+    "zh_oneliner": "把 Elm 架构的 Model、Msg、update 等核心概念用多种语言和框架一一实现，按与 Elm 的贴合度打分对照。",
+    "zh_title": "TEA Ecosystem：Elm 架构的多语言实现对照"
+  },
   "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health": {
     "en_oneliner": "Apple has launched a new app for a study on how people use AI to answer everyday medical questions — and how well it works.",
     "en_title": "Apple launches new app to study how people use AI for health",
@@ -7990,6 +8002,12 @@
     "en_title": "Show HN: Word Gambits, Daily Puzzle Capture Chess Pieces to Form Words",
     "zh_oneliner": "每天一局的吃子拼词棋谜：吃掉棋子拼出三个单词，最后棋盘上只剩一子。",
     "zh_title": "Word Gambits：吃子拼词的每日棋谜"
+  },
+  "https://wordspies.com/hn": {
+    "en_oneliner": "LLMs play a Codenames-style word game and get ranked in an arena — with graded replays showing how each move scored.",
+    "en_title": "Show HN: A Codenames-style wordgame that benchmarks LLMs",
+    "zh_oneliner": "让大模型玩 Codenames 风格的猜词游戏，按表现排出竞技名次，还能回放每一步的评分过程。",
+    "zh_title": "Word Spies：用猜词游戏给大模型打分"
   },
   "https://worldspace.crankyfuse.io": {
     "en_oneliner": "A live spinning globe where every game developer's GitHub push lights up a point, showing the last hour of activity at a glance.",
