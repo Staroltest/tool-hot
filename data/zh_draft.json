@@ -6102,7 +6102,7 @@
   "zh_title": "Micro-Doom：在 3900 万参数神经网络里玩 Doom"
  },
  "https://humandesignchart.online": {
-  "en_oneliner": "Get your Human Design chart instantly, free.",
+  "en_oneliner": "Enter your birth details to get your Human Design chart instantly, free to generate online — fun to try if you're curious about Human Design.",
   "en_title": "Celestial Observer",
   "zh_oneliner": "输入出生信息立刻算出你的人类图，免费在线生成，对人类图好奇的可以玩一下。",
   "zh_title": "Celestial Observer：免费生成人类图"
@@ -6444,7 +6444,7 @@
   "zh_title": "Show HN：The Last Complication，Zachtronics 风格的制表解谜游戏"
  },
  "https://leadpilot-detail.fly.dev": {
-  "en_oneliner": "Track quote follow-ups and draft accurate customer replies from your own prices.",
+  "en_oneliner": "Keep track of quote follow-ups and draft accurate customer replies from your own price list, so quoting stops being a scramble.",
   "en_title": "DetailInbox",
   "zh_oneliner": "盯着报价的后续跟进，按你自己的价格表起草准确的客户回信，做报价不再手忙脚乱。",
   "zh_title": "DetailInbox：报价跟进与回信助手"
@@ -6804,7 +6804,7 @@
   "zh_title": "用模拟 API 做产品演示（结合 tRPC）"
  },
  "https://mp4tomp3.to": {
-  "en_oneliner": "Convert video files into MP3 audio — simple, free, and online.",
+  "en_oneliner": "Turn video files into MP3 audio — simple, free, and right in your browser.",
   "en_title": "MP4toMP3",
   "zh_oneliner": "把视频文件转成 MP3 音频，简单免费，在线就能转。",
   "zh_title": "MP4toMP3：视频转 MP3 音频"
@@ -7074,7 +7074,7 @@
   "zh_title": "OnlineBiller：印度账单与发票生成器"
  },
  "https://onlinesoundtest.com": {
-  "en_oneliner": "Test speakers, headphones, and microphones in your browser.",
+  "en_oneliner": "Test whether your headphones, speakers and microphone are working, right in the browser — a quick self-check when your gear acts up.",
   "en_title": "Online Sound Test",
   "zh_oneliner": "在浏览器里测耳机、音箱和麦克风好不好使，设备出问题先来自测一下。",
   "zh_title": "Online Sound Test：在线测耳机音箱麦克风"
@@ -7248,7 +7248,7 @@
   "zh_title": "Show HN：Gavel，开源本地代码评审工具"
  },
  "https://pianoblox.com": {
-  "en_oneliner": "Free Roblox piano sheets with in-browser practice and challenges.",
+  "en_oneliner": "Free Roblox piano sheets you can practice with in the browser, challenges included — even clumsy players can pick it up.",
   "en_title": "PianoBlox",
   "zh_oneliner": "免费的 Roblox 钢琴谱，还能在浏览器里跟着练琴练挑战，弹琴手残党也能上手。",
   "zh_title": "PianoBlox：Roblox 钢琴谱免费练"
@@ -7524,7 +7524,7 @@
   "zh_title": "ReactionTime：反应速度测试"
  },
  "https://realzodiactest.com": {
-  "en_oneliner": "Find your best US city by zodiac sign.",
+  "en_oneliner": "Find which US city suits you best by your zodiac sign — a fun little quiz, just for laughs.",
   "en_title": "RealZodiacTest",
   "zh_oneliner": "按星座测一测哪座美国城市最合你，图个乐的趣味小测试。",
   "zh_title": "RealZodiacTest：按星座找最适合你的美国城市"
@@ -8346,7 +8346,7 @@
   "zh_title": "Turbofy：聊天建业务应用"
  },
  "https://twinclips.io": {
-  "en_oneliner": "Create stunning videos of yourself in 3 clicks — no filming required.",
+  "en_oneliner": "Create a video of yourself in three steps without filming — a handy try if you want to make videos without getting in front of a camera.",
   "en_title": "TwinClips AI",
   "zh_oneliner": "不用拍摄，三步就能生成自己的出镜视频，想做视频又不想露脸开拍的可以试试。",
   "zh_title": "TwinClips AI：三步生成自己的出镜视频"
@@ -8922,7 +8922,7 @@
   "zh_title": "早期的 Beowulf 集群"
  },
  "https://www.copyleaks.io": {
-  "en_oneliner": "Review text for AI-generated writing patterns — simple, free, and online.",
+  "en_oneliner": "Paste in your text to check for traces of AI writing — simple, free, and online.",
   "en_title": "AI Detector",
   "zh_oneliner": "把文字贴进去，就能查出有没有 AI 写作的痕迹，简单免费，在线就查。",
   "zh_title": "AI Detector：检测文本是否 AI 生成"
@@ -10212,7 +10212,7 @@
   "zh_title": "Microsoft 365 宕机，15 名酒店住客氯气中毒"
  },
  "https://www.trfyx.com": {
-  "en_oneliner": "Privacy-friendly web analytics connecting traffic, visitor behavior and revenue attribution.",
+  "en_oneliner": "A privacy-friendly web analytics tool that ties traffic, visitor behavior and revenue attribution together.",
   "en_title": "Trfyx: Privacy-Friendly Web Analytics",
   "zh_oneliner": "保护隐私的网站分析工具，把流量、访客行为和收入归因连起来看。",
   "zh_title": "Trfyx：隐私友好网站分析"
@@ -10558,5 +10558,47 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
+ },
+ "https://www.waku.one": {
+  "en_oneliner": "A shared memory board for teams of AI agents, where multiple agents can read and write the same memory and work together.",
+  "en_title": "Waku.One: Shared Memory and a Board for Your Team's AI Agents",
+  "zh_oneliner": "一块给 AI 智能体团队用的共享记忆白板，多个智能体可以在上面读写同一份记忆、协同干活。",
+  "zh_title": "Waku.One：给团队 AI 智能体用的共享记忆与协作白板"
+ },
+ "https://orthosetter.com": {
+  "en_oneliner": "A typesetting tool built for Orthodox church music that turns your scores into consistently formatted sheet music pages.",
+  "en_title": "Orthosetter: A Deterministic Typesetting Tool for Orthodox Music",
+  "zh_oneliner": "专为东正教圣乐设计的排版工具，输入乐谱就能稳定生成格式统一的乐谱页面。",
+  "zh_title": "Orthosetter：东正教圣乐确定性排版工具"
+ },
+ "https://enigma-game.specr.net": {
+  "en_oneliner": "A web escape-room game that pays homage to the early-2000s classics, where every room is a puzzle that calls for lateral thinking.",
+  "en_title": "Escape Rooms for Lateral Thinkers",
+  "zh_oneliner": "一款向 2000 年代初经典密室逃脱致敬的网页解谜游戏，每间房都是一道需要横向思维的谜题。",
+  "zh_title": "Escape Rooms for Lateral Thinkers：烧脑密室逃脱网页游戏"
+ },
+ "https://lo.glebbash.dev": {
+  "en_oneliner": "A small language that compiles to WASM with a web IDE built in, so you can hack on the compiler or build a little game right in the browser.",
+  "en_title": "LO: A WASM Language — Hack the Compiler or Make a Game in a Web IDE",
+  "zh_oneliner": "一门编译到 WASM 的小语言，自带网页 IDE，可以直接在浏览器里改编译器或者写个小游戏。",
+  "zh_title": "LO：一门跑在 WASM 上的语言，附带网页 IDE"
+ },
+ "https://hberg.com/bpm": {
+  "en_oneliner": "A music visualizer that riffs on the mid-90s dancing baby meme — watch the baby dance along to your music.",
+  "en_title": "BPM: Baby Plus Music Visualizer",
+  "zh_oneliner": "致敬 90 年代中期跳舞宝宝梗的音乐可视化小玩具，放上音乐就能看宝宝跟着节奏跳舞。",
+  "zh_title": "BPM：跳舞宝宝音乐可视化小工具"
+ },
+ "https://pf2e.fyi": {
+  "en_oneliner": "An Obsidian-inspired, searchable index of Pathfinder 2nd Edition rules that lets you look up entries fast and follow links between them like notes.",
+  "en_title": "Pf2e.fyi: An Obsidian-Inspired Searchable Index of Pathfinder 2e Rules",
+  "zh_oneliner": "一个受 Obsidian 启发的 Pathfinder 2e 规则索引站，查规则、翻条目都很快，还能像笔记一样顺着链接串联起来看。",
+  "zh_title": "Pf2e.fyi：Pathfinder 2e 规则可搜索索引"
+ },
+ "https://popcar2.github.io/Re-SiON": {
+  "en_oneliner": "A tiny 40KB software synthesizer library that runs on the web, turning plaintext MML files into music, with an online playground to try it out.",
+  "en_title": "Re-SiON: A 40KB Software Synthesizer Library That Plays Plaintext Files",
+  "zh_oneliner": "只有 40KB 的软件合成器库，直接在网页上跑，用纯文本写一段 MML 就能播出音乐，还有在线演练场可以即兴试音。",
+  "zh_title": "Re-SiON：40KB 软件合成器，播放纯文本乐谱"
  }
 }
