@@ -636,6 +636,10 @@ BLOCKED_DOMAINS = {
     # htmaa.clarkdinnison.com 是 100 天邮件课程报名页，填邮箱后每天收一封
     # 课，站上没有能直接用的工具；标题门同步加 email course 规则
     "htmaa.clarkdinnison.com",
+    # Dating Republican（2026-11-19 01:07 CST 轮，浏览器实测新到时间线条目）：
+    # datingrepublican.com 是约会交友服务站（州/城市指南、约会建议文章、
+    # 交友应用对比），不是转换器/计算器/编辑器这类点开即用的工具网站
+    "datingrepublican.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {

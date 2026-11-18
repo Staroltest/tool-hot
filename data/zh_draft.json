@@ -359,6 +359,12 @@
   "zh_oneliner": "想在手机上清爽地查看应用数据和状态，就做了这个工具，应用评论和 ASO 关键词都能随手追踪。",
   "zh_title": "Show HN：ASO Studio Connect——在 iPhone 上追踪应用评论与 ASO 关键词"
  },
+ "https://assess.poh.org": {
+  "en_oneliner": "Point it at your site and a frontier AI agent tries to break in, then shows you what it managed to do and how risky that is.",
+  "en_title": "Show HN: Can an AI Agent Bypass Your Website Security?",
+  "zh_oneliner": "填入你的网址，它会派一个前沿 AI 智能体真刀真枪地试着闯你的网站，再告诉你它完成了哪些操作、风险有多高。",
+  "zh_title": "Proof of Human：测测 AI 智能体能否绕过你的网站安全防线"
+ },
  "https://attest-framework.github.io": {
   "en_oneliner": "The Attest framework tests what AI agents actually do rather than what they say, making agent evaluation more trustworthy.",
   "en_title": "Show HN: Attest – Test what AI agents do, not just what they say",
@@ -5123,6 +5129,12 @@
   "zh_oneliner": "免费对比电车和油车的用车成本，每公里花费、省油钱、回本时间和十年总成本都算给你。",
   "zh_title": "EV vs Petrol Calculator：电车油车成本对比"
  },
+ "https://exitpath-ruddy.vercel.app": {
+  "en_oneliner": "Pick the platform you want to leave and get open-source alternatives, a difficulty score and a step-by-step checklist — then bundle it into a full exit plan.",
+  "en_title": "Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
+  "zh_oneliner": "想逃离大平台锁定？它按你要离开的工具给出开源替代方案、迁移难度和一步步的清单，还能拼成整套搬家计划。",
+  "zh_title": "ExitPath：帮你从 Slack、Notion、Microsoft 365 搬到开源替代品"
+ },
  "https://expo.dev/blog/supernova-ios-keyboard-extension-expo": {
   "en_oneliner": "Five web developers built an iOS keyboard extension with Expo, showing that system-level utilities don't have to mean native code.",
   "en_title": "Five web developers built an iOS keyboard extension with Expo",
@@ -7175,6 +7187,12 @@
   "zh_oneliner": "在浏览器里点一下就能改 PDF 原有的文字，不用转格式也不用装软件。",
   "zh_title": "Pdfable：直接点改 PDF 里的文字"
  },
+ "https://percentpoint.com": {
+  "en_oneliner": "Over 70 free calculators for grades, pay and pricing, each showing its formula and worked steps so you can check every answer.",
+  "en_title": "Show HN: PercentPoint – Free calculators that show their formula and work",
+  "zh_oneliner": "70 多个免费计算器覆盖成绩、工资和定价，每个都亮出公式和推导过程，答案怎么来的全看得见。",
+  "zh_title": "PercentPoint：免费计算器，每一步都给你算明白"
+ },
  "https://permitcore.dev/blog/sell-game-outside-steam": {
   "en_oneliner": "Indie games don't have to live on Steam — this guide covers selling through keys, direct downloads, and your own store.",
   "en_title": "Sell Your Game Outside Steam: Keys, Downloads and Direct Sales",
@@ -7588,6 +7606,12 @@
   "en_title": "RoomDesign Genius",
   "zh_oneliner": "上传一张房间照片，AI 按你选的风格出四版 redesign 方案，还能在浏览器里免费画等比例平面图。",
   "zh_title": "RoomDesign Genius：AI 房间设计"
+ },
+ "https://rshekhar.com/voyager": {
+  "en_oneliner": "An interactive teardown of Voyager 1 that zooms from the whole spacecraft down to a single memory chip, tracing its journey from 1977 into the 2030s.",
+  "en_title": "Show HN: Take Voyager 1 apart, down to a single memory chip",
+  "zh_oneliner": "一幅可交互的旅行者 1 号拆解图，从整艘探测器一路放大到单枚存储芯片，顺带走完它从 1977 年到 2030 年代的旅程。",
+  "zh_title": "把旅行者 1 号拆开，一直拆到一枚存储芯片"
  },
  "https://rubricfy.com": {
   "en_oneliner": "Score AP Lang essays against each rubric row with concrete feedback, so you know exactly what to fix in the next draft.",
@@ -8267,6 +8291,12 @@
   "zh_oneliner": "免费的耳鸣音调引导测试，全程在浏览器里完成：先校准音量，再一步步比对声音找出你的耳鸣频率，还会帮你排除差一个八度的常见误判。",
   "zh_title": "Notched 耳鸣频率自测：四分钟找到你的耳鸣音调"
  },
+ "https://tryreglyph.com": {
+  "en_oneliner": "Upload a scanned PDF and it translates every page in place — tables, stamps and numbers stay exactly where they were. First 5 pages free.",
+  "en_title": "Reglyph",
+  "zh_oneliner": "上传扫描版 PDF，它先识别再翻译，还把译文排回原来的位置，表格、图章和数字都留在原地，前 5 页免费。",
+  "zh_title": "Reglyph：翻译扫描版 PDF，版式原样不动"
+ },
  "https://tryvitri.com": {
   "en_oneliner": "Create AI product photography, virtual try-on and studio shots.",
   "en_title": "Vitri: AI product photography",
@@ -8548,6 +8578,12 @@
   "en_title": "Voxcribe: Video to Transcript and Subtitles",
   "zh_oneliner": "视频转可编辑、带时间戳的文字稿和字幕，音频在浏览器本地提取，视频不用上传。",
   "zh_title": "Voxcribe：视频转文字稿"
+ },
+ "https://voxoria.ai/web-search-api-pricing": {
+  "en_oneliner": "Nearly 100 search APIs ranked by price per 1,000 searches, with free tiers, billing models and what each one returns.",
+  "en_title": "Show HN: Comparing pricing across 100 web search APIs",
+  "zh_oneliner": "把近百家搜索 API 按每千次搜索的价格排开，免费档、计费方式和返回内容一目了然，选 API 前先来这儿比个价。",
+  "zh_title": "100 家网页搜索 API 报价大比价"
  },
  "https://vyroclipping.org": {
   "en_oneliner": "Enter your clip's view stats and see what each video actually earns, so clipping creators can see their real revenue.",
@@ -9172,6 +9208,12 @@
   "en_title": "MusiCraft AI: music and audio tools",
   "zh_oneliner": "音乐和音频工具一站式：专业 AI 助手陪着你做。",
   "zh_title": "MusiCraft AI：音乐音频工具"
+ },
+ "https://www.myaladdin.app/opt-tracker": {
+  "en_oneliner": "Answer two questions and get your OPT filing window, deadlines and unemployment days left, plus a checklist — free, no signup.",
+  "en_title": "Show HN: Free OPT tracker, built after a $5k filing mistake",
+  "zh_oneliner": "两个问题算出你的 OPT 申请窗口、截止日期和剩余失业天数，附一份待办清单，全程免费不用注册。",
+  "zh_title": "OPT Tracker：F-1 学生免费的 OPT 倒计时与清单"
  },
  "https://www.mythlingua.com": {
   "en_oneliner": "Learn Mandarin through mythology: HSK 1–7 graded stories with pinyin and audio, an interactive knowledge graph and spaced-repetition flashcards.",
