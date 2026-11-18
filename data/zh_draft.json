@@ -101,6 +101,12 @@
   "zh_oneliner": "一本关于智能体工程的在线书，讲如何把 AI 智能体用在科学计算里。",
   "zh_title": "面向科学计算的智能体工程"
  },
+ "https://agentkombat.com": {
+  "en_oneliner": "LLM agents duke it out in the arena — your prompt is their fighting style.",
+  "en_title": "Show HN: AgentKombat – LLM agents fight; your prompt is the fighting style",
+  "zh_oneliner": "派两个大模型智能体上台对打，你写的提示词就是它们的格斗风格。",
+  "zh_title": "AgentKombat：让大模型智能体打架，你的提示词就是格斗风格"
+ },
  "https://agentsp.lease": {
   "en_oneliner": "Declare your project's stance on AI use — pick Yes or No and get a badge for your README, so everyone knows at a glance.",
   "en_title": "Agents Please: Project Badges to Show LLM Preferences",
@@ -5189,6 +5195,12 @@
   "zh_oneliner": "一篇谈系统设计的文章，聊控制欲与复杂度之间的拉扯，以及设计者该如何在这对矛盾里取舍。",
   "zh_title": "控制与复杂度：系统设计中的张力"
  },
+ "https://ferry.bykapil.com": {
+  "en_oneliner": "Get alerted the moment a sold-out San Juan Islands ferry sailing opens up again.",
+  "en_title": "Show HN: Alerts when sold-out San Juan Islands ferry sailings open up",
+  "zh_oneliner": "盯着 San Juan 群岛渡轮的售罄班次，有人退票放出来就第一时间提醒你。",
+  "zh_title": "San Juan 群岛渡轮售罄班次放票提醒"
+ },
  "https://files.fm": {
   "en_oneliner": "Cloud storage for sharing and delivering files — send large photos and videos with a link, passwords and expiry dates.",
   "en_title": "Files.fm",
@@ -6011,6 +6023,12 @@
   "zh_oneliner": "解谜游戏：一个零件一个零件地接线，亲手拼出一块 GPU，看它把画面渲染出来。",
   "zh_title": "Show HN：Hello Triangle——接电路造 GPU 的解谜游戏"
  },
+ "https://heymode.app": {
+  "en_oneliner": "An open-source agent that operates your phone's apps on your behalf.",
+  "en_title": "Show HN: Mode – an open-source agent that uses your phone's apps for you",
+  "zh_oneliner": "开源智能体，替你在手机上操作各种应用完成任务。",
+  "zh_title": "Mode：替你操作手机应用的开源智能体"
+ },
  "https://hiringnow.ai/?ref=producthunt": {
   "en_oneliner": "An AI job search agent that scans 247,000+ company career pages every 5 minutes, matches fresh jobs to your profile, tailors your resume, and auto-applies only after your approval.",
   "en_title": "HiringNow",
@@ -6334,6 +6352,12 @@
   "en_title": "US Has Lost Measles Elimination Status, Global Health Authorities Say",
   "zh_oneliner": "全球卫生机构表示美国因麻疹持续传播已失去消除状态，讲清这一判定背后的疫情发展，适合关注公共卫生动态的读者。",
   "zh_title": "全球卫生机构称美国已失去麻疹消除状态"
+ },
+ "https://kikkupico.github.io/DAAG2": {
+  "en_oneliner": "Interactive visual explanations of distributed algorithms, as practiced in Ancient Greece.",
+  "en_title": "Show HN: Distributed Algorithms of Ancient Greece",
+  "zh_oneliner": "用交互图解讲古希腊人玩的分布式算法，点开就能一步步看明白。",
+  "zh_title": "古希腊的分布式算法：交互式图解"
  },
  "https://kinshu.co/castle-challenge": {
   "en_oneliner": "A participant took first place in the Castle Challenge run by OpenAI, Citadel Securities, and Sequoia, and shares how it went.",
@@ -7055,6 +7079,12 @@
   "zh_oneliner": "一张可交互的全球 AI 数据中心地图，收录 217 个站点的规模、位置、用水压力与电网碳强度，每个数据都标明来源与可信度。",
   "zh_title": "OpenButterfly：追踪 AI 生态环境影响的交互地图"
  },
+ "https://openedda.is": {
+  "en_oneliner": "Read both Eddas side by side in Old Norse, Icelandic, and English, passage by passage, right in your browser.",
+  "en_title": "Show HN: Open Edda – Both Eddas in Parallel Old Norse, Icelandic and English",
+  "zh_oneliner": "两部《埃达》古诺尔斯语、冰岛语、英语三语平行对照，点开就能逐段对照着读。",
+  "zh_title": "Open Edda：古诺尔斯语、冰岛语、英语三语对照读《埃达》"
+ },
  "https://openprofit.dev": {
   "en_oneliner": "Read revenue and costs from provider APIs and see profit by product.",
   "en_title": "OpenProfit: profit dashboard",
@@ -7408,6 +7438,12 @@
   "en_title": "Rally: Self-Updating Multi-Player Artifacts",
   "zh_oneliner": "让 AI 把仪表盘、小应用做成会自己更新的协作成品，接上 Slack、Gmail、GitHub 后有新动态就自动改内容，团队成员还能接着改。",
   "zh_title": "Rally：会自己更新的多人协作 Artifacts"
+ },
+ "https://randman444.github.io/meta-rl-draw/web": {
+  "en_oneliner": "A hands-on web demo: break the robot arm and watch a meta-RL agent adapt and keep writing.",
+  "en_title": "Show HN: Break a robot arm and watch a meta-RL agent keep writing",
+  "zh_oneliner": "在线小实验：把机器臂弄断，看元强化学习智能体怎么随机应变继续写字。",
+  "zh_title": "弄断机器臂，看元强化学习智能体继续写字"
  },
  "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026": {
   "en_oneliner": "An old Bitly link in a Burger King tweet was hijacked to point elsewhere, and this article warns that short links from years ago can become ready-made phishing springboards once they expire and change hands.",
@@ -7787,6 +7823,12 @@
   "zh_oneliner": "66 道题的免费测试，测测你的 Undertale 灵魂特质，看看决心、勇气与正义各占几成。",
   "zh_title": "Soul Virtues Extractor：测你的灵魂美德"
  },
+ "https://space-core.at": {
+  "en_oneliner": "A free browser MMO that your own AI agent can join and play over MCP.",
+  "en_title": "Show HN: Space-Core, a free browser MMO your own AI agent plays over MCP",
+  "zh_oneliner": "免费浏览器大型多人在线游戏，还能让你的 AI 智能体通过 MCP 进来一起玩。",
+  "zh_title": "Space-Core：免费浏览器 MMO，你的 AI 智能体也能来玩"
+ },
  "https://spaceflightnow.com/2026/11/15/ula-suffers-first-total-mission-failure-with-loss-of-vulcan-rocket-carrying-40-amazon-leo-satellites": {
   "en_oneliner": "ULA's Vulcan rocket failed while carrying 40 Amazon Leo satellites — the company's first total mission failure, and one for space watchers to follow.",
   "en_title": "ULA suffers first total mission failure with loss of Vulcan rocket carrying 40 A",
@@ -8092,6 +8134,12 @@
   "en_title": "Show HN: Timelock.dev: Send a Message into the Future",
   "zh_oneliner": "写一句话、定个日子，到那天它就把消息发给对方，像给未来寄出的定时信。",
   "zh_title": "Timelock.dev：给未来寄一封信"
+ },
+ "https://timestampgit.dev": {
+  "en_oneliner": "A one-click GitHub App that anchors your commits to Bitcoin timestamps, proving code existed at a given time.",
+  "en_title": "Show HN: TimestampGit – 1-click GitHub App that anchors commits to Bitcoin",
+  "zh_oneliner": "给 Git 提交盖上比特币时间戳，证明代码在某个时间点确实存在。",
+  "zh_title": "TimestampGit：一键把 Git 提交锚定到比特币时间戳"
  },
  "https://timewitness.dev": {
   "en_oneliner": "Attach an error bound and third-party signatures to a timestamp, so anyone can verify when a record existed — no account needed, no trust required.",
@@ -8620,6 +8668,12 @@
   "en_title": "Kling 4.0: AI video generation",
   "zh_oneliner": "可灵 4.0 的在线入口：文字提示或首尾帧，生成视频片段。",
   "zh_title": "Kling 4.0：AI 视频生成"
+ },
+ "https://www.1liter.club": {
+  "en_oneliner": "Break down what a liter of gasoline really costs — fuel, taxes, and everything in between.",
+  "en_title": "Show HN: How much does a liter of gasoline really cost?",
+  "zh_oneliner": "输入油价和税费，算一算一升汽油里到底有多少是真油钱。",
+  "zh_title": "1 Liter：一升汽油到底多少钱？"
  },
  "https://www.2027newyearai.com/?ref=smollaunch": {
   "en_oneliner": "Turn one photo into a Hello 2027 card — new year, new look.",
@@ -9197,6 +9251,12 @@
   "zh_oneliner": "把简历和岗位描述一起粘贴，立刻检查匹配度，投简历前先过一遍机器筛。",
   "zh_title": "ATS 简历检查器：粘贴简历对照岗位描述"
  },
+ "https://www.openmetropolitan.com": {
+  "en_oneliner": "An infinite canvas holding 340,000 artworks from The Met — pan and zoom through the whole collection.",
+  "en_title": "Show HN: I built an infinite canvas to explore 340k artworks from The Met",
+  "zh_oneliner": "一张可以无限缩放的画布，装着大都会博物馆 34 万件藏品，随便拖、随便看。",
+  "zh_title": "Open Metropolitan：在无限画布上逛大都会博物馆 34 万件藏品"
+ },
  "https://www.outsideonline.com/outdoor-gear/clothing-apparel/grandmother-flannel": {
   "en_oneliner": "A profile of a 99-year-old grandmother who quietly built her own little business empire around flannel fabric.",
   "en_title": "My 99-Year-Old Grandmother Built a Hidden Empire Around Flannel",
@@ -9214,6 +9274,12 @@
   "en_title": "Paradigm Puzzles",
   "zh_oneliner": "Paradigm 出的一组密码学谜题，喜欢动脑筋的可以来挑战一下。",
   "zh_title": "Paradigm Puzzles：密码学解谜合集"
+ },
+ "https://www.parallel-arabic.com/arabic-dialects": {
+  "en_oneliner": "Compare the same sentence across Arabic dialects and judge for yourself whether Arabic is one language.",
+  "en_title": "Show HN: Is Arabic One Language?",
+  "zh_oneliner": "把同一句话放进各地方言里对照，看看阿拉伯语到底算一种还是好几种语言。",
+  "zh_title": "阿拉伯语是一种语言吗？方言对照看看"
  },
  "https://www.parkytowers.me.uk/thin": {
   "en_oneliner": "Old thin clients don't have to be e-waste — this piece shows how to give them a useful second life.",

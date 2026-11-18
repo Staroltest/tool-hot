@@ -632,6 +632,10 @@ BLOCKED_DOMAINS = {
     # Quebec、atlas-compiler.com 等纯 API 平台；标题不露痕迹，标题门拦不住，
     # 域名封禁
     "gridlinegpu.com",
+    # MIT 邮件课程（2026-11-19 00:07 CST 轮，curl 实测热点榜条目）：
+    # htmaa.clarkdinnison.com 是 100 天邮件课程报名页，填邮箱后每天收一封
+    # 课，站上没有能直接用的工具；标题门同步加 email course 规则
+    "htmaa.clarkdinnison.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -838,6 +842,12 @@ _TITLE_BLOCK_RES = [
         # 用的工具本身；域名门同步封 agentsinthewild.co
         # （2026-11-17 20:07 CST 轮：Agents in the Wild）
         r"\bmcp\s+server\b",
+        # 邮件课程（如“MIT's How to Make (Almost) Anything as a 100-day
+        # email course”）：填邮箱后每天收课，站上没有能直接用的工具；
+        # 域名门同步封 htmaa.clarkdinnison.com
+        # （2026-11-19 00:07 CST 轮：MIT 邮件课程进了热点榜）
+        r"\bemail\s+course\b",
+        r"邮件课程",
         # CLI / 命令行工具（如“a refactoring CLI for coding agents”）：
         # 要下载安装才能用，不是“在网站上就能用”的工具
         # （2026-11-16 22:00 轮：Claktor）
