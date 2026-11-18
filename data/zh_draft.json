@@ -7895,6 +7895,12 @@
     "zh_oneliner": "一个画廊网站，收录了 1997 到 2012 年间 Planet Source Code 上的 Visual Basic 程序，满满的怀旧味道。",
     "zh_title": "VisualBasic.World：1997 至 2012 年 Planet Source Code 程序画廊"
   },
+  "https://vizbite.com": {
+    "en_oneliner": "Pick a fruit or vegetable, spin its 3D cross-section to see the nutrients inside, and tap any nutrient to learn what it does in your body — powered by USDA data.",
+    "en_title": "Vizbite",
+    "zh_oneliner": "选一种蔬果，拖动 3D 剖面看它内部的营养分布，点开某种营养素还能看到它在体内的作用，数据来自美国农业部。",
+    "zh_title": "Vizbite：蔬果营养 3D 可视化"
+  },
   "https://voicedot.app/space": {
     "en_oneliner": "Record a voice message for Voyager 1 — it only gets as far as AWS S3, but it takes 24 hours to 'arrive'.",
     "en_title": "I built a website that sends your voice message to Voyager 1. It only gets as far as AWS S3, but it takes 24 hours to \"arrive\"",
@@ -8608,6 +8614,12 @@
     "en_title": "First Molecular-Level Images of Water Reorganization During a Reaction",
     "zh_oneliner": "科学家第一次在分子层面拍下水在化学反应中重新排列的过程，给研究水的行为提供了新视角。",
     "zh_title": "科学家首次拍到水分子在反应中重排的分子级图像"
+  },
+  "https://www.portalkinetic.com": {
+    "en_oneliner": "Dump the open loops crowding your head, take a 60-second reset, and leave with a single next move: start it, park it, or stop here.",
+    "en_title": "PortalKinetic",
+    "zh_oneliner": "把脑子里转个不停的未完成事项倒出来，60 秒快速整理后只留一个下一步：开始做、暂存，还是就此打住。",
+    "zh_title": "PortalKinetic：两分钟清空脑子"
   },
   "https://www.producthunt.com/products/agentgrid-io": {
     "en_oneliner": "A visual canvas for collaborating with AI, for teams who want to sketch ideas first and let AI help bring them to life.",
