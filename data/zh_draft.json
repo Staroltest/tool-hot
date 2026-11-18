@@ -233,6 +233,12 @@
   "zh_oneliner": "美联社的一篇调查报道：骗子盗用一名男子的照片实施网恋诈骗，而受骗者却把怒火发向了照片本人。",
   "zh_title": "骗子盗用他的照片骗人，被骗的人反过来找上了他"
  },
+ "https://app.getgoldcrest.com": {
+  "en_oneliner": "Skip the long forms: answer one short question at a time in a chat, and it projects your household plan year by year across thousands of market paths.",
+  "en_title": "Show HN: Goldcrest, a household financial model you fill in by talking",
+  "zh_oneliner": "不用填长表格，边聊边把收入、储蓄、开销和房子说清楚，它就逐年推演你的财务计划在各种市场走势下撑不撑得住。",
+  "zh_title": "Goldcrest：聊着天填完的家庭财务模型"
+ },
  "https://app.markdownlogic.com/?ref=smollaunch": {
   "en_oneliner": "Write, organize, publish and share Markdown documents, all in the browser.",
   "en_title": "Markdown Logic: write and publish Markdown",
@@ -6383,6 +6389,12 @@
   "zh_oneliner": "把闲置设备变成 Home Assistant 的自助展示终端，智能家居玩家可以试试。",
   "zh_title": "Kiosk Satellite：给 Home Assistant 用的自助终端"
  },
+ "https://klistra.ai": {
+  "en_oneliner": "Describe what you want and upload your files, and it designs and animates every scene to your brand — change one detail and only that detail changes, with identical re-renders.",
+  "en_title": "Show HN: Klistra – A complete studio for spec-driven AI motion design and video",
+  "zh_oneliner": "说清要求、上传素材，它就按你的品牌把每个镜头逐项设计并动起来，改一处只变一处，重新渲染结果不变。",
+  "zh_title": "Klistra：按规格书做 AI 动效与视频的完整工作室"
+ },
  "https://kobi.music/research/dettato": {
   "en_oneliner": "Upload a recording and this lightweight model transcribes it to MIDI right in your browser, with the result ready to download.",
   "en_title": "Show HN: I made an audio-to-MIDI model 60x more efficient",
@@ -7535,6 +7547,12 @@
   "zh_oneliner": "免费在线工具：查网站重定向有没有问题，开发者和 SEO 都用得上。",
   "zh_title": "Redirect Audit：重定向体检"
  },
+ "https://relayto.ai": {
+  "en_oneliner": "Send the document and the reasoning behind it: their AI answers questions from your approved context, and decisions that need you come back.",
+  "en_title": "Show HN : Relay – Share documents with context for the recipient's AI",
+  "zh_oneliner": "发给对方的不只是文件，还有这份文件为什么这样写的背景，对方的 AI 据此答疑，需要你拍板的决定再传回来。",
+  "zh_title": "Relay：发文档时把背后的上下文一起发给对方的 AI"
+ },
  "https://rentsera.com": {
   "en_oneliner": "Property management for Canadian landlords, with an AI assistant handling the busywork: collect rent online, manage leases, maintenance and accounting, all in the browser.",
   "en_title": "Rentsera",
@@ -7888,6 +7906,12 @@
   "en_title": "SpinBuild: AI app builder",
   "zh_oneliner": "说一句话，AI 给你搭出真正能用的全栈产品。",
   "zh_title": "SpinBuild：AI 全栈应用搭建"
+ },
+ "https://spookyparticles.com": {
+  "en_oneliner": "It watches your Vercel apps and hands each failure to Claude Code or Codex within minutes — then checks the fix actually worked.",
+  "en_title": "Show HN: Spooky Particles, sends failed Vercel deploys to your coding agent",
+  "zh_oneliner": "盯着你的 Vercel 应用，部署失败、页面挂掉或定时任务停摆时几分钟内把报错交给 Claude Code 或 Codex，修好还会帮你验证。",
+  "zh_title": "Spooky Particles：Vercel 部署一失败就交给你的编程助手修"
  },
  "https://spreadsheettoapp.ai": {
   "en_oneliner": "Use your spreadsheet as the database and turn it into a working app without writing a backend.",
@@ -8860,6 +8884,12 @@
   "en_title": "ClientClap: client onboarding checklists",
   "zh_oneliner": "给自由职业者的客户对接工具：一个安全链接发过去，文件和登录信息自动收齐。",
   "zh_title": "ClientClap：客户对接清单"
+ },
+ "https://www.cloudish.ai": {
+  "en_oneliner": "Your AI agent gets its own key and deploys the site or API it just built, keeping it running on prepaid credits that can never overspend.",
+  "en_title": "Show HN: Cloudish – Cloud for agents to deploy containers themselves",
+  "zh_oneliner": "你的 AI 助手自己领密钥、自己把刚搭好的网站或 API 部署上线并持续运行，预付费额度花完即停，不用你插手服务器。",
+  "zh_title": "Cloudish：让 AI 助手自己部署容器的云"
  },
  "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html": {
   "en_oneliner": "A robot soldier startup backed by Eric Trump can no longer pay its staff, and CNBC reports its founder allegedly embezzled $4.6 million, turning a once-hyped military AI story upside down.",
@@ -10186,6 +10216,12 @@
   "en_title": "Trfyx: Privacy-Friendly Web Analytics",
   "zh_oneliner": "保护隐私的网站分析工具，把流量、访客行为和收入归因连起来看。",
   "zh_title": "Trfyx：隐私友好网站分析"
+ },
+ "https://www.typingcompiler.com/test?title=Rust%3A%20Custom%20Fibonacci%20Iterator": {
+  "en_oneliner": "Practice typing with real code snippets instead of random words — this one is a hand-written Rust Fibonacci iterator.",
+  "en_title": "Show HN: TypingCompiler – Practice typing with real code snippets",
+  "zh_oneliner": "拿真正的代码片段当打字练习材料，边练指法边熟悉代码，这一段是手写斐波那契迭代器的 Rust 代码。",
+  "zh_title": "TypingCompiler：用真实代码片段练打字"
  },
  "https://www.ucl.ac.uk/news/2026/nov/breakthrough-opens-new-possibilities-safer-water-based-batteries": {
   "en_oneliner": "Research from UCL opens a new path for water-based batteries, a safer battery technology that could move beyond the lab.",
