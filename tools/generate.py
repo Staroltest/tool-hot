@@ -666,6 +666,15 @@ BLOCKED_DOMAINS = {
     # 链到的就是 /auth/login 登录页，须 Google/邮箱登录且需邀请才能用，
     # 点开没有任何能直接用的工具；登录墙实测信号未覆盖，域名封禁
     "gobeat.ai",
+    # 抽查确认不是在线工具（2026-11-19 05:37 CST 轮实测）：Eventkiwi
+    # 是纯 API 事件上报与定时报告服务（须把 API 接进自己的应用、等邮件/
+    # Telegram 定时报告），站内无点开即用的浏览器工具；同已封的 TokLab、
+    # voxoria（纯 API 平台）；实测信号未覆盖，域名封禁
+    "eventkiwi.com",
+    # 抽查确认不是在线工具（2026-11-19 05:37 CST 轮实测）：Springrep
+    # 是 Rust B-rep CAD 内核代码库，官网是文档页（"add the crate"、
+    # cargo run），须下载安装 Rust/cargo 才能用，不是浏览器工具
+    "springcraft-ai.github.io",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
