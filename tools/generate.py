@@ -659,6 +659,11 @@ BLOCKED_EXACT = {
     # SuperSpecs：AI Agent 纪律框架方法论站（内容站，不是能用的工具），
     # 链接在 superspecs.vercel.app 子域，只拦这一个 host（2026-11-17 扩源实测）
     "superspecs.vercel.app",
+    # Fufu：Git 客户端 CLI（`ff` 命令行工具，须安装才能用），
+    # tyler-johnson.github.io/fufu 是其官网/文档页，不是能直接用的工具；
+    # 标题“Git client”不露安装痕迹，标题门拦不住，浏览器实测封禁
+    # （2026-11-18 16:37 CST 轮）
+    "tyler-johnson.github.io",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
