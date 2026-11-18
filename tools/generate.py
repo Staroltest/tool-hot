@@ -565,6 +565,25 @@ BLOCKED_DOMAINS = {
     # 纸一样薄的追踪器贴在水杯上），须购买硬件才能用，站上没有能在浏览器
     # 里直接用的工具；标题只写“a tracker thin enough to be a sticker”，
     # 不露硬件痕迹，标题门拦不住，域名封禁
+    # 抽查确认不是在线工具（2026-11-18 15:37 CST 轮，浏览器实测本轮 54 条
+    # 新到里的 12 个可疑站 + 描述审 3 个）：aiwizard.ai 是 10,558 个工具的
+    # 目录页；aiagentsinfo.com 是 513 个 AI 工具目录（角落虽有 Free tools
+    # 子工具，但首页本身是目录）；fossdesk.com 是开源软件替代方案文章站；
+    # zzlcs.xyz 是星露谷指南站（首页底部虽有作物成熟计算器，但主内容是
+    # 种植/钓鱼/采矿指南）；workbuddyskill.com 是 WorkBuddy Skill 目录大全；
+    # potatopleaseguide.online 是 88 篇《Potato Please》游戏指南库；
+    # haira.ai 是 AI 招聘 SaaS 营销页，主功能须注册（仅 3 问题演示面试可
+    # 免注册体验）；xpodcasts.com 是 X 长视频播客聚合站，只能看视频；
+    # hostdealspro.com 是 Hostinger 优惠券/评测站（Savings Meter 与 Plan
+    # Finder 只是购物辅助小部件）；momentscope.com 是直播摄像头聚合站，
+    # 实测时无直播内容可看；toapis.com 与 ai.bayunzi.shop 是纯 API 平台/
+    # API Key 分发服务（同已封的 TokLab）；ghost-prompter.com 是桌面提词器
+    # 应用（描述自述 Desktop teleprompter）；标题均不露痕迹，标题门拦不住，
+    # 域名封禁
+    "aiwizard.ai", "aiagentsinfo.com", "fossdesk.com", "zzlcs.xyz",
+    "workbuddyskill.com", "potatopleaseguide.online", "haira.ai",
+    "xpodcasts.com", "hostdealspro.com", "momentscope.com",
+    "toapis.com", "ai.bayunzi.shop", "ghost-prompter.com",
     "motif.blog",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
