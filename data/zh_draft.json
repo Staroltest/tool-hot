@@ -10090,5 +10090,185 @@
     "en_title": "Math 2.0",
     "zh_oneliner": "把数学按上百个分支和子领域铺成一张可点开浏览的知识地图，每个分支下都挂着对应的概念和想法。",
     "zh_title": "Math 2.0：按分支浏览的交互式数学地图"
+  },
+  "https://mapgo.app/?ref=producthunt": {
+    "zh_title": "MAP & GO!",
+    "zh_oneliner": "把一天的日程和任务钉在地图上，地点天气一目了然，找地方、看周边、导航一站完成。",
+    "en_title": "MAP & GO!",
+    "en_oneliner": "Pin your day's tasks and events onto a map, with weather on each location, so you can find places, look around, and navigate in one place."
+  },
+  "https://pitchavatar.com/hr-suite/?ref=producthunt": {
+    "zh_title": "Pitch Avatar HR Suite",
+    "zh_oneliner": "用会说话的 AI 数字人做入职培训：上传资料自动生成课程，员工随时提问都能得到回答，支持 70 多种语言，学完情况全程可追踪。",
+    "en_title": "Pitch Avatar HR Suite",
+    "en_oneliner": "Turn onboarding and training into courses led by conversational AI avatars that answer employee questions, in 70+ languages, with completion tracking built in."
+  },
+  "https://grader.trulata.com/?ref=producthunt": {
+    "zh_title": "TruLata AI Visibility",
+    "zh_oneliner": "免费测一测你的网站在 ChatGPT、Gemini、Claude 等 AI 搜索里有没有被点名，从内容可信度、技术可读性三方面打分。",
+    "en_title": "AI Visibility by TruLata",
+    "en_oneliner": "Get a free grade for how often AI search engines like ChatGPT, Gemini, and Claude name your business, scored on content, trust, and technical readability."
+  },
+  "https://newsology.app/?ref=producthunt": {
+    "zh_title": "Newsology",
+    "zh_oneliner": "追踪同一新闻事件在不同媒体的讲述方式，对照立场偏差自己判断，还能跟进事件后续发展。",
+    "en_title": "Newsology",
+    "en_oneliner": "Follow a news story as it develops and compare how different outlets tell it, so you can see each side's angle and make up your own mind."
+  },
+  "https://hiringnow.ai/?ref=producthunt": {
+    "zh_title": "HiringNow",
+    "zh_oneliner": "AI 求职助手：每 5 分钟扫一遍 24 万多个公司招聘页，新职位一上线就推送给你，按你的简历量身改写后经你确认再自动投递。",
+    "en_title": "HiringNow",
+    "en_oneliner": "An AI job search agent that scans 247,000+ company career pages every 5 minutes, matches fresh jobs to your profile, tailors your resume, and auto-applies only after your approval."
+  },
+  "https://www.flamingo.run/?ref=producthunt": {
+    "zh_title": "OpenFrame",
+    "zh_oneliner": "面向 IT 团队的 AI 运维平台：设备管理、打补丁、远程控制、工单和安全集中在一处，AI 助手读日志自动修问题，敏感操作手机一点就批。",
+    "en_title": "OpenFrame",
+    "en_oneliner": "AI-native IT automation for MSPs and IT teams: devices, patching, remote access, help desk, and security in one place, with AI agents that read logs, fix issues, and send sensitive actions to your phone for one-tap approval."
+  },
+  "https://sign.aboard.com/?ref=producthunt": {
+    "zh_title": "Aboard Sign 邮件签署",
+    "zh_oneliner": "不用注册、不用打开别的页面，抄送一封邮件就能让所有人在线签署协议。",
+    "en_title": "Aboard Sign",
+    "en_oneliner": "Get any agreement signed by email — just CC one address and everyone receives a link to sign, no signup needed."
+  },
+  "https://happo.io/animations?ref=producthunt": {
+    "zh_title": "Happo 动画测试",
+    "zh_oneliner": "把网页里的加载动画、过渡效果逐帧截下来比对，动效坏了在合并代码前就能发现。",
+    "en_title": "Happo animation testing",
+    "en_oneliner": "Captures your UI animations frame by frame and diffs how they move, so a broken spinner or transition shows up before merge."
+  },
+  "https://slides.zoom.us/?ref=producthunt": {
+    "zh_title": "Zoom Slides AI 演示文稿",
+    "zh_oneliner": "把会议讨论或一句话提示变成排版整齐的演示文稿，支持 AI 改写、协作和导出 PowerPoint。",
+    "en_title": "Zoom Slides",
+    "en_oneliner": "Turns meeting discussions or a short prompt into polished, editable decks, with AI rewriting, collaboration, and PowerPoint export."
+  },
+  "https://project-nexus.app/?ref=producthunt": {
+    "zh_title": "Nexus 项目关系图谱",
+    "zh_oneliner": "把所有项目和它们挂接的服务画在一张可视化图谱里，点一下就能直达，本地优先、免费管 3 个项目。",
+    "en_title": "Nexus",
+    "en_oneliner": "Maps all your projects and their linked services on one visual graph — click any node to jump straight to it; local-first and free for up to 3 projects."
+  },
+  "https://usetwobucket.com/?ref=producthunt": {
+    "zh_title": "TwoBucket 上门洗车接单",
+    "zh_oneliner": "给上门汽车美容店用的接单工具，客户发来车型照片和需求，你报价、排期、收款全在一个页面里搞定。",
+    "en_title": "TwoBucket",
+    "en_oneliner": "Booking, quoting, scheduling, and payments for mobile car detailers — customers send their car and photos, you quote and get paid in one place."
+  },
+  "https://tulvo.io/?ref=producthunt": {
+    "zh_title": "Tulvo 自适应 AI 工作台",
+    "zh_oneliner": "用一句话描述团队的工作方式，AI 就搭出对应的看板、文档和报表，CRM、库存、排班都装进同一个工作台。",
+    "en_title": "Tulvo",
+    "en_oneliner": "Describe how your team works in plain language and its AI builds the boards, docs, and reports to match — CRM, inventory, and scheduling in one workspace."
+  },
+  "https://collecto.rs/?ref=producthunt": {
+    "zh_title": "collecto.rs 收藏管理",
+    "zh_oneliner": "不管是宝可梦卡、黑胶、乐高还是植物，拍照让 AI 认一认就能归档，还能批量导入、自由展示和分享，免费且不限藏品数量。",
+    "en_title": "collecto.rs",
+    "en_oneliner": "Catalog anything you collect — Pokémon cards, vinyl, LEGO, plants — by snapping a photo for AI identification, then display and share it beautifully, free with no item limit."
+  },
+  "https://inside.dearmate.ai/?ref=producthunt": {
+    "zh_title": "DearInside 身体内社交网络",
+    "zh_oneliner": "一个只属于你自己的体内社交网络：发一条今天的日记，大脑、心脏、胃和上百位身体居民就会用各自的口吻评论、争论和八卦，颇有意思的解压玩具。",
+    "en_title": "DearInside",
+    "en_oneliner": "A social network inside your own body where you are the only human: post about your day and your brain, heart, stomach, and a hundred other residents react, argue, and gossip in their own voices."
+  },
+  "https://mermaid.ai/products/flow?ref=producthunt": {
+    "zh_title": "Mermaid Flow 智能体工作流",
+    "zh_oneliner": "把每周重复的工作画成一张流程图：从模板出发、一键连上 GitHub、Slack 或 Notion，智能体按固定步骤执行，还能定时自动跑，每一步都看得见、查得到。",
+    "en_title": "Mermaid Flow",
+    "en_oneliner": "Turns work you repeat every week into a visible flowchart: start from a template, connect GitHub, Slack, or Notion in one click, and let agents run the same steps in the same order, on schedule, with every run logged."
+  },
+  "https://iconsai.com/?ref=producthunt": {
+    "zh_title": "ICONS 创作者预订平台",
+    "zh_oneliner": "品牌在这里按真实粉丝数据找创作者下单：发帖合作或 AI 肖像授权分开报价、在线签约付款，创作者自己定价、每一步都要本人点头才生效。",
+    "en_title": "ICONS",
+    "en_oneliner": "A marketplace where brands book creators by real audience numbers: sponsored posts or AI likeness licenses are quoted, signed, and paid in one place, with creators setting their own rates and approving every step."
+  },
+  "https://dippr.ai/?ref=producthunt": {
+    "zh_title": "Dippr：给 AI 智能体用的数据平台",
+    "zh_oneliner": "把公司各处的数据接成一个安全的数据平台，让 AI 智能体按你定的规则查询数据、搭建内部工具和数据应用。",
+    "en_title": "Dippr",
+    "en_oneliner": "Connects your company's scattered data into one secure platform so AI agents can query it and build internal tools and data apps under your rules."
+  },
+  "https://ox212.com/?ref=producthunt": {
+    "zh_title": "OX212：交易员心态预测系统",
+    "zh_oneliner": "读懂交易员自己的行为模式，在违背交易计划前发出提醒，必要时自动暂停并锁定账户，帮你守住交易纪律。",
+    "en_title": "OX212",
+    "en_oneliner": "Reads a trader's own behavior patterns, warns before the trading plan breaks, and auto-pauses and locks the account when needed to protect discipline."
+  },
+  "https://ody.co/?ref=producthunt": {
+    "zh_title": "Ody：AI 商务电话",
+    "zh_oneliner": "一部 AI 原生的商务电话：来电、短信和语音留言收进同一个收件箱，忙不过来时 AI 替你接听、分类并预约。",
+    "en_title": "Ody Ai Business Phone",
+    "en_oneliner": "An AI-native business phone that unifies calls, texts and voicemails in one inbox, with an AI receptionist answering, triaging and booking when you can't."
+  },
+  "https://replay.io/self-healing-mode?ref=producthunt": {
+    "zh_title": "Replay QA 自愈模式",
+    "zh_oneliner": "盯着真实用户在你的应用里卡住的瞬间，自动复现并定位问题根因，生成一份能直接交给编程智能体去修的缺陷报告。",
+    "en_title": "Replay QA Self-healing Mode",
+    "en_oneliner": "Watches real users getting stuck in your live app, automatically reproduces the issue, finds the root cause, and files a bug report your coding agent can act on."
+  },
+  "https://linkbit.live/?ref=producthunt": {
+    "zh_title": "LinkBit：免费短链接工具",
+    "zh_oneliner": "免费短链接工具，支持自定义短链、点击统计、UTM 和二维码，AI 智能体也能通过 API 和 MCP 直接调用。",
+    "en_title": "LinkBit",
+    "en_oneliner": "A free URL shortener with custom slugs, click analytics, a UTM builder and QR codes that AI agents can also call via API and MCP."
+  },
+  "https://kadeep.ai/?ref=producthunt": {
+    "zh_title": "KaDeep AI：发布就绪度检测",
+    "zh_oneliner": "自动跑一遍你选定的关键用户旅程，把每处问题的证据收齐，让团队看清哪些能发、哪些还得修，再拍板上线。",
+    "en_title": "KaDeep AI",
+    "en_oneliner": "Automatically runs your selected critical user journeys, gathers evidence for every finding, and shows your team what is ready to ship and what still needs fixing."
+  },
+  "https://rithub.dev/?ref=producthunt": {
+    "zh_title": "Rithub：代码托管平台",
+    "zh_oneliner": "一个能自己掌控的代码托管平台，私有仓库、软件包和 CI 集中在一个账号下，还能一键把仓库从 GitHub 迁过来。",
+    "en_title": "Rithub",
+    "en_oneliner": "A code hosting platform you control, with private repos, packages and CI under one account, plus one-click migration from GitHub."
+  },
+  "https://santaphoto.app": {
+    "zh_title": "SantaPhoto：AI 圣诞照片生成器",
+    "zh_oneliner": "上传自己的照片，挑一个圣诞场景，一分钟左右生成圣诞肖像、贺卡或节日头像，最多可把 4 张照片合成一张全家福。",
+    "en_title": "SantaPhoto",
+    "en_oneliner": "Upload your photos, pick a Christmas scene, and get a festive portrait, greeting card or seasonal avatar in about a minute, merging up to 4 photos into one family shot."
+  },
+  "https://getrender.ai": {
+    "zh_title": "GetRender",
+    "zh_oneliner": "上传设计图，让 AI 秒出建筑效果图，改方案不用再等渲染排队。",
+    "en_title": "GetRender",
+    "en_oneliner": "Upload your design and let AI render architectural visuals in seconds, no more waiting in the render queue when you revise a plan."
+  },
+  "https://floatsong.com": {
+    "zh_title": "FloatSong",
+    "zh_oneliner": "用 AI 写出能直接商用的免版税歌曲，旋律歌词一次成型。",
+    "en_title": "FloatSong",
+    "en_oneliner": "Write royalty-free songs with AI that are ready to use commercially, melody and lyrics in one go."
+  },
+  "https://spriteflow.io": {
+    "zh_title": "Sprite Flow",
+    "zh_oneliner": "用 AI 一键生成游戏精灵图，做 2D 游戏不用再逐帧手绘。",
+    "en_title": "Sprite Flow",
+    "en_oneliner": "Generate game sprites with AI in one click, so 2D games no longer need frame-by-frame hand drawing."
+  },
+  "https://memotune.com": {
+    "zh_title": "MemoTune",
+    "zh_oneliner": "免费的 AI 歌曲生成器，写出的歌免版税，拿来就能用。",
+    "en_title": "MemoTune",
+    "en_oneliner": "A free AI song generator that produces royalty-free tracks you can use right away."
+  },
+  "https://songscene.ai": {
+    "zh_title": "SongScene",
+    "zh_oneliner": "给歌曲一键配上 AI 音乐视频，听觉视觉一次到位。",
+    "en_title": "SongScene",
+    "en_oneliner": "Turn a song into an AI music video in one click, sound and visuals done together."
+  },
+  "https://mixstudio.ai": {
+    "zh_title": "MixStudio",
+    "zh_oneliner": "图片、视频、音乐都能做的 AI 创意工作室，一个页面搞定多媒体创作。",
+    "en_title": "MixStudio",
+    "en_oneliner": "An AI creative studio for images, video and music, handling multimedia creation all on one page."
   }
 }

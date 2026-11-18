@@ -600,6 +600,31 @@ BLOCKED_DOMAINS = {
     "xpodcasts.com", "hostdealspro.com", "momentscope.com",
     "toapis.com", "ai.bayunzi.shop", "ghost-prompter.com",
     "motif.blog",
+    # 抽查确认不是在线工具（2026-11-18 18:07 轮，40 条缺翻译 Product Hunt
+    # 条目逐条查站后封禁）：OffiAI 是 macOS 桌面应用（须从 GitHub 下载
+    # 安装）；VB Notes 是桌面/手机笔记应用（须下载安装）；Kokonut UI 是
+    # 开源 React 组件库（须用命令行装进自己项目才能用）；Horef Rings 是
+    # Apple Watch/iPhone 应用（App Store 下载）；Replay 是 Mac 桌面录制
+    # 应用（一次付费下载）；Spiik 是 iPhone/Mac 录音应用（须下载安装）；
+    # kwatch 须装进自己的 Kubernetes 集群（自托管）；uRun 是实时模型
+    # API 平台（须写代码调 API）；Zode 须装命令行客户端、开云端虚拟机
+    # 给编程智能体干活；AppSumo 是团购销售页（Boost.space AgentOS 链到
+    # 其销售页，工具真址不在此）；Templify 是手机视频模板应用（首页主
+    # 推 1M+ Downloads）；S.Space 首页只有 "Getting ready"，暂未开放；
+    # readywhen 是等候名单 + 活在邮件/WhatsApp 里的助理（点开用不了）；
+    # Kairos 是 iPhone/iPad 个人数据分析应用（HealthKit 路径须 iPhone）；
+    # SaaS Toolkit 的 /mcp 页是 MCP 接入说明（须先有账号再到 Claude /
+    # ChatGPT / Cursor 里配置），不是点开即用的工具
+    "offiai.app", "vbnotes.com", "kokonutui.com", "horef.app",
+    "tryreplay.online", "spiik.io", "kwatch.dev", "urun.sh",
+    "zode.dev", "appsumo.com", "templify.ai", "s.space",
+    "readywhen.ai", "yourkairos.io", "saastoolkit.ai",
+    # Waldo（2026-11-18 18:07 轮，浏览器实测）：wherobots.com/products/waldo/
+    # 是营销/产品介绍页，页上对话界面只是 "a replay of a real Waldo session"
+    # 的演示回放；真用须有 Wherobots Cloud 账号并接好数据目录/湖仓（S3
+    # Iceberg 表、Databricks Unity Catalog 等），不是无需准备即可在浏览器
+    # 里直接用的独立工具
+    "wherobots.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -681,6 +706,15 @@ ARTICLE_PATH_SEGMENTS = {
     # 本身；全库 5 条含 research 路径段的均为文章/研究介绍页，无一是工具）
     "research",
 }
+# 文档/API 参考味路径段：链到 API 文档、开发者文档页的不是能直接用的
+# 工具站本身（2026-11-18 18:37 CST 轮：readplace.com/developers 是
+# “Build on the Readplace API”文档页，却进了热点榜；离线验过全库 745 条
+# 过门条目，这组段只多拦 hissingkitty.com/developers 一条——也是 MCP
+# 服务器介绍页，0 误伤）
+DOC_PATH_SEGMENTS = {
+    "developers", "developer", "api", "api-docs", "apidocs",
+    "reference", "openapi", "swagger",
+}
 # 下载/安装味路径段：链到下载页、安装页、发布包、扩展页的都不是在线工具
 DOWNLOAD_PATH_SEGMENTS = {
     "download", "downloads", "dl", "installer", "install", "setup",
@@ -739,6 +773,9 @@ def tool_gate(url):
     segs = [s.lower() for s in u.path.split("/") if s]
     if any(s in ARTICLE_PATH_SEGMENTS for s in segs):
         return False, "article_path"
+    # 文档/API 参考页：API 文档、开发者文档不是能直接用的工具站
+    if any(s in DOC_PATH_SEGMENTS for s in segs):
+        return False, "doc_path"
     # 日期路径（/2026/11/14/、/2023/08/20/、/2014/february.htm 等）几乎只
     # 出现在博客/新闻文章链接上；工具站首页或功能页不会用年份做路径段
     for s in segs:
