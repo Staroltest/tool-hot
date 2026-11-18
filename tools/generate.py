@@ -550,6 +550,11 @@ BLOCKED_DOMAINS = {
     # 平台上的教育游戏，点 Play 要下载安装 Roblox 客户端才能玩，不是“完全
     # 在网站上就能用”的浏览器工具；标题不露痕迹，标题门拦不住，域名封禁
     "roblox.com",
+    # 抽查确认不是在线工具（2026-11-18 12:07 CST 轮，浏览器实测本轮热点）：
+    # TEA Ecosystem 是 Elm 架构各语言实现的框架目录站（Featured / Recently
+    # added 列表，链出到各框架仓库与官网），站上没有能直接用的工具，本身
+    # 是目录页；标题不露痕迹，标题门拦不住，域名封禁
+    "tea.rinn7e.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {

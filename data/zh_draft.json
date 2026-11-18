@@ -9778,5 +9778,17 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
+  },
+  "https://directorslookbook.app": {
+    "en_oneliner": "Pick a mood and a subject and it hands you a ready-made visual style, with matching image, video and music prompts to copy straight into your AI tools.",
+    "en_title": "Director's Lookbook, named looks for image, video and music prompts",
+    "zh_oneliner": "选好心情和题材，它就给你一套现成的视觉风格方案，连带图片、视频和音乐提示词，复制粘贴就能喂给 AI 生成工具。",
+    "zh_title": "Director's Lookbook：给 AI 生图、生视频和配乐用的风格提示词手册"
+  },
+  "https://trynotched.com/find": {
+    "en_oneliner": "A free guided tinnitus pitch match that runs entirely in your browser: it calibrates levels to your hearing, narrows down your tinnitus pitch by comparing sounds, and guards against the common one-octave mistake.",
+    "en_title": "Tinnitus frequency finder and audio notch tool",
+    "zh_oneliner": "免费的耳鸣音调引导测试，全程在浏览器里完成：先校准音量，再一步步比对声音找出你的耳鸣频率，还会帮你排除差一个八度的常见误判。",
+    "zh_title": "Notched 耳鸣频率自测：四分钟找到你的耳鸣音调"
   }
 }
