@@ -662,6 +662,10 @@ BLOCKED_DOMAINS = {
     # 不是点开就能在浏览器里直接用的工具网站；标题与摘要均不露痕迹，
     # 标题门与实测信号（缺 desktop application 信号）均拦不住，域名封禁
     "clearofficehub.com",
+    # 抽查确认不是在线工具（2026-11-18 20:37 轮实测）：Beat（gobeat.ai）
+    # 链到的就是 /auth/login 登录页，须 Google/邮箱登录且需邀请才能用，
+    # 点开没有任何能直接用的工具；登录墙实测信号未覆盖，域名封禁
+    "gobeat.ai",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
