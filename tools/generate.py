@@ -353,6 +353,11 @@ BLOCKED_DOMAINS = {
     # 功能不在站内完成，不算“完全在网站上就能用”
     "solipsist.sh", "rightnowai.co", "sample-music-player.netlify.app",
     "dustify.org",
+    # 抽查确认不是在线工具（2026-11-18 13:37 轮实测）：Security Zines 的
+    # AWS 页是手绘 zine 合集的售卖页（12 卷 $99，单卷 $15），卖的是付费
+    # 阅读内容，站上没有能直接用的工具；标题带 "zines" 但标题门未覆盖，
+    # 域名封禁
+    "securityzines.com",
     # Tabletop：Google Labs 是实验展示站，labs.google 根地址是目录页；
     # 其实测 tabletop.google/about 是仅限邀请的候补名单落地页，访客无法
     # 直接使用工具（2026-11-16 时间线泄漏：Tabletop 链到 labs.google 根地址）
