@@ -7043,6 +7043,12 @@
     "zh_oneliner": "一篇讲系统取舍的随笔：失败的代价变高之后，什么值得保护、什么可以放弃，排序逻辑也跟着变了。",
     "zh_title": "当失败变得昂贵：系统如何重新排序值得保护的东西"
   },
+  "https://now.itsby.you": {
+    "en_oneliner": "A folk song passed between people and computers — every recording is both an audio file and the program that sings it, ready to fork and pass on.",
+    "en_title": "Show HN: A forkable folk song; each recording holds the code that sang it",
+    "zh_oneliner": "一首在人与电脑之间流传的民谣，每个录音文件里都藏着唱出它的代码，可以接着改、接着传。",
+    "zh_title": "Now It's by You：会自己唱歌的民谣"
+  },
   "https://nukebg.com/?ref=makerhunt": {
     "en_oneliner": "A background remover for sellers and developers — drop an image in and the background is gone in one click.",
     "en_title": "NukeBG: background remover",
@@ -7775,6 +7781,12 @@
     "zh_oneliner": "一个东欧风味的小客厅场景，点开就能在里面玩复古游戏，氛围拉满。",
     "zh_title": "Retro：东欧风客厅里玩复古游戏"
   },
+  "https://sevli.app/background-remover": {
+    "en_oneliner": "An AI image editor that works from plain-language instructions — upload a photo, describe the change, and compare versions, with background removal among its tools.",
+    "en_title": "Sevli",
+    "zh_oneliner": "用一句话改图的 AI 图片编辑器，上传照片后说出想改的地方就能出图，还能反复对比微调，抠图也在其中。",
+    "zh_title": "Sevli：说句话就能改图的 AI 图片编辑器"
+  },
   "https://sf-bay-area-connectivity.wn.r.appspot.com": {
     "en_oneliner": "A map project showing climate-resilient connectivity across the San Francisco Bay Area, layering infrastructure over climate risk — for readers interested in urban planning and climate adaptation.",
     "en_title": "Mapping climate-resilient connectivity across the San Francisco Bay Area",
@@ -8266,6 +8278,12 @@
     "en_title": "Simple, shareable todo lists",
     "zh_oneliner": "打开就能建待办清单，点一下生成分享链接，别人打开链接就能一起看、一起打勾，不用注册。",
     "zh_title": "Todo.link：简单好分享的在线待办清单"
+  },
+  "https://toggles.codewalkers.net": {
+    "en_oneliner": "A free daily game in the spirit of the old internet: set your toggles and dials each day and play by reading the data they produce.",
+    "en_title": "Show HN: Toggles, a game based on analyzing data",
+    "zh_oneliner": "带着老互联网味道的免费小游戏，每天拨动开关、转动旋钮，靠分析数据变化来玩。",
+    "zh_title": "Toggles：靠分析数据玩的开关游戏"
   },
   "https://tokconnect.com?ref=smollaunch": {
     "en_oneliner": "TikTok Shop analytics and trending data — see what's rising and by how much.",
