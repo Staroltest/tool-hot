@@ -10270,5 +10270,17 @@
     "zh_oneliner": "图片、视频、音乐都能做的 AI 创意工作室，一个页面搞定多媒体创作。",
     "en_title": "MixStudio",
     "en_oneliner": "An AI creative studio for images, video and music, handling multimedia creation all on one page."
+  },
+  "https://arbituro.com": {
+    "zh_title": "Arbituro：有人工把关的 AI 智能体工作台",
+    "zh_oneliner": "把需求交给 AI 智能体出报告、备忘录和演示文稿，整理待办、起草排期，每一步发送和改动都要人点头，全程留痕。",
+    "en_title": "Show HN: Arbituro",
+    "en_oneliner": "Hand briefs to AI agents for reports, memos and decks, tidy backlogs and draft schedules — every send or change waits for a human's approval, with a full audit trail."
+  },
+  "https://featurestream-prototype.vercel.app": {
+    "zh_title": "FeatureStream：给 AI 智能体公司的产品管理原型",
+    "zh_oneliner": "把丢单、工单和智能体日志等证据导进来，逐条决定做什么功能、排好先后，再跟踪开发进度和预期收益。",
+    "en_title": "Show HN: Prototype of a product management tool for AI agent companies",
+    "en_oneliner": "Import lost deals, tickets and agent logs as evidence, decide feature by feature what to build, order the roadmap, then track progress and expected impact."
   }
 }
