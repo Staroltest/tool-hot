@@ -675,6 +675,23 @@ BLOCKED_DOMAINS = {
     # 是 Rust B-rep CAD 内核代码库，官网是文档页（"add the crate"、
     # cargo run），须下载安装 Rust/cargo 才能用，不是浏览器工具
     "springcraft-ai.github.io",
+    # 抽查确认不是在线工具（2026-11-19 07:07 CST 轮实测）：Toggles
+    # 是靠分析数据玩的开关小游戏（"Play a short season"、Leaderboards、
+    # Daily Dispatch），站内简介自写"免费小游戏"；游戏不是工具，
+    # 标题不露痕迹，实测信号拦不住，域名封禁
+    "toggles.codewalkers.net",
+    # 抽查确认不是在线工具（2026-11-19 07:07 CST 轮实测）：Space-Core
+    # 是浏览器 MMO 太空游戏（首页自述 "a space game in your browser"）；
+    # 游戏不是工具，域名封禁
+    "space-core.at",
+    # 抽查确认不是在线工具（2026-11-19 07:07 CST 轮实测）：Now It's by You
+    # 是一首民谣，AI Song Contest 2026 决赛作品，可下载 FLAC 录音；
+    # 艺术/歌曲项目不是工具，域名封禁
+    "now.itsby.you",
+    # 抽查确认不是在线工具（2026-11-19 07:07 CST 轮实测）：Escape Rooms
+    # for Lateral Thinkers 是网页密室逃脱游戏（"Dr. Wünderbach's Escape"，
+    # 16 间解谜房）；游戏不是工具，域名封禁
+    "enigma-game.specr.net",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
