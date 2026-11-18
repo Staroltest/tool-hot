@@ -5831,6 +5831,12 @@
     "zh_oneliner": "解谜游戏：一个零件一个零件地接线，亲手拼出一块 GPU，看它把画面渲染出来。",
     "zh_title": "Show HN：Hello Triangle——接电路造 GPU 的解谜游戏"
   },
+  "https://hn.orbitalchicken.com": {
+    "en_oneliner": "Browse Hacker News in resizable Finder-style columns — open a thread and its comments unfold in the next column, no jumping back and forth.",
+    "en_title": "Hacker Column: A Multi-Column Hacker News Reader",
+    "zh_oneliner": "用仿 Finder 的多栏布局刷 Hacker News，点开一条帖子，评论串就在旁边一栏展开，不用来回跳转。",
+    "zh_title": "Hacker Column：多栏式 Hacker News 阅读器"
+  },
   "https://homebuildbudget.com": {
     "en_oneliner": "State-by-state Australian custom home building cost calculators with budget breakdowns.",
     "en_title": "HomeBuildBudget: Australian Home Building Cost Calculators",
@@ -7901,6 +7907,12 @@
     "zh_oneliner": "视频转可编辑、带时间戳的文字稿和字幕，音频在浏览器本地提取，视频不用上传。",
     "zh_title": "Voxcribe：视频转文字稿"
   },
+  "https://vyroclipping.org": {
+    "en_oneliner": "Enter your clip's view stats and see what each video actually earns, so clipping creators can see their real revenue.",
+    "en_title": "Show HN: Vyro Clipping Calculator – what your views actually pay",
+    "zh_oneliner": "输入剪辑视频的播放数据，算出每条视频实际能赚多少钱，帮剪辑创作者看清真实收益。",
+    "zh_title": "Vyro Clipping Calculator：算算播放量到底值多少钱"
+  },
   "https://walletwait.app/en": {
     "en_oneliner": "Before you buy, share the item, price and reasons and let friends talk you into — or out of — it.",
     "en_title": "WalletWait: a second opinion before you buy",
@@ -8356,6 +8368,12 @@
     "en_title": "Go and Dart Break into Tiobe Index Top",
     "zh_oneliner": "Go 和 Dart 在 Tiobe 编程语言指数里冲进前列，关注语言流行度趋势的可以看看这篇报道。",
     "zh_title": "Go 与 Dart 打进 Tiobe 指数前列"
+  },
+  "https://www.infoboxing.net": {
+    "en_oneliner": "It shows you only a Wikipedia infobox and asks you to guess the article — a quick guessing game that tests your knowledge and eye for detail.",
+    "en_title": "Show HN: Infoboxing – Guess the Wikipedia article from its infobox",
+    "zh_oneliner": "只给你看维基百科的信息框，猜猜这是哪篇文章，考知识面和眼力的猜谜小游戏。",
+    "zh_title": "Infoboxing：只看信息框猜维基百科条目"
   },
   "https://www.jdsupra.com/legalnews/delaware-considers-ai-managed-companies-7749604": {
     "en_oneliner": "Delaware is considering whether companies can be managed by AI, and if that goes ahead, the rules on who bears responsibility and what directors owe will need rewriting.",
@@ -9155,6 +9173,12 @@
     "zh_oneliner": "新西兰惠灵顿维多利亚大学的教师正在引导学生在学习中少用 AI，这篇讲了他们的理由。",
     "zh_title": "惠灵顿维多利亚大学教师引导学生少用 AI"
   },
+  "https://www.roblox.com/games/129981060143619/Roxy-Island-Math-Reading": {
+    "en_oneliner": "A Roblox game where kids learn math and reading through play, with no brainrot-style content — an educational game made for children.",
+    "en_title": "Show HN: A non-brainrot, education Roblox game for your kids",
+    "zh_oneliner": "在 Roblox 里边玩边学数学和阅读，没有无脑刷屏式的内容，适合给孩子当益智游戏。",
+    "zh_title": "Roxy Island：教孩子数学和阅读的 Roblox 教育游戏"
+  },
   "https://www.science.org/content/article/ai-rivals-tackle-one-physics-deepest-mathematical-challenges": {
     "en_oneliner": "Rival AI labs put their models to the test on one of physics' deepest mathematical challenges — a report on how the contest is unfolding.",
     "en_title": "AI rivals tackle one of physics' deepest mathematical challenges",
@@ -9724,23 +9748,5 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
-  },
-  "https://www.infoboxing.net": {
-    "en_title": "Show HN: Infoboxing – Guess the Wikipedia article from its infobox",
-    "zh_title": "Infoboxing：只看信息框猜维基百科条目",
-    "zh_oneliner": "只给你看维基百科的信息框，猜猜这是哪篇文章，考知识面和眼力的猜谜小游戏。",
-    "en_oneliner": "It shows you only a Wikipedia infobox and asks you to guess the article — a quick guessing game that tests your knowledge and eye for detail."
-  },
-  "https://vyroclipping.org": {
-    "en_title": "Show HN: Vyro Clipping Calculator – what your views actually pay",
-    "zh_title": "Vyro Clipping Calculator：算算播放量到底值多少钱",
-    "zh_oneliner": "输入剪辑视频的播放数据，算出每条视频实际能赚多少钱，帮剪辑创作者看清真实收益。",
-    "en_oneliner": "Enter your clip's view stats and see what each video actually earns, so clipping creators can see their real revenue."
-  },
-  "https://www.roblox.com/games/129981060143619/Roxy-Island-Math-Reading": {
-    "en_title": "Show HN: A non-brainrot, education Roblox game for your kids",
-    "zh_title": "Roxy Island：教孩子数学和阅读的 Roblox 教育游戏",
-    "zh_oneliner": "在 Roblox 里边玩边学数学和阅读，没有无脑刷屏式的内容，适合给孩子当益智游戏。",
-    "en_oneliner": "A Roblox game where kids learn math and reading through play, with no brainrot-style content — an educational game made for children."
   }
 }

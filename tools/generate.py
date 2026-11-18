@@ -496,6 +496,13 @@ BLOCKED_DOMAINS = {
     # 无法验证为网页工具；五者标题均不露痕迹，标题门拦不住，域名封禁
     "cookieaway.com", "degla.ai", "trynexus.io", "rankspot.ai",
     "polyroom.ai",
+    # 抽查确认不是在线工具（2026-11-18 08:07 CST 轮，浏览器实测本轮 2 条新到
+    # 热点）：MacAudio 是原生 Mac 菜单栏音量混合器（官网“Native Mac volume
+    # mixer … from your Mac's menu bar”），须下载安装才能用，不是浏览器里
+    # 直接用的工具；首页是 JS 空壳（静态 HTML 仅 1.6KB），实测探查不到下载
+    # 信号；标题“Best volume mixer on Mac?”也不露痕迹，标题门同步加
+    # \bon\s+mac\b；域名封禁
+    "macaudio.app",
     # 抽查确认不是在线工具（2026-11-17 23:07 CST 轮，浏览器实测本轮 10 条新品，
     # 3 条泄漏）：Flexible Sim 链到 JetBrains Marketplace 插件页，是 JetBrains
     # IDE 插件（须装 IDE 与 Julia/Python/OpenModelica 运行时），不是浏览器里
@@ -701,6 +708,10 @@ _TITLE_BLOCK_RES = [
         r"\bfor\s+(windows|mac|macos|ios|android|linux|iphone|ipad)\b",
         r"\bon\s+your\s+(mac|windows|iphone|ipad|android)\b",
         r"\bon\s+(macos|windows|ios|android|linux)\b",
+        # “on Mac”（如“Best volume mixer on Mac?”）：Mac 桌面应用的典型说法，
+        # 网页工具标题里不会出现“on Mac”（2026-11-18 08:07 CST 轮：MacAudio；
+        # 离线验过 522 条在榜条目，只拦 MacAudio 一条，0 误伤）
+        r"\bon\s+mac\b",
         r"\b(mac|macos|windows|ios|android|linux)\s+"
         r"(app|assistant|client|software|version|edition|dictation)\b",
         # “Mac Mini 应用”（如“Build native Mac Mini apps”）：“Mac Mini”
