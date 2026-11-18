@@ -546,6 +546,10 @@ BLOCKED_DOMAINS = {
     # GPU 推理短课程（章节课文 + 可运行图解），内容站而非工具站；两者标题
     # 均不露痕迹，标题门拦不住，域名封禁
     "atlas-compiler.com", "athrael.net",
+    # 抽查确认不是在线工具（2026-11-18 08:37 CST 轮）：Roxy Island 是 Roblox
+    # 平台上的教育游戏，点 Play 要下载安装 Roblox 客户端才能玩，不是“完全
+    # 在网站上就能用”的浏览器工具；标题不露痕迹，标题门拦不住，域名封禁
+    "roblox.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
