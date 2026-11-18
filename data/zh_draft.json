@@ -305,6 +305,12 @@
     "zh_oneliner": "同人作品存档站 AO3 迎来 17 周年，官方发文回顾这个由志愿者撑起来的非营利社区一路走来的历程。",
     "zh_title": "庆祝 AO3 的 17 周年"
   },
+  "https://archiver.scryer.media": {
+    "en_oneliner": "Extract and create ZIP, 7z, RAR and more right in your browser — files never leave your device, with encryption and repair for damaged archives.",
+    "en_title": "Archiver: Free In-Browser Tool to Extract and Create ZIP, 7z and RAR Archives",
+    "zh_oneliner": "在浏览器里免费解压和打包 ZIP、7z、RAR 等格式，文件全程不出本机，还能加密和修复损坏的压缩包。",
+    "zh_title": "Archiver：浏览器里免费解压与打包压缩文件"
+  },
   "https://archlog.dev": {
     "en_oneliner": "A tool that records why your team made each engineering decision, so nobody has to guess the reasoning six months later.",
     "en_title": "Show HN: ArchLog – a memory for your team's engineering decisions",
@@ -568,6 +574,12 @@
     "en_title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
     "zh_oneliner": "自己托管地图瓦片不再是重活，Protomaps 让这件事变得便宜又简单，想摆脱地图服务依赖的可以了解一下。",
     "zh_title": "Protomaps：自己托管地图瓦片已经又便宜又简单"
+  },
+  "https://brume.tools": {
+    "en_oneliner": "Record, edit, compress and convert video, GIFs and images right in your browser — your files never leave your device, no sign-up, no ads.",
+    "en_title": "Brume: Video, GIF and Image Tools That Run in Your Browser",
+    "zh_oneliner": "录屏、剪辑、压缩、转 GIF 等视频图片工具全在浏览器里完成，文件不出本机，不用注册也没有广告。",
+    "zh_title": "Brume：视频、GIF、图片工具全在浏览器里跑"
   },
   "https://bryananthonio.com/blog/straight-line-predicts-how-fast-my-laptop-generates-llm-tokens": {
     "en_oneliner": "The author found that LLM token speed on a laptop can be predicted with a straight line, and shares how the measurement works — useful if you care about local model performance.",

@@ -692,6 +692,14 @@ BLOCKED_DOMAINS = {
     # for Lateral Thinkers 是网页密室逃脱游戏（"Dr. Wünderbach's Escape"，
     # 16 间解谜房）；游戏不是工具，域名封禁
     "enigma-game.specr.net",
+    # 抽查确认不是在线工具（2026-11-19 07:37 CST 轮实测）：Ring Velocity
+    # 是水环物理小游戏（首页自述 "a calming physics game inspired by the
+    # classic water ring toy"）；游戏不是工具，域名封禁
+    "ringvelocity.com",
+    # 抽查确认不是在线工具（2026-11-19 07:37 CST 轮实测）：FairBake
+    # Signature 是编码智能体评测榜单/报告页（各模型得分排行榜，只能浏览
+    # 与排序），站上没有能直接用的工具；榜单/报告不是工具，域名封禁
+    "fairbake.dev",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -756,6 +764,15 @@ BLOCKED_EXACT = {
     # 标题“Git client”不露安装痕迹，标题门拦不住，浏览器实测封禁
     # （2026-11-18 16:37 CST 轮）
     "tyler-johnson.github.io",
+    # ClashPulse：Mihomo 桌面客户端（官网自述 "a desktop client for Mihomo"，
+    # "one Go binary for Linux, macOS, and Windows"，须下载安装客户端与
+    # Mihomo），不是浏览器工具；只拦这一个 host
+    # （2026-11-19 07:37 CST 轮实测）
+    "fishman.github.io",
+    # Boo-Mas：圣诞捉鬼小游戏（"Be the Christmas spirit. Literally"，
+    # 画圈点灯玩法）；游戏不是工具，只拦这一个 host
+    # （2026-11-19 07:37 CST 轮实测）
+    "robinduckett.github.io",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
