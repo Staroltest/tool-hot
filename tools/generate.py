@@ -373,6 +373,22 @@ BLOCKED_DOMAINS = {
     # 探查信号够不着这种写法（extension_install 要求 install 后紧跟
     # 浏览器名），域名封禁
     "trybeacon.space",
+    # 抽查确认不是在线工具（2026-11-18 11:37 PST 轮实测，本轮热点/时间线
+    # 泄漏 10 条）：joelriley.com/fun-with-trainers 是个人博客文章（讲单车
+    # 训练器 Web Bluetooth 实验，工具本身只是文中链接）；sourcepost.dev
+    # 是 AI 代理供应商/服务/API 目录站；kradle.ai 是 Minecraft 多智能体
+    # 基准榜单与回放结果页，站上跑不了评测；intrusive.ai 是开源攻击模拟
+    # 平台（AGPL，Operator/Interceptor 须自托管安装），站上没有能直接用
+    # 的工具；transposeany.com 是 Chrome 扩展落地页（须安装扩展）；
+    # yashmouje.com/record 是个人互动散文页（金唱片主题的十二件事，内容
+    # 站）；shown.simdijinkins.com 是 Show HN 全量存档/目录站；
+    # scififutures.vercel.app 是科幻技术成熟度互动科普页（内容站）；
+    # rshekhar.com/voyager 是旅行者 1 号互动拆解页（内容站，非工具）；
+    # voxoria.ai 是纯 API/MCP 营销数据平台，定价对比页是参考页（同已封
+    # 的 TokLab 等纯 API 平台）
+    "joelriley.com", "sourcepost.dev", "kradle.ai", "intrusive.ai",
+    "transposeany.com", "yashmouje.com", "shown.simdijinkins.com",
+    "scififutures.vercel.app", "rshekhar.com", "voxoria.ai",
     # Tabletop：Google Labs 是实验展示站，labs.google 根地址是目录页；
     # 其实测 tabletop.google/about 是仅限邀请的候补名单落地页，访客无法
     # 直接使用工具（2026-11-16 时间线泄漏：Tabletop 链到 labs.google 根地址）
