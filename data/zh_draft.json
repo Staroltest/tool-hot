@@ -9802,5 +9802,11 @@
     "en_title": "Agents Please: Project Badges to Show LLM Preferences",
     "zh_oneliner": "给你的项目表个态：允不允许 AI 参与开发，选 Yes 或 No 就生成一枚徽章，贴到 README 里一目了然。",
     "zh_title": "Agents Please：给项目贴 AI 使用意愿徽章"
+  },
+  "https://trymorse.ai/?src=bl-makerhunt": {
+    "zh_title": "Morse：主打隐私的无审查 AI 聊天",
+    "zh_oneliner": "80 多个模型随便聊，聊天记录只加密存在你自己的设备上，连 Morse 自己都读不到，还能选端到端加密模式。",
+    "en_title": "Morse",
+    "en_oneliner": "Chat with 80+ AI models in a privacy-first app: your chats stay encrypted on your own device, unreadable even to Morse, with an end-to-end encrypted mode."
   }
 }
