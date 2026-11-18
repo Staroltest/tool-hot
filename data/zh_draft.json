@@ -431,6 +431,12 @@
   "zh_oneliner": "向魔兽争霸 3 自定义生存图致敬的浏览器游戏，五名玩家一起造炮塔、砌围墙，守住基地撑过十波进攻。",
   "zh_title": "Terror Space：五人联机的浏览器生存游戏"
  },
+ "https://bineric.com/zuse": {
+  "en_oneliner": "Paste a document, set the options, and get a probability for every answer — try it live on the page, hosted in the EU.",
+  "en_title": "Zuse: A Decision Model Built for Europe's Languages, Running in the EU",
+  "zh_oneliner": "贴一段文档、定好选项，模型按概率告诉你每个答案有多可信，还能在页面上直接试玩。",
+  "zh_title": "Zuse：27 种欧洲语言的决策模型"
+ },
  "https://bjorg.bjornroche.com/management/ai-in-2027": {
   "en_oneliner": "A forward-looking piece on how AI will reshape engineering management, aimed at technical leaders.",
   "en_title": "How AI will change engineering leadership in 2027",
@@ -5153,6 +5159,12 @@
   "zh_oneliner": "一键生成逼真的假身份和测试数据，开发测试填表单时再也不用编名字了。",
   "zh_title": "Fakenamely：生成逼真的虚拟身份测试数据"
  },
+ "https://familyatlas.hexmobius.com": {
+  "en_oneliner": "Upload a GEDCOM file and get a printable ancestor chart as a poster or A4 sheets, with your family data staying in the browser.",
+  "en_title": "Family Charts: Turn a GEDCOM File into a Printable Ancestor Chart",
+  "zh_oneliner": "上传 GEDCOM 文件就能生成祖先图，可打印成海报或 A4 纸，数据只留在浏览器里。",
+  "zh_title": "Family Charts：GEDCOM 转可打印家谱图"
+ },
  "https://fanfictiongenerator.app": {
   "en_oneliner": "A private workspace for fanfiction that keeps characters and story continuity in check across long chapters.",
   "en_title": "Fanfiction Generator",
@@ -5837,6 +5849,12 @@
   "zh_oneliner": "免费测一测你的网站在 ChatGPT、Gemini、Claude 等 AI 搜索里有没有被点名，从内容可信度、技术可读性三方面打分。",
   "zh_title": "TruLata AI Visibility"
  },
+ "https://grandtreasureisland.vercel.app": {
+  "en_oneliner": "Drive, explore, and take on missions across a real island modeled by AI — a GTA-style game that runs right in the browser.",
+  "en_title": "Grand Treasure Island: A GTA-Style Game on a Real Island, Modeled by AI",
+  "zh_oneliner": "在一座 AI 建模的真实海岛上开车、探索、做任务，打开浏览器就能玩的 GTA 风格游戏。",
+  "zh_title": "Grand Treasure Island：AI 建模的海岛版 GTA 游戏"
+ },
  "https://groundbinary.com": {
   "en_oneliner": "Is data an asset or a liability? There is no single answer, so the author works through a few angles to put a value on data and rethink what yours is worth.",
   "en_title": "How much is data worth?",
@@ -5944,6 +5962,12 @@
   "en_title": "Your EC2 Bill is an Architecture Problem, Not an Accounting One",
   "zh_oneliner": "EC2 账单居高不下，往往是因为早期默认配置一直没人回头改，文章讲怎么从架构上把这笔钱降下来。",
   "zh_title": "你的 EC2 账单是架构问题，不是记账问题"
+ },
+ "https://happo.io/animations": {
+  "en_oneliner": "Captures your UI animations frame by frame and diffs how they move, so a broken spinner or transition shows up before merge.",
+  "en_title": "Happo animation testing",
+  "zh_oneliner": "把网页里的加载动画、过渡效果逐帧截下来比对，动效坏了在合并代码前就能发现。",
+  "zh_title": "Happo 动画测试"
  },
  "https://happo.io/animations?ref=producthunt": {
   "en_oneliner": "Captures your UI animations frame by frame and diffs how they move, so a broken spinner or transition shows up before merge.",
@@ -7643,6 +7667,12 @@
   "zh_oneliner": "传一张清晰的正面照，AI 生成一张和白狮 Sheru Bhai 的合影，每天免费一张。",
   "zh_title": "AI 白狮合影：照片变狮子合照"
  },
+ "https://shipshapescan.com": {
+  "en_oneliner": "Paste your app's URL for a passive security scan that flags the risks hiding in AI-written code, no changes needed.",
+  "en_title": "ShipShape Scan: A Passive Security Check for Vibe-Coded Apps",
+  "zh_oneliner": "贴上应用地址就能被动扫描一轮安全问题，不用改代码，专查 AI 写出来的代码里藏的安全隐患。",
+  "zh_title": "ShipShape Scan：给 AI 生成应用做安全体检"
+ },
  "https://shiye.leiping.dev": {
   "en_oneliner": "Parents pick the textbook edition and unit, and in 3 minutes get an interactive one-page journal with flip cards, quizzes, and stamps; kids just open the link and start, and it prints neatly on A4.",
   "en_title": "Shiye: Turn a Textbook Page into an Interactive Learning Journal Kids Actually Finish",
@@ -8501,6 +8531,12 @@
   "zh_oneliner": "有人把自家路由器管理页面 192.168.1.1 的存档快照发上了 Hacker News，页面内容正是 RouterOS 的界面。",
   "zh_title": "RouterOS，来自 Wayback Machine 的存档快照"
  },
+ "https://webhosting.today/market-insights": {
+  "en_oneliner": "A live leaderboard mapping 438 million domains to their hosting providers, filterable by country to see rankings and migrations.",
+  "en_title": "Hosting Market Insights: Hosting Market Leaderboard",
+  "zh_oneliner": "4.38 亿个域名的托管归属都标在这张榜上，按国家、服务商查排名和迁移情况。",
+  "zh_title": "Hosting Market Insights：域名托管市场榜单"
+ },
  "https://websites.umich.edu/~ners311/CourseLibrary/MathNotes.pdf": {
   "en_oneliner": "A 1959 set of mathematics notes for engineers, preserved in a university course library — a download for fans of vintage textbooks.",
   "en_title": "Notes on Mathematics for Engineers (1959) [pdf]",
@@ -8723,6 +8759,12 @@
   "zh_oneliner": "把全网社交声量和文化讨论实时翻译成品牌能直接行动的结论，告诉你该做什么、为什么。",
   "zh_title": "Clamor"
  },
+ "https://www.clearofficehub.com": {
+  "en_oneliner": "Describe the app you need in plain language and get a working enterprise app that runs on your own machines and data, with governance built in.",
+  "en_title": "ClearOffice Hub: Build Enterprise Apps with Natural Language",
+  "zh_oneliner": "用一句话描述需求就能搭出企业级应用，跑在自己的机器和数据上，带权限管控与审计。",
+  "zh_title": "ClearOffice Hub：用自然语言搭建企业应用"
+ },
  "https://www.clientclap.com?ref=smollaunch": {
   "en_oneliner": "Send clients one secure link and their files and logins come back in an automated checklist.",
   "en_title": "ClientClap: client onboarding checklists",
@@ -8878,6 +8920,12 @@
   "en_title": "ULA Vulcan suffers anomaly after return-to-flight launch from Cape Canaveral",
   "zh_oneliner": "ULA 的 Vulcan 火箭在卡纳维拉尔角重返飞行后出现异常，商业航天爱好者可以跟进后续报道。",
   "zh_title": "ULA Vulcan 火箭重返飞行后出现异常"
+ },
+ "https://www.frameworkheroes.com": {
+  "en_oneliner": "A job board where every listing states its framework, so you can filter by the stack you actually work with.",
+  "en_title": "Framework Heroes: A Job Board Where Every Advert Names Its Framework",
+  "zh_oneliner": "每个招聘帖都写明用的框架，按 React、Vue 这些技术栈筛，直接找到对口的岗位。",
+  "zh_title": "Framework Heroes：按技术栈找工作的招聘板"
  },
  "https://www.frevana.com/?ref=producthunt": {
   "en_oneliner": "AI that grows your business alongside your team — a multiplayer AI workspace.",

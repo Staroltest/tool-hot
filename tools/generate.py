@@ -625,6 +625,13 @@ BLOCKED_DOMAINS = {
     # Iceberg 表、Databricks Unity Catalog 等），不是无需准备即可在浏览器
     # 里直接用的独立工具
     "wherobots.com",
+    # Gridline（2026-11-18 23:07 CST 轮，curl 实测本轮新到时间线条目）：
+    # gridlinegpu.com 是微调/批量推理 API 平台（"One API for fine-tuning,
+    # distillation and batch inference"，OpenAI-compatible），站上只有
+    # signup、文档与示例，没有能在浏览器里直接用的工具；同已封的 TokLab、
+    # Quebec、atlas-compiler.com 等纯 API 平台；标题不露痕迹，标题门拦不住，
+    # 域名封禁
+    "gridlinegpu.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
