@@ -455,6 +455,12 @@
   "zh_oneliner": "免费测一测：AI 智能体能不能搞定你的网站，28 项检查一次出分。",
   "zh_title": "Is-Agentic?：网站 AI 就绪检查"
  },
+ "https://blobbies.souravinsights.com": {
+  "en_oneliner": "Type your initials and instantly get a cute little blob avatar that's unmistakably yours.",
+  "en_title": "Show HN: Blobbies – Cute little avatars with your initials",
+  "zh_oneliner": "输入姓名首字母，立刻生成一只圆乎乎的专属小头像，可爱又好认。",
+  "zh_title": "Blobbies：用姓名首字母生成圆乎乎小头像"
+ },
  "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism": {
   "en_oneliner": "The Internet Archive is preserving thirty years of Salon journalism so this archive of online news does not vanish as websites change.",
   "en_title": "Preserving 30 Years of Salon Journalism",
@@ -7474,6 +7480,12 @@
   "en_title": "Rithub",
   "zh_oneliner": "一个能自己掌控的代码托管平台，私有仓库、软件包和 CI 集中在一个账号下，还能一键把仓库从 GitHub 迁过来。",
   "zh_title": "Rithub：代码托管平台"
+ },
+ "https://robofyi.com": {
+  "en_oneliner": "Compare robot foundation models, datasets, and hardware side by side, so you can size up your options before committing to a stack.",
+  "en_title": "Show HN: RoboFYI – Compare robot foundation models, datasets and hardware",
+  "zh_oneliner": "机器人基础模型、数据集和硬件放在一张表里横向对比，选型之前先来这里对对参数。",
+  "zh_title": "RoboFYI：机器人模型、数据集与硬件横向对比"
  },
  "https://rodneybrooks.com/does-until-it-doesnt-and-doesnt-until-it-does": {
   "en_oneliner": "A Rodney Brooks essay on the strange way things work until they don't — and don't until they do.",
