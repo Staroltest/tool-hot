@@ -4997,6 +4997,12 @@
   "zh_oneliner": "几分钟做出专业设计：模板挑一个，改改就是你的。",
   "zh_title": "Edit.org Design：在线设计"
  },
+ "https://edx0.dev": {
+  "en_oneliner": "Real dev containers in the browser — editor, terminal and AI coding agent included — running Node, Next.js, Python and more with nothing to install.",
+  "en_title": "Edx0 — Instant Dev Containers in the Browser",
+  "zh_oneliner": "不用装任何东西，在浏览器里直接跑起带编辑器、终端和 AI 编程助手的真实开发容器，Node、Next.js、Python 都能用。",
+  "zh_title": "Edx0：浏览器里的即时开发容器"
+ },
  "https://elak.app": {
   "en_oneliner": "Negotiate a better deal when you buy, lease, or finance a car.",
   "en_title": "Show HN: Elak – helps you buy/lease/finance a car with better negotiation",
@@ -6005,6 +6011,12 @@
   "zh_oneliner": "买设备之前先算清楚，太阳能、电车充电、电池和备用电源的规模和回本都帮你估好。",
   "zh_title": "Home Energy Calculators：家庭能源规划"
  },
+ "https://hookchecker.com": {
+  "en_oneliner": "Upload a vertical short-video draft and it scores the opening second by second, showing where viewers drop off and how to fix the hook.",
+  "en_title": "HookChecker — Score Your Short Video Hook Before You Post",
+  "zh_oneliner": "上传竖屏短视频草稿，它会逐秒分析画面和声音，告诉你哪几秒会流失观众、该怎么改口播开头。",
+  "zh_title": "HookChecker：发之前先给短视频开头打个分"
+ },
  "https://hoverine.com/?ref=producthunt": {
   "en_oneliner": "Interactive Rive templates you can poke, customize with your own logo, colors, and words, then download as working .riv files.",
   "en_title": "Hoverine",
@@ -6329,6 +6341,12 @@
   "zh_oneliner": "每天一道太空冷知识问答，免费玩，看看你对宇宙了解多少。",
   "zh_title": "Krillion Space：每日太空问答"
  },
+ "https://ksvslk.github.io/gta6-launch-map": {
+  "en_oneliner": "A world map of GTA VI unlock times across 63 store regions — a country lights up once the game unlocks there, shown on your own clock.",
+  "en_title": "GTA VI Launch Map — See If the Game Is Out in Your Country",
+  "zh_oneliner": "按 63 个商店地区的解锁时间画的世界地图，哪个国家亮了就说明当地已解锁，还能按你自己的时区看下一波。",
+  "zh_title": "GTA 6 发售地图：查你所在的国家解锁了没"
+ },
  "https://la-speed-cameras-nine.vercel.app": {
   "en_oneliner": "Draw your route on the map and it counts how many new speed cameras sit along it — check before you drive.",
   "en_title": "Show HN: I mapped LA's new speed cameras so you can count them on your route",
@@ -6508,6 +6526,12 @@
   "en_title": "T.REX Arms Maps",
   "zh_oneliner": "T.REX Arms 的免费地图服务，可以查看并打印地形图，户外与训练爱好者可能会用得上。",
   "zh_title": "T.REX Arms 地图服务：免费可打印地形图"
+ },
+ "https://margeux.com/studio.html": {
+  "en_oneliner": "An indentation-based Lisp dialect with an in-browser editor and WASM runtime — open the page and start writing and running code.",
+  "en_title": "Margeux — An Indentation-Based Lisp with a WASM Runtime",
+  "zh_oneliner": "一门靠缩进写代码的 Lisp 方言，带浏览器内编辑器和 WASM 运行时，打开网页就能写能跑。",
+  "zh_title": "Margeux：用缩进写 Lisp，直接在浏览器里跑"
  },
  "https://masr.gitlab.io/blog/a2a-think-not": {
   "en_oneliner": "A critique arguing that the A2A agent-to-agent protocol is flawed at the design level.",
