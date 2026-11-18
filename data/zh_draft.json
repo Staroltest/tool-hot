@@ -10078,5 +10078,17 @@
     "zh_oneliner": "用 AI 生成产品图、按参考图改图，还能批量出不同 SKU 版本，直接在网页工作室里完成。",
     "en_title": "InkRoom AI",
     "en_oneliner": "Generate product photos with AI, edit from reference images, and batch out SKU variants — all in the web studio."
+  },
+  "https://collegeessaygrader.app": {
+    "en_oneliner": "Paste a college application essay and get a free 100-point score plus six dimension scores, no sign-up needed to see your score.",
+    "en_title": "College Essay Grader – Free AI Score for College Essays",
+    "zh_oneliner": "粘贴一篇大学申请文书，免费拿到百分制总分和六个维度的单项评分，不用注册就能看分数。",
+    "zh_title": "College Essay Grader：大学申请文书免费 AI 评分"
+  },
+  "https://math2.tamnd.com/areas": {
+    "en_oneliner": "An interactive map of mathematics organized into a hundred areas and sub-areas, each linking to its key concepts and ideas.",
+    "en_title": "Math 2.0",
+    "zh_oneliner": "把数学按上百个分支和子领域铺成一张可点开浏览的知识地图，每个分支下都挂着对应的概念和想法。",
+    "zh_title": "Math 2.0：按分支浏览的交互式数学地图"
   }
 }
