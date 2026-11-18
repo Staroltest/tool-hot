@@ -95,6 +95,12 @@
     "zh_oneliner": "一本关于智能体工程的在线书，讲如何把 AI 智能体用在科学计算里。",
     "zh_title": "面向科学计算的智能体工程"
   },
+  "https://agentsp.lease": {
+    "en_oneliner": "Declare your project's stance on AI use — pick Yes or No and get a badge for your README, so everyone knows at a glance.",
+    "en_title": "Agents Please: Project Badges to Show LLM Preferences",
+    "zh_oneliner": "给你的项目表个态：允不允许 AI 参与开发，选 Yes 或 No 就生成一枚徽章，贴到 README 里一目了然。",
+    "zh_title": "Agents Please：给项目贴 AI 使用意愿徽章"
+  },
   "https://ai-rumpelstiltskin.com": {
     "en_oneliner": "Turn photos into a 10-second tiptoe dance video with music and no watermark.",
     "en_title": "Rumpelstiltskin AI",
@@ -4865,6 +4871,12 @@
     "zh_oneliner": "把 Google Home Mini 从谷歌服务里解放出来，改造成本地运行的音乐助手，全程自己掌控。",
     "zh_title": "用 Nginx 和 Music Assistant 给 Google Home Mini 去谷歌化"
   },
+  "https://directorslookbook.app": {
+    "en_oneliner": "Pick a mood and a subject and it hands you a ready-made visual style, with matching image, video and music prompts to copy straight into your AI tools.",
+    "en_title": "Director's Lookbook, named looks for image, video and music prompts",
+    "zh_oneliner": "选好心情和题材，它就给你一套现成的视觉风格方案，连带图片、视频和音乐提示词，复制粘贴就能喂给 AI 生成工具。",
+    "zh_title": "Director's Lookbook：给 AI 生图、生视频和配乐用的风格提示词手册"
+  },
   "https://dokira.com": {
     "en_oneliner": "Dokira manages ad revenue for publishers, tuned by people rather than left entirely to algorithms.",
     "en_title": "Dokira – Ad revenue for publishers, tuned by people",
@@ -6185,6 +6197,12 @@
     "zh_oneliner": "给非营利组织的一站式筹款平台，捐款、活动、捐赠人管理和报表都在浏览器里搞定。",
     "zh_title": "LevCharity：非营利组织筹款平台"
   },
+  "https://levmiseri.com/liminalchess": {
+    "en_oneliner": "A familiar game with a new twist: pieces live on edges and corners, occupying two or four squares — open the page and play.",
+    "en_title": "Liminal Chess",
+    "zh_oneliner": "熟悉的象棋，换了个新玩法：棋子可以落在边线和角上、同时占两格甚至四格，打开网页就能下一局。",
+    "zh_title": "Liminal Chess：棋子站在边线上的新象棋变体"
+  },
   "https://lexicad.com/?ref=producthunt": {
     "en_oneliner": "Describe a part in plain language and an AI agent designs the CAD, checks it against your spec, and exports STEP, STL and 3MF files ready to print.",
     "en_title": "LexiCAD",
@@ -7055,17 +7073,17 @@
     "zh_oneliner": "免费在线工具：查网站重定向有没有问题，开发者和 SEO 都用得上。",
     "zh_title": "Redirect Audit：重定向体检"
   },
-  "https://repostit.io/clips": {
-    "en_oneliner": "Turn a YouTube video into scored vertical clips and pick the ones most worth posting.",
-    "en_title": "Repostit Clips: YouTube to vertical clips",
-    "zh_oneliner": "把 YouTube 长视频切成竖屏短片，还按效果打分，挑出最值得发的几段。",
-    "zh_title": "Repostit Clips：视频剪竖屏"
-  },
   "https://rentsera.com": {
     "en_oneliner": "Property management for Canadian landlords, with an AI assistant handling the busywork: collect rent online, manage leases, maintenance and accounting, all in the browser.",
     "en_title": "Rentsera",
     "zh_oneliner": "面向加拿大房东的租房管理工具：AI 助手帮忙处理租务，在线收租、签约、报修和记账都能在浏览器里完成。",
     "zh_title": "Rentsera：AI 租房管理助手"
+  },
+  "https://repostit.io/clips": {
+    "en_oneliner": "Turn a YouTube video into scored vertical clips and pick the ones most worth posting.",
+    "en_title": "Repostit Clips: YouTube to vertical clips",
+    "zh_oneliner": "把 YouTube 长视频切成竖屏短片，还按效果打分，挑出最值得发的几段。",
+    "zh_title": "Repostit Clips：视频剪竖屏"
   },
   "https://restofworld.org/2026/jensen-huang-nvidia-exit-china-ai-chip-impact": {
     "en_oneliner": "What does Jensen Huang's exit from Nvidia mean for China's AI chip supply chain? This piece maps the impact.",
@@ -7678,6 +7696,18 @@
     "en_title": "Trusty CSV",
     "zh_oneliner": "直接打开 CSV 文件本身来编辑：按表格查看、按代码按键，28 项质量检查一键修掉乱码与格式问题，文件不上传，只保存你改动的地方。",
     "zh_title": "Trusty CSV：不改动原文件的 CSV 编辑器"
+  },
+  "https://trymorse.ai/?src=bl-makerhunt": {
+    "en_oneliner": "Chat with 80+ AI models in a privacy-first app: your chats stay encrypted on your own device, unreadable even to Morse, with an end-to-end encrypted mode.",
+    "en_title": "Morse",
+    "zh_oneliner": "80 多个模型随便聊，聊天记录只加密存在你自己的设备上，连 Morse 自己都读不到，还能选端到端加密模式。",
+    "zh_title": "Morse：主打隐私的无审查 AI 聊天"
+  },
+  "https://trynotched.com/find": {
+    "en_oneliner": "A free guided tinnitus pitch match that runs entirely in your browser: it calibrates levels to your hearing, narrows down your tinnitus pitch by comparing sounds, and guards against the common one-octave mistake.",
+    "en_title": "Tinnitus frequency finder and audio notch tool",
+    "zh_oneliner": "免费的耳鸣音调引导测试，全程在浏览器里完成：先校准音量，再一步步比对声音找出你的耳鸣频率，还会帮你排除差一个八度的常见误判。",
+    "zh_title": "Notched 耳鸣频率自测：四分钟找到你的耳鸣音调"
   },
   "https://tryvitri.com": {
     "en_oneliner": "Create AI product photography, virtual try-on and studio shots.",
@@ -9143,6 +9173,12 @@
     "zh_oneliner": "自带提醒功能的笔记应用，iPhone、iPad、Mac 和网页版都有，记了就不会忘。",
     "zh_title": "Remindly：会提醒你的笔记应用"
   },
+  "https://www.removebg.page": {
+    "en_oneliner": "Upload a photo and it cuts out the subject automatically — transparent background or a new color, ready to export as PNG.",
+    "en_title": "RemoveBG",
+    "zh_oneliner": "上传一张照片，它自动把主体抠出来，背景变透明或换个底色，导出 PNG 就能直接用。",
+    "zh_title": "RemoveBG：在线抠图去背景"
+  },
   "https://www.reuters.com/business/aerospace-defense/us-rocket-fails-after-launch-payload-amazon-internet-satellites-destroyed-2026-11-15": {
     "en_oneliner": "A rocket from the Boeing-Lockheed joint venture failed mid-flight after launch, destroying its payload of Amazon internet satellites.",
     "en_title": "Boeing-Lockheed rocket fails mid-flight, destroys payload of Amazon satellites",
@@ -9784,29 +9820,5 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
-  },
-  "https://directorslookbook.app": {
-    "en_oneliner": "Pick a mood and a subject and it hands you a ready-made visual style, with matching image, video and music prompts to copy straight into your AI tools.",
-    "en_title": "Director's Lookbook, named looks for image, video and music prompts",
-    "zh_oneliner": "选好心情和题材，它就给你一套现成的视觉风格方案，连带图片、视频和音乐提示词，复制粘贴就能喂给 AI 生成工具。",
-    "zh_title": "Director's Lookbook：给 AI 生图、生视频和配乐用的风格提示词手册"
-  },
-  "https://trynotched.com/find": {
-    "en_oneliner": "A free guided tinnitus pitch match that runs entirely in your browser: it calibrates levels to your hearing, narrows down your tinnitus pitch by comparing sounds, and guards against the common one-octave mistake.",
-    "en_title": "Tinnitus frequency finder and audio notch tool",
-    "zh_oneliner": "免费的耳鸣音调引导测试，全程在浏览器里完成：先校准音量，再一步步比对声音找出你的耳鸣频率，还会帮你排除差一个八度的常见误判。",
-    "zh_title": "Notched 耳鸣频率自测：四分钟找到你的耳鸣音调"
-  },
-  "https://agentsp.lease": {
-    "en_oneliner": "Declare your project's stance on AI use — pick Yes or No and get a badge for your README, so everyone knows at a glance.",
-    "en_title": "Agents Please: Project Badges to Show LLM Preferences",
-    "zh_oneliner": "给你的项目表个态：允不允许 AI 参与开发，选 Yes 或 No 就生成一枚徽章，贴到 README 里一目了然。",
-    "zh_title": "Agents Please：给项目贴 AI 使用意愿徽章"
-  },
-  "https://trymorse.ai/?src=bl-makerhunt": {
-    "zh_title": "Morse：主打隐私的无审查 AI 聊天",
-    "zh_oneliner": "80 多个模型随便聊，聊天记录只加密存在你自己的设备上，连 Morse 自己都读不到，还能选端到端加密模式。",
-    "en_title": "Morse",
-    "en_oneliner": "Chat with 80+ AI models in a privacy-first app: your chats stay encrypted on your own device, unreadable even to Morse, with an end-to-end encrypted mode."
   }
 }
