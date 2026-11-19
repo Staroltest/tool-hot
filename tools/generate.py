@@ -453,6 +453,11 @@ BLOCKED_DOMAINS = {
     # 团体教练 Mastermind 售卖页（申请表 + 报名截止日期），没有能在浏览器
     # 里直接用的工具（2026-11-17 日报泄漏）
     "davidspinks.com",
+    # 抽查确认不是在线工具（2026-11-19 03:37 轮，浏览器实测）：ToolJet
+    # 首页 tooljet.com 是低代码平台营销页（客户 logo、证言、案例表，结尾
+    # "Free to start" 注册引导），站上没有能直接用的工具；产品本身须注册
+    # 云端账号或自托管部署，不是点开就能用的工具
+    "tooljet.com",
     # 抽查确认不是在线工具（2026-11-16 23:00 轮，浏览器实测本轮 6 条新品，
     # 3 条泄漏）：Codjiva 是 macOS/Windows/Linux 桌面应用（官网“Free, for
     # macOS, Windows and Linux”“Pick the build for your system”），须下载安装；
