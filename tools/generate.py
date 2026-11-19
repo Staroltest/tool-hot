@@ -707,6 +707,11 @@ BLOCKED_DOMAINS = {
     # VS Code 扩展（官网 "Install from Marketplace"），须下载安装才能
     # 用；两者标题均不露痕迹，标题门拦不住，域名封禁；探查信号同步加
     # vscode_extension 拦此类扩展落地页
+    # 抽查确认不是在线工具（2026-11-19 10:07 CST 轮实测）：ADE Index
+    # 是 975 个 agentic coding 工具的排名索引/目录站（分类榜单、对比
+    # 页，只能浏览与排序），站上没有能直接用的工具；目录站不是工具，
+    # 域名封禁
+    "adeindex.com",
     "walkthisplan.com", "sshyeri.github.io",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
