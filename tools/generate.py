@@ -891,6 +891,11 @@ BLOCKED_EXACT = {
     # romantimes.eu 是罗马策略单机游戏（纯游戏，同上；20:07 CST 轮
     # 补位进热点榜后拦下）
     "romantimes.eu",
+    # fireflyk64.github.io/makingtf 是 TIE Fighter 联机改造的幕后长文
+    # （分 01–09 节讲内存扫描、钩子与同步设计），不是能直接玩的游戏、
+    # 也不是能直接用的工具；标题不露文章痕迹，实测封禁
+    # （2026-11-20 04:37 CST 轮，即 2026-11-19 12:37 PST 轮）
+    "fireflyk64.github.io",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {

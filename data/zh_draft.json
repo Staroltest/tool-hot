@@ -83,6 +83,12 @@
     "zh_oneliner": "作者认为大模型竞赛的瓶颈已经从基础模型本身转移，值得关注的战场换到了别处。",
     "zh_title": "基础模型不再是瓶颈"
   },
+  "https://aeonfr.github.io/wikinews-rss": {
+    "en_oneliner": "Wikipedia's current-events portal, laid out like a real newspaper — readable in the browser, also available as RSS.",
+    "en_title": "Wikipedia Current Events Portal as an Actual Newspaper (and in RSS)",
+    "zh_oneliner": "把维基百科的时事门户排成一份真正的报纸来读，还能订阅 RSS，换个来源看世界大事。",
+    "zh_title": "Wikipedia News：维基百科时事的报纸版"
+  },
   "https://aethelgard.news": {
     "en_oneliner": "Paste a news link and it tells you who owns the outlet, then scores that article's slant from 1 to 7.",
     "en_title": "Show HN: Paste a Link. See the Bias",
@@ -7816,6 +7822,12 @@
     "en_title": "Uppcoder: cloud dev environments",
     "zh_oneliner": "云端开发环境加生产托管：编辑器、数据库、AI 助手，一站配齐。",
     "zh_title": "Uppcoder：云端开发环境"
+  },
+  "https://postdate.io": {
+    "en_oneliner": "Write a message or attach a file today and share one link — it only opens at the time you choose.",
+    "en_title": "Postdate – share a link now that opens at a time you choose",
+    "zh_oneliner": "现在写好消息或文件、发一个链接，对方只能到你定的时间才能打开，适合发布会、考试答案与生日惊喜。",
+    "zh_title": "Postdate：写好链接，定时再打开"
   },
   "https://posy.page": {
     "en_oneliner": "A link-in-bio page that looks hand-made — pick one of six styles, add your links, and let AI update it for you. Free with unlimited links.",
