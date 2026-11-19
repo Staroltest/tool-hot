@@ -5369,6 +5369,10 @@ def build_geo_audit(site, root, site_url, today_iso):
         rel = os.path.relpath(_base, root)
         for _fn in _files:
             if _fn.endswith(".html") and _fn != "404.html":
+                # 根目录的搜索引擎验证文件（如 google*.html）不是可索引页面，
+                # 不应计入 sitemap 漏页检查（BingSiteAuth.xml 是 .xml，本就不计入）。
+                if rel == "." and _fn.startswith("google") and _fn.endswith(".html"):
+                    continue
                 p = _fn if rel == "." else f"{rel}/{_fn}"
                 html_files.add(p)
     # 首页以规范根路径 site_url/ 入 sitemap，等价于磁盘上的 index.html
