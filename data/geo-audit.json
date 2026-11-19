@@ -3,9 +3,9 @@
  "site": "https://staroltest.github.io/tool-hot",
  "summary": {
   "total": 9,
-  "passed": 7,
+  "passed": 6,
   "warn": 2,
-  "failed": 0
+  "failed": 1
  },
  "checks": [
   {
@@ -17,8 +17,8 @@
   {
    "key": "sitemap",
    "label": "sitemap.xml 条数与漏页",
-   "status": "pass",
-   "detail": "共 1187 条 URL，磁盘 1185 个 HTML 页全部在列"
+   "status": "fail",
+   "detail": "共 1197 条 URL，漏 1 页：https://staroltest.github.io/tool-hot/google62220726582f76c7.html"
   },
   {
    "key": "llms",
