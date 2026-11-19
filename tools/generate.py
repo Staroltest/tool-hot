@@ -896,6 +896,16 @@ BLOCKED_EXACT = {
     # 也不是能直接用的工具；标题不露文章痕迹，实测封禁
     # （2026-11-20 04:37 CST 轮，即 2026-11-19 12:37 PST 轮）
     "fireflyk64.github.io",
+    # 2026-11-20 05:37 CST 轮实测封禁（HN Show 新到混入热点榜）：
+    # mktwsk.xyz/billet 是 Billet 桌面任务管理应用的官网/下载页
+    # （“For macOS, Windows, and Linux”、Download Billet），须下载安装
+    # 才能用，不是浏览器里能直接用的工具；标题“6MB Task Management
+    # System”不露安装痕迹，标题门与实测信号都拦不住，人工抽查封禁；
+    # 该域名是作者的个人项目站，若日后其上有直接可用的网页工具需解封
+    "mktwsk.xyz",
+    # lavapuzzle.com 是每日解谜小游戏（纯游戏，按 11-18 以来封纯游戏的
+    # 做法处理；游戏收录口径仍待用户定）
+    "lavapuzzle.com",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {

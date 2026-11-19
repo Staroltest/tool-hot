@@ -11326,5 +11326,23 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
+  },
+  "https://mozolite.com": {
+    "en_title": "Show HN: A SEO Tool to get found by Google and get cited by AI",
+    "en_oneliner": "Paste a URL to see how search engines and AI assistants read your page, with 200+ checks ranked by search impact and a plain fix for each.",
+    "zh_title": "Show HN：Mozolite：帮页面被 Google 收录、被 AI 助手引用的 SEO 检测工具",
+    "zh_oneliner": "输入网址就能查页面在搜索引擎和 AI 助手眼里长什么样，200 多项检查按搜索影响排好序，逐条告诉你改什么。"
+  },
+  "https://fizzler.ai": {
+    "en_title": "Show HN: Fizzler – a simple tool that pulls agents out of defaultthink",
+    "en_oneliner": "Plug it into your AI agent and, for open-ended questions, it first offers a few real things from other worlds so the answer escapes the obvious.",
+    "zh_title": "Show HN：Fizzler：给 AI 智能体喂点题外灵感，别总答标准答案",
+    "zh_oneliner": "接进你的 AI 智能体后，遇到开放问题先递上几条来自别的领域的真人真事，帮它跳出千篇一律的答案。"
+  },
+  "https://maptools.app": {
+    "en_title": "Show HN: Search your Google Maps saved places",
+    "en_oneliner": "Import the places you saved in Google Maps, then search them by city, type, opening hours or tag, and keep track of your visits.",
+    "zh_title": "Show HN：MapTools：给 Google 地图收藏夹装上搜索和标签",
+    "zh_oneliner": "把 Google 地图里收藏的地点导进来，就能按城市、类型、营业时间和标签快速搜索，还能打卡记录去过哪。"
   }
 }
