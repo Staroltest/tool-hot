@@ -6551,6 +6551,12 @@
   "zh_oneliner": "一个追踪黄仁勋相关新闻报道的小站，把各家媒体的说法放在一起对照着看。",
   "zh_title": "追踪关于黄仁勋的新闻报道"
  },
+ "https://jerredcook.github.io/orbital": {
+  "en_oneliner": "A live 3D map of everything known in Earth orbit — satellites, probes and more — rendered in the browser.",
+  "en_title": "Show HN: Orbital – Everything (known) in Earth orbit, live in 3D, in the browser",
+  "zh_oneliner": "把已知在轨的卫星、探测器和天体实时画成 3D 轨道图，在浏览器里就能围着地球转着看。",
+  "zh_title": "Orbital：浏览器里的地球轨道实时 3D 追踪"
+ },
  "https://jgeekstudies.org/2026/11/15/zoltraak-military-innovation-in-frieren": {
   "en_oneliner": "Using the magic of Zoltraak from Frieren as a lens, this piece looks at military innovation and how a new weapon goes from dismissed to rewriting the rules of war.",
   "en_title": "Zoltraak and the Dynamics of Military Innovation",
@@ -8542,6 +8548,12 @@
   "en_title": "Surprezo: A Gift QR Code",
   "zh_oneliner": "用照片、留言和名字做一份数字礼物，分享成网页或可打印的二维码卡片。",
   "zh_title": "Surprezo：礼物二维码"
+ },
+ "https://system-design-in-depth.vedgupta.in": {
+  "en_oneliner": "An interactive distributed-systems curriculum with 32 live protocol simulators and 20 from-scratch builds, all in the browser with no sign-up.",
+  "en_title": "Show HN: System Design in Depth – Free interactive curriculum with 32 simulators",
+  "zh_oneliner": "从存储引擎到分布式共识的互动教材，32 个协议模拟器和 20 个从零搭建的练习都在浏览器里完成，不用注册。",
+  "zh_title": "System Design in Depth：带 32 个模拟器的交互式系统设计课程"
  },
  "https://systemap.app": {
   "en_oneliner": "Draw your architecture and press play — schemas, auth flows and request paths come alive.",

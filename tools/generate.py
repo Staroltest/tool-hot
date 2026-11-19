@@ -780,6 +780,12 @@ BLOCKED_DOMAINS = {
     # versions people have built"），只能浏览产品列表，不是工具本身；
     # 以上标题均不露痕迹，标题门拦不住，域名封禁
     "oyasoo.com", "idmo.app",
+    # 抽查确认不是在线工具（2026-11-20 03:07 CST 轮，浏览器实测本轮新到
+    # 热点榜条目）：Designshippers 是设计工作室的服务售卖页（"Design
+    # Engineering as a Service"，$10,000/月包月制设计服务），站上没有能
+    # 直接用的工具，同已封的网页设计公司页 ibertechsolutions.co.uk；
+    # 标题不露痕迹，标题门拦不住，域名封禁
+    "designshippers.com",
     # 抽查确认不是在线工具（2026-11-20 02:07 CST 轮，实测本轮热点榜条目）：
     # Maglev 是给 AI Agent 用的 MCP 服务器（"one key for every agent
     # tool"、"692 tools from 39 providers through one API key"、按调用
