@@ -744,6 +744,12 @@ BLOCKED_DOMAINS = {
     "abandonedformrecovery.techxaro.com",
     "vibecamz.com", "dewdrop.date", "umingle.video",
     "chatmetvreemden.live", "voxxy.app",
+    # 抽查确认不是在线工具（2026-11-19 20:37 CST 轮，浏览器实测本轮新到
+    # 热点榜条目）：Lattice 是开源 Obsidian Publish 平替，须 clone 仓库、
+    # 把 vault 拷进项目目录、改 publish.config.json 后跑 npm run dev，
+    # 是自托管/须本地安装的工具，站上只有发布效果演示，没有能在浏览器
+    # 里直接用的工具；标题不露痕迹，标题门拦不住，域名封禁
+    "lattice.jacobg.co",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
