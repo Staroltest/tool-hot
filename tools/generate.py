@@ -780,6 +780,13 @@ BLOCKED_DOMAINS = {
     # versions people have built"），只能浏览产品列表，不是工具本身；
     # 以上标题均不露痕迹，标题门拦不住，域名封禁
     "oyasoo.com", "idmo.app",
+    # 抽查确认不是在线工具（2026-11-20 02:07 CST 轮，实测本轮热点榜条目）：
+    # Maglev 是给 AI Agent 用的 MCP 服务器（"one key for every agent
+    # tool"、"692 tools from 39 providers through one API key"、按调用
+    # 计费），须配 MCP 客户端、拿 API key 调接口，浏览器里没有能直接
+    # 用的工具；同已封的 TokLab 等纯 API 平台；标题不露痕迹，标题门
+    # 拦不住，域名封禁
+    "maglev.sh",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
