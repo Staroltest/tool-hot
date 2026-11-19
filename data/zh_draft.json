@@ -6395,6 +6395,12 @@
     "zh_oneliner": "免费给自由职业者和小生意做发票和报价单，实时预览、能加税率和折扣，导出 PDF 不用注册也没有水印。",
     "zh_title": "Invoiceize：免费在线发票生成器"
   },
+  "https://ishtar.page/wikipedle": {
+    "en_oneliner": "Wordle meets Wikigolf: guess the shortest link path between two Wikipedia articles, one puzzle a day.",
+    "en_title": "Show HN: Wikipedle (Wordle for Wikigolf)",
+    "zh_oneliner": "把 Wordle 的猜词玩法搬到维基百科上，猜从一个词条点到另一个词条的最短路径，每天一局。",
+    "zh_title": "Wikipedle：维基高尔夫版 Wordle 猜词游戏"
+  },
   "https://islamicprayertimeshq.com": {
     "en_oneliner": "Free Islamic prayer times, monthly timetables, Hijri calendar and Qibla direction for 20 cities.",
     "en_title": "Islamic Prayer Times HQ: Prayer Times and Qibla",
