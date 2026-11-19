@@ -10684,5 +10684,11 @@
     "en_title": "Show HN: Favicon.one – Free favicon generator, checker and downloader",
     "zh_oneliner": "上传图片或输入文字、表情，一键生成全套多尺寸 Favicon，还能检测现有网站的 Favicon 是否规范。",
     "zh_title": "Favicon.one：免费 Favicon 生成、检测与下载"
+  },
+  "https://port.fm": {
+    "en_oneliner": "Internet radio tuned by decade, energy, or location — open it and listen, no sign-up needed.",
+    "en_title": "Show HN: Port.fm – Internet radio tuned by decade, energy, or location",
+    "zh_oneliner": "按年代、能量值或地点自由调台的网络电台，点开就能听，不用注册。",
+    "zh_title": "Port.fm：按年代、能量或地点调台的网络电台"
   }
 }

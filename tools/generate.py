@@ -713,6 +713,12 @@ BLOCKED_DOMAINS = {
     # 域名封禁
     "adeindex.com",
     "walkthisplan.com", "sshyeri.github.io",
+    # 抽查确认不是在线工具（2026-11-19 13:07 CST 轮，浏览器实测本轮热点榜第 1 条）：
+    # 1Lookup 是电话/邮箱/IP 数据 API 平台（"76 data products on one API key"，
+    # 须注册拿 API key、按信用点数付费调接口），首页只有 signup、文档与示例，
+    # 没有能在浏览器里直接用的免费工具；同已封的 TokLab、Quebec、
+    # atlas-compiler.com 等纯 API 平台；标题不露痕迹，标题门拦不住，域名封禁
+    "1lookup.io",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
