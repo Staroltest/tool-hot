@@ -5321,6 +5321,12 @@
     "zh_oneliner": "写同人的私人工作台，人物、剧情线都能管起来，长篇连载也不怕前后矛盾。",
     "zh_title": "Fanfiction Generator：同人小说创作工作台"
   },
+  "https://fanzines.app/en": {
+    "en_oneliner": "Turn a single A4 sheet into a foldable 8-page zine, right in your browser — print, cut, and fold.",
+    "en_title": "Fanzines: fold an 8-page zine from a single A4 sheet in the browser",
+    "zh_oneliner": "在浏览器里把一张 A4 纸排成可折叠的 8 页小志，打印裁剪折叠就能做成。",
+    "zh_title": "Fanzines：一张 A4 纸折出 8 页小志"
+  },
   "https://farvoices.com": {
     "en_oneliner": "Live signals from NASA's Deep Space Network sung as a choir — open it and listen to antennas talking to distant spacecraft.",
     "en_title": "Show HN: A choir that sings NASA's Deep Space Network traffic, live",
@@ -5434,6 +5440,12 @@
     "en_title": "Fontsight: Font Finder for Chrome",
     "zh_oneliner": "一个 Chrome 字体查找工具，看到喜欢的网页字体，一点就能知道它叫什么。",
     "zh_title": "Fontsight：Chrome 字体查找器"
+  },
+  "https://foolscap.works": {
+    "en_oneliner": "A writing app that reads your book and helps you think it through, but never writes a word for you.",
+    "en_title": "Foolscap: a writing app that reads your book and never writes for you",
+    "zh_oneliner": "读懂你的书稿、帮你理清思路，但绝不替你动笔的写作应用。",
+    "zh_title": "Foolscap：只读不代笔的写作应用"
   },
   "https://fortune.com/2026/11/08/ceo-four-day-workweek-fridays-off-brick-media-revenue": {
     "en_oneliner": "Three years into a four-day workweek, one company's revenue is up about 160% — this is how they pulled it off.",
@@ -5596,6 +5608,12 @@
     "en_title": "Show HN: Instash share any link, auto-categorises it",
     "zh_oneliner": "一个分享链接就自动分类的工具，丢进任何链接都能帮你归好类，适合喜欢收藏和整理网上内容的读者。",
     "zh_title": "Show HN：Instash——分享任意链接，自动帮你分类"
+  },
+  "https://getopenhealth.org": {
+    "en_oneliner": "Look up doctor ratings and hospital prices from public CMS records, so you know the cost before you go.",
+    "en_title": "OpenHealth: doctor ratings and hospital prices from public CMS records",
+    "zh_oneliner": "用美国 CMS 公开数据查医生评分和医院收费，看病之前先把价格问清楚。",
+    "zh_title": "OpenHealth：查医生评分和医院价格"
   },
   "https://getprolifik.com/?ref=smollaunch": {
     "en_oneliner": "Paste a link and Prolifik writes, edits, captions and posts your short videos.",
@@ -6689,6 +6707,12 @@
     "zh_oneliner": "给非营利组织的一站式筹款平台，捐款、活动、捐赠人管理和报表都在浏览器里搞定。",
     "zh_title": "LevCharity：非营利组织筹款平台"
   },
+  "https://leverprice.com": {
+    "en_oneliner": "Price every country at what locals can pay, then test prices on new visitors and route traffic to the variant that earns the most.",
+    "en_title": "Leverprice: Price Tests Plus PPP by Country",
+    "zh_oneliner": "给每个国家定一个当地人付得起的价格，再拿新访客做价格测试，自动把流量导向最赚钱的那个定价。",
+    "zh_title": "Leverprice：按国家定价测试，让同一流量多赚钱"
+  },
   "https://levmiseri.com/liminalchess": {
     "en_oneliner": "A familiar game with a new twist: pieces live on edges and corners, occupying two or four squares — open the page and play.",
     "en_title": "Liminal Chess",
@@ -6742,6 +6766,12 @@
     "en_title": "LinkBit",
     "zh_oneliner": "免费短链接工具，支持自定义短链、点击统计、UTM 和二维码，AI 智能体也能通过 API 和 MCP 直接调用。",
     "zh_title": "LinkBit：免费短链接工具"
+  },
+  "https://liquid.shelia.me": {
+    "en_oneliner": "A WebGPU recreation of the iOS 27 liquid-glass interface that runs entirely in your browser — open it and play, nothing to install.",
+    "en_title": "iOS 27 on the Web",
+    "zh_oneliner": "用 WebGPU 在浏览器里复刻 iOS 27 的液态玻璃界面，点开就能把玩，不用装任何东西。",
+    "zh_title": "iOS 27 网页版：浏览器里跑的液态玻璃演示"
   },
   "https://llmcost.pitropatro.com": {
     "en_oneliner": "Covers 45 models and prompt caching to work out exactly what an agent run costs in tokens.",
@@ -8651,6 +8681,12 @@
     "zh_oneliner": "上传照片两秒就能抠出透明底主体，可选本机处理不上传，全分辨率导出 PNG，免费无水印不用注册。",
     "zh_title": "ToolifyHub 背景移除：免费在线抠图"
   },
+  "https://tooljet.com/?ref=producthunt": {
+    "en_oneliner": "Describe the internal tool you need in plain language and build it in the browser, connected to your databases and APIs, with permissions and audit trails built in.",
+    "en_title": "ToolJet – Build Business Apps with AI That Pass Security Review",
+    "zh_oneliner": "在浏览器里用自然语言描述需求，就能搭出连着数据库和 API 的内部工具，权限与审计都内置，合规团队也能放行。",
+    "zh_title": "ToolJet：用 AI 搭能通过安全审查的企业内部应用"
+  },
   "https://toolmaker.io": {
     "en_oneliner": "A development workbench where humans and AI coding agents share one structured record of the project and keep building from it.",
     "en_title": "Toolmaker Agent: A Development Workbench for Humans and AI Agents",
@@ -8740,6 +8776,12 @@
     "en_title": "Vitri: AI product photography",
     "zh_oneliner": "AI 产品摄影：虚拟试穿、珠宝图、影棚照，拍不出就生成。",
     "zh_title": "Vitri：AI 产品摄影"
+  },
+  "https://tuix.app": {
+    "en_oneliner": "Collect user feedback right inside your website, no more chasing screenshots over email, spreadsheets, or Slack.",
+    "en_title": "Tuix: an in-app feedback widget for web apps",
+    "zh_oneliner": "在网站里直接收用户反馈，不用再靠邮件、表格和截图来回沟通。",
+    "zh_title": "Tuix：网站内嵌的用户反馈小部件"
   },
   "https://tulvo.io/?ref=producthunt": {
     "en_oneliner": "Describe how your team works in plain language and its AI builds the boards, docs, and reports to match — CRM, inventory, and scheduling in one workspace.",
@@ -9233,6 +9275,12 @@
     "zh_oneliner": "Agno 团队的一篇展望，聊下一代“超级智能体”会是什么样子。",
     "zh_title": "超级智能体时代来了"
   },
+  "https://www.aiportraitprompts.com": {
+    "en_oneliner": "55 tested portrait prompts with before-and-after previews — copy one and paste it into ChatGPT, Midjourney, or DALL-E to generate the shot.",
+    "en_title": "AI Portrait Prompts",
+    "zh_oneliner": "55 条实测过的人像提示词，附前后对比效果，复制粘贴就能放进 ChatGPT、Midjourney 或 DALL-E 里出片。",
+    "zh_title": "AI Portrait Prompts：实测过的人像提示词库"
+  },
   "https://www.alphascope.app": {
     "en_oneliner": "An AI-powered trading assistant for prediction markets.",
     "en_title": "Alphascope: prediction market assistant",
@@ -9503,6 +9551,12 @@
     "zh_oneliner": "欧洲新闻的一篇报道：太空里发现一个神秘物体，有人猜测它可能是失踪 40 年的苏联探测器。",
     "zh_title": "太空神秘物体：会是失踪 40 年的苏联探测器吗？"
   },
+  "https://www.ezfurigana.com/kakurenbo": {
+    "en_oneliner": "A daily Wordle-style game in hiragana — guess the four-kana word in six tries, then see its kanji, meaning, and reading.",
+    "en_title": "Kakurenbo – A Wordle-Style Game for Japanese Kana",
+    "zh_oneliner": "每天一个四假名日语单词，六次机会猜出来，猜完还能看到汉字、释义和读音，顺带练假名。",
+    "zh_title": "Kakurenbo：猜日语假名版 Wordle"
+  },
   "https://www.factum-orm.com": {
     "en_oneliner": "A modeling tool for VS Code that puts humans first and AI at its core — worth a look for developers who model inside their editor.",
     "en_title": "Factum – Human-first, AI-native modeling for VS Code",
@@ -9646,6 +9700,12 @@
     "en_title": "Japan's Hometown Tax",
     "zh_oneliner": "一篇 2018 年的旧文，讲日本“故乡纳税”制度是怎么运作的，为什么有人愿意把税交到别的城市去。",
     "zh_title": "日本的故乡纳税制度"
+  },
+  "https://www.kdpbook.ai": {
+    "en_oneliner": "Plan, write, illustrate and typeset a book ready to upload to KDP, plus free word-search, maze and Sudoku generators on the side.",
+    "en_title": "KDPBook: AI Book Creator for KDP",
+    "zh_oneliner": "从策划、写稿、配图到排版一站式生成能上架 KDP 的书，还附填字、迷宫、数独等免费小工具。",
+    "zh_title": "KDPBook：AI 出书工具，写完直接能上 KDP"
   },
   "https://www.latimes.com/california/story/2026-11-13/voters-pass-proposition-42-barring-new-taxes-on-personal-assets": {
     "en_oneliner": "California voters passed Proposition 42, barring new taxes on personal assets — covered by the Los Angeles Times.",
@@ -10775,6 +10835,12 @@
     "zh_oneliner": "一整套 AI 工具：创作流程里的杂活都包了。",
     "zh_title": "Velanta.io：AI 工具套装"
   },
+  "https://www.vybe.build/website-analyzer": {
+    "en_oneliner": "Paste in a URL for a free audit of your site — conversion, SEO, speed and 15 more checks in one pass, with the top fix listed first.",
+    "en_title": "Vybe: 18-Skill Website Analysis Tool",
+    "zh_oneliner": "输入网址就能免费拿到一份网站审计：转化、SEO、速度等 18 项一次查完，并告诉你先修哪一项。",
+    "zh_title": "Vybe：18 项技能的网站分析工具"
+  },
   "https://www.waku.one": {
     "en_oneliner": "A shared memory board for teams of AI agents, where multiple agents can read and write the same memory and work together.",
     "en_title": "Waku.One: Shared Memory and a Board for Your Team's AI Agents",
@@ -10828,6 +10894,12 @@
     "en_title": "clice v1.0 Released: Welcome to Modern C++",
     "zh_oneliner": "clice 发布 1.0 版，这是一个面向现代 C++ 的命令行解析库，写 C++ 命令行工具的人可以关注一下。",
     "zh_title": "clice v1.0 发布：拥抱现代 C++"
+  },
+  "https://www.yourdatingassistant.com": {
+    "en_oneliner": "Upload a dating-app chat screenshot and get three AI replies in your own tone, plus profile audits and compatibility readings.",
+    "en_title": "Dating Assistant for Nerds",
+    "zh_oneliner": "上传约会软件的聊天截图，AI 按你的语气一次给三条回复，顺带能测资料吸引力和聊天兼容度。",
+    "zh_title": "Sparks：AI 约会聊天助手"
   },
   "https://www.youtube.com/watch?v=4NExTWq_wvk": {
     "en_oneliner": "A video episode connecting vibe coding, AI, music tech, and Star Trek — playful and thought-provoking in equal measure.",
@@ -11086,53 +11158,5 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
-  },
-  "https://tooljet.com/?ref=producthunt": {
-    "zh_title": "ToolJet：用 AI 搭能通过安全审查的企业内部应用",
-    "zh_oneliner": "在浏览器里用自然语言描述需求，就能搭出连着数据库和 API 的内部工具，权限与审计都内置，合规团队也能放行。",
-    "en_title": "ToolJet – Build Business Apps with AI That Pass Security Review",
-    "en_oneliner": "Describe the internal tool you need in plain language and build it in the browser, connected to your databases and APIs, with permissions and audit trails built in."
-  },
-  "https://www.aiportraitprompts.com": {
-    "en_title": "AI Portrait Prompts",
-    "zh_title": "AI Portrait Prompts：实测过的人像提示词库",
-    "zh_oneliner": "55 条实测过的人像提示词，附前后对比效果，复制粘贴就能放进 ChatGPT、Midjourney 或 DALL-E 里出片。",
-    "en_oneliner": "55 tested portrait prompts with before-and-after previews — copy one and paste it into ChatGPT, Midjourney, or DALL-E to generate the shot."
-  },
-  "https://www.yourdatingassistant.com": {
-    "en_title": "Dating Assistant for Nerds",
-    "zh_title": "Sparks：AI 约会聊天助手",
-    "zh_oneliner": "上传约会软件的聊天截图，AI 按你的语气一次给三条回复，顺带能测资料吸引力和聊天兼容度。",
-    "en_oneliner": "Upload a dating-app chat screenshot and get three AI replies in your own tone, plus profile audits and compatibility readings."
-  },
-  "https://www.ezfurigana.com/kakurenbo": {
-    "en_title": "Kakurenbo – A Wordle-Style Game for Japanese Kana",
-    "zh_title": "Kakurenbo：猜日语假名版 Wordle",
-    "zh_oneliner": "每天一个四假名日语单词，六次机会猜出来，猜完还能看到汉字、释义和读音，顺带练假名。",
-    "en_oneliner": "A daily Wordle-style game in hiragana — guess the four-kana word in six tries, then see its kanji, meaning, and reading."
-  },
-  "https://www.vybe.build/website-analyzer": {
-    "en_title": "Vybe: 18-Skill Website Analysis Tool",
-    "en_oneliner": "Paste in a URL for a free audit of your site — conversion, SEO, speed and 15 more checks in one pass, with the top fix listed first.",
-    "zh_title": "Vybe：18 项技能的网站分析工具",
-    "zh_oneliner": "输入网址就能免费拿到一份网站审计：转化、SEO、速度等 18 项一次查完，并告诉你先修哪一项。"
-  },
-  "https://www.kdpbook.ai": {
-    "en_title": "KDPBook: AI Book Creator for KDP",
-    "en_oneliner": "Plan, write, illustrate and typeset a book ready to upload to KDP, plus free word-search, maze and Sudoku generators on the side.",
-    "zh_title": "KDPBook：AI 出书工具，写完直接能上 KDP",
-    "zh_oneliner": "从策划、写稿、配图到排版一站式生成能上架 KDP 的书，还附填字、迷宫、数独等免费小工具。"
-  },
-  "https://leverprice.com": {
-    "en_title": "Leverprice: Price Tests Plus PPP by Country",
-    "en_oneliner": "Price every country at what locals can pay, then test prices on new visitors and route traffic to the variant that earns the most.",
-    "zh_title": "Leverprice：按国家定价测试，让同一流量多赚钱",
-    "zh_oneliner": "给每个国家定一个当地人付得起的价格，再拿新访客做价格测试，自动把流量导向最赚钱的那个定价。"
-  },
-  "https://liquid.shelia.me": {
-    "en_title": "iOS 27 on the Web",
-    "en_oneliner": "A WebGPU recreation of the iOS 27 liquid-glass interface that runs entirely in your browser — open it and play, nothing to install.",
-    "zh_title": "iOS 27 网页版：浏览器里跑的液态玻璃演示",
-    "zh_oneliner": "用 WebGPU 在浏览器里复刻 iOS 27 的液态玻璃界面，点开就能把玩，不用装任何东西。"
   }
 }
