@@ -10984,5 +10984,17 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
+  },
+  "https://www.pockettag.link": {
+    "en_oneliner": "Tag a note in Pocket AI and it gets emailed to the right person automatically — your note content is never stored or read.",
+    "en_title": "PocketTag: Forward Tagged Pocket AI Notes to Email",
+    "zh_oneliner": "给 Pocket AI 笔记打上标签，符合规则的笔记自动转发到指定邮箱，笔记内容不保存也不读取。",
+    "zh_title": "PocketTag：按标签把 AI 笔记转发到邮箱"
+  },
+  "https://psychevus.com/tools/supabase-rls": {
+    "en_oneliner": "Paste your schema and simulate attacks right in your browser to see exactly who gets into each table, catching overly permissive RLS policies.",
+    "en_title": "Supabase RLS Simulator: Who Can Read, Insert, Update or Delete Each Table",
+    "zh_oneliner": "粘贴数据库结构，在浏览器里模拟攻击，逐表逐操作看清谁能读、谁能改，揪出过于宽松的行级安全策略。",
+    "zh_title": "Supabase RLS 模拟器：谁能读写你的每张表"
   }
 }
