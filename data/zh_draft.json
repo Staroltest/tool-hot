@@ -1001,6 +1001,12 @@
     "zh_oneliner": "给客户的作品、反馈和文件安一个家，逐帧留评、文件归档、精选展示都在同一个页面里完成。",
     "zh_title": "Curates：创作者客户作品主页"
   },
+  "https://cyravo-securebuild-a-9jtc.bolt.host": {
+    "en_oneliner": "Describe your app idea to get a staged build plan, then paste code for an AI security review before you ship.",
+    "en_title": "Cyravo SecureBuild AI: AI Build Planning and Security Review Before You Ship",
+    "zh_oneliner": "说清你的应用想法就能拿到分阶段的构建计划，粘贴代码还能让 AI 在发版前做一次安全审查。",
+    "zh_title": "Cyravo SecureBuild AI：发版前的 AI 安全审查"
+  },
   "https://dailyfootbillion.com": {
     "en_oneliner": "Seven football questions on the rooftop court — a trivia game where every correct answer counts.",
     "en_title": "Footbillion",
@@ -7235,6 +7241,12 @@
     "zh_oneliner": "给卖家和开发者用的去背景工具，图片丢进去，背景一键抠掉。",
     "zh_title": "NukeBG：抠图去背景"
   },
+  "https://nuko.design/?ref=producthunt": {
+    "en_oneliner": "Design motion graphics right in the browser — no install needed, just open it and start animating on the timeline.",
+    "en_title": "Nuko: Motion Design in Your Browser",
+    "zh_oneliner": "直接在浏览器里做动效设计，不用装软件，打开就能调时间轴、做动画。",
+    "zh_title": "Nuko：浏览器里的动效设计工具"
+  },
   "https://numradar.app": {
     "en_oneliner": "Check whether phone numbers are registered on WhatsApp and more.",
     "en_title": "NumRadar: phone number checker",
@@ -7865,6 +7877,12 @@
     "zh_oneliner": "复古计算社区里一个有趣的问题：当年拨号调制解调器上的扬声器到底是用来干什么的。",
     "zh_title": "调制解调器为什么会有扬声器？"
   },
+  "https://rezora.io/?ref=producthunt": {
+    "en_oneliner": "Build an AI voice agent the way you'd set up a Shopify store — live and answering calls in ten minutes.",
+    "en_title": "Rezora IO: Launch an AI Voice Agent in 10 Minutes",
+    "zh_oneliner": "像搭 Shopify 店铺一样搭 AI 语音助手，十分钟就能上线接电话。",
+    "zh_title": "Rezora IO：十分钟上线 AI 语音客服"
+  },
   "https://ripperskipper.com": {
     "en_oneliner": "A wakeboarding game that runs right in the browser — carve, ollie, spin, flip and grab your way through tricks with the keyboard.",
     "en_title": "Ripper Skipper: wakeboarding game in the browser",
@@ -7894,6 +7912,12 @@
     "en_title": "RooLoans: Australian Construction Loan Comparisons",
     "zh_oneliner": "澳洲建筑贷款和分期放款房贷比价，每天更新的真实利率数据。",
     "zh_title": "RooLoans：澳洲建筑贷款比价"
+  },
+  "https://roomai.com/?ref=producthunt": {
+    "en_oneliner": "Talk to it like a designer and change your room one step at a time, seeing the result as you go.",
+    "en_title": "Room AI: Redesign Your Room by Talking to It Like a Designer",
+    "zh_oneliner": "用说话的方式告诉它你想怎么改房间，一次只改一处，边聊边看效果。",
+    "zh_title": "Room AI：像跟设计师聊天一样改房间"
   },
   "https://roomdesigngenius.com": {
     "en_oneliner": "Upload a photo of your room and get four AI redesigns in your chosen style, plus free in-browser floor plan tools.",
@@ -9011,6 +9035,12 @@
     "zh_oneliner": "把 DeepSeek、Claude、GPT 等模型和 Agent 接进微信里聊天办事。",
     "zh_title": "微伴 Wechatai"
   },
+  "https://whatislocalhost.com": {
+    "en_oneliner": "An interactive guide that explains what localhost is — click through the demos and see how local services actually work.",
+    "en_title": "What is localhost? An Interactive Guide",
+    "zh_oneliner": "用可交互的演示讲清楚 localhost 是什么，跟着点一点就明白本地服务是怎么跑起来的。",
+    "zh_title": "What is localhost？一堂交互式入门课"
+  },
   "https://wheelofnamespick.com": {
     "en_oneliner": "Spin the wheel random picker — add names, spin, and let chance decide.",
     "en_title": "Wheel of Names Picker: spin the wheel",
@@ -9112,6 +9142,12 @@
     "en_title": "'Anti-fascist economics' would lower cost of basic essentials, author says",
     "zh_oneliner": "经济学家 Isabella Weber 认为“反法西斯经济学”可以降低基本生活必需品的价格，ABC 的这篇报道讲了她的观点。",
     "zh_title": "作者称“反法西斯经济学”能降低基本生活必需品成本"
+  },
+  "https://www.adside.ai/?ref=producthunt": {
+    "en_oneliner": "A team of specialized AI agents manages your paid ads for you, from launch to optimization, without you watching over them.",
+    "en_title": "Adside: A Team of AI Agents That Manage Your Paid Ads",
+    "zh_oneliner": "一支各司其职的 AI 代理帮你打理付费广告，从投放到优化都不用自己盯着。",
+    "zh_title": "Adside：帮你管投放的 AI 代理团队"
   },
   "https://www.aerotime.aero/articles/chinas-comac-completes-first-piloted-flight-of-ce-25a-electric-aircraft": {
     "en_oneliner": "China's COMAC completed the first piloted flight of its CE-25A electric aircraft, a milestone for homegrown electric aviation — for readers following aviation and new-energy news.",
@@ -9592,6 +9628,12 @@
     "en_title": "LLM Releases, Token Limits, and Pricing Since GPT 3.5",
     "zh_oneliner": "一份梳理：从 GPT-3.5 到现在，各家大模型的发布节奏、上下文 Token 上限与价格是怎么一路变化的。",
     "zh_title": "从 GPT-3.5 以来的大模型发布、Token 上限与定价变迁"
+  },
+  "https://www.mioclick.com/?ref=producthunt": {
+    "en_oneliner": "A fidget toy that lives in your browser — click away to unwind, with a little companion keeping you company.",
+    "en_title": "mio click: A Fidget Toy That's Also a Friend",
+    "zh_oneliner": "一个长在浏览器里的指尖玩具，按一按就能解压，还像个小伙伴一样陪着你。",
+    "zh_title": "mio click：会陪你的解压小玩具"
   },
   "https://www.msn.com/en-us/news/other/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt/ar-AA2hs7wV": {
     "en_oneliner": "A single router in southern Arkansas went down and grounded flights across the US — the story of how one infrastructure failure cascaded.",
