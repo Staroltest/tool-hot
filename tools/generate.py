@@ -807,6 +807,12 @@ BLOCKED_EXACT = {
     # 画圈点灯玩法）；游戏不是工具，只拦这一个 host
     # （2026-11-19 07:37 CST 轮实测）
     "robinduckett.github.io",
+    # Kruftle：桌面磁盘清理应用（官网自述下载安装器、macOS Gatekeeper /
+    # Windows SmartScreen / Linux 可执行位，须下载安装才能用），不是
+    # 浏览器工具；标题“reclaim disk space with each toolchain's own
+    # clean command”不露安装痕迹，标题门拦不住，浏览器实测封禁
+    # （2026-11-19 10:37 CST 轮，混入热点榜第 1 位后拦下）
+    "kruftle.dizitart.com",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {

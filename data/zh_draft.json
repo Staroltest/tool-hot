@@ -101,6 +101,12 @@
   "zh_oneliner": "给 AI 智能体用的微型工具集，按次用 USDC 付费，不用账号和 API 密钥就能调。",
   "zh_title": "Clear Rank Agent Tools：按次付费的智能体工具"
  },
+ "https://agentbolt.dev": {
+  "en_oneliner": "Learn Claude Code by commanding a robot through a scrapyard where every order costs context tokens, plus 320 free practice questions for the five Claude certifications.",
+  "en_title": "Agent Bolt – a browser game that teaches Claude Code by doing",
+  "zh_oneliner": "指挥机器人 BOLT 在废品场里下指令学 Claude Code，还能免费刷 5 门 Claude 认证的 320 道带解析练习题。",
+  "zh_title": "Agent Bolt：边玩边学 Claude Code 的浏览器游戏"
+ },
  "https://agenticcomputingbook.com": {
   "en_oneliner": "An online book on applying agentic engineering to scientific computing.",
   "en_title": "Agentic Engineering for Scientific Computing",
@@ -160,6 +166,12 @@
   "en_title": "AIIPWorld: web page to PDF or image",
   "zh_oneliner": "免费在线工具：HTML 或网址一键转成 PDF 或图片。",
   "zh_title": "AIIPWorld：网页转 PDF 图片"
+ },
+ "https://aimotioncontrol.org": {
+  "en_oneliner": "Upload a still image and a reference clip to transfer the motion, camera moves, and expressions onto your photo as a 1080p video.",
+  "en_title": "AI Motion Control",
+  "zh_oneliner": "传一张静态图、一段参考视频，就能把视频里的动作、运镜和表情完整搬到你的图上，生成 1080p 动效短片。",
+  "zh_title": "AI Motion Control"
  },
  "https://ainews.ninja/blog/icloud-key-value-store-sync": {
   "en_oneliner": "Full sync in under 1 MB of iCloud space — NewsNinja keeps sync feather-light with key-value storage.",
@@ -5237,6 +5249,12 @@
   "zh_oneliner": "179 种美国执照考试的免费练习题，在线刷题备考，考证路上先练手。",
   "zh_title": "EveryExamPrep：179 种美国执照考试免费刷题"
  },
+ "https://everysignal.com/?ref=producthunt": {
+  "en_oneliner": "Investor diligence in about an hour: name a company and a question, get back a sourced teardown, and get weekly alerts when the companies you watch change.",
+  "en_title": "Every Signal – diligence on any company in an hour",
+  "zh_oneliner": "给投资人做的公司尽调工具，输入一家公司和一个问题，一小时左右拿回带来源标注的拆解报告，还能每周盯着持仓公司的变化发提醒。",
+  "zh_title": "Every Signal：一小时出炉的公司尽调报告"
+ },
  "https://evvspetrolcalculator.com": {
   "en_oneliner": "A free EV vs petrol calculator comparing running cost, savings, break-even time and total cost of ownership.",
   "en_title": "EV vs Petrol Calculator: Compare Running Costs",
@@ -6227,6 +6245,12 @@
   "zh_oneliner": "一堆能点能拖的 Rive 交互动效模板，换上自己的标志、颜色和文案就能下载可用的 .riv 文件。",
   "zh_title": "Hoverine：可交互的 Rive 动效模板库"
  },
+ "https://hrih.si/projects/qr-anatomy": {
+  "en_oneliner": "Builds a QR code from scratch, labels what every square does, and lets you scratch it to watch error correction repair the damage.",
+  "en_title": "QR Anatomy – See what every square of a QR code is for",
+  "zh_oneliner": "从零生成一个二维码，给每一格标上用途，还能动手划坏它、看着纠错码把损坏的部分修回来。",
+  "zh_title": "QR Anatomy：二维码每一格是干什么的"
+ },
  "https://hub.pharen.de/?ref=producthunt": {
   "en_oneliner": "One AI workspace for your whole team — chats, docs, projects, mail and calendar in one place, with agents handling routine work and you approving the critical steps.",
   "en_title": "Pharen Hub",
@@ -6695,6 +6719,12 @@
   "zh_oneliner": "上传照片就能生成 Like Jennie 风格的舞蹈视频，跟风玩梗特别方便。",
   "zh_title": "Like Jennie AI：照片一键变 Jennie 风舞蹈视频"
  },
+ "https://limfx.ai/?ref=producthunt": {
+  "en_oneliner": "Enter a math problem and follow step-by-step reasoning beside interactive figures that move as the solution unfolds, or upload a whole paper for batch solutions.",
+  "en_title": "LimFx – understand math with interactive visuals",
+  "zh_oneliner": "输入一道数学题，跟着分步推导和会动的图形把思路看明白，还能上传整套试卷批量出解法。",
+  "zh_title": "LimFx：用交互图形讲明白数学"
+ },
  "https://linclips.com": {
   "en_oneliner": "Reputation and local-marketing tools for local businesses, with AI replies to Google reviews.",
   "en_title": "Linclips: Local Reputation Marketing",
@@ -6778,6 +6808,12 @@
   "en_title": "MakeFont",
   "zh_oneliner": "AI 字体生成器，手写体、图片或一句话提示都能变成一套能用的字体。",
   "zh_title": "MakeFont：AI 字体生成器"
+ },
+ "https://manufact.com/?ref=producthunt": {
+  "en_oneliner": "Deploy your MCP server to the cloud, run publishing checks for every plugin marketplace, generate the submission pack, and test releases in real clients with MCP-first analytics.",
+  "en_title": "Manufact – ship and test your MCP plugins",
+  "zh_oneliner": "把 MCP 服务器部署到云端，一键跑各家应用市场的上架检查、生成送审材料，还能在真实客户端里做评测、看调用分析。",
+  "zh_title": "Manufact：MCP 服务的上线与测试平台"
  },
  "https://mapgo.app/?ref=producthunt": {
   "en_oneliner": "Pin your day's tasks and events onto a map, with weather on each location, so you can find places, look around, and navigate in one place.",
@@ -7277,6 +7313,12 @@
   "zh_oneliner": "一部 AI 原生的商务电话：来电、短信和语音留言收进同一个收件箱，忙不过来时 AI 替你接听、分类并预约。",
   "zh_title": "Ody：AI 商务电话"
  },
+ "https://ofintech.ai/?ref=producthunt": {
+  "en_oneliner": "Ask your ledgers questions in Arabic or English and get answers where every figure cites the entry it came from, plus month-end tracking and a board-ready reporting pack.",
+  "en_title": "OfinTech Desk – AI finance assistant that reads your ledgers",
+  "zh_oneliner": "用阿拉伯语或英语直接问账本问题，每个数字都标明来自哪笔分录，还能盯月结进度、出一套董事会财报包。",
+  "zh_title": "OfinTech Desk：会读账本的阿拉伯语 AI 财务助手"
+ },
  "https://ohsovideo.com": {
   "en_oneliner": "Free in-browser video tools to compress, trim, caption, convert, and mute.",
   "en_title": "Oh So Video",
@@ -7660,6 +7702,12 @@
   "en_title": "The Fundamental Flaw in the Race to AGI",
   "zh_oneliner": "一篇 Substack 文章，聊这场奔向通用人工智能的竞赛里一个根本性的缺陷。",
   "zh_title": "通往 AGI 竞赛中的根本缺陷"
+ },
+ "https://psychevus.com/tools/supabase-rls": {
+  "en_oneliner": "Paste your schema and simulate attacks right in your browser to see exactly who gets into each table, catching overly permissive RLS policies.",
+  "en_title": "Supabase RLS Simulator: Who Can Read, Insert, Update or Delete Each Table",
+  "zh_oneliner": "粘贴数据库结构，在浏览器里模拟攻击，逐表逐操作看清谁能读、谁能改，揪出过于宽松的行级安全策略。",
+  "zh_title": "Supabase RLS 模拟器：谁能读写你的每张表"
  },
  "https://psychologytests.org": {
   "en_oneliner": "Take short psychology questionnaires scored privately right in your browser.",
@@ -8279,6 +8327,12 @@
   "zh_oneliner": "把故事丢进去，AI 直接生成短视频，写故事的人也能顺手做视频。",
   "zh_title": "StoryIntoVideo：故事一键变成短视频"
  },
+ "https://stripo.email/stripo-email-widgets/?ref=producthunt": {
+  "en_oneliner": "A gallery of ready-made interactive email blocks for the Stripo editor — drag one in, describe changes in plain words, no coding needed.",
+  "en_title": "Stripo Email Widgets – interactive blocks for your emails",
+  "zh_oneliner": "Stripo 编辑器里的现成邮件组件库，拖进模板、口头说出要改的地方，不用写代码就能给邮件加上交互区块。",
+  "zh_title": "Stripo 邮件小部件库"
+ },
  "https://studio.sinapsdata.com.br": {
   "en_oneliner": "A free interactive course on AI agent governance you can take right in the browser — Module 1 needs no registration, learn by doing.",
   "en_title": "Show HN: A free interactive course on AI agent governance",
@@ -8392,6 +8446,12 @@
   "en_title": "Show HN: I made a site showcasing The Elm Architecture in many other languages",
   "zh_oneliner": "把 Elm 架构的 Model、Msg、update 等核心概念用多种语言和框架一一实现，按与 Elm 的贴合度打分对照。",
   "zh_title": "TEA Ecosystem：Elm 架构的多语言实现对照"
+ },
+ "https://teaflask.com/?ref=producthunt": {
+  "en_oneliner": "Grow an AI assistant from your own product's code and embed it inside your product, where it clicks, fills forms and calls APIs to carry multi-step tasks through to done.",
+  "en_title": "Teaflask – the AI assistant for your product",
+  "zh_oneliner": "从你产品的代码里长出一个 AI 助手，装进产品里替用户点按钮、填表单、调接口，多步任务也能一口气办完。",
+  "zh_title": "Teaflask：给产品装上 AI 助手"
  },
  "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health": {
   "en_oneliner": "Apple has launched a new app for a study on how people use AI to answer everyday medical questions — and how well it works.",
@@ -8921,6 +8981,12 @@
   "zh_oneliner": "FreeBSD 的新包管理工具 Pkgbase 上手介绍，系统管理员值得一看。",
   "zh_title": "FreeBSD 新工具 Pkgbase(8)"
  },
+ "https://verse.ctruh.com/?ref=producthunt": {
+  "en_oneliner": "Upload a 3D file and get a shareable link anyone can open in a browser within minutes, or preview small files locally without uploading.",
+  "en_title": "Verse Engine – open a 3D scene in your browser",
+  "zh_oneliner": "上传 GLB、FBX 等 3D 文件，几分钟后拿到一个任何设备都能打开的分享链接，小文件还能只在本地浏览器里直接看。",
+  "zh_title": "Verse Engine：把 3D 场景变成浏览器链接"
+ },
  "https://verto.elyxis.vercel.app": {
   "en_oneliner": "Convert audio and video formats right in your browser — files never leave your device and there's no size limit.",
   "en_title": "Verto: In-Browser Media Converter",
@@ -9173,6 +9239,12 @@
   "zh_oneliner": "预测市场的 AI 交易助手：行情和机会都帮你盯着。",
   "zh_title": "Alphascope：预测市场助手"
  },
+ "https://www.animateimage.io": {
+  "en_oneliner": "Upload a photo, pick a motion like a gentle breath or slow push-in, and get a 5-second video of that same picture.",
+  "en_title": "Animate images and photos",
+  "zh_oneliner": "上传一张照片，选个呼吸、推近或微风等动效，几十秒就能得到一段 5 秒的动态小视频。",
+  "zh_title": "让图片动起来"
+ },
  "https://www.arcade.software/?ref=producthunt": {
   "en_oneliner": "Describe the video you want and get an on-brand marketing video built around your product in minutes, editable scene by scene.",
   "en_title": "Arcade",
@@ -9419,6 +9491,12 @@
   "zh_oneliner": "一篇解释家里 Wi-Fi 变慢的科普：设备一多，路由器要轮流应付每一台，网速自然就被摊薄了。",
   "zh_title": "为什么连上 Wi-Fi 的设备越多，网速就越慢"
  },
+ "https://www.enrichable.io/?ref=producthunt": {
+  "en_oneliner": "Describe the list of companies or people you need and it fills the sheet, then add columns in plain English and let AI research every row on the live web, with sources for each answer.",
+  "en_title": "Enrichable – open-source AI spreadsheet for data enrichment",
+  "zh_oneliner": "一句话说出想要的公司或人名清单，表格自动填好，再用自然语言加列、让 AI 逐行联网查证，每个答案都带来源。",
+  "zh_title": "Enrichable：AI 数据扩充电子表格"
+ },
  "https://www.euronews.com/2026/11/15/mysterious-object-in-space-could-it-be-a-soviet-probe-missing-for-40-years": {
   "en_oneliner": "A Euronews report on a mysterious object in space — could it be a Soviet probe missing for 40 years?",
   "en_title": "Mysterious object in space: Could it be a Soviet probe missing for 40 years?",
@@ -9617,6 +9695,12 @@
   "zh_oneliner": "48 个覆盖全市场的选股策略，分成 13 组，每个策略都写明了筛选规则，点开就能看到今天符合条件的公司。",
   "zh_title": "Maz Vantage 投资思路：48 个可验证的选股策略"
  },
+ "https://www.meilisearch.com/products/search-rules?ref=producthunt": {
+  "en_oneliner": "A visual editor in Meilisearch Cloud for rules that pin, boost, deboost or hide results when a query matches, with no redeploy needed.",
+  "en_title": "Meilisearch Search Rules – pin, boost and hide results",
+  "zh_oneliner": "Meilisearch Cloud 里的可视化编辑器，给搜索结果定规则：符合条件的查询置顶爆款、降权或隐藏指定商品，不用重新部署。",
+  "zh_title": "Meilisearch 搜索规则：置顶、加权与隐藏结果"
+ },
  "https://www.mercor.com/blog/training-frontier-knowledge-work-agents-a-397b-rl-training-guide-with-skyrl": {
   "en_oneliner": "A hands-on guide to training a 397B frontier knowledge-work agent with reinforcement learning on SkyRL, covering the key steps of the process.",
   "en_title": "Training frontier knowledge work agents: A 397B RL training guide with SkyRL",
@@ -9796,6 +9880,12 @@
   "en_title": "First Molecular-Level Images of Water Reorganization During a Reaction",
   "zh_oneliner": "科学家第一次在分子层面拍下水在化学反应中重新排列的过程，给研究水的行为提供了新视角。",
   "zh_title": "科学家首次拍到水分子在反应中重排的分子级图像"
+ },
+ "https://www.pockettag.link": {
+  "en_oneliner": "Tag a note in Pocket AI and it gets emailed to the right person automatically — your note content is never stored or read.",
+  "en_title": "PocketTag: Forward Tagged Pocket AI Notes to Email",
+  "zh_oneliner": "给 Pocket AI 笔记打上标签，符合规则的笔记自动转发到指定邮箱，笔记内容不保存也不读取。",
+  "zh_title": "PocketTag：按标签把 AI 笔记转发到邮箱"
  },
  "https://www.portalkinetic.com": {
   "en_oneliner": "Dump the open loops crowding your head, take a 60-second reset, and leave with a single next move: start it, park it, or stop here.",
@@ -10331,6 +10421,12 @@
   "zh_oneliner": "上传一张照片，它自动把主体抠出来，背景变透明或换个底色，导出 PNG 就能直接用。",
   "zh_title": "RemoveBG：在线抠图去背景"
  },
+ "https://www.removenoise.io": {
+  "en_oneliner": "Upload a recording or video and strip out hiss, hum, and fan noise, leaving clean speech you can compare against the original.",
+  "en_title": "Remove Noise",
+  "zh_oneliner": "上传录音或视频，一键去掉嘶嘶声、电流声、风扇声等背景噪音，只留干净的人声，还能对照原片试听。",
+  "zh_title": "去除背景噪音"
+ },
  "https://www.reuters.com/business/aerospace-defense/us-rocket-fails-after-launch-payload-amazon-internet-satellites-destroyed-2026-11-15": {
   "en_oneliner": "A rocket from the Boeing-Lockheed joint venture failed mid-flight after launch, destroying its payload of Amazon internet satellites.",
   "en_title": "Boeing-Lockheed rocket fails mid-flight, destroys payload of Amazon satellites",
@@ -10456,6 +10552,12 @@
   "en_title": "Sheets Bootcamp: learn Sheets by typing",
   "zh_oneliner": "边敲真实公式边学 Google Sheets，打字练习里把表格学会。",
   "zh_title": "Sheets Bootcamp：表格公式训练"
+ },
+ "https://www.source.app/?ref=producthunt": {
+  "en_oneliner": "Connect your website and CRM data so agents in Claude, ChatGPT or Cursor can ask which channels sourced pipeline, with the SQL behind every answer.",
+  "en_title": "Source – the attribution data layer for your agents",
+  "zh_oneliner": "把网站和 CRM 数据接进来，Claude、ChatGPT、Cursor 里的代理就能直接问哪条渠道带来了订单，连背后的 SQL 都一起给出来。",
+  "zh_title": "Source：让 AI 代理查归因数据的 MCP 层"
  },
  "https://www.space.com/astronomy/uranus/scientists-may-finally-understand-the-weird-magnetic-fields-of-uranus-and-neptune": {
   "en_oneliner": "The weird magnetic fields of Uranus and Neptune have puzzled scientists for 40 years — researchers may finally understand why.",
@@ -10984,35 +11086,5 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
- },
- "https://www.pockettag.link": {
-  "en_oneliner": "Tag a note in Pocket AI and it gets emailed to the right person automatically — your note content is never stored or read.",
-  "en_title": "PocketTag: Forward Tagged Pocket AI Notes to Email",
-  "zh_oneliner": "给 Pocket AI 笔记打上标签，符合规则的笔记自动转发到指定邮箱，笔记内容不保存也不读取。",
-  "zh_title": "PocketTag：按标签把 AI 笔记转发到邮箱"
- },
- "https://psychevus.com/tools/supabase-rls": {
-  "en_oneliner": "Paste your schema and simulate attacks right in your browser to see exactly who gets into each table, catching overly permissive RLS policies.",
-  "en_title": "Supabase RLS Simulator: Who Can Read, Insert, Update or Delete Each Table",
-  "zh_oneliner": "粘贴数据库结构，在浏览器里模拟攻击，逐表逐操作看清谁能读、谁能改，揪出过于宽松的行级安全策略。",
-  "zh_title": "Supabase RLS 模拟器：谁能读写你的每张表"
- },
- "https://www.removenoise.io": {
-  "en_title": "Remove Noise",
-  "en_oneliner": "Upload a recording or video and strip out hiss, hum, and fan noise, leaving clean speech you can compare against the original.",
-  "zh_title": "去除背景噪音",
-  "zh_oneliner": "上传录音或视频，一键去掉嘶嘶声、电流声、风扇声等背景噪音，只留干净的人声，还能对照原片试听。"
- },
- "https://aimotioncontrol.org": {
-  "en_title": "AI Motion Control",
-  "en_oneliner": "Upload a still image and a reference clip to transfer the motion, camera moves, and expressions onto your photo as a 1080p video.",
-  "zh_title": "AI Motion Control",
-  "zh_oneliner": "传一张静态图、一段参考视频，就能把视频里的动作、运镜和表情完整搬到你的图上，生成 1080p 动效短片。"
- },
- "https://www.animateimage.io": {
-  "en_title": "Animate images and photos",
-  "en_oneliner": "Upload a photo, pick a motion like a gentle breath or slow push-in, and get a 5-second video of that same picture.",
-  "zh_title": "让图片动起来",
-  "zh_oneliner": "上传一张照片，选个呼吸、推近或微风等动效，几十秒就能得到一段 5 秒的动态小视频。"
  }
 }
