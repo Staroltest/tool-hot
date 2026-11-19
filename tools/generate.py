@@ -719,6 +719,21 @@ BLOCKED_DOMAINS = {
     # 没有能在浏览器里直接用的免费工具；同已封的 TokLab、Quebec、
     # atlas-compiler.com 等纯 API 平台；标题不露痕迹，标题门拦不住，域名封禁
     "1lookup.io",
+    # 抽查确认不是在线工具（2026-11-19 15:07 CST 轮，本轮 Ignlab 批量新到
+    # 47 条，人工审摘要+浏览器实测可疑项）：NAVSMAP 是 AI 工具目录站
+    # （"Find AI tools, workflows, MCP servers"，只能浏览检索工具列表，
+    # 本轮已进热点榜）；Warta Kopi 是印尼语咖啡店点评媒体站（菜单、
+    # 价格、氛围测评文章）；VersusDeck 只发软件对比文章（"publishes
+    # short, cite-ready tool comparisons"，无交互工具）；TechXaro
+    # Abandoned Form Recovery 是 WordPress 插件（"Free to download"，
+    # 须装到自己的 WordPress 站才能用）；VibeCamz 是在线速配约会、
+    # Dewdrop 是盲约应用、Umingle/Chat Met Vreemden 是与陌生人 1 对 1
+    # 视频聊天、Voxxy 是与陌生人随机语音通话——交友/陌生人社交平台
+    # 不是工具；以上标题均不露痕迹，标题门拦不住，域名封禁
+    "navsmap.com", "wartakopi.net", "versusdeck.com",
+    "abandonedformrecovery.techxaro.com",
+    "vibecamz.com", "dewdrop.date", "umingle.video",
+    "chatmetvreemden.live", "voxxy.app",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
