@@ -746,6 +746,11 @@ BLOCKED_DOMAINS = {
     # 没有能在浏览器里直接用的免费工具；同已封的 TokLab、Quebec、
     # atlas-compiler.com 等纯 API 平台；标题不露痕迹，标题门拦不住，域名封禁
     "1lookup.io",
+    # 抽查确认不是在线工具（2026-11-19 每日流量检查轮自查，本轮热点榜）：
+    # Crabble 是浏览器单词游戏（标题自写 "a free browser word game"，
+    # 有 bot 段位与赛后复盘）；Goaler 是每日足球竞猜游戏（"a daily
+    # football grid you can send to a friend"）；游戏不是工具，域名封禁
+    "crabble.club", "goaler.net",
     # 抽查确认不是在线工具（2026-11-19 15:07 CST 轮，本轮 Ignlab 批量新到
     # 47 条，人工审摘要+浏览器实测可疑项）：NAVSMAP 是 AI 工具目录站
     # （"Find AI tools, workflows, MCP servers"，只能浏览检索工具列表，
