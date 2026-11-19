@@ -905,6 +905,12 @@
     "zh_oneliner": "一个任务板同时跑多个 AI 编程助手，排好任务让它们自己领活汇报，不用注册就能开始。",
     "zh_title": "Codersera：多 AI 编程助手并行任务板"
   },
+  "https://codesolara.com": {
+    "en_oneliner": "Send one link to start a technical interview: candidates code in a real in-browser editor with an AI assistant beside them, and you get a scorecard where every score cites its evidence.",
+    "en_title": "Codesolara: Technical Interviews That Let Candidates Use AI",
+    "zh_oneliner": "发一个链接就能开一场技术面试，候选人在浏览器里的真实编辑器中边用 AI 助手边写代码，面试官拿到的每项评分都有据可查。",
+    "zh_title": "Codesolara：允许候选人用 AI 的技术面试"
+  },
   "https://collecto.rs/?ref=producthunt": {
     "en_oneliner": "Catalog anything you collect — Pokémon cards, vinyl, LEGO, plants — by snapping a photo for AI identification, then display and share it beautifully, free with no item limit.",
     "en_title": "collecto.rs",
