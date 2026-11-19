@@ -42,6 +42,7 @@ UA = {"User-Agent": "HOTBot/1.0"}
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ANALYTICS = "<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"45ad8fc57fc1481caa995c5bcdeb9072\"}'></script><!-- End Cloudflare Web Analytics -->"  # Cloudflare Web Analytics 统计代码
+CLARITY = """<script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "zfumqwq0k0");</script>"""
 
 
 # ---------------------------------------------------------------- 工具函数
@@ -3966,7 +3967,7 @@ def page_open(site, active, title, description, prefix="", base="", canonical=""
 def page_close(site, active, prefix="", base="", lang="zh"):
     to_top = (f'<button type="button" class="to-top" id="toTop" aria-label="{_L(lang, "回到顶部", "Back to top")}">'
               f'{icon("arrow-up", 18)}</button>')
-    return (f"{footer_html(site, base, lang)}</div></div></div>{to_top}{tabbar_html(active, prefix, base, lang)}<script src='{base}assets/site.js'></script>{ANALYTICS}</body></html>\n")
+    return (f"{footer_html(site, base, lang)}</div></div></div>{to_top}{tabbar_html(active, prefix, base, lang)}<script src='{base}assets/site.js'></script>{ANALYTICS}{CLARITY}</body></html>\n")
 
 
 def day_header(d, items, today, aside=False, lang="zh"):
@@ -4896,7 +4897,7 @@ def render_404(site):
             f'<div class="empty-actions">'
             f'<a class="empty-btn primary" href="{site_url}/index.html">回首页</a>'
             f'<a class="empty-btn" href="{site_url}/hot.html">去看热点榜</a>'
-            f'</div></div></div></div></div></div>{boot_404}{ANALYTICS}</body></html>\n')
+            f'</div></div></div></div></div></div>{boot_404}{ANALYTICS}{CLARITY}</body></html>\n')
 
 
 def render_hot(site, hot, generated_at, counts, cfg, lang="zh"):
