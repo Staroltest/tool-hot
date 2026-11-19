@@ -700,6 +700,13 @@ BLOCKED_DOMAINS = {
     # Signature 是编码智能体评测榜单/报告页（各模型得分排行榜，只能浏览
     # 与排序），站上没有能直接用的工具；榜单/报告不是工具，域名封禁
     "fairbake.dev",
+    # 抽查确认不是在线工具（2026-11-19 09:37 CST 轮实测）：WalkThisPlan
+    # 是给建商做的代建服务（发平面图、7 天后交付 360° 样板间），访客在
+    # 浏览器里用不了任何工具，服务落地页不是工具站；ngTestFoundry 是
+    # VS Code 扩展（官网 "Install from Marketplace"），须下载安装才能
+    # 用；两者标题均不露痕迹，标题门拦不住，域名封禁；探查信号同步加
+    # vscode_extension 拦此类扩展落地页
+    "walkthisplan.com", "sshyeri.github.io",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -1045,6 +1052,10 @@ PROBE_SIGNALS = [
     ("add_to_chrome", r"\badd\s+to\s+chrome\b"),
     ("extension_install",
      r"(install|add|get)\s+(the\s+)?(chrome|firefox|browser|edge|safari)\s+extension\b"),
+    # 2026-11-19 09:37 CST 轮补：ngTestFoundry 首页明写 "is a VS Code
+    # extension"（Install from Marketplace），是须下载安装的编辑器扩展，
+    # 旧信号（extension_install 只认浏览器扩展）够不着这种写法
+    ("vscode_extension", r"\bvs\s*code\s+extension\b"),
     ("mac_app", r"\b(mac|macos)\s+app\b"),
     ("windows_app", r"\bwindows\s+app\b"),
     ("requires_platform",

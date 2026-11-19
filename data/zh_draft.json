@@ -10678,5 +10678,11 @@
     "en_title": "Show HN: LaTeX Editor with Incremental Compilation",
     "zh_oneliner": "在线写 LaTeX，改一处就只重编一处，预览跟手速走，不用等整篇重新编译。",
     "zh_title": "Texter：边写边编译的在线 LaTeX 编辑器"
+  },
+  "https://favicon.one": {
+    "en_oneliner": "Upload an image or type text or an emoji to generate a complete multi-size favicon set, and check whether a site's existing favicon is set up correctly.",
+    "en_title": "Show HN: Favicon.one – Free favicon generator, checker and downloader",
+    "zh_oneliner": "上传图片或输入文字、表情，一键生成全套多尺寸 Favicon，还能检测现有网站的 Favicon 是否规范。",
+    "zh_title": "Favicon.one：免费 Favicon 生成、检测与下载"
   }
 }
