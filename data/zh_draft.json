@@ -11086,5 +11086,11 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
+ },
+ "https://tooljet.com/?ref=producthunt": {
+  "zh_title": "ToolJet：用 AI 搭能通过安全审查的企业内部应用",
+  "zh_oneliner": "在浏览器里用自然语言描述需求，就能搭出连着数据库和 API 的内部工具，权限与审计都内置，合规团队也能放行。",
+  "en_title": "ToolJet – Build Business Apps with AI That Pass Security Review",
+  "en_oneliner": "Describe the internal tool you need in plain language and build it in the browser, connected to your databases and APIs, with permissions and audit trails built in."
  }
 }
