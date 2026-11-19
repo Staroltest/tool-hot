@@ -437,6 +437,12 @@
     "zh_oneliner": "测试框架 Attest 关注 AI 智能体的实际行为而非口头承诺，让智能体评测更靠谱。",
     "zh_title": "Show HN：Attest，测试 AI 智能体做了什么，而不只是说了什么"
   },
+  "https://auteo.ai": {
+    "en_oneliner": "Type one prompt and get video, images, voiceovers and music in a single browser studio, with your choice of models from first frame to final mix.",
+    "en_title": "Auteo: AI Creative Suite That Turns One Prompt into Video, Images, Audio and Music",
+    "zh_oneliner": "写一句提示词就能生成视频、图片、配音和音乐，从第一帧到最后混音都在同一个浏览器里完成，还能自选模型。",
+    "zh_title": "Auteo：一句话生成视频、图片、音频和音乐的 AI 创意套件"
+  },
   "https://auxiliarymemory.com/2026/11/15/how-i-remember-the-byrds": {
     "en_oneliner": "A piece of reminiscence about The Byrds, the 1960s rock band, as the author remembers them.",
     "en_title": "How I Remember the Byrds",
@@ -5423,6 +5429,12 @@
     "zh_oneliner": "一则行业消息：某团队用 GLM 模型替换原有方案后，两千名工程师的 AI 编程开销省了九成。",
     "zh_title": "GLM 模型让 2000 名工程师的 AI 编程成本直降 90%"
   },
+  "https://fizzler.ai": {
+    "en_oneliner": "Plug it into your AI agent and, for open-ended questions, it first offers a few real things from other worlds so the answer escapes the obvious.",
+    "en_title": "Show HN: Fizzler – a simple tool that pulls agents out of defaultthink",
+    "zh_oneliner": "接进你的 AI 智能体后，遇到开放问题先递上几条来自别的领域的真人真事，帮它跳出千篇一律的答案。",
+    "zh_title": "Show HN：Fizzler：给 AI 智能体喂点题外灵感，别总答标准答案"
+  },
   "https://flaient.com": {
     "en_oneliner": "An interactive AI coding platform where real agents guide you through writing code, learning by doing instead of just watching tutorials.",
     "en_title": "Show HN: FlAIent – Learn interactive AI coding with real agents",
@@ -6971,6 +6983,12 @@
     "zh_oneliner": "T.REX Arms 的免费地图服务，可以查看并打印地形图，户外与训练爱好者可能会用得上。",
     "zh_title": "T.REX Arms 地图服务：免费可打印地形图"
   },
+  "https://maptools.app": {
+    "en_oneliner": "Import the places you saved in Google Maps, then search them by city, type, opening hours or tag, and keep track of your visits.",
+    "en_title": "Show HN: Search your Google Maps saved places",
+    "zh_oneliner": "把 Google 地图里收藏的地点导进来，就能按城市、类型、营业时间和标签快速搜索，还能打卡记录去过哪。",
+    "zh_title": "Show HN：MapTools：给 Google 地图收藏夹装上搜索和标签"
+  },
   "https://margeux.com/studio.html": {
     "en_oneliner": "An indentation-based Lisp dialect with an in-browser editor and WASM runtime — open the page and start writing and running code.",
     "en_title": "Margeux — An Indentation-Based Lisp with a WASM Runtime",
@@ -7192,6 +7210,12 @@
     "en_title": "Creating product demos by mocking your API (feat. tRPC)",
     "zh_oneliner": "不用等后端 ready，用模拟 API 就能做出可交互的产品演示，tRPC 用户可以直接套用。",
     "zh_title": "用模拟 API 做产品演示（结合 tRPC）"
+  },
+  "https://mozolite.com": {
+    "en_oneliner": "Paste a URL to see how search engines and AI assistants read your page, with 200+ checks ranked by search impact and a plain fix for each.",
+    "en_title": "Show HN: A SEO Tool to get found by Google and get cited by AI",
+    "zh_oneliner": "输入网址就能查页面在搜索引擎和 AI 助手眼里长什么样，200 多项检查按搜索影响排好序，逐条告诉你改什么。",
+    "zh_title": "Show HN：Mozolite：帮页面被 Google 收录、被 AI 助手引用的 SEO 检测工具"
   },
   "https://mp4tomp3.to": {
     "en_oneliner": "Turn video files into MP3 audio — simple, free, and right in your browser.",
@@ -11326,23 +11350,5 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
-  },
-  "https://mozolite.com": {
-    "en_title": "Show HN: A SEO Tool to get found by Google and get cited by AI",
-    "en_oneliner": "Paste a URL to see how search engines and AI assistants read your page, with 200+ checks ranked by search impact and a plain fix for each.",
-    "zh_title": "Show HN：Mozolite：帮页面被 Google 收录、被 AI 助手引用的 SEO 检测工具",
-    "zh_oneliner": "输入网址就能查页面在搜索引擎和 AI 助手眼里长什么样，200 多项检查按搜索影响排好序，逐条告诉你改什么。"
-  },
-  "https://fizzler.ai": {
-    "en_title": "Show HN: Fizzler – a simple tool that pulls agents out of defaultthink",
-    "en_oneliner": "Plug it into your AI agent and, for open-ended questions, it first offers a few real things from other worlds so the answer escapes the obvious.",
-    "zh_title": "Show HN：Fizzler：给 AI 智能体喂点题外灵感，别总答标准答案",
-    "zh_oneliner": "接进你的 AI 智能体后，遇到开放问题先递上几条来自别的领域的真人真事，帮它跳出千篇一律的答案。"
-  },
-  "https://maptools.app": {
-    "en_title": "Show HN: Search your Google Maps saved places",
-    "en_oneliner": "Import the places you saved in Google Maps, then search them by city, type, opening hours or tag, and keep track of your visits.",
-    "zh_title": "Show HN：MapTools：给 Google 地图收藏夹装上搜索和标签",
-    "zh_oneliner": "把 Google 地图里收藏的地点导进来，就能按城市、类型、营业时间和标签快速搜索，还能打卡记录去过哪。"
   }
 }
