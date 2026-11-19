@@ -11160,27 +11160,69 @@
   "zh_title": "zSign：电子签名"
  },
  "https://www.cyberscorelab.com": {
-  "en_title": "CyberScore Labs",
   "en_oneliner": "Type in a website address and get a free 20-second external security scan with a grade and a score out of 100.",
-  "zh_title": "CyberScore Labs：20 秒测出网站安全分",
-  "zh_oneliner": "输入网址，20 秒从外部视角扫描你的网站配置、邮件防护和公开服务，打出百分制安全评分。"
+  "en_title": "CyberScore Labs",
+  "zh_oneliner": "输入网址，20 秒从外部视角扫描你的网站配置、邮件防护和公开服务，打出百分制安全评分。",
+  "zh_title": "CyberScore Labs：20 秒测出网站安全分"
  },
  "https://goaler.net/?src=hn": {
-  "en_title": "Show HN: Goaler – a daily football grid you can send to a friend",
   "en_oneliner": "A daily football guessing grid you can play and send to a friend to see who solves it faster.",
-  "zh_title": "Goaler：每天一局、能发给朋友的足球猜谜格子",
-  "zh_oneliner": "每天出一道足球主题的猜谜格子，猜完一键发给朋友，比比谁猜得快。"
+  "en_title": "Show HN: Goaler – a daily football grid you can send to a friend",
+  "zh_oneliner": "每天出一道足球主题的猜谜格子，猜完一键发给朋友，比比谁猜得快。",
+  "zh_title": "Goaler：每天一局、能发给朋友的足球猜谜格子"
  },
  "https://goodbyegta5.app": {
-  "en_title": "Goodbye GTA 5 AI",
   "en_oneliner": "Upload one photo and get a farewell video that takes you back to 2013 to say goodbye to the three GTA 5 leads on the pier.",
-  "zh_title": "Goodbye GTA 5 AI：一张照片生成 GTA 5 告别视频",
-  "zh_oneliner": "上传一张照片，生成一段回到 2013 年、在码头与三位主角告别的 GTA 5 纪念视频。"
+  "en_title": "Goodbye GTA 5 AI",
+  "zh_oneliner": "上传一张照片，生成一段回到 2013 年、在码头与三位主角告别的 GTA 5 纪念视频。",
+  "zh_title": "Goodbye GTA 5 AI：一张照片生成 GTA 5 告别视频"
  },
  "https://linkorva.com": {
-  "en_title": "Linkorva",
   "en_oneliner": "An AI agent that runs in your own Chrome, submitting your product to fitting directories and drafting outreach pitches so it gets found in search and AI answers.",
-  "zh_title": "Linkorva：帮新产品做白帽 SEO 起步的 AI 助手",
-  "zh_oneliner": "在你自己的浏览器里跑的 AI 助手，帮新产品提交到合适的目录、起草外联邮件，让它在搜索和 AI 回答里被找到。"
+  "en_title": "Linkorva",
+  "zh_oneliner": "在你自己的浏览器里跑的 AI 助手，帮新产品提交到合适的目录、起草外联邮件，让它在搜索和 AI 回答里被找到。",
+  "zh_title": "Linkorva：帮新产品做白帽 SEO 起步的 AI 助手"
+ },
+ "https://www.aikitchendesign.co": {
+  "en_oneliner": "Upload a photo of your kitchen or describe an idea, and AI redesigns the layout and style for you.",
+  "en_title": "Show HN: AI Kitchen Designer",
+  "zh_oneliner": "上传厨房照片或描述想法，AI 帮你重新设计厨房布局和风格，所见即所得。",
+  "zh_title": "Show HN：AI Kitchen Designer：AI 厨房设计"
+ },
+ "https://crabble.club": {
+  "en_oneliner": "A free word game in the browser: play against tiered bots and review your game afterwards.",
+  "en_title": "Show HN: Crabble – a free browser word game",
+  "zh_oneliner": "浏览器里直接玩的免费拼词游戏，分难度打电脑对手，打完还能看复盘分析。",
+  "zh_title": "Show HN：Crabble：免费浏览器拼词游戏"
+ },
+ "https://evenleads.com/gigs": {
+  "en_oneliner": "A live feed of people publicly asking to hire freelancers, so you can follow up and pitch your services.",
+  "en_title": "Show HN: Evenleads – a live feed of freelance hiring asks",
+  "zh_oneliner": "实时汇总公开喊着要找自由职业者的人和项目，接活的人可以直接顺藤摸瓜去联系。",
+  "zh_title": "Show HN：Evenleads：实时自由职业需求动态"
+ },
+ "https://joonoo.art/create-comic": {
+  "en_oneliner": "Turn photos of family and friends into comics, with a free preview before you commit.",
+  "en_title": "Show HN: Joonoo – turn photos into comics",
+  "zh_oneliner": "把家人朋友的照片变成漫画，免费预览效果，满意再接着做。",
+  "zh_title": "Show HN：Joonoo：照片变漫画"
+ },
+ "https://165188.xyz": {
+  "en_oneliner": "Invoice generator and profit calculators that work with no sign-up, handy for side-project bookkeeping.",
+  "en_title": "Show HN: SideLedger Tools – invoice generator and profit calculators",
+  "zh_oneliner": "不用注册就能用的发票生成器和利润计算器，做副业算账、开发票都顺手。",
+  "zh_title": "Show HN：SideLedger Tools：免注册发票与利润计算器"
+ },
+ "https://tabbyml.github.io/weight-space-playground": {
+  "en_oneliner": "Watch weight-space programming in action in your browser, powered by WebGPU.",
+  "en_title": "Show HN: Weight-Space Playground – weight-space programming in the browser",
+  "zh_oneliner": "在浏览器里用 WebGPU 实时演示权重空间编程，直观看到模型权重如何被改写。",
+  "zh_title": "Show HN：Weight-Space Playground：浏览器里看权重空间编程"
+ },
+ "https://codedesign.ai/?ref=producthunt": {
+  "en_oneliner": "Design website interfaces with AI and get production-ready code, from idea to working page in one step.",
+  "en_title": "CodeDesign v3",
+  "zh_oneliner": "用 AI 设计网站界面并直接生成代码，从想法到能用的页面一步到位。",
+  "zh_title": "CodeDesign v3：AI 网站设计与代码生成"
  }
 }
