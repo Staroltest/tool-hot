@@ -184,6 +184,9 @@ BLOCKED_DOMAINS = {
     "theresanaiforthat.com", "futuretools.io", "indiehackers.com",
     "facebook.com", "instagram.com", "linkedin.com", "tiktok.com",
     "apps.apple.com", "play.google.com",
+    # Steam 商店页：须下载安装的游戏/软件，不是浏览器里能直接用的工具
+    # （2026-11-19 20:07 CST 轮：IT Thinks 链到 store.steampowered.com）
+    "steampowered.com",
     "nytimes.com", "theguardian.com", "reuters.com", "washingtonpost.com",
     "cnn.com", "bbc.com", "bbc.co.uk", "economist.com", "ft.com", "wsj.com",
     "theatlantic.com", "newyorker.com", "thehill.com", "cnbc.com",
@@ -793,6 +796,11 @@ BLOCKED_DOMAINS = {
     # 用的工具；同已封的 TokLab 等纯 API 平台；标题不露痕迹，标题门
     # 拦不住，域名封禁
     "maglev.sh",
+    # 2026-11-19 20:07 CST 轮实测封禁（HN Show 新到混入热点榜）：
+    # publicrows.com 是 Apify 数据 actor 的目录/售卖站（按行付费的数据
+    # 产品目录），不是能直接用的工具；标题“pay-per-row data actors”
+    # 不露目录痕迹，域名封禁
+    "publicrows.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -872,6 +880,17 @@ BLOCKED_EXACT = {
     # clean command”不露安装痕迹，标题门拦不住，浏览器实测封禁
     # （2026-11-19 10:37 CST 轮，混入热点榜第 1 位后拦下）
     "kruftle.dizitart.com",
+    # 2026-11-19 20:07 CST 轮实测封禁（HN Show 新到混入热点榜）：
+    # contribute.eigin.ai 是 Eigin 的投稿者招募页（“We fund
+    # contributions”、公开征集 spec），不是能直接用的工具；只拦这一个
+    # host，根域 eigin.ai 以后若有直接可用的工具页仍可收；
+    # plazzle.netlify.app 是每日寻路解谜小游戏（纯游戏，按 11-18 以来
+    # 封纯游戏的做法处理；游戏收录口径仍待用户定）
+    "contribute.eigin.ai",
+    "plazzle.netlify.app",
+    # romantimes.eu 是罗马策略单机游戏（纯游戏，同上；20:07 CST 轮
+    # 补位进热点榜后拦下）
+    "romantimes.eu",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
@@ -888,6 +907,10 @@ ARTICLE_PATH_SEGMENTS = {
     # 是音频转 MIDI 模型的发布长文，内嵌演示只是文章一小部分，不是工具站
     # 本身；全库 5 条含 research 路径段的均为文章/研究介绍页，无一是工具）
     "research",
+    # 基准测试评测文章页（2026-11-19 20:07 CST 轮：contextflo.com/
+    # benchmarks/dabstep-haiku 是“给 AI 智能体加业务上下文有没有用”的
+    # 评测长文，不是能直接用的工具；全库仅此 1 条含 benchmarks 路径段）
+    "benchmarks",
 }
 # 文档/API 参考味路径段：链到 API 文档、开发者文档页的不是能直接用的
 # 工具站本身（2026-11-18 18:37 CST 轮：readplace.com/developers 是
