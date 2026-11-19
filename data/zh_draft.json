@@ -10660,5 +10660,23 @@
     "en_oneliner": "Paste a URL to find out for free why Google isn't indexing a page, with the evidence and the fix — no account, no Search Console needed.",
     "zh_title": "Indexing Doctor：免费检查 Google 不收录页面的原因",
     "zh_oneliner": "粘贴网址就能免费查出 Google 不收录页面的原因，附带证据和修复步骤，不用账号也不用接 Search Console。"
+  },
+  "https://frontier-lab-observatory.lucentcarrot1.chatgpt.site": {
+    "en_oneliner": "A filterable visual timeline of model and product releases from the major AI labs, browsable by lab, type, and time range.",
+    "en_title": "Show HN: Frontier Observatory – A visual timeline of what the AI labs ship",
+    "zh_oneliner": "把各家 AI 实验室的模型与产品发布整理成一条可筛选的时间线，按实验室、类型和时间范围随便翻。",
+    "zh_title": "Frontier Observatory：各家 AI 实验室发布动态的可视化时间线"
+  },
+  "https://puzzle.cloudish.app": {
+    "en_oneliner": "Scan your jigsaw pieces with your phone and it shows exactly where each piece belongs — built for the hard puzzles.",
+    "en_title": "Show HN: Solve hard jigsaw puzzles scanning with phone",
+    "zh_oneliner": "手机扫一下拼图碎片，它就能告诉你每一块该放到拼图里的哪个位置，专治高难度拼图。",
+    "zh_title": "Puzzle Solver：手机一扫，告诉你拼图碎片该放哪"
+  },
+  "https://app.texter.website": {
+    "en_oneliner": "Write LaTeX online with incremental compilation — edit a line and only that part rebuilds, so the preview keeps up with your typing.",
+    "en_title": "Show HN: LaTeX Editor with Incremental Compilation",
+    "zh_oneliner": "在线写 LaTeX，改一处就只重编一处，预览跟手速走，不用等整篇重新编译。",
+    "zh_title": "Texter：边写边编译的在线 LaTeX 编辑器"
   }
 }
