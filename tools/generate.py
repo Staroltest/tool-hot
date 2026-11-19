@@ -458,6 +458,23 @@ BLOCKED_DOMAINS = {
     # "Free to start" 注册引导），站上没有能直接用的工具；产品本身须注册
     # 云端账号或自托管部署，不是点开就能用的工具
     "tooljet.com",
+    # 抽查确认不是在线工具（2026-11-19 05:07 轮，curl 实测）：AI Stack Lab
+    # 首页是 AI 工具定价数据目录站（Tools/Compare/Best picks/Price changes，
+    # 34 个工具的价格与快照），点开是工具清单与比价页，不是工具本身；计算器
+    # 只是其中一个子栏目，热点榜链的是根地址目录页，按目录页封禁
+    "ai-stack-lab-wherebeing.pages.dev",
+    # 抽查确认不是在线工具（2026-11-19 05:07 轮，curl 实测）：Globus 是
+    # 每日新闻产品（One edition a day of the stories that matter），iPhone
+    # 应用（Designed for iPhone，Free for 7 days 试用），新闻 + 手机应用双重
+    # 泄漏，标题里的 (iOS) 也露了痕迹
+    "globus.earth",
+    # 抽查确认不是在线工具（2026-11-19 05:07 轮，curl 实测）：AI Portrait
+    # Prompts 是 55 条人像提示词静态合集（Browse 55 tested prompts，复制粘贴
+    # 进 ChatGPT/Midjourney/DALL-E），站上没有交互工具，同已封的提示词库
+    # promptcrate.pages.dev，属内容站；What Is Localhost 是 localhost 互动
+    # 科普指南（A field guide，分章讲解概念），没有能用的工具，同已封的互动
+    # 科普页 scififutures / rshekhar.com/voyager，属内容站
+    "aiportraitprompts.com", "whatislocalhost.com",
     # 抽查确认不是在线工具（2026-11-16 23:00 轮，浏览器实测本轮 6 条新品，
     # 3 条泄漏）：Codjiva 是 macOS/Windows/Linux 桌面应用（官网“Free, for
     # macOS, Windows and Linux”“Pick the build for your system”），须下载安装；

@@ -11110,5 +11110,29 @@
     "zh_title": "Kakurenbo：猜日语假名版 Wordle",
     "zh_oneliner": "每天一个四假名日语单词，六次机会猜出来，猜完还能看到汉字、释义和读音，顺带练假名。",
     "en_oneliner": "A daily Wordle-style game in hiragana — guess the four-kana word in six tries, then see its kanji, meaning, and reading."
+  },
+  "https://www.vybe.build/website-analyzer": {
+    "en_title": "Vybe: 18-Skill Website Analysis Tool",
+    "en_oneliner": "Paste in a URL for a free audit of your site — conversion, SEO, speed and 15 more checks in one pass, with the top fix listed first.",
+    "zh_title": "Vybe：18 项技能的网站分析工具",
+    "zh_oneliner": "输入网址就能免费拿到一份网站审计：转化、SEO、速度等 18 项一次查完，并告诉你先修哪一项。"
+  },
+  "https://www.kdpbook.ai": {
+    "en_title": "KDPBook: AI Book Creator for KDP",
+    "en_oneliner": "Plan, write, illustrate and typeset a book ready to upload to KDP, plus free word-search, maze and Sudoku generators on the side.",
+    "zh_title": "KDPBook：AI 出书工具，写完直接能上 KDP",
+    "zh_oneliner": "从策划、写稿、配图到排版一站式生成能上架 KDP 的书，还附填字、迷宫、数独等免费小工具。"
+  },
+  "https://leverprice.com": {
+    "en_title": "Leverprice: Price Tests Plus PPP by Country",
+    "en_oneliner": "Price every country at what locals can pay, then test prices on new visitors and route traffic to the variant that earns the most.",
+    "zh_title": "Leverprice：按国家定价测试，让同一流量多赚钱",
+    "zh_oneliner": "给每个国家定一个当地人付得起的价格，再拿新访客做价格测试，自动把流量导向最赚钱的那个定价。"
+  },
+  "https://liquid.shelia.me": {
+    "en_title": "iOS 27 on the Web",
+    "en_oneliner": "A WebGPU recreation of the iOS 27 liquid-glass interface that runs entirely in your browser — open it and play, nothing to install.",
+    "zh_title": "iOS 27 网页版：浏览器里跑的液态玻璃演示",
+    "zh_oneliner": "用 WebGPU 在浏览器里复刻 iOS 27 的液态玻璃界面，点开就能把玩，不用装任何东西。"
   }
 }
