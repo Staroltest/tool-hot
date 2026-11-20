@@ -1061,6 +1061,12 @@
   "zh_oneliner": "在线把 Chrome 扩展的 CRX 文件解包成干净的 ZIP，顺带扫描 Manifest 权限、揪出高风险追踪行为。",
   "zh_title": "CRX8：查扩展权限、把 CRX 解包成 ZIP"
  },
+ "https://crypto.pispace.eu": {
+  "en_oneliner": "A crypto market dashboard with prices, market breadth, the Fear and Greed Index, funding rates and gas fees on one page, refreshing every few minutes with no sign-up needed.",
+  "en_title": "PiSpace Crypto – Crypto Market Tracker",
+  "zh_oneliner": "加密货币行情一览：价格、涨跌、恐惧贪婪指数、资金费率和 Gas 费都集中在一页，每几分钟自动刷新，不用注册就能看。",
+  "zh_title": "PiSpace Crypto：加密货币行情追踪仪表盘"
+ },
  "https://cryptobubbles.org": {
   "en_oneliner": "See the whole crypto market as an interactive bubble chart.",
   "en_title": "CryptoBubbles: crypto market as bubbles",
@@ -6575,6 +6581,12 @@
   "zh_oneliner": "作者主张 AI 生成的代码应当开源，并给出自己的理由，适合关心 AI 时代代码版权与开源文化的读者。",
   "zh_title": "所有 AI 生成的代码都应该开源"
  },
+ "https://jam.resonantdsp.com": {
+  "en_oneliner": "Open a small studio in your browser, write songs with friends, play gigs to earn coins for new gear, and mix at the desk — no sign-up needed.",
+  "en_title": "Show HN: Jam – A Collaborative Music-Making Game That Teaches Music as You Play",
+  "zh_oneliner": "在浏览器里开一间小工作室，和朋友一起写歌、接演出赚金币买乐器，混音台和效果链都能自己调，不用注册就能玩。",
+  "zh_title": "Show HN：Jam：边玩边学乐理的协作音乐制作游戏"
+ },
  "https://jensencoverage.vercel.app": {
   "en_oneliner": "A small site tracing news coverage about Jensen Huang, putting different outlets' accounts side by side.",
   "en_title": "Tracing the news coverage against Jensen",
@@ -9419,6 +9431,12 @@
   "zh_oneliner": "每天一局的吃子拼词棋谜：吃掉棋子拼出三个单词，最后棋盘上只剩一子。",
   "zh_title": "Word Gambits：吃子拼词的每日棋谜"
  },
+ "https://wordsintomusic.com": {
+  "en_oneliner": "Turn a sentence or your own lyrics into a full song with vocals — pick the genre, instruments and language, then listen and download the MP3.",
+  "en_title": "Words into Music",
+  "zh_oneliner": "用一句话或自带歌词就能生成带人声的完整歌曲，风格、乐器、语种自己选，听完还能下载 MP3。",
+  "zh_title": "Words into Music：用文字生成完整歌曲"
+ },
  "https://wordspies.com/hn": {
   "en_oneliner": "LLMs play a Codenames-style word game and get ranked in an arena — with graded replays showing how each move scored.",
   "en_title": "Show HN: A Codenames-style wordgame that benchmarks LLMs",
@@ -11386,17 +11404,5 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
- },
- "https://crypto.pispace.eu": {
-  "zh_title": "PiSpace Crypto：加密货币行情追踪仪表盘",
-  "zh_oneliner": "加密货币行情一览：价格、涨跌、恐惧贪婪指数、资金费率和 Gas 费都集中在一页，每几分钟自动刷新，不用注册就能看。",
-  "en_title": "PiSpace Crypto – Crypto Market Tracker",
-  "en_oneliner": "A crypto market dashboard with prices, market breadth, the Fear and Greed Index, funding rates and gas fees on one page, refreshing every few minutes with no sign-up needed."
- },
- "https://wordsintomusic.com": {
-  "zh_title": "Words into Music：用文字生成完整歌曲",
-  "zh_oneliner": "用一句话或自带歌词就能生成带人声的完整歌曲，风格、乐器、语种自己选，听完还能下载 MP3。",
-  "en_title": "Words into Music",
-  "en_oneliner": "Turn a sentence or your own lyrics into a full song with vocals — pick the genre, instruments and language, then listen and download the MP3."
  }
 }

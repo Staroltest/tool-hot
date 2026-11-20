@@ -801,6 +801,12 @@ BLOCKED_DOMAINS = {
     # 产品目录），不是能直接用的工具；标题“pay-per-row data actors”
     # 不露目录痕迹，域名封禁
     "publicrows.com",
+    # 抽查确认不是在线工具（2026-11-20 10:07 CST 轮，浏览器实测本轮新到
+    # 热点榜条目）：SlotVFX 是 2D 游戏特效桌面编辑器（官网“Desktop
+    # editor app”“SlotVFX Desktop runs on macOS and Windows”“Download
+    # the build for your platform”），须下载安装才能用，导出还要付费计划；
+    # 不是能在浏览器里直接用的工具；标题不露痕迹，标题门拦不住，域名封禁
+    "slotvfx.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
