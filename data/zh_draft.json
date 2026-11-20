@@ -11794,5 +11794,11 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
+ },
+ "https://orelon.ai": {
+  "zh_title": "Orelon：AI 电影感视频生成",
+  "zh_oneliner": "输入文字或图片就能生成电影感视频，还能控制镜头运动和画面风格，适合做短视频和营销素材。",
+  "en_title": "Orelon: AI Cinematic Video Generator",
+  "en_oneliner": "Turn text or images into cinematic videos with director-style camera control and style presets, ready for social and marketing use."
  }
 }
