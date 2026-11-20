@@ -12010,5 +12010,11 @@
     "en_oneliner": "An adversarial game in the browser: talk an AI agent with a wallet into paying against its own spending rules — $75 if you crack it.",
     "zh_title": "Out of Policy：骗过 AI 智能体的花钱守则，赢 75 USDC",
     "zh_oneliner": "一款浏览器里的对抗小游戏：想办法让手握钱包的 AI 智能体违反自己的花钱规则付款，成功就能拿走 75 USDC。"
+  },
+  "https://arkviz.io": {
+    "en_title": "Show HN: ArkViz – AI generated software architecture diagrams",
+    "zh_title": "Show HN：ArkViz：AI 生成软件架构图",
+    "zh_oneliner": "用 AI 把软件架构画出来，输入描述就能生成清晰的架构图，梳理系统结构更直观。",
+    "en_oneliner": "AI turns your description into a clear software architecture diagram, making it easier to see how a system fits together."
   }
 }
