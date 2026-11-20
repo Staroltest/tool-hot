@@ -11890,5 +11890,41 @@
     "en_title": "habits.win: super simple habit tracking",
     "zh_oneliner": "极简的习惯追踪工具，每天打个卡就能坚持下来，不用学复杂的功能。",
     "zh_title": "habits.win：极简习惯打卡"
+  },
+  "https://greatai.dev/clinic": {
+    "en_oneliner": "Paste a public repo link for a one-minute AI scan, then watch an AI review team work through the code on a live board, with an optional human expert review for maintainers.",
+    "en_title": "Greatai Review: Free AI Code Review for Open Source",
+    "zh_oneliner": "贴上公开仓库地址，一分钟出 AI 快速扫描，还能让 AI 评审团队在看板上现场审代码，维护者也可以请真人专家帮忙看。",
+    "zh_title": "Greatai Review：开源项目免费 AI 代码评审"
+  },
+  "https://dmarcguard.io/tools/arc-chain-analyzer": {
+    "en_oneliner": "Paste email headers to parse and visualize the ARC authentication chain, checking hop by hop whether forwarding broke SPF, DKIM, or DMARC validation.",
+    "en_title": "ARC Chain Analyzer: Validate Email ARC Headers",
+    "zh_oneliner": "粘贴邮件头就能解析并可视化 ARC 认证链，逐跳检查转发有没有破坏 SPF、DKIM 与 DMARC 校验。",
+    "zh_title": "Arc Chain Analyzer：邮件 ARC 头验证工具"
+  },
+  "https://synthcamp.net/mastering": {
+    "en_oneliner": "Master your audio for free right in the browser — files never leave your machine, and you export the finished track when done.",
+    "en_title": "SynthCamp Mastering: Free Mastering in the Browser",
+    "zh_oneliner": "在浏览器里免费给音频做母带处理，文件全程不离开本机，调完直接导出成品。",
+    "zh_title": "SynthCamp Mastering：浏览器里免费母带处理"
+  },
+  "https://thegeopot.com": {
+    "en_oneliner": "Point your camera at a mineral, coin, crop, or plant and let AI identify it, check its health, and pull up geology data — 5 free scans a day.",
+    "en_title": "TheGeoPot: AI Earth Scanner",
+    "zh_oneliner": "对着矿物、硬币、庄稼或植物拍张照，AI 就帮你辨认种类、看健康状况，还能查地质信息，每天免费扫 5 次。",
+    "zh_title": "TheGeoPot：AI 地球扫描仪"
+  },
+  "https://app.quiriz.co/try?q=founder": {
+    "en_oneliner": "Run SQL right inside Excel, Google Sheets, and PowerPoint to get recommendations, without shuttling data between spreadsheets and databases.",
+    "en_title": "Quiriz: SQL-Backed Recommendations in Excel, Sheets, and PowerPoint",
+    "zh_oneliner": "在 Excel、Google Sheets 和 PowerPoint 里直接跑 SQL 拿推荐，不用在表格和数据库之间来回倒数据。",
+    "zh_title": "Quiriz：Excel、Sheets 与 PPT 里的 SQL 推荐"
+  },
+  "https://hof.fyi": {
+    "en_oneliner": "Type in a band name to instantly check whether it made the Rock and Roll Hall of Fame, and see who else got in alongside.",
+    "en_title": "hof.fyi: Is Your Favorite Band in the Rock and Roll Hall of Fame?",
+    "zh_oneliner": "输入乐队名，马上查它有没有入选摇滚名人堂，顺带看看同届还有谁。",
+    "zh_title": "hof.fyi：你喜欢的乐队进摇滚名人堂了吗"
   }
 }

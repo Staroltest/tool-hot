@@ -913,6 +913,12 @@ BLOCKED_DOMAINS = {
     # 文章/视频内容站，标题不露痕迹，域名封禁
     "hndocs.org",
     "saparo.ai",
+    # 抽查确认不是在线工具（2026-11-20 23:07 CST 轮，浏览器实测本轮新到条目）：
+    # bidfor.dev/jamie 是个人求职页（“邀请公司出价雇我”，简历+经历+出价表单），
+    # 不是能直接用的工具；murmurcomputing.ai 是分布式算力产品，官网第一步就是
+    # “Install Murmur by asking your AI assistant”，须在自家设备上安装客户端
+    # 才能用，不是浏览器里直接用的工具
+    "bidfor.dev", "murmurcomputing.ai",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
