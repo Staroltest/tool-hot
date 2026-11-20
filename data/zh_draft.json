@@ -11842,5 +11842,11 @@
     "en_oneliner": "An AI receptionist that answers and places business calls for you.",
     "zh_title": "AI Call：AI 电话助手",
     "zh_oneliner": "替企业接听和拨打电话的 AI 助手，来电、预约都交给它处理。"
+  },
+  "https://gallerydock.com": {
+    "en_title": "GalleryDock: Online Client Galleries for Photographers",
+    "en_oneliner": "Online client galleries for photographers and filmmakers — clients pick favorites, leave timecoded feedback, download finished work, and order prints.",
+    "zh_title": "GalleryDock：摄影师的在线客户选片画廊",
+    "zh_oneliner": "给摄影师和摄像师的在线客户画廊，客户能在线选片、留反馈、下载成片，还能直接卖打印品。"
   }
 }
