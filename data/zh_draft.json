@@ -7055,6 +7055,12 @@
   "zh_oneliner": "用 WebGPU 在浏览器里复刻 iOS 27 的液态玻璃界面，点开就能把玩，不用装任何东西。",
   "zh_title": "iOS 27 网页版：浏览器里跑的液态玻璃演示"
  },
+ "https://listvane.com/?ref=makerhunt": {
+  "en_oneliner": "Scans your store's public pages to spot what Google Merchant Center might flag, with a free score and issue count before your next review.",
+  "en_title": "Listvane",
+  "zh_oneliner": "扫描网店的公开页面，提前找出 Google Merchant Center 可能判违规的地方，免费给出评分和问题数量。",
+  "zh_title": "Listvane"
+ },
  "https://llmcost.pitropatro.com": {
   "en_oneliner": "Covers 45 models and prompt caching to work out exactly what an agent run costs in tokens.",
   "en_title": "Show HN: LLM cost calculator for agent runs (45 models, prompt caching included)",
