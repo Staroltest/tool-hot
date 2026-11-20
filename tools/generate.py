@@ -845,6 +845,40 @@ BLOCKED_DOMAINS = {
     # 本身不在网站上能用；同已封的 Torsher（假数据演示 + 须自托管部署）
     # 与 CodeGraphy（固定示例预览），域名封禁
     "traks.ca",
+    # 2026-11-20 15:07 CST 轮：Ignlab 大批量上新 47 条里抽查出的泄漏，
+    # 描述与实测均确认不是在线工具：
+    # 成人/随机陌生人视频聊天簇（同批 5 个，描述直言 "Pick a girl"、
+    # "Freaky video chat with a random stranger"、按币收费匹配）：
+    "videochatchicks.live",
+    "freakyvideochat.com",
+    "cafevideochat.video",
+    "foxvideochat.chat",
+    "nosignupchat.com",
+    # PlayGD：在线赌场（Golden Dragon slots、jackpots，注册领 welcome bonus）
+    "playgd.cc",
+    # Lovart Info：Lovart 的教程/指南/比价站，不是工具本身
+    "lovart.info",
+    # SR22 Direct：SR22 保险销售页；Glo Suppliers：中国供应商目录平台；
+    # Apollo Rockets：社交网络社区（"general social community"）
+    "sr22direct.com",
+    "glo-suppliers.com",
+    "apollorockets.com",
+    # SourceSEO：SEO 代运营服务（Service-as-a-software，52+ agents 代做），
+    # 不是点开就能用的工具；AiTz：AI 工具目录站（12,000+ AI Tools）
+    "sourceseo.ai",
+    "aitz.site",
+    # SaaSVerdict：AppSumo 软件测评/比价内容站；只拦该子域，
+    # mercaio.brainer.one 是工具，仍可收
+    "saasverdict.brainer.one",
+    # 2026-11-20 15:07 CST 轮续查（同批新到）：
+    # ListPak：巴基斯坦商业目录站（企业/职业/招聘目录），目录页不上榜
+    "listpak.com",
+    # KimiSeek："One API for China's leading AI models"，纯 API 平台，
+    # 同已封的 TokLab
+    "kimiseek.app",
+    # Caja Clara：卖 US$7 的 Excel 记账文件（"Archivo .xlsx editable"），
+    # 是下载售卖页不是在线工具；只拦该 chatgpt.site 子域
+    "caja-clara-ventas.futurebay5.chatgpt.site",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {

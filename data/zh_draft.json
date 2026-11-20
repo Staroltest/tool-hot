@@ -11428,5 +11428,191 @@
     "zh_oneliner": "和朋友进同一个线上房间即兴玩音乐，边弹边聊的共享音乐工作室。",
     "en_title": "Show HN: Temporaland – Multiplayer digital jam space",
     "en_oneliner": "Step into a shared online room and jam with friends live — a multiplayer music workspace for playing together."
+  },
+  "https://tokenmobiles.live": {
+    "en_title": "Show HN: Everything else is DOWN while Tokenmobiles stays neutral",
+    "zh_title": "Tokenmobiles：别家宕机时它还稳着",
+    "zh_oneliner": "一个代币行情站，号称别家都挂了的时候它依然稳定在线。",
+    "en_oneliner": "A token tracker that claims to stay up while everything else goes down."
+  },
+  "https://www.nanobana.net": {
+    "en_title": "Nanobana",
+    "zh_title": "Nanobana：多模型 AI 图片视频工作室",
+    "zh_oneliner": "把主流 AI 图片和视频模型聚在一个工作室里，作图、做视频不用到处换站。",
+    "en_oneliner": "Leading AI image and video models in one studio, so you can create without switching sites."
+  },
+  "https://inwise.pk": {
+    "en_title": "Inwise by Inspedium",
+    "zh_title": "Inwise：巴基斯坦电子发票工具",
+    "zh_oneliner": "给巴基斯坦商家做的电子发票软件，按当地税务要求开票、对账都在浏览器里完成。",
+    "en_oneliner": "Digital invoicing software for Pakistan, handling FBR-compliant invoices right in the browser."
+  },
+  "https://shortrl.pro": {
+    "en_title": "ShortRL",
+    "zh_title": "ShortRL：短链与真实访问统计",
+    "zh_oneliner": "生成短链接，还能看到真实的点击统计，做推广复盘够用了。",
+    "en_oneliner": "Short links with real click analytics for tracking your campaigns."
+  },
+  "https://refine-cv.com": {
+    "en_title": "RefineCV",
+    "zh_title": "RefineCV：给招聘机构用的 AI 简历排版",
+    "zh_oneliner": "用 AI 帮招聘机构把候选人简历排得整齐专业，批量处理也不乱。",
+    "en_oneliner": "AI CV formatting for recruitment agencies, turning rough resumes into polished ones."
+  },
+  "https://www.pollenatlas.com": {
+    "en_title": "Pollen Atlas",
+    "zh_title": "Pollen Atlas：全球花粉浓度与空气质量查询",
+    "zh_oneliner": "查 24 万多个城镇的花粉浓度、空气质量和天气，过敏人群出门前看一眼。",
+    "en_oneliner": "Free pollen counts, air quality and weather for 247,279 towns."
+  },
+  "https://www.hifrank.ai": {
+    "en_title": "Frank AI Researcher",
+    "zh_title": "Frank AI Researcher：AI 主持的客户语音访谈",
+    "zh_oneliner": "发个链接就能让 AI 替你跟客户做语音访谈，访谈记录和要点都整理好给你看。",
+    "en_oneliner": "AI-moderated voice interviews with your customers — share a link, then read the transcripts and themes."
+  },
+  "https://geoecho.ai": {
+    "en_title": "GeoEcho",
+    "zh_title": "GeoEcho：品牌 AI 搜索监测",
+    "zh_oneliner": "监测你的品牌在 AI 搜索结果里的出现情况，看看大模型是怎么介绍你的。",
+    "en_oneliner": "AI search monitoring for your brand — see how AI search engines present you."
+  },
+  "https://ahanow.ai": {
+    "en_title": "AhaNow",
+    "zh_title": "AhaNow：主题笔记转讲解视频",
+    "zh_oneliner": "把一个主题或几条笔记变成带旁白的讲解视频，做科普、做分享都省事。",
+    "en_oneliner": "Turn topics and notes into narrated explainer videos."
+  },
+  "https://thechipmunksdance.com": {
+    "en_title": "The Chipmunks Dance",
+    "zh_title": "The Chipmunks Dance：花栗鼠跳舞视频生成器",
+    "zh_oneliner": "做一段花栗鼠跳舞的视频，点开就能玩，适合发着玩。",
+    "en_oneliner": "Make your own chipmunks dance video in the browser."
+  },
+  "https://genjutsulite.com": {
+    "en_title": "GenjutsuLite",
+    "zh_title": "GenjutsuLite：选场景，做自己的画面",
+    "zh_oneliner": "挑一个场景，按自己的想法改一改，做出属于你的那一版。",
+    "en_oneliner": "Pick a scene and make it yours."
+  },
+  "https://aieffectsvideo.com": {
+    "en_title": "AI Effects Video",
+    "zh_title": "AI Effects Video：照片变 AI 特效视频",
+    "zh_oneliner": "上传照片，用 AI 特效把它变成一段有故事的视频，主角就是你自己。",
+    "en_oneliner": "Your photos, a different story — AI video effects starring you."
+  },
+  "https://cvobjective.com": {
+    "en_title": "CV Objective",
+    "zh_title": "CV Objective：对着岗位写简历和求职信",
+    "zh_oneliner": "照着招聘要求改简历、比对岗位匹配度，顺手起草一封对应的求职信。",
+    "en_oneliner": "Build and edit a targeted resume, compare it with a job description, and draft a matching cover letter in one workspace."
+  },
+  "https://buildingcalc.net": {
+    "en_title": "BuildingCalc",
+    "zh_title": "BuildingCalc：免费建筑工程计算器",
+    "zh_oneliner": "混凝土、梁、木材、屋顶等建筑工程计算器全免费，工地上算量随手就能用。",
+    "en_oneliner": "Free construction calculators — concrete, beam, lumber, roofing and more."
+  },
+  "https://www.parent-ready.com": {
+    "en_title": "Parent Ready",
+    "zh_title": "Parent Ready：家庭应急准备规划",
+    "zh_oneliner": "帮家庭把应急准备和计划理清楚，突发情况来时不慌。",
+    "en_oneliner": "Intelligent family readiness and emergency planning made simple."
+  },
+  "https://www.curiocardatlas.com": {
+    "en_title": "Curio Card Atlas",
+    "zh_title": "Curio Card Atlas：世界奇观收集卡",
+    "zh_oneliner": "一边探索世界各地的奇观，一边收集对应的卡片，边玩边涨见识。",
+    "en_oneliner": "Discover the world and collect its wonders as cards."
+  },
+  "https://ai-mazegenerator.com": {
+    "en_title": "AI Maze Generator",
+    "zh_title": "AI Maze Generator：AI 迷宫生成器",
+    "zh_oneliner": "看着 AI 现场搭一个独一无二的迷宫，搭完就能直接玩。",
+    "en_oneliner": "Watch it build a unique maze, then play it right away."
+  },
+  "https://www.teleprompter.today": {
+    "en_title": "Teleprompter.today",
+    "zh_title": "Teleprompter.today：免费在线提词器",
+    "zh_oneliner": "免费的在线提词器，基础功能不用注册也没有广告，录视频、演讲都用得上。",
+    "en_oneliner": "Free online teleprompter — no ads, no sign-up for basic use."
+  },
+  "https://morsedecoder.app": {
+    "en_title": "MorseDecoder",
+    "zh_title": "MorseDecoder：免费摩斯电码解码翻译",
+    "zh_oneliner": "在浏览器里免费解码和翻译摩斯电码，收发电码不用再查表。",
+    "en_oneliner": "Free Morse code decoder and translator in your browser."
+  },
+  "https://thedrive.ai": {
+    "en_title": "The Drive AI",
+    "zh_title": "The Drive AI：跨处文件的智能层",
+    "zh_oneliner": "不管文件存在哪，它都能帮你找到、理清，像给所有文件加了一层智能。",
+    "en_oneliner": "The intelligence layer for all the files in the world, wherever they are."
+  },
+  "https://tryinboxai.com": {
+    "en_title": "InboxAI",
+    "zh_title": "InboxAI：AI 邮件分流与人工复核回复",
+    "zh_oneliner": "用 AI 给邮件分流，回复还会经过人工复核，收件箱不再被淹没。",
+    "en_oneliner": "AI email triage with human-reviewed replies."
+  },
+  "https://talktomedoja.net": {
+    "en_title": "Talk to Me Doja AI",
+    "zh_title": "Talk to Me Doja AI：照片变 12 秒摇摆舞视频",
+    "zh_oneliner": "一张照片就能生成 12 秒的 Doja 式托腮摇摆舞视频，纯属好玩。",
+    "en_oneliner": "Turn one photo into a 12-second Talk to Me Doja cheek-cupping sway dance video."
+  },
+  "https://lovspark.ai": {
+    "en_title": "Lovspark",
+    "zh_title": "Lovspark：AI 设计画布，家具能直接买",
+    "zh_oneliner": "在 AI 设计画布上布置房间，画里的家具都是真实可买的，看中就能下单。",
+    "en_oneliner": "AI design canvas with real, shoppable furniture."
+  },
+  "https://promeo.art": {
+    "en_title": "Promeo",
+    "zh_title": "Promeo：AI 绘图提示词库与生成器",
+    "zh_oneliner": "既能逛 AI 绘图的提示词库找灵感，也能直接在站上生成图片。",
+    "en_oneliner": "AI image prompt gallery and AI image generator in one place."
+  },
+  "https://www.xvideodl.com": {
+    "en_title": "XVideoDL",
+    "zh_title": "XVideoDL：X（Twitter）视频下载器",
+    "zh_oneliner": "免费下载 X 和 Twitter 公开帖子里的视频，粘贴链接就能保存，不用装应用也不用登录。",
+    "en_oneliner": "A free online tool for downloading videos from public X and Twitter posts."
+  },
+  "https://tondevis.com": {
+    "en_title": "Tondevis",
+    "zh_title": "Tondevis：带品牌标识的报价发票工作台",
+    "zh_oneliner": "报价单、发票和客户跟进都放在一个带自家品牌标识的工作台里，对外发出去也体面。",
+    "en_oneliner": "Branded PDF quotes, invoices and client follow-up in one workspace."
+  },
+  "https://mercaio.brainer.one": {
+    "en_title": "Mercaio",
+    "zh_title": "Mercaio：英西双语电商 listing 草稿",
+    "zh_oneliner": "根据你的产品信息起草有依据的英、西双语电商 listing，上架前改改就能用。",
+    "en_oneliner": "Evidence-first EN/ES ecommerce listing drafts from your product details."
+  },
+  "https://tonelume.com": {
+    "en_title": "ToneLume",
+    "zh_title": "ToneLume：吉他调音节拍练耳一体工具",
+    "zh_oneliner": "调音器、节拍器、练耳和视奏都装在一个网页应用里，练琴时一个页面就够。",
+    "en_oneliner": "Guitar tuner, metronome, ear training and sight reading in one app."
+  },
+  "https://doctranslator.net": {
+    "en_title": "DocTranslator",
+    "zh_title": "DocTranslator：文档翻译器",
+    "zh_oneliner": "整篇文档拿来翻译，变的只是语言，排版和内容都原样保留。",
+    "en_oneliner": "Your document translator. Only the language changes."
+  },
+  "https://christmasaiphoto.com": {
+    "en_title": "Christmas AI Photo",
+    "zh_title": "Christmas AI Photo：AI 圣诞写真生成器",
+    "zh_oneliner": "一张自拍就能拍出圣诞写真，节日气氛直接拉满。",
+    "en_oneliner": "AI Christmas photo generator — one selfie, your photo shoot."
+  },
+  "https://www.coverpin.com": {
+    "en_title": "CoverPin",
+    "zh_title": "CoverPin：跨 90+ 司法区企业合规管理",
+    "zh_oneliner": "在 90 多个司法区里管公司实体、地点、许可、税务和保险，合规事项集中在一个地方。",
+    "en_oneliner": "Manage business entities, locations, permits, tax obligations, and insurance across 90+ jurisdictions."
   }
 }
