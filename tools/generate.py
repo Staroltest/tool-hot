@@ -759,6 +759,13 @@ BLOCKED_DOMAINS = {
     # "I got Modern Combat 2 – Black Pegasus running in a browser"；
     # 纯游戏不是工具，按 11-18 以来做法域名封禁
     "mc2.aryanbaburajan.com",
+    # 抽查确认不是在线工具（2026-11-20 13:07 CST 轮，本轮热点榜新到）：
+    # GhostFleet 是海战棋游戏（标题自写 "A Battleship game with an
+    # advanced AI opponent"）；Night Shift 是浏览器事件响应游戏（标题
+    # 自写 "A browser based incident response game"）；Jam 是协作音乐
+    # 制作游戏（标题自写 "a collaborative music making game"）；纯游戏
+    # 不是工具，按 11-18 以来做法域名封禁
+    "ghostfleet.in", "play.snowops.net", "jam.resonantdsp.com",
     # 抽查确认不是在线工具（2026-11-19 15:07 CST 轮，本轮 Ignlab 批量新到
     # 47 条，人工审摘要+浏览器实测可疑项）：NAVSMAP 是 AI 工具目录站
     # （"Find AI tools, workflows, MCP servers"，只能浏览检索工具列表，

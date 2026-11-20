@@ -11410,5 +11410,11 @@
   "zh_oneliner": "把邮箱、日历、网盘、预约和 AI 助手装进一个工作区，按套餐不按人头收费，是 Google Workspace 的平价替代。",
   "en_title": "Mailflare Cloud: team email and workspace with AI agents, without per-seat pricing",
   "en_oneliner": "Email, calendar, drive, booking and an AI assistant in one workspace, billed per plan instead of per seat — an affordable Google Workspace alternative."
+ },
+ "https://engtest.dev": {
+  "en_oneliner": "Answer a few questions to find your engineer personality type and see which working style suits you.",
+  "en_title": "Show HN: A Personality Test for Engineers",
+  "zh_oneliner": "回答几个问题，测一测你的工程师性格类型，看看你偏向哪种工作风格。",
+  "zh_title": "Show HN：工程师性格测试"
  }
 }
