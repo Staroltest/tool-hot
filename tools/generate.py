@@ -879,6 +879,28 @@ BLOCKED_DOMAINS = {
     # Caja Clara：卖 US$7 的 Excel 记账文件（"Archivo .xlsx editable"），
     # 是下载售卖页不是在线工具；只拦该 chatgpt.site 子域
     "caja-clara-ventas.futurebay5.chatgpt.site",
+    # 2026-11-20 16:07 CST 轮抽查封禁（本轮新到，4 条）：
+    # Docker：docker.com 首页是容器平台营销页，产品须下载 Docker Desktop
+    # 才能用，不是浏览器里能直接用的工具
+    "docker.com",
+    # Samiksa：研究 agent 等候名单页（"Join the waitlist"），站内无可用工具，
+    # 同已封的 xargaar-tools.com
+    "samiksa.app",
+    # isu-bench：编码 agent 基准的成绩/规则报告页，基准本身只以机器镜像
+    # 分发（须下载），站内没有能直接用的工具
+    "isu-bench.trasta.dev",
+    # UndoGuard："Semantic Undo & Rollback API"，纯 API 平台，同已封的
+    # TokLab；首页沙箱只是 API 演示，不是独立工具
+    "undoguard.vercel.app",
+    # 2026-11-20 16:07 CST 轮续查封禁（11 月 19 日到站、仍在时间线里的 3 条）：
+    # Rox：症状追踪是 iPhone 应用（"download ios app"），站内无网页工具
+    "talktorox.com",
+    # Baby's Day In："Baby Monitor App for iPhone and Android"，手机应用，
+    # 不是浏览器里能直接用的工具
+    "babysday.in",
+    # Saparo：AI 购物 agent，但站内唯一入口是 "Add to Chrome"（三次均链
+    # 到 Chrome Web Store），产品以浏览器扩展形态交付，不收扩展
+    "saparo.ai",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
