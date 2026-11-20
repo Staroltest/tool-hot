@@ -11848,5 +11848,47 @@
     "en_oneliner": "Online client galleries for photographers and filmmakers — clients pick favorites, leave timecoded feedback, download finished work, and order prints.",
     "zh_title": "GalleryDock：摄影师的在线客户选片画廊",
     "zh_oneliner": "给摄影师和摄像师的在线客户画廊，客户能在线选片、留反馈、下载成片，还能直接卖打印品。"
+  },
+  "https://dtdigest.com": {
+    "en_oneliner": "Collects updates from the YouTube channels, X accounts and Reddit communities you follow into one daily digest, so you don't have to check every feed all day.",
+    "en_title": "DailyTube Digest: a daily digest of your YouTube, X and Reddit feeds",
+    "zh_oneliner": "把关注的 YouTube、X 和 Reddit 动态收进一份每日摘要，不用整天挨个刷信息流。",
+    "zh_title": "DailyTube Digest：YouTube、X 与 Reddit 每日摘要"
+  },
+  "https://acrpacket.com/check": {
+    "en_oneliner": "Checks VPAT accessibility conformance reports for free and flags the problems, handy for writing or reviewing a report.",
+    "en_title": "ACR Packet: free red-flag checker for VPAT accessibility reports",
+    "zh_oneliner": "免费检查 VPAT 无障碍合规报告，标出有问题的地方，写报告、审报告都能用。",
+    "zh_title": "ACR Packet：VPAT 无障碍报告免费检查"
+  },
+  "https://findfreeapi.com/en": {
+    "en_oneliner": "Try 1,047 public APIs right in the browser with no sign-up, handy for finding and testing an interface.",
+    "en_title": "FreeAPI: test 1,047 public APIs in the browser without signing up",
+    "zh_oneliner": "1047 个公开 API 不用注册就能在浏览器里直接试，找接口、调接口都方便。",
+    "zh_title": "FreeAPI：浏览器里直接试 1047 个免费公开 API"
+  },
+  "https://curve.by.dai.studio": {
+    "en_oneliner": "A free open-source SVG editor that works offline, so you can draw vector graphics and edit icons right in the browser.",
+    "en_title": "Curve: a free open-source SVG editor that works offline",
+    "zh_oneliner": "免费开源的 SVG 编辑器，离线也能用，画矢量图、改图标直接在浏览器里完成。",
+    "zh_title": "Curve：离线可用的免费开源 SVG 编辑器"
+  },
+  "https://cherwellvalleymotorclub.app": {
+    "en_oneliner": "Drive an old car around a 3D village in the browser, with races, events and multiplayer.",
+    "en_title": "Cherwell Valley Motor Club: drive around a village in 3D",
+    "zh_oneliner": "开着老车在 3D 村庄里兜风，还有竞速、活动和多人模式，直接在网页上玩。",
+    "zh_title": "Cherwell Valley Motor Club：3D 开车逛村庄"
+  },
+  "https://www.vaticin.ai": {
+    "en_oneliner": "A prediction-market competition where only AI agents can place wagers — humans can't bet directly, and no real money is involved.",
+    "en_title": "Vaticin: a prediction market where only agents can trade",
+    "zh_oneliner": "一场只让 AI 智能体下注的预测市场竞赛，人类不能直接参与，也没有真金白银。",
+    "zh_title": "Vaticin：只允许 AI 智能体交易的预测市场"
+  },
+  "https://habits.win": {
+    "en_oneliner": "A super simple habit tracker — check in each day and keep the streak going, with no complex features to learn.",
+    "en_title": "habits.win: super simple habit tracking",
+    "zh_oneliner": "极简的习惯追踪工具，每天打个卡就能坚持下来，不用学复杂的功能。",
+    "zh_title": "habits.win：极简习惯打卡"
   }
 }

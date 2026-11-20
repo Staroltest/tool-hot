@@ -907,6 +907,11 @@ BLOCKED_DOMAINS = {
     # 的工具；标题“Run AI models locally on your Android device”不露
     # 痕迹，标题门拦不住，域名封禁
     "lomi.ra-studio.dev",
+    # 抽查确认不是在线工具（2026-11-20 22:37 CST 轮，实测本轮新到条目）：
+    # HN DOCS（hndocs.org）是“关于 Hacker News 热门故事的纪录片”视频
+    # 内容站：首页只有纪录片列表与投票，没有能直接用的工具；同已封的
+    # 文章/视频内容站，标题不露痕迹，域名封禁
+    "hndocs.org",
     "saparo.ai",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
