@@ -1,64 +1,46 @@
-# HOT 流水线模板
+# 工具站 HOT（Tool Site HOT）
 
-一套“热点站”流水线的标准模板：从公开 RSS 信源采集内容，规则打分精选，
-生成纯静态站，托管在 GitHub Pages（主站）+ Cloudflare Pages（镜像），
-并附带一个 MCP 接入点。IndieHOT 就是用这套流水线跑出来的第一个站；
-想做电商 HOT、AI HOT 或别的主题时，从这个仓库起手，改配置、换信源即可。
+每天发现最新工具网站，只收点开就能直接用的工具。
 
-## 一句话开新站
+- **在线访问**：https://staroltest.github.io/tool-hot/（主站）
+- **镜像**：https://tool-hot.pages.dev/
+- **RSS**：https://staroltest.github.io/tool-hot/feed.xml（英文版：`/en/feed.xml`）
+- **MCP**：https://tool-hot.pages.dev/mcp（`get_hot` / `get_daily` / `search_items`）
 
-跟 agent 说一句话，例如：
+## 收什么，不收什么
 
-> 用 hot-site-template 给我搭一个电商 HOT，面向电商从业者，信源你来找。
+只收能在网站上直接用的工具网站，例如汇率计算器、格式转换、图片处理、代码工具。
+文章、新闻、博客、帖子、目录页、下载页、应用商店、桌面 / 手机应用、浏览器扩展、
+自托管工具一律不收。每个新条目进榜前都会实测一次链接本身，确认能在浏览器里用。
 
-agent 按 [BOOTSTRAP.md](BOOTSTRAP.md) 里的 playbook 全套办完：
-建仓库、填配置、找信源、首轮生成、双站部署、定时任务、验收。
-你只需要确认站名、主题和受众；信源 agent 会逐个实测后定。
+## 站点内容
 
-## 模板里有什么
+- 首页：精选 10 条 + 热点榜 20 条，每半小时更新
+- 日报 / 周报 / 月报、主题页（AI、开发、设计、效率、数据、开源）、全部动态（30 天）
+- 每个工具一条详情页：原标题 + 一句简介 + 原文链接，不转载正文与摘要
+- 中英双语（`/en/` 英文树与中文树同构，按浏览器语言自动切换、可手动切换）
 
-| 文件 | 作用 |
-| --- | --- |
-| `tools/generate.py` | 生成器：拉 RSS → 去重 → 规则打分 → 生成全站。纯 Python 标准库，零依赖 |
-| `tools/geo_audit.py` | GEO 自检：独立运行，只读生成物，输出 `geo-audit.html` + `data/geo-audit.json` |
-| `config.json` | 全部可调项：站名、受众、分类与关键词、打分权重、关于页、页脚、赞赏码 |
-| `sources.json` | 信源清单（示例 2 条，搭建时必换） |
-| `_worker.js` | MCP 端点（Cloudflare Pages Advanced Mode，单文件无依赖） |
-| `_routes.json` | 只把 `/mcp` 交给 worker，其余路径静态托管 |
-| `favicon.svg` | 通用站标 |
-| `data/changelog.json` | 更新日志种子（示例 1 条） |
-| `docs/cron-half-hourly.md` | 每半小时更新任务的指令模板 |
-| `docs/cron-daily-curation.md` | 每日精选把关任务的指令模板 |
-| `docs/pipeline-notes.md` | 流水线踩过的坑与铁律 |
-| `BOOTSTRAP.md` | **agent 开新站的完整 playbook** |
+## 信源（7 个）
 
-## 站点长什么样
+Product Hunt、Hacker News Show、Ignlab、ListBulb、MakerHunt、Smol Launch、DevHunt。
 
-首页（精选 10 条 + 热点框）、全部动态（30 天全量按天分组）、热点榜、
-日报 / 周报 / 月报、主题页、收藏、RSS（`feed.xml`）、MCP（`/mcp`），
-中英双语（`/en/` 英文树与中文树同构，按浏览器语言自动切换、可手动切换）。
-只展示原标题 + 一句自己写的一句话简介 + 原文链接，不转载正文与摘要。
+## 技术说明
 
-## SEO / GEO（生成器自带）
+纯静态站，`tools/generate.py`（纯 Python 标准库，零依赖）每半小时拉取信源、
+去重、过收录门、打分、生成全站；托管在 GitHub Pages（主站）+ Cloudflare Pages
+（镜像），并附带一个 MCP 接入点。
 
-每轮生成自动产出：全站 `canonical`、hreflang 三元组（`zh-CN` + `en` +
-`x-default`，指向英文树）、`robots` meta、RSS 发现链接、WebSite JSON-LD；
-`robots.txt` 点名放行 AI 爬虫并屏蔽 Bytespider / PetalBot；`sitemap.xml`
-用真实发布日期（中文条目在前、英文追加）；`llms.txt`（站点说明 + MCP 端点 +
-数据入口，英文版在 `/en/llms.txt`）；详情页 `og:type=article` 与
-`dateModified`；`/geo-audit` 9 项自检页（覆盖双树）。全部取自 `config.json`：
-站名/域名/`tagline` / `tagline_en`（llms.txt 介绍段首行）、`mcp_url`、
-`mirror_url`、`edition_time_cst` / `timezone`（llms.txt 出刊行）、
-分类的 `label_en`（英文树与 llms.txt 用）。
-`mcp_url` / `mirror_url` 留空时对应行段直接省略。
+站内 SEO / GEO：全站 `canonical`、hreflang 三元组（`zh-CN` + `en` + `x-default`）、
+`robots` meta、RSS 发现链接、WebSite JSON-LD；`robots.txt` 点名放行 AI 爬虫并屏蔽
+Bytespider / PetalBot；`sitemap.xml` 用真实发布日期；`llms.txt`（站点说明 + MCP
+端点 + 数据入口，英文版在 `/en/llms.txt`）；详情页 `og:type=article` 与
+`dateModified`；`/geo-audit` 9 项自检页（覆盖双树）。站名、域名与各端点全部取自
+`config.json`，不要手改生成物。
 
-两条硬规则：hreflang 三元组由生成器自动写，绝不手改（双语版确实有英文树，
-互链是真实的）；站长平台验证文件等用户给验证码再加，不要凭空新建。
-
-## 成本
-
-免费额度内：GitHub Pages 免费；Cloudflare 直传不消耗每月 500 次构建额度，
-静态访问不限量；MCP 调用每天 10 万次免费额度。详见 BOOTSTRAP.md。
+想用同一套流水线搭别的主题站，请用干净的模板仓库
+[Staroltest/hot-site-template](https://github.com/Staroltest/hot-site-template)，
+按其中 [BOOTSTRAP.md](BOOTSTRAP.md) 的 playbook 操作。本仓库只推工具站 HOT
+本身的内容，不再作为模板使用。
 
 ## 许可与出处
 
@@ -66,4 +48,3 @@ MIT License，Copyright (c) 2026 Camille。
 
 流水线源自 IndieHOT 的实践；IndieHOT 的信息架构与界面风格参考了卡兹克
 （张仁杰）的开源项目 [AIHOT](https://github.com/KKKKhazix/AIHOT)（MIT 协议）。
-本站模板按 MIT 协议开源，欢迎取用，署名链请保留。
