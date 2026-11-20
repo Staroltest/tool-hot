@@ -754,6 +754,11 @@ BLOCKED_DOMAINS = {
     # 有 bot 段位与赛后复盘）；Goaler 是每日足球竞猜游戏（"a daily
     # football grid you can send to a friend"）；游戏不是工具，域名封禁
     "crabble.club", "goaler.net",
+    # 抽查确认不是在线工具（2026-11-20 12:07 CST 轮，本轮热点榜新到
+    # 第 17 位）：Modern Combat 2 是第一人称射击游戏，标题自写
+    # "I got Modern Combat 2 – Black Pegasus running in a browser"；
+    # 纯游戏不是工具，按 11-18 以来做法域名封禁
+    "mc2.aryanbaburajan.com",
     # 抽查确认不是在线工具（2026-11-19 15:07 CST 轮，本轮 Ignlab 批量新到
     # 47 条，人工审摘要+浏览器实测可疑项）：NAVSMAP 是 AI 工具目录站
     # （"Find AI tools, workflows, MCP servers"，只能浏览检索工具列表，
