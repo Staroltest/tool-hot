@@ -233,6 +233,12 @@
   "zh_oneliner": "把两个互相矛盾的 AI 回答丢进来，它会组织一场结构化辩论，帮你看出哪边更有道理。",
   "zh_title": "AI Spar：让互相矛盾的 AI 答案当面辩论"
  },
+ "https://aiteam.space/?ref=producthunt": {
+  "en_oneliner": "An AI team where every agent has its own computer, so they can get real work done on their own.",
+  "en_title": "aiteam.space",
+  "zh_oneliner": "组一支 AI 团队，每个智能体都有自己的电脑，能自己动手干活，不用你一步步盯着。",
+  "zh_title": "aiteam.space：每个智能体都有一台电脑的 AI 团队"
+ },
  "https://aktor.app/welcome": {
   "en_oneliner": "Describe the outcome you want and Aktor's team of agents divides the work, uses the tools you allow, and delivers a finished result — monitored and kept within limits you set.",
   "en_title": "Show HN: Aktor – Agents that hire their own sub-agents for deep work",
@@ -328,6 +334,12 @@
   "en_title": "Show HN: LaTeX Editor with Incremental Compilation",
   "zh_oneliner": "在线写 LaTeX，改一处就只重编一处，预览跟手速走，不用等整篇重新编译。",
   "zh_title": "Texter：边写边编译的在线 LaTeX 编辑器"
+ },
+ "https://app.zyvolab3d.com/?ref=producthunt": {
+  "en_oneliner": "Turn 3D models into interactive web viewers and AR product showcases.",
+  "en_title": "Zyvolab 3D",
+  "zh_oneliner": "把 3D 模型变成能在网页里互动查看、还能用 AR 呈现的产品展示页。",
+  "zh_title": "Zyvolab 3D：3D 模型变网页 AR 展示"
  },
  "https://appleinsider.com/articles/26/11/15/lightweight-apple-glasses-rumored-for-wwdc-2027-reveal": {
   "en_oneliner": "A new rumor puts Apple's lightweight AR glasses at WWDC 2027 — worth bookmarking if you follow Apple's wearables roadmap.",
@@ -539,6 +551,12 @@
   "zh_oneliner": "向魔兽争霸 3 自定义生存图致敬的浏览器游戏，五名玩家一起造炮塔、砌围墙，守住基地撑过十波进攻。",
   "zh_title": "Terror Space：五人联机的浏览器生存游戏"
  },
+ "https://bimdrop.app/?ref=producthunt": {
+  "en_oneliner": "BIM file sharing made simple and fast — drop a file, share a link, done.",
+  "en_title": "Bimdrop",
+  "zh_oneliner": "传 BIM 文件就这么简单，拖进来发个链接，对方点开就能下载。",
+  "zh_title": "Bimdrop：BIM 文件极速分享"
+ },
  "https://bineric.com/zuse": {
   "en_oneliner": "Paste a document, set the options, and get a probability for every answer — try it live on the page, hosted in the EU.",
   "en_title": "Zuse: A Decision Model Built for Europe's Languages, Running in the EU",
@@ -634,6 +652,12 @@
   "en_title": "Bocalito – A Meal Prep Planner",
   "zh_oneliner": "帮你提前规划一周的饭菜，备餐不再靠临场发挥。",
   "zh_title": "Bocalito：备餐规划工具"
+ },
+ "https://bookella.app/?ref=producthunt": {
+  "en_oneliner": "A reading tracker that logs what you read and how much, helping the habit stick.",
+  "en_title": "Bookella",
+  "zh_oneliner": "记下读了什么、读了多少的读书追踪器，帮你把阅读习惯一点点养起来。",
+  "zh_title": "Bookella：读书打卡追踪器"
  },
  "https://bootform.com": {
   "en_oneliner": "Add a form backend to a static site with no backend code: generate a form ID, point your HTML form at it and start collecting submissions, with built-in spam protection, email and Discord notifications, and an MCP server for AI agents.",
@@ -6899,6 +6923,12 @@
   "zh_oneliner": "一款 Zachtronics 风格的解谜游戏，主题是做手表，喜欢摆弄齿轮与精密机械的玩家会对味。",
   "zh_title": "Show HN：The Last Complication，Zachtronics 风格的制表解谜游戏"
  },
+ "https://layerx.xyz/ai-gateway?ref=producthunt": {
+  "en_oneliner": "Manage your company's AI — models, access, and usage — from one place.",
+  "en_title": "AI Gateway",
+  "zh_oneliner": "公司用的 AI 模型、接口和用量都收进一个地方管，不再各处散落。",
+  "zh_title": "AI Gateway：公司 AI 统一管理入口"
+ },
  "https://leadpilot-detail.fly.dev": {
   "en_oneliner": "Keep track of quote follow-ups and draft accurate customer replies from your own price list, so quoting stops being a scramble.",
   "en_title": "DetailInbox",
@@ -7247,6 +7277,12 @@
   "zh_oneliner": "一组 Databricks 阿姆斯特丹新办公室的照片报道，看看这家数据公司的办公空间长什么样。",
   "zh_title": "Databricks 阿姆斯特丹新办公室：2026 图文报道"
  },
+ "https://megumiplanner.com/?ref=producthunt": {
+  "en_oneliner": "Grow a garden together with your neighbors, and a community grows along with it.",
+  "en_title": "Megumi Planner",
+  "zh_oneliner": "和邻里一起打理一块菜园，种菜的同时也把社区的交情种出来了。",
+  "zh_title": "Megumi Planner：一起种菜的社区花园"
+ },
  "https://melbourneinmotion.vercel.app": {
   "en_oneliner": "A live simulation of every tram and train running in Melbourne, turning city transit into a visualization — for readers who like transport data visuals.",
   "en_title": "Show HN: Live simulation of every tram/train in Melbourne",
@@ -7570,6 +7606,12 @@
   "en_title": "Newsology",
   "zh_oneliner": "追踪同一新闻事件在不同媒体的讲述方式，对照立场偏差自己判断，还能跟进事件后续发展。",
   "zh_title": "Newsology"
+ },
+ "https://nexuroai.com/?ref=producthunt": {
+  "en_oneliner": "Build an AI chatbot from your own content in minutes, and it answers visitors using your material.",
+  "en_title": "Nexuro AI",
+  "zh_oneliner": "拿自己的内容几分钟搭一个 AI 聊天机器人，访客提问它照着你的资料回答。",
+  "zh_title": "Nexuro AI：用自己的内容做聊天机器人"
  },
  "https://nimony.org": {
   "en_oneliner": "A new compiler for the Nim language, with the HN discussion centered on what it changes versus the existing Nim compiler.",
@@ -8375,6 +8417,18 @@
   "zh_oneliner": "一篇关于打造“会说不的家”的文章，聊自给自足、边界感和真正自由的生活设计。",
   "zh_title": "一个会说不的家"
  },
+ "https://salus-hub.cz/cs": {
+  "en_oneliner": "Find the benefits and public support you can claim in the Czech Republic, with conditions and how to apply in one place.",
+  "en_title": "Salus",
+  "zh_oneliner": "帮你在捷克找到能领的福利和公共补助，条件、申请办法一次查清楚。",
+  "zh_title": "Salus：捷克福利与公共补助查询"
+ },
+ "https://samemoon.world/?ref=producthunt": {
+  "en_oneliner": "Free bedtime stories for children who had to leave home — one story before sleep to feel a little safer.",
+  "en_title": "Same Moon",
+  "zh_oneliner": "给不得不离开家乡的孩子准备的免费睡前故事，睡前读一个，心里踏实一点。",
+  "zh_title": "Same Moon：给离家孩子的免费睡前故事"
+ },
  "https://santaphoto.app": {
   "en_oneliner": "Upload your photos, pick a Christmas scene, and get a festive portrait, greeting card or seasonal avatar in about a minute, merging up to 4 photos into one family shot.",
   "en_title": "SantaPhoto",
@@ -8392,6 +8446,12 @@
   "en_title": "IPv6 delegation, an unusually subtle failure mode",
   "zh_oneliner": "剖析 IPv6 分配中一种非常隐蔽的故障模式，帮你避开这个容易踩的坑。",
   "zh_title": "IPv6 分配：一种格外隐蔽的故障模式"
+ },
+ "https://scam-link-check-366963689543.us-central1.run.app/?ref=producthunt": {
+  "en_oneliner": "Paste a suspicious text or link and get a plain-English verdict before you click the wrong thing.",
+  "en_title": "Scam Link Check",
+  "zh_oneliner": "把可疑的短信或链接粘贴进来，马上得到一句大白话的判断，别再点错链接。",
+  "zh_title": "Scam Link Check：可疑链接真假速查"
  },
  "https://sciencenotes.org/petrichor-and-geosmin-the-smell-of-rain": {
   "en_oneliner": "A short explainer on where the smell of rain comes from — how raindrops, soil and microbes team up to produce petrichor and geosmin.",
@@ -8729,6 +8789,12 @@
   "zh_oneliner": "开盲盒收集万亿市值公司的卡牌，组自己的投资组合，边玩边赚 Ripcoins。",
   "zh_title": "StockRip：像收集球星卡一样收集上市公司"
  },
+ "https://storiara.com/feature/producer-room?ref=producthunt": {
+  "en_oneliner": "AI producers dig into your film budget to find real savings, so every shoot spends with a plan.",
+  "en_title": "Storiara",
+  "zh_oneliner": "AI 制片人钻进你的影片预算里找实打实的省钱空间，拍片花钱更有数。",
+  "zh_title": "Storiara：AI 制片人帮剧组省预算"
+ },
  "https://storyintovideo.com": {
   "en_oneliner": "An AI story-to-video generator that turns stories into short videos.",
   "en_title": "StoryIntoVideo",
@@ -8920,6 +8986,12 @@
   "en_title": "The tech products we enthusiastically recommend this holiday season",
   "zh_oneliner": "TechCrunch 编辑部一年测评下来最喜欢的几款产品合集，正好赶上黑五，给节日购物做个参考。",
   "zh_title": "这个假日季我们真心推荐的科技产品"
+ },
+ "https://tensorviz.dev/?ref=producthunt": {
+  "en_oneliner": "Let your coding agent see inside your PyTorch model, with its structure drawn out in the open.",
+  "en_title": "tensorViz",
+  "zh_oneliner": "把 PyTorch 模型内部结构画出来，你的编程助手终于能看清模型长什么样。",
+  "zh_title": "tensorViz：让编程助手看懂你的 PyTorch 模型"
  },
  "https://tensward.com/blog/gpu-busy-doing-what": {
   "en_oneliner": "The GPU reports 35% busy — but busy doing what? The author unpacks what GPU utilization actually means, for readers who want to understand real graphics card load.",
@@ -9166,6 +9238,12 @@
   "en_title": "Show HN: Treestamp – An editor for project directory trees",
   "zh_oneliner": "在浏览器里编辑项目目录结构树，排好样式直接放进 README，不用再手敲 ASCII 树形图。",
   "zh_title": "Treestamp：给 README 画项目目录树的在线编辑器"
+ },
+ "https://tripps.io/?ref=producthunt": {
+  "en_oneliner": "Plan a group trip with a single link — itinerary and stays sorted together, no account needed for anyone.",
+  "en_title": "tripps",
+  "zh_oneliner": "发一个链接就能约齐一群人出游，行程住宿一起定，不用每个人都注册账号。",
+  "zh_title": "tripps：一个链接约齐全团出游"
  },
  "https://tripsplit.sagasu.art": {
   "en_oneliner": "Split trip expenses with friends — everyone logs what they paid, and it works out who owes whom.",
@@ -9574,6 +9652,12 @@
   "en_title": "ClearFrame",
   "zh_oneliner": "用 AI 去掉自己视频上的水印，创作者处理素材更省事。",
   "zh_title": "ClearFrame：AI 去除视频水印"
+ },
+ "https://web-640631568386.europe-west1.run.app/?ref=producthunt": {
+  "en_oneliner": "A knock on the door when dangerous weather is coming, so you can get ready before heading out.",
+  "en_title": "Kuc-kuc",
+  "zh_oneliner": "危险天气要来时像敲门一样提醒你一声，提前做好准备再出门。",
+  "zh_title": "Kuc-kuc：恶劣天气敲门提醒"
  },
  "https://web.archive.org/web/20240913021822/http://192.168.1.1": {
   "en_oneliner": "Someone posted an archived snapshot of their own router admin page at 192.168.1.1, showing the RouterOS interface as captured by the Wayback Machine.",
@@ -10174,6 +10258,12 @@
   "en_title": "Show HN: Infoboxing – Guess the Wikipedia article from its infobox",
   "zh_oneliner": "只给你看维基百科的信息框，猜猜这是哪篇文章，考知识面和眼力的猜谜小游戏。",
   "zh_title": "Infoboxing：只看信息框猜维基百科条目"
+ },
+ "https://www.interaone.app/?ref=producthunt": {
+  "en_oneliner": "An open-source Intercom and Zendesk alternative whose AI agents answer customer messages right in the browser.",
+  "en_title": "InteraOne",
+  "zh_oneliner": "开源的 Intercom 与 Zendesk 平替，AI 助手直接在浏览器里帮你回客户消息。",
+  "zh_title": "InteraOne：开源客服平台，带 AI 助手"
  },
  "https://www.jdsupra.com/legalnews/delaware-considers-ai-managed-companies-7749604": {
   "en_oneliner": "Delaware is considering whether companies can be managed by AI, and if that goes ahead, the rules on who bears responsibility and what directors owe will need rewriting.",
@@ -11302,6 +11392,12 @@
   "en_title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
   "zh_oneliner": "The Verge 的最新报道，聊黄仁勋离任风波的后续动向，以及他是否可能重返 Nvidia。",
   "zh_title": "黄仁勋可能正在谋划回归，Nvidia 最新风波盘点"
+ },
+ "https://www.tinytldr.com/?ref=producthunt": {
+  "en_oneliner": "Ready-made templates for your agents, so they work the way you want with less setup.",
+  "en_title": "tinytldr",
+  "zh_oneliner": "给你的 AI 智能体准备好的模板库，照着填就能让智能体按你的规矩干活。",
+  "zh_title": "tinytldr：给 AI 智能体的提示词模板"
  },
  "https://www.tomshardware.com/tech-industry/data-centers/microsoft-365-outage-leads-to-chlorine-gas-poisoning-of-15-hotel-guests-email-warning-system-fails-40-first-responders-deployed-for-triage-four-hospitalized": {
   "en_oneliner": "A Microsoft 365 outage knocked out a hotel's email warning system during a chlorine leak, leaving 15 guests poisoned and four hospitalized.",

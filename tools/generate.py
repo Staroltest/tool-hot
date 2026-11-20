@@ -900,6 +900,13 @@ BLOCKED_DOMAINS = {
     "babysday.in",
     # Saparo：AI 购物 agent，但站内唯一入口是 "Add to Chrome"（三次均链
     # 到 Chrome Web Store），产品以浏览器扩展形态交付，不收扩展
+    # 抽查确认不是在线工具（2026-11-20 16:37 CST 轮，浏览器实测补查
+    # 11 月 10 日归档旧条目）：LOMI 是 Android 离线 AI 应用，官网
+    # “Get LOMI”第一步就是“Install the LOMI application securely from
+    # the Google Play Store”，须下载安装才能用，不是能在浏览器里直接用
+    # 的工具；标题“Run AI models locally on your Android device”不露
+    # 痕迹，标题门拦不住，域名封禁
+    "lomi.ra-studio.dev",
     "saparo.ai",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
