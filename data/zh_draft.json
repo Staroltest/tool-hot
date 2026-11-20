@@ -11824,5 +11824,23 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
+  },
+  "https://ai-call.co?ref=producthunt": {
+    "en_title": "AI Call",
+    "en_oneliner": "An AI receptionist that answers and places business calls for you.",
+    "zh_title": "AI Call：AI 电话助手",
+    "zh_oneliner": "替企业接听和拨打电话的 AI 助手，来电、预约都交给它处理。"
+  },
+  "https://filmgrail.com": {
+    "en_title": "Filmgrail",
+    "en_oneliner": "A toolkit for cinemas to market films, sell tickets, and track results in real time.",
+    "zh_title": "Filmgrail：影院营销与售票工具",
+    "zh_oneliner": "帮影院做线上营销、卖票并实时看数据的工具，从发现影片到买票一气呵成。"
+  },
+  "https://ai-call.co/?ref=producthunt": {
+    "en_title": "AI Call",
+    "en_oneliner": "An AI receptionist that answers and places business calls for you.",
+    "zh_title": "AI Call：AI 电话助手",
+    "zh_oneliner": "替企业接听和拨打电话的 AI 助手，来电、预约都交给它处理。"
   }
 }
