@@ -11404,5 +11404,11 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
+ },
+ "https://cloud.mailflare.co": {
+  "zh_title": "Mailflare Cloud：带 AI 助手、不按人头收费的团队邮箱与办公套件",
+  "zh_oneliner": "把邮箱、日历、网盘、预约和 AI 助手装进一个工作区，按套餐不按人头收费，是 Google Workspace 的平价替代。",
+  "en_title": "Mailflare Cloud: team email and workspace with AI agents, without per-seat pricing",
+  "en_oneliner": "Email, calendar, drive, booking and an AI assistant in one workspace, billed per plan instead of per seat — an affordable Google Workspace alternative."
  }
 }

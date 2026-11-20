@@ -807,6 +807,11 @@ BLOCKED_DOMAINS = {
     # the build for your platform”），须下载安装才能用，导出还要付费计划；
     # 不是能在浏览器里直接用的工具；标题不露痕迹，标题门拦不住，域名封禁
     "slotvfx.com",
+    # 2026-11-20 03:07 CST 轮（本轮新到混入热点榜）：fossil.chungy.name
+    # 是 Fossil 代码仓库托管站，Ufatfs 链到它上面的 README.md 文档页；
+    # Fossil 托管的是源码仓库，不是能直接用的工具站，同已封的
+    # github.com / gitlab.com；标题门同步加“file system”规则
+    "fossil.chungy.name",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -941,6 +946,11 @@ ARTICLE_PATH_SEGMENTS = {
 DOC_PATH_SEGMENTS = {
     "developers", "developer", "api", "api-docs", "apidocs",
     "reference", "openapi", "swagger",
+    # “doc”路径段：链到 /doc/... 的是文档页，不是工具本身
+    # （2026-11-20 03:07 CST 轮：Ufatfs 链到 fossil 仓库的
+    # /ufatfs/doc/trunk/README.md；离线验过全库 940 条过门条目，
+    # 只多拦这一条，0 误伤）
+    "doc",
 }
 # 下载/安装味路径段：链到下载页、安装页、发布包、扩展页的都不是在线工具
 DOWNLOAD_PATH_SEGMENTS = {
@@ -1015,6 +1025,12 @@ def tool_gate(url):
     _path_low = u.path.lower()
     if any(_path_low.endswith(ext) for ext in DOWNLOAD_EXTENSIONS):
         return False, "download_file"
+    # 文档源文件（README.md 之类的 Markdown/纯文本文件）：点开是文档
+    # 内容，不是能直接用的工具站（2026-11-20 03:07 CST 轮：Ufatfs 链到
+    # fossil 仓库的 README.md；离线验过全库 940 条过门条目，只拦这一条，
+    # 0 误伤）
+    if _path_low.endswith((".md", ".rst", ".txt")):
+        return False, "doc_file"
     return True, ""
 
 
@@ -1091,6 +1107,13 @@ _TITLE_BLOCK_RES = [
         # 虚拟机监控程序是装到裸机服务器上的基础设施，不是能在浏览器里直接
         # 用的工具；域名门同步封 nos-os.tech（2026-11-17 07:00 轮：NOS）
         r"\bhypervisor\b",
+        # 文件系统（如“Show HN: Ufatfs: Unix overlay file system for
+        # VFAT/exFAT”）：文件系统是装到操作系统里的系统软件，要下载安装
+        # 才能用，不是能在浏览器里直接用的工具；标题带“in your browser”
+        # 等豁免词时不拦（2026-11-20 03:07 CST 轮：Ufatfs 混入热点榜；
+        # 离线验过全库 940 条过门条目，只拦这一条，0 误伤；域名门同步封
+        # fossil.chungy.name）
+        r"\bfile\s?system\b",
         # 个人作品集主页（如“My developer portfolio with an interactive
         # terminal”）：点开是自我介绍和服务列表，不是能用的工具；只拦
         # 表意明确的“作品集主页”说法，不拦 portfolio tracker 之类的工具
