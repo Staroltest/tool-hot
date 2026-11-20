@@ -923,6 +923,10 @@ BLOCKED_DOMAINS = {
     # SKV Network 是 AI 智能体的社交网络 / 托管 MCP 记忆服务，官网写的是
     # “Connect any agent over MCP”，须把自家智能体接进 MCP 才能用，浏览器里
     # 没有访客能直接用的工具；同已封的 TokLab 等纯 API/MCP 平台，域名封禁
+    # 抽查确认不是在线工具（2026-11-21 06:07 CST 轮，curl 实测本轮热点条目）：
+    # CivicJobs 是欧盟机构职位招聘板，首页是职位列表与筛选（目录/列表站），
+    # 唯一工具属性是附带的 Salary Calculator，不是能直接用的工具本身，域名封禁
+    "civicjobs.eu",
     "skv.network",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
