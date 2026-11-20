@@ -1024,6 +1024,30 @@ BLOCKED_EXACT = {
     # lavapuzzle.com 是每日解谜小游戏（纯游戏，按 11-18 以来封纯游戏的
     # 做法处理；游戏收录口径仍待用户定）
     "lavapuzzle.com",
+    # 2026-11-20 09:07 PST 轮实测封禁（HN Show 新到混入热点榜）：
+    # kpozin.github.io/sprawl-guard 是 Sprawl Guard 命令行工具的官网/
+    # 文档页（`sprawl-guard languages`、Releases 下载），须下载安装
+    # 才能用，不是浏览器里能直接用的工具；标题不露安装痕迹，
+    # 标题门与实测信号都拦不住，人工抽查封禁
+    "kpozin.github.io",
+    # cookedyet.com 是每日猜真假照片小游戏（纯游戏，按 11-18 以来
+    # 封纯游戏的做法处理；游戏收录口径仍待用户定）；链接带 www，
+    # BLOCKED_EXACT 只做精确匹配，两处 host 都要写
+    "cookedyet.com",
+    "www.cookedyet.com",
+    # 2026-11-20 09:07 PST 轮补封（08:07 PST 轮新到、混入热点榜的
+    # 4 个纯游戏，上轮未拦下，本轮自查发现；均浏览器实测确认）：
+    # artificialgames.online 是“每天 22 个游戏”的游戏站；
+    # dailygames.today 是每日解谜/文字/地理小游戏合集（游戏目录）；
+    # schottentotten.com 是 Schotten Totten 卡牌游戏在线版（对 AI/
+    # 好友/同屏轮流玩）；cloudcurling.com 是在线冰壶游戏/模拟器
+    # （Tutorial、Play online、Practice、Vs computer）；链接带 www
+    # 的 host 也要写
+    "artificialgames.online",
+    "dailygames.today",
+    "schottentotten.com",
+    "cloudcurling.com",
+    "www.cloudcurling.com",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
