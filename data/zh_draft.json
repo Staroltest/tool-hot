@@ -12016,5 +12016,35 @@
     "zh_title": "Show HN：ArkViz：AI 生成软件架构图",
     "zh_oneliner": "用 AI 把软件架构画出来，输入描述就能生成清晰的架构图，梳理系统结构更直观。",
     "en_oneliner": "AI turns your description into a clear software architecture diagram, making it easier to see how a system fits together."
+  },
+  "https://shayon.work/riemann": {
+    "zh_title": "黎曼猜想有多深？交互式讲解",
+    "zh_oneliner": "一层层往下钻的交互讲解：黎曼猜想到底在说什么、为什么 167 年没人证出来，以及那份号称证明的手稿规模有多大。",
+    "en_title": "How deep is the Riemann hypothesis? An interactive explainer",
+    "en_oneliner": "An interactive descent into what the Riemann hypothesis says, why it stayed open for 167 years, and how big the claimed proof is."
+  },
+  "https://board.blink.cash": {
+    "zh_title": "Blink Board：10 秒搭一个交易机器人",
+    "zh_oneliner": "用一句话描述你的交易思路，它会变成可视化的规则方块，直接在网页上跑起来。",
+    "en_title": "Build a trading bot in 10 seconds",
+    "en_oneliner": "Describe a trade in plain words, see its rules as blocks, and run it right in the browser."
+  },
+  "https://civicjobs.eu": {
+    "zh_title": "CivicJobs：欧盟机构职位与实习汇总",
+    "zh_oneliner": "集中浏览欧盟委员会、欧洲议会、理事会及各机构的在招职位、实习和 EPSO 竞争考试，一站式搜欧盟的公职机会。",
+    "en_title": "A career portal for EU agencies",
+    "en_oneliner": "Browse live EU jobs, traineeships, and EPSO competitions across the European Commission, Parliament, Council, and EU agencies."
+  },
+  "https://socialgtm.app": {
+    "zh_title": "SocialGTM：在社交平台上找你的第一批客户",
+    "zh_oneliner": "监听 X、Reddit、Hacker News 等平台上正在找同类工具的人，用你的语气回帖，并把每条线索都跟进到位。",
+    "en_title": "SocialGTM – Find your first customers in conversations on social",
+    "en_oneliner": "Social listening for X, Reddit, Hacker News, Bluesky, and LinkedIn: find people asking for a tool like yours, reply in your voice, and track every lead."
+  },
+  "https://bellripple.com": {
+    "zh_title": "Bellripple：浏览器里的安静寺庙花园",
+    "zh_oneliner": "在浏览器里走进一座 3D 寺庙花园：散步、打坐、行礼、敲钟，可以一个人静静待着，也可以和别人一起，免费免注册。",
+    "en_title": "Bellripple – a quiet Korean temple garden in the browser",
+    "en_oneliner": "A quiet 3D temple garden in your browser. Walk, sit, bow, and ring the bell, alone or with others. Free, no account."
   }
 }
