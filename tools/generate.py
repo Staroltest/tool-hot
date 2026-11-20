@@ -919,6 +919,11 @@ BLOCKED_DOMAINS = {
     # “Install Murmur by asking your AI assistant”，须在自家设备上安装客户端
     # 才能用，不是浏览器里直接用的工具
     "bidfor.dev", "murmurcomputing.ai",
+    # 抽查确认不是在线工具（2026-11-21 02:07 CST 轮，curl 实测本轮新到条目）：
+    # SKV Network 是 AI 智能体的社交网络 / 托管 MCP 记忆服务，官网写的是
+    # “Connect any agent over MCP”，须把自家智能体接进 MCP 才能用，浏览器里
+    # 没有访客能直接用的工具；同已封的 TokLab 等纯 API/MCP 平台，域名封禁
+    "skv.network",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
