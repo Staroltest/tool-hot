@@ -1058,6 +1058,14 @@ _TITLE_BLOCK_RES = [
         # （2026-11-19 00:07 CST 轮：MIT 邮件课程进了热点榜）
         r"\bemail\s+course\b",
         r"邮件课程",
+        # 时事新闻站（如“Wikipedia Current Event Portal as an Actual
+        # Newspaper”）：站本身就是新闻内容（报纸版式呈现维基百科时事），
+        # 不是能用的工具；只拦“current event(s)”这一表意明确的说法，
+        # 不拦 newspaper——Daily Scribe 是给 Kindle 生成日报的工具，
+        # 标题也带 newspaper（2026-11-20 09:37 CST 轮：wikinews-rss
+        # 已进热点榜；离线验过 3519 条在库条目，只拦这一条，0 误伤）
+        r"\bcurrent events?\b",
+        r"时事新闻",
         # CLI / 命令行工具（如“a refactoring CLI for coding agents”）：
         # 要下载安装才能用，不是“在网站上就能用”的工具
         # （2026-11-16 22:00 轮：Claktor）
