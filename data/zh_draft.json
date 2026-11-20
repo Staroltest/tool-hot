@@ -11926,5 +11926,71 @@
     "en_title": "hof.fyi: Is Your Favorite Band in the Rock and Roll Hall of Fame?",
     "zh_oneliner": "输入乐队名，马上查它有没有入选摇滚名人堂，顺带看看同届还有谁。",
     "zh_title": "hof.fyi：你喜欢的乐队进摇滚名人堂了吗"
+  },
+  "https://artificialgames.online": {
+    "en_oneliner": "Twenty-two fresh daily games with leaderboards verified by server-side replay, so scores can't be faked.",
+    "en_title": "Show HN: Artificial Games – 22 daily games, server-replayed leaderboards",
+    "zh_oneliner": "每天更新 22 款小游戏，分数由服务器回放校验后上榜，刷分作弊行不通。",
+    "zh_title": "Artificial Games：每天 22 款小游戏，排行榜服务器复核"
+  },
+  "https://askthissite.com": {
+    "en_oneliner": "Paste any docs URL to get an answer box for that site — ask the documentation questions directly instead of digging through pages.",
+    "en_title": "Show HN: I built an answer box for documentation sites (try it on any docs URL)",
+    "zh_oneliner": "贴任意文档网址就能生成一个问答框，直接向这份文档提问，不用再一页页翻找答案。",
+    "zh_title": "AskThisSite：给任何文档站加一个问答框"
+  },
+  "https://cupofsugar.social/?ref=producthunt": {
+    "en_oneliner": "Share a dream, let AI break it into small steps, and watch neighbors chip in with time, skills, or something to lend.",
+    "en_title": "Cup of Sugar",
+    "zh_oneliner": "说出你的梦想，AI 帮你拆成小步骤，邻里们用时间、手艺或闲置物品一起帮你实现。",
+    "zh_title": "Cup of Sugar：邻里互助实现梦想的社区"
+  },
+  "https://dailygames.today": {
+    "en_oneliner": "A fresh batch of daily games like Krillion every day — open and play, perfect for a quick challenge.",
+    "en_title": "Show HN: Daily Games Today – DLE Games Like Krillion",
+    "zh_oneliner": "每天更新一批像 Krillion 那样的每日小游戏，打开就能玩，适合碎片时间挑战一下。",
+    "zh_title": "Daily Games Today：每日一玩的小游戏合集"
+  },
+  "https://greatai.dev/clinic?ref=producthunt": {
+    "en_oneliner": "Paste a public repo link for a one-minute AI scan, then watch an AI review team work through the code on a live board, with an optional human expert review for maintainers.",
+    "en_title": "Greatai Review: Free AI Code Review for Open Source",
+    "zh_oneliner": "贴上公开仓库地址，一分钟出 AI 快速扫描，还能让 AI 评审团队在看板上现场审代码，维护者也可以请真人专家帮忙看。",
+    "zh_title": "Greatai Review：开源项目免费 AI 代码评审"
+  },
+  "https://lumyna-community-212355732863.europe-west1.run.app/?ref=producthunt": {
+    "en_oneliner": "A community challenge covering a million virtual meters, turning footsteps into a small pledge against hunger.",
+    "en_title": "Lumyna Community Challenge",
+    "zh_oneliner": "一百万虚拟米数的社区挑战，用脚步为抗击饥饿筹一份小小的心意。",
+    "zh_title": "Lumyna Community Challenge：百万虚拟米数公益挑战"
+  },
+  "https://raphael.app": {
+    "en_oneliner": "A free multi-model AI image generator with conversational photo editing and an AI video studio, ready in the browser.",
+    "en_title": "Raphael AI",
+    "zh_oneliner": "免费的多模型 AI 图片生成器，还能对话式修图、做 AI 视频，打开就能用。",
+    "zh_title": "Raphael AI：免费多模型 AI 图片生成与视频工作室"
+  },
+  "https://schottentotten.com/?src=hn": {
+    "en_oneliner": "Play Schotten Totten, the two-player card strategy game, online against real opponents — a Lichess for the card table.",
+    "en_title": "Show HN: Lichess of Schotten Totten",
+    "zh_oneliner": "把双人策略卡牌游戏 Schotten Totten 搬到网上，随时找人对弈，像 Lichess 之于国际象棋一样。",
+    "zh_title": "Schotten Totten 在线对战：双人策略卡牌游戏"
+  },
+  "https://spa-mvc-pages.duckdns.org/wordmap": {
+    "en_oneliner": "WordNet drawn as an explorable mind map — look up a word and follow its meanings outward through linked ideas.",
+    "en_title": "Show HN: Wordmap – WordNet but it's a mind-map",
+    "zh_oneliner": "把 WordNet 词库画成可以点开探索的思维导图，查一个词就能顺着词义关系一路展开。",
+    "zh_title": "Wordmap：像思维导图一样的 WordNet"
+  },
+  "https://sql-in-depth.vedgupta.in": {
+    "en_oneliner": "A WASM SQLite workbench that runs entirely in the browser, paired with a hands-on guide to how databases work inside.",
+    "en_title": "Show HN: SQL in Depth – In-browser WASM SQLite workbench and DB internals guide",
+    "zh_oneliner": "在浏览器里直接跑 WASM 版 SQLite，既能动手练 SQL，又能顺着指南摸清数据库内部是怎么工作的。",
+    "zh_title": "SQL in Depth：浏览器里的 SQLite 工作台与数据库内幕指南"
+  },
+  "https://www.cloudcurling.com": {
+    "en_oneliner": "An online curling game and tactics simulator built with Three.js — throw stones, sweep, and practice tricky layouts in the browser.",
+    "en_title": "Show HN: Online curling game/SIM with Three.js",
+    "zh_oneliner": "用 Three.js 做的在线冰壶游戏兼战术模拟器，掷壶、擦冰、琢磨布局都能在浏览器里练。",
+    "zh_title": "Cloud Curling：Three.js 做的在线冰壶模拟"
   }
 }
