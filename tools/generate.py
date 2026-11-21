@@ -945,6 +945,10 @@ BLOCKED_DOMAINS = {
     # minard1812.org：拿破仑征俄地图的动画致敬页（动画+旁白+音乐），
     # 是看的多媒体内容，没有能直接用的工具；2026-11-21 14:07 CST 轮实测
     "minard1812.org",
+    # loopseo.org：自托管程序化 SEO 工具（官网自称 "Self-hosted programmatic
+    # SEO"），须接自家 WordPress 站 + 自带 API 密钥才能跑，工具本身不在网站
+    # 上能直接用；2026-11-21 15:37 CST 轮热点第 5 条实测，标题不露痕迹，域名封禁
+    "loopseo.org",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
