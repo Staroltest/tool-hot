@@ -476,6 +476,13 @@ BLOCKED_DOMAINS = {
     # 应用（Designed for iPhone，Free for 7 days 试用），新闻 + 手机应用双重
     # 泄漏，标题里的 (iOS) 也露了痕迹
     "globus.earth",
+    # 抽查确认不是在线工具（2026-11-21 01:37 轮，浏览器实测）：RMRFBench
+    # 是 AI 智能体删文件基准的排行榜与结果报告站（排行榜、事件报告、方法论
+    # 文章），站上跑不了评测、没有能直接用的工具，是报告/内容站；
+    # FreeLLM 自称 "comprehensive directory of free LLM API"，是免费大模型
+    # API 目录站（534 个模型清单与配置片段），目录页不收，Playground 只是
+    # 其中一个子功能，热点榜链的是根地址目录页
+    "rmrfbench.com", "freellm.net",
     # 抽查确认不是在线工具（2026-11-19 05:07 轮，curl 实测）：AI Portrait
     # Prompts 是 55 条人像提示词静态合集（Browse 55 tested prompts，复制粘贴
     # 进 ChatGPT/Midjourney/DALL-E），站上没有交互工具，同已封的提示词库
