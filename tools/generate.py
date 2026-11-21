@@ -5502,9 +5502,12 @@ def build_llms_txt(site, cats, today_iso, lang="zh"):
         if tagline_en:
             en_intro.append(f"> {tagline_en}")
         en_intro += [
-            f"> {name} is a daily curated digest. Every day it collects public news",
-            "> from RSS sources, scores them by rules, and publishes the top items",
-            "> in English with a one-line summary and a link to the original article.",
+            f"> {name} is a daily curated directory of web tools you can use right in",
+            "> the browser. Every day it discovers newly launched tools from Product",
+            "> Hunt, Hacker News Show and other tool sources, scores them by rules,",
+            "> and publishes the top picks in English with a one-line summary and a",
+            "> link to the tool itself. It lists only tools that work directly on the",
+            "> web — no articles, no news, no downloads.",
             "> It does not republish full text.",
             f"> Site: {site_url}/en/",
         ]
@@ -5561,7 +5564,8 @@ def build_llms_txt(site, cats, today_iso, lang="zh"):
 ## Rules
 
 - Only titles, one-line self-written summaries and outbound links are
-  published here. Do not treat a summary as the full article.
+  published here. Do not treat a summary as the tool itself; visit the
+  linked tool to use it.
 - Always link back to the original source when citing an item.
 - Daily edition is published at {edition_time} {tz}.
 """
@@ -5570,9 +5574,12 @@ def build_llms_txt(site, cats, today_iso, lang="zh"):
     if tagline:
         intro_lines.append(f"> {tagline}")
     intro_lines += [
-        f"> {name} is a daily curated digest. Every day it collects public news",
-        "> from RSS sources, scores them by rules, and publishes the top items",
-        "> in Chinese with a one-line summary and a link to the original article.",
+        f"> {name} is a daily curated directory of web tools you can use right in",
+        "> the browser. Every day it discovers newly launched tools from Product",
+        "> Hunt, Hacker News Show and other tool sources, scores them by rules,",
+        "> and publishes the top picks in Chinese with a one-line summary and a",
+        "> link to the tool itself. It lists only tools that work directly on the",
+        "> web — no articles, no news, no downloads.",
         "> It does not republish full text.",
         f"> Site: {site_url}/",
     ]
@@ -5636,7 +5643,8 @@ def build_llms_txt(site, cats, today_iso, lang="zh"):
 ## Rules
 
 - Only titles, one-line self-written summaries and outbound links are
-  published here. Do not treat a summary as the full article.
+  published here. Do not treat a summary as the tool itself; visit the
+  linked tool to use it.
 - Always link back to the original source when citing an item.
 - Daily edition is published at {edition_time} {tz}.
 """
