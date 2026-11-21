@@ -956,6 +956,17 @@ BLOCKED_DOMAINS = {
     # SEO"），须接自家 WordPress 站 + 自带 API 密钥才能跑，工具本身不在网站
     # 上能直接用；2026-11-21 15:37 CST 轮热点第 5 条实测，标题不露痕迹，域名封禁
     "loopseo.org",
+    # freeaigo.com：FreeAI Go 是免费 AI 工具目录站（首页自称 "A SMALL
+    # DIRECTORY"，30 条收录全是链到各家官网的卡片，比较/短清单也只是帮
+    # 你选工具，AI 处理都在提供方网站完成），站上没有能直接用的工具，
+    # 属目录站而非工具站；2026-11-21 20:37 CST 轮实测，热点第 1 条，域名封禁
+    "freeaigo.com",
+    # desearch.ai：Desearch 是面向 AI 智能体的联网搜索 API（首页 "One search
+    # API for AI agents"，按千次调用计费，须注册拿 key、绑卡才有 $5 额度，
+    # 接入方式是 REST API / SDK / MCP），站上没有给普通人直接用的工具，
+    # 同已封的 TokLab、voxoria.ai 等纯 API 平台；2026-11-21 20:37 CST 轮
+    # 实测，热点第 3 条，域名封禁
+    "desearch.ai",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
