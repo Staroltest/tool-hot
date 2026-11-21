@@ -933,6 +933,18 @@ BLOCKED_DOMAINS = {
     # 唯一工具属性是附带的 Salary Calculator，不是能直接用的工具本身，域名封禁
     "civicjobs.eu",
     "skv.network",
+    # tamnd.com：数学学习路径站（riemann.tamnd.com/learn、math2.tamnd.com），
+    # 是按阶段读的教学内容页，没有能直接用的工具；2026-11-21 14:07 CST 轮
+    # 热点第 N 条 "Show HN: Riemann Hypothesis Proof for Learners" 实测为
+    # 学习指南长文，按文章类泄漏封域名
+    "tamnd.com",
+    # shayon.work/riemann：黎曼猜想互动讲解长文（滑块/图表只是文内演示），
+    # 本质是读的文章，不是能拿来做事的工具；2026-11-21 14:07 CST 轮实测，
+    # 与同轮 tamnd 同类，按文章类泄漏封域名
+    "shayon.work",
+    # minard1812.org：拿破仑征俄地图的动画致敬页（动画+旁白+音乐），
+    # 是看的多媒体内容，没有能直接用的工具；2026-11-21 14:07 CST 轮实测
+    "minard1812.org",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
