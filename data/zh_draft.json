@@ -209,6 +209,12 @@
     "zh_oneliner": "用 AI 向外扩展图片，按任意比例补全画面，不裁掉主体。",
     "zh_title": "AI 图片扩展器"
   },
+  "https://aiimagegenerators.net": {
+    "en_oneliner": "An online AI image generator that turns text prompts or reference photos into product shots and marketing visuals, right in the browser.",
+    "en_title": "AI Image Generator",
+    "zh_oneliner": "在线 AI 图片生成器，输入文字描述或上传参考图，就能生成商品图与营销配图，打开就能用。",
+    "zh_title": "AI 图片生成器"
+  },
   "https://aiipworld.com": {
     "en_oneliner": "Free online tools that turn HTML or a web address into a PDF or an image.",
     "en_title": "AIIPWorld: web page to PDF or image",
@@ -503,6 +509,12 @@
     "zh_oneliner": "填入你的网址，它会派一个前沿 AI 智能体真刀真枪地试着闯你的网站，再告诉你它完成了哪些操作、风险有多高。",
     "zh_title": "Proof of Human：测测 AI 智能体能否绕过你的网站安全防线"
   },
+  "https://atlasofmoney.org": {
+    "en_oneliner": "An evidence-graded history of money, from barter to paper credit, with sourced entries you can explore on a map and a timeline.",
+    "en_title": "Show HN: Atlas of Money",
+    "zh_oneliner": "从以物易物到纸币信用，一部按证据分级的货币简史，每个条目都附出处，还能在地图和时间轴上对照着看。",
+    "zh_title": "Atlas of Money：有据可查的货币历史地图集"
+  },
   "https://attest-framework.github.io": {
     "en_oneliner": "The Attest framework tests what AI agents actually do rather than what they say, making agent evaluation more trustworthy.",
     "en_title": "Show HN: Attest – Test what AI agents do, not just what they say",
@@ -551,6 +563,12 @@
     "zh_oneliner": "在浏览器里用 AI 生成 3D 模型、调材质灯光，一键发布成可在手机上直接看 AR 的商品展示页。",
     "zh_title": "BASE Studio"
   },
+  "https://bashbots.io": {
+    "en_oneliner": "Program battle bots in Python and pit them against other players' bots — your code is your weapon.",
+    "en_title": "Show HN: Bashbots – program bots in Python to battle other players",
+    "zh_oneliner": "用 Python 编写对战机器人，和其他玩家的机器人同台竞技，代码就是你的武器。",
+    "zh_title": "Bashbots：用 Python 写机器人打擂台"
+  },
   "https://basteez.itch.io/wild-shift": {
     "en_oneliner": "Your weapon is a ring of bits: shift it mid-fight to line up combos and squash living software bugs like infinite loops and null pointers, right in your browser with nothing to install.",
     "en_title": "Looking for playtesters for my GitHub Game Off 2026 entry 🎮",
@@ -574,6 +592,12 @@
     "en_title": "Our Amazing Immune System",
     "zh_oneliner": "一篇通俗讲解人体免疫系统如何工作的文章，把复杂的免疫机制讲得明白易懂，适合对生物学感兴趣的普通读者。",
     "zh_title": "我们神奇的免疫系统"
+  },
+  "https://bethe.one/meet-higher-self-ai": {
+    "en_oneliner": "Talk with an AI version of your higher self to reflect, plan, and check in — turning coaching conversations into a daily habit.",
+    "en_title": "BE THE ONE",
+    "zh_oneliner": "跟 AI 版的「更高自我」对话，做反思、定计划、校准状态，把教练式对话变成每天的习惯。",
+    "zh_title": "BE THE ONE：遇见更高版本的自己"
   },
   "https://bf16.ai": {
     "en_oneliner": "bf16.ai offers uncensored DeepSeek and GLM APIs with 1M context and a promise of no prompt logging.",
@@ -6467,6 +6491,12 @@
     "zh_oneliner": "Hackaday 的一篇文章，讲怎么有章法地逆向分析 USB 设备，从抓包到读懂协议，喜欢折腾硬件的人可以照着思路试试。",
     "zh_title": "优雅地逆向那个 USB 设备"
   },
+  "https://hackerllion.com": {
+    "en_oneliner": "A daily trivia game where rarer answers score higher — nail the obscure ones and you earn root.",
+    "en_title": "Show HN: Hackerllion – A daily trivia game where rare answers get you root",
+    "zh_oneliner": "每天一局冷知识竞答，答案越罕见得分越高，答对冷门题就能拿到 root 权限。",
+    "zh_title": "Hackerllion：答得越冷门，权限越高"
+  },
   "https://hackernoon.com/11-15-2026-newsletter?source=rss": {
     "en_oneliner": "A small NumPy preprocessing example that makes the views-versus-copies pitfall in machine learning click.",
     "en_title": "The HackerNoon Newsletter: Why Your NumPy Array Changed After Preprocessing (Views vs Copies in ML) (11/15/2026)",
@@ -8039,6 +8069,12 @@
     "zh_oneliner": "公开的创业公司排行榜，每个名次花了多少钱、攒了多少人气都一清二楚，上榜可以付费买位，也可以靠分享链接赚积分往上爬。",
     "zh_title": "Outclimbed：名次明码标价的创业公司排行榜"
   },
+  "https://outpostracer.com": {
+    "en_oneliner": "A PS1-style arcade racer that runs right in your browser, with sprint and circuit races against computer-controlled rivals.",
+    "en_title": "Show HN: I made a PS1 style racing game",
+    "zh_oneliner": "打开浏览器就能玩的 PS1 画风街机赛车，短程冲刺和环形赛道两种玩法，对手全是电脑车手。",
+    "zh_title": "Outpost Racer：PS1 画风的浏览器街机赛车"
+  },
   "https://ox212.com/?ref=producthunt": {
     "en_oneliner": "Reads a trader's own behavior patterns, warns before the trading plan breaks, and auto-pauses and locks the account when needed to protect discipline.",
     "en_title": "OX212",
@@ -8242,6 +8278,12 @@
     "en_title": "Risca: draw one line to split two shapes into target percentages",
     "zh_oneliner": "一笔画切开图形，让两边的面积正好等于目标百分比，切得越准分越高，考验手稳和眼力的小游戏。",
     "zh_title": "Risca：一笔画切出目标比例"
+  },
+  "https://plazzlegame.com": {
+    "en_oneliner": "A daily puzzle game with a fresh level every day — today's one is quite the challenge, so jump in and try it.",
+    "en_title": "Show HN: PLazzle – todays level is quite the challenge",
+    "zh_oneliner": "每天一关的解谜小游戏，今天的关卡难度不小，点开直接挑战。",
+    "zh_title": "PLazzle：今天这关可不好过"
   },
   "https://pleasejusttext.me": {
     "en_oneliner": "Hate voice messages? This little tool replies with a video of someone typing, nudging the sender to text instead.",
@@ -10115,6 +10157,12 @@
     "zh_oneliner": "SpaceXAI 位于南黑文的工厂发生化学品泄漏，流入了排水沟，当地新闻报道了这起事故。",
     "zh_title": "SpaceXAI 南黑文工厂化学品泄漏进排水沟"
   },
+  "https://www-airapvideo.com": {
+    "en_oneliner": "Pick a rap scene template, upload one or two portraits, and AI turns them into a 10-second rap performance video with sound, ready to download as MP4.",
+    "en_title": "AI Rap Video",
+    "zh_oneliner": "选一个说唱场景模板，上传一两张人像照片，AI 就能生成一段 10 秒带音乐的说唱表演视频，可下载 MP4 分享。",
+    "zh_title": "AI Rap Video：照片变说唱短视频"
+  },
   "https://www-kling.com?ref=smollaunch": {
     "en_oneliner": "Create with Kling 4.0 from text prompts or first and last frames.",
     "en_title": "Kling 4.0: AI video generation",
@@ -10834,6 +10882,12 @@
     "en_title": "ATS Resume Checker: Paste Your Resume and JD to Check",
     "zh_oneliner": "把简历和岗位描述一起粘贴，立刻检查匹配度，投简历前先过一遍机器筛。",
     "zh_title": "ATS 简历检查器：粘贴简历对照岗位描述"
+  },
+  "https://www.onetworesume.com": {
+    "en_oneliner": "Upload your resume and the AI rewrites weak bullet points into achievement statements, formats it to pass ATS filters, and has it ready to send in minutes.",
+    "en_title": "OneTwo Resume",
+    "zh_oneliner": "上传已有简历，AI 把写得平淡的经历改成有数据、有动词的成果表述，还能按岗位关键词优化，通过 ATS 筛选，几分钟就能拿去投递。",
+    "zh_title": "OneTwo Resume：AI 简历改写工具"
   },
   "https://www.openmetropolitan.com": {
     "en_oneliner": "An infinite canvas holding 340,000 artworks from The Met — pan and zoom through the whole collection.",
@@ -12178,53 +12232,5 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
-  },
-  "https://outpostracer.com": {
-    "en_title": "Show HN: I made a PS1 style racing game",
-    "en_oneliner": "A PS1-style arcade racer that runs right in your browser, with sprint and circuit races against computer-controlled rivals.",
-    "zh_title": "Outpost Racer：PS1 画风的浏览器街机赛车",
-    "zh_oneliner": "打开浏览器就能玩的 PS1 画风街机赛车，短程冲刺和环形赛道两种玩法，对手全是电脑车手。"
-  },
-  "https://atlasofmoney.org": {
-    "en_title": "Show HN: Atlas of Money",
-    "en_oneliner": "An evidence-graded history of money, from barter to paper credit, with sourced entries you can explore on a map and a timeline.",
-    "zh_title": "Atlas of Money：有据可查的货币历史地图集",
-    "zh_oneliner": "从以物易物到纸币信用，一部按证据分级的货币简史，每个条目都附出处，还能在地图和时间轴上对照着看。"
-  },
-  "https://www-airapvideo.com": {
-    "zh_title": "AI Rap Video：照片变说唱短视频",
-    "zh_oneliner": "选一个说唱场景模板，上传一两张人像照片，AI 就能生成一段 10 秒带音乐的说唱表演视频，可下载 MP4 分享。",
-    "en_title": "AI Rap Video",
-    "en_oneliner": "Pick a rap scene template, upload one or two portraits, and AI turns them into a 10-second rap performance video with sound, ready to download as MP4."
-  },
-  "https://bethe.one/meet-higher-self-ai": {
-    "en_title": "BE THE ONE",
-    "zh_title": "BE THE ONE：遇见更高版本的自己",
-    "zh_oneliner": "跟 AI 版的「更高自我」对话，做反思、定计划、校准状态，把教练式对话变成每天的习惯。",
-    "en_oneliner": "Talk with an AI version of your higher self to reflect, plan, and check in — turning coaching conversations into a daily habit."
-  },
-  "https://hackerllion.com": {
-    "en_title": "Show HN: Hackerllion – A daily trivia game where rare answers get you root",
-    "zh_title": "Hackerllion：答得越冷门，权限越高",
-    "zh_oneliner": "每天一局冷知识竞答，答案越罕见得分越高，答对冷门题就能拿到 root 权限。",
-    "en_oneliner": "A daily trivia game where rarer answers score higher — nail the obscure ones and you earn root."
-  },
-  "https://plazzlegame.com": {
-    "en_title": "Show HN: PLazzle – todays level is quite the challenge",
-    "zh_title": "PLazzle：今天这关可不好过",
-    "zh_oneliner": "每天一关的解谜小游戏，今天的关卡难度不小，点开直接挑战。",
-    "en_oneliner": "A daily puzzle game with a fresh level every day — today's one is quite the challenge, so jump in and try it."
-  },
-  "https://bashbots.io": {
-    "en_title": "Show HN: Bashbots – program bots in Python to battle other players",
-    "zh_title": "Bashbots：用 Python 写机器人打擂台",
-    "zh_oneliner": "用 Python 编写对战机器人，和其他玩家的机器人同台竞技，代码就是你的武器。",
-    "en_oneliner": "Program battle bots in Python and pit them against other players' bots — your code is your weapon."
-  },
-  "https://aiimagegenerators.net": {
-    "en_oneliner": "An online AI image generator that turns text prompts or reference photos into product shots and marketing visuals, right in the browser.",
-    "en_title": "AI Image Generator",
-    "zh_oneliner": "在线 AI 图片生成器，输入文字描述或上传参考图，就能生成商品图与营销配图，打开就能用。",
-    "zh_title": "AI 图片生成器"
   }
 }

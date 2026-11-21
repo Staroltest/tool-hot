@@ -967,6 +967,10 @@ BLOCKED_DOMAINS = {
     # 同已封的 TokLab、voxoria.ai 等纯 API 平台；2026-11-21 20:37 CST 轮
     # 实测，热点第 3 条，域名封禁
     "desearch.ai",
+    # bethe.one：链到的页是 iOS 应用内 AI 教练功能的介绍/营销长文，
+    # 工具本身在应用内，网页点开用不了；2026-11-21 10:37 PST 轮实测，
+    # 热点第 3 条，域名封禁
+    "bethe.one",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
