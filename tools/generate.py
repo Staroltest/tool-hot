@@ -1106,6 +1106,16 @@ BLOCKED_EXACT = {
     "beatwatcher.app",
     "shipyardmcp.com",
     "www.shipyardmcp.com",
+    # 2026-11-21 09:07 PST 轮实测封禁（HN Show 新到混入热点榜，标题均不露痕迹）：
+    # andrewxhill.com/frontier-model-weight-edits 是“用前沿 AI 改 0.5B
+    # 模型权重做物种分类”的长篇博客文章（讲方法与实验结果），不是能直接
+    # 用的工具；hubbub.page 是免费 Chrome 扩展（官网自述 "A free Chrome
+    # extension"），须安装扩展才能在 HN 帖里用，不是浏览器里能直接用的
+    # 工具；链接带 www 的 host 也要写
+    "andrewxhill.com",
+    "www.andrewxhill.com",
+    "hubbub.page",
+    "www.hubbub.page",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
