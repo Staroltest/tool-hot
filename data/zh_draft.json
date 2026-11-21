@@ -12076,5 +12076,17 @@
   "en_oneliner": "Bring in a client request from Slack or email and Daybranch checks it against your agreement, showing what is covered, what needs an estimate, and what to clarify.",
   "zh_title": "Daybranch：客户这个需求，在合同范围内吗？",
   "zh_oneliner": "把客户从 Slack 或邮件里发来的需求贴进来，Daybranch 对照合同逐条判断哪些已包含、哪些要另报价、哪些得先问清楚。"
+ },
+ "https://nametheworld.starshadowx2.workers.dev": {
+  "en_title": "Show HN: Name the World – An Atlas Quiz",
+  "en_oneliner": "Guess country names on a world map and learn where each one sits as you play.",
+  "zh_title": "Name the World：世界地图猜国家测验",
+  "zh_oneliner": "在世界地图上猜国家名字，边玩边记住各国的位置。"
+ },
+ "https://loopseo.org": {
+  "en_title": "Show HN: Tool for WordPress that researches, writes, publishes SEO articles",
+  "en_oneliner": "Researches, writes and publishes SEO articles for WordPress automatically, saving hours of manual writing.",
+  "zh_title": "LoopSEO：自动为 WordPress 写 SEO 文章的工具",
+  "zh_oneliner": "自动为 WordPress 调研、撰写并发布 SEO 文章，省下手动写稿的时间。"
  }
 }
