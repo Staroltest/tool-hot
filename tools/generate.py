@@ -1078,6 +1078,16 @@ BLOCKED_EXACT = {
     "schottentotten.com",
     "cloudcurling.com",
     "www.cloudcurling.com",
+    # 2026-11-21 00:07 PST 轮补封（旧日归档自查发现，均浏览器实测确认）：
+    # anytools.world 是 AnyProfile 的产品页——免费开源防关联浏览器
+    # （Mac & Windows 桌面应用，须下载安装）；beatwatcher.app 是
+    # Apple Watch 心率提醒应用（须在手表上安装）；shipyardmcp.com
+    # 是本地 CLI + MCP 服务器（给 Claude Code / Cursor / Codex 装
+    # 的集成工具），须本地安装才能用；链接带 www 的 host 也要写
+    "anytools.world",
+    "beatwatcher.app",
+    "shipyardmcp.com",
+    "www.shipyardmcp.com",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
