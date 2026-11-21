@@ -12508,5 +12508,11 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
+  },
+  "https://Daniil-Myagkov.github.io/qftm-1024": {
+    "zh_title": "QFTM-1024：开源 MBTI 替代品，1024 种人格画像",
+    "zh_oneliner": "开源的人格画像工具，1024 种画像替代 16 型 MBTI，还能看 Big Five 动态和两人合盘。",
+    "en_title": "Show HN: QFTM-1024 – An open-source MBTI alternative with 1024 profiles",
+    "en_oneliner": "An open-source personality profiler with 1,024 profiles instead of 16 MBTI types, plus Big Five dynamics and partner compatibility."
   }
 }

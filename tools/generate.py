@@ -988,6 +988,13 @@ BLOCKED_DOMAINS = {
     # 均在 Gumroad 标价 $12–20 下载，站上没有直接能用的工具），本轮热点有它
     "minanggadang.com", "shop.anagnoraxis.com", "aivipzhan.com",
     "hubtech.pk", "ia.university", "fieldguidetobots.com",
+    # 2026-11-22 06:07 CST 轮人工审 HN Show 新到 4 条封禁 3 条：
+    # johannes.plunien.com/KeyLayers 是 macOS 桌面应用（须下载安装，
+    # 标题不露痕迹，标题门拦不住）；databasedmcp.com 是远程 MCP 服务器，
+    # 纯 API 平台（工具给智能体经 API 用，浏览器里只有只读 SQL 看板，
+    # 同 TokLab 口径）；typeonce.games/tabletop-champions 是纯浏览器
+    # 赛车游戏，无工具属性（11-18 起纯游戏当泄漏封，待用户定游戏口径）
+    "johannes.plunien.com", "databasedmcp.com", "typeonce.games",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
