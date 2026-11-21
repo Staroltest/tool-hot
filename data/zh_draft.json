@@ -12088,5 +12088,17 @@
   "en_oneliner": "Researches, writes and publishes SEO articles for WordPress automatically, saving hours of manual writing.",
   "zh_title": "LoopSEO：自动为 WordPress 写 SEO 文章的工具",
   "zh_oneliner": "自动为 WordPress 调研、撰写并发布 SEO 文章，省下手动写稿的时间。"
+ },
+ "https://mytoolster.com": {
+  "zh_title": "MyToolster：免费在线开发者工具合集",
+  "zh_oneliner": "免费在线开发者工具合集，Unicode 转换、URL 处理、二维码、音视频处理都能在浏览器里直接用。",
+  "en_title": "MyToolster",
+  "en_oneliner": "A free collection of online developer tools — Unicode converter, URL tools, QR codes, and audio and video utilities, all usable right in the browser."
+ },
+ "https://freellm.net": {
+  "zh_title": "FreeLLM：免费大模型 API 导航",
+  "zh_oneliner": "汇总 Google、Groq、OpenRouter 等 31 家服务商的 500 多个免费大模型 API，按用途和模型分类，找免费 API 不用再到处翻文档。",
+  "en_title": "FreeLLM",
+  "en_oneliner": "A directory of 500+ free LLM APIs from 31 providers including Google, Groq and OpenRouter, browsable by use case and model family — no more digging through docs to find a free API."
  }
 }
