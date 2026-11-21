@@ -1252,6 +1252,14 @@ _TITLE_BLOCK_RES = [
         # 用的工具本身；域名门同步封 agentsinthewild.co
         # （2026-11-17 20:07 CST 轮：Agents in the Wild）
         r"\bmcp\s+server\b",
+        # “API and MCP”（如“Built a cheap and fast YouTube transcription
+        # API and MCP”）：标题明说产品是 API + MCP 服务，要写代码或接 MCP
+        # 客户端才能用，链到的也是 API 落地页而非浏览器里能直接用的工具；
+        # 注意 getyoutubetext.com 根地址本身是能直接用的转录工具，只拦
+        # 标题，不封域名（2026-11-21 19:37 CST 轮：该条已进热点榜；离线验过
+        # 全库 3834 条在库条目，只多拦这一条，0 误伤）
+        r"\bapi\s+and\s+mcp\b",
+        r"\bmcp\s+and\s+api\b",
         # 邮件课程（如“MIT's How to Make (Almost) Anything as a 100-day
         # email course”）：填邮箱后每天收课，站上没有能直接用的工具；
         # 域名门同步封 htmaa.clarkdinnison.com
