@@ -976,6 +976,10 @@ BLOCKED_DOMAINS = {
     # 工具本身在应用内，网页点开用不了；2026-11-21 10:37 PST 轮实测，
     # 热点第 3 条，域名封禁
     "bethe.one",
+    # onegtmlab.dev：/tool-directory 是 GTM 工具目录站（64 个工具的
+    # API 评测、对比与术语表合集，带搜索过滤），本身不是能直接用的
+    # 工具，是目录页；2026-11-21 12:07 PST 轮实测，热点第 1 条，域名封禁
+    "onegtmlab.dev",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -1126,6 +1130,16 @@ BLOCKED_EXACT = {
     "hubbub.page",
     "www.hubbub.page",
 }
+# 精确链接封禁（只拦这一条完整链接，不拦整个域名；与 BLOCKED_EXACT
+# 按 host 封禁不同，这里是按 norm_link 后的完整链接精确匹配）：
+# Temporaland：https://margeux.com/temporaland/login.html 是 Margeux
+# 的多人协作画布登录页，2026-11-19 轮次实测为内容很薄的登录页、暂留
+# 观察，2026-11-21 复查返回 410 Gone，链接已死；margeux.com 首页
+# 本身正常，Margeux 工具（margeux.com/studio.html）仍可收，所以只拦
+# 这一条链接，绝不封 margeux.com 整个域名
+BLOCKED_URLS = {
+    "https://margeux.com/temporaland/login.html",
+}
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
     "blog", "blogs", "news", "posts", "post", "article", "articles",
@@ -1208,6 +1222,8 @@ def tool_gate(url):
         if host == d or host.endswith("." + d):
             return False, "blocked_domain"
     if host in BLOCKED_EXACT:
+        return False, "blocked_domain"
+    if norm_link(url) in BLOCKED_URLS:
         return False, "blocked_domain"
     # Cookie 检查页（__cookie_check.html）：点开是“授权安全 Cookie”的
     # 拦截页，不是工具本身；实测 TalentRadar 的根地址本身也是这个拦截页，

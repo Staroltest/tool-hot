@@ -1277,6 +1277,12 @@
     "zh_oneliner": "照着招聘要求改简历、比对岗位匹配度，顺手起草一封对应的求职信。",
     "zh_title": "CV Objective：对着岗位写简历和求职信"
   },
+  "https://cvpebble.com": {
+    "en_oneliner": "Build your CV right in the browser for free, no sign-up needed, with a built-in job application tracker.",
+    "en_title": "CVPebble — Free CV Builder in the Browser",
+    "zh_oneliner": "浏览器里直接做简历，免费、不用注册，还能顺手管求职进度。",
+    "zh_title": "CVPebble 免费在线简历制作"
+  },
   "https://cyravo-securebuild-a-9jtc.bolt.host": {
     "en_oneliner": "Describe your app idea to get a staged build plan, then paste code for an AI security review before you ship.",
     "en_title": "Cyravo SecureBuild AI: AI Build Planning and Security Review Before You Ship",
@@ -5368,6 +5374,12 @@
     "en_title": "Show HN: I rewrote Doom2D Forever in Rust, playable in browser",
     "zh_oneliner": "作者小时候玩过 Doom2D，一直想做个发个链接就能玩的版本，如今用 Rust 重写了一遍，直接在浏览器里跑。",
     "zh_title": "我用 Rust 重写了 Doom2D Forever，浏览器里就能玩"
+  },
+  "https://dr.aivaded.com": {
+    "en_oneliner": "Check any website's Domain Rating for free, track its trend over time, and embed a DR badge on your own site.",
+    "en_title": "DomainRating — Free Domain Rating Checker",
+    "zh_oneliner": "输入任意域名就能免费查 DR 权重，还能看趋势变化、嵌徽章到自己网站。",
+    "zh_title": "DomainRating：免费查网站域名权重"
   },
   "https://drawingtoanimation.app": {
     "en_oneliner": "Turn a photo of a child's drawing into an eight-second animation, no prompt needed.",
