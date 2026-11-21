@@ -1136,6 +1136,12 @@ ARTICLE_PATH_SEGMENTS = {
     # benchmarks/dabstep-haiku 是“给 AI 智能体加业务上下文有没有用”的
     # 评测长文，不是能直接用的工具；全库仅此 1 条含 benchmarks 路径段）
     "benchmarks",
+    # 共享对比结果页（2026-11-22 02:07 CST 轮：keepplain.com/b/... 是
+    # “Codex 与 Claude 各建一个 Three.js 章鱼逃出玻璃罐”的四路对比展示页，
+    # 点开是别人的会话结果展示，不是能直接用的工具；keepplain.com 首页
+    # /transcript 本身是能用的会话查看工具，只拦 /b/ 路径段；离线验过
+    # 全库 1176 条过门条目，只多拦这一条，0 误伤）
+    "b",
 }
 # 文档/API 参考味路径段：链到 API 文档、开发者文档页的不是能直接用的
 # 工具站本身（2026-11-18 18:37 CST 轮：readplace.com/developers 是
@@ -1335,6 +1341,12 @@ _TITLE_BLOCK_RES = [
         r"桌面版|桌面应用|客户端|浏览器扩展|浏览器插件|应用商店|免费下载",
         r"自托管",
         r"下载安装|下载.{0,4}安装",
+        # 抽奖/赠送推广页（如“Free Plus Friday – first 3 sign-ups each
+        # Friday get a year of Plus free”）：前 N 名注册送一年会员，是推广
+        # 活动页，不是能直接用的工具；只拦“前 N 名…得…免费”这种表意明确
+        # 的抽奖说法（2026-11-22 02:07 CST 轮：NovaBuddy 混入热点榜；
+        # 离线验过全库 1176 条过门条目，只拦这一条，0 误伤）
+        r"\bfirst\s+\d+\b.*\bget\b.*\bfree\b",
     )
 ]
 

@@ -12220,5 +12220,11 @@
     "zh_title": "Bashbots：用 Python 写机器人打擂台",
     "zh_oneliner": "用 Python 编写对战机器人，和其他玩家的机器人同台竞技，代码就是你的武器。",
     "en_oneliner": "Program battle bots in Python and pit them against other players' bots — your code is your weapon."
+  },
+  "https://aiimagegenerators.net": {
+    "en_oneliner": "An online AI image generator that turns text prompts or reference photos into product shots and marketing visuals, right in the browser.",
+    "en_title": "AI Image Generator",
+    "zh_oneliner": "在线 AI 图片生成器，输入文字描述或上传参考图，就能生成商品图与营销配图，打开就能用。",
+    "zh_title": "AI 图片生成器"
   }
 }
