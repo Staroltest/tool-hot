@@ -995,6 +995,22 @@ BLOCKED_DOMAINS = {
     # 同 TokLab 口径）；typeonce.games/tabletop-champions 是纯浏览器
     # 赛车游戏，无工具属性（11-18 起纯游戏当泄漏封，待用户定游戏口径）
     "johannes.plunien.com", "databasedmcp.com", "typeonce.games",
+    # 2026-11-22 06:37 CST 轮人工审 HN Show 新到 3 条封禁 3 条：
+    # app.supademo.com/video/... 是 Supademo 演示视频页（录制的产品演示
+    # 视频，点开看视频不是用工具）；itch.io 是游戏商店页（本条是浏览器
+    # 迷宫射击纯游戏，按 11-18 以来封纯游戏的做法处理；游戏收录口径仍待
+    # 用户定）
+    "supademo.com", "itch.io",
+    # 2026-11-22 06:37 CST 轮时间线自查补封的纯游戏（均浏览器实测确认，
+    # 按 11-18 以来封纯游戏的做法处理；游戏收录口径仍待用户定）：
+    # hackerllion.com 是每日冷知识竞答游戏；dlearena.com 是每日解谜游戏
+    # 合集站；outpostracer.com 是 PS1 画风街机赛车游戏；plazzlegame.com
+    # 是每日寻路解谜小游戏；quiettrivia.com 是 Krillion 答案/提示/解算
+    # 站（游戏伴生内容，不是独立工具）；dailyplaynotes.com 是每日 trivia
+    # 游戏 Wonderhop 的攻略站；trichroma.namirsab.dev 是解谜平台跳跃游戏
+    "hackerllion.com", "dlearena.com", "outpostracer.com",
+    "plazzlegame.com", "quiettrivia.com", "dailyplaynotes.com",
+    "trichroma.namirsab.dev",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -1144,6 +1160,21 @@ BLOCKED_EXACT = {
     "www.andrewxhill.com",
     "hubbub.page",
     "www.hubbub.page",
+    # 2026-11-22 06:37 CST 轮实测封禁：nistivo.com 是代客训练定制 AI
+    # 模型的托管服务页（"trains custom AI models for you"、按固定报价
+    # 收费），点开是服务介绍 + 联系方式，不是能直接用的工具；链接带 www
+    # 的 host 也要写
+    "nistivo.com",
+    "www.nistivo.com",
+    # 2026-11-22 06:37 CST 轮时间线自查补封的纯游戏（均浏览器实测确认，
+    # 按 11-18 以来封纯游戏的做法处理；游戏收录口径仍待用户定）：
+    # nametheworld.starshadowx2.workers.dev 是地图问答游戏（workers.dev
+    # 是共享平台，只拦这一 host）；play.outbid.sh 是诱使 AI 智能体违规
+    # 付款的挑战游戏（outbid.sh 根域可能另有内容，只拦 play 子域）；
+    # plazzle.netlify.app 是 PLazzle 解谜游戏的另一部署地址
+    "nametheworld.starshadowx2.workers.dev",
+    "play.outbid.sh",
+    "plazzle.netlify.app",
 }
 # 精确链接封禁（只拦这一条完整链接，不拦整个域名；与 BLOCKED_EXACT
 # 按 host 封禁不同，这里是按 norm_link 后的完整链接精确匹配）：
