@@ -319,6 +319,11 @@ BLOCKED_DOMAINS = {
     "brewless.eu", "yt2wav.net", "slcr.dev", "zerotime.dev",
     "thinker.sh", "ac-bridge.com", "kathe.app", "usestring.ai",
     "usevoicy.com",
+    # 2026-11-21 08:37 CST 轮：saturnsql.com/context-layer 是付费 SaaS
+    # （€29/人/月 Pro 套餐）数据库上下文层产品的营销页，须注册付费并接入
+    # 自有数据库、经 MCP 使用，页面本身不是点开能用的工具；同已封的
+    # TokLab 等纯 API/MCP 平台，域名封禁
+    "saturnsql.com",
     # WhyArc：实测首页是 iPhone 应用落地页（App Store 链接 7 处），不是网页工具
     "whyarc.com",
     # 抽查确认不是在线工具（2026-11-16 第五轮）：原生 iPhone/iPad/Mac 笔记应用，

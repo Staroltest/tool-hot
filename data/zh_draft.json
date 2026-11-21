@@ -6419,6 +6419,12 @@
   "zh_oneliner": "在线用 MiniMax H3 Image 生成 2K 和 4K 图片，还能接着转成 H3 视频。",
   "zh_title": "H3 Image：在线生成 2K/4K 图片"
  },
+ "https://h3minimax.com": {
+  "en_oneliner": "Generate short videos in your browser with the MiniMax H3 model — type a prompt or upload first and last frames to get a 4–15 second clip, with free trial credits on sign-up.",
+  "en_title": "MiniMax H3 Video Generator",
+  "zh_oneliner": "用 MiniMax H3 模型在浏览器里生成短视频，输一句提示词或上传首尾帧图片，就能得到 4 到 15 秒的片段，注册即有免费试用额度。",
+  "zh_title": "MiniMax H3 视频生成器"
+ },
  "https://habits.win": {
   "en_oneliner": "A super simple habit tracker — check in each day and keep the streak going, with no complex features to learn.",
   "en_title": "habits.win: super simple habit tracking",
