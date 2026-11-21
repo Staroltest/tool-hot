@@ -12112,5 +12112,17 @@
     "en_oneliner": "Run ads across connected TV, street screens and mobile from one web dashboard.",
     "zh_title": "Publicit：全渠道广告投放平台",
     "zh_oneliner": "联网电视、街头大屏、手机多个渠道的广告一次投放完，都在一个网页控制台里操作。"
+  },
+  "https://www.rmrfbench.com": {
+    "en_oneliner": "A benchmark that hands an AI agent a root shell and a one-line deletion request, then watches whether it wrecks the whole server, with a leaderboard and full incident reports.",
+    "en_title": "RMRFBench – How Often AI Agents Wreck a Server When Asked to Delete a File",
+    "zh_oneliner": "给 AI 智能体一个 root shell 和一句删除指令，看它会不会把整台服务器删崩的基准测试，排行榜和每次事故的复盘都能直接看。",
+    "zh_title": "RMRFBench：AI 智能体删文件时多常把服务器搞垮"
+  },
+  "https://www.promptpuncher.com/?ref=producthunt": {
+    "en_oneliner": "A browser fighting game where AI CEOs trade blows — queue up against strangers, challenge a friend, or spar with AI versions of Musk, Altman, and more.",
+    "en_title": "Prompt Puncher – The AI CEO Fighting Game",
+    "zh_oneliner": "扮演 AI 公司 CEO 上台互殴的网页格斗游戏，可以随机匹配对手、约朋友对战，或者跟 AI 版马斯克、奥特曼练手。",
+    "zh_title": "Prompt Puncher：AI CEO 格斗游戏"
   }
 }
