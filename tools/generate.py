@@ -319,6 +319,11 @@ BLOCKED_DOMAINS = {
     "brewless.eu", "yt2wav.net", "slcr.dev", "zerotime.dev",
     "thinker.sh", "ac-bridge.com", "kathe.app", "usestring.ai",
     "usevoicy.com",
+    # 2026-11-22 03:07 CST 轮：VoiceVibe 是 Windows/macOS/Linux 桌面
+    # 语音助手应用（官网写明 Available for Windows 10+、macOS 14+、
+    # Linux X11），须下载安装才能用，不是浏览器里直接用的工具；
+    # 标题不露痕迹，标题门拦不住，域名封禁
+    "voicevibe.ai",
     # 2026-11-21 08:37 CST 轮：saturnsql.com/context-layer 是付费 SaaS
     # （€29/人/月 Pro 套餐）数据库上下文层产品的营销页，须注册付费并接入
     # 自有数据库、经 MCP 使用，页面本身不是点开能用的工具；同已封的
