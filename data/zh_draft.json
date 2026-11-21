@@ -12178,5 +12178,17 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
+  },
+  "https://outpostracer.com": {
+    "en_title": "Show HN: I made a PS1 style racing game",
+    "en_oneliner": "A PS1-style arcade racer that runs right in your browser, with sprint and circuit races against computer-controlled rivals.",
+    "zh_title": "Outpost Racer：PS1 画风的浏览器街机赛车",
+    "zh_oneliner": "打开浏览器就能玩的 PS1 画风街机赛车，短程冲刺和环形赛道两种玩法，对手全是电脑车手。"
+  },
+  "https://atlasofmoney.org": {
+    "en_title": "Show HN: Atlas of Money",
+    "en_oneliner": "An evidence-graded history of money, from barter to paper credit, with sourced entries you can explore on a map and a timeline.",
+    "zh_title": "Atlas of Money：有据可查的货币历史地图集",
+    "zh_oneliner": "从以物易物到纸币信用，一部按证据分级的货币简史，每个条目都附出处，还能在地图和时间轴上对照着看。"
   }
 }
