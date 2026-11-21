@@ -980,6 +980,14 @@ BLOCKED_DOMAINS = {
     # API 评测、对比与术语表合集，带搜索过滤），本身不是能直接用的
     # 工具，是目录页；2026-11-21 12:07 PST 轮实测，热点第 1 条，域名封禁
     "onegtmlab.dev",
+    # 2026-11-22 05:07 CST 轮人工审 Ignlab 新到描述封禁：minanggadang.com
+    # 是印尼 Padang 餐厅官网（只展示评分地址），不是工具；shop.anagnoraxis.com
+    # 是出售 ChatGPT 订阅的商店页；aivipzhan.com 是 ChatGPT Plus/Pro 代充商店；
+    # hubtech.pk 是巴基斯坦诊所网站改版服务商页面；ia.university 是西班牙语
+    # 在线 AI 课程站；fieldguidetobots.com 是付费 PDF 指南售卖页（7 份指南
+    # 均在 Gumroad 标价 $12–20 下载，站上没有直接能用的工具），本轮热点有它
+    "minanggadang.com", "shop.anagnoraxis.com", "aivipzhan.com",
+    "hubtech.pk", "ia.university", "fieldguidetobots.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
