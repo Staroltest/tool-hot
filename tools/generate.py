@@ -5221,11 +5221,21 @@ def render_topic(site, label, slug, items, lang="zh"):
         or _L(lang, "<p>这个标签下暂时没有条目。</p>", "<p>No items under this topic yet.</p>")
     title = (f'{site.get("title_en") or site["title"]} · #{label}' if lang == "en"
              else f'{site["title"]} · #{label}')
+    # 主题页描述：每主题唯一，含条目数与头名工具；不用 News/新闻口径
+    # （主题页是工具列表，不是新闻聚合）。
+    def _disp_title(it):
+        return ((it.get("en_title") or it["title"]) if lang == "en"
+                else (it.get("zh_title") or it["title"]))
+    top_titles = [_disp_title(it) for it in items[:3]]
     if lang == "en":
-        aud_en = site.get("audience_en", "")
-        description = f'News about "{label}"' + (f" for {aud_en}." if aud_en else ".")
+        description = (f'"{label}" tools you can use right away — {len(items)} tools. '
+                       f'Top: {", ".join(top_titles)}.' if items
+                       else f'"{label}" tools you can use right away — no tools listed yet.')
     else:
-        description = f"关于「{label}」的{site.get('audience', '')}动态。"
+        description = (f"「{label}」主题共收录 {len(items)} 个能直接用的工具："
+                       f"{'、'.join(top_titles)}。" if items
+                       else f"「{label}」主题：能直接用的工具，暂未收录。")
+    description = shorten(description, 160)
     return (page_open(site, "topics", title, description, prefix="index.html", base="../",
                       canonical=site_url + ("/en/topics/" if lang == "en" else "/topics/") + slug + ".html",
                       ld_items=items, lang=lang, rel_path="topics/" + slug + ".html")
@@ -5248,8 +5258,8 @@ def render_topics_index(site, tag_counts, lang="zh"):
         for label, slug, n in tag_counts)
     title = (f'{site.get("title_en") or site["title"]} · Topics' if lang == "en"
              else f'{site["title"]} · 主题')
-    description = ("Browse news by topic." if lang == "en"
-                   else f"按主题浏览{site.get('audience', '')}动态。")
+    description = ("Browse tools you can use right away, by topic." if lang == "en"
+                   else "按主题浏览能直接用的工具。")
     return (page_open(site, "topics", title, description, prefix="index.html",
                       canonical=site_url + ("/en/topics.html" if lang == "en" else "/topics.html"),
                       lang=lang, rel_path="topics.html")
