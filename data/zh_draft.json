@@ -12532,5 +12532,17 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
+ },
+ "https://meme.ransomz.dev": {
+  "zh_title": "StickersMaker：照片变身 AI 动态表情包",
+  "zh_oneliner": "上传一张照片生成专属卡通形象，再做成透明底动态表情，带进微信、WhatsApp、Telegram 和 Discord 的聊天里。",
+  "en_title": "StickersMaker: Turn Photos into AI Animated Stickers",
+  "en_oneliner": "Turn one photo into a reusable cartoon character and make transparent animated stickers for WhatsApp, WeChat, Telegram and Discord."
+ },
+ "https://carllapierre.github.io/clapdaq": {
+  "zh_title": "ANT IPO Simulator：拍手拉升股价的 IPO 模拟游戏",
+  "zh_oneliner": "拼命拍手就能把自家 IPO 股价拍上去，停手就往下掉，还能对着麦克风真拍手、雇人替你拍。",
+  "en_title": "ANT IPO Simulator: Pump Your IPO by Clapping",
+  "en_oneliner": "Mash space or clap into your mic to pump your IPO's stock price — stop clapping and it sinks."
  }
 }
