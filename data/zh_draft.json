@@ -12580,5 +12580,17 @@
   "en_oneliner": "A fresh daily math puzzle: build the hidden equation that hits the target number in six tries, with Wordle-style color clues — plus mini Sudoku, Make 24 and math crosswords, all free in your browser.",
   "zh_title": "Math Puzzle：每天一道数学猜谜，像 Wordle 一样拼算式",
   "zh_oneliner": "每天一道新题，6 次机会拼出等于目标数的算式，猜错有颜色提示；还有迷你数独、24 点和数学填字，打开就能玩。"
+ },
+ "https://npx.tools": {
+  "zh_title": "Npx.tools：键盘友好的开发者工具索引",
+  "zh_oneliner": "收录常用开发者工具的索引站，全程键盘操作就能快速定位想要的工具。",
+  "en_title": "Npx.tools, a keyboard-friendly index of developer tools",
+  "en_oneliner": "An index of everyday developer tools you can navigate entirely by keyboard to find what you need fast."
+ },
+ "https://calcquarry.com": {
+  "zh_title": "CalcQuarry：免费建筑施工计算器合集",
+  "zh_oneliner": "112 个免费施工计算器一站齐全，混凝土、砂石、楼梯、屋顶用量随算随得，每个结果都附公式和算例。",
+  "en_title": "CalcQuarry",
+  "en_oneliner": "112 free construction calculators in one place — concrete, gravel, stairs and roofing quantities worked out instantly, each with its formula and a worked example."
  }
 }
