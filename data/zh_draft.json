@@ -5531,6 +5531,12 @@
   "zh_oneliner": "整篇文档拿来翻译，变的只是语言，排版和内容都原样保留。",
   "zh_title": "DocTranslator：文档翻译器"
  },
+ "https://doitforthem.io/?ref=producthunt": {
+  "en_oneliner": "Turn photos into phone wallpapers for the people you do it for — a small gesture that lives on their lock screen.",
+  "en_title": "Do It For Them Wallpaper Maker",
+  "zh_oneliner": "把照片做成手机壁纸，送给那个你愿意为他操心的人，心意直接摆在锁屏上。",
+  "zh_title": "Do It For Them Wallpaper Maker：照片壁纸制作"
+ },
  "https://dokira.com": {
   "en_oneliner": "Dokira manages ad revenue for publishers, tuned by people rather than left entirely to algorithms.",
   "en_title": "Dokira – Ad revenue for publishers, tuned by people",
@@ -7978,6 +7984,12 @@
   "en_title": "MixStudio",
   "zh_oneliner": "图片、视频、音乐都能做的 AI 创意工作室，一个页面搞定多媒体创作。",
   "zh_title": "MixStudio"
+ },
+ "https://mockreel-app.web.app/?ref=producthunt": {
+  "en_oneliner": "Show off your screen recording inside a 3D phone — free, no signup, and instantly more polished.",
+  "en_title": "Mockreel",
+  "zh_oneliner": "把屏幕录制装进一台 3D 手机模型里展示，免费免注册，演示效果立刻高级起来。",
+  "zh_title": "Mockreel：3D 手机录屏展示"
  },
  "https://modelrefs.com": {
   "en_oneliner": "Look up AI model specs and benchmark numbers where every figure comes with a citable source.",
@@ -10709,6 +10721,12 @@
   "zh_oneliner": "一个平台玩遍生成式 AI：一千多种图片、视频、语音模型随便跑。",
   "zh_title": "Wiro AI：一站式生成式 AI"
  },
+ "https://wispim.com/?ref=producthunt": {
+  "en_oneliner": "An online teleprompter that follows your voice, scrolling along as you read so you can focus on delivery.",
+  "en_title": "Wispim",
+  "zh_oneliner": "会跟着你的声音走的在线提词器，读到哪跟到哪，录视频念稿不用再分心。",
+  "zh_title": "Wispim：跟声提词器"
+ },
  "https://witness.apertrue.photo": {
   "en_oneliner": "Fake video-call scams are rising, so Witness adds proof of camera and identity to calls — so you know there's a real person on the other end.",
   "en_title": "Show HN: Apertrue Witness – proof of camera and identity for video calls",
@@ -11008,6 +11026,12 @@
   "en_title": "Early Beowulf Cluster",
   "zh_oneliner": "回顾早期 Beowulf 集群的历史，讲清这套用普通电脑搭超级计算机的方案是怎么来的，适合对计算历史感兴趣的读者。",
   "zh_title": "早期的 Beowulf 集群"
+ },
+ "https://www.copyhaste.app/?ref=producthunt": {
+  "en_oneliner": "Sorts your clipboard into Text, Code, Links, Media and more, so past copies are quick to find.",
+  "en_title": "Copy Haste",
+  "zh_oneliner": "把剪贴板里的内容自动分成文本、代码、链接、图片等几类，找起历史复制记录快得多。",
+  "zh_title": "Copy Haste：剪贴板整理工具"
  },
  "https://www.copyleaks.io": {
   "en_oneliner": "Paste in your text to check for traces of AI writing — simple, free, and online.",
@@ -12341,6 +12365,12 @@
   "zh_oneliner": "边敲真实公式边学 Google Sheets，打字练习里把表格学会。",
   "zh_title": "Sheets Bootcamp：表格公式训练"
  },
+ "https://www.slotifybot.com/?ref=producthunt": {
+  "en_oneliner": "Schedule game nights without leaving Discord — everyone votes on a time and the session is set.",
+  "en_title": "Slotify",
+  "zh_oneliner": "不用离开 Discord 就能约好游戏夜的时间，大伙儿投票定档，开黑不再靠群里吼一嗓子。",
+  "zh_title": "Slotify：Discord 游戏夜排期"
+ },
  "https://www.songduet.com": {
   "en_oneliner": "An AI music generator that also exports stems for further editing.",
   "en_title": "SongDuet",
@@ -12610,6 +12640,12 @@
   "en_title": "I built a site that shows every satellite that passed over any location",
   "zh_oneliner": "输入地球上任意地点，看看有哪些成像、气象、雷达和载人卫星从它上空飞过。",
   "zh_title": "watched.earth：查任意地点上空飞过的卫星"
+ },
+ "https://www.webless.ai/lp/producthunt?ref=producthunt": {
+  "en_oneliner": "AI agents ready to face your customers, handling inquiries and questions without building a support system from scratch.",
+  "en_title": "Webless Agents",
+  "zh_oneliner": "能直接放到客户面前的 AI 助手，帮企业接待咨询、处理问题，不用再搭一套客服系统。",
+  "zh_title": "Webless Agents：面向客户的 AI 助手"
  },
  "https://www.webmodels.dev": {
   "en_oneliner": "A browser API that lets web pages pick and run local AI models on-device, no cloud round-trip needed.",
@@ -12886,6 +12922,12 @@
   "en_title": "YopTools – Free, no-signup AI text tools (Humanizer, Detector, Summarizer, Google Review Reply Generator and more useful tools)",
   "zh_oneliner": "免费免注册的 AI 文本工具合集，粘贴文本就能润色去 AI 味、检测 AI 内容、生成 Google 评价回复，主打西班牙语自然表达。",
   "zh_title": "YopTools：免费免注册的 AI 文本工具箱"
+ },
+ "https://yoroll.ai/?ref=producthunt": {
+  "en_oneliner": "Build playable interactive stories without a game engine — write the plot, branch the choices, and play right in the browser.",
+  "en_title": "Yoroll",
+  "zh_oneliner": "不用游戏引擎也能做出可玩的互动故事，写剧情、搭分支，点开就能玩。",
+  "zh_title": "Yoroll：可玩故事创作工具"
  },
  "https://youmiro.com": {
   "en_oneliner": "An all-in-one AI video generator with audio and images — drop in an idea and get a video out.",
