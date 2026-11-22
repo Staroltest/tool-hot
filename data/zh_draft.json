@@ -47,6 +47,12 @@
   "zh_oneliner": "不用注册就能用的发票生成器和利润计算器，做副业算账、开发票都顺手。",
   "zh_title": "Show HN：SideLedger Tools：免注册发票与利润计算器"
  },
+ "https://Daniil-Myagkov.github.io/qftm-1024": {
+  "en_oneliner": "An open-source personality profiler with 1,024 profiles instead of 16 MBTI types, plus Big Five dynamics and partner compatibility.",
+  "en_title": "Show HN: QFTM-1024 – An open-source MBTI alternative with 1024 profiles",
+  "zh_oneliner": "开源的人格画像工具，1024 种画像替代 16 型 MBTI，还能看 Big Five 动态和两人合盘。",
+  "zh_title": "QFTM-1024：开源 MBTI 替代品，1024 种人格画像"
+ },
  "https://HowLongWillTheMoneyLast.com": {
   "en_oneliner": "Enter your income, spending and savings to see how long your money lasts at your current pace, and get a clear picture of where you stand financially.",
   "en_title": "How Long Will The Money Last",
@@ -8273,6 +8279,12 @@
   "zh_oneliner": "把发票、扫描件和长 PDF 里的内容提取出来，转成 JSON 或 Excel 表格。",
   "zh_title": "Parser：把发票和 PDF 转成表格"
  },
+ "https://pastequill.com": {
+  "en_oneliner": "Paste a YouTube, TikTok or Instagram video link and get a clean transcript in seconds, ready to copy or download as TXT or SRT — free with no sign-up.",
+  "en_title": "PasteQuill",
+  "zh_oneliner": "粘贴 YouTube、TikTok 或 Instagram 视频链接，几秒钟拿到干净的文字稿，还能一键复制或下载 TXT、SRT，基础功能免费免注册。",
+  "zh_title": "PasteQuill：视频转文字稿"
+ },
  "https://pawlightmemorial.com": {
   "en_oneliner": "A free online pet memorial — light a candle, leave a flower, and create a keepsake.",
   "en_title": "Pawlight",
@@ -10385,6 +10397,12 @@
   "zh_oneliner": "一张每个单元格都能写 Python 的电子表格，在浏览器里直接算数据、做分析。",
   "zh_title": "Reaktiv Workbook：每个单元格都是 Python 的电子表格"
  },
+ "https://worldfoundry-demo.vercel.app": {
+  "en_oneliner": "Direct an AI agent through a simulated production outage and see whether it can actually fix the incident, not just claim it did.",
+  "en_title": "Show HN: WorldFoundry – AI agents need experience, not just training data",
+  "zh_oneliner": "在模拟的生产事故里指挥 AI 智能体处理故障，看看它能不能真正把问题解决，而不只是嘴上说搞定。",
+  "zh_title": "WorldFoundry：让 AI 智能体在模拟事故里证明自己"
+ },
  "https://worldspace.crankyfuse.io": {
   "en_oneliner": "A live spinning globe where every game developer's GitHub push lights up a point, showing the last hour of activity at a glance.",
   "en_title": "Show HN: A live globe of the gamedev GitHub pushes",
@@ -10954,6 +10972,12 @@
   "en_title": "Japan's Hometown Tax",
   "zh_oneliner": "一篇 2018 年的旧文，讲日本“故乡纳税”制度是怎么运作的，为什么有人愿意把税交到别的城市去。",
   "zh_title": "日本的故乡纳税制度"
+ },
+ "https://www.kavel.ai": {
+  "en_oneliner": "Free AI video and image generator — 4K clips with sound, no account or card needed, right in the browser.",
+  "en_title": "Kavel",
+  "zh_oneliner": "免费 AI 视频与图片生成器，4K 短片自带配音，无需注册也不用绑卡，浏览器里就能出片。",
+  "zh_title": "Kavel：免费 AI 视频与图片生成器"
  },
  "https://www.kdpbook.ai": {
   "en_oneliner": "Plan, write, illustrate and typeset a book ready to upload to KDP, plus free word-search, maze and Sudoku generators on the side.",
@@ -12508,23 +12532,5 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
- },
- "https://Daniil-Myagkov.github.io/qftm-1024": {
-  "zh_title": "QFTM-1024：开源 MBTI 替代品，1024 种人格画像",
-  "zh_oneliner": "开源的人格画像工具，1024 种画像替代 16 型 MBTI，还能看 Big Five 动态和两人合盘。",
-  "en_title": "Show HN: QFTM-1024 – An open-source MBTI alternative with 1024 profiles",
-  "en_oneliner": "An open-source personality profiler with 1,024 profiles instead of 16 MBTI types, plus Big Five dynamics and partner compatibility."
- },
- "https://worldfoundry-demo.vercel.app": {
-  "zh_title": "WorldFoundry：让 AI 智能体在模拟事故里证明自己",
-  "zh_oneliner": "在模拟的生产事故里指挥 AI 智能体处理故障，看看它能不能真正把问题解决，而不只是嘴上说搞定。",
-  "en_title": "Show HN: WorldFoundry – AI agents need experience, not just training data",
-  "en_oneliner": "Direct an AI agent through a simulated production outage and see whether it can actually fix the incident, not just claim it did."
- },
- "https://pastequill.com": {
-  "zh_title": "PasteQuill：视频转文字稿",
-  "zh_oneliner": "粘贴 YouTube、TikTok 或 Instagram 视频链接，几秒钟拿到干净的文字稿，还能一键复制或下载 TXT、SRT，基础功能免费免注册。",
-  "en_title": "PasteQuill",
-  "en_oneliner": "Paste a YouTube, TikTok or Instagram video link and get a clean transcript in seconds, ready to copy or download as TXT or SRT — free with no sign-up."
  }
 }
