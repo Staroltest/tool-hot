@@ -1235,6 +1235,10 @@ BLOCKED_URLS = {
     # 与实测信号都拦不住，人工抽查封禁；erikbethke.com 是个人站，只拦
     # 这一条链接，不封整个域名
     "https://erikbethke.com/coreweave/index.html",
+    # 2026-11-22 04:24 PST：Kakurenbo（ezfurigana.com/kakurenbo）是日语
+    # 假名 Wordle 纯游戏，按新定游戏口径（纯游戏一律拦）封禁；ezfurigana.com
+    # 本身是注音工具站，只拦这一条链接，不封整个域名
+    "https://www.ezfurigana.com/kakurenbo",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
