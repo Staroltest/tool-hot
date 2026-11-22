@@ -1194,6 +1194,12 @@ BLOCKED_EXACT = {
     # 的 host 也要写
     "matineegame.com",
     "www.matineegame.com",
+    # 2026-11-22 16:07 CST 轮实测封禁（热点第 20，标题“Hookr MCP & Agent Tools”）：
+    # hookr.fun 是 Uniswap v4 hooks 的目录+基础设施站（Discover Hooks 公开
+    # 目录、Builder、SDK 与 agent/MCP 路由），按 TokLab 纯 API/MCP 平台
+    # 先例封禁；站内“Open app”须接钱包做链上交易，不是点开能用的工具
+    "hookr.fun",
+    "www.hookr.fun",
 }
 # 精确链接封禁（只拦这一条完整链接，不拦整个域名；与 BLOCKED_EXACT
 # 按 host 封禁不同，这里是按 norm_link 后的完整链接精确匹配）：
