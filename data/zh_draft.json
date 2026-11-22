@@ -12592,5 +12592,11 @@
   "zh_oneliner": "112 个免费施工计算器一站齐全，混凝土、砂石、楼梯、屋顶用量随算随得，每个结果都附公式和算例。",
   "en_title": "CalcQuarry",
   "en_oneliner": "112 free construction calculators in one place — concrete, gravel, stairs and roofing quantities worked out instantly, each with its formula and a worked example."
+ },
+ "https://madgpt1.github.io/prompt-upgrader": {
+  "en_oneliner": "Scores your AI prompts and rewrites them better — open and use it right away, no signup needed.",
+  "en_title": "Show HN: Prompt Upgrader – a no-signup tool that scores and rewrites AI prompts",
+  "zh_oneliner": "给 AI 提示词打分并帮你改得更好，打开即用，不用注册。",
+  "zh_title": "Prompt Upgrader：免注册的 AI 提示词评分与改写工具"
  }
 }
