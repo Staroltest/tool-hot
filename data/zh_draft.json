@@ -10145,6 +10145,12 @@
     "zh_oneliner": "打开就能建待办清单，点一下生成分享链接，别人打开链接就能一起看、一起打勾，不用注册。",
     "zh_title": "Todo.link：简单好分享的在线待办清单"
   },
+  "https://toeflhub.com": {
+    "en_oneliner": "AI mock tests for the 2026 TOEFL iBT — practice online and get used to the real exam format.",
+    "en_title": "ToeflHub: AI Mock Tests for the TOEFL",
+    "zh_oneliner": "针对 2026 年新版托福 iBT 的 AI 模拟考试，在线练题，提前熟悉真实考试的节奏。",
+    "zh_title": "ToeflHub：托福 AI 模拟考试"
+  },
   "https://toggles.codewalkers.net": {
     "en_oneliner": "A free daily game in the spirit of the old internet: set your toggles and dials each day and play by reading the data they produce.",
     "en_title": "Show HN: Toggles, a game based on analyzing data",
@@ -10612,6 +10618,12 @@
     "en_title": "Veida AI",
     "zh_oneliner": "免费不限量的 AI 图片生成与照片编辑器，在网页上直接出图修图。",
     "zh_title": "Veida AI"
+  },
+  "https://velocest.vercel.app": {
+    "en_oneliner": "A speed test site built because Fast.com's UI was too boring — a fresh look, open source and free.",
+    "en_title": "Velocest: A Nicer-Looking Speed Test",
+    "zh_oneliner": "嫌 Fast.com 界面太无聊而做的测速站，换上自己喜欢的界面，开源免费。",
+    "zh_title": "Velocest：更好看的网速测试"
   },
   "https://vemlora.io": {
     "en_oneliner": "Edit the words in posters, product photos and screenshots while keeping the fonts, layout and background intact — no source files or Photoshop needed.",
@@ -12736,6 +12748,12 @@
     "en_title": "Velanta.io: AI tools suite",
     "zh_oneliner": "一整套 AI 工具：创作流程里的杂活都包了。",
     "zh_title": "Velanta.io：AI 工具套装"
+  },
+  "https://www.visionflick.com": {
+    "en_oneliner": "Type in your goals and get a personal visualization film — AI scenes, video clips, and spoken affirmations, pay once and keep it.",
+    "en_title": "VisionFlick: Turn Your Goals Into a Manifestation Film",
+    "zh_oneliner": "输入你的目标，AI 生成场景、剪辑片段并配上肯定语，做出一部属于自己的显化影片，一次付费永久使用。",
+    "zh_title": "VisionFlick：把目标变成显化影片"
   },
   "https://www.vybe.build/website-analyzer": {
     "en_oneliner": "Paste in a URL for a free audit of your site — conversion, SEO, speed and 15 more checks in one pass, with the top fix listed first.",

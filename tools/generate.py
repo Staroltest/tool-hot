@@ -1323,6 +1323,18 @@ BLOCKED_URLS = {
     # 用的工具，按只收工具网站标准拦；getlucera.com 本身是数据新闻站，只拦
     # 这一条链接，不封整个域名
     "https://getlucera.com/iowa-lead-detonation",
+    # 2026-11-22 11:07 PST 轮热点榜自查补封（页面实测确认）：
+    # Mantar（mantar.duobook.co）是多人采蘑菇游戏（吃蘑菇长大、别被吃掉，
+    # WASD 移动、徽章收集），纯游戏，按游戏口径一律拦；duobook.co 只拦
+    # 这一条链接，不封整个域名
+    "https://mantar.duobook.co",
+    # 2026-11-22 11:07 PST 轮热点榜自查补封（页面实测确认）：
+    # ScraperSocial（scrapersocial.com）是社交媒体数据 REST API + 托管 MCP
+    # 服务（231 个端点、需注册取 API key 后用 curl/代码调用），根地址是 API
+    # 平台的营销/定价页，点开不能直接在浏览器里用，按“纯 API 平台不收”
+    # 口径拦（与此前 TokLab 同类处理）；站内或有免费小工具在子路径上，只拦
+    # 根链接，不封整个域名
+    "https://scrapersocial.com",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
