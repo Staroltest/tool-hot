@@ -12988,5 +12988,11 @@
   "en_title": "Fridge POV AI",
   "zh_oneliner": "上传一张人或宠物的照片，AI 生成 10 秒竖屏短视频：从冰箱里看你半夜偷吃提拉米苏，吃完一勺还会再回来一勺。",
   "zh_title": "Fridge POV AI：深夜冰箱偷吃短视频生成器"
+ },
+ "https://theagentdoctor.com": {
+  "en_title": "Agent Doctor – Let Domain Experts Tune Your Agent Without Code Changes",
+  "en_oneliner": "A debugging console for AI agents: domain experts can rewrite prompts, tweak parameters, and re-run the pipeline from the dashboard, no code changes needed.",
+  "zh_title": "Agent Doctor：不用改代码就能调教 AI 智能体",
+  "zh_oneliner": "给 AI 智能体看病的调试台：领域专家不用写代码，直接在面板上改提示词、调参数、重跑流程，找出答错的环节。"
  }
 }
