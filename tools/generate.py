@@ -1267,6 +1267,10 @@ BLOCKED_URLS = {
     # 在子路径上（如 schema 检查、llms.txt 生成器），只拦根链接，不封整个域名
     "https://vouchgeo.com",
     "https://www.vouchgeo.com",
+    # 2026-11-22 21:37 CST 轮浏览器实测封禁：Gunport（engineersneedart.com/gunport）
+    # 是复古 3D 射击小游戏（瞄准开火、守住船体），纯游戏，按游戏口径一律拦；
+    # engineersneedart.com 是个人站，只拦这一条链接，不封整个域名
+    "https://engineersneedart.com/gunport",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
