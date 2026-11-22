@@ -13156,5 +13156,23 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
+ },
+ "https://zipzax.com": {
+  "en_title": "ZIPZAX",
+  "zh_title": "ZIPZAX：475+ 免费在线工具合集",
+  "zh_oneliner": "PDF、图片、视频、开发和 AI 写作等 475 多个免费小工具聚在一个站里，打开就能用，不用四处找。",
+  "en_oneliner": "475+ free online tools for PDFs, images, video, developers and AI writing, all in one place — open and use, no hunting across sites."
+ },
+ "https://trycodeclip.com": {
+  "en_title": "Show HN: I built a tool to animate your code",
+  "zh_title": "Codeclip：把代码变成会动的讲解视频",
+  "zh_oneliner": "贴上代码、写一句想弄明白的问题，它就生成带旁白的动态图解，讲清代码各部分是怎么配合工作的。",
+  "en_oneliner": "Turn code and a prompt into a narrated motion-graphics video that shows how the pieces of your code fit together."
+ },
+ "https://you-are-hilbert.koenvangilst.nl": {
+  "en_title": "Show HN: You Are Hilbert",
+  "zh_title": "You Are Hilbert：整个 IPv4 画成一张星图",
+  "zh_oneliner": "把全部 IPv4 地址按希尔伯特曲线排成一张星图，每个来访者都是一颗星，你的那颗最亮。",
+  "en_oneliner": "Every IPv4 address laid out on a Hilbert curve as a star map of the internet — each visitor is a star, and yours shines brightest."
  }
 }
