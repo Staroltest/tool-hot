@@ -13174,5 +13174,11 @@
   "zh_title": "You Are Hilbert：整个 IPv4 画成一张星图",
   "zh_oneliner": "把全部 IPv4 地址按希尔伯特曲线排成一张星图，每个来访者都是一颗星，你的那颗最亮。",
   "en_oneliner": "Every IPv4 address laid out on a Hilbert curve as a star map of the internet — each visitor is a star, and yours shines brightest."
+ },
+ "https://greenmaxxing.netlify.app/?present=1": {
+  "en_title": "Show HN: Scheduling a Simulated Vertical Farm",
+  "zh_title": "GreenMaxxing：浏览器里的 3D 立体生菜农场模拟调度",
+  "zh_oneliner": "黑客松作品：浏览器里跑的 3D 立体生菜农场，两座农场并排对比，固定排班和智能调度哪种长得更好，一眼就能看出来。",
+  "en_oneliner": "A hackathon-built 3D vertical lettuce farm that runs entirely in the browser, with two farms side by side so you can compare fixed schedules against smart scheduling at a glance."
  }
 }
