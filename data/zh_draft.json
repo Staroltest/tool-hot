@@ -5753,6 +5753,12 @@
     "zh_oneliner": "覆盖 IRS 三门 SEE 考试的独立模拟题库，在线刷题备考，考前先摸清自己的水平。",
     "zh_title": "Enrolled Agent Practice Exam：美国税务师模拟考"
   },
+  "https://epoxyplanner.com": {
+    "en_oneliner": "An online epoxy resin calculator: enter dimensions to estimate pour volume, kit size and cost, with separate planners for river tables, floors, coatings and more.",
+    "en_title": "Epoxy Planner: Epoxy Resin Calculator",
+    "zh_oneliner": "算环氧树脂用量的在线工具，输入尺寸就能估算浇注体积、套装规格和成本，河流桌、地面、涂层等项目可以分开规划。",
+    "zh_title": "Epoxy Planner：环氧树脂用量计算器"
+  },
   "https://erl-j.github.io/fun-zone/birds.html": {
     "en_oneliner": "A procedural bird generator where each bird is defined by 46 numbers and 17 colors — drag across the map to blend nearby birds, then open the panel to read the code behind them.",
     "en_title": "Show HN: Birds as Code",
@@ -10151,6 +10157,12 @@
     "zh_oneliner": "200 多个免费在线小工具都在浏览器里跑，计算器、转换器、PDF、图片、文本工具齐全，不用注册。",
     "zh_title": "ToolRush：200+ 免费在线工具合集"
   },
+  "https://tools.stellartechlabs.xyz": {
+    "en_oneliner": "Compresses images to the exact size you want right in the browser — nothing is uploaded, just download the result.",
+    "en_title": "Image Squeeze – Compress Images to a Target Size, No Upload",
+    "zh_oneliner": "在浏览器里把图片压缩到你想要的大小，文件不出本地，压完直接下载。",
+    "zh_title": "Image Squeeze：把图片压到指定大小，全程不上传"
+  },
   "https://tools4u.org": {
     "en_oneliner": "54 file tools that run entirely in your browser — no uploads, no installs.",
     "en_title": "Tools4U – 54 File Tools That Run in the Browser",
@@ -10918,6 +10930,12 @@
     "en_title": "I'm not open-sourcing this – you can build it yourself",
     "zh_oneliner": "作者决定不开源自己的项目，却把思路讲清楚，鼓励读者照着做一个属于自己的版本。",
     "zh_title": "这个我不开源，但你可以自己做一个"
+  },
+  "https://www.autostrum.com": {
+    "en_oneliner": "Turns guitar tabs into a tempo-adjustable play-along so you can practice at your own pace until it clicks.",
+    "en_title": "Autostrum – Play Along with Guitar Tabs at Your Own Tempo",
+    "zh_oneliner": "把吉他谱变成可调速的伴奏，跟着自己的节奏一遍遍练，直到弹顺为止。",
+    "zh_title": "Autostrum：跟着吉他谱自己掌握节奏练琴"
   },
   "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference": {
     "en_oneliner": "A technical post from Baseten on the efficient frontier of LLM inference — including quantization trade-offs — to help balance cost and speed.",
@@ -13024,11 +13042,5 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
-  },
-  "https://epoxyplanner.com": {
-    "zh_title": "Epoxy Planner：环氧树脂用量计算器",
-    "zh_oneliner": "算环氧树脂用量的在线工具，输入尺寸就能估算浇注体积、套装规格和成本，河流桌、地面、涂层等项目可以分开规划。",
-    "en_title": "Epoxy Planner: Epoxy Resin Calculator",
-    "en_oneliner": "An online epoxy resin calculator: enter dimensions to estimate pour volume, kit size and cost, with separate planners for river tables, floors, coatings and more."
   }
 }
