@@ -188,6 +188,13 @@ BLOCKED_DOMAINS = {
     # npx.tools：开发者工具索引站（可搜索的 npx 工具目录），所列工具需 npx
     # 本地运行，不是浏览器里能直接用的工具（2026-11-22 06:37 CST 轮：热点第 1 条）
     "npx.tools",
+    # financialcrimes.fyi：白领犯罪日报站（Daily broadsheet，报纸版式呈现
+    # 新闻内容），标题带 newspaper 但因 Daily Scribe 豁免未被标题门拦住；
+    # 不是能直接用的工具（2026-11-22 17:07 CST 轮：热点榜混入新闻站）
+    "financialcrimes.fyi",
+    # samsara.pauoliver.net：佛学修行讲解文章站（按次第讲授佛陀教法，配经文
+    # 与短片），是阅读内容不是工具（2026-11-22 17:07 CST 轮：当日时间线混入）
+    "samsara.pauoliver.net",
     "facebook.com", "instagram.com", "linkedin.com", "tiktok.com",
     "apps.apple.com", "play.google.com",
     # Steam 商店页：须下载安装的游戏/软件，不是浏览器里能直接用的工具

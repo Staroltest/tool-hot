@@ -329,6 +329,12 @@
   "zh_oneliner": "免费生成今日钓鱼计划，潮汐、天气、鱼情、钓点和钓法都列好，覆盖 175 个地区。",
   "zh_title": "AnglerPlan：今日钓鱼计划"
  },
+ "https://animateaphoto.com": {
+  "en_oneliner": "Turn still photos into short AI videos by uploading an image and directing the motion, with upfront pricing and 20 free credits for new users.",
+  "en_title": "AnimatePhoto AI",
+  "zh_oneliner": "把静态照片变成 AI 短视频，上传图片、指定动作方向就能生成，费用事先明示，新用户送 20 个免费额度。",
+  "zh_title": "AnimatePhoto AI：照片变视频 AI 工具"
+ },
  "https://animatedlogoai.com": {
   "en_oneliner": "Turns your existing PNG, SVG or JPG into an animated logo — preview eight motion styles with sound design in the browser, download a free 720p MP4, or pay for HD, 4K, GIF and transparent video.",
   "en_title": "Animated Logo AI: Animate Your Logo",
@@ -484,6 +490,12 @@
   "en_title": "Show HN: ArchLog – a memory for your team's engineering decisions",
   "zh_oneliner": "帮团队把“为什么这样设计”记录下来的工具，免得半年后没人记得当初的取舍理由。",
   "zh_title": "ArchLog：给团队工程决策留一份记忆"
+ },
+ "https://archoneai.com": {
+  "en_oneliner": "An all-in-one architecture AI platform that visualizes whole projects, from exteriors and interiors to landscapes and floor plans.",
+  "en_title": "ArchOne AI",
+  "zh_oneliner": "一站式建筑 AI 可视化平台，外观、室内、景观和平面图都能用 AI 出效果图，整套方案一次看完。",
+  "zh_title": "ArchOne AI：建筑设计可视化 AI 平台"
  },
  "https://arkanumdata.com/research/house-trades": {
   "en_oneliner": "Do U.S. House members' stock trades beat the market? A test of 8,900 trades puts the question to the data.",
@@ -1528,6 +1540,18 @@
   "en_title": "Demudhra.sh, remove the leaked eMudhra certs from your machine",
   "zh_oneliner": "一个帮你清除泄露的 eMudhra 证书的小工具，跑一条命令就能扫出并移除有问题的证书。",
   "zh_title": "Demudhra.sh：从你的电脑上清除泄露的 eMudhra 证书"
+ },
+ "https://dermink.org": {
+  "en_oneliner": "Generate custom tattoo designs from text or a reference photo, with 20+ styles and 30 free credits for new users.",
+  "en_title": "DermInk",
+  "zh_oneliner": "用文字或参考图免费生成定制纹身图案，20 多种风格可选，新用户有 30 个免费额度。",
+  "zh_title": "DermInk：免费 AI 纹身图案生成器"
+ },
+ "https://destinymatrix.one": {
+  "en_oneliner": "A free Destiny Matrix chart calculator that reads your birth date into a personal chart and relationship insights, no signup needed.",
+  "en_title": "Destiny Matrix",
+  "zh_oneliner": "免费命运矩阵图表计算器，输入出生日期就能生成个人星盘解读，还能看关系合盘，无需注册。",
+  "zh_title": "Destiny Matrix：免费命运矩阵星盘计算器"
  },
  "https://dev.to/0xas1fsec404/--96p": {
   "en_oneliner": "A first-hand account of sitting Microsoft's AZ-401 beta exam for the Agentic DevOps Engineer Expert certification, including honest notes on preparation and what the exam covers.",
@@ -5789,6 +5813,12 @@
   "zh_oneliner": "把历代 F1 车手的数据拉到同一张图里比个高下，用可视化回答谁才是真正的历史最佳，车迷可以自己翻着玩。",
   "zh_title": "F1 Metrix：谁是 F1 历史最佳？用数据说话"
  },
+ "https://facelessreel.app": {
+  "en_oneliner": "Turn one idea into a faceless short video with AI-written scripts, voiceovers, visuals, captions, and music, with your first reel free.",
+  "en_title": "FacelessReel",
+  "zh_oneliner": "给一个想法就能用 AI 生成无真人出镜的短视频，脚本、配音、画面、字幕和音乐一次配齐，首条免费试做。",
+  "zh_title": "FacelessReel：AI 无真人出镜短视频生成器"
+ },
  "https://facetry.beauty": {
   "en_oneliner": "Personal color analysis from one daylight selfie: your 12-season color type, undertone and face shape, as a starting point for outfits, makeup and hair.",
   "en_title": "Facetry",
@@ -6659,6 +6689,12 @@
   "zh_oneliner": "免费在线涂鸦字生成器，做文字和标签涂鸦，还能让 AI 配街头艺术场景。",
   "zh_title": "GraffForge：免费在线涂鸦字生成器"
  },
+ "https://graffiti-generator.art": {
+  "en_oneliner": "A free online graffiti generator that turns any text into bubble, wildstyle, tag, or 3D street-art lettering, ready to download.",
+  "en_title": "graffiti generator",
+  "zh_oneliner": "免费在线涂鸦文字生成器，输入文字就能做出气泡、狂野、标签、3D 等街头风格涂鸦字，设计完可直接下载。",
+  "zh_title": "Graffiti Generator：免费涂鸦字体生成器"
+ },
  "https://grandtreasureisland.vercel.app": {
   "en_oneliner": "Drive, explore, and take on missions across a real island modeled by AI — a GTA-style game that runs right in the browser.",
   "en_title": "Grand Treasure Island: A GTA-Style Game on a Real Island, Modeled by AI",
@@ -7048,6 +7084,12 @@
   "en_title": "I built a visual website that shows the time and the exact weather and daylight for any place",
   "zh_oneliner": "一个可视化网站，显示任意地点的时间、精确天气和日照情况。",
   "zh_title": "imahora：看任意地点的时间、天气和日光"
+ },
+ "https://imgtoimg.co": {
+  "en_oneliner": "Edit photos with AI image-to-image generation: swap backgrounds, adjust colors, and restyle images, with 6 free credits for new sign-ups.",
+  "en_title": "ImgtoImg",
+  "zh_oneliner": "用 AI 以图生图改照片，换背景、调色彩、改风格都能做，新用户注册送 6 个免费额度。",
+  "zh_title": "ImgtoImg：AI 以图生图编辑器"
  },
  "https://imgunmark.com": {
   "en_oneliner": "Remove watermarks from images you have permission to edit, right in your browser — no install needed.",
@@ -7828,6 +7870,12 @@
   "en_title": "Meloop",
   "zh_oneliner": "帮独立音乐老师算清课时费、管好家庭约课。",
   "zh_title": "Meloop"
+ },
+ "https://memalign.github.io/m/memfiddle/index.html": {
+  "en_oneliner": "Run mini web apps right in your browser, no installation needed — just open and play.",
+  "en_title": "Show HN: MemFiddle",
+  "zh_oneliner": "在浏览器里直接运行迷你网页应用的小工具，不用装任何东西，打开就能玩。",
+  "zh_title": "MemFiddle：浏览器里跑迷你网页应用"
  },
  "https://meme.ransomz.dev": {
   "en_oneliner": "Turn one photo into a reusable cartoon character and make transparent animated stickers for WhatsApp, WeChat, Telegram and Discord.",
