@@ -208,6 +208,14 @@ BLOCKED_DOMAINS = {
     # Steam 商店页：须下载安装的游戏/软件，不是浏览器里能直接用的工具
     # （2026-11-19 20:07 CST 轮：IT Thinks 链到 store.steampowered.com）
     "steampowered.com",
+    # rmux.app：原生终端应用（Rust 编写，macOS/Windows/Linux 均须下载安装，
+    # 站上写明 macOS 已签名公证、Windows 未签名、Linux 需 Ubuntu 24.04）；
+    # 站内浏览器里跑的只是 WASM 样例演示（"Sample sessions only; no shell
+    # or server connection"），"Get a feel for it before you install"，
+    # 不是能直接用的工具本身。标题 "terminal workspace" 不露安装痕迹，
+    # 实测又因 "running in your browser" 豁免放行，故整域封禁
+    # （2026-11-22 22:37 CST 轮：热点榜混入，人工核实后封）
+    "rmux.app",
     "nytimes.com", "theguardian.com", "reuters.com", "washingtonpost.com",
     "cnn.com", "bbc.com", "bbc.co.uk", "economist.com", "ft.com", "wsj.com",
     "theatlantic.com", "newyorker.com", "thehill.com", "cnbc.com",
@@ -1239,6 +1247,11 @@ BLOCKED_EXACT = {
     # 的 host 也要写
     "matineegame.com",
     "www.matineegame.com",
+    # 2026-11-22 22:37 CST 轮自查补封（本轮新到、混入热点第 20）：
+    # orbitlet.com 是浏览器逻辑谜题合集（数织、桥、数独、四方、数连
+    # 等每日谜题），纯游戏，无工具属性，按游戏口径（纯游戏一律拦）封禁
+    "orbitlet.com",
+    "www.orbitlet.com",
     # 2026-11-22 16:07 CST 轮实测封禁（热点第 20，标题“Hookr MCP & Agent Tools”）：
     # hookr.fun 是 Uniswap v4 hooks 的目录+基础设施站（Discover Hooks 公开
     # 目录、Builder、SDK 与 agent/MCP 路由），按 TokLab 纯 API/MCP 平台
@@ -1280,6 +1293,11 @@ BLOCKED_URLS = {
     # 是复古 3D 射击小游戏（瞄准开火、守住船体），纯游戏，按游戏口径一律拦；
     # engineersneedart.com 是个人站，只拦这一条链接，不封整个域名
     "https://engineersneedart.com/gunport",
+    # 2026-11-22 22:37 CST 轮自查补封（浏览器实测确认）：ANT IPO Simulator
+    # （carllapierre.github.io/clapdaq）是拍手拉升股价的点击小游戏（按空格/
+    # 点击/拍手越快股价越高），纯游戏，按游戏口径一律拦；carllapierre.github.io
+    # 是个人 GitHub Pages，只拦这一条链接，不封整个域名
+    "https://carllapierre.github.io/clapdaq",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
