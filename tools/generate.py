@@ -1258,6 +1258,11 @@ BLOCKED_EXACT = {
     # 先例封禁；站内“Open app”须接钱包做链上交易，不是点开能用的工具
     "hookr.fun",
     "www.hookr.fun",
+    # 2026-11-23 00:37 CST 轮（2026-11-22 08:37 PST 轮）自查补封：
+    # 20q.jordanscales.com 是 20Q 猜物游戏网站（“Think of something…”、
+    # 20 问猜你想的东西），纯游戏，无工具属性，按游戏口径（纯游戏一律拦）
+    # 封禁；整站只有一个游戏，只拦这一 host
+    "20q.jordanscales.com",
 }
 # 精确链接封禁（只拦这一条完整链接，不拦整个域名；与 BLOCKED_EXACT
 # 按 host 封禁不同，这里是按 norm_link 后的完整链接精确匹配）：

@@ -6101,6 +6101,12 @@
     "zh_oneliner": "不用订阅、不用记点数就能用的 AI 编程智能体，靠广告支撑，在浏览器、桌面、手机或终端里都能接着手头的任务干活。",
     "zh_title": "Freebuff：免费的 AI 编程智能体"
   },
+  "https://freeimagetovideo.ai": {
+    "en_oneliner": "Turn any photo into a short video with its own sound, free in the browser with no sign-up and no watermark.",
+    "en_title": "Free Image to Video",
+    "zh_oneliner": "上传一张照片，写一句想让它怎么动、配什么声音，就能免费生成一段带声短片，无需注册、没有水印。",
+    "zh_title": "Free Image to Video：免费把照片变成视频"
+  },
   "https://freellm.net": {
     "en_oneliner": "A directory of 500+ free LLM APIs from 31 providers including Google, Groq and OpenRouter, browsable by use case and model family — no more digging through docs to find a free API.",
     "en_title": "FreeLLM",
@@ -10013,6 +10019,12 @@
     "zh_oneliner": "只改输出层的一行参数，就能让大模型少绕弯子，思路相当巧妙。",
     "zh_title": "改大模型输出层的一行，治好它的过度思考"
   },
+  "https://thisiscoco.app/atlas": {
+    "en_oneliner": "Turn your LinkedIn network into a 3D galaxy you can fly through, with clusters and connections laid out in front of you.",
+    "en_title": "Show HN: Fly through your LinkedIn network in a 3D galaxy",
+    "zh_oneliner": "把领英人脉变成可以飞进去的 3D 星系，圈子、连接一目了然。",
+    "zh_title": "Coco Atlas：领英人脉 3D 星系漫游"
+  },
   "https://threadlore-122120455814.us-central1.run.app/?ref=producthunt": {
     "en_oneliner": "Upload a macro photo of a textile swatch and get back a mathematically verified 4-shaft loom draft and a standard WIF weaving file.",
     "en_title": "ThreadLore",
@@ -13042,11 +13054,5 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
-  },
-  "https://freeimagetovideo.ai": {
-    "en_title": "Free Image to Video",
-    "en_oneliner": "Turn any photo into a short video with its own sound, free in the browser with no sign-up and no watermark.",
-    "zh_title": "Free Image to Video：免费把照片变成视频",
-    "zh_oneliner": "上传一张照片，写一句想让它怎么动、配什么声音，就能免费生成一段带声短片，无需注册、没有水印。"
   }
 }
