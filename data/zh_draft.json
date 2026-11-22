@@ -7385,6 +7385,12 @@
   "zh_oneliner": "拖动时间轴穿越 2500 年印度历史，帝国更迭、旅程与事件都标在同一张互动地图上，点开就能逛。",
   "zh_title": "Bharat Itihaas：2500 年印度历史互动地图"
  },
+ "https://keybrum.com": {
+  "en_oneliner": "Tracks new CVEs automatically and turns each into an attack case, then tests your own vibe-coded apps in a sandbox with sub-agents — including IDOR checks.",
+  "en_title": "Keybrum – CVE Auto Pentest App",
+  "zh_oneliner": "自动追踪最新 CVE 并生成攻击用例，还能在沙箱里用子智能体测 IDOR 这类漏洞，专给自家 vibe coding 应用做体检。",
+  "zh_title": "Keybrum：自动追踪 CVE 的渗透测试工具"
+ },
  "https://keytrace.dev": {
   "en_oneliner": "An identity scheme promising one identity with many proofs — a new face in identity tooling worth keeping an eye on.",
   "en_title": "Keytrace – One identity, many proofs",
@@ -8651,6 +8657,12 @@
   "zh_oneliner": "在浏览器里点一下就能改 PDF 原有的文字，不用转格式也不用装软件。",
   "zh_title": "Pdfable：直接点改 PDF 里的文字"
  },
+ "https://pdfpromaster.com": {
+  "en_oneliner": "A full set of PDF tools that run entirely in your browser — merge, split, and compress without uploading a file.",
+  "en_title": "PDF ProMaster – PDF Tools That Run in the Browser, No Uploads",
+  "zh_oneliner": "一整套 PDF 工具全在浏览器本地跑，合并、拆分、压缩都不用上传文件。",
+  "zh_title": "PDF ProMaster：浏览器里直接用的 PDF 工具箱"
+ },
  "https://peplio.com": {
   "en_oneliner": "Remove an image background in your browser and download a transparent PNG.",
   "en_title": "Peplio Background Remover",
@@ -9226,6 +9238,12 @@
   "en_title": "Rezora IO: Launch an AI Voice Agent in 10 Minutes",
   "zh_oneliner": "像搭 Shopify 店铺一样搭 AI 语音助手，十分钟就能上线接电话。",
   "zh_title": "Rezora IO：十分钟上线 AI 语音客服"
+ },
+ "https://ricorico.dev": {
+  "en_oneliner": "Brings Google Docs-style review to Markdown documents in GitHub PRs, with previews for Mermaid, D2, and Graphviz diagrams.",
+  "en_title": "Rico – Rich Markdown Reviews for GitHub PRs",
+  "zh_oneliner": "把 Markdown 文档的评审体验做到像 Google Docs 那样顺，还支持 Mermaid、D2 与 Graphviz 图表预览。",
+  "zh_title": "Rico：给 GitHub PR 的富文本 Markdown 评审"
  },
  "https://ripperskipper.com": {
   "en_oneliner": "A wakeboarding game that runs right in the browser — carve, ollie, spin, flip and grab your way through tricks with the keyboard.",
