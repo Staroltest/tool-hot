@@ -12,7 +12,7 @@
 > Mirror: https://tool-hot.pages.dev/
 > Language: Chinese (zh-CN). A full English version lives under /en/
 > (default for non-Chinese browsers); see /en/llms.txt.
-> Updated: 2026-11-22
+> Updated: 2026-11-23
 
 ## About
 

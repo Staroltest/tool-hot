@@ -13042,5 +13042,11 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
+  },
+  "https://freeimagetovideo.ai": {
+    "en_title": "Free Image to Video",
+    "en_oneliner": "Turn any photo into a short video with its own sound, free in the browser with no sign-up and no watermark.",
+    "zh_title": "Free Image to Video：免费把照片变成视频",
+    "zh_oneliner": "上传一张照片，写一句想让它怎么动、配什么声音，就能免费生成一段带声短片，无需注册、没有水印。"
   }
 }
