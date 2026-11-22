@@ -1043,6 +1043,16 @@ BLOCKED_DOMAINS = {
     "hackerllion.com", "dlearena.com", "outpostracer.com",
     "plazzlegame.com", "quiettrivia.com", "dailyplaynotes.com",
     "trichroma.namirsab.dev",
+    # 2026-11-22 21:07 CST 轮热点榜自查补封（浏览器实测确认）：
+    # mathpuzzle.org 是每日数学猜谜纯游戏（Wordle 式拼算式，另有数独/
+    # 纵横字谜/脑筋急转弯），按已定游戏口径（纯游戏一律拦）封禁；
+    # allgameslive.com 是体育实时比分 + 新闻内容站（比分、赛程、新闻
+    # 文章），是看内容不是用工具，按只收工具网站标准封禁
+    "mathpuzzle.org", "allgameslive.com",
+    # 2026-11-22 21:07 CST 轮热点榜自查补封（浏览器实测确认）：
+    # guessrgames.com 是每日猜谜游戏合集站（地理问答、数独、数独变体、
+    # 每日挑战 + 排行榜），全站都是游戏，按游戏口径封禁
+    "guessrgames.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -1251,6 +1261,12 @@ BLOCKED_URLS = {
     # 游戏（5 分钟内组词比拼），纯游戏，按游戏口径封禁；实测页面只有玩法
     # 说明与计分规则，无工具功能
     "https://playdawdle.com",
+    # 2026-11-22 21:07 CST 轮热点榜自查补封（浏览器实测确认）：vouchgeo.com
+    # 根地址是 GEO 工具 Vouch 的等候名单营销页（Invite-only，点开只能加入
+    # waitlist，主产品访客用不了），按“点开就能用”标准拦；站内免费小工具
+    # 在子路径上（如 schema 检查、llms.txt 生成器），只拦根链接，不封整个域名
+    "https://vouchgeo.com",
+    "https://www.vouchgeo.com",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {

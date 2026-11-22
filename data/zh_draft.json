@@ -10265,6 +10265,12 @@
   "zh_oneliner": "上传扫描版 PDF，它先识别再翻译，还把译文排回原来的位置，表格、图章和数字都留在原地，前 5 页免费。",
   "zh_title": "Reglyph：翻译扫描版 PDF，版式原样不动"
  },
+ "https://trytinydeskai.com": {
+  "en_oneliner": "Upload one to five photos and AI turns them into a 15-second vertical Tiny Desk-style band performance, no prompt writing needed.",
+  "en_title": "Tiny Desk AI",
+  "zh_oneliner": "上传一到五张照片，AI 就把你们放进一场 15 秒的竖屏迷你办公桌演出里，不用写提示词。",
+  "zh_title": "Tiny Desk AI：用照片生成迷你办公桌乐队视频"
+ },
  "https://tryvitri.com": {
   "en_oneliner": "Create AI product photography, virtual try-on and studio shots.",
   "en_title": "Vitri: AI product photography",
