@@ -376,6 +376,10 @@ BLOCKED_DOMAINS = {
     "saturnsql.com",
     # WhyArc：实测首页是 iPhone 应用落地页（App Store 链接 7 处），不是网页工具
     "whyarc.com",
+    # 2026-11-23 04:07 CST 轮：Fission Agents 是统一 AI 模型 API 平台
+    # （“View API passes”、$5 一次性 API 通行证、共享 AI 预算），站内无
+    # 点开能直接用的浏览器工具；同已封的 TokLab 等纯 API 平台，域名封禁
+    "ai.fissionagents.com",
     # 抽查确认不是在线工具（2026-11-16 第五轮）：原生 iPhone/iPad/Mac 笔记应用，
     # 首页主推原生应用下载，网页版只是附属，不符合“完全在网站上就能用”
     "remindly.com",
