@@ -12562,5 +12562,11 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
+  },
+  "https://vouchgeo.com": {
+    "zh_title": "Vouch：看 AI 助手在对话中如何谈论你的品牌",
+    "zh_oneliner": "追踪你的品牌在 ChatGPT、Claude 等 AI 助手整段购买对话里的出现情况，找出品牌在哪个追问环节掉队，并给出夺回提及的建议。",
+    "en_title": "Vouch – See What AI Assistants Say About Your Brand Mid-Conversation",
+    "en_oneliner": "Tracks how your brand shows up across a full buying conversation with ChatGPT, Claude and other AI assistants, pinpoints where it drops out, and suggests how to win the mention back."
   }
 }
