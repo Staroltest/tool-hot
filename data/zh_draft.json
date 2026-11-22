@@ -12982,5 +12982,11 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
+ },
+ "https://fridgepovai.com": {
+  "en_oneliner": "Upload a photo of yourself or your pet and get a 10-second vertical video shot from inside the fridge, catching a midnight tiramisu raid and the inevitable second spoonful.",
+  "en_title": "Fridge POV AI",
+  "zh_oneliner": "上传一张人或宠物的照片，AI 生成 10 秒竖屏短视频：从冰箱里看你半夜偷吃提拉米苏，吃完一勺还会再回来一勺。",
+  "zh_title": "Fridge POV AI：深夜冰箱偷吃短视频生成器"
  }
 }
