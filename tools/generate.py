@@ -1053,6 +1053,15 @@ BLOCKED_DOMAINS = {
     # guessrgames.com 是每日猜谜游戏合集站（地理问答、数独、数独变体、
     # 每日挑战 + 排行榜），全站都是游戏，按游戏口径封禁
     "guessrgames.com",
+    # 2026-11-22 22:07 CST 轮热点榜自查补封（MakerHunt 描述 + 标题确认）：
+    # play1beat.com 是纯音乐节奏游戏（四轨道点按热门歌曲），本轮混进
+    # 热点榜第 5、精选，按游戏口径（纯游戏一律拦）封禁整个域名
+    "play1beat.com",
+    # 2026-11-22 22:07 CST 轮时间线自查补封（浏览器实测确认）：
+    # strategoga.me 核心是 Stratego 棋盘游戏在线对战（加载第三方
+    # play.stratego.com 的游戏框），附带的段位比较小工具只是配角，
+    # 整站以玩游戏为主，按游戏口径封禁整个域名
+    "strategoga.me",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {

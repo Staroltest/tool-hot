@@ -227,6 +227,12 @@
   "zh_oneliner": "AI 视频小品：第一次走进高级咖啡馆，座位坐错了，笑话却坐对了。",
   "zh_title": "AI 高级咖啡馆：第一次去高档咖啡馆"
  },
+ "https://aigifmaker.ai": {
+  "en_oneliner": "Describe the scene in words and get an animated GIF generated natively, with no video conversion step.",
+  "en_title": "AI GIF Maker: Turn Text into Animated GIFs",
+  "zh_oneliner": "写一句话描述想要的画面，AI 直接生成原生动图，不用先做视频再转格式。",
+  "zh_title": "AI GIF Maker：输入文字直接生成动图"
+ },
  "https://aiimageextender.app": {
   "en_oneliner": "Extend photos with AI to any aspect ratio, filling in the scene without cropping the subject.",
   "en_title": "AI Image Extender",
