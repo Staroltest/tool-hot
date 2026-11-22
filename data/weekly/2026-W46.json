@@ -6,7 +6,7 @@
  "date_iso": "2026-11-15",
  "issue": 1,
  "generated_at": "2026-11-15T13:20:42.730681+00:00",
- "summary": "过去 7 天共收录 301 条动态，精选 10 条（AI 工具 9 条、开发工具 1 条）。头条：Canvas by AgentGrid.io：和 AI 一起画图的协作画布。",
+ "summary": "过去 7 天共收录 301 条动态，精选 8 条（AI 工具 8 条）。头条：Canvas by AgentGrid.io：和 AI 一起画图的协作画布。",
  "items": [
   {
    "id": "364a104be9b37e40c2bfaa8fcbe3ab9b6920e40d",
@@ -31,55 +31,6 @@
    "hot_score": 84.3,
    "prev_rank": 7,
    "prev_hot_score": 84.4
-  },
-  {
-   "id": "a020bc36783ccb4f2031a03e15b2000a20742a0f",
-   "title": "Perit Marketplace",
-   "link": "https://www.producthunt.com/products/perit-marketplace",
-   "source": "Product Hunt",
-   "source_id": "producthunt",
-   "published": "2026-11-15T05:04:05+00:00",
-   "zh_title": "Perit Marketplace：把数据和强化学习任务卖给前沿 AI 实验室",
-   "zh_oneliner": "一个新上线的市场，数据提供者可以把数据和强化学习任务卖给前沿 AI 实验室，适合手里有高质量数据的团队关注。",
-   "category": "ai",
-   "category_label": "AI 工具",
-   "tier": "T1",
-   "tags": [
-    "AI",
-    "数据"
-   ],
-   "score": 90,
-   "reason": "官方来源 · 涉及AI与数据 · 24 小时内发布",
-   "is_new": true,
-   "trend": "down",
-   "hot_score": 83.3,
-   "prev_rank": 8,
-   "prev_hot_score": 83.4
-  },
-  {
-   "id": "67b25a32a7d49c70da2aaf8c62a0f3ba55be8fab",
-   "title": "Built Melo, an open-source Spotify + YouTube Music player — 700+ downloads and 40+ stars in under 24 hours!",
-   "link": "https://www.reddit.com/r/coolgithubprojects/comments/1xwpu2r/built_melo_an_opensource_spotify_youtube_music",
-   "source": "Reddit r/coolgithubprojects",
-   "source_id": "reddit-coolgithub",
-   "published": "2026-11-15T07:55:24+00:00",
-   "zh_title": "Melo：开源的 Spotify + YouTube Music 二合一播放器",
-   "zh_oneliner": "免费开源的 Android 音乐播放器，把 Spotify 和 YouTube Music 放在一个干净无广告的界面里，上线一天就收获 700 多次下载。",
-   "category": "dev",
-   "category_label": "开发工具",
-   "tier": "T2",
-   "tags": [
-    "开源",
-    "free",
-    "launch"
-   ],
-   "score": 90,
-   "reason": "涉及开源与free · 6 小时内发布",
-   "is_new": true,
-   "trend": "same",
-   "hot_score": 85.6,
-   "prev_rank": 1,
-   "prev_hot_score": 85.6
   },
   {
    "id": "ef19adbbca9a8c51fbca625940980f3176f335b8",

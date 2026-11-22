@@ -195,6 +195,14 @@ BLOCKED_DOMAINS = {
     # samsara.pauoliver.net：佛学修行讲解文章站（按次第讲授佛陀教法，配经文
     # 与短片），是阅读内容不是工具（2026-11-22 17:07 CST 轮：当日时间线混入）
     "samsara.pauoliver.net",
+    # webless.ai：面向企业官网的 AI 客服/搜索服务站（Agents + AI Search），
+    # 只能预约演示，没有访客点开能直接用的工具（2026-11-22 归档复查：
+    # 11-07 日报里的 Webless Agents；域名后缀匹配，www 子域一并拦）
+    "webless.ai",
+    # perit.ai：卖数据与 RL 任务给 AI 实验室的数据集市（perit.ai/marketplace
+    # 是数据集目录、按报价成交），不是点开能用的工具（2026-11-22 归档复查：
+    # 11-15 日报与 W46/W47 周报、11 月月报里的 Perit Marketplace）
+    "perit.ai",
     "facebook.com", "instagram.com", "linkedin.com", "tiktok.com",
     "apps.apple.com", "play.google.com",
     # Steam 商店页：须下载安装的游戏/软件，不是浏览器里能直接用的工具
@@ -1239,6 +1247,10 @@ BLOCKED_URLS = {
     # 假名 Wordle 纯游戏，按新定游戏口径（纯游戏一律拦）封禁；ezfurigana.com
     # 本身是注音工具站，只拦这一条链接，不封整个域名
     "https://www.ezfurigana.com/kakurenbo",
+    # 2026-11-22 20:37 CST 轮：Dawdle（playdawdle.com）是每日 15 字母拼词
+    # 游戏（5 分钟内组词比拼），纯游戏，按游戏口径封禁；实测页面只有玩法
+    # 说明与计分规则，无工具功能
+    "https://playdawdle.com",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {

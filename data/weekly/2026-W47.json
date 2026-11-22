@@ -6,7 +6,7 @@
  "date_iso": "2026-11-16",
  "issue": 1,
  "generated_at": "2026-11-15T22:33:23.693634+00:00",
- "summary": "过去 7 天共收录 1274 条动态，精选 10 条（AI 工具 10 条）。头条：Canvas by AgentGrid.io：和 AI 一起画图的协作画布。",
+ "summary": "过去 7 天共收录 1274 条动态，精选 8 条（AI 工具 8 条）。头条：Canvas by AgentGrid.io：和 AI 一起画图的协作画布。",
  "items": [
   {
    "id": "364a104be9b37e40c2bfaa8fcbe3ab9b6920e40d",
@@ -29,30 +29,6 @@
    "is_new": false,
    "trend": "same",
    "hot_score": 77.4,
-   "prev_rank": null,
-   "prev_hot_score": null
-  },
-  {
-   "id": "a020bc36783ccb4f2031a03e15b2000a20742a0f",
-   "title": "Perit Marketplace",
-   "link": "https://www.producthunt.com/products/perit-marketplace",
-   "source": "Product Hunt",
-   "source_id": "producthunt",
-   "published": "2026-11-15T05:04:05+00:00",
-   "zh_title": "Perit Marketplace：把数据和强化学习任务卖给前沿 AI 实验室",
-   "zh_oneliner": "一个新上线的市场，数据提供者可以把数据和强化学习任务卖给前沿 AI 实验室，适合手里有高质量数据的团队关注。",
-   "category": "ai",
-   "category_label": "AI 工具",
-   "tier": "T1",
-   "tags": [
-    "AI",
-    "数据"
-   ],
-   "score": 90,
-   "reason": "官方来源 · 涉及AI与数据 · 24 小时内发布",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 76.5,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -154,31 +130,6 @@
    "trend": "same",
    "hot_score": 86.4,
    "prev_rank": 5,
-   "prev_hot_score": 86.8
-  },
-  {
-   "id": "18b89632b6779dae17a9fec0679f80e17fcadcdd",
-   "title": "RustedGlass - Fast, portable, Rust-based Windows image viewer that combines smooth, cache-based browsing with a lean memory footprint",
-   "link": "https://www.reddit.com/r/coolgithubprojects/comments/1xx2e2l/rustedglass_fast_portable_rustbased_windows_image",
-   "source": "Reddit r/coolgithubprojects",
-   "source_id": "reddit-coolgithub",
-   "published": "2026-11-15T18:10:42+00:00",
-   "zh_title": "RustedGlass：快速轻量的 Rust Windows 图片查看器",
-   "zh_oneliner": "用 Rust 写的便携 Windows 图片查看器，靠缓存实现流畅浏览，内存占用还很低。",
-   "category": "ai",
-   "category_label": "AI 工具",
-   "tier": "T2",
-   "tags": [
-    "工具",
-    "AI",
-    "free"
-   ],
-   "score": 90,
-   "reason": "涉及工具与AI · 6 小时内发布",
-   "is_new": true,
-   "trend": "same",
-   "hot_score": 86.4,
-   "prev_rank": 6,
    "prev_hot_score": 86.8
   },
   {
