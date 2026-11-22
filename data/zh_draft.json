@@ -5621,6 +5621,12 @@
     "zh_oneliner": "《经济学人》分析 Anthropic 筹备中的巨额上市将如何改变大模型厂商的竞争格局，给 OpenAI 带来新的压力。",
     "zh_title": "Anthropic 大规模 IPO 给 OpenAI 施压"
   },
+  "https://edibilia.org/map": {
+    "en_oneliner": "A map of wild edible plants and fungi near you — check what's forageable before you head out.",
+    "en_title": "Show HN: Mapped wild edible plants and fungi near you",
+    "zh_oneliner": "在地图上查看你附近有哪些可食用的野生植物和菌菇，出门觅食前先查一查。",
+    "zh_title": "附近可食用野菜野菇地图"
+  },
   "https://ediroo.com": {
     "en_oneliner": "Edit photos online by describing the change in words — no tools to learn.",
     "en_title": "Ediroo AI Photo Editor: edit photos with words",
@@ -5914,6 +5920,12 @@
     "en_title": "Show HN: Prototype of a product management tool for AI agent companies",
     "zh_oneliner": "把丢单、工单和智能体日志等证据导进来，逐条决定做什么功能、排好先后，再跟踪开发进度和预期收益。",
     "zh_title": "FeatureStream：给 AI 智能体公司的产品管理原型"
+  },
+  "https://fedijar.com": {
+    "en_oneliner": "The search Mastodon servers meant to have — find servers and posts you'd otherwise lose in the timeline.",
+    "en_title": "Show HN: Fedijar – The Search Mastodon servers meant to have",
+    "zh_oneliner": "帮你找到想找的 Mastodon 服务器和帖子，再也不怕在时间线里翻丢内容。",
+    "zh_title": "Fedijar：Mastodon 服务器搜索"
   },
   "https://ferd.ca/control-and-complexity-tension-in-systems-design.html": {
     "en_oneliner": "An essay on systems design about the tension between control and complexity, and how designers should trade off between the two.",
@@ -7655,6 +7667,12 @@
     "zh_oneliner": "揪出冒充你品牌的山寨域名。",
     "zh_title": "LookalikeGuard"
   },
+  "https://loomstation.com": {
+    "en_oneliner": "A read-only analytics terminal for Polymarket and Kalshi, with MCP access for querying the data.",
+    "en_title": "Show HN: Loomstation – Read-only analytics terminal, MCP for Polymarket/Kalshi",
+    "zh_oneliner": "Polymarket 和 Kalshi 的只读分析终端，还能通过 MCP 接入数据做查询。",
+    "zh_title": "Loomstation：预测市场只读分析终端"
+  },
   "https://loopseo.org": {
     "en_oneliner": "Researches, writes and publishes SEO articles for WordPress automatically, saving hours of manual writing.",
     "en_title": "Show HN: Tool for WordPress that researches, writes, publishes SEO articles",
@@ -8639,6 +8657,12 @@
     "zh_oneliner": "独立游戏不一定非要上 Steam，这篇讲了怎么通过密钥、直接下载和自家商店把游戏卖出去。",
     "zh_title": "不在 Steam 上卖游戏：密钥、下载与直销"
   },
+  "https://personalized-song-gift.com": {
+    "en_oneliner": "Turn your story into a personalized song with their name in the chorus — a gift they'll remember.",
+    "en_title": "Personalized Song Gift",
+    "zh_oneliner": "把你的故事写成一首专属歌曲，把对方的名字唱进副歌里，当作礼物送出去。",
+    "zh_title": "Personalized Song Gift：定制歌曲礼物"
+  },
   "https://pettenderly.com": {
     "en_oneliner": "Turn pet photos into portraits worth keeping — your furry friend finally gets a proper painting.",
     "en_title": "Pettenderly",
@@ -8872,6 +8896,12 @@
     "en_title": "Power Size Guide",
     "zh_oneliner": "挑好电器和使用时长，它就告诉你便携电站要多少瓦时、多少瓦和多大浪涌，买前先算清楚。",
     "zh_title": "Power Size Guide：便携电站容量计算器"
+  },
+  "https://present.aitho.app/try": {
+    "en_oneliner": "Slides that advance when you say the words — present hands-free, no clicking needed.",
+    "en_title": "Show HN: Aitho – slides that advance when you say the words, not when you click",
+    "zh_oneliner": "不用点鼠标的幻灯片，说出关键词就自动翻页，演讲时双手完全解放。",
+    "zh_title": "Aitho：说到哪，幻灯片就翻到哪"
   },
   "https://pressgazette.co.uk/media-audience-and-business-data/media_metrics/most-popular-websites-news-us-monthly-3": {
     "en_oneliner": "October data shows most top US news websites recorded fewer visits year on year, a useful snapshot of media trends.",
@@ -10505,6 +10535,12 @@
     "zh_oneliner": "连 mkdir 这样的老命令也有接口设计的学问，这篇从 POSIX 的角度聊了它的竞态问题。",
     "zh_title": "一切都是你的接口：mkdir 篇"
   },
+  "https://uyo.io": {
+    "en_oneliner": "Type a prompt or upload a photo to generate an image, then turn it into a short video — creators and small brands can do it all in the browser.",
+    "en_title": "Uyo",
+    "zh_oneliner": "写一句话或上传照片就能生成图片，再一键转成短视频，创作者和小品牌的图片视频都可以在浏览器里做完。",
+    "zh_title": "Uyo：给创作者的 AI 图片与短视频工作台"
+  },
   "https://v.redd.it/0dzoyqp1dv1i1": {
     "en_oneliner": "Task manager TaskLoco adds one-tap QuickStarts, with the Premium tier free to try for a full year.",
     "en_title": "I added QuickStarts to TaskLoco! Try it free for a year. Premium that is.",
@@ -10564,6 +10600,12 @@
     "en_title": "Vaki",
     "zh_oneliner": "替民宿房东全天候接待客人，用对方的母语自动答疑，不用半夜爬起来回消息。",
     "zh_title": "Vaki：24 小时用客人母语自动回复"
+  },
+  "https://veida.ai": {
+    "en_oneliner": "A free, unlimited AI image generator and photo editor that works right in the browser.",
+    "en_title": "Veida AI",
+    "zh_oneliner": "免费不限量的 AI 图片生成与照片编辑器，在网页上直接出图修图。",
+    "zh_title": "Veida AI"
   },
   "https://vemlora.io": {
     "en_oneliner": "Edit the words in posters, product photos and screenshots while keeping the fonts, layout and background intact — no source files or Photoshop needed.",
@@ -12941,6 +12983,12 @@
     "zh_oneliner": "一则德国地方新闻：Microsoft 365 大面积故障期间，一家酒店发生氯气泄漏，15 名住客中毒。",
     "zh_title": "Microsoft 365 故障导致 15 名酒店住客氯气中毒"
   },
+  "https://wydatki-app.github.io/wydatki": {
+    "en_oneliner": "A single HTML file is the whole expense dashboard — it reads your bank statements locally and never sends them anywhere.",
+    "en_title": "Wydatki: A Local-Only Expense Tracker in One HTML File",
+    "zh_oneliner": "一个 HTML 文件就是全部记账本，银行对账单只在本地浏览器里读，不联网、不上传，打开就能记账看支出。",
+    "zh_title": "Wydatki：单文件本地记账本，不联网不上传"
+  },
   "https://x.com/paulg/status/2122033524857589799": {
     "en_oneliner": "Paul Graham argues the limiting factor for startups is not investment, but founder ability.",
     "en_title": "The limiting factor isn't investment. It's founder ability",
@@ -13054,17 +13102,5 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
-  },
-  "https://uyo.io": {
-    "en_title": "Uyo",
-    "en_oneliner": "Type a prompt or upload a photo to generate an image, then turn it into a short video — creators and small brands can do it all in the browser.",
-    "zh_title": "Uyo：给创作者的 AI 图片与短视频工作台",
-    "zh_oneliner": "写一句话或上传照片就能生成图片，再一键转成短视频，创作者和小品牌的图片视频都可以在浏览器里做完。"
-  },
-  "https://wydatki-app.github.io/wydatki": {
-    "en_title": "Wydatki: A Local-Only Expense Tracker in One HTML File",
-    "en_oneliner": "A single HTML file is the whole expense dashboard — it reads your bank statements locally and never sends them anywhere.",
-    "zh_title": "Wydatki：单文件本地记账本，不联网不上传",
-    "zh_oneliner": "一个 HTML 文件就是全部记账本，银行对账单只在本地浏览器里读，不联网、不上传，打开就能记账看支出。"
   }
 }

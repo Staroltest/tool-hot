@@ -273,6 +273,11 @@ BLOCKED_DOMAINS = {
     "dokira.com", "dragontraveler.gg", "papaya.chat",
     "website-ai-agent.com", "jobswithpay.com", "soleapp.com.au",
     "flowmails.net", "cybermaps.dev", "provimedia.de",
+    # 2026-11-22 10:07 PST 轮热点榜自查补封：gtaviwiki.org 是 GTA VI
+    # 参考 wiki 站（标题自写 "Reference Site for Grand Theft Auto VI"），
+    # 是内容站、不是能直接用的工具；整站就是这一个 wiki，按游戏 wiki
+    # dragontraveler.gg 的口径封整个域名
+    "gtaviwiki.org",
     "opensoundconnect.app",
     # 2026-11-17 扩源实测封禁（Smol Launch 首批 50 条）：
     # talat.app 是桌面转录应用（Download for Mac/Windows）；
@@ -1307,6 +1312,11 @@ BLOCKED_URLS = {
     # 点击/拍手越快股价越高），纯游戏，按游戏口径一律拦；carllapierre.github.io
     # 是个人 GitHub Pages，只拦这一条链接，不封整个域名
     "https://carllapierre.github.io/clapdaq",
+    # 2026-11-22 10:07 PST 轮热点榜自查补封：World Map Chess
+    # （treegame.net/quick-play/world-map-chess）是 235 国地图上的回合制
+    # 策略棋类游戏，纯游戏，按游戏口径一律拦；treegame.net 站内可能还有
+    # 别的游戏/工具，只拦这一条链接，不封整个域名
+    "https://treegame.net/quick-play/world-map-chess",
     # 2026-11-22 01:07 CST 轮热点榜自查补封（浏览器实测确认）：
     # getlucera.com/iowa-lead-detonation 是爱荷华州陆军铅叠氮化物引爆事件的
     # 风险指数 + 风向互动地图，是围绕单条时事新闻做的可视化报道，不是能反复
