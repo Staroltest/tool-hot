@@ -337,6 +337,17 @@ BLOCKED_DOMAINS = {
     # Linux X11），须下载安装才能用，不是浏览器里直接用的工具；
     # 标题不露痕迹，标题门拦不住，域名封禁
     "voicevibe.ai",
+    # 2026-11-22 19:37 CST 轮：HomeBrain 是家用硬件小盒子（本地 AI、私有云、
+    # 密码库都跑在自家设备上），官网写明“Open source, and installable today.
+    # Runs on Ubuntu 24.04 or later... even on a Raspberry Pi 5”，且硬件仍
+    # 是原型、只能加入等候名单，点开网站本身不能用工具；标题只说“private
+    # cloud box, local agent”，标题门与实测都拦不住，域名封禁
+    "homebrain.house",
+    # 2026-11-22 19:37 CST 轮：osssoftware.org 是开源替代品目录站（“Alternative
+    # to: Product Hunt / Notion / Trello …”逐条列产品、链到各产品官网），本身
+    # 不是能直接用的工具；Disposable Email Checker 是纯 REST API（文档页只有
+    # GET /check 接口说明，无浏览器界面），同纯 API 平台，域名封禁
+    "osssoftware.org", "disposable-email-checker.ara-v1.workers.dev",
     # 2026-11-21 08:37 CST 轮：saturnsql.com/context-layer 是付费 SaaS
     # （€29/人/月 Pro 套餐）数据库上下文层产品的营销页，须注册付费并接入
     # 自有数据库、经 MCP 使用，页面本身不是点开能用的工具；同已封的
