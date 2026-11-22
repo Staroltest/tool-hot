@@ -1070,6 +1070,10 @@ BLOCKED_DOMAINS = {
     # play.stratego.com 的游戏框），附带的段位比较小工具只是配角，
     # 整站以玩游戏为主，按游戏口径封禁整个域名
     "strategoga.me",
+    # 2026-11-22 01:07 CST 轮热点榜自查补封（浏览器实测确认）：
+    # tebrun.io 是 80 年代街机赛车纯游戏（15 关、计分、排行榜），
+    # 整站就是游戏本身，按已定游戏口径（纯游戏一律拦）封禁整个域名
+    "tebrun.io",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -1303,6 +1307,12 @@ BLOCKED_URLS = {
     # 点击/拍手越快股价越高），纯游戏，按游戏口径一律拦；carllapierre.github.io
     # 是个人 GitHub Pages，只拦这一条链接，不封整个域名
     "https://carllapierre.github.io/clapdaq",
+    # 2026-11-22 01:07 CST 轮热点榜自查补封（浏览器实测确认）：
+    # getlucera.com/iowa-lead-detonation 是爱荷华州陆军铅叠氮化物引爆事件的
+    # 风险指数 + 风向互动地图，是围绕单条时事新闻做的可视化报道，不是能反复
+    # 用的工具，按只收工具网站标准拦；getlucera.com 本身是数据新闻站，只拦
+    # 这一条链接，不封整个域名
+    "https://getlucera.com/iowa-lead-detonation",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
@@ -1536,6 +1546,16 @@ _TITLE_BLOCK_RES = [
         # 的抽奖说法（2026-11-22 02:07 CST 轮：NovaBuddy 混入热点榜；
         # 离线验过全库 1176 条过门条目，只拦这一条，0 误伤）
         r"\bfirst\s+\d+\b.*\bget\b.*\bfree\b",
+        # 纯游戏的明确说法（如“a pseudo-3D arcade racer”）：
+        # arcade racer / racing game 都是游戏类型自述，网页工具标题里
+        # 不会出现；arcade game 同理
+        # （2026-11-22 01:07 CST 轮：TEB RUN 街机赛车纯游戏混入热点榜；
+        # 离线验过全库 4119 条在库条目，arcade racer 只拦 TEB RUN 一条、
+        # racing game 只拦已封域名的 outpostracer 一条、arcade game 0 条，
+        # 0 误伤）
+        r"\barcade racer\b",
+        r"\barcade game\b",
+        r"\bracing game\b",
     )
 ]
 

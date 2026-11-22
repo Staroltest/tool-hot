@@ -13054,5 +13054,17 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
+  },
+  "https://uyo.io": {
+    "en_title": "Uyo",
+    "en_oneliner": "Type a prompt or upload a photo to generate an image, then turn it into a short video — creators and small brands can do it all in the browser.",
+    "zh_title": "Uyo：给创作者的 AI 图片与短视频工作台",
+    "zh_oneliner": "写一句话或上传照片就能生成图片，再一键转成短视频，创作者和小品牌的图片视频都可以在浏览器里做完。"
+  },
+  "https://wydatki-app.github.io/wydatki": {
+    "en_title": "Wydatki: A Local-Only Expense Tracker in One HTML File",
+    "en_oneliner": "A single HTML file is the whole expense dashboard — it reads your bank statements locally and never sends them anywhere.",
+    "zh_title": "Wydatki：单文件本地记账本，不联网不上传",
+    "zh_oneliner": "一个 HTML 文件就是全部记账本，银行对账单只在本地浏览器里读，不联网、不上传，打开就能记账看支出。"
   }
 }
