@@ -1182,6 +1182,12 @@ BLOCKED_EXACT = {
     # 的 host 也要写
     "nitinjaiswal.com",
     "www.nitinjaiswal.com",
+    # 2026-11-22 09:37 CST 轮实测封禁（HN Show 新到混入热点榜）：
+    # matineegame.com 是猜电影上映年份的竞猜小游戏（纯游戏，按 11-18
+    # 以来封纯游戏的做法处理；游戏收录口径仍待用户定）；链接带 www
+    # 的 host 也要写
+    "matineegame.com",
+    "www.matineegame.com",
 }
 # 精确链接封禁（只拦这一条完整链接，不拦整个域名；与 BLOCKED_EXACT
 # 按 host 封禁不同，这里是按 norm_link 后的完整链接精确匹配）：
@@ -1192,6 +1198,13 @@ BLOCKED_EXACT = {
 # 这一条链接，绝不封 margeux.com 整个域名
 BLOCKED_URLS = {
     "https://margeux.com/temporaland/login.html",
+    # 2026-11-22 09:37 CST 轮实测封禁：erikbethke.com/coreweave 是
+    # CoreWeave GPU 租赁经济学的交互分析长文（相位图 + 滑杆 + 图表，
+    # 讲一家公司的 10-Q 财报），不是能直接用的工具；标题“Show HN: A
+    # phase diagram of CoreWeave's GPU economics”不露文章痕迹，标题门
+    # 与实测信号都拦不住，人工抽查封禁；erikbethke.com 是个人站，只拦
+    # 这一条链接，不封整个域名
+    "https://erikbethke.com/coreweave/index.html",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
