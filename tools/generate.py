@@ -182,6 +182,12 @@ BLOCKED_DOMAINS = {
     "wordpress.com", "cloudflare.com", "producthunt.com",
     "alternativeto.net", "toolify.ai", "betalist.com",
     "theresanaiforthat.com", "futuretools.io", "indiehackers.com",
+    # AIToolMix：AI 工具目录站（229 个工具按分类罗列、另有文章/优惠/新闻），
+    # 不是能直接用的工具本身（2026-11-22 06:37 CST 轮：热点第 1 条混入）
+    "aitoolmix.com",
+    # npx.tools：开发者工具索引站（可搜索的 npx 工具目录），所列工具需 npx
+    # 本地运行，不是浏览器里能直接用的工具（2026-11-22 06:37 CST 轮：热点第 1 条）
+    "npx.tools",
     "facebook.com", "instagram.com", "linkedin.com", "tiktok.com",
     "apps.apple.com", "play.google.com",
     # Steam 商店页：须下载安装的游戏/软件，不是浏览器里能直接用的工具
