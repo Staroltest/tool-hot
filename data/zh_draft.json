@@ -12514,5 +12514,11 @@
     "zh_oneliner": "开源的人格画像工具，1024 种画像替代 16 型 MBTI，还能看 Big Five 动态和两人合盘。",
     "en_title": "Show HN: QFTM-1024 – An open-source MBTI alternative with 1024 profiles",
     "en_oneliner": "An open-source personality profiler with 1,024 profiles instead of 16 MBTI types, plus Big Five dynamics and partner compatibility."
+  },
+  "https://worldfoundry-demo.vercel.app": {
+    "zh_title": "WorldFoundry：让 AI 智能体在模拟事故里证明自己",
+    "zh_oneliner": "在模拟的生产事故里指挥 AI 智能体处理故障，看看它能不能真正把问题解决，而不只是嘴上说搞定。",
+    "en_title": "Show HN: WorldFoundry – AI agents need experience, not just training data",
+    "en_oneliner": "Direct an AI agent through a simulated production outage and see whether it can actually fix the incident, not just claim it did."
   }
 }

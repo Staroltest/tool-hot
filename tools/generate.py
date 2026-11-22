@@ -1175,6 +1175,13 @@ BLOCKED_EXACT = {
     "nametheworld.starshadowx2.workers.dev",
     "play.outbid.sh",
     "plazzle.netlify.app",
+    # 2026-11-22 16:37 CST 轮实测封禁（HN Show 新到混入热点榜）：
+    # nitinjaiswal.com 是个人主页/人生故事站（创始人介绍、实验室
+    # 全景、旅行相册、厨房实验），没有能直接用的工具；标题“My whole
+    # life storytelling in this website”不露痕迹，实测封禁；链接带 www
+    # 的 host 也要写
+    "nitinjaiswal.com",
+    "www.nitinjaiswal.com",
 }
 # 精确链接封禁（只拦这一条完整链接，不拦整个域名；与 BLOCKED_EXACT
 # 按 host 封禁不同，这里是按 norm_link 后的完整链接精确匹配）：
