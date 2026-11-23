@@ -13762,5 +13762,29 @@
   "en_oneliner": "A social media planner and scheduler — plan the month on one calendar, get approvals, publish to eleven networks and answer everything from one inbox.",
   "zh_title": "Posty：社交媒体排期与审批",
   "zh_oneliner": "一个月的内容排在一张日历上，团队客户在线审批，定时发到十一个平台，评论私信都收进同一个收件箱。"
+ },
+ "https://chatform.in": {
+  "en_title": "ChatForm",
+  "en_oneliner": "A free conversational form builder that asks one question at a time, so people actually finish your forms.",
+  "zh_title": "ChatForm：像聊天一样填的表单",
+  "zh_oneliner": "把表单做成对话形式，一次只问一个问题，填表的人更愿意填完，提交率更高。"
+ },
+ "https://storagebits.github.io/ttlm": {
+  "en_title": "Show HN: TTLM, a language model running on a computer with no CPU",
+  "en_oneliner": "A tiny language model with just 22k ternary weights, running on an 8-bit computer built from 30 logic chips and no CPU — chat with it right in your browser.",
+  "zh_title": "TTLM：没有 CPU 的电脑上跑的语言模型",
+  "zh_oneliner": "一个只有 2.2 万个三值权重的迷你语言模型，跑在 30 块逻辑芯片搭成的 8 位电脑上，直接在浏览器里跟它聊天。"
+ },
+ "https://rokan.computer/check": {
+  "en_title": "Show HN: An in-browser checker for AI agent transcripts (nothing is uploaded)",
+  "en_oneliner": "Drop in an AI agent trace export and find where runs went silent, looped, or kept hitting a failing tool — everything runs in your browser, nothing is uploaded.",
+  "zh_title": "Rokan：AI 智能体运行记录检查器",
+  "zh_oneliner": "把智能体的运行记录拖进来，就能找出哪次调用卡住、死循环或反复报错，文件只在浏览器里处理，不上传。"
+ },
+ "https://glideworth.com/?ref=smollaunch": {
+  "en_title": "Glideworth",
+  "en_oneliner": "A retirement and FIRE planner that maps your money year by year, estimates tax in every year, and shows when you can retire and how much you can spend.",
+  "zh_title": "Glideworth：退休与 FIRE 规划器",
+  "zh_oneliner": "按年推算你的钱够花到哪一年，逐年估算税负，告诉你什么时候能退休、每月能花多少，不用登录银行账户。"
  }
 }

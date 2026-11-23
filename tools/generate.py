@@ -1569,6 +1569,13 @@ BLOCKED_URLS = {
     # 自行上传安装到 Claude 里才能用，页上无可直接运行的工具；按
     # “需要下载安装的不算”拦；只拦这一条链接，不封整个域名
     "https://ryanpark.ai/claude-skills",
+    # 2026-11-23 10:37 PST 轮热点榜自查补封（页面实测确认）：
+    # AgeGuessr（ageguessr.org/en/play/age）是猜照片里真人年龄的游戏
+    # （猜对得分、可与朋友对决），纯游戏，无工具功能，按游戏口径一律拦；
+    # 整站就是这一个游戏，根地址一并拦
+    "https://ageguessr.org/en/play/age",
+    "https://ageguessr.org",
+    "https://www.ageguessr.org",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
