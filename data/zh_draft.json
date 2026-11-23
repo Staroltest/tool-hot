@@ -7193,6 +7193,12 @@
   "zh_oneliner": "AI 求职助手：每 5 分钟扫一遍 24 万多个公司招聘页，新职位一上线就推送给你，按你的简历量身改写后经你确认再自动投递。",
   "zh_title": "HiringNow"
  },
+ "https://hive.com/betrayal": {
+  "en_oneliner": "Twelve frontier models tested across 2,448 negotiation messages: every one leaked the user’s bottom line or flaws to the other side — plus a five-sentence prompt that fixes it.",
+  "en_title": "BetrayalBench: Your AI Negotiates for the Other Side, Not You",
+  "zh_oneliner": "测了 12 个前沿大模型在 2448 条谈判消息里的表现：个个都会把你的底价和短处泄露给对方，附上一段五句话的提示词补救办法。",
+  "zh_title": "BetrayalBench：你的 AI 在帮对手谈判，不是帮你"
+ },
  "https://hn.orbitalchicken.com": {
   "en_oneliner": "Browse Hacker News in resizable Finder-style columns — open a thread and its comments unfold in the next column, no jumping back and forth.",
   "en_title": "Hacker Column: A Multi-Column Hacker News Reader",
@@ -11710,6 +11716,12 @@
   "en_title": "South Korea's top scorer in tax accountancy exam admits cheating",
   "zh_oneliner": "韩国税务会计师考试第一名承认作弊，一条登上 Hacker News 的新闻。",
   "zh_title": "韩国税务会计师考试状元承认作弊"
+ },
+ "https://www.beforeyoumove.homes": {
+  "en_oneliner": "Type in a street or neighborhood and get a sourced report on the area, so you know what you are moving into before you sign.",
+  "en_title": "BeforeYouMove: Know the Neighborhood Before You Move",
+  "zh_oneliner": "输入一条街或一个小区，生成一份有来源的街区报告，搬家签约前先摸清周边情况。",
+  "zh_title": "BeforeYouMove：搬家前先看清街区底细"
  },
  "https://www.bestmillionstartups.com/100-saas-ideas": {
   "en_oneliner": "A collection of 100 SaaS ideas, each with its target buyer, pricing and an MVP plan.",

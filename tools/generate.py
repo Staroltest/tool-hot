@@ -1437,6 +1437,12 @@ BLOCKED_URLS = {
     # 拦；标题门已同步加 tile puzzle 规则
     "https://lotlark.app",
     "https://www.lotlark.app",
+    # 2026-11-24 05:07 CST 轮自查补封（页面实测确认）：Same Place?
+    # （addressmatcher.vercel.app）是“两条地址记录是不是同一地点”的猜谜游戏
+    # （按难度计分、连对加分、无限玩下去），本质是人与模型比拼地址匹配的基准
+    # 测试游戏，无工具功能，按游戏口径（纯游戏一律拦）封禁；vercel.app 是
+    # 托管域名，只拦这一条链接，不封整个域名
+    "https://addressmatcher.vercel.app",
     # 2026-11-23 10:37 CST 轮热点榜自查补封（浏览器实测确认）：
     # FreshGameRadar（freshgameradar.com）首页就是“Latest articles”，全站
     # 是 Roblox 与浏览器游戏的攻略文章和兑换码列表，是游戏资讯/攻略内容站，
