@@ -1137,6 +1137,22 @@ BLOCKED_DOMAINS = {
     # 不是能在浏览器里直接用的工具；标题“Kopyo”不露痕迹，标题门与实测
     # 信号都拦不住，人工抽查封禁
     "kopyo.app",
+    # 2026-11-24 03:07 CST 轮归档复查补封：
+    # ttapi.io 是统一 AI 模型 REST API 平台（Midjourney、Flux、GPT、
+    # Claude 等 100+ 模型，一个 API key、按量付费），纯 API，无浏览器
+    # 工具；同已封的 TokLab 等纯 API 平台，域名封禁
+    "ttapi.io",
+    # autafy.ca 的 AIDA 是自托管个人 AI 助手（管邮件、日历、文件与自动化，
+    # 一次性授权、须装到自有服务器上跑），自托管工具不收，域名封禁
+    "autafy.ca",
+    # harry-potter-house-quiz.org 是哈利·波特分院纯问答游戏（做题测自己
+    # 属于哪个学院），整站就是这一个游戏，按游戏口径（纯游戏一律拦）封禁
+    "harry-potter-house-quiz.org",
+    # 2026-11-24 03:07 CST 轮热点榜自查补封（页面实测确认）：
+    # getdataengineeringjobs.com 是数据工程师招聘版（4304 个在招职位列表，
+    # 可按薪资/地点/技术栈筛选 + 每周邮件订阅），纯招聘信息目录站，无工具
+    # 功能；同已封的 jobswithpay.com、remotejobsrock.com 等招聘版，域名封禁
+    "getdataengineeringjobs.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -1576,6 +1592,13 @@ BLOCKED_URLS = {
     "https://ageguessr.org/en/play/age",
     "https://ageguessr.org",
     "https://www.ageguessr.org",
+    # 2026-11-24 03:07 CST 轮热点榜自查补封（页面实测确认）：
+    # Finish the Line（play.neilkakkar.com/finish-the-line）是每日读图猜
+    # 线游戏（看半张真实数据图表、手绘后半段走势、按与真实线的距离计分，
+    # 每天 3 张图、可翻倍、有连胜），纯游戏，按游戏口径一律拦；站内“More
+    # games”说明同站还有别的游戏，但 neilkakkar.com 是作者个人站，只拦
+    # 这一条链接，不封整个域名
+    "https://play.neilkakkar.com/finish-the-line",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
@@ -1749,6 +1772,12 @@ _TITLE_BLOCK_RES = [
         # 全库 3834 条在库条目，只多拦这一条，0 误伤）
         r"\bapi\s+and\s+mcp\b",
         r"\bmcp\s+and\s+api\b",
+        # “Job Board”（如“Job Board for Data Engineers”）：招聘信息目录站，
+        # 访客只能浏览职位列表、点出站外投递，站上没有能直接用的工具；同已封
+        # 的 jobswithpay.com、remotejobsrock.com、getdataengineeringjobs.com
+        # （2026-11-24 03:07 CST 轮：该条已进热点榜；离线验过全库 4423 条
+        # 在库条目，只多拦这 3 条招聘版，0 误伤）
+        r"\bjob\s+board\b",
         # 邮件课程（如“MIT's How to Make (Almost) Anything as a 100-day
         # email course”）：填邮箱后每天收课，站上没有能直接用的工具；
         # 域名门同步封 htmaa.clarkdinnison.com

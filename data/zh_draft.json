@@ -299,6 +299,18 @@
   "zh_oneliner": "在浏览器里生成主题写真套系，九场景固定套餐或自定义主题都行，按次付费出片，每张消耗一个点数。",
   "zh_title": "AI Photoshoot Now：浏览器里拍 AI 主题写真"
  },
+ "https://aipictureeditor.net/?ref=smollaunch": {
+  "en_oneliner": "Edit photos online with AI — swap backgrounds, remove objects and upscale images without installing anything.",
+  "en_title": "AI Picture Editor",
+  "zh_oneliner": "上传照片直接在网页上用 AI 修图，换背景、去水印、调画质都不用装软件。",
+  "zh_title": "AI Picture Editor：在线 AI 修图"
+ },
+ "https://airankingpro.com": {
+  "en_oneliner": "Track the questions your buyers ask AI every day: open a dated answer, see which pages it cites, and compare the evidence after you change your site.",
+  "en_title": "AI Ranking Pro",
+  "zh_oneliner": "每天追踪买家向 AI 提的问题：打开当天的回答，看它引用了哪些页面，改站之后再对比引用变化，摸清品牌在 AI 答案里的曝光。",
+  "zh_title": "AI Ranking Pro：B2B 品牌的 AI 搜索可见度追踪"
+ },
  "https://airtruth.vercel.app": {
   "en_oneliner": "Enter a flight number to cross-check radar, airport weather, and crew duty records for the real cause of a delay, and get a free compensation claim letter.",
   "en_title": "I built AirTruth — a tool that cross-checks ADS-B radar and airport weather to bust fake airline \"weather\" delay excuses",
@@ -635,6 +647,12 @@
   "zh_oneliner": "测试框架 Attest 关注 AI 智能体的实际行为而非口头承诺，让智能体评测更靠谱。",
   "zh_title": "Show HN：Attest，测试 AI 智能体做了什么，而不只是说了什么"
  },
+ "https://attractiveness-test.co?ref=smollaunch": {
+  "en_oneliner": "Upload a photo and let AI score your facial attractiveness from symmetry and proportions — processed locally, no account needed.",
+  "en_title": "AI Attractiveness Test: AI Face Attractiveness Score",
+  "zh_oneliner": "上传照片，让 AI 从面部对称与比例等角度给颜值打分，全程本地处理，不用注册账号。",
+  "zh_title": "AI Attractiveness Test：AI 颜值测评"
+ },
  "https://auteo.ai": {
   "en_oneliner": "Type one prompt and get video, images, voiceovers and music in a single browser studio, with your choice of models from first frame to final mix.",
   "en_title": "Auteo: AI Creative Suite That Turns One Prompt into Video, Images, Audio and Music",
@@ -869,6 +887,12 @@
   "zh_oneliner": "一台显示器竟然拖慢了网速，作者一路排查找到了意想不到的元凶。",
   "zh_title": "我的显示器把下载速度砍掉了 75%"
  },
+ "https://bloggity.io?ref=smollaunch": {
+  "en_oneliner": "Sets up your blog or content site to be found in AI search quickly, with a fast AI-visibility setup.",
+  "en_title": "Bloggity: Get Found in AI Search, Fast",
+  "zh_oneliner": "帮博客和内容站在 AI 搜索里更快被看见，几步搭好 AI 时代的可见度设置。",
+  "zh_title": "Bloggity：快速提升 AI 搜索可见度"
+ },
  "https://board.blink.cash": {
   "en_oneliner": "Describe a trade in plain words, see its rules as blocks, and run it right in the browser.",
   "en_title": "Build a trading bot in 10 seconds",
@@ -988,6 +1012,12 @@
   "en_title": "BuzzyX: AI-Powered X Growth Tool",
   "zh_oneliner": "用 AI 按你的语气写 X 帖子、定时发布，再看真实的 X 数据分析。",
   "zh_title": "BuzzyX：X 增长助手"
+ },
+ "https://bytepriva.com/cnic-scanner": {
+  "en_oneliner": "Snap the front and back of an ID card with your phone and get a print-ready A4 page, no trip to the copy shop needed.",
+  "en_title": "Show HN: Turn two phone photos of an ID card into a print-ready A4 page",
+  "zh_oneliner": "手机拍下身份证正反面两张照片，自动排成一张可直接打印的 A4 页面，复印身份证不用再跑复印店。",
+  "zh_title": "CNIC Scanner：手机拍身份证，两张照片拼成可打印 A4 页"
  },
  "https://bytepriva.com/n-up-pdf": {
   "en_oneliner": "A browser-based N-up PDF tool that fits several pages on one sheet, with booklet layout and right-to-left support.",
@@ -1114,6 +1144,12 @@
   "en_title": "Three.js House Builder: Draw a Floor Plan in 2D, See It in 3D",
   "zh_oneliner": "在浏览器里画二维平面图，立刻生成三维房屋，还能调时间看光影、走进去逛一逛。",
   "zh_title": "3D 房屋建造器：画平面图，实时看 3D 效果"
+ },
+ "https://chatform.in": {
+  "en_oneliner": "A free conversational form builder that asks one question at a time, so people actually finish your forms.",
+  "en_title": "ChatForm",
+  "zh_oneliner": "把表单做成对话形式，一次只问一个问题，填表的人更愿意填完，提交率更高。",
+  "zh_title": "ChatForm：像聊天一样填的表单"
  },
  "https://chatmizer.com": {
   "en_oneliner": "Build AI chatbots for WhatsApp, Instagram and TikTok that reply, follow up and sell without writing code.",
@@ -1624,6 +1660,12 @@
   "en_title": "HN: Teach a bot a secret rule and watch it learn from your answers",
   "zh_oneliner": "一个互动小演示，你先给机器人定一条秘密规则，再看它如何从你的回答中一点点把它学到手。",
   "zh_title": "教机器人一条秘密规则，看它从你的回答里学会"
+ },
+ "https://demoly.ai/?ref=smollaunch": {
+  "en_oneliner": "Turns your product into polished demo, tutorial and marketing videos with AI, no manual editing needed.",
+  "en_title": "Demoly: AI Product Demo Video Generator",
+  "zh_oneliner": "用 AI 快速做出专业感的产品演示、教程和营销视频，不用自己动手剪片。",
+  "zh_title": "Demoly：AI 产品演示视频生成"
  },
  "https://demudhra.sh": {
   "en_oneliner": "A small tool that removes leaked eMudhra certificates from your machine — one command to find and clear the bad certs.",
@@ -5663,6 +5705,12 @@
   "zh_oneliner": "拍一张孩子的画，AI 把它变成 8 秒动画，不用写提示词。",
   "zh_title": "Drawing to Animation：儿童画变动画"
  },
+ "https://dreamfield.gg": {
+  "en_oneliner": "Build your own 3D worlds in the browser and walk through worlds made by others — a lightweight world editor and explorer.",
+  "en_title": "Show HN: Dreamfield – Create and explore 3D worlds",
+  "zh_oneliner": "在浏览器里搭建自己的 3D 世界，还能走进去逛逛别人的作品，像个轻量版世界编辑器。",
+  "zh_title": "Dreamfield：创建并探索 3D 世界"
+ },
  "https://dtdigest.com": {
   "en_oneliner": "Collects updates from the YouTube channels, X accounts and Reddit communities you follow into one daily digest, so you don't have to check every feed all day.",
   "en_title": "DailyTube Digest: a daily digest of your YouTube, X and Reddit feeds",
@@ -5818,6 +5866,12 @@
   "en_title": "Beyond Test Cards: A Fake Payment Provider for Testing at Scale",
   "zh_oneliner": "只靠测试卡不够，Lyft 做了个假的支付服务商来做大规模测试，适合做支付系统测试的工程师。",
   "zh_title": "不止测试卡：Lyft 如何做一个假支付服务商来大规模测试"
+ },
+ "https://engagement.workventure.com/?ref=smollaunch": {
+  "en_oneliner": "Employee engagement and eNPS surveys for organizations in Thailand, helping companies read team morale and rank the best places to work.",
+  "en_title": "Best Places to Work: Employee Engagement Surveys",
+  "zh_oneliner": "面向泰国企业的员工敬业度与 eNPS 调研工具，帮公司摸清团队士气、评出最佳雇主。",
+  "zh_title": "Best Places to Work：员工敬业度调研"
  },
  "https://engineerine.com/japans-universal-artificial-blood": {
   "en_oneliner": "Japan has developed a universal artificial blood that needs no blood-type matching, potentially easing shortages for patients of any blood type.",
@@ -6070,6 +6124,12 @@
   "en_title": "FreeAPI: test 1,047 public APIs in the browser without signing up",
   "zh_oneliner": "1047 个公开 API 不用注册就能在浏览器里直接试，找接口、调接口都方便。",
   "zh_title": "FreeAPI：浏览器里直接试 1047 个免费公开 API"
+ },
+ "https://findme.alexvd.dev": {
+  "en_oneliner": "Record the sound of aircraft flying overhead and match it against public flight data to figure out where you are.",
+  "en_title": "Show HN: Find your location from the background noise of aircraft flying over",
+  "zh_oneliner": "录一段头顶飞机飞过的声音，对照公开航班数据反推你的位置，脑洞很大的定位小实验。",
+  "zh_title": "Find Me：靠头顶飞机的噪音定位你在哪"
  },
  "https://fizzler.ai": {
   "en_oneliner": "Plug it into your AI agent and, for open-ended questions, it first offers a few real things from other worlds so the answer escapes the obvious.",
@@ -6400,6 +6460,12 @@
   "en_title": "Show HN: Cinnamon AI – an agent I built for friends and family",
   "zh_oneliner": "给个人和家庭用的 AI 助手，能规划行程、盯着价格、整理邮箱和日历，动手前会先请示你，注册送 25 次免费任务额度。",
   "zh_title": "Cinnamon AI：给全家用的个人 AI 助手"
+ },
+ "https://getdataengineeringjobs.com": {
+  "en_oneliner": "A job board just for data engineers — filter data platform, warehouse and pipeline roles by type and remote options.",
+  "en_title": "Show HN: Job Board for Data Engineers",
+  "zh_oneliner": "只招数据工程师的招聘板，按岗位类型和远程与否筛选，找数仓、数据平台类工作很顺手。",
+  "zh_title": "数据工程师招聘板"
  },
  "https://getdebtpayoff.com": {
   "en_oneliner": "Enter your monthly budget to compare snowball vs. avalanche payoff strategies, with a month-by-month forecast of when you'll be debt-free.",
@@ -6820,6 +6886,12 @@
   "en_title": "Glass Page",
   "zh_oneliner": "让 Claude、ChatGPT 或 Cursor 等智能体把做好的东西发成一个链接，别人直接在评论串里评审，智能体再按意见出新版。",
   "zh_title": "Glass Page：AI 成果评审页"
+ },
+ "https://glideworth.com/?ref=smollaunch": {
+  "en_oneliner": "A retirement and FIRE planner that maps your money year by year, estimates tax in every year, and shows when you can retire and how much you can spend.",
+  "en_title": "Glideworth",
+  "zh_oneliner": "按年推算你的钱够花到哪一年，逐年估算税负，告诉你什么时候能退休、每月能花多少，不用登录银行账户。",
+  "zh_title": "Glideworth：退休与 FIRE 规划器"
  },
  "https://glimt.hellocyberspace.com": {
   "en_oneliner": "A generous interface for browsing Europeana's collections — wander through European digital heritage without needing a search query.",
@@ -7343,6 +7415,12 @@
   "zh_oneliner": "用 AI 生成产品图、按参考图改图，还能批量出不同 SKU 版本，直接在网页工作室里完成。",
   "zh_title": "InkRoom AI：AI 产品图工作室"
  },
+ "https://inkwell.software?ref=smollaunch": {
+  "en_oneliner": "AI-native screenwriting software that carries a script from first idea to finished draft.",
+  "en_title": "Inkwell: AI-Native Screenwriting Software",
+  "zh_oneliner": "为编剧而生的 AI 原生写作软件，从剧本构思到成稿都能在里面完成。",
+  "zh_title": "Inkwell：AI 原生编剧软件"
+ },
  "https://inread.app/?ref=producthunt": {
   "en_oneliner": "Your newsletters, outside your inbox — read all your subscriptions in one calm place.",
   "en_title": "inread.app",
@@ -7565,6 +7643,12 @@
   "zh_oneliner": "拖动时间轴穿越 2500 年印度历史，帝国更迭、旅程与事件都标在同一张互动地图上，点开就能逛。",
   "zh_title": "Bharat Itihaas：2500 年印度历史互动地图"
  },
+ "https://kettle.tools/riemann-hypothesis-explorer": {
+  "en_oneliner": "Browse the 17-million-line Lean formalization of the Riemann Hypothesis in your browser, searching definitions and tracing proof structure.",
+  "en_title": "Explorer for the 17M-Line Lean Proof of the Riemann Hypothesis",
+  "zh_oneliner": "在浏览器里逐行浏览 1700 万行 Lean 形式的黎曼猜想证明，可检索定义与定理、追踪证明结构。",
+  "zh_title": "黎曼猜想证明探索器：浏览 1700 万行 Lean 证明"
+ },
  "https://keybrum.com": {
   "en_oneliner": "Tracks new CVEs automatically and turns each into an attack case, then tests your own vibe-coded apps in a sandbox with sub-agents — including IDOR checks.",
   "en_title": "Keybrum – CVE Auto Pentest App",
@@ -7624,6 +7708,12 @@
   "en_title": "Show HN: Klistra – A complete studio for spec-driven AI motion design and video",
   "zh_oneliner": "说清要求、上传素材，它就按你的品牌把每个镜头逐项设计并动起来，改一处只变一处，重新渲染结果不变。",
   "zh_title": "Klistra：按规格书做 AI 动效与视频的完整工作室"
+ },
+ "https://kliv.dev?ref=smollaunch": {
+  "en_oneliner": "Describe your idea in words and Kliv turns it into a working app.",
+  "en_title": "Kliv: Describe an Idea, Get a Working App",
+  "zh_oneliner": "用一句话描述想法，Kliv 直接给你一个能跑起来的应用。",
+  "zh_title": "Kliv：说句话就生成应用"
  },
  "https://kobi.music/research/dettato": {
   "en_oneliner": "Upload a recording and this lightweight model transcribes it to MIDI right in your browser, with the result ready to download.",
@@ -7793,6 +7883,12 @@
   "zh_oneliner": "Reigns 式划卡生存游戏，在 AI 同事当道的办公室里左右滑动做决定，努力别被优化掉。",
   "zh_title": "LGTM：左右划卡，在 AI 同事手下求生"
  },
+ "https://lianex.ai": {
+  "en_oneliner": "Search eBay, Amazon AU, JB Hi-Fi and more in one go, comparing prices across stores instead of checking each site one by one.",
+  "en_title": "Show HN: Lianex – One Search Across eBay, Amazon AU, JB Hi-Fi and More",
+  "zh_oneliner": "一次搜索同时比价 eBay、澳洲亚马逊、JB Hi-Fi 等多个商城，找东西不用一个个网站轮着翻。",
+  "zh_title": "Lianex：一次搜遍 eBay、澳洲亚马逊等多家商城"
+ },
  "https://likejennieai.video": {
   "en_oneliner": "Turn any photo into a Like Jennie AI dance video.",
   "en_title": "Like Jennie AI",
@@ -7948,6 +8044,12 @@
   "en_title": "Show HN: Maglev – OpenRouter for Agent Tools",
   "zh_oneliner": "给 AI Agent 的工具调用做统一入口，像 OpenRouter 聚合模型那样聚合各家工具。",
   "zh_title": "Show HN：Maglev：Agent 工具界的 OpenRouter"
+ },
+ "https://maido.place": {
+  "en_oneliner": "Practise 9 languages by walking through 11 Three.js towns with live voice and open chat — language learning as a shared stroll.",
+  "en_title": "Show HN: 11 Three.js towns to practise 9 languages, live voice and open chat",
+  "zh_oneliner": "走进 11 座 Three.js 3D 小镇，和真人边逛边练外语，带实时语音和开放聊天室。",
+  "zh_title": "Maido：用 3D 小镇练 9 门外语"
  },
  "https://mailtopdf.top/en": {
   "en_oneliner": "Drop EML or MBOX mailbox files into the browser and turn them into PDFs — one per email or one merged file — all processed locally, nothing uploaded.",
@@ -8266,6 +8368,12 @@
   "en_title": "Mockreel",
   "zh_oneliner": "把屏幕录制装进一台 3D 手机模型里展示，免费免注册，演示效果立刻高级起来。",
   "zh_title": "Mockreel：3D 手机录屏展示"
+ },
+ "https://modeloop.app": {
+  "en_oneliner": "Design discrete-time controllers and simulate them right in the browser — tweak parameters and watch the system respond instantly.",
+  "en_title": "Show HN: Modeloop – Design and simulate discrete-time controllers in the browser",
+  "zh_oneliner": "在浏览器里画控制框图、跑离散时间仿真，调参数立刻看到系统响应，学控制理论时动手试很方便。",
+  "zh_title": "Modeloop：浏览器里设计与仿真离散时间控制器"
  },
  "https://modelrefs.com": {
   "en_oneliner": "Look up AI model specs and benchmark numbers where every figure comes with a citable source.",
@@ -8669,6 +8777,12 @@
   "zh_oneliner": "一部 AI 原生的商务电话：来电、短信和语音留言收进同一个收件箱，忙不过来时 AI 替你接听、分类并预约。",
   "zh_title": "Ody：AI 商务电话"
  },
+ "https://office.puter.com": {
+  "en_oneliner": "Write documents, build spreadsheets, make slides, edit PDFs, sketch on whiteboards and take notes right in your browser — no download, no install, files saved in standard Office formats.",
+  "en_title": "Puter Office: Free Office Suite in Your Browser",
+  "zh_oneliner": "不用下载安装，打开浏览器就能写文档、做表格、编幻灯片，还能编辑 PDF、画白板、记笔记，文件存成标准 Office 格式。",
+  "zh_title": "Puter Office：浏览器里的免费办公套件"
+ },
  "https://ofintech.ai/?ref=producthunt": {
   "en_oneliner": "Ask your ledgers questions in Arabic or English and get answers where every figure cites the entry it came from, plus month-end tracking and a board-ready reporting pack.",
   "en_title": "OfinTech Desk – AI finance assistant that reads your ledgers",
@@ -9005,6 +9119,12 @@
   "zh_oneliner": "输入喜欢的电影名字，就能生成一排像书架上书脊一样的电影海报墙，把你的片单变成一张可以分享的视觉收藏。",
   "zh_title": "PickMovies：把喜欢的电影排成一排书脊"
  },
+ "https://picnext.ai/?ref=smollaunch": {
+  "en_oneliner": "Turns a product photo or link into AI product images, short videos and ad creatives ready for listings and campaigns.",
+  "en_title": "PicNext: AI Product Images and Ad Creatives",
+  "zh_oneliner": "给电商店铺传一张产品图或贴个链接，AI 直接生成商品图、短视频和广告素材，拿来就能上架投放。",
+  "zh_title": "PicNext：AI 商品图与广告素材"
+ },
  "https://pinangle.app": {
   "en_oneliner": "Paste a blog post or product page and it generates Pinterest-style images and copy — tweak the layout and fonts, then publish straight to your board.",
   "en_title": "Show HN: PinAngle – Page content into Pinterest-ready Pins",
@@ -9016,6 +9136,12 @@
   "en_title": "Pinecall",
   "zh_oneliner": "在浏览器里搭建、测试和运行语音智能体，每通电话自动评分，表现差的通话还能转成新的测试用例。",
   "zh_title": "Pinecall"
+ },
+ "https://pingguye.cn/crisis-demo": {
+  "en_oneliner": "A pure-Python corporate crisis rehearsal sandbox that simulates unfolding crisis scenarios in the browser, so teams can practise emergency decisions before the real thing.",
+  "en_title": "Show HN: MiroFish 0.5.0 – Pure-Python Corporate Crisis Rehearsal Sandbox",
+  "zh_oneliner": "纯 Python 搭的企业危机演练沙盒，在浏览器里模拟突发危机场景，帮团队提前练好应急决策。",
+  "zh_title": "MiroFish 0.5.0：纯 Python 企业危机演练沙盒"
  },
  "https://pingwise.com/?ad=devhunt": {
   "en_oneliner": "Uptime monitoring confirmed from probes on three continents — know the moment your site goes down.",
@@ -9166,6 +9292,12 @@
   "en_title": "PostNitro: Turn Topics into Social Carousels",
   "zh_oneliner": "输入话题、链接或文字就生成 Instagram、LinkedIn、TikTok 的轮播图和社媒帖子，有免费套餐。",
   "zh_title": "PostNitro：话题一键变社交轮播图"
+ },
+ "https://posty.social?ref=smollaunch": {
+  "en_oneliner": "A social media planner and scheduler — plan the month on one calendar, get approvals, publish to eleven networks and answer everything from one inbox.",
+  "en_title": "Posty",
+  "zh_oneliner": "一个月的内容排在一张日历上，团队客户在线审批，定时发到十一个平台，评论私信都收进同一个收件箱。",
+  "zh_title": "Posty：社交媒体排期与审批"
  },
  "https://posy.page": {
   "en_oneliner": "A link-in-bio page that looks hand-made — pick one of six styles, add your links, and let AI update it for you. Free with unlimited links.",
@@ -9407,6 +9539,12 @@
   "zh_oneliner": "解读纽约 RAISE 法案的 AI 注册规则，涉及机密报告、每日罚款和叫停机制。",
   "zh_title": "纽约 AI 新规：机密报告、每日罚款与紧急叫停清单"
  },
+ "https://recordhtml.com": {
+  "en_oneliner": "Plays HTML5 ads and web animations in a real Chrome browser and records them as MP4, WebM or GIF at the exact size, frame rate and length your delivery spec asks for.",
+  "en_title": "RecordHTML: Record HTML5 Animations as Video",
+  "zh_oneliner": "在真实 Chrome 里播放 HTML5 广告或网页动画，按指定尺寸、帧率和时长录成 MP4、WebM 或 GIF，交片规格一次到位。",
+  "zh_title": "RecordHTML：把 HTML5 动画录成视频"
+ },
  "https://redirectaudit.com": {
   "en_oneliner": "A free online tool that audits your site's redirects for developers and SEO.",
   "en_title": "Redirect Audit: redirect checker",
@@ -9497,6 +9635,12 @@
   "zh_oneliner": "复古计算社区里一个有趣的问题：当年拨号调制解调器上的扬声器到底是用来干什么的。",
   "zh_title": "调制解调器为什么会有扬声器？"
  },
+ "https://retypewords.com": {
+  "en_oneliner": "An online AI image text editor that makes text baked into flat images editable, with no need for the original design file or font identification.",
+  "en_title": "RetypeWords",
+  "zh_oneliner": "在线 AI 图片文字编辑器，图片里烧死的文字也能直接改，不用原设计稿、不用找字体。",
+  "zh_title": "RetypeWords：图片里的文字也能改"
+ },
  "https://rezora.io/?ref=producthunt": {
   "en_oneliner": "Build an AI voice agent the way you'd set up a Shopify store — live and answering calls in ten minutes.",
   "en_title": "Rezora IO: Launch an AI Voice Agent in 10 Minutes",
@@ -9538,6 +9682,12 @@
   "en_title": "Does until it doesn't and doesn't until it does",
   "zh_oneliner": "Rodney Brooks 的随笔，聊技术、系统与预期之间那种反复横跳的微妙状态。",
   "zh_title": "管用，直到不管用；不管用，直到管用"
+ },
+ "https://rokan.computer/check": {
+  "en_oneliner": "Drop in an AI agent trace export and find where runs went silent, looped, or kept hitting a failing tool — everything runs in your browser, nothing is uploaded.",
+  "en_title": "Show HN: An in-browser checker for AI agent transcripts (nothing is uploaded)",
+  "zh_oneliner": "把智能体的运行记录拖进来，就能找出哪次调用卡住、死循环或反复报错，文件只在浏览器里处理，不上传。",
+  "zh_title": "Rokan：AI 智能体运行记录检查器"
  },
  "https://rooloans.com": {
   "en_oneliner": "Live Australian construction loan and progressive-draw mortgage comparisons from daily rate feeds.",
@@ -9730,6 +9880,12 @@
   "en_title": "Show HN: Play retro games on an Eastern European-inspired setup",
   "zh_oneliner": "一个东欧风味的小客厅场景，点开就能在里面玩复古游戏，氛围拉满。",
   "zh_title": "Retro：东欧风客厅里玩复古游戏"
+ },
+ "https://selixer.com?ref=smollaunch": {
+  "en_oneliner": "The profit OS for e-commerce — connect your store and ad accounts to see what every order and campaign really earns, and find the leaks.",
+  "en_title": "Selixer",
+  "zh_oneliner": "接上店铺和广告账户，算清每个订单、每条广告到底赚了多少，还能顺手揪出九种利润漏洞。",
+  "zh_title": "Selixer：电商利润操作系统"
  },
  "https://settledbyai.com": {
   "en_oneliner": "Describe an everyday dispute and get a neutral AI second opinion that helps both sides find a resolution they can live with.",
@@ -10019,6 +10175,12 @@
   "zh_oneliner": "在浏览器里直接跑 WASM 版 SQLite，既能动手练 SQL，又能顺着指南摸清数据库内部是怎么工作的。",
   "zh_title": "SQL in Depth：浏览器里的 SQLite 工作台与数据库内幕指南"
  },
+ "https://staffglance.com?ref=smollaunch": {
+  "en_oneliner": "A digital in/out board that shows who's in, out, remote or away across your organization, with optional Microsoft Teams integration.",
+  "en_title": "Staff Glance: Team In/Out Status Board",
+  "zh_oneliner": "一张数字看板看清全员在岗、外出、远程或休假状态，还能接进 Microsoft Teams。",
+  "zh_title": "Staff Glance：团队在岗状态看板"
+ },
  "https://starbright.quickthoughts.ca": {
   "en_oneliner": "A 15MB speech transcription model that runs right in your browser or on your device.",
   "en_title": "A 15MB Transcription Model That Runs in the Browser",
@@ -10049,6 +10211,12 @@
   "zh_oneliner": "Steve Blank 的一篇分析：聊聊 Nvidia 接下来可能走向哪里，适合关心芯片与 AI 行业格局的读者。",
   "zh_title": "Nvidia 的下一步是什么？"
  },
+ "https://sticksandstones.fyi": {
+  "en_oneliner": "Browse 17,000+ battles and wars across recorded history on an interactive globe, with an auto-play timelapse of how conflicts spread over time.",
+  "en_title": "Show HN: Sticks & Stones – 4,600yrs of historical conflict on an interactive map",
+  "zh_oneliner": "在交互式地球仪上浏览有文字记载以来 17000 多场战争与战役，还能自动播放，看冲突如何随时间蔓延。",
+  "zh_title": "Sticks & Stones：4600 年人类冲突史的交互地图"
+ },
  "https://stillvarsity.app": {
   "en_oneliner": "Personalized training plans, coaching and community for athletes, with workout and nutrition tracking.",
   "en_title": "Still Varsity: Personalized Training Plans for Athletes",
@@ -10061,17 +10229,17 @@
   "zh_oneliner": "Google 的 AI 修 Bug 助手：发现问题就自己动手修，还会盯着指标看修完有没有效果。",
   "zh_title": "Stitch Loop：盯着指标自动修 Bug 的 AI 助手"
  },
- "https://sticksandstones.fyi": {
-  "en_oneliner": "Browse 17,000+ battles and wars across recorded history on an interactive globe, with an auto-play timelapse of how conflicts spread over time.",
-  "en_title": "Show HN: Sticks & Stones – 4,600yrs of historical conflict on an interactive map",
-  "zh_oneliner": "在交互式地球仪上浏览有文字记载以来 17000 多场战争与战役，还能自动播放，看冲突如何随时间蔓延。",
-  "zh_title": "Sticks & Stones：4600 年人类冲突史的交互地图"
- },
  "https://stockrip.com/?rl=gami0x": {
   "en_oneliner": "Collect trillion-dollar companies like trading cards — open mystery packs, build your portfolio and earn Ripcoins.",
   "en_title": "StockRip – Trading Cards, Literally",
   "zh_oneliner": "开盲盒收集万亿市值公司的卡牌，组自己的投资组合，边玩边赚 Ripcoins。",
   "zh_title": "StockRip：像收集球星卡一样收集上市公司"
+ },
+ "https://storagebits.github.io/ttlm": {
+  "en_oneliner": "A tiny language model with just 22k ternary weights, running on an 8-bit computer built from 30 logic chips and no CPU — chat with it right in your browser.",
+  "en_title": "Show HN: TTLM, a language model running on a computer with no CPU",
+  "zh_oneliner": "一个只有 2.2 万个三值权重的迷你语言模型，跑在 30 块逻辑芯片搭成的 8 位电脑上，直接在浏览器里跟它聊天。",
+  "zh_title": "TTLM：没有 CPU 的电脑上跑的语言模型"
  },
  "https://storiara.com/feature/producer-room?ref=producthunt": {
   "en_oneliner": "AI producers dig into your film budget to find real savings, so every shoot spends with a plan.",
@@ -10631,6 +10799,12 @@
   "zh_oneliner": "免费在线工具合集，SEO、编辑和日常小工具都有，打开就用。",
   "zh_title": "Tool Wavee：免费在线工具合集"
  },
+ "https://top10q.app": {
+  "en_oneliner": "A to-do list app that keeps your focus on the ten things that matter most each day, automating and simplifying tasks so the list itself stops being extra work.",
+  "en_title": "Show HN: Top10Q – a to-do list app that does not create more work for you",
+  "zh_oneliner": "每天只盯最重要的十件事的待办应用，自动理清任务、简化日程，清单本身不再是负担。",
+  "zh_title": "Top10Q：不添乱的待办清单应用"
+ },
  "https://tradecontextiq.com": {
   "en_oneliner": "A daily US options watchlist with key levels to watch.",
   "en_title": "TradeContext IQ",
@@ -10871,6 +11045,12 @@
   "zh_oneliner": "街机格斗外壳的打字游戏，敲对单词出招，打字越快连招越狠。",
   "zh_title": "Type Fighter 2：街机风打字格斗游戏"
  },
+ "https://typeformula.com": {
+  "en_oneliner": "Type math equations as plain text and watch them render into clean formula notation instantly.",
+  "en_title": "Type Formula: Type Math Equations Like Plain Text",
+  "zh_oneliner": "用纯文本语法随手敲出数学公式，实时渲染成规整的公式排版。",
+  "zh_title": "Type Formula：像打纯文本一样输入数学公式"
+ },
  "https://typingg.app": {
   "en_oneliner": "Type a sentence in your target language and recall it from memory — daily typing practice that doubles as vocabulary and spelling training.",
   "en_title": "Show HN: I built an app that turns typing practice into language practice",
@@ -11093,6 +11273,12 @@
   "zh_oneliner": "把纠结的人生选择拆成清晰的对比，免费、无需注册，在网页上就能做决定。",
   "zh_title": "Vibes Matrix：把复杂的人生决定变简单"
  },
+ "https://video-cutter.ai/?ref=smollaunch": {
+  "en_oneliner": "Lets AI cut long videos, podcasts and webinars into share-ready Shorts automatically.",
+  "en_title": "Video Cutter AI: Turn Long Videos into Viral Shorts",
+  "zh_oneliner": "把长视频、播客和网络研讨会交给 AI，自动剪出适合短视频平台的精彩片段。",
+  "zh_title": "Video Cutter AI：长视频一键剪成短视频"
+ },
  "https://videocompress.io": {
   "en_oneliner": "Compress a video online down to the exact MB size you need — shrink oversized clips before sending them.",
   "en_title": "VideoCompress.io",
@@ -11104,6 +11290,12 @@
   "en_title": "VINC",
   "zh_oneliner": "在浏览器里拍电影：写剧本、定角色、搭 3D 场景、剪片调色，全套流程一个工作室搞定。",
   "zh_title": "VINC"
+ },
+ "https://viralvideoai.ai/?ref=smollaunch": {
+  "en_oneliner": "Paste a TikTok, YouTube or Instagram link — or add your photo to a trending template — and get an AI short video in one go.",
+  "en_title": "Viral Video AI: AI Shorts from Links and Templates",
+  "zh_oneliner": "贴一个 TikTok、YouTube 或 Instagram 链接，或套用热门模板加自己的照片，一键生成 AI 短视频。",
+  "zh_title": "Viral Video AI：AI 短视频生成"
  },
  "https://virginiameninoia.online": {
   "en_oneliner": "Upload a photo and step into a parking-lot serenade.",
@@ -11273,6 +11465,12 @@
   "zh_oneliner": "和家人分摊循环家务，计划变了还能互相换班。",
   "zh_title": "Who let the dog out：家庭杂务分工"
  },
+ "https://whoreallyownsamerica.com": {
+  "en_oneliner": "An interactive map of America's largest landholders, built from public tax rolls — zoom in and see who really owns the land around you.",
+  "en_title": "Show HN: Who Owns America – Largest US landholders from public tax rolls",
+  "zh_oneliner": "用公开税务记录画出的美国大地主交互地图，放大看看你家周围的土地到底归谁所有。",
+  "zh_title": "Who Owns America：美国最大地主一图看清"
+ },
  "https://widefleet.com": {
   "en_oneliner": "A deployment platform for teams building internal apps with coding agents, with company login, sharing, and IT controls built in.",
   "en_title": "Show HN: Widefleet Cloud - Deploy agent-built internal apps with SSO and storage",
@@ -11292,6 +11490,12 @@
   "zh_title": "Wine-Assembly：浏览器里跑 Windows 98 应用和游戏"
  },
  "https://wiro.ai": {
+  "en_oneliner": "One platform for generative AI — run 1,000+ image, video and speech models.",
+  "en_title": "Wiro AI: one platform for generative AI",
+  "zh_oneliner": "一个平台玩遍生成式 AI：一千多种图片、视频、语音模型随便跑。",
+  "zh_title": "Wiro AI：一站式生成式 AI"
+ },
+ "https://wiro.ai?ref=smollaunch": {
   "en_oneliner": "One platform for generative AI — run 1,000+ image, video and speech models.",
   "en_title": "Wiro AI: one platform for generative AI",
   "zh_oneliner": "一个平台玩遍生成式 AI：一千多种图片、视频、语音模型随便跑。",
@@ -12113,6 +12317,12 @@
   "zh_oneliner": "音乐和音频工具一站式：专业 AI 助手陪着你做。",
   "zh_title": "MusiCraft AI：音乐音频工具"
  },
+ "https://www.muvio.com/?ref=smollaunch": {
+  "en_oneliner": "Turns audio tracks, lyrics or text ideas into beat-synced, cinematic music videos in minutes.",
+  "en_title": "Muvio: AI Music Video Generator",
+  "zh_oneliner": "上传音频、歌词或一段文字点子，几分钟内生成踩着节拍、电影感十足的音乐视频。",
+  "zh_title": "Muvio：AI 音乐视频生成"
+ },
  "https://www.myaladdin.app/opt-tracker": {
   "en_oneliner": "Answer two questions and get your OPT filing window, deadlines and unemployment days left, plus a checklist — free, no signup.",
   "en_title": "Show HN: Free OPT tracker, built after a $5k filing mistake",
@@ -12256,6 +12466,12 @@
   "en_title": "Repurposing Thin Clients",
   "zh_oneliner": "闲置的瘦客户机别急着扔，这篇讲了怎么把它改造成还能派上用场的设备。",
   "zh_title": "让瘦客户机焕发第二春"
+ },
+ "https://www.penelope.ink": {
+  "en_oneliner": "Transcribe meeting recordings right in your browser using your own API key.",
+  "en_title": "Penelope: BYOK Meeting Transcriber Web App",
+  "zh_oneliner": "用自己的 API 密钥在浏览器里转录会议录音，语音转文字全程在线完成。",
+  "zh_title": "Penelope：自带密钥的在线会议转录工具"
  },
  "https://www.perplexity.ai/hub/blog/optimizing-on-device-inference-for-apple-silicon": {
   "en_oneliner": "A technical write-up on squeezing faster on-device inference out of Apple Silicon — for developers who care about local AI performance.",
@@ -13265,6 +13481,12 @@
   "zh_oneliner": "一块给 AI 智能体团队用的共享记忆白板，多个智能体可以在上面读写同一份记忆、协同干活。",
   "zh_title": "Waku.One：给团队 AI 智能体用的共享记忆与协作白板"
  },
+ "https://www.wanderwhim.com/map/small-web": {
+  "en_oneliner": "A clickable map of the small web — indie sites and personal pages laid out by theme, made for wandering.",
+  "en_title": "Show HN: Map of the Small Web",
+  "zh_oneliner": "一张可以点开逛的小网站地图，把独立站、个人主页按主题排布，适合漫无目的地发现好站。",
+  "zh_title": "Map of the Small Web：小众网站地图"
+ },
  "https://www.watched.earth": {
   "en_oneliner": "Type in any place on Earth and see every imaging, weather, radar and crewed satellite that passed over it.",
   "en_title": "I built a site that shows every satellite that passed over any location",
@@ -13282,6 +13504,12 @@
   "en_title": "A browser API for choosing and running local AI models",
   "zh_oneliner": "一个面向浏览器的 API，让网页能直接挑选并运行设备上的本地 AI 模型，不用走云端。",
   "zh_title": "一个浏览器 API：挑选并运行本地 AI 模型"
+ },
+ "https://www.wifriends.app": {
+  "en_oneliner": "Chat with people on the same Wi-Fi — in a café, hostel or train — no friend requests or phone numbers needed, and a new channel for venue owners to reach their visitors.",
+  "en_title": "Show HN: WiFriends – Talk to people on the same Wi-Fi",
+  "zh_oneliner": "连上同一个 Wi-Fi 就能和身边的人聊天，咖啡馆、青旅、火车上的店家也能借此和顾客搭话，不用加好友、不用留手机号。",
+  "zh_title": "WiFriends：和同一 Wi-Fi 下的人聊天"
  },
  "https://www.wired.com/story/we-have-to-take-over-far-right-extremists-want-to-seize-control-of-the-gop": {
   "en_oneliner": "A WIRED investigation into how far-right extremists are trying to seize control of the GOP from within.",
@@ -13642,149 +13870,5 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
- },
- "https://airankingpro.com": {
-  "en_title": "AI Ranking Pro",
-  "en_oneliner": "Track the questions your buyers ask AI every day: open a dated answer, see which pages it cites, and compare the evidence after you change your site.",
-  "zh_title": "AI Ranking Pro：B2B 品牌的 AI 搜索可见度追踪",
-  "zh_oneliner": "每天追踪买家向 AI 提的问题：打开当天的回答，看它引用了哪些页面，改站之后再对比引用变化，摸清品牌在 AI 答案里的曝光。"
- },
- "https://www.wifriends.app": {
-  "en_oneliner": "Chat with people on the same Wi-Fi — in a café, hostel or train — no friend requests or phone numbers needed, and a new channel for venue owners to reach their visitors.",
-  "en_title": "Show HN: WiFriends – Talk to people on the same Wi-Fi",
-  "zh_oneliner": "连上同一个 Wi-Fi 就能和身边的人聊天，咖啡馆、青旅、火车上的店家也能借此和顾客搭话，不用加好友、不用留手机号。",
-  "zh_title": "WiFriends：和同一 Wi-Fi 下的人聊天"
- },
- "https://lianex.ai": {
-  "en_oneliner": "Search eBay, Amazon AU, JB Hi-Fi and more in one go, comparing prices across stores instead of checking each site one by one.",
-  "en_title": "Show HN: Lianex – One Search Across eBay, Amazon AU, JB Hi-Fi and More",
-  "zh_oneliner": "一次搜索同时比价 eBay、澳洲亚马逊、JB Hi-Fi 等多个商城，找东西不用一个个网站轮着翻。",
-  "zh_title": "Lianex：一次搜遍 eBay、澳洲亚马逊等多家商城"
- },
- "https://bytepriva.com/cnic-scanner": {
-  "en_oneliner": "Snap the front and back of an ID card with your phone and get a print-ready A4 page, no trip to the copy shop needed.",
-  "en_title": "Show HN: Turn two phone photos of an ID card into a print-ready A4 page",
-  "zh_oneliner": "手机拍下身份证正反面两张照片，自动排成一张可直接打印的 A4 页面，复印身份证不用再跑复印店。",
-  "zh_title": "CNIC Scanner：手机拍身份证，两张照片拼成可打印 A4 页"
- },
- "https://pingguye.cn/crisis-demo": {
-  "en_oneliner": "A pure-Python corporate crisis rehearsal sandbox that simulates unfolding crisis scenarios in the browser, so teams can practise emergency decisions before the real thing.",
-  "en_title": "Show HN: MiroFish 0.5.0 – Pure-Python Corporate Crisis Rehearsal Sandbox",
-  "zh_oneliner": "纯 Python 搭的企业危机演练沙盒，在浏览器里模拟突发危机场景，帮团队提前练好应急决策。",
-  "zh_title": "MiroFish 0.5.0：纯 Python 企业危机演练沙盒"
- },
- "https://top10q.app": {
-  "en_oneliner": "A to-do list app that keeps your focus on the ten things that matter most each day, automating and simplifying tasks so the list itself stops being extra work.",
-  "en_title": "Show HN: Top10Q – a to-do list app that does not create more work for you",
-  "zh_oneliner": "每天只盯最重要的十件事的待办应用，自动理清任务、简化日程，清单本身不再是负担。",
-  "zh_title": "Top10Q：不添乱的待办清单应用"
- },
- "https://retypewords.com": {
-  "en_oneliner": "An online AI image text editor that makes text baked into flat images editable, with no need for the original design file or font identification.",
-  "en_title": "RetypeWords",
-  "zh_oneliner": "在线 AI 图片文字编辑器，图片里烧死的文字也能直接改，不用原设计稿、不用找字体。",
-  "zh_title": "RetypeWords：图片里的文字也能改"
- },
- "https://kettle.tools/riemann-hypothesis-explorer": {
-  "en_oneliner": "Browse the 17-million-line Lean formalization of the Riemann Hypothesis in your browser, searching definitions and tracing proof structure.",
-  "en_title": "Explorer for the 17M-Line Lean Proof of the Riemann Hypothesis",
-  "zh_oneliner": "在浏览器里逐行浏览 1700 万行 Lean 形式的黎曼猜想证明，可检索定义与定理、追踪证明结构。",
-  "zh_title": "黎曼猜想证明探索器：浏览 1700 万行 Lean 证明"
- },
- "https://www.penelope.ink": {
-  "en_oneliner": "Transcribe meeting recordings right in your browser using your own API key.",
-  "en_title": "Penelope: BYOK Meeting Transcriber Web App",
-  "zh_oneliner": "用自己的 API 密钥在浏览器里转录会议录音，语音转文字全程在线完成。",
-  "zh_title": "Penelope：自带密钥的在线会议转录工具"
- },
- "https://typeformula.com": {
-  "en_oneliner": "Type math equations as plain text and watch them render into clean formula notation instantly.",
-  "en_title": "Type Formula: Type Math Equations Like Plain Text",
-  "zh_oneliner": "用纯文本语法随手敲出数学公式，实时渲染成规整的公式排版。",
-  "zh_title": "Type Formula：像打纯文本一样输入数学公式"
- },
- "https://whoreallyownsamerica.com": {
-  "en_title": "Show HN: Who Owns America – Largest US landholders from public tax rolls",
-  "en_oneliner": "An interactive map of America's largest landholders, built from public tax rolls — zoom in and see who really owns the land around you.",
-  "zh_title": "Who Owns America：美国最大地主一图看清",
-  "zh_oneliner": "用公开税务记录画出的美国大地主交互地图，放大看看你家周围的土地到底归谁所有。"
- },
- "https://getdataengineeringjobs.com": {
-  "en_title": "Show HN: Job Board for Data Engineers",
-  "en_oneliner": "A job board just for data engineers — filter data platform, warehouse and pipeline roles by type and remote options.",
-  "zh_title": "数据工程师招聘板",
-  "zh_oneliner": "只招数据工程师的招聘板，按岗位类型和远程与否筛选，找数仓、数据平台类工作很顺手。"
- },
- "https://modeloop.app": {
-  "en_title": "Show HN: Modeloop – Design and simulate discrete-time controllers in the browser",
-  "en_oneliner": "Design discrete-time controllers and simulate them right in the browser — tweak parameters and watch the system respond instantly.",
-  "zh_title": "Modeloop：浏览器里设计与仿真离散时间控制器",
-  "zh_oneliner": "在浏览器里画控制框图、跑离散时间仿真，调参数立刻看到系统响应，学控制理论时动手试很方便。"
- },
- "https://findme.alexvd.dev": {
-  "en_title": "Show HN: Find your location from the background noise of aircraft flying over",
-  "en_oneliner": "Record the sound of aircraft flying overhead and match it against public flight data to figure out where you are.",
-  "zh_title": "Find Me：靠头顶飞机的噪音定位你在哪",
-  "zh_oneliner": "录一段头顶飞机飞过的声音，对照公开航班数据反推你的位置，脑洞很大的定位小实验。"
- },
- "https://aipictureeditor.net/?ref=smollaunch": {
-  "en_title": "AI Picture Editor",
-  "en_oneliner": "Edit photos online with AI — swap backgrounds, remove objects and upscale images without installing anything.",
-  "zh_title": "AI Picture Editor：在线 AI 修图",
-  "zh_oneliner": "上传照片直接在网页上用 AI 修图，换背景、去水印、调画质都不用装软件。"
- },
- "https://dreamfield.gg": {
-  "en_title": "Show HN: Dreamfield – Create and explore 3D worlds",
-  "en_oneliner": "Build your own 3D worlds in the browser and walk through worlds made by others — a lightweight world editor and explorer.",
-  "zh_title": "Dreamfield：创建并探索 3D 世界",
-  "zh_oneliner": "在浏览器里搭建自己的 3D 世界，还能走进去逛逛别人的作品，像个轻量版世界编辑器。"
- },
- "https://www.wanderwhim.com/map/small-web": {
-  "en_title": "Show HN: Map of the Small Web",
-  "en_oneliner": "A clickable map of the small web — indie sites and personal pages laid out by theme, made for wandering.",
-  "zh_title": "Map of the Small Web：小众网站地图",
-  "zh_oneliner": "一张可以点开逛的小网站地图，把独立站、个人主页按主题排布，适合漫无目的地发现好站。"
- },
- "https://maido.place": {
-  "en_title": "Show HN: 11 Three.js towns to practise 9 languages, live voice and open chat",
-  "en_oneliner": "Practise 9 languages by walking through 11 Three.js towns with live voice and open chat — language learning as a shared stroll.",
-  "zh_title": "Maido：用 3D 小镇练 9 门外语",
-  "zh_oneliner": "走进 11 座 Three.js 3D 小镇，和真人边逛边练外语，带实时语音和开放聊天室。"
- },
- "https://selixer.com?ref=smollaunch": {
-  "en_title": "Selixer",
-  "en_oneliner": "The profit OS for e-commerce — connect your store and ad accounts to see what every order and campaign really earns, and find the leaks.",
-  "zh_title": "Selixer：电商利润操作系统",
-  "zh_oneliner": "接上店铺和广告账户，算清每个订单、每条广告到底赚了多少，还能顺手揪出九种利润漏洞。"
- },
- "https://posty.social?ref=smollaunch": {
-  "en_title": "Posty",
-  "en_oneliner": "A social media planner and scheduler — plan the month on one calendar, get approvals, publish to eleven networks and answer everything from one inbox.",
-  "zh_title": "Posty：社交媒体排期与审批",
-  "zh_oneliner": "一个月的内容排在一张日历上，团队客户在线审批，定时发到十一个平台，评论私信都收进同一个收件箱。"
- },
- "https://chatform.in": {
-  "en_title": "ChatForm",
-  "en_oneliner": "A free conversational form builder that asks one question at a time, so people actually finish your forms.",
-  "zh_title": "ChatForm：像聊天一样填的表单",
-  "zh_oneliner": "把表单做成对话形式，一次只问一个问题，填表的人更愿意填完，提交率更高。"
- },
- "https://storagebits.github.io/ttlm": {
-  "en_title": "Show HN: TTLM, a language model running on a computer with no CPU",
-  "en_oneliner": "A tiny language model with just 22k ternary weights, running on an 8-bit computer built from 30 logic chips and no CPU — chat with it right in your browser.",
-  "zh_title": "TTLM：没有 CPU 的电脑上跑的语言模型",
-  "zh_oneliner": "一个只有 2.2 万个三值权重的迷你语言模型，跑在 30 块逻辑芯片搭成的 8 位电脑上，直接在浏览器里跟它聊天。"
- },
- "https://rokan.computer/check": {
-  "en_title": "Show HN: An in-browser checker for AI agent transcripts (nothing is uploaded)",
-  "en_oneliner": "Drop in an AI agent trace export and find where runs went silent, looped, or kept hitting a failing tool — everything runs in your browser, nothing is uploaded.",
-  "zh_title": "Rokan：AI 智能体运行记录检查器",
-  "zh_oneliner": "把智能体的运行记录拖进来，就能找出哪次调用卡住、死循环或反复报错，文件只在浏览器里处理，不上传。"
- },
- "https://glideworth.com/?ref=smollaunch": {
-  "en_title": "Glideworth",
-  "en_oneliner": "A retirement and FIRE planner that maps your money year by year, estimates tax in every year, and shows when you can retire and how much you can spend.",
-  "zh_title": "Glideworth：退休与 FIRE 规划器",
-  "zh_oneliner": "按年推算你的钱够花到哪一年，逐年估算税负，告诉你什么时候能退休、每月能花多少，不用登录银行账户。"
  }
 }
