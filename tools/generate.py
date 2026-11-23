@@ -1510,6 +1510,26 @@ BLOCKED_URLS = {
     # 工具网站标准拦；tusharsrivastava.github.io 是个人 GitHub Pages，
     # 只拦这一条链接，不封整个域名
     "https://tusharsrivastava.github.io/infiverse",
+    # 2026-11-23 06:42 PST 轮自查补封（浏览器实测确认）：
+    # MOPy Fish（mopyfish.com）是 1997 年虚拟鱼游戏移植到浏览器，
+    # 访客只能给鱼起名、在画布里养鱼互动，无任何工具功能，纯游戏，
+    # 按游戏口径一律拦；标题“reverse engineered with AI agents to
+    # run in a browser”不露游戏痕迹，标题门与实测信号都拦不住
+    "https://mopyfish.com",
+    "https://www.mopyfish.com",
+    # 2026-11-23 06:42 PST 轮自查补封（浏览器实测确认）：
+    # Wall of 2026（wallof2026.com）是社交/时间胶囊参与页，访客写
+    # 一句不超过 80 字符的话贴上墙、12 月 31 日封存，无生成、转换、
+    # 编辑或计算类工具功能，按只收工具网站标准拦；只拦根链接
+    "https://wallof2026.com",
+    "https://www.wallof2026.com",
+    # 2026-11-23 06:42 PST 轮自查补封（浏览器实测确认）：
+    # Agentic Algorithm Engineering（chszlab.github.io/
+    # AgenticAlgorithmEngineering）是海德堡大学算法工程组的 agent
+    # skill 介绍页，Quick start 是往 Claude Code/Codex 里安装技能，
+    # 浏览器内无可直接用的工具界面，须安装进本地编码 agent 才能用，
+    # 按“需要下载安装的不算”拦；只拦这一条链接，不封整个域名
+    "https://chszlab.github.io/AgenticAlgorithmEngineering",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {

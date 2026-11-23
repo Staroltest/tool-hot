@@ -13654,5 +13654,23 @@
   "en_title": "Show HN: Turn two phone photos of an ID card into a print-ready A4 page",
   "zh_oneliner": "手机拍下身份证正反面两张照片，自动排成一张可直接打印的 A4 页面，复印身份证不用再跑复印店。",
   "zh_title": "CNIC Scanner：手机拍身份证，两张照片拼成可打印 A4 页"
+ },
+ "https://pingguye.cn/crisis-demo": {
+  "en_oneliner": "A pure-Python corporate crisis rehearsal sandbox that simulates unfolding crisis scenarios in the browser, so teams can practise emergency decisions before the real thing.",
+  "en_title": "Show HN: MiroFish 0.5.0 – Pure-Python Corporate Crisis Rehearsal Sandbox",
+  "zh_oneliner": "纯 Python 搭的企业危机演练沙盒，在浏览器里模拟突发危机场景，帮团队提前练好应急决策。",
+  "zh_title": "MiroFish 0.5.0：纯 Python 企业危机演练沙盒"
+ },
+ "https://top10q.app": {
+  "en_oneliner": "A to-do list app that keeps your focus on the ten things that matter most each day, automating and simplifying tasks so the list itself stops being extra work.",
+  "en_title": "Show HN: Top10Q – a to-do list app that does not create more work for you",
+  "zh_oneliner": "每天只盯最重要的十件事的待办应用，自动理清任务、简化日程，清单本身不再是负担。",
+  "zh_title": "Top10Q：不添乱的待办清单应用"
+ },
+ "https://retypewords.com": {
+  "en_oneliner": "An online AI image text editor that makes text baked into flat images editable, with no need for the original design file or font identification.",
+  "en_title": "RetypeWords",
+  "zh_oneliner": "在线 AI 图片文字编辑器，图片里烧死的文字也能直接改，不用原设计稿、不用找字体。",
+  "zh_title": "RetypeWords：图片里的文字也能改"
  }
 }
