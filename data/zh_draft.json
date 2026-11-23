@@ -13594,5 +13594,23 @@
     "en_title": "Othor AI: A Morning Brief on What Your Business Is Hiding",
     "zh_oneliner": "每晚扫描业务数据里的异常信号，早上 6 点送上一份简报：什么变了、意味着什么、该问谁。",
     "zh_title": "Othor AI：每天早上送到的业务情报简报"
+  },
+  "https://learnarduino.org": {
+    "zh_title": "Learn Arduino：3D 交互式 Arduino Uno 模拟器",
+    "zh_oneliner": "在浏览器里摆弄一台虚拟 Arduino Uno：旋转电路板、调元件参数、看 LED 亮灭，16 节互动课从零讲清电路与编程，前 3 节免费。",
+    "en_title": "Learn Arduino: Interactive 3D Arduino Uno Simulator",
+    "en_oneliner": "Tinker with a virtual Arduino Uno in your browser — rotate the board, tweak components and watch LEDs blink across 16 interactive lessons, the first three free."
+  },
+  "https://floxolab.com/sitemap-checker": {
+    "zh_title": "Floxolab Sitemap Checker：免费 XML 网站地图检查工具",
+    "zh_oneliner": "免费检查 XML 网站地图，揪出影响搜索引擎收录的索引问题，粘贴链接就能出报告。",
+    "en_title": "Floxolab Sitemap Checker: Free XML Sitemap Checker",
+    "en_oneliner": "A free checker that scans your XML sitemap and flags indexing issues — paste a URL and get the report."
+  },
+  "https://photomuseum.davidemornatta.it": {
+    "zh_title": "Photo Museum：把照片变成可漫步的 3D 小博物馆",
+    "zh_oneliner": "上传最多 20 张照片，一键生成一座能走进去逛的 3D 迷你博物馆，把回忆挂上墙慢慢看。",
+    "en_title": "Photo Museum: Turn Your Photos into a Walkable 3D Museum",
+    "en_oneliner": "Drop in up to 20 photos and wander through a tiny 3D museum built from them — your memories, hung on the wall."
   }
 }

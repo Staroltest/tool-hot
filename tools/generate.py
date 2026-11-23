@@ -1120,6 +1120,13 @@ BLOCKED_DOMAINS = {
     # dealgather.com 是亚马逊/AliExpress/eBay 优惠券与折扣商品聚合站
     # （导购/折扣清单），不是能直接用的工具
     "dealgather.com",
+    # 2026-11-23 20:07 CST 轮热点榜自查补封（浏览器实测确认）：
+    # symbiocit.com 是“数字公民注册”AI 伴侣服务营销页（给 AI 办“出生证”
+    # 与年龄时钟，分阶段“公民身份”、配“生命保险”），点开是罗马尼亚语
+    # 落地页，须注册才能用，不是能直接用的工具；
+    # repohype.com 是 GitHub 热门仓库精选目录站（每条一句话介绍 + 外链），
+    # 整站就是仓库目录，按只收工具网站标准（不收目录页）封禁
+    "symbiocit.com", "repohype.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
