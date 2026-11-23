@@ -959,6 +959,11 @@ BLOCKED_DOMAINS = {
     # Caja Clara：卖 US$7 的 Excel 记账文件（"Archivo .xlsx editable"），
     # 是下载售卖页不是在线工具；只拦该 chatgpt.site 子域
     "caja-clara-ventas.futurebay5.chatgpt.site",
+    # 2026-11-23 01:07 PST 轮抽查封禁（HN Show 新到，混入当日时间线）：
+    # ATUF Explorer 是量子引力理论的交互式科普长文（"Lean Formalization
+    # of Quantum Gravity"），带滑块演示的叙事文章，不是能直接用的工具；
+    # 只拦该 chatgpt.site 子域
+    "atuf-explorer.toughlute16.chatgpt.site",
     # 2026-11-20 16:07 CST 轮抽查封禁（本轮新到，4 条）：
     # Docker：docker.com 首页是容器平台营销页，产品须下载 Docker Desktop
     # 才能用，不是浏览器里能直接用的工具

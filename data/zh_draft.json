@@ -101,6 +101,12 @@
   "zh_oneliner": "Lyttle Lytton 大赛比的是谁能写出最烂的小说开头，2026 年的获奖名单出炉了。",
   "zh_title": "2026 年 Lyttle Lytton 大赛获奖名单"
  },
+ "https://addercad.com/tools": {
+  "en_oneliner": "View and convert STEP, STL, 3MF and OBJ files for 3D printing right in your browser, plus a snap-fit joint generator and print cost calculator — your files never leave your device.",
+  "en_title": "Show HN: Browser-only STEP, STL, 3MF and OBJ tools for 3D printing",
+  "zh_oneliner": "在浏览器里查看、转换 STEP、STL、3MF、OBJ 等 3D 打印文件，还能生成卡扣接头、估算打印成本，文件不出本机。",
+  "zh_title": "AdderCAD：浏览器里的 3D 打印文件工具箱"
+ },
  "https://addons.mozilla.org/en-US/firefox/addon/cloakprompt": {
   "en_oneliner": "A Firefox add-on that works like a local firewall, scrubbing personal data and API keys from your prompts before they reach ChatGPT or Claude.",
   "en_title": "CloakPrompt – Local browser firewall that scrubs PII/keys before ChatGPT/Claude",
@@ -7180,6 +7186,12 @@
   "en_title": "HuntMonitor",
   "zh_oneliner": "实时看 Product Hunt 今天的榜单：分数、速度和排名变化，产品冲榜全程直播。",
   "zh_title": "HuntMonitor：实时追踪 Product Hunt 今日榜单"
+ },
+ "https://hxu129.github.io/scholarcraft-tools/promptshield/index.html": {
+  "en_oneliner": "Swap emails, API keys and other sensitive bits in your prompts for placeholders before sending them to an AI, then restore them in the reply — everything runs locally in your browser.",
+  "en_title": "Show HN: PromptShield – Local reversible secret/PII redactor for LLM prompts",
+  "zh_oneliner": "把提示词里的邮箱、密钥等敏感信息先替换成占位符再发给 AI，收到回复后一键还原，全程在浏览器本地处理，不联网。",
+  "zh_title": "PromptShield：本地可逆的提示词敏感信息脱敏工具"
  },
  "https://hyred.id/en": {
   "en_oneliner": "An AI CV reviewer for job seekers whose applications get no reply.",
