@@ -5663,6 +5663,12 @@
   "zh_oneliner": "把一张扁平图片拆成可编辑的图层或示意图。",
   "zh_title": "EditableImage 图片分层工具"
  },
+ "https://edittextimage.com": {
+  "en_oneliner": "Change the words inside any image and they are redrawn in the same font, color, and perspective — for posters, screenshots, and packaging.",
+  "en_title": "EditTextImage: Edit Text in Images Online",
+  "zh_oneliner": "直接改图片里的文字，改完的字会按原来的字体、颜色和透视重画，海报、截图、包装都能用。",
+  "zh_title": "EditTextImage：在线改图上的文字"
+ },
  "https://edx0.dev": {
   "en_oneliner": "Real dev containers in the browser — editor, terminal and AI coding agent included — running Node, Next.js, Python and more with nothing to install.",
   "en_title": "Edx0 — Instant Dev Containers in the Browser",
@@ -7787,6 +7793,12 @@
   "zh_oneliner": "给 AI 提示词打分并帮你改得更好，打开即用，不用注册。",
   "zh_title": "Prompt Upgrader：免注册的 AI 提示词评分与改写工具"
  },
+ "https://magicremover.org": {
+  "en_oneliner": "Brush over anything in a photo — people, text, or watermarks — and it disappears in seconds, free with no signup and no watermark.",
+  "en_title": "MagicRemover: Free AI Object Remover for Photos",
+  "zh_oneliner": "在照片上涂抹一下就能去掉路人、文字或水印，免费、不用注册、也不加水印。",
+  "zh_title": "MagicRemover：免费 AI 图片去物工具"
+ },
  "https://maglev.sh": {
   "en_oneliner": "A single gateway for AI agents to call tools, aggregating providers the way OpenRouter aggregates models.",
   "en_title": "Show HN: Maglev – OpenRouter for Agent Tools",
@@ -9718,6 +9730,12 @@
   "en_title": "Spanish Word Unscrambler & Word Finder",
   "zh_oneliner": "输入一串乱序字母，找出能拼出的西班牙语单词。",
   "zh_title": "西班牙语单词解码器"
+ },
+ "https://sparkpix.ai": {
+  "en_oneliner": "Make AI-generated photos look real, upscale to 4K, fix hands, and unblur images — a full photo editor that runs in the browser.",
+  "en_title": "SparkPix: AI Photo Editor",
+  "zh_oneliner": "让 AI 生成的图片更像真照片，还能高清放大、修复手部、去模糊，一站式修图全在浏览器里完成。",
+  "zh_title": "SparkPix：AI 照片编辑器"
  },
  "https://spectrum.ieee.org/skydio-f10-lightrunner-asymmetrical-drone": {
   "en_oneliner": "Skydio built an asymmetrical drone, and this piece explains the trade-offs behind the unconventional design — for readers following drone and robotics hardware.",
