@@ -1611,6 +1611,31 @@ BLOCKED_URLS = {
     # 一律拦；pzlgames.com 是游戏站，只拦这一条链接，不封整个域名
     "https://pzlgames.com/games/middleword",
     "https://www.pzlgames.com/games/middleword",
+    # 2026-11-24 06:07 CST 轮（日报轮）热点榜自查补封（页面实测确认）：
+    # Lode Runner 2099（loderunner2099.exe.xyz）是经典 Lode Runner
+    # 的浏览器复刻版，纯游戏，无工具功能，按游戏口径一律拦
+    "https://loderunner2099.exe.xyz",
+    # 2026-11-24 06:07 CST 轮热点榜自查补封（页面实测确认）：
+    # Flowers for the Unemployed（flowersfortheunemployed.com）是
+    # “关于科技求职的 RPG”浏览器游戏（页上自写“This site is a browser
+    # game”），纯游戏，按游戏口径一律拦；只拦根链接
+    "https://flowersfortheunemployed.com",
+    "https://www.flowersfortheunemployed.com",
+    # 2026-11-24 06:07 CST 轮热点榜自查补封（页面实测确认）：
+    # Truce（trucehq.com/agents）是供 AI agent 调用的中立调解服务，
+    # 页上只有 MCP server 与 JSON API 文档、演示视频，访客点开没有能
+    # 直接在浏览器里用的工具界面，纯 API/MCP 平台，按“纯 API 平台不收”
+    # 口径拦（与此前 TokLab、ScraperSocial、PennyCompute 同类处理）；
+    # 只拦这一条链接，不封 trucehq.com 整个域名
+    "https://trucehq.com/agents",
+    "https://www.trucehq.com/agents",
+    # 2026-11-24 06:07 CST 轮热点榜自查补封（页面实测确认）：
+    # BetrayalBench（hive.com/betrayal）是 Hive Research 的基准测试
+    # 研究报告页（12 个前沿模型 2448 条议价消息的泄漏数据、图表与
+    # “Hive Brief”提示词），是文章/研究报告，不是能直接用的工具网站；
+    # 只拦这一条链接，不封 hive.com 整个域名
+    "https://hive.com/betrayal",
+    "https://www.hive.com/betrayal",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {

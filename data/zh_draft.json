@@ -8795,6 +8795,12 @@
   "zh_oneliner": "不用下载安装，打开浏览器就能写文档、做表格、编幻灯片，还能编辑 PDF、画白板、记笔记，文件存成标准 Office 格式。",
   "zh_title": "Puter Office：浏览器里的免费办公套件"
  },
+ "https://offthread.chat": {
+  "en_oneliner": "An AI chat that redacts personal details in your browser before anything is sent, so private information never leaves your device.",
+  "en_title": "Offthread – AI Chat That Redacts Personal Details in the Browser",
+  "zh_oneliner": "先在浏览器本地把姓名、地址等个人信息涂掉再发给 AI 聊天，隐私不出本机。",
+  "zh_title": "Offthread：浏览器里自动打码隐私的 AI 聊天"
+ },
  "https://ofintech.ai/?ref=producthunt": {
   "en_oneliner": "Ask your ledgers questions in Arabic or English and get answers where every figure cites the entry it came from, plus month-end tracking and a board-ready reporting pack.",
   "en_title": "OfinTech Desk – AI finance assistant that reads your ledgers",
@@ -9166,6 +9172,12 @@
   "en_title": "Pin One Photo",
   "zh_oneliner": "把照片钉在地图上，和大家一起分享日常发现的地方，边逛边看别人眼里的世界。",
   "zh_title": "Pin One Photo：共享照片地图"
+ },
+ "https://pinpoint.sorzel.com": {
+  "en_oneliner": "Click where it hurts on a 3D body and see the muscles, bones and organs underneath.",
+  "en_title": "Pinpoint – Click Where It Hurts on a 3D Body and See What's Under It",
+  "zh_oneliner": "在 3D 人体模型上点一下疼痛部位，立刻看到底下的肌肉、骨骼和器官。",
+  "zh_title": "Pinpoint：点一点 3D 人体，看看疼的地方下面是什么"
  },
  "https://pirateface.co/activity": {
   "en_oneliner": "A live peer-to-peer platform for sharing open models, no central server needed.",
