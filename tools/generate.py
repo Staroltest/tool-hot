@@ -298,6 +298,10 @@ BLOCKED_DOMAINS = {
     # 是内容站、不是能直接用的工具；整站就是这一个 wiki，按游戏 wiki
     # dragontraveler.gg 的口径封整个域名
     "gtaviwiki.org",
+    # 2026-11-23 21:07 CST 轮热点榜自查补封：zipzax.com 是 AI/在线工具
+    # 目录站（首页罗列 475+ 工具、链到站外），不是能直接用的工具本身；
+    # 按目录站（aitoolmix.com、theresanaiforthat.com）口径封整个域名
+    "zipzax.com",
     "opensoundconnect.app",
     # 2026-11-17 扩源实测封禁（Smol Launch 首批 50 条）：
     # talat.app 是桌面转录应用（Download for Mac/Windows）；
