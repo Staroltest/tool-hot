@@ -1309,6 +1309,12 @@ BLOCKED_URLS = {
     # 假名 Wordle 纯游戏，按新定游戏口径（纯游戏一律拦）封禁；ezfurigana.com
     # 本身是注音工具站，只拦这一条链接，不封整个域名
     "https://www.ezfurigana.com/kakurenbo",
+    # 2026-11-23 03:37 PST 轮热点榜自查补封（页面实测确认）：
+    # DeepRubik（asamarts.github.io/deeprubik）是浏览器里的写实魔方
+    # 谜题（拖动转层、空格打乱、回车复位），纯游戏，无解法等工具功能，
+    # 按游戏口径一律拦；asamarts.github.io 是个人 GitHub Pages，只拦
+    # 这一条链接，不封整个域名
+    "https://asamarts.github.io/deeprubik",
     # 2026-11-22 20:37 CST 轮：Dawdle（playdawdle.com）是每日 15 字母拼词
     # 游戏（5 分钟内组词比拼），纯游戏，按游戏口径封禁；实测页面只有玩法
     # 说明与计分规则，无工具功能

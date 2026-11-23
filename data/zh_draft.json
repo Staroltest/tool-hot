@@ -6311,6 +6311,12 @@
   "zh_oneliner": "给个人和家庭用的 AI 助手，能规划行程、盯着价格、整理邮箱和日历，动手前会先请示你，注册送 25 次免费任务额度。",
   "zh_title": "Cinnamon AI：给全家用的个人 AI 助手"
  },
+ "https://gethotellobby.com": {
+  "en_oneliner": "Upload two photos and get a 15-second AI video of a hotel lobby — a quick way to preview a space before you build or book it.",
+  "en_title": "Get Hotel Lobby",
+  "zh_oneliner": "上传两张照片，就能生成一段 15 秒的酒店大堂 AI 视频，装修前先看看空间效果，或是给方案配个动态预览。",
+  "zh_title": "Get Hotel Lobby：两张照片生成 15 秒酒店大堂 AI 视频"
+ },
  "https://getinstash.com": {
   "en_oneliner": "A tool that auto-categorises any link you share — for readers who like collecting and organizing web content.",
   "en_title": "Show HN: Instash share any link, auto-categorises it",
