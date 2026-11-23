@@ -7151,6 +7151,12 @@
   "zh_oneliner": "有人在 Instagram 评论留关键词就自动私信发链接或福利，还能回故事私信、跟进未点击的人，适合做私域引流。",
   "zh_title": "IGMsg：Instagram 评论自动私信工具"
  },
+ "https://ignis.ray-d-song.com": {
+  "en_oneliner": "Run LLMs and multimodal inference right in your browser, with no install and no data sent to a server.",
+  "en_title": "Show HN: Ignis – A browser-native LLM and multimodal inference engine",
+  "zh_oneliner": "在浏览器里直接运行大语言模型和多模态推理，不用安装，也不用把数据发到服务器。",
+  "zh_title": "Show HN：Ignis：浏览器里直接跑的大模型与多模态推理引擎"
+ },
  "https://ihateimg.cv": {
   "en_oneliner": "Compress, convert and crop images entirely in your browser — your files never leave your device, so nothing is uploaded.",
   "en_title": "ihateimg.cv",
@@ -7258,6 +7264,12 @@
   "en_title": "Interview Coach",
   "zh_oneliner": "对着会追问的 AI 面试官开口练，按你的目标岗位出题，练完给反馈和下一步计划。",
   "zh_title": "Interview Coach：AI 面试陪练"
+ },
+ "https://inthepond.com.au/night-lamp": {
+  "en_oneliner": "A web page that turns your screen into a soft night lamp, so a bright monitor won't keep you up while agents run overnight.",
+  "en_title": "Show HN: Monitor is so bright at night when agents are running so I built a lamp",
+  "zh_oneliner": "把屏幕变成一盏柔和夜灯的网页，半夜跑任务时不用再被刺眼的亮光晃到。",
+  "zh_title": "Show HN：深夜屏幕太亮，我做了个夜灯网页"
  },
  "https://introzy.com/?ref=producthunt": {
   "en_oneliner": "Track every partner referral from first touch to closed deal and commission payout, all in one place — no spreadsheet needed.",
@@ -12893,6 +12905,12 @@
   "zh_oneliner": "一整套 AI 工具：创作流程里的杂活都包了。",
   "zh_title": "Velanta.io：AI 工具套装"
  },
+ "https://www.veol.ai": {
+  "en_oneliner": "A browser-based AI creative studio for images with Nano Banana and videos with Seedance and Veo, with the credit cost shown before you generate and no charge when a generation fails.",
+  "en_title": "Veol AI",
+  "zh_oneliner": "一个浏览器里的 AI 创意工作室，用 Nano Banana 做图、用 Seedance 和 Veo 做视频，生成前先明码标价，失败不扣费。",
+  "zh_title": "Veol AI"
+ },
  "https://www.visionflick.com": {
   "en_oneliner": "Type in your goals and get a personal visualization film — AI scenes, video clips, and spoken affirmations, pay once and keep it.",
   "en_title": "VisionFlick: Turn Your Goals Into a Manifestation Film",
@@ -13282,11 +13300,5 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
- },
- "https://www.veol.ai": {
-  "zh_title": "Veol AI",
-  "zh_oneliner": "一个浏览器里的 AI 创意工作室，用 Nano Banana 做图、用 Seedance 和 Veo 做视频，生成前先明码标价，失败不扣费。",
-  "en_title": "Veol AI",
-  "en_oneliner": "A browser-based AI creative studio for images with Nano Banana and videos with Seedance and Veo, with the credit cost shown before you generate and no charge when a generation fails."
  }
 }
