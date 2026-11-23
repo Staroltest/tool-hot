@@ -35,6 +35,12 @@
   "zh_oneliner": "一篇经典拆解，山寨充电器外表几乎以假乱真，拆开却处处是安全隐患。",
   "zh_title": "山寨 MacBook 充电器拆解：外表逼真，内里危险"
  },
+ "https://002call.com": {
+  "en_oneliner": "Call landlines and mobiles in 190+ countries straight from your browser — no SIM or app needed, pay per minute, with the first minute free.",
+  "en_title": "002call",
+  "zh_oneliner": "不用 SIM 卡也不用装应用，在浏览器里就能拨打 190 多个国家和地区的电话，按分钟付费，首分钟免费试打。",
+  "zh_title": "002call：浏览器里直接打国际长途"
+ },
  "https://16-62.co": {
   "en_oneliner": "Match every payout to the bank statement and the ledger.",
   "en_title": "16-62",
@@ -1522,6 +1528,12 @@
   "en_title": "Linting, but this time it's personal",
   "zh_oneliner": "作者把代码检查这件事写成了个人执念，聊聊为什么 lint 规则值得较真。",
   "zh_title": "代码检查，这次是认真的"
+ },
+ "https://dc.flasktoken.com": {
+  "en_oneliner": "Paste a product link from Amazon, eBay or Walmart and AI writes a ready-to-post deal promo for your groups and feeds.",
+  "en_title": "Deals Copier",
+  "zh_oneliner": "给亚马逊、eBay、沃尔玛的商品链接，AI 帮你写好带优惠信息的推广帖，直接发社群。",
+  "zh_title": "Deals Copier：亚马逊等平台的 AI 推广帖生成器"
  },
  "https://deadlysinstest.com": {
   "en_oneliner": "Answer a few questions to find out which of the seven deadly sins sounds most like you.",
@@ -5939,6 +5951,12 @@
   "zh_oneliner": "盯着 San Juan 群岛渡轮的售罄班次，有人退票放出来就第一时间提醒你。",
   "zh_title": "San Juan 群岛渡轮售罄班次放票提醒"
  },
+ "https://figcel.com": {
+  "en_oneliner": "Feed in your store or a competitor's ads and AI reworks them into image and carousel ads ready for Meta — no design work needed.",
+  "en_title": "Figcel",
+  "zh_oneliner": "输入自家店铺或竞品的广告，AI 帮你改写成能在 Meta 投放的图片和轮播广告，省下做图的时间。",
+  "zh_title": "Figcel：把店铺和竞品广告变成 Meta 轮播广告"
+ },
  "https://files.fm": {
   "en_oneliner": "Cloud storage for sharing and delivering files — send large photos and videos with a link, passwords and expiry dates.",
   "en_title": "Files.fm",
@@ -6053,6 +6071,12 @@
   "zh_oneliner": "读懂你的书稿、帮你理清思路，但绝不替你动笔的写作应用。",
   "zh_title": "Foolscap：只读不代笔的写作应用"
  },
+ "https://formflux.io": {
+  "en_oneliner": "Tell it what information you need to collect and it builds a ready-to-use online form — for sign-ups, feedback or surveys.",
+  "en_title": "Formflux",
+  "zh_oneliner": "说清要收集什么信息，它就帮你生成一个能直接用的在线表单，报名、反馈、问卷都能套。",
+  "zh_title": "Formflux：想要表单，它就帮你做出来"
+ },
  "https://fortune.com/2026/11/08/ceo-four-day-workweek-fridays-off-brick-media-revenue": {
   "en_oneliner": "Three years into a four-day workweek, one company's revenue is up about 160% — this is how they pulled it off.",
   "en_title": "A CEO gave his employees Fridays off. 3 years later, revenue is up about 160%",
@@ -6100,6 +6124,12 @@
   "en_title": "Building a Company Without Losing Your Marriage",
   "zh_oneliner": "一篇创始人访谈，聊创业对婚姻的冲击，以及怎么在公司和家庭之间找到平衡。",
   "zh_title": "创业而不丢掉婚姻"
+ },
+ "https://freeaipromptgen.com": {
+  "en_oneliner": "Turn a rough idea into a clear, structured prompt you can use with any AI tool, built and edited right in your browser with no API key needed.",
+  "en_title": "Prompt Studio – Free, client-side structured prompt generator for LLMs",
+  "zh_oneliner": "把模糊的想法写成一段话，它就帮你拼成结构清晰、可直接用的 AI 提示词，全程在浏览器里完成，不用 API 密钥。",
+  "zh_title": "Prompt Studio：免费浏览器端结构化提示词生成器"
  },
  "https://freeaitools.ideaaize.com": {
   "en_oneliner": "More than 50 free browser utilities for PDFs, images, code and more — files are processed locally, nothing is uploaded, no account or watermark.",
@@ -6755,6 +6785,12 @@
   "zh_oneliner": "贴上公开仓库地址，一分钟出 AI 快速扫描，还能让 AI 评审团队在看板上现场审代码，维护者也可以请真人专家帮忙看。",
   "zh_title": "Greatai Review：开源项目免费 AI 代码评审"
  },
+ "https://greenmaxxing.netlify.app": {
+  "en_oneliner": "A hackathon-built 3D vertical lettuce farm that runs entirely in the browser, with two farms side by side so you can compare fixed schedules against smart scheduling at a glance.",
+  "en_title": "Show HN: Scheduling a Simulated Vertical Farm",
+  "zh_oneliner": "黑客松作品：浏览器里跑的 3D 立体生菜农场，两座农场并排对比，固定排班和智能调度哪种长得更好，一眼就能看出来。",
+  "zh_title": "GreenMaxxing：浏览器里的 3D 立体生菜农场模拟调度"
+ },
  "https://groundbinary.com": {
   "en_oneliner": "Is data an asset or a liability? There is no single answer, so the author works through a few angles to put a value on data and rethink what yours is worth.",
   "en_title": "How much is data worth?",
@@ -7090,6 +7126,12 @@
   "en_title": "IGMsg: Instagram Comment-to-DM Automation",
   "zh_oneliner": "有人在 Instagram 评论留关键词就自动私信发链接或福利，还能回故事私信、跟进未点击的人，适合做私域引流。",
   "zh_title": "IGMsg：Instagram 评论自动私信工具"
+ },
+ "https://ihateimg.cv": {
+  "en_oneliner": "Compress, convert and crop images entirely in your browser — your files never leave your device, so nothing is uploaded.",
+  "en_title": "ihateimg.cv",
+  "zh_oneliner": "压缩、转换、裁剪等图片处理都在浏览器本地完成，文件从不上传到服务器，隐私更放心。",
+  "zh_title": "ihateimg.cv：图片全程本地处理，文件不上传"
  },
  "https://ilovethesmiths.org": {
   "en_oneliner": "Put yourself in the famous elevator scene from (500) Days of Summer and generate your own version.",
@@ -7654,6 +7696,12 @@
   "en_title": "Listvane",
   "zh_oneliner": "扫描网店的公开页面，提前找出 Google Merchant Center 可能判违规的地方，免费给出评分和问题数量。",
   "zh_title": "Listvane"
+ },
+ "https://live-face-swap.net": {
+  "en_oneliner": "Swap faces live through your webcam — pick a character and perform in real time, no downloads and no pre-recorded footage.",
+  "en_title": "Live-face-swap",
+  "zh_oneliner": "打开摄像头就能实时换脸，选个角色直接在视频里演起来，不用下载也不用录好再处理。",
+  "zh_title": "Live-face-swap：在线实时 AI 换脸，摄像头直出"
  },
  "https://llmcost.pitropatro.com": {
   "en_oneliner": "Covers 45 models and prompt caching to work out exactly what an agent run costs in tokens.",
@@ -9911,6 +9959,12 @@
   "zh_oneliner": "一款用 Zig 编写的 Linux 桌面邮件客户端 Parcel，刚在 Tangled 上发布，喜欢原生轻量工具的读者可以试试。",
   "zh_title": "Parcel：用 Zig 写的 Linux 桌面邮件客户端"
  },
+ "https://tapirupscale.com": {
+  "en_oneliner": "Upload a blurry old video and AI upscales it to crisp 4K right in your browser — no software to install.",
+  "en_title": "Tapirupscale",
+  "zh_oneliner": "把模糊的老视频传上去，AI 直接在网页里把它放大到 4K 清晰度，不用装软件。",
+  "zh_title": "Tapirupscale：在线 AI 视频超分，免费放大到 4K"
+ },
  "https://tavoa.ai?ref=smollaunch": {
   "en_oneliner": "An all-in-one AI creation platform for images, video and audio — drop in an idea and start making.",
   "en_title": "Tavoa AI: all-in-one AI creation",
@@ -10006,6 +10060,12 @@
   "en_title": "TestMyGears: Free Hardware Testers in Your Browser",
   "zh_oneliner": "全套免费硬件检测都在浏览器里跑，键盘、鼠标、屏幕、音箱、手柄逐项测。",
   "zh_title": "TestMyGears：浏览器硬件检测"
+ },
+ "https://textfromaudio.io": {
+  "en_oneliner": "Drop an audio file into the page and AI transcribes it into text — handy for meeting notes and interview write-ups without manual typing.",
+  "en_title": "Textfromaudio",
+  "zh_oneliner": "把录音或音频文件拖进网页，AI 直接转成文字稿，会议记录和采访整理省了不少手工活。",
+  "zh_title": "Textfromaudio：免费在线音频转文字"
  },
  "https://texttobrand.com/?ref=smollaunch": {
   "en_oneliner": "Build one consistent brand from a description, then keep using it everywhere.",
@@ -10343,6 +10403,12 @@
   "zh_oneliner": "Jane Street 做的苏格拉底式 AI 家教演示，不直接给答案，而是用一连串提问带你自己想明白。",
   "zh_title": "Show HN：Jane Street 的苏格拉底式 AI 家教演示"
  },
+ "https://trycodeclip.com": {
+  "en_oneliner": "Turn code and a prompt into a narrated motion-graphics video that shows how the pieces of your code fit together.",
+  "en_title": "Show HN: I built a tool to animate your code",
+  "zh_oneliner": "贴上代码、写一句想弄明白的问题，它就生成带旁白的动态图解，讲清代码各部分是怎么配合工作的。",
+  "zh_title": "Codeclip：把代码变成会动的讲解视频"
+ },
  "https://tryinboxai.com": {
   "en_oneliner": "AI email triage with human-reviewed replies.",
   "en_title": "InboxAI",
@@ -10474,6 +10540,12 @@
   "en_title": "I run multiple Claude Code accounts on one Mac",
   "zh_oneliner": "作者分享在一台 Mac 上同时使用多个 Claude Code 账号的做法，适合有多账号需求的 Claude Code 用户。",
   "zh_title": "我在一台 Mac 上跑多个 Claude Code 账号"
+ },
+ "https://tyndallai.com": {
+  "en_oneliner": "Upload one or two photos, pick a trending meme or dance template, and AI turns them into a short video clip of ten to thirty seconds.",
+  "en_title": "Tyndall AI",
+  "zh_oneliner": "上传一两张照片，挑个热门梗或舞蹈模板，AI 就帮你生成一段十几二十秒的短视频。",
+  "zh_title": "Tyndall AI：一张照片生成 AI 短视频的创意工具箱"
  },
  "https://type.link": {
   "en_oneliner": "An AI-powered, no-code website builder — describe your site and it builds itself.",
@@ -13103,6 +13175,12 @@
   "zh_oneliner": "不用游戏引擎也能做出可玩的互动故事，写剧情、搭分支，点开就能玩。",
   "zh_title": "Yoroll：可玩故事创作工具"
  },
+ "https://you-are-hilbert.koenvangilst.nl": {
+  "en_oneliner": "Every IPv4 address laid out on a Hilbert curve as a star map of the internet — each visitor is a star, and yours shines brightest.",
+  "en_title": "Show HN: You Are Hilbert",
+  "zh_oneliner": "把全部 IPv4 地址按希尔伯特曲线排成一张星图，每个来访者都是一颗星，你的那颗最亮。",
+  "zh_title": "You Are Hilbert：整个 IPv4 画成一张星图"
+ },
  "https://youmiro.com": {
   "en_oneliner": "An all-in-one AI video generator with audio and images — drop in an idea and get a video out.",
   "en_title": "Youmiro",
@@ -13145,6 +13223,12 @@
   "zh_oneliner": "帮工程团队弄清 AI 写的代码是不是真有人看懂、最近有没有复审，命令行工具在本地把文件映射到理解证据，源码不离机。",
   "zh_title": "Zevqi：AI 代码理解度追踪"
  },
+ "https://zipzax.com": {
+  "en_oneliner": "475+ free online tools for PDFs, images, video, developers and AI writing, all in one place — open and use, no hunting across sites.",
+  "en_title": "ZIPZAX",
+  "zh_oneliner": "PDF、图片、视频、开发和 AI 写作等 475 多个免费小工具聚在一个站里，打开就能用，不用四处找。",
+  "zh_title": "ZIPZAX：475+ 免费在线工具合集"
+ },
  "https://zlu.me/2026/11/16/ja4-same-fingerprint-many-user-agents.html": {
   "en_oneliner": "JA4 fingerprinting condenses TLS handshake traits into one digest — the post explains why it can cover many different user-agents.",
   "en_title": "Show HN: JA4 Fingerprinting: Why One Digest Can Cover User-Agents",
@@ -13156,35 +13240,5 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
- },
- "https://zipzax.com": {
-  "en_title": "ZIPZAX",
-  "zh_title": "ZIPZAX：475+ 免费在线工具合集",
-  "zh_oneliner": "PDF、图片、视频、开发和 AI 写作等 475 多个免费小工具聚在一个站里，打开就能用，不用四处找。",
-  "en_oneliner": "475+ free online tools for PDFs, images, video, developers and AI writing, all in one place — open and use, no hunting across sites."
- },
- "https://trycodeclip.com": {
-  "en_title": "Show HN: I built a tool to animate your code",
-  "zh_title": "Codeclip：把代码变成会动的讲解视频",
-  "zh_oneliner": "贴上代码、写一句想弄明白的问题，它就生成带旁白的动态图解，讲清代码各部分是怎么配合工作的。",
-  "en_oneliner": "Turn code and a prompt into a narrated motion-graphics video that shows how the pieces of your code fit together."
- },
- "https://you-are-hilbert.koenvangilst.nl": {
-  "en_title": "Show HN: You Are Hilbert",
-  "zh_title": "You Are Hilbert：整个 IPv4 画成一张星图",
-  "zh_oneliner": "把全部 IPv4 地址按希尔伯特曲线排成一张星图，每个来访者都是一颗星，你的那颗最亮。",
-  "en_oneliner": "Every IPv4 address laid out on a Hilbert curve as a star map of the internet — each visitor is a star, and yours shines brightest."
- },
- "https://freeaipromptgen.com": {
-  "en_title": "Prompt Studio – Free, client-side structured prompt generator for LLMs",
-  "en_oneliner": "Turn a rough idea into a clear, structured prompt you can use with any AI tool, built and edited right in your browser with no API key needed.",
-  "zh_title": "Prompt Studio：免费浏览器端结构化提示词生成器",
-  "zh_oneliner": "把模糊的想法写成一段话，它就帮你拼成结构清晰、可直接用的 AI 提示词，全程在浏览器里完成，不用 API 密钥。"
- },
- "https://greenmaxxing.netlify.app": {
-  "en_title": "Show HN: Scheduling a Simulated Vertical Farm",
-  "zh_title": "GreenMaxxing：浏览器里的 3D 立体生菜农场模拟调度",
-  "zh_oneliner": "黑客松作品：浏览器里跑的 3D 立体生菜农场，两座农场并排对比，固定排班和智能调度哪种长得更好，一眼就能看出来。",
-  "en_oneliner": "A hackathon-built 3D vertical lettuce farm that runs entirely in the browser, with two farms side by side so you can compare fixed schedules against smart scheduling at a glance."
  }
 }

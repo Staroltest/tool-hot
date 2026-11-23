@@ -1083,6 +1083,18 @@ BLOCKED_DOMAINS = {
     # tebrun.io 是 80 年代街机赛车纯游戏（15 关、计分、排行榜），
     # 整站就是游戏本身，按已定游戏口径（纯游戏一律拦）封禁整个域名
     "tebrun.io",
+    # 2026-11-23 01:07 CST 轮 ListBulb 批量上新自查补封（浏览器实测确认）：
+    # xiaoxiao.pro 是 ChatGPT 会员充值代充售卖页（在线下单买会员、微信/
+    # 支付宝付款），不是能直接用的工具；xiaoxiao-ai.com 是同一家的代订阅
+    # 与 AI 工具安装定制服务站（需企业微信人工办理），同样是售卖/服务页
+    "xiaoxiao.pro",
+    "xiaoxiao-ai.com",
+    # shipmunks.dev 是独立开发者博客（SaaS 估值、托管成本等长文与指南），
+    # 首页是文章列表，计算器在子页，主链是博客不是工具
+    "shipmunks.dev",
+    # dealgather.com 是亚马逊/AliExpress/eBay 优惠券与折扣商品聚合站
+    # （导购/折扣清单），不是能直接用的工具
+    "dealgather.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
