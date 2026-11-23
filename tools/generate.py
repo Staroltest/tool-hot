@@ -1346,6 +1346,12 @@ BLOCKED_EXACT = {
     # 20 问猜你想的东西），纯游戏，无工具属性，按游戏口径（纯游戏一律拦）
     # 封禁；整站只有一个游戏，只拦这一 host
     "20q.jordanscales.com",
+    # 2026-11-24 07:07 CST 轮自查补封（浏览器实测确认）：
+    # EERankings（eerankings.org）是电气工程研究机构排名站（按顶会论文
+    # 数给院校打分、可筛地区/系别），访客只能浏览排名列表，站上没有能
+    # 直接用的工具功能，是排名目录/参考站而非工具站；同已封的招聘版
+    # 目录站口径处理；整站只有这一个排名，只拦这一 host
+    "eerankings.org",
 }
 # 精确链接封禁（只拦这一条完整链接，不拦整个域名；与 BLOCKED_EXACT
 # 按 host 封禁不同，这里是按 norm_link 后的完整链接精确匹配）：
@@ -1636,6 +1642,13 @@ BLOCKED_URLS = {
     # 只拦这一条链接，不封 hive.com 整个域名
     "https://hive.com/betrayal",
     "https://www.hive.com/betrayal",
+    # 2026-11-24 07:07 CST 轮热点榜自查补封（浏览器实测确认）：
+    # anduil.neocities.org/n 是 Flash 游戏 N v2 的 HTML5/WebGL 在线版
+    # （标题“我的电脑跑不动这个 Flash 游戏，于是我把它反编译了”自述
+    # flash game，点开就是可玩的平台跳跃游戏），纯游戏，按游戏口径
+    # 一律拦；neocities.org 是个人站托管平台，只拦这一条链接，不封
+    # 整个域名；标题门同步加 flash game 规则
+    "https://anduil.neocities.org/n",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
@@ -1900,6 +1913,12 @@ _TITLE_BLOCK_RES = [
         # （2026-11-23 16:07 CST 轮：Borderdraw 混入当日时间线；离线验过
         # 全库 4287 条在库条目，只拦这一条，0 误伤；域名门同步封 crux.quest）
         r"\bmini[\s\-]?game\b",
+        # “flash game”（如“Show HN: My computer was too slow to run this
+        # Flash game, so I decompiled it”）：Flash 游戏的明确说法，网页
+        # 工具标题里不会出现
+        # （2026-11-24 07:07 CST 轮：该条已进热点榜；离线验过全库 4453 条
+        # 在库条目，只拦这一条，0 误伤；链接门同步封 anduil.neocities.org/n）
+        r"\bflash game\b",
         # “API key for …”（如“One OpenAI-compatible API key for many
         # LLMs”）：标题明说产品是给调用方用的 API key，不是浏览器里能直接
         # 用的工具；只拦“API key for”这一表意明确的说法，不拦“API key

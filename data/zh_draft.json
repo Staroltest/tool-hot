@@ -371,6 +371,12 @@
   "zh_oneliner": "在浏览器里写 Markdown，文件格式与 GitHub 完全兼容，免费开源、不用注册，离线也能用。",
   "zh_title": "CalmMD：免费开源的 Markdown 编辑器，文件天然兼容 GitHub"
  },
+ "https://amni-scient.com/amni-cad": {
+  "en_oneliner": "Parametric 3D modeling in the browser, with built-in stress analysis and airflow simulation — design, test, and export drawings all in one page.",
+  "en_title": "Show HN: Amni-CAD – parametric CAD with stress and flow simulation in a browser",
+  "zh_oneliner": "在浏览器里做参数化 3D 建模，还能直接跑应力分析和气流仿真，设计、测试、出图都在一个页面里完成。",
+  "zh_title": "Amni-CAD：浏览器里的参数化 CAD，带应力与气流仿真"
+ },
  "https://anglerplan.com": {
   "en_oneliner": "Free daily fishing plans with tides, weather, fish activity, spots and techniques for 175 regions.",
   "en_title": "AnglerPlan: Today's Fishing Plan",
