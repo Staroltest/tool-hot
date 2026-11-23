@@ -1386,6 +1386,60 @@ BLOCKED_URLS = {
     # 与娱乐向内容不收的口径拦
     "https://deretypesquiz.com",
     "https://www.deretypesquiz.com",
+    # 2026-11-22 22:37 PST 轮自查补封（11-23 日报新到条目人工抽查）：
+    # FarFlung Play（farflungplay.com）是每日猜国家地理游戏（6 次机会猜
+    # 一个隐藏国家），纯游戏，按游戏口径一律拦；标题与实测信号都拦不住
+    # （标题不露游戏痕迹、页面能正常加载），人工抽查封禁
+    "https://farflungplay.com",
+    "https://www.farflungplay.com",
+    # 2026-11-22 22:37 PST 轮自查补封：ported2browser.co 自称“Browser
+    # game directory and discovery site”，是浏览器游戏目录站（按类型收录
+    # 游戏、不是工具本身），目录页 + 游戏双重不收，只拦根链接
+    "https://ported2browser.co",
+    "https://www.ported2browser.co",
+    # 2026-11-22 22:37 PST 轮自查补封：DSU-X Poker Source
+    # （texas-holdem.dsux.com）是德州扑克白标源码售卖页（带品牌定制与多端
+    # 交付），游戏 + 源码售卖，按游戏口径与“仓库/源码页不收”拦；只拦这一
+    # 条链接，不封 dsux.com 整个域名
+    "https://texas-holdem.dsux.com",
+    # 2026-11-22 22:37 PST 轮自查补封：Secure AI
+    # （secure.chinesepowered.com）是 iPhone/iPad 端 AI 聊天与 PDF 问答
+    # 应用的营销页，需下载安装才能用；同站 expose 子域本轮已被实测
+    # app_store 信号拦下，只拦这一条链接
+    "https://secure.chinesepowered.com",
+    # 2026-11-22 22:37 PST 轮自查补封：Private Transcribe
+    # （stt.chinesepowered.com）是手机端离线 Whisper 语音转文字应用
+    # （“on your phone”），需下载安装才能用；只拦这一条链接
+    "https://stt.chinesepowered.com",
+    # 2026-11-22 22:37 PST 轮自查补封：PennyCompute（pennycompute.com）
+    # 是按任务计费的 FFmpeg/Remotion 云渲染 API（“Pay-per-job cloud
+    # API”），纯 API 平台，点开不能直接在浏览器里用，按“纯 API 平台不收”
+    # 口径拦（与此前 TokLab、ScraperSocial 同类处理）；只拦根链接
+    "https://pennycompute.com",
+    "https://www.pennycompute.com",
+    # 2026-11-22 22:37 PST 轮自查补封（页面实测确认）：NotebookLM Ultra
+    # Exporter（nlmexporter.com）是 Chrome 扩展（页头自写“For NotebookLM
+    # & Gemini Notebook · Chrome Extension”，FAQ 自认“independent Chrome
+    # extension”，“The extension installs in Chrome on a computer”），须
+    # 安装扩展才能用；实测豁免被页上“Document conversion runs in your
+    # browser”一句触发（扩展的转换步骤确实在浏览器里跑），豁免逻辑对扩展页
+    # 偏宽松是已知缺口，人工抽查封禁
+    "https://nlmexporter.com",
+    "https://www.nlmexporter.com",
+    # 2026-11-22 22:37 PST 轮自查补封（页面实测确认）：DSU-X AI GEO CMS
+    # （ai-geo-cms.dsux.com）与 AI SEO CMS（ai-seo-cms.dsux.com）是 DSU-X
+    # 产品子站营销页（“预约演示 查看定价”“支持私有化部署与托管”，留邮箱
+    # 预约沟通），点开不能直接用，是售卖演示的 B2B 产品页，不是能直接用
+    # 的工具网站；两条链接各拦一条，不封 dsux.com 整个域名
+    "https://ai-geo-cms.dsux.com",
+    "https://ai-seo-cms.dsux.com",
+    # 2026-11-22 22:37 PST 轮自查补封（页面实测确认）：Beauty Advent
+    # Guide（beautyadventguide.com）根地址是 2026 美妆倒数日历对比指南
+    # 文章（“Prices, Values & Dates”，By Beauty Advent Guide Desk，含
+    # 来源引用的长篇对比表），是内容/指南页不是工具站；站内虽有 value
+    # calculator 子页，但提交的根链接本身是文章，只拦根链接
+    "https://beautyadventguide.com",
+    "https://www.beautyadventguide.com",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
