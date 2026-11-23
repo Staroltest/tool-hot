@@ -13546,5 +13546,23 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
+ },
+ "https://work.builditomi.com/?ref=producthunt": {
+  "zh_title": "Omi Work：交代目标就帮你把活干完的 AI 工作台",
+  "zh_oneliner": "给它一个目标，它会自己查资料、做调研，交回写好的文档、表格和幻灯片，不用一步步盯着。",
+  "en_title": "Omi Work",
+  "en_oneliner": "Give it a goal and it plans, researches, and hands back finished documents, sheets, and slides — no step-by-step babysitting."
+ },
+ "https://letter.dev/visitors?ref=producthunt": {
+  "zh_title": "Letter Visitors：看清谁在读你的网站",
+  "zh_oneliner": "一眼看出访客是谁、来自哪家公司，还有哪些 AI 在读你的页面，顺带回放他们的浏览过程。",
+  "en_title": "Letter Visitors",
+  "en_oneliner": "See who is reading your site — the people, their companies, and which AI agents stopped by — and replay their sessions."
+ },
+ "https://shadilink.in": {
+  "zh_title": "ShadiLink：印度婚礼请柬网站制作工具",
+  "zh_oneliner": "为印度婚礼定制专属请柬网站，多日仪式行程、按家庭收 RSVP，一键通过 WhatsApp 分享给亲友。",
+  "en_title": "ShadiLink",
+  "en_oneliner": "Build a bespoke Indian wedding invitation website with multi-day ceremony timelines, family-unit RSVPs, and one-tap WhatsApp sharing."
  }
 }
