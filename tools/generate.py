@@ -1309,6 +1309,11 @@ BLOCKED_URLS = {
     # 假名 Wordle 纯游戏，按新定游戏口径（纯游戏一律拦）封禁；ezfurigana.com
     # 本身是注音工具站，只拦这一条链接，不封整个域名
     "https://www.ezfurigana.com/kakurenbo",
+    # 2026-11-23 07:07 CST 轮：SlayArcade（slayarcade.com）是 70 个原创
+    # 浏览器小游戏合集（免注册、可离线玩），纯游戏，按游戏口径一律拦；
+    # 只拦这一条链接，不封整个域名
+    "https://slayarcade.com",
+    "https://www.slayarcade.com",
     # 2026-11-23 03:37 PST 轮热点榜自查补封（页面实测确认）：
     # DeepRubik（asamarts.github.io/deeprubik）是浏览器里的写实魔方
     # 谜题（拖动转层、空格打乱、回车复位），纯游戏，无解法等工具功能，
