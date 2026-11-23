@@ -1535,6 +1535,40 @@ BLOCKED_URLS = {
     # 音乐专辑站（十首无起止的歌，随时间与月相变化），是歌曲/音乐
     # 内容而非工具，按 11-18 歌曲泄漏口径拦；只拦这一条链接
     "https://returntorepeat.gusbyheart.se",
+    # 2026-11-23 08:37 PST 轮热点榜自查补封（页面实测确认）：
+    # Kaukana（kaukana.app）是每日地理历史问答游戏（坐火车旅行的
+    # 形式），纯游戏，按游戏口径一律拦；只拦根链接
+    "https://kaukana.app",
+    "https://www.kaukana.app",
+    # 2026-11-23 08:37 PST 轮热点榜自查补封（页面实测确认）：
+    # Jensen Return（gamemog.com/g/jensen-return）是 GameMog 上的剧情
+    # 世界游戏（WASD 移动、开车、打斗、做任务，三幕剧情），纯游戏，按
+    # 游戏口径一律拦；GameMog 站内还有别的游戏，只拦这一条链接
+    "https://gamemog.com/g/jensen-return",
+    # 2026-11-23 08:37 PST 轮热点榜自查补封（页面实测确认）：
+    # Long Season（longseason.ecbtx.com）是浏览器里的棒球模拟经营
+    # 游戏（逐球模拟、162 场赛季、选秀交易），纯游戏，按游戏口径一律
+    # 拦；只拦这一条链接
+    "https://longseason.ecbtx.com",
+    # 2026-11-23 08:37 PST 轮热点榜自查补封（页面实测确认）：
+    # Mcpwatch（mcpwatch.io）是 MCP 工具描述的 lockfile 与运行时守卫，
+    # Quickstart 是 pipx install mcpwatch-io，核心用法是本地 CLI
+    # （scan/lock/check/guard），站上只有营销页与服务器评分索引，须下载
+    # 安装才能用，按“需要下载安装的不算”拦；只拦根链接
+    "https://mcpwatch.io",
+    "https://www.mcpwatch.io",
+    # 2026-11-23 08:37 PST 轮热点榜自查补封（页面实测确认）：
+    # Terminal Tasks Open（vetto.ai/companies/terminal-tasks-v2）是介绍
+    # 开源终端任务基准集的长文（排行榜、失败分析、构建流程），任务本身
+    # 在 GitHub/Harbor Hub，须装 Harbor 才能跑，是文章 + 需安装的数据集，
+    # 不是能直接用的工具网站；只拦这一条链接，不封 vetto.ai 整个域名
+    "https://vetto.ai/companies/terminal-tasks-v2",
+    # 2026-11-23 08:37 PST 轮热点榜自查补封（浏览器实测确认）：
+    # ryanpark.ai/claude-skills 是售卖可下载 Claude Skills 的商店
+    # （免费与 $4.99/$8.99 的营销 playbook 技能），访客下载 ZIP 后须
+    # 自行上传安装到 Claude 里才能用，页上无可直接运行的工具；按
+    # “需要下载安装的不算”拦；只拦这一条链接，不封整个域名
+    "https://ryanpark.ai/claude-skills",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {

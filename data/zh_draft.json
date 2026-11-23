@@ -395,6 +395,12 @@
   "zh_oneliner": "可以无限畅玩的在线 Antakshari 接歌游戏，喜欢印度经典音乐游戏的可以直接开玩。",
   "zh_title": "Show HN：在线玩经典 Antakshari 接歌游戏"
  },
+ "https://anvaka.github.io/mars": {
+  "en_oneliner": "Explore the Martian surface like a map app, with a Streets-style view for place names and terrain.",
+  "en_title": "Show HN: Interactive map of Mars with \"Streets\" view",
+  "zh_oneliner": "像逛地图应用一样浏览火星地表，还能切换到街道风格视图看地名与地貌。",
+  "zh_title": "火星交互地图：带街道视图的火星漫游"
+ },
  "https://anyaihub.com": {
   "en_oneliner": "AI image and video generation in one place — try different models without signing up all over town.",
   "en_title": "AnyAIHub",
@@ -10054,6 +10060,12 @@
   "en_title": "Stitch Loop",
   "zh_oneliner": "Google 的 AI 修 Bug 助手：发现问题就自己动手修，还会盯着指标看修完有没有效果。",
   "zh_title": "Stitch Loop：盯着指标自动修 Bug 的 AI 助手"
+ },
+ "https://sticksandstones.fyi": {
+  "en_oneliner": "Browse 17,000+ battles and wars across recorded history on an interactive globe, with an auto-play timelapse of how conflicts spread over time.",
+  "en_title": "Show HN: Sticks & Stones – 4,600yrs of historical conflict on an interactive map",
+  "zh_oneliner": "在交互式地球仪上浏览有文字记载以来 17000 多场战争与战役，还能自动播放，看冲突如何随时间蔓延。",
+  "zh_title": "Sticks & Stones：4600 年人类冲突史的交互地图"
  },
  "https://stockrip.com/?rl=gami0x": {
   "en_oneliner": "Collect trillion-dollar companies like trading cards — open mystery packs, build your portfolio and earn Ripcoins.",
