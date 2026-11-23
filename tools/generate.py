@@ -230,6 +230,12 @@ BLOCKED_DOMAINS = {
     # 的 mini-game 说法标题门此前未覆盖，标题门已同步加 mini-game
     # 规则（2026-11-23 16:07 CST 轮：新到 HN 条目混入当日时间线）
     "crux.quest",
+    # extrabar.app：macOS 菜单栏桌面应用（自定义菜单栏、深链与快捷操作，
+    # 须下载安装、付费买断、无免费试用，站上写明支持 macOS 12.4+、配置
+    # 存在本机），不是浏览器里能直接用的工具；标题“ExtraBar”不露安装
+    # 痕迹，人工抽查发现（2026-11-23 18:19 CST 轮：归档复查发现 11-20
+    # 日报里的 ExtraBar，整域封禁）
+    "extrabar.app",
     "nytimes.com", "theguardian.com", "reuters.com", "washingtonpost.com",
     "cnn.com", "bbc.com", "bbc.co.uk", "economist.com", "ft.com", "wsj.com",
     "theatlantic.com", "newyorker.com", "thehill.com", "cnbc.com",
