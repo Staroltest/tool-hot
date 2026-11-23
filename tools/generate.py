@@ -216,6 +216,20 @@ BLOCKED_DOMAINS = {
     # 实测又因 "running in your browser" 豁免放行，故整域封禁
     # （2026-11-22 22:37 CST 轮：热点榜混入，人工核实后封）
     "rmux.app",
+    # modelflare.dev：纯 AI API 网关（"One OpenAI-compatible API key for
+    # many LLMs"，接 GPT/Claude/Gemini，要拿 key 后用 curl/SDK 调用），
+    # 点开不能直接在浏览器里用，按“纯 API 平台不收”口径拦（与此前
+    # TokLab、ScraperSocial、PennyCompute 同类处理）；标题“One
+    # OpenAI-compatible API key for many LLMs”不露 API 平台痕迹，实测
+    # 也无安装信号，人工抽查封禁（2026-11-23 16:07 CST 轮：新到 HN
+    # 条目混入当日时间线）
+    "modelflare.dev",
+    # crux.quest：iPhone/iPad 游戏应用 Crux 的官网，全站都是每日单词、
+    # 逻辑、数字、地理等小游戏（如 Borderdraw 画国界线游戏），纯游戏，
+    # 按游戏口径一律拦；标题“Show HN: Borderdraw (Web Mini-Game)”
+    # 的 mini-game 说法标题门此前未覆盖，标题门已同步加 mini-game
+    # 规则（2026-11-23 16:07 CST 轮：新到 HN 条目混入当日时间线）
+    "crux.quest",
     "nytimes.com", "theguardian.com", "reuters.com", "washingtonpost.com",
     "cnn.com", "bbc.com", "bbc.co.uk", "economist.com", "ft.com", "wsj.com",
     "theatlantic.com", "newyorker.com", "thehill.com", "cnbc.com",
@@ -1445,6 +1459,22 @@ BLOCKED_URLS = {
     # calculator 子页，但提交的根链接本身是文章，只拦根链接
     "https://beautyadventguide.com",
     "https://www.beautyadventguide.com",
+    # 2026-11-23 16:07 CST 轮自查补封（浏览器实测确认）：
+    # Tinker（thinkingmachines.ai/tinker）是 Thinking Machines Lab 的
+    # 模型训练平台营销页（客户案例 + 效果数据，讲“训练自己的模型”），
+    # 访客点开没有能直接用的工具，要注册/签约才能用服务；标题
+    # “Inkling 2 Mini”完全不露痕迹，实测也无安装信号；
+    # thinkingmachines.ai 是研究机构站，只拦这一条链接，不封整个域名
+    "https://thinkingmachines.ai/tinker",
+    "https://thinkingmachines.ai/tinker/?ref=producthunt",
+    # 2026-11-23 16:07 CST 轮自查补封（浏览器实测确认）：Open Source
+    # Solana Wallet（raul.xyz/wallet）是 iPhone/iPad 端 Solana 钱包
+    # 应用的营销页（“An open Solana wallet for iPhone and iPad”，
+    # 密钥存设备 Keychain、需 Face ID），须下载安装才能用；标题
+    # “Open Source Solana Wallet”不露手机应用痕迹，实测也无安装信号；
+    # raul.xyz 是个人站，只拦这一条链接，不封整个域名
+    "https://raul.xyz/wallet",
+    "https://raul.xyz/wallet/?ref=producthunt",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
@@ -1698,6 +1728,18 @@ _TITLE_BLOCK_RES = [
         # Lotlark 一条，0 误伤）
         r"\bbrowser game\b",
         r"\btile puzzle\b",
+        # “mini-game / mini game”（如“Show HN: Borderdraw (Web
+        # Mini-Game)”）：小游戏的明确说法，网页工具标题里不会出现
+        # （2026-11-23 16:07 CST 轮：Borderdraw 混入当日时间线；离线验过
+        # 全库 4287 条在库条目，只拦这一条，0 误伤；域名门同步封 crux.quest）
+        r"\bmini[\s\-]?game\b",
+        # “API key for …”（如“One OpenAI-compatible API key for many
+        # LLMs”）：标题明说产品是给调用方用的 API key，不是浏览器里能直接
+        # 用的工具；只拦“API key for”这一表意明确的说法，不拦“API key
+        # generator”这类密钥生成工具（2026-11-23 16:07 CST 轮：
+        # Modelflare 混入当日时间线；离线验过全库 4287 条在库条目，只拦
+        # 这一条，0 误伤；域名门同步封 modelflare.dev）
+        r"\bapi\s+key\s+for\b",
     )
 ]
 
