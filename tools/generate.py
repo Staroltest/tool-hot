@@ -1599,6 +1599,12 @@ BLOCKED_URLS = {
     # games”说明同站还有别的游戏，但 neilkakkar.com 是作者个人站，只拦
     # 这一条链接，不封整个域名
     "https://play.neilkakkar.com/finish-the-line",
+    # 2026-11-24 04:07 CST 轮热点榜自查补封（浏览器实测确认）：
+    # Middle Word（pzlgames.com/games/middleword）是每日猜词游戏（在
+    # 两个词之间按字母顺序找中间词，十次机会猜中），纯游戏，按游戏口径
+    # 一律拦；pzlgames.com 是游戏站，只拦这一条链接，不封整个域名
+    "https://pzlgames.com/games/middleword",
+    "https://www.pzlgames.com/games/middleword",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {

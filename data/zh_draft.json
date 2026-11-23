@@ -1133,6 +1133,12 @@
   "zh_oneliner": "这个系列的第六篇，讲如何一次一个分子地搭建虚拟细胞，把细胞当作黑匣子来拆解和理解。",
   "zh_title": "细胞如黑匣子（六）：一次一个分子，搭建虚拟细胞"
  },
+ "https://certnudge.dev": {
+  "en_oneliner": "Checks the SSL certificate each host actually serves and the domain registration expiry, then alerts you by email or chat before either lapses.",
+  "en_title": "Show HN: CertNudge – Cert and domain expiry alerts",
+  "zh_oneliner": "盯着每台主机的 SSL 证书和域名注册到期日，快过期就用邮件或聊天工具提醒你，免得续期失败、访客打开网站看到安全警告。",
+  "zh_title": "Show HN：CertNudge：证书与域名过期提醒"
+ },
  "https://certwatch.edgardev.pt": {
   "en_oneliner": "A free online checker for SSL certificates, certificate chains and domain expiry that explains the results in plain English.",
   "en_title": "Free SSL, cert chain and domain expiry checker with plain-English results",
@@ -12106,6 +12112,12 @@
   "en_title": "Mindie – Reminders, Notes and Calendars on WhatsApp",
   "zh_oneliner": "把提醒、笔记和日历都搬进 WhatsApp，不用再装一个应用。",
   "zh_title": "Mindie：在 WhatsApp 里记提醒、笔记和日程"
+ },
+ "https://www.getoneprofile.ai": {
+  "en_oneliner": "An AI sales agent for founders and small B2B teams that finds buyers showing intent, writes a personalized first line, and follows up by email and LinkedIn until they reply.",
+  "en_title": "Oneprofile",
+  "zh_oneliner": "给创始人和小团队做外拓的 AI 销售助手，找出有购买意向的客户、写个性化首封邮件，还会在邮件和 LinkedIn 上持续跟进，直到对方回复。",
+  "zh_title": "Oneprofile：AI 销售助手"
  },
  "https://www.gotdrops.com/?ref=producthunt": {
   "en_oneliner": "Discover new music through moments your friends love — music discovery, shared.",
