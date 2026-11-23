@@ -1530,6 +1530,11 @@ BLOCKED_URLS = {
     # 浏览器内无可直接用的工具界面，须安装进本地编码 agent 才能用，
     # 按“需要下载安装的不算”拦；只拦这一条链接，不封整个域名
     "https://chszlab.github.io/AgenticAlgorithmEngineering",
+    # 2026-11-23 07:37 PST 轮热点榜自查补封（页面实测确认）：
+    # Return to Repeat（returntorepeat.gusbyheart.se）是一张交互式
+    # 音乐专辑站（十首无起止的歌，随时间与月相变化），是歌曲/音乐
+    # 内容而非工具，按 11-18 歌曲泄漏口径拦；只拦这一条链接
+    "https://returntorepeat.gusbyheart.se",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {

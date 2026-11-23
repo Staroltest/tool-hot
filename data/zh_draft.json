@@ -13672,5 +13672,23 @@
   "en_title": "RetypeWords",
   "zh_oneliner": "在线 AI 图片文字编辑器，图片里烧死的文字也能直接改，不用原设计稿、不用找字体。",
   "zh_title": "RetypeWords：图片里的文字也能改"
+ },
+ "https://kettle.tools/riemann-hypothesis-explorer": {
+  "en_oneliner": "Browse the 17-million-line Lean formalization of the Riemann Hypothesis in your browser, searching definitions and tracing proof structure.",
+  "en_title": "Explorer for the 17M-Line Lean Proof of the Riemann Hypothesis",
+  "zh_oneliner": "在浏览器里逐行浏览 1700 万行 Lean 形式的黎曼猜想证明，可检索定义与定理、追踪证明结构。",
+  "zh_title": "黎曼猜想证明探索器：浏览 1700 万行 Lean 证明"
+ },
+ "https://www.penelope.ink": {
+  "en_oneliner": "Transcribe meeting recordings right in your browser using your own API key.",
+  "en_title": "Penelope: BYOK Meeting Transcriber Web App",
+  "zh_oneliner": "用自己的 API 密钥在浏览器里转录会议录音，语音转文字全程在线完成。",
+  "zh_title": "Penelope：自带密钥的在线会议转录工具"
+ },
+ "https://typeformula.com": {
+  "en_oneliner": "Type math equations as plain text and watch them render into clean formula notation instantly.",
+  "en_title": "Type Formula: Type Math Equations Like Plain Text",
+  "zh_oneliner": "用纯文本语法随手敲出数学公式，实时渲染成规整的公式排版。",
+  "zh_title": "Type Formula：像打纯文本一样输入数学公式"
  }
 }
