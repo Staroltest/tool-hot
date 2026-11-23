@@ -13282,5 +13282,11 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
+ },
+ "https://www.veol.ai": {
+  "zh_title": "Veol AI",
+  "zh_oneliner": "一个浏览器里的 AI 创意工作室，用 Nano Banana 做图、用 Seedance 和 Veo 做视频，生成前先明码标价，失败不扣费。",
+  "en_title": "Veol AI",
+  "en_oneliner": "A browser-based AI creative studio for images with Nano Banana and videos with Seedance and Veo, with the credit cost shown before you generate and no charge when a generation fails."
  }
 }
