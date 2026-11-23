@@ -13702,5 +13702,65 @@
   "en_title": "Type Formula: Type Math Equations Like Plain Text",
   "zh_oneliner": "用纯文本语法随手敲出数学公式，实时渲染成规整的公式排版。",
   "zh_title": "Type Formula：像打纯文本一样输入数学公式"
+ },
+ "https://whoreallyownsamerica.com": {
+  "en_title": "Show HN: Who Owns America – Largest US landholders from public tax rolls",
+  "en_oneliner": "An interactive map of America's largest landholders, built from public tax rolls — zoom in and see who really owns the land around you.",
+  "zh_title": "Who Owns America：美国最大地主一图看清",
+  "zh_oneliner": "用公开税务记录画出的美国大地主交互地图，放大看看你家周围的土地到底归谁所有。"
+ },
+ "https://getdataengineeringjobs.com": {
+  "en_title": "Show HN: Job Board for Data Engineers",
+  "en_oneliner": "A job board just for data engineers — filter data platform, warehouse and pipeline roles by type and remote options.",
+  "zh_title": "数据工程师招聘板",
+  "zh_oneliner": "只招数据工程师的招聘板，按岗位类型和远程与否筛选，找数仓、数据平台类工作很顺手。"
+ },
+ "https://modeloop.app": {
+  "en_title": "Show HN: Modeloop – Design and simulate discrete-time controllers in the browser",
+  "en_oneliner": "Design discrete-time controllers and simulate them right in the browser — tweak parameters and watch the system respond instantly.",
+  "zh_title": "Modeloop：浏览器里设计与仿真离散时间控制器",
+  "zh_oneliner": "在浏览器里画控制框图、跑离散时间仿真，调参数立刻看到系统响应，学控制理论时动手试很方便。"
+ },
+ "https://findme.alexvd.dev": {
+  "en_title": "Show HN: Find your location from the background noise of aircraft flying over",
+  "en_oneliner": "Record the sound of aircraft flying overhead and match it against public flight data to figure out where you are.",
+  "zh_title": "Find Me：靠头顶飞机的噪音定位你在哪",
+  "zh_oneliner": "录一段头顶飞机飞过的声音，对照公开航班数据反推你的位置，脑洞很大的定位小实验。"
+ },
+ "https://aipictureeditor.net/?ref=smollaunch": {
+  "en_title": "AI Picture Editor",
+  "en_oneliner": "Edit photos online with AI — swap backgrounds, remove objects and upscale images without installing anything.",
+  "zh_title": "AI Picture Editor：在线 AI 修图",
+  "zh_oneliner": "上传照片直接在网页上用 AI 修图，换背景、去水印、调画质都不用装软件。"
+ },
+ "https://dreamfield.gg": {
+  "en_title": "Show HN: Dreamfield – Create and explore 3D worlds",
+  "en_oneliner": "Build your own 3D worlds in the browser and walk through worlds made by others — a lightweight world editor and explorer.",
+  "zh_title": "Dreamfield：创建并探索 3D 世界",
+  "zh_oneliner": "在浏览器里搭建自己的 3D 世界，还能走进去逛逛别人的作品，像个轻量版世界编辑器。"
+ },
+ "https://www.wanderwhim.com/map/small-web": {
+  "en_title": "Show HN: Map of the Small Web",
+  "en_oneliner": "A clickable map of the small web — indie sites and personal pages laid out by theme, made for wandering.",
+  "zh_title": "Map of the Small Web：小众网站地图",
+  "zh_oneliner": "一张可以点开逛的小网站地图，把独立站、个人主页按主题排布，适合漫无目的地发现好站。"
+ },
+ "https://maido.place": {
+  "en_title": "Show HN: 11 Three.js towns to practise 9 languages, live voice and open chat",
+  "en_oneliner": "Practise 9 languages by walking through 11 Three.js towns with live voice and open chat — language learning as a shared stroll.",
+  "zh_title": "Maido：用 3D 小镇练 9 门外语",
+  "zh_oneliner": "走进 11 座 Three.js 3D 小镇，和真人边逛边练外语，带实时语音和开放聊天室。"
+ },
+ "https://selixer.com?ref=smollaunch": {
+  "en_title": "Selixer",
+  "en_oneliner": "The profit OS for e-commerce — connect your store and ad accounts to see what every order and campaign really earns, and find the leaks.",
+  "zh_title": "Selixer：电商利润操作系统",
+  "zh_oneliner": "接上店铺和广告账户，算清每个订单、每条广告到底赚了多少，还能顺手揪出九种利润漏洞。"
+ },
+ "https://posty.social?ref=smollaunch": {
+  "en_title": "Posty",
+  "en_oneliner": "A social media planner and scheduler — plan the month on one calendar, get approvals, publish to eleven networks and answer everything from one inbox.",
+  "zh_title": "Posty：社交媒体排期与审批",
+  "zh_oneliner": "一个月的内容排在一张日历上，团队客户在线审批，定时发到十一个平台，评论私信都收进同一个收件箱。"
  }
 }
