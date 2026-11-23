@@ -1493,6 +1493,13 @@ BLOCKED_URLS = {
     # raul.xyz 是个人站，只拦这一条链接，不封整个域名
     "https://raul.xyz/wallet",
     "https://raul.xyz/wallet/?ref=producthunt",
+    # 2026-11-23 20:37 CST 轮自查补封（页面实测确认）：
+    # Infiverse（tusharsrivastava.github.io/infiverse）是恶搞型虚构
+    # 创业公司页面（“$1 Trillion/Month Platform (Pre-Revenue)”、
+    # 点按钮只弹出玩笑文案），没有任何能直接用的工具功能，按只收
+    # 工具网站标准拦；tusharsrivastava.github.io 是个人 GitHub Pages，
+    # 只拦这一条链接，不封整个域名
+    "https://tusharsrivastava.github.io/infiverse",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
