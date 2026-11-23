@@ -1307,6 +1307,11 @@ BLOCKED_URLS = {
     # 在子路径上（如 schema 检查、llms.txt 生成器），只拦根链接，不封整个域名
     "https://vouchgeo.com",
     "https://www.vouchgeo.com",
+    # 2026-11-23 00:37 UTC 轮：Lexis World（lexisworld.org）是儿童文字游戏
+    # （输入单词、动物跳进来，无广告无奖励循环，免费试用后一次付费），纯游戏，
+    # 按游戏口径封禁；浏览器实测确认页面只有玩法说明，无工具功能
+    "https://lexisworld.org",
+    "https://www.lexisworld.org",
     # 2026-11-22 21:37 CST 轮浏览器实测封禁：Gunport（engineersneedart.com/gunport）
     # 是复古 3D 射击小游戏（瞄准开火、守住船体），纯游戏，按游戏口径一律拦；
     # engineersneedart.com 是个人站，只拦这一条链接，不封整个域名
