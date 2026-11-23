@@ -1131,6 +1131,12 @@ BLOCKED_DOMAINS = {
     # repohype.com 是 GitHub 热门仓库精选目录站（每条一句话介绍 + 外链），
     # 整站就是仓库目录，按只收工具网站标准（不收目录页）封禁
     "symbiocit.com", "repohype.com",
+    # 2026-11-23 21:37 CST 轮自查补封（浏览器实测确认）：
+    # kopyo.app 是 Mac 剪贴板管理桌面应用（"Clipboard Manager for Mac"、
+    # 须 macOS Tahoe 26 或 later、付费应用 7 天试用），点开是下载页营销站，
+    # 不是能在浏览器里直接用的工具；标题“Kopyo”不露痕迹，标题门与实测
+    # 信号都拦不住，人工抽查封禁
+    "kopyo.app",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {

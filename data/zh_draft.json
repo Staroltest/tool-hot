@@ -13636,5 +13636,23 @@
   "en_oneliner": "Track the questions your buyers ask AI every day: open a dated answer, see which pages it cites, and compare the evidence after you change your site.",
   "zh_title": "AI Ranking Pro：B2B 品牌的 AI 搜索可见度追踪",
   "zh_oneliner": "每天追踪买家向 AI 提的问题：打开当天的回答，看它引用了哪些页面，改站之后再对比引用变化，摸清品牌在 AI 答案里的曝光。"
+ },
+ "https://www.wifriends.app": {
+  "en_oneliner": "Chat with people on the same Wi-Fi — in a café, hostel or train — no friend requests or phone numbers needed, and a new channel for venue owners to reach their visitors.",
+  "en_title": "Show HN: WiFriends – Talk to people on the same Wi-Fi",
+  "zh_oneliner": "连上同一个 Wi-Fi 就能和身边的人聊天，咖啡馆、青旅、火车上的店家也能借此和顾客搭话，不用加好友、不用留手机号。",
+  "zh_title": "WiFriends：和同一 Wi-Fi 下的人聊天"
+ },
+ "https://lianex.ai": {
+  "en_oneliner": "Search eBay, Amazon AU, JB Hi-Fi and more in one go, comparing prices across stores instead of checking each site one by one.",
+  "en_title": "Show HN: Lianex – One Search Across eBay, Amazon AU, JB Hi-Fi and More",
+  "zh_oneliner": "一次搜索同时比价 eBay、澳洲亚马逊、JB Hi-Fi 等多个商城，找东西不用一个个网站轮着翻。",
+  "zh_title": "Lianex：一次搜遍 eBay、澳洲亚马逊等多家商城"
+ },
+ "https://bytepriva.com/cnic-scanner": {
+  "en_oneliner": "Snap the front and back of an ID card with your phone and get a print-ready A4 page, no trip to the copy shop needed.",
+  "en_title": "Show HN: Turn two phone photos of an ID card into a print-ready A4 page",
+  "zh_oneliner": "手机拍下身份证正反面两张照片，自动排成一张可直接打印的 A4 页面，复印身份证不用再跑复印店。",
+  "zh_title": "CNIC Scanner：手机拍身份证，两张照片拼成可打印 A4 页"
  }
 }
