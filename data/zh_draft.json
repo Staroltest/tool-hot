@@ -839,6 +839,12 @@
   "zh_oneliner": "帮你提前规划一周的饭菜，备餐不再靠临场发挥。",
   "zh_title": "Bocalito：备餐规划工具"
  },
+ "https://bodytypecalc.com": {
+  "en_oneliner": "A free online body type calculator with no sign-up: enter your measurements to get your body type instantly, with dressing, training and nutrition tips to match.",
+  "en_title": "BodyTypeCalc",
+  "zh_oneliner": "免费在线体型计算器，不用注册，输入身材数据立刻得出体型分类，还能按体型给穿搭和训练饮食建议。",
+  "zh_title": "BodyTypeCalc：免费体型计算器"
+ },
  "https://bookella.app/?ref=producthunt": {
   "en_oneliner": "A reading tracker that logs what you read and how much, helping the habit stick.",
   "en_title": "Bookella",
@@ -9598,6 +9604,12 @@
   "en_title": "Aboard Sign",
   "zh_oneliner": "不用注册、不用打开别的页面，抄送一封邮件就能让所有人在线签署协议。",
   "zh_title": "Aboard Sign 邮件签署"
+ },
+ "https://signals.saasstatshub.com": {
+  "en_oneliner": "Tracks rising search trends to surface website ideas worth building.",
+  "en_title": "Show HN: SaaSStatsHub Signals – find website ideas from rising search trends",
+  "zh_oneliner": "追踪正在上升的搜索趋势，帮你从中找到值得做的网站点子。",
+  "zh_title": "SaaSStatsHub Signals：从上升搜索趋势里找网站点子"
  },
  "https://sigseis.dev/articles/2026/11/10": {
   "en_oneliner": "A guide to Rust declarative macros — how to organize them, how scoping works, and the common use cases, for Rust developers wanting a systematic pass.",

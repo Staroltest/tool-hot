@@ -1368,6 +1368,18 @@ BLOCKED_URLS = {
     # 拦；标题门已同步加 tile puzzle 规则
     "https://lotlark.app",
     "https://www.lotlark.app",
+    # 2026-11-23 10:37 CST 轮热点榜自查补封（浏览器实测确认）：
+    # FreshGameRadar（freshgameradar.com）首页就是“Latest articles”，全站
+    # 是 Roblox 与浏览器游戏的攻略文章和兑换码列表，是游戏资讯/攻略内容站，
+    # 不是能直接用的工具网站；标题与实测信号都拦不住，人工抽查封禁
+    "https://freshgameradar.com",
+    "https://www.freshgameradar.com",
+    # 2026-11-23 10:37 CST 轮热点榜自查补封（浏览器实测确认）：
+    # Dere Type Quiz（deretypesquiz.com）是 14 题动漫人格测试，答完给一个
+    # “dere 类型”与角色配对，是娱乐向测试/小游戏，不是工具网站；按纯游戏
+    # 与娱乐向内容不收的口径拦
+    "https://deretypesquiz.com",
+    "https://www.deretypesquiz.com",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
