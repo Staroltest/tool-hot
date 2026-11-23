@@ -863,6 +863,12 @@
   "zh_oneliner": "一篇登上 Hacker News 的文章，站内没有附带摘要，完整内容需要点开原文查看。",
   "zh_title": "The Brainmade Mark"
  },
+ "https://breakingchips.com": {
+  "en_oneliner": "Look up milling speeds and feeds with a cited source behind every number, so you can double-check the figures before you cut.",
+  "en_title": "BreakingChips – A Machining Reference That Cites Every Number",
+  "zh_oneliner": "查铣削转速进给不用凭经验猜，每个参数都附上来源，加工前对一下数字，心里更有底。",
+  "zh_title": "BreakingChips：每个数字都标出处的机械加工速查"
+ },
  "https://brmmm3.github.io/posts/2026/11/15/zar-rs": {
   "en_oneliner": "A fast, versioned and feature-rich archive format built for Python developers.",
   "en_title": "Zar-rs: A new fast, versioned, featureful archive format for Python developers",

@@ -1356,6 +1356,18 @@ BLOCKED_URLS = {
     # 口径拦（与此前 TokLab 同类处理）；站内或有免费小工具在子路径上，只拦
     # 根链接，不封整个域名
     "https://scrapersocial.com",
+    # 2026-11-23 09:37 CST 轮热点榜自查补封：Thanes Quest
+    # （thanes-quest.daventry.io）是 80 年代 Skyrim 风浏览器游戏（标题自写
+    # “80s-style Skyrim browser game”），纯游戏，按游戏口径一律拦；标题门
+    # 已同步加 browser game 规则；daventry.io 本身是游戏引擎站，只拦这一条
+    # 链接，不封整个域名
+    "https://thanes-quest.daventry.io",
+    "https://www.thanes-quest.daventry.io",
+    # 2026-11-23 09:37 CST 轮热点榜自查补封：Lotlark（lotlark.app）是每日
+    # tile puzzle（标题自写“a daily tile puzzle”），纯游戏，按游戏口径一律
+    # 拦；标题门已同步加 tile puzzle 规则
+    "https://lotlark.app",
+    "https://www.lotlark.app",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
@@ -1599,6 +1611,16 @@ _TITLE_BLOCK_RES = [
         r"\barcade racer\b",
         r"\barcade game\b",
         r"\bracing game\b",
+        # 纯游戏的明确说法（如“a browser game”“a daily tile puzzle”）：
+        # browser game / tile puzzle 都是游戏类型自述，网页工具标题里
+        # 不会出现
+        # （2026-11-23 09:37 CST 轮：Show HN 两条纯游戏混入热点榜——
+        # 80 年代 Skyrim 风浏览器游戏 thanes-quest 与每日 tile puzzle
+        # Lotlark；离线验过全库 4182 条在库条目，browser game 命中 12 条、
+        # 过门条目中 6 条全是纯浏览器游戏、0 误伤；tile puzzle 只拦
+        # Lotlark 一条，0 误伤）
+        r"\bbrowser game\b",
+        r"\btile puzzle\b",
     )
 ]
 
