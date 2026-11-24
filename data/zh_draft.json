@@ -14326,5 +14326,29 @@
   "en_title": "mindyOne: An AI Receptionist for Your Instagram DMs",
   "zh_oneliner": "AI 帮你回 Instagram 私信，按你的真实空闲时间直接在对话里约好时间。",
   "zh_title": "mindyOne Instagram AI 接待员"
+ },
+ "https://extractstems.com": {
+  "en_oneliner": "Upload a song and split it into vocals, drums, bass and more to export — handy for practice, remixes and karaoke.",
+  "en_title": "Extract Stems Audio Stem Splitter",
+  "zh_oneliner": "上传一首歌，把人声、鼓点、贝斯等音轨拆开导出，练乐器、做混音和卡拉 OK 都能用。",
+  "zh_title": "Extract Stems 音轨分离器"
+ },
+ "https://aitranslatemanga.com": {
+  "en_oneliner": "Upload Japanese manga pages and get the dialogue translated into English or Simplified Chinese, typeset back into the artwork.",
+  "en_title": "AI Translate Manga",
+  "zh_oneliner": "把日语漫画页上传上去，自动识别对话框里的文字并翻译成英文或简体中文，再排版回原图里。",
+  "zh_title": "AI 漫画翻译"
+ },
+ "https://giftablesong.com": {
+  "en_oneliner": "Turn shared memories into a custom song gift — hear two free 60-second previews, then unlock the full version to send.",
+  "en_title": "GiftableSong Personalized Song Gift",
+  "zh_oneliner": "把你们之间的回忆写成一首专属歌曲，先免费听两段 60 秒小样，满意再付费解锁完整版送人。",
+  "zh_title": "GiftableSong 定制歌曲礼物"
+ },
+ "https://authoricai.com": {
+  "en_oneliner": "Draft outlines and chapters, design covers and export store-ready ebooks — write and publish a whole book in one browser workspace.",
+  "en_title": "Authoric AI Book Writing & Publishing Platform",
+  "zh_oneliner": "从大纲、章节草稿到封面设计和电子书导出，在一个网页里把一本书写完并做成能上架的版本。",
+  "zh_title": "Authoric AI 写书出版平台"
  }
 }

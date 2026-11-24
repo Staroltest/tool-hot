@@ -242,6 +242,19 @@ BLOCKED_DOMAINS = {
     # 不露安装痕迹，实测放行，人工抽查封禁（2026-11-24 00:37 CST 轮：
     # 热点榜第 1 条混入）
     "agent-home.ai",
+    # aitoolfinder.org：AI 工具目录站（按分类罗列 AI 工具、可比较功能与价格），
+    # 是目录不是能直接用的工具本身，与此前已封的 aitoolmix.com 同类
+    # （2026-11-24 18:37 CST 轮：热点榜第 2 条混入，人工核实后封）
+    "aitoolfinder.org",
+    # supacheap.eu：付费 GDPR 数据删除服务（买 API key/套餐后由其后台删
+    # 544 家数据经纪商的数据，无免费可直接用的功能，站上还提到自家 app），
+    # 是售卖页不是点开能用的工具（2026-11-24 18:37 CST 轮：热点榜
+    # 第 13 条混入，人工核实后封）
+    "supacheap.eu",
+    # 1fit.kids：塔什干线下儿童课程目录/地图（按城市列课程、卖家庭会员），
+    # 是本地服务目录不是浏览器里能直接用的工具
+    # （2026-11-24 18:37 CST 轮：当日时间线混入，人工核实后封）
+    "1fit.kids",
     "nytimes.com", "theguardian.com", "reuters.com", "washingtonpost.com",
     "cnn.com", "bbc.com", "bbc.co.uk", "economist.com", "ft.com", "wsj.com",
     "theatlantic.com", "newyorker.com", "thehill.com", "cnbc.com",
