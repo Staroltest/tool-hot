@@ -236,6 +236,12 @@ BLOCKED_DOMAINS = {
     # 痕迹，人工抽查发现（2026-11-23 18:19 CST 轮：归档复查发现 11-20
     # 日报里的 ExtraBar，整域封禁）
     "extrabar.app",
+    # agent-home.ai：Gal 本地优先智能体运行时（CLI gal / 桌面 galw 均为
+    # Go 二进制，须下载安装到本机，内核级沙箱只在本地生效），站上是营销
+    # 落地页、浏览器里没有能直接用的工具；标题“local-first agent runtime”
+    # 不露安装痕迹，实测放行，人工抽查封禁（2026-11-24 00:37 CST 轮：
+    # 热点榜第 1 条混入）
+    "agent-home.ai",
     "nytimes.com", "theguardian.com", "reuters.com", "washingtonpost.com",
     "cnn.com", "bbc.com", "bbc.co.uk", "economist.com", "ft.com", "wsj.com",
     "theatlantic.com", "newyorker.com", "thehill.com", "cnbc.com",

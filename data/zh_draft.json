@@ -9689,6 +9689,12 @@
   "zh_oneliner": "把 Markdown 文档的评审体验做到像 Google Docs 那样顺，还支持 Mermaid、D2 与 Graphviz 图表预览。",
   "zh_title": "Rico：给 GitHub PR 的富文本 Markdown 评审"
  },
+ "https://riemann-quest.pages.dev/hn": {
+  "en_oneliner": "A step-by-step quest that starts from high-school math and climbs toward the Riemann Hypothesis and the note that claims to have proved it, like a 10,000-hour math marathon.",
+  "en_title": "Understand the Riemann Hypothesis the Hard Way",
+  "zh_oneliner": "从高中数学出发，一关一关带你读懂黎曼猜想与那份据称已证明它的手稿，像一场一万小时的数学马拉松。",
+  "zh_title": "一步步硬啃黎曼猜想"
+ },
  "https://ripperskipper.com": {
   "en_oneliner": "A wakeboarding game that runs right in the browser — carve, ollie, spin, flip and grab your way through tricks with the keyboard.",
   "en_title": "Ripper Skipper: wakeboarding game in the browser",
