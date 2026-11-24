@@ -1031,6 +1031,12 @@
   "zh_oneliner": "一篇登上 Hacker News 的文章，站内没有附带摘要，完整内容需要点开原文查看。",
   "zh_title": "The Brainmade Mark"
  },
+ "https://breachsweep.com/supabase-rls-scanner": {
+  "en_oneliner": "Scan for exposed Supabase RLS tables and leaked bundle keys — read-only, nothing to change or install.",
+  "en_title": "Show HN: Read-only scanner for exposed Supabase RLS tables and bundle keys",
+  "zh_oneliner": "只读扫描暴露的 Supabase 数据表权限与泄露密钥，不改配置、不装东西，点开就能查。",
+  "zh_title": "BreachSweep：Supabase 安全扫描器"
+ },
  "https://breakingchips.com": {
   "en_oneliner": "Look up milling speeds and feeds with a cited source behind every number, so you can double-check the figures before you cut.",
   "en_title": "BreakingChips – A Machining Reference That Cites Every Number",
@@ -6455,6 +6461,12 @@
   "zh_oneliner": "一篇创始人访谈，聊创业对婚姻的冲击，以及怎么在公司和家庭之间找到平衡。",
   "zh_title": "创业而不丢掉婚姻"
  },
+ "https://framegloss.app": {
+  "en_oneliner": "Polish screen recordings in the browser with zooms, callouts, and captions, and turn them into launch-ready product demos in 60 seconds — nothing is uploaded.",
+  "en_title": "Show HN: FrameGloss – Browser Screen Studio alternative (WebCodecs, no uploads)",
+  "zh_oneliner": "在浏览器里给录屏加缩放、标注和字幕，60 秒做出可直接发布的产品演示，全程不上传文件。",
+  "zh_title": "FrameGloss：浏览器录屏工作室"
+ },
  "https://freddy.coach/?ref=producthunt": {
   "en_oneliner": "Pulls health data from Garmin, Apple Health and 100+ sources into one place, then lets any AI answer questions from your real numbers.",
   "en_title": "freddy: One Home for All Your Health Data",
@@ -8615,6 +8627,12 @@
   "zh_oneliner": "把每周重复的工作画成一张流程图：从模板出发、一键连上 GitHub、Slack 或 Notion，智能体按固定步骤执行，还能定时自动跑，每一步都看得见、查得到。",
   "zh_title": "Mermaid Flow 智能体工作流"
  },
+ "https://metaclean.sivepro.com": {
+  "en_oneliner": "Scrub metadata and personal info from files entirely in memory — zero retention, nothing uploaded.",
+  "en_title": "Show HN: MetaClean – Zero-retention in-memory metadata and PII scrubber",
+  "zh_oneliner": "在内存里清除文件元数据与隐私信息，零留存、不上传，处理完即销毁。",
+  "zh_title": "MetaClean：内存内元数据与隐私信息清除器"
+ },
  "https://metric-converter.com": {
   "en_oneliner": "A free unit and file converter that runs entirely in your browser — no sign-up needed.",
   "en_title": "Metric Converter",
@@ -8710,6 +8728,12 @@
   "en_title": "Modulify: websites from a prompt",
   "zh_oneliner": "一句话提示词，生成完整网站和网页应用。",
   "zh_title": "Modulify：提示词建站"
+ },
+ "https://mole.so": {
+  "en_oneliner": "A research agent that traces every claim back to its original source, so you can check the evidence.",
+  "en_title": "Show HN: Mole – research agent that traces claims to their sources",
+  "zh_oneliner": "把每一个论断追溯到原始来源的研究助手，查证有据可依。",
+  "zh_title": "Mole：溯源研究助手"
  },
  "https://moneyle.app/?ref=smollaunch": {
   "en_oneliner": "Daily puzzle games about money — compare billionaires, market caps and box office, one round a day.",
@@ -10654,6 +10678,12 @@
   "en_title": "Statnest",
   "zh_oneliner": "把流量、广告、收入、评价、客服和代码数据都接到一块看板上，每天早上打开一个页面就知道生意怎么样。",
   "zh_title": "Statnest：创业者的一站式数据看板"
+ },
+ "https://stetup.com/capture": {
+  "en_oneliner": "Turn a list of URLs or a sitemap into a single PDF of full-page captures — archive a whole site in one go.",
+  "en_title": "Show HN: Turn a list of URLs or a sitemap into one PDF of full-page captures",
+  "zh_oneliner": "把一串网址或站点地图转成一本整页截图 PDF，批量存档一次搞定。",
+  "zh_title": "Stetup Capture：网址列表转整页截图 PDF"
  },
  "https://steveblank.com/2026/11/15/whats-next-for-nvidia": {
   "en_oneliner": "An analysis from Steve Blank on where Nvidia might go next, for readers following the chip and AI landscape.",
@@ -14602,29 +14632,5 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
- },
- "https://breachsweep.com/supabase-rls-scanner": {
-  "en_oneliner": "Scan for exposed Supabase RLS tables and leaked bundle keys — read-only, nothing to change or install.",
-  "en_title": "Show HN: Read-only scanner for exposed Supabase RLS tables and bundle keys",
-  "zh_oneliner": "只读扫描暴露的 Supabase 数据表权限与泄露密钥，不改配置、不装东西，点开就能查。",
-  "zh_title": "BreachSweep：Supabase 安全扫描器"
- },
- "https://metaclean.sivepro.com": {
-  "en_oneliner": "Scrub metadata and personal info from files entirely in memory — zero retention, nothing uploaded.",
-  "en_title": "Show HN: MetaClean – Zero-retention in-memory metadata and PII scrubber",
-  "zh_oneliner": "在内存里清除文件元数据与隐私信息，零留存、不上传，处理完即销毁。",
-  "zh_title": "MetaClean：内存内元数据与隐私信息清除器"
- },
- "https://mole.so": {
-  "en_oneliner": "A research agent that traces every claim back to its original source, so you can check the evidence.",
-  "en_title": "Show HN: Mole – research agent that traces claims to their sources",
-  "zh_oneliner": "把每一个论断追溯到原始来源的研究助手，查证有据可依。",
-  "zh_title": "Mole：溯源研究助手"
- },
- "https://stetup.com/capture": {
-  "en_oneliner": "Turn a list of URLs or a sitemap into a single PDF of full-page captures — archive a whole site in one go.",
-  "en_title": "Show HN: Turn a list of URLs or a sitemap into one PDF of full-page captures",
-  "zh_oneliner": "把一串网址或站点地图转成一本整页截图 PDF，批量存档一次搞定。",
-  "zh_title": "Stetup Capture：网址列表转整页截图 PDF"
  }
 }

@@ -1668,6 +1668,16 @@ BLOCKED_URLS = {
     # WASD 移动、徽章收集），纯游戏，按游戏口径一律拦；duobook.co 只拦
     # 这一条链接，不封整个域名
     "https://mantar.duobook.co",
+    # 2026-11-25 05:07 CST 轮热点榜自查补封（页面实测确认）：三条泄漏——
+    # heysaransh.com 是个人主页/作品集（Saransh Anand 的自我介绍页），不是
+    # 能用的工具；canerg.com/projects/betternews 是 BetterNews 的项目介绍页，
+    # 产品本身是 iPhone/Android 版 Hacker News 语音聊天应用，不是浏览器里能
+    # 直接用的工具；modelxare.com 是去中心化微模型目录（GGUF 文件、需本地
+    # 运行时在自己电脑上跑模型），需要下载安装，不符合“完全在网站上就能用”；
+    # 三条都只拦精确链接，不封整个域名
+    "https://heysaransh.com",
+    "https://canerg.com/projects/betternews",
+    "https://www.modelxare.com",
     # 2026-11-22 11:07 PST 轮热点榜自查补封（页面实测确认）：
     # ScraperSocial（scrapersocial.com）是社交媒体数据 REST API + 托管 MCP
     # 服务（231 个端点、需注册取 API key 后用 curl/代码调用），根地址是 API
