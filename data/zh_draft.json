@@ -13924,5 +13924,125 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
+ },
+ "https://gitpulse.xyz": {
+  "en_title": "GitPulse V2",
+  "zh_title": "GitPulse：帮新手找到好上手的开源项目",
+  "zh_oneliner": "帮开发者找开源项目和新手友好的 issue，V2 新增 500 多个精选 issue、AI 难度预测、即时搜索、仓库健康评分、提交热力图与多仓库对比。",
+  "en_oneliner": "Helps developers find open-source projects and beginner-friendly issues, with 500+ curated issues, AI difficulty prediction, instant search, repo health scoring, commit heatmaps and multi-repo comparison in V2."
+ },
+ "https://vetoo.dev": {
+  "en_title": "Vetoo",
+  "zh_title": "Vetoo：会跟团队一起成长的 AI 代码评审",
+  "zh_oneliner": "适应团队的 AI 代码评审，几分钟接好、跨仓库拉第三方工具的上下文、从团队反馈里学习，还能像同事一样对话追问评审意见。",
+  "en_oneliner": "AI code review that adapts to your team: it pulls context across repos and third-party tools, learns from your feedback, and lets you discuss its findings like you would with a teammate."
+ },
+ "https://html.contact": {
+  "en_title": "html.contact",
+  "zh_title": "html.contact：不用写后端，表单提交直达邮箱与 Slack",
+  "zh_oneliner": "把 HTML 表单变成邮件通知、Slack 更新和带签名的 webhook，粘贴一个网址就能收提交，不用搭后端，还能通过 MCP 接编码 agent。",
+  "en_oneliner": "Turns HTML forms into email notifications, Slack updates and signed webhooks: paste one URL and start collecting submissions with no backend to build, plus MCP support for coding agents."
+ },
+ "https://app.y2down.to/en": {
+  "en_title": "Y2Down",
+  "zh_title": "Y2Down：免费在线下载 YouTube 视频，最高 4K",
+  "zh_oneliner": "免费的在线 YouTube 视频下载工具，最高支持 4K 清晰度，打开网页粘贴链接就能下。",
+  "en_oneliner": "A free online tool for downloading YouTube videos in up to 4K quality, right from the browser."
+ },
+ "https://luneamail.com": {
+  "en_title": "LuneaMail",
+  "zh_title": "LuneaMail：营销邮件与应用邮件共用一套模板",
+  "zh_oneliner": "给 SaaS 团队的邮件服务：营销群发与欢迎、邀请、收据这类应用邮件共用一套模板，拖拽设计或写 HTML，一次 REST 调用就能发。",
+  "en_oneliner": "Email for SaaS teams: marketing campaigns and app emails like welcomes, invites and receipts share the same templates, designed by drag-and-drop or HTML and sent with one REST call."
+ },
+ "https://afterlaunch.io": {
+  "en_title": "AfterLaunch",
+  "zh_title": "AfterLaunch：每天给你一个增长决策的 AI 助手",
+  "zh_oneliner": "代理式增长引擎：测你的 SEO 与各大 AI 搜索引擎如何评价你的产品，每天早上带来一个增长决策，确认后由 agent 代劳执行。",
+  "en_oneliner": "An agentic growth engine that measures your SEO and how leading AI search engines answer about your product, then brings you one growth decision each morning and does the work after your yes."
+ },
+ "https://athenaos.net": {
+  "en_title": "Athena Axyloris",
+  "zh_title": "Athena：每天早上先告诉你什么最重要",
+  "zh_oneliner": "倾听式 AI 助手：把你随口说的事记下来，每天早上给一份简短简报，指出今天什么值得关注、什么可以等等、什么差点被遗忘。",
+  "en_oneliner": "A listening AI assistant that remembers what you tell it and brings you a short morning briefing on what deserves attention today, what can wait, and what you almost forgot."
+ },
+ "https://robonito.com": {
+  "en_title": "Robonito",
+  "zh_title": "Robonito：给需求描述就自动跑测试的 AI 质检员",
+  "zh_oneliner": "AI 质检 agent：给它需求、用户故事或一段白话描述，它就规划测试用例、跨 Web、移动端、API 与桌面跑测试，失败时定位根因，UI 变了还会自动修复测试。",
+  "en_oneliner": "An AI agent for QA: give it a requirement or plain-English description and it plans test cases, runs them across web, mobile, API and desktop, pinpoints the root cause of failures, and heals tests when your UI changes."
+ },
+ "https://still200.com": {
+  "en_title": "Still200",
+  "zh_title": "Still200：定时任务一停摆立刻报警",
+  "zh_oneliner": "全天候盯着你的定时任务、排程 AI agent、API 与网站，一旦有东西停摆就通过邮件、Slack 或 webhook 报警，并附上出错的依赖与报错信息。",
+  "en_oneliner": "Watches your cron jobs, scheduled AI agents, APIs and websites around the clock, and alerts you by email, Slack or webhook the moment something stops working, with the failing dependency and its error attached."
+ },
+ "https://removebgvideo.org": {
+  "en_title": "Remove BG Videos",
+  "zh_title": "Remove BG Videos：在线去掉视频背景",
+  "zh_oneliner": "在线去除视频背景，支持边缘优化、羽化、SAM 修正点与时序平滑，上传 MP4、MOV 或 WebM 即可免费处理一段 5 秒视频。",
+  "en_oneliner": "Removes video backgrounds online with edge refinement, mask feathering, SAM correction points and temporal smoothing; upload an MP4, MOV or WebM and get one processed 5-second clip free."
+ },
+ "https://www.linkjolt.io": {
+  "en_title": "LinkJolt",
+  "zh_title": "LinkJolt：给你的 SaaS 加联盟分销，不用写代码",
+  "zh_oneliner": "给 SaaS 加联盟分销计划：贴一段脚本、再加一个结账字段，Stripe、Paddle 等渠道的每笔成交自动记佣金，退款时佣金自动冲销。",
+  "en_oneliner": "Adds an affiliate program to your SaaS without writing referral code: add one script tag and LinkJolt records each sale from your payment provider, reversing commissions on refunds."
+ },
+ "https://www.pingbuddy.app": {
+  "en_title": "Pingbuddy",
+  "zh_title": "Pingbuddy：网站返回 200 也可能是白屏，它能发现",
+  "zh_oneliner": "用真浏览器打开你的网址，抓渲染失败、JS 报错与页面上的错误提示，确认宕机后用 Telegram 或邮件报警，并附截图、AI 原因分析与修复提示。",
+  "en_oneliner": "Opens your public URL in a real browser to catch rendering failures, JavaScript errors and on-page error messages, then alerts you by Telegram or email with a screenshot, an AI explanation and a fix prompt."
+ },
+ "https://codepython.online": {
+  "en_title": "Code Python Online",
+  "zh_title": "Code Python Online：浏览器里直接写跑 Python",
+  "zh_oneliner": "免费的在线 Python IDE 与编译器，浏览器里直接写代码、跑脚本、练编程，不用安装任何东西。",
+  "en_oneliner": "A free online Python IDE and compiler: write and run Python code instantly in your browser, no installation needed."
+ },
+ "https://usamarketingpros.com/free-seo-tools/ai-visibility-checker": {
+  "en_title": "AI Visibility Checker",
+  "zh_title": "AI Visibility Checker：测你的网站在 AI 搜索里能见度如何",
+  "zh_oneliner": "输入一个网址，打一个满分 100 的 AI 搜索就绪分，并按重要性列出修复清单，覆盖 robots.txt、索引、结构化数据、llms.txt 等检查项。",
+  "en_oneliner": "Enter a website and get a score out of 100 for AI search readiness, with fixes ranked by importance, covering robots.txt, indexability, schema, llms.txt and more."
+ },
+ "https://hookstead.dev": {
+  "en_title": "HookStead",
+  "zh_title": "HookStead：接收、验证并转发 webhook 的中转站",
+  "zh_oneliner": "接收、验证并转发 webhook，自动重试、回放、报警与完整投递记录，每月免费 1 万次事件，托管在德国。",
+  "en_oneliner": "Receives, verifies and forwards webhooks with automatic retries, replay, alerts and a full delivery history, free up to 10,000 events a month."
+ },
+ "https://drawmode.ai": {
+  "en_title": "DrawMode",
+  "zh_title": "DrawMode：能和 AI agent 一起画的软件架构图",
+  "zh_oneliner": "给开发者、团队与 agent 的软件绘图工具：UML、C4 等 29 种图型，在一个共享可视化工作区里画图，还能通过 MCP 让 AI agent 参与设计与重构。",
+  "en_oneliner": "Software diagrams for developers, teams and agents: UML, C4 and 29 diagram types in one shared visual workspace, with MCP support so AI agents can design, analyze and refactor alongside you."
+ },
+ "https://code4.space": {
+  "en_title": "Code4 Space",
+  "zh_title": "Code4 Space：计划、开发、评审、发布都在一处",
+  "zh_oneliner": "计划、开发、评审与发布一体化：issue 与看板、Git 托管、代码评审、CI/CD、部署、文档、聊天通话都在一处，写下的知识由人与 AI agent 共享。",
+  "en_oneliner": "Plan, build, review and ship in one place: issues and boards, git hosting and code review, CI/CD, deployments, docs, chat and calls, with a shared knowledge base for people and AI agents."
+ },
+ "https://marketstory.com": {
+  "en_title": "MarketStory",
+  "zh_title": "MarketStory：股票的叙事一变就提醒你",
+  "zh_oneliner": "盯住一只股票的叙事变化：读 2000 多位投资人在 YouTube 与 X 上的发言，看涨看跌一变就提醒，附上原帖引用，每只股票都有多空双方的论点页。",
+  "en_oneliner": "Know when the story on a stock changes, and why: it reads what 2,000+ investors post on YouTube and X, flags every narrative shift with the quotes that drove it, and gives each stock a bull-and-bear page."
+ },
+ "https://shiftlog.it": {
+  "en_title": "ShiftLog.it",
+  "zh_title": "ShiftLog.it：一句话描述，生成整月工时日志",
+  "zh_oneliner": "用一句话描述工作量，它按天生成整月工时日志：日期、小时数与专业规范的任务描述，还支持 MCP 接 Claude 与 Claude Code。",
+  "en_oneliner": "Type a plain description of your work and it builds a day-by-day work log for the whole month, with dates, hours and clear professional task descriptions, plus an MCP server for Claude and Claude Code."
+ },
+ "https://www.fastseofix.com": {
+  "en_title": "Fast SEO Fix",
+  "zh_title": "Fast SEO Fix：AI 每天帮你发优化过的博客文章",
+  "zh_oneliner": "帮开发者做 SEO：AI 分析你的网站、找出优化机会，每天自动发布优化过的博客文章，省去研究、写作与优化的时间。",
+  "en_oneliner": "Helps developers with SEO: AI analyzes your website, finds SEO opportunities, and automatically publishes optimized blog posts to your site every day."
  }
 }

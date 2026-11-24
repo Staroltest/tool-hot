@@ -1154,11 +1154,59 @@ BLOCKED_DOMAINS = {
     # harry-potter-house-quiz.org 是哈利·波特分院纯问答游戏（做题测自己
     # 属于哪个学院），整站就是这一个游戏，按游戏口径（纯游戏一律拦）封禁
     "harry-potter-house-quiz.org",
-    # 2026-11-24 03:07 CST 轮热点榜自查补封（页面实测确认）：
+    # 2026-11-24 09:07 CST 轮热点榜自查补封（页面实测确认）：
     # getdataengineeringjobs.com 是数据工程师招聘版（4304 个在招职位列表，
     # 可按薪资/地点/技术栈筛选 + 每周邮件订阅），纯招聘信息目录站，无工具
     # 功能；同已封的 jobswithpay.com、remotejobsrock.com 等招聘版，域名封禁
     "getdataengineeringjobs.com",
+    # 2026-11-24 09:07 CST 轮归档复查补封（11-17 日报 DevHunt 批量条目
+    # 人工审描述，46 条未翻译条目逐条核查，26 条泄漏封禁）：
+    # yabanin.ai 是自托管 AI 基础设施 + 落地实施服务（“self-hosted
+    # infrastructure”，须装到自有服务器上跑），自托管工具不收；
+    # ecomagenttools.com 是电商 AI 工具目录站（按工作流找工具与资源），
+    # 目录页不收；productsfarm.com 是本周新品发布榜（按社区投票排名），
+    # 发布目录站不收；cloudchangelog.com 是云厂商与 AI 模型更新公告聚合
+    # feed，是新闻聚合不是工具
+    "yabanin.ai",
+    "ecomagenttools.com",
+    "productsfarm.com",
+    "cloudchangelog.com",
+    # 纯 API 平台（点开不能直接在浏览器里用）：digitalapi.ai 是 API
+    # 网关目录/分发平台，saidwire.com 是实时语音转文字 API，
+    # farsideresearch.com 是供代码调用的深度研究 REST API，rcs-api.com
+    # 是企业 RCS 消息 API，aicredits.in 是 OpenAI 兼容模型 API 接入
+    "digitalapi.ai",
+    "saidwire.com",
+    "farsideresearch.com",
+    "rcs-api.com",
+    "aicredits.in",
+    # 须下载安装/本地运行：launchcrate.dev 是 Rust SaaS 脚手架源码包
+    # （一次性付费下载）；crestivell.polywickstudio.net 是自托管 Windows
+    # 代码签名 API；cautionlabs.com 的 Argus 是跑在自有基础设施里的文本
+    # 审核模型（一条 Docker 命令启动）；getvalo.dev 是桌面工作区应用
+    # （Free for Windows, Mac and Linux，浏览器实测确认）
+    "launchcrate.dev",
+    "crestivell.polywickstudio.net",
+    "cautionlabs.com",
+    "getvalo.dev",
+    # MCP/插件调用、无浏览器工具界面：mishmar.io 是接交易账户的 MCP
+    # 服务器，renoise.ai 的音视频生成只走 Claude Code/Codex 插件、MCP
+    # 或 API key，shipfunnels.app 的漏斗搭建只走 MCP 连编码 agent；
+    # vizauth.com 是表情码认证 SDK（供开发者集成的库，不是网站工具）
+    "mishmar.io",
+    "renoise.ai",
+    "shipfunnels.app",
+    "vizauth.com",
+    # 服务/人力中介而非工具：virallized.com 是人工跑互动的 Instagram
+    # 涨粉服务，flexytasks.dev 是对接开发者的任务外包服务平台
+    "virallized.com",
+    "flexytasks.dev",
+    # 装进第三方平台的集成：pacecar.sh 是装到 GitHub org 里的 PR 评审
+    # App，honest-ci.dev 是读 PR diff 的 GitHub Action，tday.com 是在
+    # 本机上跑编码 agent 录演示视频的工具，均非点开即用的网站
+    "pacecar.sh",
+    "honest-ci.dev",
+    "tday.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -1661,6 +1709,19 @@ BLOCKED_URLS = {
     # 功能，按游戏口径（纯游戏一律拦）封禁；只拦这一条链接，不封整个域名
     "https://tripup.me",
     "https://www.tripup.me",
+    # 2026-11-24 09:07 CST 轮归档复查补封（11-17 日报 DevHunt 批量条目
+    # 人工审描述，个人站/短链域名上的单条泄漏只拦链接，不封整个域名）：
+    # frankvitetta.com/ai-scraper 是开源 Python 抓取工具（给 CSV 跑
+    # Perplexity/ChatGPT、须本地 Chrome 会话运行），须下载安装才能用；
+    # danilqa.github.io/kombinat 是跑在自有 Mac 上的定时 AI agent
+    # （Markdown 例程 + Claude Code/Codex CLI），本地运行；
+    # myk.sh/mykos 是容器虚拟化基础设施（BYOL Virtualization），不是
+    # 点开即用的工具网站；boring-observability.dev/skyline 是 Horizon
+    # 的平替（Laravel 队列看板包，装进自有应用里跑），自托管不收
+    "https://frankvitetta.com/ai-scraper",
+    "https://danilqa.github.io/kombinat",
+    "https://myk.sh/mykos",
+    "https://boring-observability.dev/skyline",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
