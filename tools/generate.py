@@ -1317,6 +1317,28 @@ BLOCKED_DOMAINS = {
     # for Windows…Notes stay on your PC”），须下载安装到本机才能用，按
     # “须下载安装的工具不算”口径拦；标题与实测信号均不露痕迹，人工抽查封禁
     "tendor.md",
+    # 2026-11-24 晨间复查补封（页面实测确认）：Endlessle
+    # （endlessle.com）是 Wordle/trivia 游戏站（“Play Free…Wordle
+    # Guide…Similar games”），纯游戏，按游戏口径一律拦；站内自写
+    # “runs in your browser…nothing to install”，但游戏本身不是工具
+    "endlessle.com",
+    # 2026-11-24 晨间复查补封（页面实测确认）：Pickode
+    # （pickode.com）是 Chrome 扩展（“Install Pickode…Add to Chrome…
+    # One extension instead of 10”），须安装扩展才能用，按“浏览器扩展
+    # 不算”口径拦；旧豁免放行（add_to_chrome 信号被 browser-use 豁免
+    # 盖过，收紧前验的结论，pass 不重验故一直留在 11-03 日报里）
+    "pickode.com",
+    # 2026-11-24 晨间复查补封（页面实测确认）：tensorViz
+    # （tensorviz.dev）是 PyTorch 模型可视化编辑器扩展 + pip 包
+    # （“Install the editor extension…code --install-extension”），
+    # 浏览器里只有一个演示示例，不是能直接用的工具，按“须下载安装
+    # 的工具不算”口径拦；旧豁免放行（pip_install 信号被豁免盖过）
+    "tensorviz.dev",
+    # 2026-11-24 晨间复查补封（页面实测确认）：Deals Copier
+    # （dc.flasktoken.com）是 Chrome 扩展（站内自写“Deals Copier is
+    # a Chrome extension…Add to Chrome”），须安装扩展才能用；旧豁免
+    # 放行（add_to_chrome 信号被 browser-use 豁免盖过，收紧前验的结论）
+    "dc.flasktoken.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -1632,6 +1654,19 @@ BLOCKED_URLS = {
     # 测试游戏，无工具功能，按游戏口径（纯游戏一律拦）封禁；vercel.app 是
     # 托管域名，只拦这一条链接，不封整个域名
     "https://addressmatcher.vercel.app",
+    # 2026-11-24 08:37 PST 轮自查补封（页面实测确认）：Laser Grid
+    # （lasergrid.app）站名自写“a free laser puzzle game in your browser”，
+    # 激光解谜纯游戏，按游戏口径（纯游戏一律拦）封禁；标题门同步加
+    # puzzle game 规则；只拦这一条链接，不封整个域名
+    "https://lasergrid.app",
+    "https://lasergrid.app/?from=rd-hn",
+    # 2026-11-24 08:37 PST 轮自查补封（页面实测确认）：SmarToken
+    # （thesmartoken.com）是国产 AI 模型的 OpenAI 兼容 API 网关（DeepSeek/
+    # Kimi/GLM），首页就是 curl 调用示例、API key 与预付钱包，需取 key 后
+    # 用代码调用，浏览器里不能直接用，按“纯 API 平台不收”口径拦（与此前
+    # TokLab、ScraperSocial 同类处理）；只拦根链接，不封整个域名
+    "https://thesmartoken.com",
+    "https://www.thesmartoken.com",
     # 2026-11-23 10:37 CST 轮热点榜自查补封（浏览器实测确认）：
     # FreshGameRadar（freshgameradar.com）首页就是“Latest articles”，全站
     # 是 Roblox 与浏览器游戏的攻略文章和兑换码列表，是游戏资讯/攻略内容站，
@@ -1932,6 +1967,12 @@ BLOCKED_URLS = {
     # 只拦根链接，不封整个域名
     "https://sobrenna.app",
     "https://www.sobrenna.app",
+    # 2026-11-24 晨间复查补封（页面实测确认）：Liar's Ledger
+    # （theliarsledger.com/play）是狼人杀推理网页游戏（“Deduction
+    # Game…Loading game files”），纯游戏，按游戏口径一律拦；只拦
+    # 这一条链接，不封整个域名
+    "https://theliarsledger.com/play",
+    "https://www.theliarsledger.com/play",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
@@ -2191,6 +2232,12 @@ _TITLE_BLOCK_RES = [
         # Lotlark 一条，0 误伤）
         r"\bbrowser game\b",
         r"\btile puzzle\b",
+        # “puzzle game”（如“Show HN: I built a laser puzzle game …”）：
+        # 解谜游戏的明确说法，网页工具标题里不会出现
+        # （2026-11-24 08:37 PST 轮：Laser Grid 激光解谜纯游戏混入热点榜；
+        # 离线验过全库 4755 条在库条目，命中 7 条全是纯解谜游戏，0 误伤；
+        # 链接门同步封 lasergrid.app）
+        r"\bpuzzle game\b",
         # “mini-game / mini game”（如“Show HN: Borderdraw (Web
         # Mini-Game)”）：小游戏的明确说法，网页工具标题里不会出现
         # （2026-11-23 16:07 CST 轮：Borderdraw 混入当日时间线；离线验过
@@ -2281,6 +2328,23 @@ PROBE_SIGNALS = [
     ("app_store", r"(?<!agent\s)\bapp\s+store\b"),
     ("google_play", r"\bgoogle\s+play\b"),
     ("testflight", r"\btestflight\b"),
+    # 2026-11-24 离线调优新增（应用分发 CTA 类软信号，见
+    # _PROBE_EXEMPTABLE_SIGNALS）：ohhai（“Get the app / Get Ohhai for
+    # Mac”）、outloudreader（“Get the app / Free to download · iOS &
+    # Android”）等应用营销页只用这类 CTA、不用“App Store / Google Play”
+    # 字样，旧信号够不着；离线验证：119 条已发布条目实测 0 误伤，
+    # 坏集 20 条里命中 3 条（ohhai 命中 get_the_app 与
+    # get_app_for_platform，outloudreader 命中 get_the_app 与
+    # free_to_download）；与 app_store 同类处理——真网页工具页脚的
+    # “也有手机版”提及靠 browser-use 豁免放行。get_app_for_platform
+    # 的产品词用 (?-i:[A-Z]...) 要求首字母真实大写，避免“Get started
+    # for Mac”这类小写文案误伤；“Download <产品名>”（astor.app 的
+    # “Download Astor”）与“Get <产品名>”（tendor.md 的“Get Tendor”）
+    # 实测误伤太多（41/115、74/115），仍拦不住，靠人工抽查兜底。
+    ("get_the_app", r"\bget\s+the\s+app\b"),
+    ("get_app_for_platform",
+     r"\bget\s+(?-i:[A-Z][a-z]{2,})\s+for\s+(mac|windows|ios|iphone|android)\b"),
+    ("free_to_download", r"\bfree\s+to\s+download\b"),
     # 多语言下载包：韩文 다운로드 / 中文 下载 + 安装包后缀
     ("download_pkg",
      r"(download|다운로드|下载)\b[^\n]{0,80}\.(dmg|exe|apk|msi|pkg)\b"),
@@ -2365,8 +2429,15 @@ _PROBE_EXEMPT_RES = [re.compile(p, re.IGNORECASE)
 # 20 条豁免放行全量）：软信号 5 条全为真工具，硬信号 15 条里含
 # rmux、nlmexporter 两个已知漏网；现存 20 条均未在榜，改动不影响
 # 任何在榜条目，只影响今后新到条目的实测（pass 结论不重验）。
+# 2026-11-24 补入 get_the_app、get_app_for_platform、
+# free_to_download（同类应用分发 CTA 软信号，离线验证 119 条已发布
+# 条目 0 误伤）；注意：pass 结论不重验，收紧前已豁免放行的旧条目
+# 仍带旧结论，须另做归档复查（2026-11-24 晨间复查即据此查出
+# dc.flasktoken.com、pickode.com、tensorviz.dev、endlessle.com 四条
+# 仍在榜的旧豁免漏网并封禁）。
 _PROBE_EXEMPTABLE_SIGNALS = frozenset(
-    ("app_store", "google_play", "testflight"))
+    ("app_store", "google_play", "testflight",
+     "get_the_app", "get_app_for_platform", "free_to_download"))
 
 
 def _visible_text(html_text):
