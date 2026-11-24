@@ -137,6 +137,12 @@
   "zh_oneliner": "贴一条新闻链接，它会告诉你这家媒体归谁所有，并用 1 到 7 分标出这篇文章的倾向程度。",
   "zh_title": "Aethelgard：贴新闻链接，看它偏向哪边"
  },
+ "https://afterlaunch.io": {
+  "en_oneliner": "An agentic growth engine that measures your SEO and how leading AI search engines answer about your product, then brings you one growth decision each morning and does the work after your yes.",
+  "en_title": "AfterLaunch",
+  "zh_oneliner": "代理式增长引擎：测你的 SEO 与各大 AI 搜索引擎如何评价你的产品，每天早上带来一个增长决策，确认后由 agent 代劳执行。",
+  "zh_title": "AfterLaunch：每天给你一个增长决策的 AI 助手"
+ },
  "https://age-of-product.com/ai-adoption-failures": {
   "en_oneliner": "This article explains why a successful AI pilot is no reason to scale, and what teams should check before expanding their investment.",
   "en_title": "AI Adoption Failures: Why Your Successful AI Pilot Is No Reason to Scale",
@@ -401,6 +407,12 @@
   "zh_oneliner": "匿名查看和下载公开 Ins 账号的动态、精选、帖子和短视频，不用登录。",
   "zh_title": "AnonimoStories：匿名看 Ins 动态"
  },
+ "https://ant-lang.org": {
+  "en_oneliner": "A lightweight scripting language with goroutines and static types for quick automation and concurrent tasks.",
+  "en_title": "Ant – A Scripting Language with Goroutines and Static Types",
+  "zh_oneliner": "一门支持协程和静态类型的脚本语言，写起来轻量，跑起来有并发，适合随手写点自动化脚本。",
+  "zh_title": "Ant：带协程与静态类型的脚本语言"
+ },
  "https://antelog.dev/?ref=producthunt": {
   "en_oneliner": "Stops AI coding agents from leaking or destroying your data — guardrails for agentic coding.",
   "en_title": "Antelog",
@@ -490,6 +502,12 @@
   "en_title": "Show HN: LaTeX Editor with Incremental Compilation",
   "zh_oneliner": "在线写 LaTeX，改一处就只重编一处，预览跟手速走，不用等整篇重新编译。",
   "zh_title": "Texter：边写边编译的在线 LaTeX 编辑器"
+ },
+ "https://app.y2down.to/en": {
+  "en_oneliner": "A free online tool for downloading YouTube videos in up to 4K quality, right from the browser.",
+  "en_title": "Y2Down",
+  "zh_oneliner": "免费的在线 YouTube 视频下载工具，最高支持 4K 清晰度，打开网页粘贴链接就能下。",
+  "zh_title": "Y2Down：免费在线下载 YouTube 视频，最高 4K"
  },
  "https://app.zyvolab3d.com/?ref=producthunt": {
   "en_oneliner": "Turn 3D models into interactive web viewers and AR product showcases.",
@@ -641,6 +659,12 @@
   "zh_oneliner": "填入你的网址，它会派一个前沿 AI 智能体真刀真枪地试着闯你的网站，再告诉你它完成了哪些操作、风险有多高。",
   "zh_title": "Proof of Human：测测 AI 智能体能否绕过你的网站安全防线"
  },
+ "https://athenaos.net": {
+  "en_oneliner": "A listening AI assistant that remembers what you tell it and brings you a short morning briefing on what deserves attention today, what can wait, and what you almost forgot.",
+  "en_title": "Athena Axyloris",
+  "zh_oneliner": "倾听式 AI 助手：把你随口说的事记下来，每天早上给一份简短简报，指出今天什么值得关注、什么可以等等、什么差点被遗忘。",
+  "zh_title": "Athena：每天早上先告诉你什么最重要"
+ },
  "https://atlasofmoney.org": {
   "en_oneliner": "An evidence-graded history of money, from barter to paper credit, with sourced entries you can explore on a map and a timeline.",
   "en_title": "Show HN: Atlas of Money",
@@ -724,6 +748,12 @@
   "en_title": "Bellripple – a quiet Korean temple garden in the browser",
   "zh_oneliner": "在浏览器里走进一座 3D 寺庙花园：散步、打坐、行礼、敲钟，可以一个人静静待着，也可以和别人一起，免费免注册。",
   "zh_title": "Bellripple：浏览器里的安静寺庙花园"
+ },
+ "https://benchline.fabwaseem.com": {
+  "en_oneliner": "61 free dev tools that run right in your browser — JSON, PDF, images, crypto, network debugging and more, no install or sign-up needed.",
+  "en_title": "Benchline: 61 Free Dev Tools That Run in Your Browser",
+  "zh_oneliner": "61 个免费开发小工具都在浏览器里跑，JSON、PDF、图片、加密、网络调试全都有，不用安装也不用注册，点开就能用。",
+  "zh_title": "Benchline：61 个免费开发工具，浏览器里直接用"
  },
  "https://berryde.com/projects/satellites": {
   "en_oneliner": "An interactive visualisation of every satellite launched since 1957, built from the GCAT database.",
@@ -1307,6 +1337,12 @@
   "zh_oneliner": "把邮箱、日历、网盘、预约和 AI 助手装进一个工作区，按套餐不按人头收费，是 Google Workspace 的平价替代。",
   "zh_title": "Mailflare Cloud：带 AI 助手、不按人头收费的团队邮箱与办公套件"
  },
+ "https://code4.space": {
+  "en_oneliner": "Plan, build, review and ship in one place: issues and boards, git hosting and code review, CI/CD, deployments, docs, chat and calls, with a shared knowledge base for people and AI agents.",
+  "en_title": "Code4 Space",
+  "zh_oneliner": "计划、开发、评审与发布一体化：issue 与看板、Git 托管、代码评审、CI/CD、部署、文档、聊天通话都在一处，写下的知识由人与 AI agent 共享。",
+  "zh_title": "Code4 Space：计划、开发、评审、发布都在一处"
+ },
  "https://codebrief.com/2026/11/32-coding-agent-apps-reviewed": {
   "en_oneliner": "Thirty-two coding agent apps tested in one place, so you can skip trying them one by one and see which ones are worth installing.",
   "en_title": "32 Coding Agent Apps Reviewed",
@@ -1330,6 +1366,12 @@
   "en_title": "CodeMesh",
   "zh_oneliner": "把 AI 编程的调用成本砍掉 90% 的工具，智能分流到更便宜的模型上。",
   "zh_title": "CodeMesh：把 AI 编程成本砍掉 90%"
+ },
+ "https://codepython.online": {
+  "en_oneliner": "A free online Python IDE and compiler: write and run Python code instantly in your browser, no installation needed.",
+  "en_title": "Code Python Online",
+  "zh_oneliner": "免费的在线 Python IDE 与编译器，浏览器里直接写代码、跑脚本、练编程，不用安装任何东西。",
+  "zh_title": "Code Python Online：浏览器里直接写跑 Python"
  },
  "https://codersera.com/tools/ai-agent-task-board": {
   "en_oneliner": "A task board that runs several AI coding agents in parallel — queue tasks, let agents pick them up and report back, no signup needed.",
@@ -5717,6 +5759,12 @@
   "zh_oneliner": "拍一张孩子的画，AI 把它变成 8 秒动画，不用写提示词。",
   "zh_title": "Drawing to Animation：儿童画变动画"
  },
+ "https://drawmode.ai": {
+  "en_oneliner": "Software diagrams for developers, teams and agents: UML, C4 and 29 diagram types in one shared visual workspace, with MCP support so AI agents can design, analyze and refactor alongside you.",
+  "en_title": "DrawMode",
+  "zh_oneliner": "给开发者、团队与 agent 的软件绘图工具：UML、C4 等 29 种图型，在一个共享可视化工作区里画图，还能通过 MCP 让 AI agent 参与设计与重构。",
+  "zh_title": "DrawMode：能和 AI agent 一起画的软件架构图"
+ },
  "https://dreamfield.gg": {
   "en_oneliner": "Build your own 3D worlds in the browser and walk through worlds made by others — a lightweight world editor and explorer.",
   "en_title": "Show HN: Dreamfield – Create and explore 3D worlds",
@@ -6893,6 +6941,12 @@
   "zh_oneliner": "一个只有 1MB 的 Tenstorrent 驱动，让你用类似 PTX 的内核写法直接玩转这款 AI 芯片。",
   "zh_title": "Show HN：1MB 的 Tenstorrent 驱动，支持类似 PTX 的内核"
  },
+ "https://gitpulse.xyz": {
+  "en_oneliner": "Helps developers find open-source projects and beginner-friendly issues, with 500+ curated issues, AI difficulty prediction, instant search, repo health scoring, commit heatmaps and multi-repo comparison in V2.",
+  "en_title": "GitPulse V2",
+  "zh_oneliner": "帮开发者找开源项目和新手友好的 issue，V2 新增 500 多个精选 issue、AI 难度预测、即时搜索、仓库健康评分、提交热力图与多仓库对比。",
+  "zh_title": "GitPulse：帮新手找到好上手的开源项目"
+ },
  "https://gizmodo.com/theres-a-burgeoning-stand-with-jensen-movement-2000840178": {
   "en_oneliner": "Gizmodo reports that voices rallying behind Nvidia CEO Jensen Huang are growing into a burgeoning \"Stand with Jensen\" movement.",
   "en_title": "'Stand with Jensen' Movement Grows",
@@ -7259,6 +7313,12 @@
   "zh_oneliner": "给 AI 智能体用的 Uniswap v4 工具集，提供公开 MCP 服务器、技能包和 TypeScript SDK，能查池子、询价并准备未签名的链上调用，全程不碰你的私钥。",
   "zh_title": "Hookr：Uniswap v4 的 MCP 与智能体工具"
  },
+ "https://hookstead.dev": {
+  "en_oneliner": "Receives, verifies and forwards webhooks with automatic retries, replay, alerts and a full delivery history, free up to 10,000 events a month.",
+  "en_title": "HookStead",
+  "zh_oneliner": "接收、验证并转发 webhook，自动重试、回放、报警与完整投递记录，每月免费 1 万次事件，托管在德国。",
+  "zh_title": "HookStead：接收、验证并转发 webhook 的中转站"
+ },
  "https://hoverine.com/?ref=producthunt": {
   "en_oneliner": "Interactive Rive templates you can poke, customize with your own logo, colors, and words, then download as working .riv files.",
   "en_title": "Hoverine",
@@ -7276,6 +7336,12 @@
   "en_title": "QR Anatomy – See what every square of a QR code is for",
   "zh_oneliner": "从零生成一个二维码，给每一格标上用途，还能动手划坏它、看着纠错码把损坏的部分修回来。",
   "zh_title": "QR Anatomy：二维码每一格是干什么的"
+ },
+ "https://html.contact": {
+  "en_oneliner": "Turns HTML forms into email notifications, Slack updates and signed webhooks: paste one URL and start collecting submissions with no backend to build, plus MCP support for coding agents.",
+  "en_title": "html.contact",
+  "zh_oneliner": "把 HTML 表单变成邮件通知、Slack 更新和带签名的 webhook，粘贴一个网址就能收提交，不用搭后端，还能通过 MCP 接编码 agent。",
+  "zh_title": "html.contact：不用写后端，表单提交直达邮箱与 Slack"
  },
  "https://hub.pharen.de/?ref=producthunt": {
   "en_oneliner": "One AI workspace for your whole team — chats, docs, projects, mail and calendar in one place, with agents handling routine work and you approving the critical steps.",
@@ -7642,6 +7708,12 @@
   "en_title": "Show HN: Real-time collaborative KiCad",
   "zh_oneliner": "在浏览器里和朋友一起画 PCB，像 KiCad 一样画原理图、布线，还能直接搜索 LCSC 的元器件，不用安装任何软件。",
   "zh_title": "JunctionEDA：浏览器里的实时协作 KiCad"
+ },
+ "https://juncts.com/app?demo=1": {
+  "en_oneliner": "One DM inbox for five apps that Claude and ChatGPT can work in directly, so you stop switching between apps.",
+  "en_title": "Show HN: Juncts, one DM inbox for five apps that Claude and ChatGPT can work in",
+  "zh_oneliner": "把五个应用的私信收进同一个收件箱，Claude 和 ChatGPT 可以直接在里面处理消息，不用来回切换应用。",
+  "zh_title": "Juncts：五个应用的私信收进一个收件箱，Claude 和 ChatGPT 能直接干活"
  },
  "https://jvns.ca/blog/2017/11/20/groups": {
   "en_oneliner": "A classic 2017 explainer from Julia Evans on how Linux groups actually work — still worth reading for newcomers.",
@@ -8033,6 +8105,12 @@
   "zh_oneliner": "一百万虚拟米数的社区挑战，用脚步为抗击饥饿筹一份小小的心意。",
   "zh_title": "Lumyna Community Challenge：百万虚拟米数公益挑战"
  },
+ "https://luneamail.com": {
+  "en_oneliner": "Email for SaaS teams: marketing campaigns and app emails like welcomes, invites and receipts share the same templates, designed by drag-and-drop or HTML and sent with one REST call.",
+  "en_title": "LuneaMail",
+  "zh_oneliner": "给 SaaS 团队的邮件服务：营销群发与欢迎、邀请、收据这类应用邮件共用一套模板，拖拽设计或写 HTML，一次 REST 调用就能发。",
+  "zh_title": "LuneaMail：营销邮件与应用邮件共用一套模板"
+ },
  "https://luvvoice.com/?ref=smollaunch": {
   "en_oneliner": "Create multilingual voiceovers from text and download the MP3 when it sounds right.",
   "en_title": "Luvvoice: multilingual voiceovers",
@@ -8152,6 +8230,12 @@
   "en_title": "Show HN: Temporaland – Multiplayer digital jam space",
   "zh_oneliner": "和朋友进同一个线上房间即兴玩音乐，边弹边聊的共享音乐工作室。",
   "zh_title": "Show HN：Temporaland：多人在线即兴音乐空间"
+ },
+ "https://marketstory.com": {
+  "en_oneliner": "Know when the story on a stock changes, and why: it reads what 2,000+ investors post on YouTube and X, flags every narrative shift with the quotes that drove it, and gives each stock a bull-and-bear page.",
+  "en_title": "MarketStory",
+  "zh_oneliner": "盯住一只股票的叙事变化：读 2000 多位投资人在 YouTube 与 X 上的发言，看涨看跌一变就提醒，附上原帖引用，每只股票都有多空双方的论点页。",
+  "zh_title": "MarketStory：股票的叙事一变就提醒你"
  },
  "https://masr.gitlab.io/blog/a2a-think-not": {
   "en_oneliner": "A critique arguing that the A2A agent-to-agent protocol is flawed at the design level.",
@@ -9623,6 +9707,12 @@
   "zh_oneliner": "在线 AI 工具，去掉视频和音频里的背景音乐只留人声，支持 MP4、MOV、MP3、WAV、M4A，新账号送 5 个免费点数。",
   "zh_title": "Remove Background Music：AI 去除视频背景音乐"
  },
+ "https://removebgvideo.org": {
+  "en_oneliner": "Removes video backgrounds online with edge refinement, mask feathering, SAM correction points and temporal smoothing; upload an MP4, MOV or WebM and get one processed 5-second clip free.",
+  "en_title": "Remove BG Videos",
+  "zh_oneliner": "在线去除视频背景，支持边缘优化、羽化、SAM 修正点与时序平滑，上传 MP4、MOV 或 WebM 即可免费处理一段 5 秒视频。",
+  "zh_title": "Remove BG Videos：在线去掉视频背景"
+ },
  "https://rentsera.com": {
   "en_oneliner": "Property management for Canadian landlords, with an AI assistant handling the busywork: collect rent online, manage leases, maintenance and accounting, all in the browser.",
   "en_title": "Rentsera",
@@ -9712,6 +9802,12 @@
   "en_title": "Show HN: RoboFYI – Compare robot foundation models, datasets and hardware",
   "zh_oneliner": "机器人基础模型、数据集和硬件放在一张表里横向对比，选型之前先来这里对对参数。",
   "zh_title": "RoboFYI：机器人模型、数据集与硬件横向对比"
+ },
+ "https://robonito.com": {
+  "en_oneliner": "An AI agent for QA: give it a requirement or plain-English description and it plans test cases, runs them across web, mobile, API and desktop, pinpoints the root cause of failures, and heals tests when your UI changes.",
+  "en_title": "Robonito",
+  "zh_oneliner": "AI 质检 agent：给它需求、用户故事或一段白话描述，它就规划测试用例、跨 Web、移动端、API 与桌面跑测试，失败时定位根因，UI 变了还会自动修复测试。",
+  "zh_title": "Robonito：给需求描述就自动跑测试的 AI 质检员"
  },
  "https://rocketsentinel.com": {
   "en_oneliner": "Scan options flow with a live GEX heatmap — traders can see at a glance where the big money is betting.",
@@ -9970,6 +10066,12 @@
   "en_title": "Sheru Bhai AI Video Generator",
   "zh_oneliner": "传一两张肖像，生成一段 10 秒的 Sheru Bhai 风格短视频。",
   "zh_title": "Sheru Bhai AI 视频生成器"
+ },
+ "https://shiftlog.it": {
+  "en_oneliner": "Type a plain description of your work and it builds a day-by-day work log for the whole month, with dates, hours and clear professional task descriptions, plus an MCP server for Claude and Claude Code.",
+  "en_title": "ShiftLog.it",
+  "zh_oneliner": "用一句话描述工作量，它按天生成整月工时日志：日期、小时数与专业规范的任务描述，还支持 MCP 接 Claude 与 Claude Code。",
+  "zh_title": "ShiftLog.it：一句话描述，生成整月工时日志"
  },
  "https://shipshapescan.com": {
   "en_oneliner": "Paste your app's URL for a passive security scan that flags the risks hiding in AI-written code, no changes needed.",
@@ -10259,6 +10361,12 @@
   "zh_oneliner": "在交互式地球仪上浏览有文字记载以来 17000 多场战争与战役，还能自动播放，看冲突如何随时间蔓延。",
   "zh_title": "Sticks & Stones：4600 年人类冲突史的交互地图"
  },
+ "https://still200.com": {
+  "en_oneliner": "Watches your cron jobs, scheduled AI agents, APIs and websites around the clock, and alerts you by email, Slack or webhook the moment something stops working, with the failing dependency and its error attached.",
+  "en_title": "Still200",
+  "zh_oneliner": "全天候盯着你的定时任务、排程 AI agent、API 与网站，一旦有东西停摆就通过邮件、Slack 或 webhook 报警，并附上出错的依赖与报错信息。",
+  "zh_title": "Still200：定时任务一停摆立刻报警"
+ },
  "https://stillvarsity.app": {
   "en_oneliner": "Personalized training plans, coaching and community for athletes, with workout and nutrition tracking.",
   "en_title": "Still Varsity: Personalized Training Plans for Athletes",
@@ -10373,6 +10481,12 @@
   "zh_oneliner": "把品牌设计规范变成 AI 工具每次出图前都会先查的系统，改一次规范，所有产出跟着变。",
   "zh_title": "Superhands"
  },
+ "https://superheroname.com": {
+  "en_oneliner": "Free online generator for superhero names and origin stories, customizable by gender, superpowers, style, and tone — handy for naming characters in novels, comics, or RPGs.",
+  "en_title": "AI Superhero Name Generator",
+  "zh_oneliner": "免费在线生成超级英雄名字与起源故事，可按性别、超能力、风格与语气定制，写小说、漫画或跑团起名都能用。",
+  "zh_title": "AI 超级英雄名字生成器"
+ },
  "https://superlog.sh/?ref=producthunt": {
   "en_oneliner": "Scans production logs around the clock to catch issues your alerts miss, then posts the root cause and a suggested fix to Slack.",
   "en_title": "superlog",
@@ -10396,6 +10510,12 @@
   "en_title": "Surprezo: A Gift QR Code",
   "zh_oneliner": "用照片、留言和名字做一份数字礼物，分享成网页或可打印的二维码卡片。",
   "zh_title": "Surprezo：礼物二维码"
+ },
+ "https://swarkentin.github.io/synth-patch-hero": {
+  "en_oneliner": "A bite-size game that trains your ear for synth patch design, teaching you as you build patches.",
+  "en_title": "Show HN: Synth Patch Hero",
+  "zh_oneliner": "一套练耳朵的小游戏，跟着练习一步步搭合成器音色，在玩的过程中把调音色的手感练出来。",
+  "zh_title": "Synth Patch Hero：边玩边练合成器音色设计"
  },
  "https://synthcamp.net/mastering": {
   "en_oneliner": "Master your audio for free right in the browser — files never leave your machine, and you export the finished track when done.",
@@ -11147,6 +11267,12 @@
   "zh_oneliner": "不靠提示的代码诊断与练习，测测你的 JS、TS、Python 真本事。",
   "zh_title": "Unrust"
  },
+ "https://usamarketingpros.com/free-seo-tools/ai-visibility-checker": {
+  "en_oneliner": "Enter a website and get a score out of 100 for AI search readiness, with fixes ranked by importance, covering robots.txt, indexability, schema, llms.txt and more.",
+  "en_title": "AI Visibility Checker",
+  "zh_oneliner": "输入一个网址，打一个满分 100 的 AI 搜索就绪分，并按重要性列出修复清单，覆盖 robots.txt、索引、结构化数据、llms.txt 等检查项。",
+  "zh_title": "AI Visibility Checker：测你的网站在 AI 搜索里能见度如何"
+ },
  "https://usecropdesk.com": {
   "en_oneliner": "Free online photo, PDF and document tools — compress photos, make passport photos, merge and sign PDFs — files stay on your device.",
   "en_title": "Crop Desk: Free Photo, PDF and Document Tools",
@@ -11164,6 +11290,12 @@
   "en_title": "Fullweek",
   "zh_oneliner": "用 AI 客服接听家政维修行的电话、约单填档期，让档期一直是满的。",
   "zh_title": "Fullweek"
+ },
+ "https://usejotly.com": {
+  "en_oneliner": "Docs, issues, boards and calendar in one place that works offline, with MCP support for AI workflows.",
+  "en_title": "Jotly – Offline-First Docs, Issues, Boards and Calendar with MCP",
+  "zh_oneliner": "文档、议题、看板和日历全在一处，离线也能用，还支持 MCP，团队协作不用等联网。",
+  "zh_title": "Jotly：离线优先的文档、议题与日历"
  },
  "https://useorpheus.com/?ref=producthunt": {
   "en_oneliner": "One board for all your Claude accounts' usage, reset times and agent sessions, automatically moving idle agents to the account with the most room left.",
@@ -11309,6 +11441,12 @@
   "zh_oneliner": "在浏览器里直接转音频和视频格式，文件全程不上传服务器，也没有大小限制。",
   "zh_title": "Verto：浏览器本地媒体转换器"
  },
+ "https://vetoo.dev": {
+  "en_oneliner": "AI code review that adapts to your team: it pulls context across repos and third-party tools, learns from your feedback, and lets you discuss its findings like you would with a teammate.",
+  "en_title": "Vetoo",
+  "zh_oneliner": "适应团队的 AI 代码评审，几分钟接好、跨仓库拉第三方工具的上下文、从团队反馈里学习，还能像同事一样对话追问评审意见。",
+  "zh_title": "Vetoo：会跟团队一起成长的 AI 代码评审"
+ },
  "https://vibesmatrix.com": {
   "en_oneliner": "Turns a tangled life decision into a clear comparison — free, no sign-up, right in the browser.",
   "en_title": "Vibes Matrix: Simplify Complex Life Decisions",
@@ -11344,6 +11482,18 @@
   "en_title": "Virgínia Menino IA",
   "zh_oneliner": "传一张照片，就能走进停车场小夜曲的场景里。",
   "zh_title": "Virgínia Menino IA"
+ },
+ "https://virissimo.info/dossierql": {
+  "en_oneliner": "A detective-themed interactive GraphQL tutorial: practice fields, arguments, aliases, and fragments while solving cases, learning query syntax as you play.",
+  "en_title": "DossierQL: Learn GraphQL by Solving Cases",
+  "zh_oneliner": "侦探主题的 GraphQL 互动教程，在破案任务中一步步练习字段、参数、别名与片段，边玩边掌握查询写法。",
+  "zh_title": "DossierQL：边破案边学 GraphQL"
+ },
+ "https://vistella.xyz": {
+  "en_oneliner": "Online AI image generation and editing tool: describe an idea or upload an image to create visuals with multiple models, pay-as-you-go with credits that never expire.",
+  "en_title": "Vistella: Generate and Edit Images from a Sentence",
+  "zh_oneliner": "在线 AI 图片生成与编辑工具，输入描述或上传图片即可调用多种模型出图，按量付费、积分不过期。",
+  "zh_title": "Vistella：用一句话生成和编辑图片"
  },
  "https://visualbasic.world": {
   "en_oneliner": "A gallery site collecting Visual Basic programs from Planet Source Code between 1997 and 2012, heavy on nostalgia.",
@@ -12071,6 +12221,12 @@
   "zh_oneliner": "FarmDash 想给 DeFi 智能体做一个不用托管资产的情报与控制层，让自动化策略在不交出资金控制权的前提下运行。",
   "zh_title": "FarmDash：面向 DeFi 智能体的零托管情报与控制层"
  },
+ "https://www.fastseofix.com": {
+  "en_oneliner": "Helps developers with SEO: AI analyzes your website, finds SEO opportunities, and automatically publishes optimized blog posts to your site every day.",
+  "en_title": "Fast SEO Fix",
+  "zh_oneliner": "帮开发者做 SEO：AI 分析你的网站、找出优化机会，每天自动发布优化过的博客文章，省去研究、写作与优化的时间。",
+  "zh_title": "Fast SEO Fix：AI 每天帮你发优化过的博客文章"
+ },
  "https://www.flamingo.run/?ref=producthunt": {
   "en_oneliner": "AI-native IT automation for MSPs and IT teams: devices, patching, remote access, help desk, and security in one place, with AI agents that read logs, fix issues, and send sensitive actions to your phone for one-tap approval.",
   "en_title": "OpenFrame",
@@ -12292,6 +12448,12 @@
   "en_title": "Where ASI Could Stumble",
   "zh_oneliner": "一篇来自 LessWrong 的文章，探讨超级智能在发展过程中可能遇到的障碍。",
   "zh_title": "超级智能可能在哪里跌倒"
+ },
+ "https://www.linkjolt.io": {
+  "en_oneliner": "Adds an affiliate program to your SaaS without writing referral code: add one script tag and LinkJolt records each sale from your payment provider, reversing commissions on refunds.",
+  "en_title": "LinkJolt",
+  "zh_oneliner": "给 SaaS 加联盟分销计划：贴一段脚本、再加一个结账字段，Stripe、Paddle 等渠道的每笔成交自动记佣金，退款时佣金自动冲销。",
+  "zh_title": "LinkJolt：给你的 SaaS 加联盟分销，不用写代码"
  },
  "https://www.linuxexercises.com/learn/where-am-i": {
   "en_oneliner": "No virtual machine needed — open the page and practice real Linux commands in your browser, learning the essentials step by step.",
@@ -12544,6 +12706,12 @@
   "en_title": "Pickode: pick styles from any site",
   "zh_oneliner": "读网站原生的样式表：选中一段，直接把样式取出来用。",
   "zh_title": "Pickode：样式提取"
+ },
+ "https://www.pingbuddy.app": {
+  "en_oneliner": "Opens your public URL in a real browser to catch rendering failures, JavaScript errors and on-page error messages, then alerts you by Telegram or email with a screenshot, an AI explanation and a fix prompt.",
+  "en_title": "Pingbuddy",
+  "zh_oneliner": "用真浏览器打开你的网址，抓渲染失败、JS 报错与页面上的错误提示，确认宕机后用 Telegram 或邮件报警，并附截图、AI 原因分析与修复提示。",
+  "zh_title": "Pingbuddy：网站返回 200 也可能是白屏，它能发现"
  },
  "https://www.pnnl.gov/news-media/scientists-capture-first-molecular-level-images-water-reorganization-during-reaction": {
   "en_oneliner": "Scientists captured the first molecular-level images of water reorganizing during a reaction — a new window into how water behaves.",
@@ -13924,161 +14092,5 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
- },
- "https://gitpulse.xyz": {
-  "en_title": "GitPulse V2",
-  "zh_title": "GitPulse：帮新手找到好上手的开源项目",
-  "zh_oneliner": "帮开发者找开源项目和新手友好的 issue，V2 新增 500 多个精选 issue、AI 难度预测、即时搜索、仓库健康评分、提交热力图与多仓库对比。",
-  "en_oneliner": "Helps developers find open-source projects and beginner-friendly issues, with 500+ curated issues, AI difficulty prediction, instant search, repo health scoring, commit heatmaps and multi-repo comparison in V2."
- },
- "https://vetoo.dev": {
-  "en_title": "Vetoo",
-  "zh_title": "Vetoo：会跟团队一起成长的 AI 代码评审",
-  "zh_oneliner": "适应团队的 AI 代码评审，几分钟接好、跨仓库拉第三方工具的上下文、从团队反馈里学习，还能像同事一样对话追问评审意见。",
-  "en_oneliner": "AI code review that adapts to your team: it pulls context across repos and third-party tools, learns from your feedback, and lets you discuss its findings like you would with a teammate."
- },
- "https://html.contact": {
-  "en_title": "html.contact",
-  "zh_title": "html.contact：不用写后端，表单提交直达邮箱与 Slack",
-  "zh_oneliner": "把 HTML 表单变成邮件通知、Slack 更新和带签名的 webhook，粘贴一个网址就能收提交，不用搭后端，还能通过 MCP 接编码 agent。",
-  "en_oneliner": "Turns HTML forms into email notifications, Slack updates and signed webhooks: paste one URL and start collecting submissions with no backend to build, plus MCP support for coding agents."
- },
- "https://app.y2down.to/en": {
-  "en_title": "Y2Down",
-  "zh_title": "Y2Down：免费在线下载 YouTube 视频，最高 4K",
-  "zh_oneliner": "免费的在线 YouTube 视频下载工具，最高支持 4K 清晰度，打开网页粘贴链接就能下。",
-  "en_oneliner": "A free online tool for downloading YouTube videos in up to 4K quality, right from the browser."
- },
- "https://luneamail.com": {
-  "en_title": "LuneaMail",
-  "zh_title": "LuneaMail：营销邮件与应用邮件共用一套模板",
-  "zh_oneliner": "给 SaaS 团队的邮件服务：营销群发与欢迎、邀请、收据这类应用邮件共用一套模板，拖拽设计或写 HTML，一次 REST 调用就能发。",
-  "en_oneliner": "Email for SaaS teams: marketing campaigns and app emails like welcomes, invites and receipts share the same templates, designed by drag-and-drop or HTML and sent with one REST call."
- },
- "https://afterlaunch.io": {
-  "en_title": "AfterLaunch",
-  "zh_title": "AfterLaunch：每天给你一个增长决策的 AI 助手",
-  "zh_oneliner": "代理式增长引擎：测你的 SEO 与各大 AI 搜索引擎如何评价你的产品，每天早上带来一个增长决策，确认后由 agent 代劳执行。",
-  "en_oneliner": "An agentic growth engine that measures your SEO and how leading AI search engines answer about your product, then brings you one growth decision each morning and does the work after your yes."
- },
- "https://athenaos.net": {
-  "en_title": "Athena Axyloris",
-  "zh_title": "Athena：每天早上先告诉你什么最重要",
-  "zh_oneliner": "倾听式 AI 助手：把你随口说的事记下来，每天早上给一份简短简报，指出今天什么值得关注、什么可以等等、什么差点被遗忘。",
-  "en_oneliner": "A listening AI assistant that remembers what you tell it and brings you a short morning briefing on what deserves attention today, what can wait, and what you almost forgot."
- },
- "https://robonito.com": {
-  "en_title": "Robonito",
-  "zh_title": "Robonito：给需求描述就自动跑测试的 AI 质检员",
-  "zh_oneliner": "AI 质检 agent：给它需求、用户故事或一段白话描述，它就规划测试用例、跨 Web、移动端、API 与桌面跑测试，失败时定位根因，UI 变了还会自动修复测试。",
-  "en_oneliner": "An AI agent for QA: give it a requirement or plain-English description and it plans test cases, runs them across web, mobile, API and desktop, pinpoints the root cause of failures, and heals tests when your UI changes."
- },
- "https://still200.com": {
-  "en_title": "Still200",
-  "zh_title": "Still200：定时任务一停摆立刻报警",
-  "zh_oneliner": "全天候盯着你的定时任务、排程 AI agent、API 与网站，一旦有东西停摆就通过邮件、Slack 或 webhook 报警，并附上出错的依赖与报错信息。",
-  "en_oneliner": "Watches your cron jobs, scheduled AI agents, APIs and websites around the clock, and alerts you by email, Slack or webhook the moment something stops working, with the failing dependency and its error attached."
- },
- "https://removebgvideo.org": {
-  "en_title": "Remove BG Videos",
-  "zh_title": "Remove BG Videos：在线去掉视频背景",
-  "zh_oneliner": "在线去除视频背景，支持边缘优化、羽化、SAM 修正点与时序平滑，上传 MP4、MOV 或 WebM 即可免费处理一段 5 秒视频。",
-  "en_oneliner": "Removes video backgrounds online with edge refinement, mask feathering, SAM correction points and temporal smoothing; upload an MP4, MOV or WebM and get one processed 5-second clip free."
- },
- "https://www.linkjolt.io": {
-  "en_title": "LinkJolt",
-  "zh_title": "LinkJolt：给你的 SaaS 加联盟分销，不用写代码",
-  "zh_oneliner": "给 SaaS 加联盟分销计划：贴一段脚本、再加一个结账字段，Stripe、Paddle 等渠道的每笔成交自动记佣金，退款时佣金自动冲销。",
-  "en_oneliner": "Adds an affiliate program to your SaaS without writing referral code: add one script tag and LinkJolt records each sale from your payment provider, reversing commissions on refunds."
- },
- "https://www.pingbuddy.app": {
-  "en_title": "Pingbuddy",
-  "zh_title": "Pingbuddy：网站返回 200 也可能是白屏，它能发现",
-  "zh_oneliner": "用真浏览器打开你的网址，抓渲染失败、JS 报错与页面上的错误提示，确认宕机后用 Telegram 或邮件报警，并附截图、AI 原因分析与修复提示。",
-  "en_oneliner": "Opens your public URL in a real browser to catch rendering failures, JavaScript errors and on-page error messages, then alerts you by Telegram or email with a screenshot, an AI explanation and a fix prompt."
- },
- "https://codepython.online": {
-  "en_title": "Code Python Online",
-  "zh_title": "Code Python Online：浏览器里直接写跑 Python",
-  "zh_oneliner": "免费的在线 Python IDE 与编译器，浏览器里直接写代码、跑脚本、练编程，不用安装任何东西。",
-  "en_oneliner": "A free online Python IDE and compiler: write and run Python code instantly in your browser, no installation needed."
- },
- "https://usamarketingpros.com/free-seo-tools/ai-visibility-checker": {
-  "en_title": "AI Visibility Checker",
-  "zh_title": "AI Visibility Checker：测你的网站在 AI 搜索里能见度如何",
-  "zh_oneliner": "输入一个网址，打一个满分 100 的 AI 搜索就绪分，并按重要性列出修复清单，覆盖 robots.txt、索引、结构化数据、llms.txt 等检查项。",
-  "en_oneliner": "Enter a website and get a score out of 100 for AI search readiness, with fixes ranked by importance, covering robots.txt, indexability, schema, llms.txt and more."
- },
- "https://hookstead.dev": {
-  "en_title": "HookStead",
-  "zh_title": "HookStead：接收、验证并转发 webhook 的中转站",
-  "zh_oneliner": "接收、验证并转发 webhook，自动重试、回放、报警与完整投递记录，每月免费 1 万次事件，托管在德国。",
-  "en_oneliner": "Receives, verifies and forwards webhooks with automatic retries, replay, alerts and a full delivery history, free up to 10,000 events a month."
- },
- "https://drawmode.ai": {
-  "en_title": "DrawMode",
-  "zh_title": "DrawMode：能和 AI agent 一起画的软件架构图",
-  "zh_oneliner": "给开发者、团队与 agent 的软件绘图工具：UML、C4 等 29 种图型，在一个共享可视化工作区里画图，还能通过 MCP 让 AI agent 参与设计与重构。",
-  "en_oneliner": "Software diagrams for developers, teams and agents: UML, C4 and 29 diagram types in one shared visual workspace, with MCP support so AI agents can design, analyze and refactor alongside you."
- },
- "https://code4.space": {
-  "en_title": "Code4 Space",
-  "zh_title": "Code4 Space：计划、开发、评审、发布都在一处",
-  "zh_oneliner": "计划、开发、评审与发布一体化：issue 与看板、Git 托管、代码评审、CI/CD、部署、文档、聊天通话都在一处，写下的知识由人与 AI agent 共享。",
-  "en_oneliner": "Plan, build, review and ship in one place: issues and boards, git hosting and code review, CI/CD, deployments, docs, chat and calls, with a shared knowledge base for people and AI agents."
- },
- "https://marketstory.com": {
-  "en_title": "MarketStory",
-  "zh_title": "MarketStory：股票的叙事一变就提醒你",
-  "zh_oneliner": "盯住一只股票的叙事变化：读 2000 多位投资人在 YouTube 与 X 上的发言，看涨看跌一变就提醒，附上原帖引用，每只股票都有多空双方的论点页。",
-  "en_oneliner": "Know when the story on a stock changes, and why: it reads what 2,000+ investors post on YouTube and X, flags every narrative shift with the quotes that drove it, and gives each stock a bull-and-bear page."
- },
- "https://shiftlog.it": {
-  "en_title": "ShiftLog.it",
-  "zh_title": "ShiftLog.it：一句话描述，生成整月工时日志",
-  "zh_oneliner": "用一句话描述工作量，它按天生成整月工时日志：日期、小时数与专业规范的任务描述，还支持 MCP 接 Claude 与 Claude Code。",
-  "en_oneliner": "Type a plain description of your work and it builds a day-by-day work log for the whole month, with dates, hours and clear professional task descriptions, plus an MCP server for Claude and Claude Code."
- },
- "https://www.fastseofix.com": {
-  "en_title": "Fast SEO Fix",
-  "zh_title": "Fast SEO Fix：AI 每天帮你发优化过的博客文章",
-  "zh_oneliner": "帮开发者做 SEO：AI 分析你的网站、找出优化机会，每天自动发布优化过的博客文章，省去研究、写作与优化的时间。",
-  "en_oneliner": "Helps developers with SEO: AI analyzes your website, finds SEO opportunities, and automatically publishes optimized blog posts to your site every day."
- },
- "https://juncts.com/app?demo=1": {
-  "en_oneliner": "One DM inbox for five apps that Claude and ChatGPT can work in directly, so you stop switching between apps.",
-  "en_title": "Show HN: Juncts, one DM inbox for five apps that Claude and ChatGPT can work in",
-  "zh_oneliner": "把五个应用的私信收进同一个收件箱，Claude 和 ChatGPT 可以直接在里面处理消息，不用来回切换应用。",
-  "zh_title": "Juncts：五个应用的私信收进一个收件箱，Claude 和 ChatGPT 能直接干活"
- },
- "https://swarkentin.github.io/synth-patch-hero": {
-  "en_oneliner": "A bite-size game that trains your ear for synth patch design, teaching you as you build patches.",
-  "en_title": "Show HN: Synth Patch Hero",
-  "zh_oneliner": "一套练耳朵的小游戏，跟着练习一步步搭合成器音色，在玩的过程中把调音色的手感练出来。",
-  "zh_title": "Synth Patch Hero：边玩边练合成器音色设计"
- },
- "https://benchline.fabwaseem.com": {
-  "en_title": "Benchline: 61 Free Dev Tools That Run in Your Browser",
-  "en_oneliner": "61 free dev tools that run right in your browser — JSON, PDF, images, crypto, network debugging and more, no install or sign-up needed.",
-  "zh_title": "Benchline：61 个免费开发工具，浏览器里直接用",
-  "zh_oneliner": "61 个免费开发小工具都在浏览器里跑，JSON、PDF、图片、加密、网络调试全都有，不用安装也不用注册，点开就能用。"
- },
- "https://vistella.xyz": {
-  "en_oneliner": "Online AI image generation and editing tool: describe an idea or upload an image to create visuals with multiple models, pay-as-you-go with credits that never expire.",
-  "en_title": "Vistella: Generate and Edit Images from a Sentence",
-  "zh_oneliner": "在线 AI 图片生成与编辑工具，输入描述或上传图片即可调用多种模型出图，按量付费、积分不过期。",
-  "zh_title": "Vistella：用一句话生成和编辑图片"
- },
- "https://virissimo.info/dossierql": {
-  "en_oneliner": "A detective-themed interactive GraphQL tutorial: practice fields, arguments, aliases, and fragments while solving cases, learning query syntax as you play.",
-  "en_title": "DossierQL: Learn GraphQL by Solving Cases",
-  "zh_oneliner": "侦探主题的 GraphQL 互动教程，在破案任务中一步步练习字段、参数、别名与片段，边玩边掌握查询写法。",
-  "zh_title": "DossierQL：边破案边学 GraphQL"
- },
- "https://superheroname.com": {
-  "en_oneliner": "Free online generator for superhero names and origin stories, customizable by gender, superpowers, style, and tone — handy for naming characters in novels, comics, or RPGs.",
-  "en_title": "AI Superhero Name Generator",
-  "zh_oneliner": "免费在线生成超级英雄名字与起源故事，可按性别、超能力、风格与语气定制，写小说、漫画或跑团起名都能用。",
-  "zh_title": "AI 超级英雄名字生成器"
  }
 }
