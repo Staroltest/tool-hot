@@ -1348,6 +1348,29 @@ BLOCKED_DOMAINS = {
     # a Chrome extension…Add to Chrome”），须安装扩展才能用；旧豁免
     # 放行（add_to_chrome 信号被 browser-use 豁免盖过，收紧前验的结论）
     "dc.flasktoken.com",
+    # 2026-11-25 04:07 CST 轮热点榜自查补封（页面实测确认）：
+    # tryluv.ai 是 AI 伴侣/调情角色聊天服务（500+ 虚拟角色，发自拍与
+    # “私密照片”、按亲密度解锁“更大胆”内容，Premium/VIP 卖 gems），
+    # 是成人向娱乐聊天不是工具网站；与此前已封的 18+ 随机聊天站同类
+    "tryluv.ai",
+    # proflirt.ru 是俄语版同类 AI 调情角色聊天（“ИИ-чат с персонажами：
+    # девушки、 парни、 аниме”），整站就是角色聊天服务，不是工具
+    "proflirt.ru",
+    # zerosofzeta.com 是黎曼猜想交互式数学史长文（从巴塞尔问题讲到临界
+    # 线，一路读下来），是内容不是工具；标题不露文章痕迹，人工抽查封禁
+    "zerosofzeta.com",
+    # 2026-11-25 04:07 CST 轮热点榜二轮自查补封（页面实测确认）：
+    # hnpredictions.com 是 HN 预测存档数据库（666 个预测帖、13684 条可
+    # 验证预测，可按话题/年份浏览与搜索），是可浏览的数据内容站，访客
+    # 只能查阅已有预测，没有能直接用的工具功能；按内容站不收口径拦
+    "hnpredictions.com",
+    # undeciphered.ca 是加拿大历史密码信件互动展览（854 封 1673–1945 年
+    # 的密信，点开读译文、点词看密码），是互动阅读内容不是工具；与
+    # zerosofzeta.com 同类，标题不露内容痕迹，人工抽查封禁
+    "undeciphered.ca",
+    # chessforsats.in 是粉丝投票下棋的在线国际象棋对局（两派粉丝投票决定
+    # 每一步、可用 sats 付费立即落子），纯游戏，按游戏口径一律拦
+    "chessforsats.in",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -2007,6 +2030,13 @@ BLOCKED_URLS = {
     # 这一条链接，不封整个域名
     "https://theliarsledger.com/play",
     "https://www.theliarsledger.com/play",
+    # 2026-11-25 04:07 CST 轮热点榜自查补封（页面实测确认）：
+    # SlopCheck vs Pangram（slopcheck.io/vs/pangram）是两家 AI 检测器
+    # 的对比评测文章页（同一批帖子的得分对照表 + 结论），不是工具本身；
+    # slopcheck.io 首页本身是能直接用的免费检测工具，只拦这一条对比页
+    # 链接，不封整个域名
+    "https://slopcheck.io/vs/pangram",
+    "https://www.slopcheck.io/vs/pangram",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
