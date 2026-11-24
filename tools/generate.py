@@ -1226,6 +1226,55 @@ BLOCKED_DOMAINS = {
     # 本机上跑编码 agent 录演示视频的工具，均非点开即用的网站
     "pacecar.sh",
     "honest-ci.dev",
+    # 2026-11-24 16:07 CST 轮自查补封（浏览器实测确认）：本轮时间线混入
+    # 一批语义泄漏，标题门与实测信号都拦不住，人工抽查封禁——
+    # jefferson-adams-letters.pages.dev 是杰斐逊与亚当斯 335 封书信的
+    # 阅读版（原文 + 现代英语译文 + 研究笔记），是阅读内容不是工具；
+    # 1in8b.life 是“随机出生、过完一生”的人生模拟游戏（站内自写 Life
+    # Simulation Game），纯游戏，按游戏口径一律拦；jerkly.live、
+    # chatcamgratis.com、mintvideochat.live、knotchat.video 是同一套
+    # 18+ 随机视频/文字聊天站（按分钟/按场次卖 coins），成人随机聊天
+    # 不是工具网站；errangemarriage.com 是穆斯林婚恋 App 的营销页，
+    # 站上挂 Google Play 下载链接，须下载安装才能用；thefamilyofficestack.com
+    # 是家族办公室服务商目录/图谱（3632 家服务商）加分析文章，是目录站；
+    # dleverse.com 是每日随机数游戏 RNGdle（每天一次掷骰、徽章与排行榜），
+    # 纯游戏，按游戏口径一律拦；gzith.com 是电脑维修指南 + AI 新闻博客
+    # （每日更新的指南与新闻文章为主），工具只是次要栏目，是内容站
+    "jefferson-adams-letters.pages.dev",
+    "1in8b.life",
+    "jerkly.live",
+    "chatcamgratis.com",
+    "mintvideochat.live",
+    "knotchat.video",
+    "errangemarriage.com",
+    "thefamilyofficestack.com",
+    "dleverse.com",
+    "gzith.com",
+    # 2026-11-24 16:07 CST 轮自查补封（浏览器实测确认）：
+    # joinvalley.co（Valley）是 AI 外呼获客 SaaS：500 美元/月起、无自助
+    # 试用，入口是预约演示 + 45 分钟 onboarding 电话，访客点开没有能直接
+    # 用的工具，是销售主导的 B2B 产品页（同此前 DSU-X AI GEO CMS 口径）
+    "joinvalley.co",
+    # useclam.ai（Clam）是给 AI agent 共享 Gmail 的 MCP 服务：访客在网站
+    # 上只能看介绍、去 console 接 MCP，站上没有能直接在浏览器里用的工具
+    # 本身；按“纯 MCP/纯 API 平台不收”口径拦（与此前 TokLab 同类处理）
+    "useclam.ai",
+    # 7741.cn（七七加盟网）是招商加盟平台：1120+ 加盟品牌目录、在线咨询、
+    # 品牌方付费展示，是加盟项目目录站，不是能直接用的工具网站
+    "7741.cn",
+    # jmcy.cn（加盟创业智库）是特许加盟投研内容站：品牌榜单、深度研报、
+    # 亏损案例库、转让大厅、PRO 会员，是内容/目录站不是工具站；与 7741.cn
+    # 同一运营方，站内虽有单店 UE 测算沙盘入口，根链接落点仍是内容首页
+    "jmcy.cn",
+    # 2026-11-24 16:07 CST 轮自查补封（浏览器实测确认）：
+    # personabay.com 是七宗罪与动漫人格测试站（站内自写“entertainment
+    # only”），娱乐向测试/小游戏，不是工具网站；与此前已封的 Dere Type
+    # Quiz（deretypesquiz.com）同类处理
+    "personabay.com",
+    # fleetify.dev 是 AI 编程 agent 指挥台：agent 跑在访客本地文件夹/SSH/
+    # Docker 里，网站只是营销页 + 登录入口，点开没有能直接在浏览器里用的
+    # 工具，是须本地部署的开发基础设施（与纯 API 平台、桌面应用同类处理）
+    "fleetify.dev",
     "tday.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
@@ -1757,6 +1806,26 @@ BLOCKED_URLS = {
     # 桌面应用同类处理），只拦根链接
     "https://merget.ai",
     "https://www.merget.ai",
+    # 2026-11-24 16:07 CST 轮自查补封（页面实测确认）：
+    # Kodak SlideTag（kodak.retopro.co/products/...）是 34.99 美元实体
+    # 钥匙扣盲盒的售卖页（限购、不可取消），是商品页不是工具站；
+    # retopro.co 本身是相机配件商店，只拦这一条链接，不封整个域名
+    "https://www.kodak.retopro.co/products/kodak-slidetag-br-keychain-photo-display-and-tracker-blind-box?ref=producthunt",
+    # Even G2 Enterprise SDK（enterprise.evenrealities.com）是智能眼镜
+    # 的开发者 SDK 落地页（申请设备许可、下载 Flutter/Android/iOS 包、
+    # 去 GitHub 取资源），须配硬件 + 写代码才能用，不是点开即用的工具
+    # 网站；evenrealities.com 本身是眼镜产品站，只拦这一条链接
+    "https://enterprise.evenrealities.com/?ref=producthunt",
+    # Sotto（sotto.aawej.in）是 Linux 桌面语音听写应用（Wayland/X11，
+    # curl 脚本装 .deb 或 AppImage），须下载安装才能用，按“须下载安装
+    # 的工具不算”口径拦；aawej.in 是个人站，只拦这一条链接，不封整个域名
+    "https://sotto.aawej.in/?ref=producthunt",
+    # 2026-11-24 16:07 CST 轮自查补封（页面实测确认）：Astrolabio
+    # （glplabs.eu/en/astrolabio）是 macOS 桌面应用（站内自写“Astrolabio
+    # is a macOS app”，拖进 Applications 安装、须 macOS 14+），须下载安装
+    # 才能用，按“须下载安装的工具不算”口径拦；glplabs.eu 是开发商站，
+    # 只拦这一条链接，不封整个域名
+    "https://glplabs.eu/en/astrolabio/?ref=producthunt",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {

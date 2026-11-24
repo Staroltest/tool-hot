@@ -14092,5 +14092,185 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
+ },
+ "https://bloxfruitstradecalc.wiki": {
+  "zh_title": "Blox Fruits 交易计算器",
+  "zh_oneliner": "查 Blox Fruits 宠物与物品的交易价值，帮你判断一笔交换划不划算。",
+  "en_title": "Blox Trade Wiki — Blox Fruits Trade Calculator",
+  "en_oneliner": "Look up Blox Fruits trade values to judge whether a proposed swap is fair."
+ },
+ "https://greenbackgroundremover.com": {
+  "zh_title": "GreenBG Remover 绿幕抠像",
+  "zh_oneliner": "在浏览器里免费去掉视频和照片里的绿幕，不用装软件。",
+  "en_title": "GreenBG Remover",
+  "en_oneliner": "Remove green screens from videos and photos free in your browser, no install needed."
+ },
+ "https://tiptoeai.com": {
+  "zh_title": "TipToe AI 梗图视频生成",
+  "zh_oneliner": "挑一个热门梗图，传张自己的照片，就能主演一段 AI 梗视频。",
+  "en_title": "TipToe AI",
+  "en_oneliner": "Pick a trending meme, add your photo, and star in your own AI meme video."
+ },
+ "https://fortnitechestcounter.app": {
+  "zh_title": "Fortnite 宝箱计数器",
+  "zh_oneliner": "手动记录 Fortnite 里开过的宝箱，顺带算一算出货概率，全程存在本地浏览器里。",
+  "en_title": "Fortnite Chest Counter",
+  "en_oneliner": "Manually track the chests you open in Fortnite and check the odds, all stored locally in your browser."
+ },
+ "https://privyfile.org": {
+  "zh_title": "PrivyFile 文件元数据清理",
+  "zh_oneliner": "在浏览器里查看并清除图片、PDF 与文档里的元数据，文件不用上传。",
+  "en_title": "PrivyFile",
+  "en_oneliner": "Inspect and strip metadata from images, PDFs and documents in your browser, without uploading files."
+ },
+ "https://workiq.xyz": {
+  "zh_title": "WorkIQ 免费在线工具箱",
+  "zh_oneliner": "78 个免费小工具合集，PDF、图片、文本、计算器都有，打开就能用，不用注册。",
+  "en_title": "WORKIQ.XYZ",
+  "en_oneliner": "A collection of 78 free tools for PDFs, images, text and calculations — no signup, just open and use."
+ },
+ "https://ugcfy.ai": {
+  "zh_title": "UGCfy AI 带货视频生成",
+  "zh_oneliner": "从商品链接一键生成真人出镜风格的种草广告视频。",
+  "en_title": "UGCfy AI",
+  "en_oneliner": "Turn a store listing into UGC-style talking-head product ads."
+ },
+ "https://memphismaker.app": {
+  "zh_title": "Memphis Maker AI 孟菲斯风作画",
+  "zh_oneliner": "用文字或照片生成孟菲斯风格的 AI 艺术画。",
+  "en_title": "Memphis Maker AI",
+  "en_oneliner": "Create Memphis-style AI art from text or photos."
+ },
+ "https://carcodebook.com": {
+  "zh_title": "Car Codebook 车辆档案查询",
+  "zh_oneliner": "免费查车架号：召回、投诉、原厂配置单与出厂清单一次看全。",
+  "en_title": "Car Codebook",
+  "en_oneliner": "Free VIN lookup covering recalls, complaints, window stickers and build sheets."
+ },
+ "https://pixtext.io": {
+  "zh_title": "PixText 图片改字",
+  "zh_oneliner": "直接改图片里的文字，AI 会自动匹配原图的字体与风格，免费就能用。",
+  "en_title": "PixText",
+  "en_oneliner": "Edit the text inside any image for free — the AI matches the original style."
+ },
+ "https://usebeck.com": {
+  "zh_title": "Beck 项目管理",
+  "zh_oneliner": "项目、任务、日历、客户审稿都放在一个工作区里，14 天免费试用。",
+  "en_title": "Beck",
+  "en_oneliner": "Keep projects, tasks, calendars and client reviews in one workspace, with a 14-day free trial."
+ },
+ "https://www.gamepadtesterpro.com": {
+  "zh_title": "GamepadTesterPro 手柄测试",
+  "zh_oneliner": "60 秒内在浏览器里测完手柄的每个按键与摇杆，不用安装。",
+  "en_title": "GamepadTesterPro",
+  "en_oneliner": "Test every button and stick on any gamepad in your browser in 60 seconds, no install."
+ },
+ "https://tattootryon.art": {
+  "zh_title": "TattooTryOn 纹身试戴",
+  "zh_oneliner": "纹身之前先在自己身上试试效果，看看图案贴上去到底怎么样。",
+  "en_title": "TattooTryOn",
+  "en_oneliner": "See how any tattoo looks on your own body before you commit to ink."
+ },
+ "https://json-toolbox.zjy15827189621.workers.dev": {
+  "zh_title": "JSON Toolbox",
+  "zh_oneliner": "免费在线 JSON 格式化、校验、压缩与 CSV 互转小工具。",
+  "en_title": "JSON Toolbox",
+  "en_oneliner": "A free online JSON formatter, validator, minifier and CSV converter."
+ },
+ "https://www.reclip.io": {
+  "zh_title": "Reclip AI 视频剪辑",
+  "zh_oneliner": "用 AI 把长视频剪成短视频，顺带给创作者备齐常用工具。",
+  "en_title": "Reclip",
+  "en_oneliner": "Clip long videos into shorts with AI, plus creator tools to go with it."
+ },
+ "https://gridize.dev": {
+  "zh_title": "Gridize 像素画生成",
+  "zh_oneliner": "用 AI 生成 2D 游戏用的像素小人精灵图与动画。",
+  "en_title": "Gridize",
+  "en_oneliner": "Generate AI pixel-art sprites and animations for 2D games."
+ },
+ "https://hisbat-bakery-notebook.zuhdi50.chatgpt.site": {
+  "zh_title": "Hisbat Al Dafaa 烘焙成本计算器",
+  "zh_oneliner": "阿拉伯语家庭烘焙成本小工具，把批量成本与包装费折算成每盒多少钱。",
+  "en_title": "Hisbat Al Dafaa — Arabic Bakery Box Cost Calculator",
+  "en_oneliner": "A free Arabic calculator for home bakers that turns batch and packaging costs into a per-box price."
+ },
+ "https://www.cursivegeneratorhub.com": {
+  "zh_title": "Cursive Generator 花体字生成",
+  "zh_oneliner": "把普通文字一键转成好看的花体字，复制就能用。",
+  "en_title": "Cursive Generator",
+  "en_oneliner": "Turn plain text into stylish cursive fonts instantly."
+ },
+ "https://tradeluma.app": {
+  "zh_title": "TradeLuma 交易计算器",
+  "zh_oneliner": "免费的交易计算器与策略研究工具，帮交易者算清每一笔账。",
+  "en_title": "TradeLuma",
+  "en_oneliner": "Free trading calculators and strategy research for traders."
+ },
+ "https://resizepdf.net": {
+  "zh_title": "Resize PDF 页面尺寸调整",
+  "zh_oneliner": "把 PDF 页面改成 A4、Letter 或任意自定义尺寸。",
+  "en_title": "Resize PDF",
+  "en_oneliner": "Resize PDF pages to A4, Letter, or any custom size."
+ },
+ "https://www.roofclaimscrm.com": {
+  "zh_title": "Roof Claims CRM 屋顶理赔客户管理",
+  "zh_oneliner": "专为风暴后屋顶维修承包商做的客户管理系统，跟进理赔全流程。",
+  "en_title": "Roof Claims CRM",
+  "en_oneliner": "A CRM built for storm-restoration roofing contractors to track claims end to end."
+ },
+ "https://aisoundeffectsgenerator.com": {
+  "zh_title": "AI 音效试听剪辑",
+  "zh_oneliner": "在线试听并裁剪 AI 生成的音效小样，满意了再下载 WAV。",
+  "en_title": "AI Sound Effects Sample Editor",
+  "en_oneliner": "Preview and trim AI-generated sound-effect samples online, then download the WAV."
+ },
+ "https://savesterling.co.uk": {
+  "zh_title": "Save Sterling 英国理财计算器",
+  "zh_oneliner": "英国个人理财站，18 个计算器都在浏览器里算，不用注册，还有免费的家庭账单清单。",
+  "en_title": "Save Sterling",
+  "en_oneliner": "A UK personal finance site with 18 calculators that run in your browser, no signup, plus a free household bills checklist."
+ },
+ "https://www.photosstyle.com": {
+  "zh_title": "PhotosStyle 照片风格转换",
+  "zh_oneliner": "把照片一键转成素描、动漫头像或涂色页。",
+  "en_title": "PhotosStyle",
+  "en_oneliner": "Turn photos into sketches, anime portraits or coloring pages."
+ },
+ "https://3dprintpricingcalc.com": {
+  "zh_title": "3D 打印报价计算器",
+  "zh_oneliner": "在浏览器里免费算清一次 3D 打印到底要花多少钱。",
+  "en_title": "3D Print Pricing Calculator",
+  "en_oneliner": "A free in-browser calculator for the true cost of a 3D print."
+ },
+ "https://juncts.com/?ref=producthunt": {
+  "zh_title": "Juncts 跨应用收件箱",
+  "zh_oneliner": "把 LinkedIn、X、Instagram、WhatsApp 和 Telegram 的私信收进一个收件箱，还能让 AI 帮你起草回复。",
+  "en_title": "Juncts",
+  "en_oneliner": "Pull DMs from LinkedIn, X, Instagram, WhatsApp and Telegram into one inbox, with AI to triage and draft replies."
+ },
+ "https://www.finseo.ai/?ref=producthunt": {
+  "zh_title": "Finseo AI 品牌提及优化",
+  "zh_oneliner": "帮品牌在 AI 回答里被更多提及的工具，附带外联拓展功能。",
+  "en_title": "Finseo",
+  "en_oneliner": "A tool to get your brand mentioned more by AI answers, with outreach built in."
+ },
+ "https://frwrd.to/@frwrd.to": {
+  "zh_title": "frwrd.to 链接页生成",
+  "zh_oneliner": "把你的链接页交给 AI 助手整理：按品牌排版、写多语言版本，一句话就能发布。",
+  "en_title": "frwrd.to",
+  "en_oneliner": "Hand your link-in-bio page to an AI assistant that sorts, styles and publishes it in every language you need."
+ },
+ "https://www.sparrowdesk.com/products/phone-calls?ref=producthunt": {
+  "zh_title": "SparrowDesk 电话客服",
+  "zh_oneliner": "把电话客服收进与邮件、聊天和 WhatsApp 同一个收件箱。",
+  "en_title": "SparrowDesk Phone Calls",
+  "en_oneliner": "Bring phone support into the same inbox as email, chat and WhatsApp."
+ },
+ "https://agendahero.com/magic?ref=producthunt": {
+  "zh_title": "Agenda Hero Magic 议程设计",
+  "zh_oneliner": "按你的日程与排版偏好生成会议议程，版式与风格都能自己调。",
+  "en_title": "Agenda Hero Magic Labs",
+  "en_oneliner": "Design meeting agendas in any schedule, layout or style."
  }
 }
