@@ -1649,6 +1649,12 @@ BLOCKED_URLS = {
     # 一律拦；neocities.org 是个人站托管平台，只拦这一条链接，不封
     # 整个域名；标题门同步加 flash game 规则
     "https://anduil.neocities.org/n",
+    # 2026-11-24 00:07 CST 轮热点榜自查补封（页面实测确认）：
+    # Tripup（tripup.me）是“打出不在《圣经》里的单词”的限时打字游戏
+    # （计时、加减分、Faceplant 结算），纯游戏，无打字训练之外的工具
+    # 功能，按游戏口径（纯游戏一律拦）封禁；只拦这一条链接，不封整个域名
+    "https://tripup.me",
+    "https://www.tripup.me",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {

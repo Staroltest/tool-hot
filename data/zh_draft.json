@@ -5735,6 +5735,12 @@
   "zh_oneliner": "一个把手写字变成可用字体的项目，喜欢字体和手写质感的读者可以看看效果。",
   "zh_title": "把手写字做成字体"
  },
+ "https://duetosymmetry.com/tool/algebraic-curve-toy": {
+  "en_oneliner": "Drag the red dots to see the real algebraic curve through them in real time, pick from preset curve families or type in your own polynomial — a hands-on math visualization toy.",
+  "en_title": "Real algebraic curves toy",
+  "zh_oneliner": "拖动红色圆点，实时查看通过这些点的代数曲线，还能从预设曲线族里挑或自己输入多项式，是个直观好玩的数学可视化小工具。",
+  "zh_title": "代数曲线小玩具：拖动圆点，实时探索实代数曲线"
+ },
  "https://dx-chart.com": {
   "en_oneliner": "AI-assisted charting for acupuncturists.",
   "en_title": "Dx-Chart",
