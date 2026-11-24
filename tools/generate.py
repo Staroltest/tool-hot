@@ -255,6 +255,19 @@ BLOCKED_DOMAINS = {
     # 是本地服务目录不是浏览器里能直接用的工具
     # （2026-11-24 18:37 CST 轮：当日时间线混入，人工核实后封）
     "1fit.kids",
+    # heroui.pro：付费 React/React Native UI 组件库与模板（按 license 售卖，
+    # 须 npm 安装进项目才能用），不是点开能用的工具；标题 "HeroUI Pro 1.0"
+    # 不露安装痕迹，实测放行，归档复查封禁（2026-11-24 19:07 CST 轮：
+    # 11-13 日报里的 HeroUI Pro，整域封禁）
+    "heroui.pro",
+    # distribution.dev：开发者广告网络（daily.dev 与 DEV 合办的广告投放
+    # 服务，须联系洽谈买广告位），是售卖页不是点开能用的工具
+    # （2026-11-24 19:07 CST 轮：归档复查发现 11-17 日报里的 distribution.dev）
+    "distribution.dev",
+    # extradock.app：macOS 桌面应用（多 Dock 工具，须下载安装、一次性付费
+    # €14.99），不是浏览器里能直接用的工具；与已封的 extrabar.app 同类
+    # （2026-11-24 19:07 CST 轮：归档复查发现 11-16 日报里的 ExtraDock 5）
+    "extradock.app",
     "nytimes.com", "theguardian.com", "reuters.com", "washingtonpost.com",
     "cnn.com", "bbc.com", "bbc.co.uk", "economist.com", "ft.com", "wsj.com",
     "theatlantic.com", "newyorker.com", "thehill.com", "cnbc.com",
