@@ -1922,6 +1922,16 @@ BLOCKED_URLS = {
     # 不是点开就能用；notebook.link 是笔记本托管平台，只拦这一条链接，
     # 不封整个域名
     "https://notebook.link/@arjxn-py/3d-nepal-flood",
+    # 2026-11-24 23:07 CST 轮自查补封（页面实测确认）：
+    # Sobrenna（sobrenna.app）是 iPhone/Android 端戒酒天数计数应用的
+    # 营销页（“Download on the App Store / Get it on Google Play”），
+    # 须下载安装才能用；实测本轮被豁免放行（页上“sobriety calculator
+    # runs in your browser”一句触发了 browser-use 豁免，盖过了 app_store
+    # 信号——豁免逻辑对应用营销页偏宽松是已知缺口，与 nlmexporter 同类）；
+    # 站内虽有浏览器版戒酒计算器子页，但提交的根链接本身是应用下载页，
+    # 只拦根链接，不封整个域名
+    "https://sobrenna.app",
+    "https://www.sobrenna.app",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
