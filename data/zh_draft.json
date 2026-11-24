@@ -14350,5 +14350,11 @@
   "en_title": "Authoric AI Book Writing & Publishing Platform",
   "zh_oneliner": "从大纲、章节草稿到封面设计和电子书导出，在一个网页里把一本书写完并做成能上架的版本。",
   "zh_title": "Authoric AI 写书出版平台"
+ },
+ "https://weartryon.com": {
+  "en_oneliner": "A client-side virtual try-on tool for e-commerce: upload a photo and try on clothes right in the browser, no data leaves your device.",
+  "en_title": "WearTryOn – Client-side virtual try-on for e-commerce",
+  "zh_oneliner": "电商用的客户端虚拟试穿工具，上传照片就能在线试穿衣服，全程在浏览器里完成，不用注册。",
+  "zh_title": "WearTryOn 电商虚拟试穿"
  }
 }

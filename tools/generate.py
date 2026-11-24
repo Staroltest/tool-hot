@@ -1874,6 +1874,15 @@ BLOCKED_URLS = {
     # 是游戏站，只拦这一条链接，不封整个域名
     "https://arcadeblip.com/game/jacket-king-returns",
     "https://www.arcadeblip.com/game/jacket-king-returns",
+    # 2026-11-24 20:07 CST 轮自查补封：BongBong（bongbong.io）标题自写
+    # “A tank shooter and world builder”，坦克射击游戏，纯游戏，按游戏口径
+    # 一律拦；标题门与实测信号都拦不住（页面能正常加载），人工抽查封禁
+    "https://bongbong.io",
+    # 2026-11-24 20:07 CST 轮自查补封：Command 2120
+    # （command2120.pvpdock.com）标题自写“Online Browser RTS Game
+    # Inspired by Red Alert 2”，在线浏览器即时战略游戏，纯游戏，按游戏口径
+    # 一律拦；标题门与实测信号都拦不住，人工抽查封禁
+    "https://command2120.pvpdock.com",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
