@@ -2047,6 +2047,13 @@ BLOCKED_URLS = {
     # 链接，不封整个域名
     "https://slopcheck.io/vs/pangram",
     "https://www.slopcheck.io/vs/pangram",
+    # 2026-11-25 05:37 CST 轮热点榜自查补封（页面实测确认）：
+    # The Popular POEM（popularpoem.com/en）是众人合写集体诗的政治发声
+    # 艺术项目（“a web site made to act like a tweet laser”，把很多人的
+    # 只言片语拼成统一信息发给领导层），不是能反复用的工具网站；受保护
+    # 的 POEM 还要订阅付费才能参与；只拦这一条链接，不封整个域名
+    "https://www.popularpoem.com/en",
+    "https://popularpoem.com/en",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
