@@ -14362,5 +14362,11 @@
   "en_oneliner": "Generate videos and images in the browser from text or photos, with Veo, Kling, Wan and more in one place — watermark-free exports, nothing to install.",
   "zh_title": "Domer AI 视频图片生成器",
   "zh_oneliner": "在浏览器里用文字或照片生成视频和图片，集成了 Veo、Kling、Wan 等多个模型，导出无水印，不用安装。"
+ },
+ "https://myfacelessreels.com": {
+  "en_oneliner": "Type in a topic or a script and AI writes the narration, picks the visuals, adds captions and background music, and renders a vertical short ready to post — no camera, no editing timeline.",
+  "en_title": "My Faceless Reels",
+  "zh_oneliner": "输入主题或脚本，AI 自动写稿、配音、配画面、加字幕和音乐，一键生成可直接发布的竖屏短视频，全程不用露脸，也不用学剪辑。",
+  "zh_title": "My Faceless Reels"
  }
 }
