@@ -1516,6 +1516,25 @@ BLOCKED_EXACT = {
     # 直接用的工具功能，是排名目录/参考站而非工具站；同已封的招聘版
     # 目录站口径处理；整站只有这一个排名，只拦这一 host
     "eerankings.org",
+    # 2026-11-24 22:37 CST 轮自查补封（浏览器实测确认）：
+    # Magic Carpet City（magiccarpetcity.com）是儿童向驾驶游戏，首页
+    # 就是游戏主菜单（选车、START 开始驾驶、收集星星），纯游戏，按游戏
+    # 口径（纯游戏一律拦）封禁；整站就是这一个游戏，只拦这一 host
+    "magiccarpetcity.com",
+    "www.magiccarpetcity.com",
+    # 2026-11-24 22:37 CST 轮自查补封（页面实测确认）：
+    # I Know Your Age（iknowyourage.com）是猜年龄的浏览器游戏（页上自写
+    # “Play the viral I Know Your Age browser game”，按怀旧问答猜年龄、
+    # 计分出结果），纯游戏，按游戏口径一律拦；同 Matinee、AgeGuessr
+    # 先例处理；整站就是这一个游戏，只拦这一 host
+    "iknowyourage.com",
+    "www.iknowyourage.com",
+    # 2026-11-24 22:37 CST 轮自查补封（页面实测确认）：
+    # status.me 是社交状态应用，网页是手机应用的营销页（页头就是 App
+    # Store / Google Play 下载徽章），须下载安装才能用，按“应用商店
+    # 链接、手机应用不收”口径拦；只拦这一 host
+    "status.me",
+    "www.status.me",
 }
 # 精确链接封禁（只拦这一条完整链接，不拦整个域名；与 BLOCKED_EXACT
 # 按 host 封禁不同，这里是按 norm_link 后的完整链接精确匹配）：
@@ -1888,6 +1907,21 @@ BLOCKED_URLS = {
     # 一律拦；标题门与实测信号都拦不住（页面能正常加载），人工抽查封禁；
     # phuzzles.app 整站是拼图游戏，只拦这一条链接，不封整个域名
     "https://phuzzles.app/daily",
+    # 2026-11-24 22:37 CST 轮自查补封（页面实测确认）：
+    # Talon Food Atlas（amunozo.com/talon-food-atlas）是把 30 个营养
+    # 分级视频里的 813 种食物汇到一处的浏览页，访客只能翻看食物分级
+    # 列表，站上没有能直接用的工具功能，是排名目录/参考站而非工具站，
+    # 同当日已封的 EERankings 口径处理；只拦这一条链接，不封整个域名
+    "https://www.amunozo.com/talon-food-atlas",
+    "https://amunozo.com/talon-food-atlas",
+    # 2026-11-24 22:37 CST 轮自查补封：3D story maps in JupyterLab
+    # （notebook.link/@arjxn-py/3d-nepal-flood）是 Jupyter 笔记本故事
+    # 地图（浏览器标题“3D Nepal Story”，内容是讲尼泊尔洪水的叙事地图），
+    # 是可读的互动文章/演示，不是访客能操作使用的工具；且页面须点
+    # “Accept and Proceed”接受服务条款、等 Jupyter 环境启动后才能看，
+    # 不是点开就能用；notebook.link 是笔记本托管平台，只拦这一条链接，
+    # 不封整个域名
+    "https://notebook.link/@arjxn-py/3d-nepal-flood",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {

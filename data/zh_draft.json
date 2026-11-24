@@ -14410,5 +14410,35 @@
   "en_oneliner": "Group greeting cards on a shared canvas — everyone signs and decorates together on one card.",
   "zh_title": "Cardsto：多人协作贺卡画布",
   "zh_oneliner": "一群人在同一张画布上共同制作贺卡，各自留言签名，做成一张集体贺卡送出去。"
+ },
+ "https://votefolio.app": {
+  "en_oneliner": "Enter your home address to see every election you're eligible to vote in, from local races to national ones, all in one list.",
+  "en_title": "Votefolio: Every Election You Can Vote In, from Your Address",
+  "zh_oneliner": "输入家庭住址，就能查到你有资格参加的每一场选举，从地方到全国一次列清。",
+  "zh_title": "Votefolio：输入地址查你能投的选举"
+ },
+ "https://lyrixx.github.io/php-wasm-builder": {
+  "en_oneliner": "Compile PHP to WebAssembly and run Symfony apps right in the browser, no server setup needed.",
+  "en_title": "Compile PHP to WebAssembly and Run Symfony Apps in the Browser",
+  "zh_oneliner": "把 PHP 编译成 WebAssembly，直接在浏览器里运行 Symfony 应用，不用搭服务器。",
+  "zh_title": "PHP 转 WebAssembly：在浏览器跑 Symfony 应用"
+ },
+ "https://transparentgifmaker.online": {
+  "en_oneliner": "Strip the background from an animated GIF frame by frame and get a transparent animation ready to use.",
+  "en_title": "TransparentGIFMaker: Remove GIF Backgrounds Frame by Frame",
+  "zh_oneliner": "一帧一帧去掉 GIF 动图的背景，做出来的透明动图可以直接拿去用。",
+  "zh_title": "TransparentGIFMaker：逐帧去 GIF 背景"
+ },
+ "https://zeplo.io/for/managed-http-queue": {
+  "en_oneliner": "A managed HTTP queue with retries, delayed delivery, and cron — no SQS or workers to run.",
+  "en_title": "Zeplo: Managed HTTP Queue Without SQS or Workers",
+  "zh_oneliner": "不用搭 SQS 或 worker 就能用的托管 HTTP 队列，自带重试、延迟发送和定时任务。",
+  "zh_title": "Zeplo：免运维的托管 HTTP 队列"
+ },
+ "https://knockbox.app": {
+  "en_oneliner": "Program a beat and hear it played back the way a real drummer would — with human feel instead of a rigid metronome.",
+  "en_title": "Knockbox: A Drum Machine That Plays Your Beat Like a Drummer",
+  "zh_oneliner": "编一段节奏，它会像真鼓手那样演奏出来，带人味的轻重缓急，不是死板的节拍器。",
+  "zh_title": "Knockbox：像鼓手一样打拍子的鼓机"
  }
 }
