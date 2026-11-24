@@ -1883,6 +1883,11 @@ BLOCKED_URLS = {
     # Inspired by Red Alert 2”，在线浏览器即时战略游戏，纯游戏，按游戏口径
     # 一律拦；标题门与实测信号都拦不住，人工抽查封禁
     "https://command2120.pvpdock.com",
+    # 2026-11-24 21:37 CST 轮自查补封：Phuzzles（phuzzles.app/daily）
+    # 是每日图片拼图游戏（daily photo puzzle，无注册），纯游戏，按游戏口径
+    # 一律拦；标题门与实测信号都拦不住（页面能正常加载），人工抽查封禁；
+    # phuzzles.app 整站是拼图游戏，只拦这一条链接，不封整个域名
+    "https://phuzzles.app/daily",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {

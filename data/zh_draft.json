@@ -14368,5 +14368,47 @@
   "en_title": "My Faceless Reels",
   "zh_oneliner": "输入主题或脚本，AI 自动写稿、配音、配画面、加字幕和音乐，一键生成可直接发布的竖屏短视频，全程不用露脸，也不用学剪辑。",
   "zh_title": "My Faceless Reels"
+ },
+ "https://blurimage.app": {
+  "en_title": "Blur Image",
+  "en_oneliner": "Blur, pixelate or black out parts of a photo online — draw over faces, plates or text, tune the effect, then download the result.",
+  "zh_title": "Blur Image：在线图片打码工具",
+  "zh_oneliner": "在线给照片局部打码：框选人脸、车牌或文字，模糊、马赛克或纯色遮挡都能调，处理完直接下载。"
+ },
+ "https://chameleonicons.com": {
+  "en_title": "Show HN: Chameleon Icons – Make those missing icons and share them with others",
+  "en_oneliner": "Describe the icon you need and AI generates it in different styles, converts it to vector, and lets you share it in a pack for others to use.",
+  "zh_title": "Chameleon Icons：AI 图标生成器",
+  "zh_oneliner": "用文字描述想要的图标，AI 按不同风格生成并转成矢量图，缺哪个图标补哪个，还能分享给别人用。"
+ },
+ "https://www.invora.dev/tools/xrechnung-zugferd-validator": {
+  "en_title": "Show HN: Invora – Free KoSIT XRechnung 3.0 / ZUGFeRD 2.2 Validator and REST API",
+  "en_oneliner": "Free validator for XRechnung 3.0 and ZUGFeRD 2.2 e-invoices, right in the browser, with a REST API.",
+  "zh_title": "Invora：免费 XRechnung / ZUGFeRD 电子发票校验器",
+  "zh_oneliner": "免费校验 XRechnung 3.0 与 ZUGFeRD 2.2 电子发票是否合规，浏览器里直接上传验证，也提供 REST API。"
+ },
+ "https://ribbonarchitect.com": {
+  "en_title": "Show HN: Ribbon Architect – Endless ways to tie a gift ribbon",
+  "en_oneliner": "Measure a gift, browse ribbon patterns made for its exact proportions or design your own, then follow step-by-step instructions to tie it.",
+  "zh_title": "Ribbon Architect：礼物丝带绑法设计器",
+  "zh_oneliner": "量好礼物尺寸，按比例浏览丝带绑法图案，也能自己设计，跟着分步图解把丝带绑上礼物。"
+ },
+ "https://staple.horse": {
+  "en_title": "Show HN: Horsebin – an xkcd-inspired paste bin with a 3-word id you can remember",
+  "en_oneliner": "An xkcd-inspired pastebin — paste text and get a short link made of three memorable words.",
+  "zh_title": "Horsebin：三词短址粘贴板",
+  "zh_oneliner": "xkcd 风格的粘贴板，贴一段文字就得到一个由三个好记单词组成的短链接，方便口头分享。"
+ },
+ "https://chartsenseai.com": {
+  "en_title": "Show HN: ChartSense AI, structured chart analysis for crypto markets",
+  "en_oneliner": "Structured chart analysis for crypto markets — breaks price action down into clear, readable signals.",
+  "zh_title": "ChartSense AI：加密市场图表结构化分析",
+  "zh_oneliner": "对加密货币行情图做结构化分析，把走势拆解成清晰的结论，帮你读懂图表背后的信号。"
+ },
+ "https://cardsto.com": {
+  "en_title": "Show HN: Cardsto, group greeting cards on a shared canvas",
+  "en_oneliner": "Group greeting cards on a shared canvas — everyone signs and decorates together on one card.",
+  "zh_title": "Cardsto：多人协作贺卡画布",
+  "zh_oneliner": "一群人在同一张画布上共同制作贺卡，各自留言签名，做成一张集体贺卡送出去。"
  }
 }
