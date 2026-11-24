@@ -268,6 +268,11 @@ BLOCKED_DOMAINS = {
     # €14.99），不是浏览器里能直接用的工具；与已封的 extrabar.app 同类
     # （2026-11-24 19:07 CST 轮：归档复查发现 11-16 日报里的 ExtraDock 5）
     "extradock.app",
+    # directorygems.com：目录站研究库（350 个目录站的拆解、基准数据集、
+    # 案例研究与周更 teardown），是目录/研究内容站不是能直接用的工具；
+    # 标题“DirectoryGems”不露目录痕迹，实测放行，人工核实后封
+    # （2026-11-25 02:07 CST 轮：热点榜混入，浏览器实测确认）
+    "directorygems.com",
     "nytimes.com", "theguardian.com", "reuters.com", "washingtonpost.com",
     "cnn.com", "bbc.com", "bbc.co.uk", "economist.com", "ft.com", "wsj.com",
     "theatlantic.com", "newyorker.com", "thehill.com", "cnbc.com",
