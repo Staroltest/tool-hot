@@ -14284,5 +14284,47 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
+ },
+ "https://benchmarkrouter.newmeasure.ai": {
+  "en_oneliner": "Smartly routes LLM benchmark jobs so you can run the same evaluations at a tenth of the cost.",
+  "en_title": "BenchmarkRouter: Run LLM Benchmarks at 1/10th of the Cost",
+  "zh_oneliner": "智能路由 LLM 评测任务，用十分之一的成本跑完同样的基准测试。",
+  "zh_title": "BenchmarkRouter：十分之一成本跑 LLM 评测"
+ },
+ "https://quicktou.ch": {
+  "en_oneliner": "Edit the text of PDF and DOC files right in your browser, keeping the original font — no download or install needed.",
+  "en_title": "A PDF/DOC Editor That Changes Text in Its Original Font, in the Browser",
+  "zh_oneliner": "直接在浏览器里改 PDF 和 DOC 文档的文字，改完还是原来的字体，不用下载安装。",
+  "zh_title": "浏览器内 PDF/DOC 原字体编辑器"
+ },
+ "https://interviewlint.com": {
+  "en_oneliner": "A technical interview platform built around how candidates think, with online questions and evaluation of their problem-solving approach.",
+  "en_title": "InterviewLint: The Thinking-First Technical Interview Platform",
+  "zh_oneliner": "以考察思考过程为核心的技术面试平台，在线出题、做题并评估候选人的解题思路。",
+  "zh_title": "InterviewLint 思维优先的技术面试平台"
+ },
+ "https://lorempdf.com": {
+  "en_oneliner": "Generate blank-page or sample-text PDFs in one click, now with blank-page and text modes — handy for layout testing.",
+  "en_title": "LoremPDF: Blank Pages and Text Mode",
+  "zh_oneliner": "一键生成空白页或带示例文字的 PDF，新增空白页与文本模式，做排版测试很方便。",
+  "zh_title": "LoremPDF 空白 PDF 生成器"
+ },
+ "https://www.cullman.ai/?ref=producthunt": {
+  "en_oneliner": "Build, test, and run voice agents in production, with versioning, evals, and split testing.",
+  "en_title": "Cullman: Build, Test, and Run Voice Agents in Production",
+  "zh_oneliner": "在线搭建、测试并上线语音助手，支持版本管理、仿真评测与生产分流。",
+  "zh_title": "Cullman 语音助手开发平台"
+ },
+ "https://www.k-stra.com/?ref=producthunt": {
+  "en_oneliner": "Turn any Australian address, drive-time catchment, or area into hard numbers — population, income, spending potential, and competitors.",
+  "en_title": "K-Stra: Geomarketing for Australian Locations",
+  "zh_oneliner": "输入地址或商圈范围，一键算出人口、收入、消费潜力与竞争对手数据。",
+  "zh_title": "K-Stra 澳大利亚地理营销分析"
+ },
+ "https://mindyone.com/launch?ref=producthunt": {
+  "en_oneliner": "An AI receptionist that answers your Instagram DMs and books appointments in the chat, based on your real free times.",
+  "en_title": "mindyOne: An AI Receptionist for Your Instagram DMs",
+  "zh_oneliner": "AI 帮你回 Instagram 私信，按你的真实空闲时间直接在对话里约好时间。",
+  "zh_title": "mindyOne Instagram AI 接待员"
  }
 }

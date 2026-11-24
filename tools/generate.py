@@ -1276,6 +1276,21 @@ BLOCKED_DOMAINS = {
     # 工具，是须本地部署的开发基础设施（与纯 API 平台、桌面应用同类处理）
     "fleetify.dev",
     "tday.com",
+    # 2026-11-24 18:07 CST 轮归档复查补封（页面实测确认）：Astor
+    # （astor.app）是 iPhone 专属个人投资助手（站内自写“Free on iPhone”），
+    # 须下载手机应用才能用，按“须下载安装的工具不算”口径拦；标题与实测
+    # 信号均不露痕迹（“Free on iPhone”不在探查信号表里），人工抽查封禁
+    "astor.app",
+    # 2026-11-24 18:07 CST 轮归档复查补封（页面实测确认）：Ohhai
+    # （ohhai.co）是 iPhone AI 键盘应用（“AI keyboard for iPhone…Free to
+    # download”），须下载手机应用才能用，按“须下载安装的工具不算”口径拦；
+    # 与 Astor 同类，标题与实测信号均不露痕迹，人工抽查封禁
+    "ohhai.co",
+    # 2026-11-24 18:07 CST 轮归档复查补封（页面实测确认）：Tendor
+    # （tendor.md）是 Windows 桌面热键笔记/AI 应用（“Hotkey notes and AI
+    # for Windows…Notes stay on your PC”），须下载安装到本机才能用，按
+    # “须下载安装的工具不算”口径拦；标题与实测信号均不露痕迹，人工抽查封禁
+    "tendor.md",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
