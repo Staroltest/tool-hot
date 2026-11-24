@@ -11075,6 +11075,12 @@
   "zh_oneliner": "兼容 OpenAI 的多模型 API 网关，一个接口接多个模型供应商，自动故障切换、按 key 计费。",
   "zh_title": "TheRouter：多模型 API 网关"
  },
+ "https://thewebtools.vercel.app": {
+  "en_oneliner": "A set of offline web tools for PDFs, images and QR codes — install it as a PWA and it works without a connection.",
+  "en_title": "Webtools (PWA) – Offline Tools for PDFs, Images, and QR Codes",
+  "zh_oneliner": "一套能离线用的网页小工具合集，处理 PDF、图片，还能生成二维码，装成 PWA 后断网也能打开。",
+  "zh_title": "Webtools：离线 PDF、图片与二维码工具箱"
+ },
  "https://think-graft.vercel.app": {
   "en_oneliner": "Editing a single row of an LLM's output layer can stop it overthinking — a remarkably clever idea.",
   "en_title": "Editing one row of an LLM's output layer to stop it overthinking",
@@ -11620,6 +11626,12 @@
   "en_title": "Unrust",
   "zh_oneliner": "不靠提示的代码诊断与练习，测测你的 JS、TS、Python 真本事。",
   "zh_title": "Unrust"
+ },
+ "https://upronix.dev": {
+  "en_oneliner": "Monitor your site's uptime for free and build a visual status page to show it off.",
+  "en_title": "Upronix – Free uptime monitoring and visual status page builder",
+  "zh_oneliner": "免费监测网站在线状态，还能拖出一个直观的状态页向外展示。",
+  "zh_title": "Upronix：免费运行监测与可视化状态页"
  },
  "https://usamarketingpros.com/free-seo-tools/ai-visibility-checker": {
   "en_oneliner": "Enter a website and get a score out of 100 for AI search readiness, with fixes ranked by importance, covering robots.txt, indexability, schema, llms.txt and more.",
@@ -12748,6 +12760,12 @@
   "en_title": "Ups cargo plane collides with passenger jet at Miami International Airport",
   "zh_oneliner": "迈阿密国际机场发生 UPS 货机与客机相撞事故，报道了事件经过与后续情况。",
   "zh_title": "UPS 货机在迈阿密国际机场与客机相撞"
+ },
+ "https://www.handonweb.com/free-seo-audit": {
+  "en_oneliner": "Run a free SEO audit by entering a URL — it checks on-site issues and gives optimization suggestions.",
+  "en_title": "Hand On Web Free SEO Audit",
+  "zh_oneliner": "输入网址就能免费跑一次 SEO 审计，查站内问题并给出优化建议。",
+  "zh_title": "Hand On Web：免费 SEO 审计"
  },
  "https://www.haomings.com": {
   "en_oneliner": "Image to video — from text or images to video with an AI generator.",
@@ -14158,6 +14176,12 @@
   "en_title": "VisionFlick: Turn Your Goals Into a Manifestation Film",
   "zh_oneliner": "输入你的目标，AI 生成场景、剪辑片段并配上肯定语，做出一部属于自己的显化影片，一次付费永久使用。",
   "zh_title": "VisionFlick：把目标变成显化影片"
+ },
+ "https://www.vybe.build/competitor-analysis": {
+  "en_oneliner": "Enter your own URL and an AI agent digs into competitors' pricing, positioning, ads and reviews to show where you can win.",
+  "en_title": "Competitive Intel analysis from 20-skill agent pipeline",
+  "zh_oneliner": "输入自家网址，AI 智能体就去扒竞品的定价、定位、广告和评价，告诉你赢面在哪。",
+  "zh_title": "Vybe 竞品分析：免费查对手定价、广告与评价"
  },
  "https://www.vybe.build/website-analyzer": {
   "en_oneliner": "Paste in a URL for a free audit of your site — conversion, SEO, speed and 15 more checks in one pass, with the top fix listed first.",

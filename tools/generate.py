@@ -1701,6 +1701,24 @@ BLOCKED_URLS = {
     # （标题不露游戏痕迹、页面能正常加载），人工抽查封禁
     "https://farflungplay.com",
     "https://www.farflungplay.com",
+    # 2026-11-24 11:37 PST 轮自查补封（页面实测确认）：
+    # Riemann Guides（riemannhypothesissolved.com/guides）是黎曼猜想 Lean
+    # 证明的外部指南/文章清单页（23 篇他人写的解读与验证文章列表，附地图
+    # 节点数），本质是文章目录页，不是能直接用的工具网站；标题“Guides…
+    # tied to a map”不露目录痕迹，标题门与实测信号都拦不住，人工抽查封禁；
+    # 只拦这一条链接，不封整个域名（站内地图 riemann.world 另论）
+    "https://riemannhypothesissolved.com/guides",
+    # 2026-11-24 11:37 PST 轮自查补封（页面实测确认）：Two Divinations
+    # （twodivinations.com）是易经、塔罗、占星三合一占卜娱乐站（抽卦、铺牌、
+    # 出生星盘），娱乐向占卜内容，不是工具网站；按纯游戏与娱乐向内容不收的
+    # 口径拦（与此前 Dere Type Quiz 同类处理）；只拦这一条链接
+    "https://www.twodivinations.com",
+    "https://twodivinations.com",
+    # 2026-11-24 11:37 PST 轮自查补封（页面实测确认）：Speeku
+    # （speeku.com）是葡语/英语口音课程站（按地区分的口音课、趣味小课），
+    # 本质是课程内容平台，不是点开就能用的工具网站；只拦这一条链接
+    "https://www.speeku.com",
+    "https://speeku.com",
     # 2026-11-22 22:37 PST 轮自查补封：ported2browser.co 自称“Browser
     # game directory and discovery site”，是浏览器游戏目录站（按类型收录
     # 游戏、不是工具本身），目录页 + 游戏双重不收，只拦根链接
