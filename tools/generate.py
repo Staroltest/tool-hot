@@ -1826,6 +1826,13 @@ BLOCKED_URLS = {
     # 才能用，按“须下载安装的工具不算”口径拦；glplabs.eu 是开发商站，
     # 只拦这一条链接，不封整个域名
     "https://glplabs.eu/en/astrolabio/?ref=producthunt",
+    # 2026-11-24 17:07 CST 轮自查补封：Jacket King Returns
+    # （arcadeblip.com/game/jacket-king-returns）是 HTML5 Canvas 格斗游戏
+    # （Dad 'n Me 风格 beat-em-up），纯游戏，按游戏口径一律拦；标题门与
+    # 实测信号都拦不住（页面能正常加载），人工抽查封禁；arcadeblip.com
+    # 是游戏站，只拦这一条链接，不封整个域名
+    "https://arcadeblip.com/game/jacket-king-returns",
+    "https://www.arcadeblip.com/game/jacket-king-returns",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
