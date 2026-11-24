@@ -14356,5 +14356,11 @@
   "en_title": "WearTryOn – Client-side virtual try-on for e-commerce",
   "zh_oneliner": "电商用的客户端虚拟试穿工具，上传照片就能在线试穿衣服，全程在浏览器里完成，不用注册。",
   "zh_title": "WearTryOn 电商虚拟试穿"
+ },
+ "https://domer.io": {
+  "en_title": "Domer AI",
+  "en_oneliner": "Generate videos and images in the browser from text or photos, with Veo, Kling, Wan and more in one place — watermark-free exports, nothing to install.",
+  "zh_title": "Domer AI 视频图片生成器",
+  "zh_oneliner": "在浏览器里用文字或照片生成视频和图片，集成了 Veo、Kling、Wan 等多个模型，导出无水印，不用安装。"
  }
 }
