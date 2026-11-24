@@ -2144,10 +2144,13 @@ PROBE_SIGNALS = [
 _PROBE_RES = [(name, re.compile(pat, re.IGNORECASE))
               for name, pat in PROBE_SIGNALS]
 
-# 紧豁免：页上明确说“工具本身就在浏览器里用”的强表述（动词紧贴
-# in your browser / online），出现时取消信号拦下——离线调优证明它
-# 只救好页、不放坏页（坏页的 "in your browser" 指的都是别的东西：
-# 扩展在浏览器里跑、从 OneDrive 在浏览器里下载、聊天记录留在浏览器等）。
+# 豁免只救“移动端伴生应用”类软信号（见 _PROBE_EXEMPTABLE_SIGNALS）：
+# 页上明确说“工具本身就在浏览器里用”的强表述（动词紧贴
+# in your browser / online），出现时取消软信号拦下——离线调优证明它
+# 只救好页：历史 20 条豁免放行里，软信号 5 条均为真网页工具的页脚
+# “也有手机版”提及。硬安装信号不豁免：2026-11-22 rmux（桌面应用，
+# 页上 WASM 演示句触发豁免）与 2026-11-23 nlmexporter（Chrome 扩展
+# 页，句 “runs in your browser” 触发豁免）都是被全页一票豁免放行的。
 # 不用宽泛的 "in your browser"：扩展页也会说 "runs in your browser"。
 PROBE_EXEMPT_PATTERNS = [
     r"\buse\s+(it\s+)?in\s+(your\s+)?browser\b",
@@ -2164,6 +2167,16 @@ PROBE_EXEMPT_PATTERNS = [
 ]
 _PROBE_EXEMPT_RES = [re.compile(p, re.IGNORECASE)
                      for p in PROBE_EXEMPT_PATTERNS]
+
+# 豁免可覆盖的信号：仅移动端伴生应用类软信号。真网页工具页脚常写
+# “Download on the App Store / Get it on Google Play”（也有手机版），
+# 这类提及不代表工具本身须安装。下载包、包管理器安装、扩展安装、
+# 桌面应用平台表述等硬信号不在此列——离线调优（2026-11-23，历史
+# 20 条豁免放行全量）：软信号 5 条全为真工具，硬信号 15 条里含
+# rmux、nlmexporter 两个已知漏网；现存 20 条均未在榜，改动不影响
+# 任何在榜条目，只影响今后新到条目的实测（pass 结论不重验）。
+_PROBE_EXEMPTABLE_SIGNALS = frozenset(
+    ("app_store", "google_play", "testflight"))
 
 
 def _visible_text(html_text):
@@ -2235,7 +2248,7 @@ def probe_site(url):
                 before = text[max(0, hit.start() - 25):hit.start()].lower()
                 if "coming soon" in before:
                     continue
-            if exempt:
+            if exempt and name in _PROBE_EXEMPTABLE_SIGNALS:
                 return "pass", "exempt", f"browser-use claim overrides signal:{name}"
             snippet = text[max(0, hit.start() - 60):hit.end() + 60].strip()
             return "fail", f"signal:{name}", snippet[:200]
