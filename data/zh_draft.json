@@ -629,6 +629,12 @@
   "zh_oneliner": "Vulcan 火箭发射失利的最新报道，聊聊这次失败对 ULA 与商业发射竞争格局意味着什么。",
   "zh_title": "Vulcan 火箭发射失败，给 SpaceX 的竞争对手沉重一击"
  },
+ "https://art50-scan.ak10082247.workers.dev": {
+  "en_oneliner": "Check in one click whether your CDN silently strips C2PA provenance metadata from your images, before the Dec 2 deadline.",
+  "en_title": "Art50Scan: Check If Your CDN Strips C2PA Metadata",
+  "zh_oneliner": "一键检测你的 CDN 有没有悄悄剥离图片的 C2PA 来源元数据，赶在 12 月 2 日前验明。",
+  "zh_title": "Art50Scan：查 CDN 是否偷偷抹掉 C2PA 元数据"
+ },
  "https://artformly.com": {
   "en_oneliner": "Turn photos into digital illustrations and pet portraits with AI, in a style you choose.",
   "en_title": "Artformly: Photo to Digital Illustration",
@@ -7349,11 +7355,23 @@
   "zh_oneliner": "致敬 90 年代中期跳舞宝宝梗的音乐可视化小玩具，放上音乐就能看宝宝跟着节奏跳舞。",
   "zh_title": "BPM：跳舞宝宝音乐可视化小工具"
  },
+ "https://healthflow.in/?c=dir.makerhunt": {
+  "en_oneliner": "Management software for diagnostic labs and clinics in India, covering reports, patients, and billing in one place.",
+  "en_title": "HealthFlow: Practice Software for Labs and Clinics in India",
+  "zh_oneliner": "为印度诊断实验室和诊所打造的管理软件，报告、病人、账单一站搞定。",
+  "zh_title": "HealthFlow：印度诊所与检验所管理软件"
+ },
  "https://heardloom.com": {
   "en_oneliner": "Chat with elders in their own language and Heardloom turns their spoken stories into bilingual chapters, finally printed as a family keepsake book.",
   "en_title": "Show HN: Heardloom – Preserve immigrant family stories before they're lost",
   "zh_oneliner": "用母语和长辈聊聊天，Heardloom 会把口述的故事整理成双语篇章，最后印成一本可以传家的家庭故事书。",
   "zh_title": "Heardloom：把移民家庭的故事留下来，别让它们失传"
+ },
+ "https://hearth.lat": {
+  "en_oneliner": "Send messages offline using only your phone's speakers and microphones — chatting that works with no network at all.",
+  "en_title": "Hearth: Offline Messaging via Speakers and Microphones",
+  "zh_oneliner": "不用网络，只靠手机扬声器和麦克风收发消息，断网也能聊天。",
+  "zh_title": "Hearth：用扬声器和麦克风离线传消息"
  },
  "https://hellotriangle.icedlatte.ca": {
   "en_oneliner": "A puzzle game where you build a GPU one part at a time by wiring circuits, and watch it render a picture.",
@@ -8044,6 +8062,12 @@
   "en_title": "AI Gateway",
   "zh_oneliner": "公司用的 AI 模型、接口和用量都收进一个地方管，不再各处散落。",
   "zh_title": "AI Gateway：公司 AI 统一管理入口"
+ },
+ "https://lead-explosion.vercel.app/map": {
+  "en_oneliner": "Simulate on a map how far lead dust would spread after an explosion at the Iowa Army Ammunition Plant — an unofficial estimate.",
+  "en_title": "Lead Explosion Simulator: Iowa Army Ammunition Plant",
+  "zh_oneliner": "在地图上模拟爱荷华陆军弹药厂爆炸后铅尘的扩散范围，非官方估算。",
+  "zh_title": "铅爆扩散模拟：爱荷华陆军弹药厂"
  },
  "https://leadpilot-detail.fly.dev": {
   "en_oneliner": "Keep track of quote follow-ups and draft accurate customer replies from your own price list, so quoting stops being a scramble.",
@@ -9664,6 +9688,12 @@
   "en_title": "PrivyFile",
   "zh_oneliner": "在浏览器里查看并清除图片、PDF 与文档里的元数据，文件不用上传。",
   "zh_title": "PrivyFile 文件元数据清理"
+ },
+ "https://proflirt.ru": {
+  "en_oneliner": "Chat with Russian AI characters who remember you and get to know you better over time.",
+  "en_title": "ProFlirt: Russian AI Characters That Remember You",
+  "zh_oneliner": "和会记住你的俄语 AI 角色聊天，越聊越了解你。",
+  "zh_title": "ProFlirt：会记住你的俄语 AI 角色"
  },
  "https://project-nexus.app/?ref=producthunt": {
   "en_oneliner": "Maps all your projects and their linked services on one visual graph — click any node to jump straight to it; local-first and free for up to 3 projects.",
@@ -11362,6 +11392,12 @@
   "en_title": "InboxAI",
   "zh_oneliner": "用 AI 给邮件分流，回复还会经过人工复核，收件箱不再被淹没。",
   "zh_title": "InboxAI：AI 邮件分流与人工复核回复"
+ },
+ "https://tryluv.ai": {
+  "en_oneliner": "Fall in love and chat with AI characters who live their own lives and remember every moment with you.",
+  "en_title": "TryLuv: AI Characters With Their Own Lives",
+  "zh_oneliner": "和拥有自己生活的 AI 角色谈情说爱，对方会记住你们之间的点点滴滴。",
+  "zh_title": "TryLuv：有自己生活的 AI 角色"
  },
  "https://trymorse.ai/?src=bl-makerhunt": {
   "en_oneliner": "Chat with 80+ AI models in a privacy-first app: your chats stay encrypted on your own device, unreadable even to Morse, with an end-to-end encrypted mode.",

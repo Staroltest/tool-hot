@@ -1564,6 +1564,13 @@ BLOCKED_EXACT = {
     # status.me 是社交状态应用，网页是手机应用的营销页（页头就是 App
     # Store / Google Play 下载徽章），须下载安装才能用，按“应用商店
     # 链接、手机应用不收”口径拦；只拦这一 host
+    # 2026-11-25 02:37 CST 轮自查补封：
+    # NetBeans 插件目录（plugins.netbeans.apache.org/catalogue/）是桌面
+    # IDE 插件下载页：NetBeans-Native AI Agent 是 NetBeans 插件，须先装
+    # NetBeans 再装插件才能用，不是点开就能在浏览器里用的工具；标题
+    # “AI Agent”不露安装痕迹，标题门拦不住；整个子域都是插件目录页，
+    # 只拦这一 host，不动 netbeans.apache.org 主站
+    "plugins.netbeans.apache.org",
     "status.me",
     "www.status.me",
 }
