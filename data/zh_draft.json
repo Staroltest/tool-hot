@@ -14044,5 +14044,17 @@
   "zh_title": "Fast SEO Fix：AI 每天帮你发优化过的博客文章",
   "zh_oneliner": "帮开发者做 SEO：AI 分析你的网站、找出优化机会，每天自动发布优化过的博客文章，省去研究、写作与优化的时间。",
   "en_oneliner": "Helps developers with SEO: AI analyzes your website, finds SEO opportunities, and automatically publishes optimized blog posts to your site every day."
+ },
+ "https://juncts.com/app?demo=1": {
+  "en_oneliner": "One DM inbox for five apps that Claude and ChatGPT can work in directly, so you stop switching between apps.",
+  "en_title": "Show HN: Juncts, one DM inbox for five apps that Claude and ChatGPT can work in",
+  "zh_oneliner": "把五个应用的私信收进同一个收件箱，Claude 和 ChatGPT 可以直接在里面处理消息，不用来回切换应用。",
+  "zh_title": "Juncts：五个应用的私信收进一个收件箱，Claude 和 ChatGPT 能直接干活"
+ },
+ "https://swarkentin.github.io/synth-patch-hero": {
+  "en_oneliner": "A bite-size game that trains your ear for synth patch design, teaching you as you build patches.",
+  "en_title": "Show HN: Synth Patch Hero",
+  "zh_oneliner": "一套练耳朵的小游戏，跟着练习一步步搭合成器音色，在玩的过程中把调音色的手感练出来。",
+  "zh_title": "Synth Patch Hero：边玩边练合成器音色设计"
  }
 }
