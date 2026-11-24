@@ -14440,5 +14440,35 @@
   "en_title": "Knockbox: A Drum Machine That Plays Your Beat Like a Drummer",
   "zh_oneliner": "编一段节奏，它会像真鼓手那样演奏出来，带人味的轻重缓急，不是死板的节拍器。",
   "zh_title": "Knockbox：像鼓手一样打拍子的鼓机"
+ },
+ "https://tackshot.com": {
+  "en_oneliner": "Collect website feedback with screenshots right in the browser — no plugins, no code, just open and use.",
+  "en_title": "Show HN: Free Website Feedback Tool with Screenshots",
+  "zh_oneliner": "在网站上直接收集带截图的用户反馈，不用装插件也不用写代码，点开就能用。",
+  "zh_title": "Tackshot：带截图的免费网站反馈工具"
+ },
+ "https://www.airoomdesignapp.com": {
+  "en_oneliner": "Upload a photo of your room and let AI restyle it and rearrange the furniture — instant decor inspiration in your browser.",
+  "en_title": "AI Room Designer",
+  "zh_oneliner": "上传房间照片，让 AI 帮你换风格、摆家具，装修灵感点开就有。",
+  "zh_title": "AI Room Designer：AI 房间设计工具"
+ },
+ "https://signalsflows.com": {
+  "en_oneliner": "Automatically surfaces posts from people complaining about the exact problems your product solves, so finding customers stops feeling like searching for a needle in a haystack.",
+  "en_title": "Show HN: Finds posts by people with the problems your product solves",
+  "zh_oneliner": "自动搜出正在抱怨你产品能解决的问题的人，让找客户这件事从大海捞针变成按图索骥。",
+  "zh_title": "SignalsFlows：帮你找到正在吐槽痛点的潜在用户"
+ },
+ "https://riemann.mikolaj-kaminski.com": {
+  "en_oneliner": "Turns the first 1,000 zeros of the Riemann zeta function into music — the beauty of math you can listen to.",
+  "en_title": "Show HN: Music of the Primes – hear 1000 zeros of the Riemann zeta function",
+  "zh_oneliner": "把黎曼 zeta 函数的前 1000 个零点谱成音乐，数学之美直接用耳朵听。",
+  "zh_title": "Music of the Primes：把黎曼 zeta 函数的零点变成音乐"
+ },
+ "https://setscout.app": {
+  "en_oneliner": "Tracks Lego set prices over time so you can tell whether a sale is a real deal or just a markup in disguise.",
+  "en_title": "Show HN: SetScout – A Lego price tracker that checks if a \"sale\" is a real deal",
+  "zh_oneliner": "追踪乐高套装的历史价格，帮你判断眼前的折扣是真便宜还是先涨后降。",
+  "zh_title": "SetScout：乐高价格追踪器，识破假打折"
  }
 }
