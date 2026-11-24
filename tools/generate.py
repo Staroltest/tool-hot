@@ -1038,6 +1038,11 @@ BLOCKED_DOMAINS = {
     # 本质是读的文章，不是能拿来做事的工具；2026-11-21 14:07 CST 轮实测，
     # 与同轮 tamnd 同类，按文章类泄漏封域名
     "shayon.work",
+    # riemann-quest.pages.dev：黎曼猜想互动讲解长文（"Read this first"、
+    # 12 个章节按顺序读、号称 10,000 小时阅读马拉松），滑块/图表只是文内
+    # 演示，本质是读的文章；2026-11-24 10:37 CST 轮热点第 3 条实测，
+    # 与 tamnd、shayon.work 同类，按文章类泄漏封域名
+    "riemann-quest.pages.dev",
     # minard1812.org：拿破仑征俄地图的动画致敬页（动画+旁白+音乐），
     # 是看的多媒体内容，没有能直接用的工具；2026-11-21 14:07 CST 轮实测
     "minard1812.org",
