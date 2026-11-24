@@ -14056,5 +14056,11 @@
   "en_title": "Show HN: Synth Patch Hero",
   "zh_oneliner": "一套练耳朵的小游戏，跟着练习一步步搭合成器音色，在玩的过程中把调音色的手感练出来。",
   "zh_title": "Synth Patch Hero：边玩边练合成器音色设计"
+ },
+ "https://benchline.fabwaseem.com": {
+  "en_title": "Benchline: 61 Free Dev Tools That Run in Your Browser",
+  "en_oneliner": "61 free dev tools that run right in your browser — JSON, PDF, images, crypto, network debugging and more, no install or sign-up needed.",
+  "zh_title": "Benchline：61 个免费开发工具，浏览器里直接用",
+  "zh_oneliner": "61 个免费开发小工具都在浏览器里跑，JSON、PDF、图片、加密、网络调试全都有，不用安装也不用注册，点开就能用。"
  }
 }

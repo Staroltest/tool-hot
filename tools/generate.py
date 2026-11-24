@@ -410,6 +410,13 @@ BLOCKED_DOMAINS = {
     # （“View API passes”、$5 一次性 API 通行证、共享 AI 预算），站内无
     # 点开能直接用的浏览器工具；同已封的 TokLab 等纯 API 平台，域名封禁
     "ai.fissionagents.com",
+    # 2026-11-24 13:07 CST 轮：Woolly 是本地记忆 API/CLI 工具（“Runs on
+    # your machine”“A local API with TypeScript and Python clients”、
+    # 须在本地跑 woolly check），官网本身只是营销页，点开不能用工具；
+    # 2026-11-17 就已混进当日归档（zh_title 一直为空才被发现）；标题
+    # “local mem0-compatible memory API”不露下载痕迹，标题门拦不住，
+    # 同已封的 TokLab 等纯 API/本地工具，域名封禁
+    "usewoolly.com",
     # 抽查确认不是在线工具（2026-11-16 第五轮）：原生 iPhone/iPad/Mac 笔记应用，
     # 首页主推原生应用下载，网页版只是附属，不符合“完全在网站上就能用”
     "remindly.com",
