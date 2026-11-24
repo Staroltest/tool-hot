@@ -14062,5 +14062,23 @@
   "en_oneliner": "61 free dev tools that run right in your browser — JSON, PDF, images, crypto, network debugging and more, no install or sign-up needed.",
   "zh_title": "Benchline：61 个免费开发工具，浏览器里直接用",
   "zh_oneliner": "61 个免费开发小工具都在浏览器里跑，JSON、PDF、图片、加密、网络调试全都有，不用安装也不用注册，点开就能用。"
+ },
+ "https://vistella.xyz": {
+  "en_oneliner": "Online AI image generation and editing tool: describe an idea or upload an image to create visuals with multiple models, pay-as-you-go with credits that never expire.",
+  "en_title": "Vistella: Generate and Edit Images from a Sentence",
+  "zh_oneliner": "在线 AI 图片生成与编辑工具，输入描述或上传图片即可调用多种模型出图，按量付费、积分不过期。",
+  "zh_title": "Vistella：用一句话生成和编辑图片"
+ },
+ "https://virissimo.info/dossierql": {
+  "en_oneliner": "A detective-themed interactive GraphQL tutorial: practice fields, arguments, aliases, and fragments while solving cases, learning query syntax as you play.",
+  "en_title": "DossierQL: Learn GraphQL by Solving Cases",
+  "zh_oneliner": "侦探主题的 GraphQL 互动教程，在破案任务中一步步练习字段、参数、别名与片段，边玩边掌握查询写法。",
+  "zh_title": "DossierQL：边破案边学 GraphQL"
+ },
+ "https://superheroname.com": {
+  "en_oneliner": "Free online generator for superhero names and origin stories, customizable by gender, superpowers, style, and tone — handy for naming characters in novels, comics, or RPGs.",
+  "en_title": "AI Superhero Name Generator",
+  "zh_oneliner": "免费在线生成超级英雄名字与起源故事，可按性别、超能力、风格与语气定制，写小说、漫画或跑团起名都能用。",
+  "zh_title": "AI 超级英雄名字生成器"
  }
 }

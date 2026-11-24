@@ -417,6 +417,14 @@ BLOCKED_DOMAINS = {
     # “local mem0-compatible memory API”不露下载痕迹，标题门拦不住，
     # 同已封的 TokLab 等纯 API/本地工具，域名封禁
     "usewoolly.com",
+    # 2026-11-24 06:37 CST 轮：AI X Tool（aixtool.xyz）是 AI 工具目录站
+    # （“AI Tool Directory”“3,151 tools indexed”），本身不是能直接用
+    # 的工具，目录页一律拦，域名封禁
+    "aixtool.xyz",
+    # 2026-11-24 06:37 CST 轮：Everything Is Outdated
+    # （everythingisoutdated.dev）是标题自带 (Game) 的终端主题纯游戏，
+    # 按游戏口径（纯游戏一律拦）封禁；整站即游戏，域名封禁
+    "everythingisoutdated.dev",
     # 抽查确认不是在线工具（2026-11-16 第五轮）：原生 iPhone/iPad/Mac 笔记应用，
     # 首页主推原生应用下载，网页版只是附属，不符合“完全在网站上就能用”
     "remindly.com",
