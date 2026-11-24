@@ -1297,6 +1297,10 @@ BLOCKED_DOMAINS = {
     # only”），娱乐向测试/小游戏，不是工具网站；与此前已封的 Dere Type
     # Quiz（deretypesquiz.com）同类处理
     "personabay.com",
+    # 2026-11-24 流量检查补封：deadlysinstest.com 是七宗罪人格测试站
+    # （答题测你像哪宗罪），与 personabay.com 同类；其英文详情页已被
+    # 搜索引擎收录（site: 搜索结果第 9 条），须清出
+    "deadlysinstest.com",
     # fleetify.dev 是 AI 编程 agent 指挥台：agent 跑在访客本地文件夹/SSH/
     # Docker 里，网站只是营销页 + 登录入口，点开没有能直接在浏览器里用的
     # 工具，是须本地部署的开发基础设施（与纯 API 平台、桌面应用同类处理）
