@@ -7607,6 +7607,12 @@
   "zh_oneliner": "在浏览器里抹掉图片上的水印，只处理你有权编辑的图片，上传即用不用装软件。",
   "zh_title": "ImgUnmark：在线去除图片水印"
  },
+ "https://impedora.com": {
+  "en_oneliner": "Drag the via stub length and see signal loss change in real time — a quick check before you lay out a high-speed PCB.",
+  "en_title": "Impedora: Visualize How a PCB Via Stub Changes Signal Loss",
+  "zh_oneliner": "拖一拖过孔残桩的长度，直观看到信号损耗怎么变，画高速 PCB 时先在这里验证一下。",
+  "zh_title": "Impedora：PCB 过孔残桩信号损耗可视化"
+ },
  "https://incpption.com": {
   "en_oneliner": "Compiles C++ projects right in your browser, entirely locally with nothing running server-side — up to 4x faster than Clang, with per-file results to compare.",
   "en_title": "Show HN: Cppgm compiles C++ to WASM 4x faster than Clang",
@@ -9467,6 +9473,12 @@
   "zh_oneliner": "在 3D 人体模型上点一下疼痛部位，立刻看到底下的肌肉、骨骼和器官。",
   "zh_title": "Pinpoint：点一点 3D 人体，看看疼的地方下面是什么"
  },
+ "https://pipod.browserpod.io": {
+  "en_oneliner": "Run the model right in your browser with WebGPU and let the coding agent work locally, without sending your code to a server.",
+  "en_title": "Pipod: An In-Browser Coding Agent",
+  "zh_oneliner": "模型直接跑在浏览器里，借助 WebGPU 在本地写代码，不用把代码发到服务器上。",
+  "zh_title": "Pipod：浏览器里的 AI 编程智能体"
+ },
  "https://pirateface.co/activity": {
   "en_oneliner": "A live peer-to-peer platform for sharing open models, no central server needed.",
   "en_title": "Live P2P Open Model Sharing",
@@ -10408,6 +10420,12 @@
   "en_title": "Slitherlinks",
   "zh_oneliner": "3000 道 Slitherlink 谜题免费在线玩，每天还有新挑战，不用注册就能开局。",
   "zh_title": "Slitherlinks：在线玩数回谜题"
+ },
+ "https://slopcheck.io/vs/pangram": {
+  "en_oneliner": "Matches Pangram-level accuracy with just 10 MB of training data — paste text to check whether it was written by AI.",
+  "en_title": "SlopCheck: AI-Generated Text Detector",
+  "zh_oneliner": "只用 10MB 数据就达到和 Pangram 相当的检测准确率，粘贴文本就能判断是不是 AI 写的。",
+  "zh_title": "SlopCheck：AI 生成内容检测器"
  },
  "https://smol-ninja.github.io/little-brain": {
   "en_oneliner": "A tiny Mac menu bar app that keeps track of your Codex sessions, so you no longer have to babysit each one through notifications.",
@@ -11404,6 +11422,12 @@
   "en_title": "Turbofy: build business apps by chatting",
   "zh_oneliner": "跟 AI 聊聊天，就能搭出门户、落地页、SaaS 应用和内部工具，直接能用。",
   "zh_title": "Turbofy：聊天建业务应用"
+ },
+ "https://turnintocms.com": {
+  "en_oneliner": "Turn a hand-coded site into a CMS your clients can edit themselves, with every publish recorded as a Git commit.",
+  "en_title": "TurnIntoCMS: Let Clients Edit Your Hand-Coded Sites",
+  "zh_oneliner": "把你手写的网站变成客户能自己改内容的 CMS，每次发布都是一次 Git 提交，改动全程可追溯。",
+  "zh_title": "TurnIntoCMS：客户可编辑、发布即 Git 提交"
  },
  "https://tutti-studio.com": {
   "en_oneliner": "Open PDF sheet music online to play, transpose, and share it — practice without printing a stack of scores.",
@@ -12887,6 +12911,12 @@
   "zh_oneliner": "一组免费的体育计算器，赔率、概率、串关和各类运动数据都能在浏览器里算。",
   "zh_title": "MockSport：体育赔率与数据计算器"
  },
+ "https://www.moonbooth.ai": {
+  "en_oneliner": "Give independent AI agents a simple shared URL so they can pass messages and coordinate with each other.",
+  "en_title": "Moonbooth: Simple Shared URLs for Independent Agents",
+  "zh_oneliner": "给各自为政的 AI 智能体一个简单的共享链接，方便它们互相传消息、协同干活。",
+  "zh_title": "Moonbooth：给独立智能体的共享链接"
+ },
  "https://www.msn.com/en-us/news/other/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt/ar-AA2hs7wV": {
   "en_oneliner": "A single router in southern Arkansas went down and grounded flights across the US — the story of how one infrastructure failure cascaded.",
   "en_title": "The single router in southern Arkansas that ground air travel to a halt",
@@ -13102,6 +13132,12 @@
   "en_title": "Pollen Atlas",
   "zh_oneliner": "查 24 万多个城镇的花粉浓度、空气质量和天气，过敏人群出门前看一眼。",
   "zh_title": "Pollen Atlas：全球花粉浓度与空气质量查询"
+ },
+ "https://www.popularpoem.com/en": {
+  "en_oneliner": "Weave everyone's words into one structured collective poem that speaks to leaders with a single amplified voice.",
+  "en_title": "Popular POEM: A Collective Message Written by Many Voices",
+  "zh_oneliner": "把很多人的只言片语拼成一首结构完整的集体诗，向决策者发出一个放大的、统一的声音。",
+  "zh_title": "Popular POEM：众人合写的集体发声工具"
  },
  "https://www.portalkinetic.com": {
   "en_oneliner": "Dump the open loops crowding your head, take a 60-second reset, and leave with a single next move: start it, park it, or stop here.",
@@ -14344,6 +14380,12 @@
   "en_title": "The AI-Box Experiment (2002)",
   "zh_oneliner": "Yudkowsky 在 2002 年做的 AI 盒子实验，探讨被关在盒子里的人工智能能否说服看守放它出来。",
   "zh_title": "AI 盒子实验（2002）"
+ },
+ "https://www.zerosofzeta.com": {
+  "en_oneliner": "Explore step by step from Euler to the Riemann Hypothesis in an interactive journey that turns abstract math into something you can play with.",
+  "en_title": "Zeros of Zeta: An Interactive Path from Euler to the Riemann Hypothesis",
+  "zh_oneliner": "一步步互动探索，从欧拉一路走到黎曼猜想，把抽象的数学变成可以动手玩的旅程。",
+  "zh_title": "Zeros of Zeta：从欧拉到黎曼猜想的互动之旅"
  },
  "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html": {
   "en_oneliner": "A German local news report: during the Microsoft 365 outage, a hotel chlorine leak poisoned 15 guests.",
