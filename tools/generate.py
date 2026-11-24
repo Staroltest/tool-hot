@@ -1722,6 +1722,21 @@ BLOCKED_URLS = {
     "https://danilqa.github.io/kombinat",
     "https://myk.sh/mykos",
     "https://boring-observability.dev/skyline",
+    # 2026-11-24 09:37 CST 轮热点榜自查补封（页面实测确认）：
+    # Word Spies（wordspies.com）是“用一词线索对抗 AI”的文字推理游戏
+    # （标题自写“the one-word clue game you play against AI”，站内是开房
+    # 间/回放对局的游戏页），纯游戏，按游戏口径（纯游戏一律拦）封禁；
+    # 旧条目 wordspies.com/hn 是同一游戏的 HN 入口，一并拦，只拦链接
+    "https://wordspies.com",
+    "https://www.wordspies.com",
+    "https://wordspies.com/hn",
+    # 2026-11-24 09:37 CST 轮热点榜自查补封（页面实测确认）：
+    # Merget（merget.ai）是 GitHub App：注册后要把 App 安装到仓库里，
+    # 合并队列功能在 GitHub 上跑，站本身只是营销/注册页，点开没有能
+    # 直接在网站上用的工具；按“须安装才能用不收”口径拦（与浏览器扩展、
+    # 桌面应用同类处理），只拦根链接
+    "https://merget.ai",
+    "https://www.merget.ai",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
