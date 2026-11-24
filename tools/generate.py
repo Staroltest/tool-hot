@@ -2054,6 +2054,19 @@ BLOCKED_URLS = {
     # 的 POEM 还要订阅付费才能参与；只拦这一条链接，不封整个域名
     "https://www.popularpoem.com/en",
     "https://popularpoem.com/en",
+    # 2026-11-25 06:07 CST 轮热点榜自查补封（浏览器实测确认）：Siv
+    # （siv.nezin.net）是文明 VI 克隆版浏览器策略游戏（S/C/F/G 资源与
+    # 回合计数），纯游戏，按游戏口径一律拦；只拦这一条链接，不封整个域名
+    "https://siv.nezin.net",
+    # 2026-11-25 06:07 CST 轮热点榜自查补封（浏览器实测确认）：Bubble
+    # Shooter（bubble-shooter.net）是经典打泡泡消除游戏（瞄准、计分、
+    # 难度模式），纯游戏，按游戏口径一律拦；只拦这一条链接，不封整个域名
+    "https://bubble-shooter.net",
+    # 2026-11-25 06:07 CST 轮时间线抽查补封：DossierQL
+    # （virissimo.info/dossierql）是“学 GraphQL 的游戏”，与已封的
+    # Kakurenbo（学假名的 Wordle 游戏）同类，纯游戏、不是能直接用的工具，
+    # 按游戏口径一律拦；只拦这一条链接，不封整个域名
+    "https://virissimo.info/dossierql",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {

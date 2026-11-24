@@ -14632,5 +14632,17 @@
   "en_title": "zSign: e-signatures",
   "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
   "zh_title": "zSign：电子签名"
+ },
+ "https://aiac.app": {
+  "en_title": "AIAC",
+  "en_oneliner": "An AI audio studio in the browser: transcribe speech to text, edit podcasts, and mix multitrack audio in an online DAW — all running locally.",
+  "zh_title": "AIAC 音频内容工作室",
+  "zh_oneliner": "浏览器里的 AI 音频工作室：语音转文字、播客剪辑，再加一个能多轨混音的在线 DAW，全部本地运行。"
+ },
+ "https://www.cryptotruecost.com/en/bitcoin-cost-map": {
+  "en_title": "Show HN: The all-in cost of buying $1k of Bitcoin in 58 countries, updated daily",
+  "en_oneliner": "Compare on a map what it really costs to buy $1k of Bitcoin in 58 countries, fees included, with data updated daily.",
+  "zh_title": "58 个国家买 1000 美元比特币的全部成本，每日更新",
+  "zh_oneliner": "在地图上比一比，58 个国家买 1000 美元比特币算上手续费到底要花多少钱，数据每天更新。"
  }
 }
