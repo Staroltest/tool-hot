@@ -1703,6 +1703,17 @@ BLOCKED_URLS = {
     # 只拦这一条链接，不封整个域名
     "https://slayarcade.com",
     "https://www.slayarcade.com",
+    # 2026-11-25 02:07 PST 轮：Think Complete（think-complete.com）是
+    # “每轮 5 道逻辑、概率与博弈论互动谜题”，纯解谜游戏，按游戏口径
+    # 一律拦；只拦这一条链接，不封整个域名
+    "https://think-complete.com",
+    "https://www.think-complete.com",
+    # 2026-11-25 02:07 PST 轮：GPU Demo Gallery（gpu-demo-gallery.pages.dev）
+    # 是 1998–2006 年 23 个显卡演示的合集，在浏览器里跑演示、看效果，
+    # 没有任何工具功能（不是转换/生成/计算/编辑类工具），按严格工具-only
+    # 标准拦；只拦这一条链接，不封整个域名
+    "https://gpu-demo-gallery.pages.dev",
+    "https://gpu-demo-gallery.pages.dev/",
     # 2026-11-23 03:37 PST 轮热点榜自查补封（页面实测确认）：
     # DeepRubik（asamarts.github.io/deeprubik）是浏览器里的写实魔方
     # 谜题（拖动转层、空格打乱、回车复位），纯游戏，无解法等工具功能，

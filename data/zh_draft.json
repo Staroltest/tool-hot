@@ -15004,5 +15004,17 @@
     "en_oneliner": "Turn any photo into a 2000s digicam shot with six CCD and Y2K looks, a date stamp and an LCD frame, processed entirely in your browser, free with no watermark.",
     "zh_title": "Digicam Effect：照片一键变身 2000 年代数码相机风",
     "zh_oneliner": "上传照片，套上六种 CCD 与 Y2K 复古滤镜，还能加日期戳和 LCD 边框，全程在浏览器里处理，不用注册也没有水印。"
+  },
+  "https://licensecheckusa.com": {
+    "en_title": "LicenseCheckUSA: Free contractor license lookup built on state open data",
+    "zh_title": "LicenseCheckUSA：免费承包商执照查询，基于各州公开数据",
+    "zh_oneliner": "输入承包商名字或执照号，就能免费查到各州公开的执照信息，核对资质不用再翻政府网站。",
+    "en_oneliner": "Look up any contractor's license for free using state open data — check credentials without digging through government sites."
+  },
+  "https://justone.video": {
+    "en_title": "Justone.video: Record a reel one cut at a time, keep the best take",
+    "zh_title": "Justone.video：一段一段录短视频，每段只留最好的一条",
+    "zh_oneliner": "录短视频不用一遍过，分段录、每段保留最佳表现，拼出一条满意的成片。",
+    "en_oneliner": "Record a reel cut by cut and keep only your best take for each segment — no more retaking the whole video."
   }
 }
