@@ -285,6 +285,12 @@ BLOCKED_DOMAINS = {
     # 攻略），是游戏目录不是能直接用的工具，纯游戏按游戏口径一律拦
     # （2026-11-25 15:07 CST 轮：热点榜第 6 条混入，实测确认）
     "clueffygame.com",
+    # krillionhint.com：Krillion 每日潜水游戏（Daily Dive）的答案与提示站
+    # （首页 "verified answers and spoiler-free hints for today's Daily
+    # Dive"，按提示出分、按名次排名），是纯游戏的配套答案站不是工具；
+    # 纯游戏按游戏口径一律拦
+    # （2026-11-25 15:37 CST 轮：当日时间线新到，浏览器实测确认）
+    "krillionhint.com",
     # toolmarina.com：工具目录站（按分类罗列外部工具、可提交收录），
     # 是目录不是能直接用的工具本身，与已封的 aitoolfinder.org 同类
     # （2026-11-25 15:07 CST 轮：热点榜第 4 条混入，实测确认）
