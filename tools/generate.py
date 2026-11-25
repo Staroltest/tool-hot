@@ -2624,6 +2624,70 @@ def title_gate(*titles):
     return True, ""
 
 
+# 信源简介里的“要下载安装”信号（2026-11-25 09:25 PST 轮：Ileta 泄漏——
+# 标题只有“Ileta”不露痕迹，简介却明写“Draw and simulate … circuits on
+# Android”“Free to download”，标题门与首页实测都够不着——简介是信源自己
+# 写的产品描述，首页是开发商通用落地页（lyrasoftlab.com），两者都没把
+# “Android 应用”写进标题/首页正文；Ileta 已被 Bing 收录，英文详情页
+# 在线返回 200。只拦表意明确的，简介里明确写工具本身在浏览器/网页里用
+# 的（web app / browser app / available in the browser 等——“in the browser”
+# 只认“工具本身在浏览器里用”的写法，Clary 的“record once in the browser”
+# 只是录音的一次性步骤、产品本身是 iPhone 应用，不算豁免；见 summary_gate）
+# 1469 条过门条目：新拦 24 条，逐条核过全是真泄漏（Ileta、Yuktisa Fit、
+# StoryPass、Wake、DubTab、PureSound、Outloud Reader、Sikemux、Wavefunction、
+# Rchive、Passdroid、Smartesto、Hammerspoon、ArkWarden、NotchMuse、Expose AI、
+# Blobby、MigraMemo、inlabel、AiryNight、LightScroll、Clary、Locus、
+# Quickcapture），0 误伤；以下写法特意没收：“App Store/Google Play”（TapCraft
+# 的“App Store screenshots”是产出物、Play Console Store 的 Google Play 是
+# 发布对象——其简介里的“Android app”指客户要发布的 app，本身是服务市场，
+# 故“marketplace”也在豁免里）；“on Android/iOS”只拦不带“works inside”
+# （AstraEye 的“works inside ChatGPT and Claude, and on Android”指宿主应用）；
+# 含“and web”的（如 Hailbell“for iOS, Android and web”）说明有网页端，不拦。
+_SUMMARY_EXEMPT = ("no install", "no download", "no installation",
+                    "runs in your browser", "in your browser",
+                    "works in the browser", "and in the browser",
+                    "available in the browser", "directly in the browser",
+                    "entirely in the browser", "right in the browser",
+                    "use it in the browser",
+                    "web-based", "browser-based", "web app", "browser app",
+                    "joins from a link", "not a native", "and web",
+                    "works inside", "marketplace",
+                    "免安装", "无需安装", "不用安装", "无需下载", "不用下载")
+_SUMMARY_BLOCK_RES = [
+    re.compile(p, re.IGNORECASE) for p in (
+        r"\bfree\s+to\s+download\b",
+        r"\bdownload\s+(the\s+)?app\b",
+        r"\bdownload\s+(for|on)\s+(mac|macos|windows|ios|android|linux|iphone|ipad)\b",
+        r"\bmac\s+app\s+store\b",
+        r"\b(android|ios|iphone|ipad|macos)\s+(app|application)\b",
+        r"\b(desktop|mobile)\s+(app|application|version|edition|client)\b",
+        r"\bfor\s+(android|ios|iphone|ipad)\b",
+        r"\brequires?\s+(macos|windows\s+10|windows\s+11|ios|android)\b",
+        r"\bon\s+your\s+(mac|windows|iphone|ipad|android)\b",
+        r"\bon\s+(android|ios)\b",
+    )
+]
+
+
+def summary_gate(*texts):
+    """简介收录判定：返回 (通过, 原因)。简介透露出要下载安装的不要。
+
+    豁免与信号都在简介全文上判定（各字段合并后），避免信号与豁免分处
+    summary / summary_full 两个字段时误拦（如 Ribbon Architect 的“iOS
+    app”与“in the browser”分处两处）。
+    """
+    text = " ".join(t for t in texts if t)
+    if not text:
+        return True, ""
+    low = text.lower()
+    if any(e in low for e in _SUMMARY_EXEMPT):
+        return True, ""
+    for rx in _SUMMARY_BLOCK_RES:
+        if rx.search(text):
+            return False, "installable_summary"
+    return True, ""
+
+
 # ---------------------------------------------------------------- 进榜前实测（方案 B）
 # 2026-11-17 用户选定方案 B：新条目进热点榜前，先实测一次链接网站本身。
 # 背景：目录（Ignlab、ListBulb）描述与实站不符的泄漏（Matikiri 自称 AI
@@ -2902,6 +2966,9 @@ def run_verify_phase(history, kept_sources, cache, now, data_dir):
         if not ok:
             continue
         ok, _ = title_gate(it.get("title", ""), it.get("zh_title", ""))
+        if not ok:
+            continue
+        ok, _ = summary_gate(it.get("summary", ""), it.get("summary_full", ""))
         if not ok:
             continue
         ent = cache["items"].get(link)
@@ -7382,6 +7449,13 @@ def main():
         # 标题关：标题透露出要下载安装（桌面/手机应用、自托管、扩展、
         # 下载页）的不要；工具必须完全在网站上就能用
         ok, why = title_gate(item.get("title", ""), item.get("zh_title", ""))
+        if not ok:
+            gate_stats[why] = gate_stats.get(why, 0) + 1
+            continue
+        # 简介关：信源简介透露出要下载安装的不要（标题不露痕迹、首页
+        # 实测也够不着的一类，见 summary_gate；2026-11-25 Ileta 泄漏）
+        ok, why = summary_gate(item.get("summary", ""),
+                               item.get("summary_full", ""))
         if not ok:
             gate_stats[why] = gate_stats.get(why, 0) + 1
             continue
