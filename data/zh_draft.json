@@ -11291,6 +11291,12 @@
     "zh_oneliner": "TikTok 电商和热门数据仪表盘：什么在涨、涨了多少，一眼看清。",
     "zh_title": "TokConnect：TikTok 数据分析"
   },
+  "https://tokenmargin.dev": {
+    "en_oneliner": "Simulate LLM API costs right in your browser and audit your CSV bills line by line to see exactly where the money went.",
+    "en_title": "TokenMargin – Client-side LLM API cost simulator and CSV bill auditor",
+    "zh_oneliner": "在浏览器本地模拟 LLM API 的调用成本，还能拿 CSV 账单逐项核对，看看钱到底花在了哪里。",
+    "zh_title": "TokenMargin：LLM API 成本模拟与账单核对工具"
+  },
   "https://tokenmobiles.live": {
     "en_oneliner": "A token tracker that claims to stay up while everything else goes down.",
     "en_title": "Show HN: Everything else is DOWN while Tokenmobiles stays neutral",
