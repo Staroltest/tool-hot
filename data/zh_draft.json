@@ -443,6 +443,12 @@
   "zh_oneliner": "在浏览器里做参数化 3D 建模，还能直接跑应力分析和气流仿真，设计、测试、出图都在一个页面里完成。",
   "zh_title": "Amni-CAD：浏览器里的参数化 CAD，带应力与气流仿真"
  },
+ "https://amz.do": {
+  "en_oneliner": "A short-link tool for Amazon sellers: turn a listing into a Super URL opened through a search keyword, hand out coupon codes on a landing page, and track every real click by country, device and channel.",
+  "en_title": "amz.do",
+  "zh_oneliner": "给亚马逊卖家用的短链工具：把商品链接变成带搜索关键词的超级链接，还能搭优惠码领取页，按国家、设备和渠道统计每一次真实点击。",
+  "zh_title": "amz.do：亚马逊卖家的超级链接与优惠码分发工具"
+ },
  "https://anglerplan.com": {
   "en_oneliner": "Free daily fishing plans with tides, weather, fish activity, spots and techniques for 175 regions.",
   "en_title": "AnglerPlan: Today's Fishing Plan",
