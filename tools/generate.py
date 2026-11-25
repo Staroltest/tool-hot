@@ -320,6 +320,23 @@ BLOCKED_DOMAINS = {
     # 服务收费），是业务服务售卖页不是点开能用的工具
     # （2026-11-25 15:07 CST 轮：当日时间线混入，实测确认）
     "gettradelatch.com",
+    # allocations.com：SPV 与基金管理收费服务站（Standard SPV 一次性
+    # 收费 $9,950 起，Get Started 跳 Calendly 预约洽谈），是雇人代办的
+    # 业务服务售卖页不是点开能用的工具；标题 "Allocations Inc" 不露
+    # 服务售卖痕迹，实测放行，人工核实后封
+    # （2026-11-26 06:07 CST 轮：热点榜第 3 条混入，实测确认）
+    "allocations.com",
+    # proofable.me：AI 智能体权限与签发凭证层（"Add Proofable to any
+    # MCP client or app"、SDK 接入），须接进 MCP 客户端或自家应用才能
+    # 用，点开是营销页、浏览器里没有能直接用的工具；按“纯 API 平台
+    # 不收”口径拦，与此前已封的 TokLab、modelflare.dev 同类
+    # （2026-11-26 06:07 CST 轮：热点榜第 20 条混入，实测确认）
+    "proofable.me",
+    # puzlio.com：每日解谜/文字/地理小游戏目录站（游戏指南 + 官方答案
+    # 汇总，链向原出版商去玩），是游戏目录不是能直接用的工具；纯游戏
+    # 按游戏口径一律拦，目录页按标准也不收
+    # （2026-11-26 06:07 CST 轮：热点榜第 1 条混入，实测确认）
+    "puzlio.com",
     # good-morning-gorgeous.pages.dev：AI 鼓励陪伴聊天机器人（每日鼓励、
     # 倾诉对话、日记），是陪伴娱乐型聊天应用不是任务工具
     # （2026-11-25 15:07 CST 轮：当日时间线混入，实测确认）
@@ -1758,6 +1775,20 @@ BLOCKED_URLS = {
     # 按游戏口径一律拦；asamarts.github.io 是个人 GitHub Pages，只拦
     # 这一条链接，不封整个域名
     "https://asamarts.github.io/deeprubik",
+    # 2026-11-26 06:07 CST 轮：HeyCube（inxpanse.com/heycube）是给常驻
+    # AI 智能体用的个性化信息流服务（"HeyCube works through your agent"），
+    # 须注册并接智能体才能用，链到的页面只是营销落地页、浏览器里没有能
+    # 直接用的工具；按严格工具-only 标准拦；inxpanse.com 可能另有内容，
+    # 只拦这一条链接，不封整个域名
+    "https://inxpanse.com/heycube",
+    "https://inxpanse.com/heycube/",
+    # 2026-11-26 06:07 CST 轮：HN 话题条形图竞逐（iantpe.github.io/
+    # hn-topic-race）是 Hacker News 话题趋势的可视化演示（须 Chrome 157
+    # 的 HTML-in-Canvas 技术演示），在浏览器里看图表效果、没有任何工具
+    # 功能，按严格工具-only 标准拦；iantpe.github.io 是个人 GitHub
+    # Pages，只拦这一条链接，不封整个域名
+    "https://iantpe.github.io/hn-topic-race?cat=langHist",
+    "https://iantpe.github.io/hn-topic-race/?cat=langHist",
     # 2026-11-22 20:37 CST 轮：Dawdle（playdawdle.com）是每日 15 字母拼词
     # 游戏（5 分钟内组词比拼），纯游戏，按游戏口径封禁；实测页面只有玩法
     # 说明与计分规则，无工具功能

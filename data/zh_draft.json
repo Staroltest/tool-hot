@@ -14729,6 +14729,12 @@
   "zh_oneliner": "保护隐私的网站分析工具，把流量、访客行为和收入归因连起来看。",
   "zh_title": "Trfyx：隐私友好网站分析"
  },
+ "https://www.tryanvil.dev": {
+  "en_oneliner": "Describe what you want in plain words and it designs, checks, and publishes a live website or app — shops, booking systems, and dashboards included.",
+  "en_title": "Anvil: Build Websites and Apps by Chatting with AI",
+  "zh_oneliner": "用一句话说出想要什么，它就设计、检查并发布一个能直接访问的网站或应用，商店、预订系统、仪表盘都能做。",
+  "zh_title": "Anvil：用聊天造网站和应用的 AI 搭建器"
+ },
  "https://www.typingcompiler.com/test?title=Rust%3A%20Custom%20Fibonacci%20Iterator": {
   "en_oneliner": "Practice typing with real code snippets instead of random words — this one is a hand-written Rust Fibonacci iterator.",
   "en_title": "Show HN: TypingCompiler – Practice typing with real code snippets",
@@ -14890,6 +14896,12 @@
   "en_title": "Dating Assistant for Nerds",
   "zh_oneliner": "上传约会软件的聊天截图，AI 按你的语气一次给三条回复，顺带能测资料吸引力和聊天兼容度。",
   "zh_title": "Sparks：AI 约会聊天助手"
+ },
+ "https://www.yourdatingassistant.com/anniversary-calculator": {
+  "en_oneliner": "Enter the day your relationship started and get the exact days, weeks, months and years together, plus your next milestone countdown and gift ideas.",
+  "en_title": "Anniversary Calculator",
+  "zh_oneliner": "输入恋爱开始的那天，精确算出在一起多少天、多少周、多少月多少年，还能倒数下一个纪念日、按年份给礼物建议。",
+  "zh_title": "Anniversary Calculator：恋爱纪念日计算器"
  },
  "https://www.youtube.com/watch?v=4NExTWq_wvk": {
   "en_oneliner": "A video episode connecting vibe coding, AI, music tech, and Star Trek — playful and thought-provoking in equal measure.",
@@ -15220,11 +15232,5 @@
   "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
   "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
   "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
- },
- "https://www.yourdatingassistant.com/anniversary-calculator": {
-  "en_oneliner": "Enter the day your relationship started and get the exact days, weeks, months and years together, plus your next milestone countdown and gift ideas.",
-  "en_title": "Anniversary Calculator",
-  "zh_oneliner": "输入恋爱开始的那天，精确算出在一起多少天、多少周、多少月多少年，还能倒数下一个纪念日、按年份给礼物建议。",
-  "zh_title": "Anniversary Calculator：恋爱纪念日计算器"
  }
 }
