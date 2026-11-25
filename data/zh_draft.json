@@ -14962,5 +14962,23 @@
   "zh_title": "MemoryWorks：人与 AI 助手共享的公司记忆库",
   "zh_oneliner": "把公司的知识和上下文沉淀成统一的记忆库，团队成员和 AI 助手都能随时调用。",
   "en_oneliner": "A shared company memory that both your team and your AI agents can draw on anytime."
+ },
+ "https://adaptorch.com": {
+  "en_title": "AdaptOrch",
+  "zh_title": "AdaptOrch：评审 AI 改动说明，帮你决定合不合",
+  "zh_oneliner": "把 AI 的改动说明贴进来，它帮你梳理摘要、缺失信息和待核查的问题，再决定要不要合入。",
+  "en_oneliner": "Paste in your AI's change explanation and get a summary, missing information, and questions to check before you decide whether to merge."
+ },
+ "https://whatrunsindia.com": {
+  "en_title": "WhatRunsIndia",
+  "zh_title": "WhatRunsIndia：把商品图变成广告大片和可购主页",
+  "zh_oneliner": "上传一张商品图，AI 帮你拍出各尺寸的广告图，还能生成带购买入口的品牌主页。",
+  "en_oneliner": "Upload one product photo and AI turns it into ad creatives in every size, plus a shoppable storefront page."
+ },
+ "https://lightscale.ai": {
+  "en_title": "Lightscale AI",
+  "zh_title": "Lightscale AI：说出想要的业务软件，AI 直接搭出来",
+  "zh_oneliner": "用一句话描述想要的 CRM 或网店等业务软件，AI 直接生成带登录、权限和数据的完整应用，免费试搭。",
+  "en_oneliner": "Describe the business software you need in plain words and AI builds the full app, with sign-in, access control, and data included — free to try."
  }
 }

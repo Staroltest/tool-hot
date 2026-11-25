@@ -1422,6 +1422,14 @@ BLOCKED_DOMAINS = {
     # chessforsats.in 是粉丝投票下棋的在线国际象棋对局（两派粉丝投票决定
     # 每一步、可用 sats 付费立即落子），纯游戏，按游戏口径一律拦
     "chessforsats.in",
+    # 2026-11-25 16:37 CST 轮自查补封（浏览器实测确认）：
+    # randibri.com 是每周随机歌单发布站（每周固定 11 张歌单，访客只能
+    # 点开听已有歌单、跳转到 Spotify/TIDAL/YouTube Music），访客自己
+    # 不能在站上生成任何东西，是内容发布不是工具网站，按内容站不收口径拦
+    "randibri.com",
+    # chitown26.com 是个人 3D 作品集展示站（GRID — Gallery Campus，点开
+    # 选拱门参观），是作品展示不是能直接用的工具网站，整站就是这一个展示
+    "chitown26.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -2156,6 +2164,13 @@ BLOCKED_URLS = {
     # 不住，人工抽查封禁；只拦这一条链接，不封整个域名
     "https://chakra.social",
     "https://www.chakra.social",
+    # 2026-11-25 16:37 CST 轮自查补封（浏览器实测确认）：FilteredDelete
+    # （algolassi.online/products/filtereddelete）是 Windows/Linux 文件夹
+    # 清理桌面应用（.NET 10 自包含构建，Windows x64 / Linux x64 / ARM64
+    # 安装包从 GitHub Releases 下载），须下载安装才能用，按“需要下载安装
+    # 的工具不算”口径拦；algolassi.online 首页另有浏览器小工具与教程，
+    # 只拦这一条下载页链接，不封整个域名
+    "https://algolassi.online/products/filtereddelete",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
