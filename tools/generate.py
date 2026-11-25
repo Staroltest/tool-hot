@@ -2075,6 +2075,30 @@ BLOCKED_URLS = {
     # Kakurenbo（学假名的 Wordle 游戏）同类，纯游戏、不是能直接用的工具，
     # 按游戏口径一律拦；只拦这一条链接，不封整个域名
     "https://virissimo.info/dossierql",
+    # 2026-11-25 09:07 CST 轮时间线抽查补封：铅爆扩散模拟
+    # （lead-explosion.vercel.app/map）是爱荷华陆军弹药厂铅爆事件的
+    # 扩散范围模拟互动地图，围绕单条时事新闻做的可视化报道，不是能反复
+    # 用的工具；与已封的 getlucera.com/iowa-lead-detonation 同类（同
+    # 一事件、2026-11-22 22:37 PST 轮已封）；只拦这一条链接，不封整个域名
+    "https://lead-explosion.vercel.app/map",
+    # 2026-11-25 09:07 CST 轮热点榜自查补封：ClusterBust
+    # （clusterbust.com）是每日单词/逻辑解谜游戏（源站摘要自写
+    # “Connections meets Snood…clear the board”），纯游戏，按游戏口径
+    # 一律拦；只拦这一条链接，不封整个域名
+    "https://clusterbust.com",
+    "https://www.clusterbust.com",
+    # 2026-11-25 09:07 CST 轮热点榜自查补封：End User
+    # （enduser.fun）标题自写“a game about smuggling AI chips past
+    # export controls”，纯游戏，按游戏口径一律拦；带 ?src=hn 参数的
+    # 提交链接与裸链接都拦，不封整个域名
+    "https://enduser.fun",
+    "https://enduser.fun/?src=hn",
+    # 2026-11-25 09:07 CST 轮热点榜自查补封：Where Celebs Go
+    # （wherecelebsgo.com/games）标题自写“GeoGuessr for Celebrity
+    # Gossip”，名人八卦版 GeoGuessr 猜图游戏，纯游戏，按游戏口径一律拦；
+    # 只拦这一条链接，不封整个域名
+    "https://wherecelebsgo.com/games",
+    "https://www.wherecelebsgo.com/games",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
@@ -2351,6 +2375,25 @@ _TITLE_BLOCK_RES = [
         # （2026-11-24 07:07 CST 轮：该条已进热点榜；离线验过全库 4453 条
         # 在库条目，只拦这一条，0 误伤；链接门同步封 anduil.neocities.org/n）
         r"\bflash game\b",
+        # “a game about …”（如“Show HN: End User, a game about smuggling
+        # AI chips past export controls”）：标题自认是游戏，网页工具标题里
+        # 不会出现
+        # （2026-11-25 09:07 CST 轮：End User 混入热点榜；离线验过全库
+        # 4831 条在库条目，只拦这一条，0 误伤；链接门同步封 enduser.fun）
+        r"\ba game about\b",
+        # “GeoGuessr”（如“Show HN: GeoGuessr for Celebrity Gossip”）：
+        # 标题提到 GeoGuessr 就是猜图游戏或其克隆，网页工具标题里不会出现
+        # （2026-11-25 09:07 CST 轮：Where Celebs Go 混入热点榜；离线验过
+        # 全库 4831 条在库条目，只拦这一条，0 误伤；链接门同步封
+        # wherecelebsgo.com/games）
+        r"\bgeoguessr\b",
+        # “daily … puzzle”（如“Show HN: NYT style daily word/logic
+        # puzzle”）：每日解谜是 NYT Wordle 类纯游戏的明确说法，网页工具
+        # 标题里不会出现
+        # （2026-11-25 09:07 CST 轮：ClusterBust 混入热点榜；离线验过全库
+        # 4831 条在库条目，命中 7 条全是每日解谜纯游戏，0 误伤；链接门同步
+        # 封 clusterbust.com）
+        r"\bdaily\b.{0,40}\bpuzzle\b",
         # “API key for …”（如“One OpenAI-compatible API key for many
         # LLMs”）：标题明说产品是给调用方用的 API key，不是浏览器里能直接
         # 用的工具；只拦“API key for”这一表意明确的说法，不拦“API key
