@@ -2323,6 +2323,21 @@ BLOCKED_URLS = {
     "https://aigarchy.samuelberton.com",
     "https://riyad.ing/little-rally",
     "https://academy.functorial.inc/courses/riemann",
+    # 2026-11-25 12:37 PST 轮热点榜自查补封（页面实测确认）：
+    # PaperBoy（niclas.lalo.li）是童年街机游戏 PaperBoy 的重制版
+    # （“Niclas First Job - the Game”，街机框 + 等距像素街道），纯游戏，
+    # 按游戏口径一律拦；niclas.lalo.li 是个人站，只拦这一条链接
+    "https://niclas.lalo.li",
+    # Eggsimulator（eggeggegg.vercel.app）是浏览器里的鸡蛋模拟玩具
+    # （全屏 canvas 点鸡蛋），没有任何工具功能，不是转换/生成/计算/
+    # 编辑类工具，按严格工具-only 标准拦；只拦这一条链接
+    "https://eggeggegg.vercel.app",
+    # SubReddit Marketing（subredditmarketing.co）是付费 Reddit 发帖
+    # 营销服务售卖页（“Reddit posts from $250, live in 24 hours”，下单
+    # 后由对方代发），访客点开不能自己用任何工具，是售卖页不是工具站，
+    # 按售卖页不收口径拦；只拦这一条链接
+    "https://subredditmarketing.co",
+    "https://www.subredditmarketing.co",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
