@@ -281,6 +281,43 @@ BLOCKED_DOMAINS = {
     # 标题“DirectoryGems”不露目录痕迹，实测放行，人工核实后封
     # （2026-11-25 02:07 CST 轮：热点榜混入，浏览器实测确认）
     "directorygems.com",
+    # clueffygame.com：游戏发现站（按短视频线索找游戏、链官方游玩链接与
+    # 攻略），是游戏目录不是能直接用的工具，纯游戏按游戏口径一律拦
+    # （2026-11-25 15:07 CST 轮：热点榜第 6 条混入，实测确认）
+    "clueffygame.com",
+    # toolmarina.com：工具目录站（按分类罗列外部工具、可提交收录），
+    # 是目录不是能直接用的工具本身，与已封的 aitoolfinder.org 同类
+    # （2026-11-25 15:07 CST 轮：热点榜第 4 条混入，实测确认）
+    "toolmarina.com",
+    # puraroute.com：住宅代理购买/管理后台（买代理、配连接信息、看用量），
+    # 是付费代理服务售卖页不是点开能用的工具
+    # （2026-11-25 15:07 CST 轮：热点榜第 16 条混入，实测确认）
+    "puraroute.com",
+    # soniccaption.com：浏览器扩展（首页 "Add to Chrome / Install
+    # Extension"，装进 Chrome/Edge 后给标签页音频加实时字幕），
+    # 浏览器扩展按标准一律不收
+    # （2026-11-25 15:07 CST 轮：热点榜第 19 条混入，实测确认）
+    "soniccaption.com",
+    # devglobaljobs.com：全球招聘平台（按国家城市找工作、远程与签证岗、
+    # 可免费发帖），是招聘职位目录不是能直接用的工具
+    # （2026-11-25 15:07 CST 轮：当日时间线混入，实测确认）
+    "devglobaljobs.com",
+    # dssub.com：DeepSeek 与多模型 API 套餐售卖/管理站（比价、管理 API
+    # key 与用量账单），纯 API 平台落地页，按“纯 API 平台不收”口径拦
+    # （2026-11-25 15:07 CST 轮：当日时间线混入，实测确认）
+    "dssub.com",
+    # vicelet.com：七宗罪测试问卷站（答 21 道题出罪行分数卡），是娱乐
+    # 测验不是能直接用的工具
+    # （2026-11-25 15:07 CST 轮：当日时间线混入，实测确认）
+    "vicelet.com",
+    # gettradelatch.com：承包商漏接电话短信回拨服务（须接电话系统、按
+    # 服务收费），是业务服务售卖页不是点开能用的工具
+    # （2026-11-25 15:07 CST 轮：当日时间线混入，实测确认）
+    "gettradelatch.com",
+    # good-morning-gorgeous.pages.dev：AI 鼓励陪伴聊天机器人（每日鼓励、
+    # 倾诉对话、日记），是陪伴娱乐型聊天应用不是任务工具
+    # （2026-11-25 15:07 CST 轮：当日时间线混入，实测确认）
+    "good-morning-gorgeous.pages.dev",
     "nytimes.com", "theguardian.com", "reuters.com", "washingtonpost.com",
     "cnn.com", "bbc.com", "bbc.co.uk", "economist.com", "ft.com", "wsj.com",
     "theatlantic.com", "newyorker.com", "thehill.com", "cnbc.com",

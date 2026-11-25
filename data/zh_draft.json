@@ -14740,5 +14740,197 @@
     "zh_title": "Wizmade：图片、视频、音频一站做的多模态 AI 创作工作室",
     "zh_oneliner": "一个多模态 AI 创作工作室，生图、修图、超分、做视频、做音频都在同一个地方完成，按次计费，点数永不过期。",
     "en_oneliner": "A unified multimodal AI studio for image generation, editing, upscaling, video and audio creation in one workspace, with pay-as-you-go credits that never expire."
+  },
+  "https://www.ggfor.com": {
+    "en_title": "GGfor Tools – free online tools for developers, designers & productivity",
+    "zh_title": "GGfor Tools：开发者与设计师的免费在线工具合集",
+    "zh_oneliner": "一站式免费在线工具箱，文本清理、正则测试、颜色转换、单位换算都在浏览器里直接用。",
+    "en_oneliner": "A one-stop box of free online tools — clean text, test regex, convert colors and units, all right in the browser."
+  },
+  "https://homecalcguide.online": {
+    "en_title": "HomeCalcGuide – free home repair cost calculators",
+    "zh_title": "HomeCalcGuide：免费家庭维修成本计算器",
+    "zh_oneliner": "屋顶、油漆、地板、瓷砖要花多少钱，点开按美国当地行情秒算参考价，不用注册也没有广告。",
+    "en_oneliner": "See what a roof, paint job, flooring or tile project should cost — instant estimates from real US price ranges, no sign-up, no ads."
+  },
+  "https://filemate.tools": {
+    "en_title": "Filemate Tools – 32 free online tools that run 100% in your browser",
+    "zh_title": "Filemate Tools：32 个全在浏览器里跑的免费在线工具",
+    "zh_oneliner": "PDF、图片、文本、开发工具共 32 个，全程本地浏览器里处理，不上传文件也不用注册。",
+    "en_oneliner": "32 free tools for PDF, images, text and developers that run entirely in your browser — no uploads, no sign-up."
+  },
+  "https://eu261kit.com": {
+    "en_title": "EU261 Kit – claim up to €600 flight compensation yourself",
+    "zh_title": "EU261 Kit：欧盟航班延误赔偿自助工具包",
+    "zh_oneliner": "航班延误或取消，先免费查能不能索赔，再按现成的规则与信件模板自己向航司要回最高 600 欧元。",
+    "en_oneliner": "Check for free whether your delayed or cancelled flight qualifies, then claim up to €600 yourself with ready-made rules and letter templates."
+  },
+  "https://jmeukrap.com": {
+    "en_title": "JME Freestyle AI – AI rap video generator from one photo",
+    "zh_title": "JME Freestyle AI：一张照片生成说唱短视频",
+    "zh_oneliner": "传一张照片，AI 就把它变成一段 15 秒竖屏说唱视频，还能顺带比较配乐、配音与画面工具。",
+    "en_oneliner": "Turn a single photo into a 15-second vertical rap video, and compare tools for songs, voices and music visuals along the way."
+  },
+  "https://findrivals.com": {
+    "en_title": "FindRivals – free competitor finder & analysis tool",
+    "zh_title": "FindRivals：免费竞品查找与分析工具",
+    "zh_oneliner": "输入一个行业或商家，就能找到竞争对手并放在一个工作区里比评分、定位、定价与口碑。",
+    "en_oneliner": "Type in a business or niche to find your competitors and compare them in one workspace — scorecards, positioning, pricing and reviews."
+  },
+  "https://sekilliad.com.tr": {
+    "en_title": "ŞekilliAd – stylish nickname generator with 198 text styles",
+    "zh_title": "ŞekilliAd：198 种花式昵称生成器",
+    "zh_oneliner": "输入昵称，一键套上 198 种花式字体样式，复制就能用在游戏与社交账号上，完全免费。",
+    "en_oneliner": "Type a nickname and apply one of 198 fancy text styles in a single click — copy and paste it into games or social profiles, free."
+  },
+  "https://freeimagegenerator.net": {
+    "en_title": "FreeImageGenerator – create realistic AI images from text with FLUX.1",
+    "zh_title": "FreeImageGenerator：免费 AI 文字生图",
+    "zh_oneliner": "输入文字提示，用 FLUX.1 生成逼真图片，每天有免费额度，不用注册、没有水印，还能商用。",
+    "en_oneliner": "Turn text prompts into realistic images with FLUX.1 — free daily generations, no sign-up, no watermark, commercial use allowed."
+  },
+  "https://www.tool5.top": {
+    "en_title": "Tool5 – free online tools for images, documents and text",
+    "zh_title": "Tool5：图片、文档与文本免费在线工具",
+    "zh_oneliner": "图片、文档、文本三类常用小工具的合集，点开就能用，不用下载也不用注册。",
+    "en_oneliner": "A collection of everyday tools for images, documents and text — open and use them right away, no downloads or sign-up."
+  },
+  "https://magi2ai.video": {
+    "en_title": "Magi2AI – MAGI-2 AI video generator with synced audio and lip-sync",
+    "zh_title": "Magi2AI：MAGI-2 AI 视频生成器",
+    "zh_oneliner": "在线生成带同步原声与口型对齐的 AI 视频，画面与声音一次成型，直接在浏览器里出片。",
+    "en_oneliner": "Generate AI videos online with synchronized native audio and lip-sync — picture and sound come out together, right in the browser."
+  },
+  "https://cleantract.com": {
+    "en_title": "CleanTract – free commercial cleaning bid and profit calculators",
+    "zh_title": "CleanTract：商业保洁投标与利润计算器",
+    "zh_oneliner": "接保洁项目前先算一算：报多少价能中标、做下来能赚多少，免费在线算，不用注册。",
+    "en_oneliner": "Before bidding a cleaning job, work out what price wins and what profit it leaves — free online calculators, no sign-up."
+  },
+  "https://memrai.com": {
+    "en_title": "Memrai – turn documents into a linked AI knowledge wiki",
+    "zh_title": "Memrai：文档转带引用的 AI 知识维基",
+    "zh_oneliner": "把散落的 PDF、文档、笔记变成互相链接的个人 AI 知识库，聊天回答都带出处，自带密钥就能免费玩。",
+    "en_oneliner": "Turn scattered PDFs, docs and notes into a linked personal AI wiki whose chat answers cite their sources — free with your own API key."
+  },
+  "https://imagecolorpickerai.com": {
+    "en_title": "ImageColorPicker AI – pick exact colors from any image",
+    "zh_title": "ImageColorPicker AI：图片取色工具",
+    "zh_oneliner": "上传图片点一下就能取到精确颜色值，设计配色随手可取，全程在浏览器里完成。",
+    "en_oneliner": "Click anywhere on an image to pick its exact color — handy for design palettes, all in the browser."
+  },
+  "https://songsimilar.com": {
+    "en_title": "SongSimilar – free similar song finder",
+    "zh_title": "SongSimilar：相似歌曲查找器",
+    "zh_oneliner": "给一首喜欢的歌，马上列出 20 首风格相近的曲子，按排名慢慢听，不用注册。",
+    "en_oneliner": "Give it a song you love and get 20 ranked similar tracks to explore — free, no sign-up."
+  },
+  "https://faceontrend.com": {
+    "en_title": "FaceOnTrend – turn photos into trending AI videos",
+    "zh_title": "FaceOnTrend：照片变热门 AI 短视频",
+    "zh_oneliner": "传一到五张照片，套上 75 种热门视频模板，生成表演、电影感场景或视觉笑话短片，创作者发社媒随手可用。",
+    "en_oneliner": "Turn one to five photos into short videos with 75 trending formats — performances, cinematic scenes or visual jokes, ready for social media."
+  },
+  "https://www.yppchecker.com": {
+    "en_title": "YPP Checker – free YouTube monetization checker",
+    "zh_title": "YPP Checker：免费 YouTube 变现资格查询",
+    "zh_oneliner": "粘贴频道链接、@用户名或视频地址，就能查公开订阅数与总播放量，对照 YouTube 合作伙伴计划的门槛看看差多远。",
+    "en_oneliner": "Paste a channel link, @handle or video URL to see public subscribers and lifetime views, checked against YouTube Partner Program thresholds."
+  },
+  "https://fullscreenwhite.com": {
+    "en_title": "Fullscreen White – free fullscreen white screen",
+    "zh_title": "Fullscreen White：免费全屏白屏工具",
+    "zh_oneliner": "点开就是一块全屏白色，测屏幕坏点、补光拍照、检查屏幕划痕都能用，手机电脑电视都行。",
+    "en_oneliner": "A free fullscreen white screen for testing displays, lighting photos or spotting screen marks — works on phone, computer or TV."
+  },
+  "https://cutoutvideo.com": {
+    "en_title": "CutoutVideo – online video background remover",
+    "zh_title": "CutoutVideo：在线视频抠像去背景",
+    "zh_oneliner": "上传视频就能去掉背景，导出带透明通道的 WebM 或绿幕 MP4，剪视频做抠像不用装软件。",
+    "en_oneliner": "Upload a video to remove its background and export a transparent WebM or green-screen MP4 — no software to install."
+  },
+  "https://whenisschoolout.com": {
+    "en_title": "When Is School Out – school calendars for 223 U.S. districts",
+    "zh_title": "When Is School Out：美国学区放假日历查询",
+    "zh_oneliner": "查美国 223 个学区的开学日、结课日与假期安排，家长排假一眼就能对上。",
+    "en_oneliner": "Look up first days, last days, breaks and days off for 223 U.S. school districts — plan around the school calendar at a glance."
+  },
+  "https://medicarebrackets.com": {
+    "en_title": "MedicareBrackets – look up Medicare income brackets",
+    "zh_title": "MedicareBrackets：美国医保收入档位查询",
+    "zh_oneliner": "输入收入就能查 Medicare 的收费档位，顺带估算每月要多交多少附加费。",
+    "en_oneliner": "Look up your Medicare income bracket and estimate the monthly surcharge that comes with it."
+  },
+  "https://compress100.com": {
+    "en_title": "Compress100 – compress images to 100KB in the browser",
+    "zh_title": "Compress100：浏览器里把图片压到 100KB",
+    "zh_oneliner": "JPG、PNG、WebP、GIF 在浏览器本地就能压到 100KB 或指定大小，不上传、不用注册。",
+    "en_oneliner": "Compress JPG, PNG, WebP or GIF to 100KB or another size right in the browser — processing stays on your device, no account needed."
+  },
+  "https://igfollowerexporter.com": {
+    "en_title": "IG Follower Exporter – export public Instagram followers to CSV",
+    "zh_title": "IG Follower Exporter：公开 Instagram 粉丝导出 CSV",
+    "zh_oneliner": "把公开 Instagram 账号的粉丝列表导成 CSV，做账号分析整理起来方便。",
+    "en_oneliner": "Export a public Instagram account's followers to CSV for easy analysis and record-keeping."
+  },
+  "https://www.goldworth.co": {
+    "en_title": "Goldworth – gold value calculator with live prices",
+    "zh_title": "Goldworth：黄金价值计算器",
+    "zh_oneliner": "按实时金价算手里的黄金值多少钱，称重输入、当场出价。",
+    "en_oneliner": "Work out what your gold is worth from live gold prices — enter the weight and get the value instantly."
+  },
+  "https://framemux.com": {
+    "en_title": "FrameMux – multi-model AI video, image and audio studio",
+    "zh_title": "FrameMux：多模型 AI 音视频生成工作室",
+    "zh_oneliner": "视频、图片、音频生成集中在一个工作室里，多个模型随便换着用，创作不用到处切站。",
+    "en_oneliner": "Generate video, images and audio in one studio with multiple models to switch between — no hopping across sites."
+  },
+  "https://3dfile.app": {
+    "en_title": "3dfile – free online 3D model viewer and converter",
+    "zh_title": "3dfile：免费在线 3D 模型查看与转换",
+    "zh_oneliner": "浏览器里直接打开 3D 模型查看，还能在格式之间转换，不用装建模软件。",
+    "en_oneliner": "Open and view 3D models right in the browser, and convert between formats — no modelling software needed."
+  },
+  "https://img2video.pro": {
+    "en_title": "img2video.pro – turn one photo into a cinematic AI video",
+    "zh_title": "img2video.pro：一张照片变电影感 AI 视频",
+    "zh_oneliner": "传一张照片，生成一段电影感 AI 视频，按条付费、不用订阅。",
+    "en_oneliner": "Turn a single photo into a cinematic AI video — pay per clip, no subscription."
+  },
+  "https://mochicheeks.com": {
+    "en_title": "Mochi Cheeks Maker – add a playful blush effect to photos",
+    "zh_title": "Mochi Cheeks Maker：照片腮红特效",
+    "zh_oneliner": "给照片加一抹俏皮的腮红效果，修图玩图随手就能用。",
+    "en_oneliner": "Add a playful blush effect to your photos — a quick, fun touch for editing and sharing."
+  },
+  "https://filmtaste.app": {
+    "en_title": "FilmTaste – discover a film from four favorites",
+    "zh_title": "FilmTaste：凭四部喜欢的电影找片",
+    "zh_oneliner": "说出四部你喜欢的电影，它就推荐下一部合口味的片，选片纠结时用得上。",
+    "en_oneliner": "Tell it four films you love and it recommends the next one to watch — handy when you can't pick a movie."
+  },
+  "https://freeiptv.cc": {
+    "en_title": "IPTVFree – free browser player for M3U playlists",
+    "zh_title": "IPTVFree：免费在线 M3U 播放器",
+    "zh_oneliner": "浏览器里直接播 M3U、M3U8 与 HLS 播放列表，也能按国家语言分类浏览公开频道，不用装应用也不用订阅。",
+    "en_oneliner": "Play M3U, M3U8 and HLS playlists online, or browse public channels by country, language and category — no app or subscription."
+  },
+  "https://www.cursedtype.com": {
+    "en_title": "CursedType – free cursed text generator",
+    "zh_title": "CursedType：免费诡异文字生成器",
+    "zh_oneliner": "一键生成 Zalgo、故障风、诡异风文字，复制就能发，玩梗整活随手可用。",
+    "en_oneliner": "Generate Zalgo, glitch and creepy cursed text in one click — copy and paste it anywhere for fun."
+  },
+  "https://bahcalcpro.com": {
+    "en_title": "BAHCalcPro – free 2026 BAH calculator by duty station",
+    "zh_title": "BAHCalcPro：免费美军住房津贴计算器",
+    "zh_oneliner": "按驻地邮编、军衔与家属情况算 2026 年美军住房津贴，不用登录、独立免费工具。",
+    "en_oneliner": "Work out your 2026 military housing allowance by duty station ZIP, pay grade and dependent status — free, no login."
+  },
+  "https://zzp-bewijskluis.surge.sh": {
+    "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
+    "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测",
+    "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
+    "en_oneliner": "A free two-minute check for Dutch solo freelancers to see whether their self-employment meets Wet DBA rules."
   }
 }
