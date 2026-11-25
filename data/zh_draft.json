@@ -15100,5 +15100,11 @@
     "en_title": "BoxRouter – One Router for Agent Sandboxes and Compute",
     "zh_oneliner": "一次接入就能调用各家沙箱和算力，按价格或速度自动挑最合适的供应商，还能直接跑 Claude Code 等编程智能体和 GitHub Actions 任务。",
     "zh_title": "BoxRouter：一个接口接通各家沙箱与算力"
+  },
+  "https://www.delibora.com": {
+    "en_oneliner": "Let multiple AI personas debate, review pitches, and simulate focus groups, so product decisions get stress-tested from every angle before you commit.",
+    "en_title": "Delibora",
+    "zh_oneliner": "让多个 AI 扮演不同立场来辩论、评审方案、模拟焦点小组，产品决策拿不定主意时，先听听各方怎么吵。",
+    "zh_title": "Delibora"
   }
 }
