@@ -1754,6 +1754,12 @@ BLOCKED_URLS = {
     # waitlist，主产品访客用不了），按“点开就能用”标准拦；站内免费小工具
     # 在子路径上（如 schema 检查、llms.txt 生成器），只拦根链接，不封整个域名
     "https://vouchgeo.com",
+    # 2026-11-26 01:07 CST 轮：BC-1（cds.bruceblay.com）是浏览器里可玩的
+    # Teenage Engineering 风格虚拟 CD 机（按键、放碟、听歌），纯互动玩具/
+    # 演示，没有任何工具功能，按严格工具-only 标准拦；只拦这一条链接，
+    # 不封整个域名
+    "https://cds.bruceblay.com",
+    "https://cds.bruceblay.com/",
     "https://www.vouchgeo.com",
     # 2026-11-23 00:37 UTC 轮：Lexis World（lexisworld.org）是儿童文字游戏
     # （输入单词、动物跳进来，无广告无奖励循环，免费试用后一次付费），纯游戏，
