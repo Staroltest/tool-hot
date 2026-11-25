@@ -15106,5 +15106,23 @@
     "en_title": "Delibora",
     "zh_oneliner": "让多个 AI 扮演不同立场来辩论、评审方案、模拟焦点小组，产品决策拿不定主意时，先听听各方怎么吵。",
     "zh_title": "Delibora"
+  },
+"https://proofable.me": {
+    "en_oneliner": "An AI that knows you, only does what you allow, and can prove every step it took.",
+    "en_title": "Show HN: Proofable, AI that knows you, only does what you allow, and proves it",
+    "zh_oneliner": "懂你的 AI 助手，只做你明确允许的事，每一步都能拿出证据自证。",
+    "zh_title": "Proofable：只做你允许的事、还能自证的 AI"
+  },
+"https://clothesmorph.com": {
+    "en_oneliner": "Try on multiple garments with AI right in the browser and mix and match outfits online, no install needed.",
+    "en_title": "Show HN: ClothesMorph – Multi-garment AI virtual try-on in the browser",
+    "zh_oneliner": "在浏览器里就能 AI 试穿多件衣服，换装搭配直接在线完成。",
+    "zh_title": "ClothesMorph：浏览器里的多件套 AI 虚拟试穿"
+  },
+"https://rocketcrab.com": {
+    "en_oneliner": "Vibe-code a little game from a prompt and play it with friends instantly, right in the browser.",
+    "en_title": "Show HN: Rocketcrab Nova – vibe code a little game, play with friends instantly",
+    "zh_oneliner": "用一句话 vibe 出一个小游戏，立刻邀请朋友一起在线玩。",
+    "zh_title": "Rocketcrab Nova：说句话就能写个小游戏，马上和朋友一起玩"
   }
 }
