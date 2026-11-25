@@ -15107,22 +15107,46 @@
     "zh_oneliner": "让多个 AI 扮演不同立场来辩论、评审方案、模拟焦点小组，产品决策拿不定主意时，先听听各方怎么吵。",
     "zh_title": "Delibora"
   },
-"https://proofable.me": {
+  "https://proofable.me": {
     "en_oneliner": "An AI that knows you, only does what you allow, and can prove every step it took.",
     "en_title": "Show HN: Proofable, AI that knows you, only does what you allow, and proves it",
     "zh_oneliner": "懂你的 AI 助手，只做你明确允许的事，每一步都能拿出证据自证。",
     "zh_title": "Proofable：只做你允许的事、还能自证的 AI"
   },
-"https://clothesmorph.com": {
+  "https://clothesmorph.com": {
     "en_oneliner": "Try on multiple garments with AI right in the browser and mix and match outfits online, no install needed.",
     "en_title": "Show HN: ClothesMorph – Multi-garment AI virtual try-on in the browser",
     "zh_oneliner": "在浏览器里就能 AI 试穿多件衣服，换装搭配直接在线完成。",
     "zh_title": "ClothesMorph：浏览器里的多件套 AI 虚拟试穿"
   },
-"https://rocketcrab.com": {
+  "https://rocketcrab.com": {
     "en_oneliner": "Vibe-code a little game from a prompt and play it with friends instantly, right in the browser.",
     "en_title": "Show HN: Rocketcrab Nova – vibe code a little game, play with friends instantly",
     "zh_oneliner": "用一句话 vibe 出一个小游戏，立刻邀请朋友一起在线玩。",
     "zh_title": "Rocketcrab Nova：说句话就能写个小游戏，马上和朋友一起玩"
+  },
+  "https://holdem.showerthoughts.dev": {
+    "en_title": "Show HN: Hold'em (swipe real Black Friday cart deals across Shopify)",
+    "en_oneliner": "Swipe through real Black Friday cart deals from Shopify stores like a deck of cards — keep the ones you like, skip the rest.",
+    "zh_title": "Hold'em：滑动浏览 Shopify 商家的真实黑五购物车优惠",
+    "zh_oneliner": "像刷卡片一样滑动浏览 Shopify 商家的真实黑五购物车优惠，看中就留、没兴趣就划走。"
+  },
+  "https://game-dna.pages.dev/site/preview": {
+    "en_title": "Show HN: Game DNA – 101 game features for coding agents, tested on unseen games",
+    "en_oneliner": "101 playable game elements, each with a copyable prompt and a ready module, so your coding agent can add real game feel to your browser game.",
+    "zh_title": "Game DNA：给编程智能体的 101 个游戏元素库",
+    "zh_oneliner": "101 个可直接试玩的游戏元素，每个都附带提示词和现成模块，让编程智能体帮你把游戏手感加进自己的浏览器游戏。"
+  },
+  "https://warmy.dev": {
+    "en_title": "Show HN: Warmy – keeps Claude's prompt cache warm while you're away",
+    "en_oneliner": "Sends light periodic calls while you're away so Claude's prompt cache stays warm and there's no cold-start wait when you're back.",
+    "zh_title": "Warmy：让 Claude 的提示缓存一直保持热度",
+    "zh_oneliner": "人不在时定时轻量调用，让 Claude 的提示缓存始终处于热状态，回来就不用等冷启动。"
+  },
+  "https://actera.dev/playground": {
+    "en_title": "Show HN: Gave the agent access to change my website",
+    "en_oneliner": "A live playground for an agent-permission layer: ask the AI to redesign this page and watch each action get allowed, sent for approval, or blocked.",
+    "zh_title": "Actera Playground：让 AI 智能体来改这个网页",
+    "zh_oneliner": "一个能现场试玩的智能体权限层演示：你让 AI 改页面，它按规则放行、送审或拦截，每一步都看得见。"
   }
 }

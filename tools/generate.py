@@ -2276,6 +2276,18 @@ BLOCKED_URLS = {
     # 网站标准拦；只拦这一条链接，不封整个域名
     "https://rethinkphone.tech",
     "https://www.rethinkphone.tech",
+    # 2026-11-25 08:37 PST 轮热点榜自查补封（页面实测确认）：三条泄漏——
+    # AIgarchy（aigarchy.samuelberton.com）是“Datacenter Executive
+    # Tycoon”数据中心大亨经营游戏，纯游戏，按游戏口径一律拦；
+    # Little Rally（riyad.ing/little-rally）是浏览器拉力赛驾驶游戏
+    # （油门/刹车/转向/手刹、计时跑碎石路），纯游戏，按游戏口径一律拦；
+    # Zero to Riemann Zeros（academy.functorial.inc/courses/riemann）
+    # 是 18 单元 223 习题的 Lean 黎曼猜想在线课程（须邮箱注册），本质是
+    # 课程内容平台，不是点开就能用的工具网站，按只收工具网站标准拦；
+    # 三条都只拦精确链接，不封整个域名
+    "https://aigarchy.samuelberton.com",
+    "https://riyad.ing/little-rally",
+    "https://academy.functorial.inc/courses/riemann",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
