@@ -1777,6 +1777,10 @@ BLOCKED_URLS = {
     # 演示，没有任何工具功能，按严格工具-only 标准拦；只拦这一条链接，
     # 不封整个域名
     "https://cds.bruceblay.com",
+    # 2026-11-26 05:37 CST 轮：Codeword（dawnofthe.dad/codeword）是每日
+    # 13×13 数字填字谜题（选难度、填字母、排行榜比拼），纯游戏，按游戏口径
+    # 一律拦；dawnofthe.dad 是个人站，只拦这一条链接，不封整个域名
+    "https://dawnofthe.dad/codeword",
     "https://cds.bruceblay.com/",
     # 2026-11-26 03:37 CST 轮热点榜自查补封（浏览器实测确认）：
     # Pop the AI Bubble（poptheaibubble.com）是“每日金融游戏”：每天 5 条
