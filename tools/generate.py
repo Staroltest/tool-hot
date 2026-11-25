@@ -1703,6 +1703,10 @@ BLOCKED_URLS = {
     # 只拦这一条链接，不封整个域名
     "https://slayarcade.com",
     "https://www.slayarcade.com",
+    # 2026-11-25 04:07 PST 轮：Disc Unleashed（discunleashed.bindaasgames.com/play）
+    # 是浏览器里的极限飞盘游戏（Godot 制作，登录攒等级、飞盘与道具），纯游戏，
+    # 按游戏口径一律拦；bindaasgames.com 是游戏站，只拦这一条链接，不封整个域名
+    "https://discunleashed.bindaasgames.com/play",
     # 2026-11-25 02:07 PST 轮：Think Complete（think-complete.com）是
     # “每轮 5 道逻辑、概率与博弈论互动谜题”，纯解谜游戏，按游戏口径
     # 一律拦；只拦这一条链接，不封整个域名

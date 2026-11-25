@@ -15022,5 +15022,11 @@
   "zh_title": "HypeMigo：用照片生成 AI 梗图视频",
   "zh_oneliner": "选个场景模板、上传照片，就能生成 AI 梗图和潮流短视频，跳舞、搞笑、双人合演和宠物视频都能做。",
   "en_oneliner": "Pick a scene template, upload your photos, and generate AI meme and trend videos — dance routines, comedy skits, duets, and pet clips included."
+ },
+ "https://kindstats.com": {
+  "en_title": "Show HN: Kindstats – Privacy-first web analytics with 100% EU infrastructure",
+  "zh_title": "Kindstats：无 Cookie 的隐私友好网站分析，数据全在欧盟",
+  "zh_oneliner": "不用 Cookie 也能看清网站流量与来源，数据只存欧盟、不用征得访客同意，轻量好装的隐私友好统计工具。",
+  "en_oneliner": "Cookieless web analytics that shows your traffic and sources clearly, with data stored only in the EU and no consent banner needed — a lightweight, privacy-friendly stats tool that's easy to install."
  }
 }
