@@ -1446,6 +1446,12 @@ BLOCKED_DOMAINS = {
     # chitown26.com 是个人 3D 作品集展示站（GRID — Gallery Campus，点开
     # 选拱门参观），是作品展示不是能直接用的工具网站，整站就是这一个展示
     "chitown26.com",
+    # 2026-11-26 05:07 CST 轮自查补封（浏览器实测确认）：
+    # skilltrove.dev 是 Agent Skills 目录站（自述 "a free, independent
+    # directory of agent skills"，1,488 条全链回 GitHub 仓库，技能须装进
+    # Claude Code 等 CLI 才能用），是目录页不是能直接用的工具网站，
+    # 按目录页不收口径拦（2026-11-25 热点榜第 3 条混入）
+    "skilltrove.dev",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
