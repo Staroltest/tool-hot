@@ -245,6 +245,12 @@
     "zh_oneliner": "查 AI 与跨境电商工具栈的价格功能数据，附带能直接算的成本计算器。",
     "zh_title": "AI Stack Lab"
   },
+  "https://aiac.app": {
+    "en_oneliner": "An AI audio studio in the browser: transcribe speech to text, edit podcasts, and mix multitrack audio in an online DAW — all running locally.",
+    "en_title": "AIAC",
+    "zh_oneliner": "浏览器里的 AI 音频工作室：语音转文字、播客剪辑，再加一个能多轨混音的在线 DAW，全部本地运行。",
+    "zh_title": "AIAC 音频内容工作室"
+  },
   "https://aibirthdayvideogenerator.com": {
     "en_oneliner": "Turn a single photo into a short birthday video, with champagne pops, cakes and candles brought to life.",
     "en_title": "AI Birthday Video Generator",
@@ -1306,6 +1312,12 @@
     "en_title": "Checkin.coffee: Accommodation Booking Software",
     "zh_oneliner": "给住宿经营者的预订管理工具，房态表、空房发布、直订、入住退房和客房清洁状态都集中在一处。",
     "zh_title": "Checkin.coffee：民宿预订管理软件"
+  },
+  "https://checkmyapp.dev": {
+    "en_oneliner": "Automatically checks your live app after every deploy from your coding agent, so done really means done.",
+    "en_title": "Show HN: CheckMyApp – checks your live app with each deploy from coding agent",
+    "zh_oneliner": "编码助手每次部署后，自动检查线上应用是否真的跑起来了，替你把关。",
+    "zh_title": "CheckMyApp：每次部署后自动验查应用"
   },
   "https://checks.dorbit.ai": {
     "en_oneliner": "Labels your pull requests automatically, so you can skip the manual triage.",
@@ -6077,6 +6089,12 @@
     "zh_oneliner": "一个程序化小鸟生成器，每只鸟都由 46 个数字和 17 种颜色定义，在地图上拖动就能让附近的小鸟互相融合，还能打开面板读它的生成代码。",
     "zh_title": "Birds as Code：用代码画出来的小鸟"
   },
+  "https://esxpress.org": {
+    "en_oneliner": "Convert PDF or XML estimates into Xactimate-ready ESX files, no manual retyping needed.",
+    "en_title": "ESXPress",
+    "zh_oneliner": "把 PDF 或 XML 估价单转成 Xactimate 可用的 ESX 文件，免去手动重录。",
+    "zh_title": "ESXPress：PDF/XML 转 Xactimate 估价文件"
+  },
   "https://eutaxflow.com": {
     "en_oneliner": "A free EU VAT calculator, invoice generator and GDPR tools for freelancers and small businesses.",
     "en_title": "Eutaxflow",
@@ -9425,6 +9443,12 @@
     "zh_oneliner": "一个受 Obsidian 启发的 Pathfinder 2e 规则索引站，查规则、翻条目都很快，还能像笔记一样顺着链接串联起来看。",
     "zh_title": "Pf2e.fyi：Pathfinder 2e 规则可搜索索引"
   },
+  "https://phials.phoundry.app": {
+    "en_oneliner": "A local-first file manager and workspace for knowledge work — organize notes and files right in the browser.",
+    "en_title": "Show HN: Phials – A file manager for knowledge work and productivity",
+    "zh_oneliner": "本地优先的文件管理器与工作区，在浏览器里整理笔记、文件和灵感。",
+    "zh_title": "Phials：知识工作文件管理器"
+  },
   "https://philippdubach.com/posts/proportional-personal-security": {
     "en_oneliner": "A case for right-sized personal digital security: match your defenses to your actual risk level instead of over-engineering against threats you will never face.",
     "en_title": "Proportional Personal Digital Security",
@@ -11609,6 +11633,12 @@
     "zh_oneliner": "Typst 生态的新包 typstage，能把单个 Typst 文件变成带动画的 HTML 演示文稿，不用再套幻灯片软件。",
     "zh_title": "用一个 Typst 文件做出带动画的 HTML 演示"
   },
+  "https://ufoptix.org": {
+    "en_oneliner": "Scans Sentinel-2 satellite imagery for flying craft, cross-checks each find against flight data, and links every entry back to its source scene.",
+    "en_title": "UFO OPTIX: Scanning Satellite Imagery for Flying Craft",
+    "zh_oneliner": "扫描哨兵 2 号卫星影像，找出空中的飞行物并对照航班数据核验，每条发现都能点开原始影像复查。",
+    "zh_title": "UFO OPTIX：卫星影像飞行物扫描"
+  },
   "https://ugcapi.dev": {
     "en_oneliner": "One call fits and schedules the same clip across TikTok, Instagram, Facebook and YouTube on all your accounts, then shows which platform and caption won.",
     "en_title": "Show HN: One API and MCP Server to Publish to TikTok, Instagram and YouTube",
@@ -12502,6 +12532,12 @@
     "en_title": "CrowdGPT – AI Owned by Everyone",
     "zh_oneliner": "一个打着“人人拥有”旗号的 AI 项目刚上 Hacker News，卖点是把 AI 的所有权分给每一个人。",
     "zh_title": "CrowdGPT：属于所有人的 AI"
+  },
+  "https://www.cryptotruecost.com/en/bitcoin-cost-map": {
+    "en_oneliner": "Compare on a map what it really costs to buy $1k of Bitcoin in 58 countries, fees included, with data updated daily.",
+    "en_title": "Show HN: The all-in cost of buying $1k of Bitcoin in 58 countries, updated daily",
+    "zh_oneliner": "在地图上比一比，58 个国家买 1000 美元比特币算上手续费到底要花多少钱，数据每天更新。",
+    "zh_title": "58 个国家买 1000 美元比特币的全部成本，每日更新"
   },
   "https://www.cs.virginia.edu/~evans/cs655/readings/smalltalk.html": {
     "en_oneliner": "A classic 2001 piece on the design ideas behind Smalltalk, still worth reading for anyone building interfaces or languages.",
@@ -14632,35 +14668,5 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
-  },
-  "https://aiac.app": {
-    "en_title": "AIAC",
-    "en_oneliner": "An AI audio studio in the browser: transcribe speech to text, edit podcasts, and mix multitrack audio in an online DAW — all running locally.",
-    "zh_title": "AIAC 音频内容工作室",
-    "zh_oneliner": "浏览器里的 AI 音频工作室：语音转文字、播客剪辑，再加一个能多轨混音的在线 DAW，全部本地运行。"
-  },
-  "https://www.cryptotruecost.com/en/bitcoin-cost-map": {
-    "en_title": "Show HN: The all-in cost of buying $1k of Bitcoin in 58 countries, updated daily",
-    "en_oneliner": "Compare on a map what it really costs to buy $1k of Bitcoin in 58 countries, fees included, with data updated daily.",
-    "zh_title": "58 个国家买 1000 美元比特币的全部成本，每日更新",
-    "zh_oneliner": "在地图上比一比，58 个国家买 1000 美元比特币算上手续费到底要花多少钱，数据每天更新。"
-  },
-  "https://phials.phoundry.app": {
-    "en_title": "Show HN: Phials – A file manager for knowledge work and productivity",
-    "en_oneliner": "A local-first file manager and workspace for knowledge work — organize notes and files right in the browser.",
-    "zh_title": "Phials：知识工作文件管理器",
-    "zh_oneliner": "本地优先的文件管理器与工作区，在浏览器里整理笔记、文件和灵感。"
-  },
-  "https://esxpress.org": {
-    "en_title": "ESXPress",
-    "en_oneliner": "Convert PDF or XML estimates into Xactimate-ready ESX files, no manual retyping needed.",
-    "zh_title": "ESXPress：PDF/XML 转 Xactimate 估价文件",
-    "zh_oneliner": "把 PDF 或 XML 估价单转成 Xactimate 可用的 ESX 文件，免去手动重录。"
-  },
-  "https://checkmyapp.dev": {
-    "en_title": "Show HN: CheckMyApp – checks your live app with each deploy from coding agent",
-    "en_oneliner": "Automatically checks your live app after every deploy from your coding agent, so done really means done.",
-    "zh_title": "CheckMyApp：每次部署后自动验查应用",
-    "zh_oneliner": "编码助手每次部署后，自动检查线上应用是否真的跑起来了，替你把关。"
   }
 }

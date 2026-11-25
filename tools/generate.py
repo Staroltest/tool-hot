@@ -1596,6 +1596,14 @@ BLOCKED_EXACT = {
     "plugins.netbeans.apache.org",
     "status.me",
     "www.status.me",
+    # 2026-11-25 08:07 CST 轮自查补封（页面实测确认）：
+    # Adchestra（adchestra.com）是 Google Ads MCP 服务器：网站本身只是
+    # 营销页（Connect your Google marketing accounts to any AI agent、
+    # $2.95/month、14 天试用），工具须在 Claude/ChatGPT 里接自定义连接器
+    # 才能用，不是点开就能在浏览器里用的工具；按 Hookr/TokLab 纯 API/MCP
+    # 平台先例封禁；整站就是这一个产品，只拦这一 host
+    "adchestra.com",
+    "www.adchestra.com",
 }
 # 精确链接封禁（只拦这一条完整链接，不拦整个域名；与 BLOCKED_EXACT
 # 按 host 封禁不同，这里是按 norm_link 后的完整链接精确匹配）：
