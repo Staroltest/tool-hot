@@ -15094,5 +15094,11 @@
     "zh_oneliner": "在浏览器里看 ROS 2 机器人的 3D 遥测画面，低带宽也能远程操控机器人。",
     "en_title": "Sax",
     "en_oneliner": "Browser-based 3D telemetry and teleoperation for ROS 2 robots, even on low-bandwidth links."
+  },
+  "https://boxrouter.ai": {
+    "en_oneliner": "One integration routes agent sandboxes and compute jobs to the best-fitting provider by price or speed, with coding agents and GitHub Actions runners ready to go.",
+    "en_title": "BoxRouter – One Router for Agent Sandboxes and Compute",
+    "zh_oneliner": "一次接入就能调用各家沙箱和算力，按价格或速度自动挑最合适的供应商，还能直接跑 Claude Code 等编程智能体和 GitHub Actions 任务。",
+    "zh_title": "BoxRouter：一个接口接通各家沙箱与算力"
   }
 }
