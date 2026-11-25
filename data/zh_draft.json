@@ -14698,5 +14698,17 @@
     "en_title": "zSign: e-signatures",
     "zh_oneliner": "合法有效的电子签名：按封收费，不按人头。",
     "zh_title": "zSign：电子签名"
+  },
+  "https://gpu-demo-gallery.pages.dev": {
+    "en_title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+    "zh_title": "经典显卡演示合集：1998–2006 年的老牌 GPU 演示，浏览器里重跑",
+    "zh_oneliner": "把 1998 到 2006 年的经典显卡技术演示搬进浏览器，点开就能玩，当年那些光影效果如今随手可看。",
+    "en_oneliner": "Classic GPU tech demos from 1998–2006, rebuilt to run in the browser — click any demo and watch the old-school graphics tricks live."
+  },
+  "https://om.cloudcell.nz": {
+    "en_title": "Show HN: Open Modeling – multidimensional modeling engine in the browser",
+    "zh_title": "Open Modeling：浏览器里的多维建模引擎",
+    "zh_oneliner": "直接在浏览器里做多维建模，维度、数据集和视图都能管，计算在本地跑，适合财务模型这类多维表格场景。",
+    "en_oneliner": "A multidimensional modeling engine that runs entirely in your browser — manage dimensions, cubes and views, with calculations done locally, built for financial-style models."
   }
 }
