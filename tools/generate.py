@@ -2099,6 +2099,12 @@ BLOCKED_URLS = {
     # 只拦这一条链接，不封整个域名
     "https://wherecelebsgo.com/games",
     "https://www.wherecelebsgo.com/games",
+    # 2026-11-25 10:07 CST 轮热点榜自查补封：Chakra
+    # （chakra.social）标题自写“Social network with open moderation”，
+    # 是社交网络本身，不是点开就能用的工具网站；标题门与实测信号都拦
+    # 不住，人工抽查封禁；只拦这一条链接，不封整个域名
+    "https://chakra.social",
+    "https://www.chakra.social",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
