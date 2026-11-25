@@ -503,6 +503,22 @@ BLOCKED_DOMAINS = {
     # （“AI Tool Directory”“3,151 tools indexed”），本身不是能直接用
     # 的工具，目录页一律拦，域名封禁
     "aixtool.xyz",
+    # 2026-11-25 22:37 CST 轮：OpenEight 是 AI 智能体治理控制面，
+    # 核心是 Python SDK + LangChain 集成 + API key，须安装 SDK 接入
+    # 自有智能体才能用，官网本身只是营销页，点开不能用工具；
+    # Avva 是把个人专业经验发布成 MCP 供他人 AI 查阅的平台，
+    # 成品是 MCP 端点、供 AI 调用而非人在浏览器里直接用的工具；
+    # 同已封的 TokLab、Hookr 等纯 API/MCP 平台，域名封禁
+    "openeight.ai", "avva.chat",
+    # 2026-11-25 22:37 CST 轮（同轮抽查补封 4 个）：One Fairway 是浏览
+    # 器 3D 高尔夫游戏（onefairwaygolf.com/play），纯游戏一律拦；
+    # bouncemarket 是押注小球掉落方向的预测市场游戏（余额/份额/
+    # 排行榜），不是工具；LaunchPulse 是付费代投服务（把产品分发到
+    # 100+ 目录、买家雷达、营收归因，$29–299），售卖页本身不是点
+    # 开能用的工具；Cyber（cyber.askgina.ai）是网络安全事件日报/
+    # 资讯聚合（每小时重建的事件登记），新闻类一律拦，域名封禁
+    "onefairwaygolf.com", "bouncemarket.minhanhday.com",
+    "pulse.statementflow.win", "cyber.askgina.ai",
     # 2026-11-24 06:37 CST 轮：Everything Is Outdated
     # （everythingisoutdated.dev）是标题自带 (Game) 的终端主题纯游戏，
     # 按游戏口径（纯游戏一律拦）封禁；整站即游戏，域名封禁
