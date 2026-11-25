@@ -15166,5 +15166,23 @@
     "en_title": "upatch.dev: Vetted Mitigations for Every CVE",
     "zh_oneliner": "101 个 CVE 的已验证缓解方案注册表，每个都说明拦住了哪条攻击路径、实测效果如何，边看边对照自己的系统。",
     "zh_title": "upatch.dev：每个 CVE 的已验证缓解措施"
+  },
+  "https://devpack.app": {
+    "en_oneliner": "Over 450 dev and everyday tools that run right in the browser — no sign-up, just search and use.",
+    "en_title": "Devpack – 450 Free Browser-Based Dev and Everyday Tools, No Sign-Up",
+    "zh_oneliner": "450 多个开发和日常小工具都在浏览器里直接跑，免注册，搜一下就能用。",
+    "zh_title": "Devpack：450 个免费浏览器工具，开发与日常都免注册即用"
+  },
+  "https://trenchesterminal.com": {
+    "en_oneliner": "Market heatmaps, financial statements, options data, and institutional holdings in a single terminal, so stock research stops jumping between sites.",
+    "en_title": "Trenches Terminal – Research Stocks, Options, and Filings in One App",
+    "zh_oneliner": "行情热力图、财报估值、期权数据和机构持仓都集中在一个终端里，研究股票不用到处找数据。",
+    "zh_title": "Trenches Terminal：股票、期权与财报一站式研究终端"
+  },
+  "https://crocone.github.io/flying-test": {
+    "en_oneliner": "Describe an aircraft or upload its picture, and the stand simulates in the browser whether it will fly and hold together, then hands you a report.",
+    "en_title": "Flight Test Stand – Check in the Browser Whether Your Aircraft Will Fly",
+    "zh_oneliner": "描述一架飞机或上传它的图片，试验台会在浏览器里算出它能不能飞、结构吃不吃得消，并给出报告。",
+    "zh_title": "飞行试验台：输入飞机参数，在浏览器里验算能不能飞"
   }
 }

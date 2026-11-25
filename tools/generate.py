@@ -1754,6 +1754,11 @@ BLOCKED_URLS = {
     # waitlist，主产品访客用不了），按“点开就能用”标准拦；站内免费小工具
     # 在子路径上（如 schema 检查、llms.txt 生成器），只拦根链接，不封整个域名
     "https://vouchgeo.com",
+    # 2026-11-26 02:37 CST 轮：Moneyball Trivia（moneyballtrivia.com）是
+    # “群聊竞猜” trivia 问答游戏，纯游戏，按游戏口径一律拦；只拦这一条
+    # 链接，不封整个域名
+    "https://moneyballtrivia.com",
+    "https://www.moneyballtrivia.com",
     # 2026-11-26 01:07 CST 轮：BC-1（cds.bruceblay.com）是浏览器里可玩的
     # Teenage Engineering 风格虚拟 CD 机（按键、放碟、听歌），纯互动玩具/
     # 演示，没有任何工具功能，按严格工具-only 标准拦；只拦这一条链接，
