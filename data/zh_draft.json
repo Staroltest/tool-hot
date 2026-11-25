@@ -14734,5 +14734,11 @@
     "zh_title": "U.S. Interstate Weather：美国州际公路沿途天气",
     "zh_oneliner": "查美国州际公路沿途的天气，跑长途前先看一路会不会遇到恶劣天气。",
     "en_oneliner": "Check the weather along U.S. Interstate highways, so you can see bad weather coming before a long drive."
+  },
+  "https://wizmade.si/?ref=makerhunt": {
+    "en_title": "Wizmade: multimodal AI studio for images, video and audio in one place",
+    "zh_title": "Wizmade：图片、视频、音频一站做的多模态 AI 创作工作室",
+    "zh_oneliner": "一个多模态 AI 创作工作室，生图、修图、超分、做视频、做音频都在同一个地方完成，按次计费，点数永不过期。",
+    "en_oneliner": "A unified multimodal AI studio for image generation, editing, upscaling, video and audio creation in one workspace, with pay-as-you-go credits that never expire."
   }
 }
