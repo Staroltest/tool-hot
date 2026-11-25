@@ -1663,6 +1663,20 @@ BLOCKED_EXACT = {
     # 平台先例封禁；整站就是这一个产品，只拦这一 host
     "adchestra.com",
     "www.adchestra.com",
+    # 2026-11-25 17:07 CST 轮自查补封（页面实测确认）：
+    # Hai（haicall.in）是电话代打 MCP 服务器：网站本身只是接入手册
+    # （在 Muse/ChatGPT/Claude 里加自定义 MCP 连接器，Server URL 为
+    # haicall.in/mcp），工具须在 AI 助手里接连接器才能用，不是点开就能
+    # 在浏览器里用的工具；按 Hookr/TokLab/Adchestra 纯 API/MCP 平台先例
+    # 封禁；整站就是这一个产品，只拦这一 host
+    "haicall.in",
+    "www.haicall.in",
+    # 2026-11-25 17:07 CST 轮自查补封（页面实测确认）：
+    # Koed（koed.ai）是 AI 助手共享记忆工具，免费版须自托管部署
+    # （SELF-HOSTED Free），云端版 Coming soon，当前点开用不了工具本身，
+    # 按“自托管工具不收”口径拦；整站就是这一个产品，只拦这一 host
+    "koed.ai",
+    "www.koed.ai",
 }
 # 精确链接封禁（只拦这一条完整链接，不拦整个域名；与 BLOCKED_EXACT
 # 按 host 封禁不同，这里是按 norm_link 后的完整链接精确匹配）：
@@ -2171,6 +2185,35 @@ BLOCKED_URLS = {
     # 的工具不算”口径拦；algolassi.online 首页另有浏览器小工具与教程，
     # 只拦这一条下载页链接，不封整个域名
     "https://algolassi.online/products/filtereddelete",
+    # 2026-11-25 17:07 CST 轮自查补封（页面实测确认）：
+    # TruAstra（truastra.com）是吠陀占星每日解读站（输入出生日期时间地点、
+    # 浏览器里算出当日星盘解读与三件小事），娱乐向占卜内容，不是工具网站；
+    # 按 Two Divinations 娱乐占卜不收的口径拦；整站就是这一个产品，根链接
+    # 与本次上榜链接都拦
+    "https://truastra.com/?ref=producthunt",
+    "https://truastra.com",
+    # 2026-11-25 17:07 CST 轮自查补封（页面实测确认）：
+    # Airbot（airbots.ai）是 11-20 日报遗留未翻译条目，实测发现站上只有
+    # 等候名单营销页（“We're opening the doors very soon…skip the waitlist”），
+    # 产品尚未开放，点开只能留邮箱等开通；按 xargaar-tools 等候名单页与
+    # vouchgeo.com 根链接先例拦；整站目前就是这一个等候页，根链接与本次
+    # 上榜链接都拦
+    "https://airbots.ai/?ref=producthunt",
+    "https://airbots.ai",
+    # 2026-11-25 17:07 CST 轮自查补封（页面实测确认）：
+    # PeoplePlotr 编程语言家谱（peopleplotr.com/storytree/guide/programming-languages）
+    # 是可交互的编程语言族谱可视化/指南页（拖动、缩放、点人查看），只能浏览
+    # 这一棵现成的树，不是能反复用的工具；按 getlucera 互动可视化报道与
+    # Riemann Guides 目录页先例拦；站内另有“Create your own tree”制树工具，
+    # 只拦这一条指南链接，不封整个域名
+    "http://www.peopleplotr.com/storytree/guide/programming-languages",
+    # 2026-11-25 17:07 CST 轮自查补封（页面实测确认）：
+    # 3way.Social（3way.social/for-ai-agents/）是外链买卖市场写给 AI 助手
+    # 的简报页（买/卖/换外链、SEO 打包服务 $975–$5,700），链到的是营销
+    # 简报页而非能直接用的工具；站内另有免费域名外链价值查询等小工具，
+    # 只拦这一条链接，不封整个域名
+    "https://3way.social/for-ai-agents/?ref=producthunt",
+    "https://3way.social/for-ai-agents/",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
