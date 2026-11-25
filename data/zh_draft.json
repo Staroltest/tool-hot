@@ -1,4 +1,10 @@
 {
+  "https://instantcalchub.com": {
+    "en_title": "Instant Calc Hub – fast, free calculators, no sign-up",
+    "zh_title": "Instant Calc Hub：快速免费的在线计算器合集，无需注册",
+    "zh_oneliner": "打开就能用的免费计算器合集，速度快、不用注册，日常算数随手就能算。",
+    "en_oneliner": "A hub of free calculators you can use instantly in the browser — fast, no sign-up, handy for everyday math."
+  },
   "http://badapple.rose.systems": {
     "en_oneliner": "The classic Bad Apple shadow animation recreated with almost no HTML and zero JavaScript or CSS — a front-end stunt at its finest.",
     "en_title": "Animating Bad Apple with No JavaScript, No CSS, & Minimal HTML",
