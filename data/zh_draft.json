@@ -15190,5 +15190,29 @@
   "zh_oneliner": "粘贴一条公开帖子链接，就能预览并保存 32 个平台的视频、图片和音频，免安装也免注册。",
   "en_title": "SMDownloader",
   "en_oneliner": "Paste a public post link to preview and save videos, images and audio from 32 platforms, no install or sign-up needed."
+ },
+ "https://slopespy.com": {
+  "en_title": "Slope Spy – Compare 3D Ski Resorts Side by Side",
+  "en_oneliner": "Compare 3D terrain of ski resorts side by side to weigh runs and vertical drop at a glance.",
+  "zh_title": "Slope Spy：3D 滑雪场并排对比",
+  "zh_oneliner": "把几个滑雪场的 3D 地形并排放在一起比，雪道和落差一目了然。"
+ },
+ "https://docsworks.com": {
+  "en_title": "DocsWorks – LibreOffice in the Browser",
+  "en_oneliner": "Open and edit documents, spreadsheets and slides right in the browser, no LibreOffice install needed.",
+  "zh_title": "DocsWorks：浏览器里的 LibreOffice",
+  "zh_oneliner": "在浏览器里直接打开编辑文档、表格和幻灯片，不用安装 LibreOffice。"
+ },
+ "https://app.skillsync.com": {
+  "en_title": "SkillSync – Skills as a Service",
+  "en_oneliner": "Publish the skills you taught your AI so others can use them in their own chats, and track how often they get used.",
+  "zh_title": "SkillSync：把 AI 技能发布出来给别人用",
+  "zh_oneliner": "把你教给 AI 的技能发布出来，别人下次聊天就能直接用，还能看到被用了多少次。"
+ },
+ "https://rating.so": {
+  "en_title": "Rating.so – Domain Rating Monitor That Pings You on Every Change",
+  "en_oneliner": "Watches your domain rating and pings you whenever it changes, so you never have to check manually.",
+  "zh_title": "Rating.so：域名评分变动提醒",
+  "zh_oneliner": "盯着你的域名评分，一有变化就通知你，不用天天手动去查。"
  }
 }

@@ -1772,6 +1772,12 @@ BLOCKED_URLS = {
     # 不封整个域名
     "https://cds.bruceblay.com",
     "https://cds.bruceblay.com/",
+    # 2026-11-26 03:37 CST 轮热点榜自查补封（浏览器实测确认）：
+    # Pop the AI Bubble（poptheaibubble.com）是“每日金融游戏”：每天 5 条
+    # 市场标题，猜真假、下注信心值、按 bps 计分，纯游戏，无工具功能，
+    # 按游戏口径一律拦；只拦这一条链接，不封整个域名
+    "https://poptheaibubble.com",
+    "https://www.poptheaibubble.com",
     # 2026-11-26 01:37 CST 轮：Zoom for R/C（endurance-rc.com）首页是卖
     # 实体硬件的商店（32 Servo Controller $99.99，BUY NOW / ADD TO CART），
     # 链到的根地址本身不是能直接用的工具，按“不收售卖页”拦；站内确有
