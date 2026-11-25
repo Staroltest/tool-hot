@@ -1778,6 +1778,15 @@ BLOCKED_URLS = {
     # 三条都只拦精确链接，不封整个域名
     "https://heysaransh.com",
     "https://canerg.com/projects/betternews",
+    # 2026-11-25 05:07 PST 轮热点榜自查补封（浏览器实测确认）：Enano
+    # （enano.ai）是离线 AI 工具，核心用法是本地 CLI，首页通栏就是
+    # brew install / pipx install 安装指令，浏览器里没有能直接用的工具
+    # （浏览书单只是内容页）；探查拦不住——站方给 HOTBot 返回 3.6KB 的
+    # JS 空壳页，可见文本只有标题一句，安装信号不在服务端 HTML 里，只拦
+    # 这一条链接，不封整个域名；另补 pipx_install 探查信号（与 pip_install
+    # 同类硬安装信号，之前漏了 pipx 这种包管理器安装写法）
+    "https://www.enano.ai",
+    "https://enano.ai",
     "https://www.modelxare.com",
     # 2026-11-22 11:07 PST 轮热点榜自查补封（页面实测确认）：
     # ScraperSocial（scrapersocial.com）是社交媒体数据 REST API + 托管 MCP
@@ -2629,6 +2638,9 @@ PROBE_SIGNALS = [
     ("download_pkg",
      r"(download|다운로드|下载)\b[^\n]{0,80}\.(dmg|exe|apk|msi|pkg)\b"),
     ("pip_install", r"\bpip\s+install\b"),
+    # 2026-11-25 05:07 PST 轮补：Enano 首页用 pipx install 安装本地 CLI，
+    # pipx 是 pip_install 之外的包管理器安装写法，之前信号表里漏了，补上
+    ("pipx_install", r"\bpipx\s+install\b"),
     ("npm_install", r"\bnpm\s+(install|i)\s+\S"),
     ("npx_run", r"\bnpx\s+\S"),
     ("pnpm_add", r"\bpnpm\s+(add|install)\b"),

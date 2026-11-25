@@ -15028,5 +15028,11 @@
   "zh_title": "Kindstats：无 Cookie 的隐私友好网站分析，数据全在欧盟",
   "zh_oneliner": "不用 Cookie 也能看清网站流量与来源，数据只存欧盟、不用征得访客同意，轻量好装的隐私友好统计工具。",
   "en_oneliner": "Cookieless web analytics that shows your traffic and sources clearly, with data stored only in the EU and no consent banner needed — a lightweight, privacy-friendly stats tool that's easy to install."
+ },
+ "https://plexisai.vercel.app": {
+  "en_title": "Show HN: DuckDB client side AI spreadsheet",
+  "zh_title": "Plexis：浏览器里的 DuckDB AI 电子表格",
+  "zh_oneliner": "在浏览器里用自然语言分析数据、改表格、做可视化，DuckDB 在本地跑，打开就能用。",
+  "en_oneliner": "Analyze data, edit spreadsheets and build visualizations with natural language in your browser — DuckDB runs client-side, so just open it and start."
  }
 }
