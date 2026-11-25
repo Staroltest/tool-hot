@@ -1760,6 +1760,17 @@ BLOCKED_URLS = {
     # 不封整个域名
     "https://cds.bruceblay.com",
     "https://cds.bruceblay.com/",
+    # 2026-11-26 01:37 CST 轮：Zoom for R/C（endurance-rc.com）首页是卖
+    # 实体硬件的商店（32 Servo Controller $99.99，BUY NOW / ADD TO CART），
+    # 链到的根地址本身不是能直接用的工具，按“不收售卖页”拦；站内确有
+    # 可直接用的网页工具 RealSequencer（realsequencer.html，舵机序列编辑
+    # 器，浏览器实测可编辑、播放预览、导出导入，无需登录/硬件/下载），但
+    # 信源链的是商店首页不是它，只拦这一条根链接，不封整个域名；若日后
+    # 有信源直接链 realsequencer.html，可按工具本身再审
+    "https://www.endurance-rc.com",
+    "https://www.endurance-rc.com/",
+    "https://endurance-rc.com",
+    "https://endurance-rc.com/",
     "https://www.vouchgeo.com",
     # 2026-11-23 00:37 UTC 轮：Lexis World（lexisworld.org）是儿童文字游戏
     # （输入单词、动物跳进来，无广告无奖励循环，免费试用后一次付费），纯游戏，

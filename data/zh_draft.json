@@ -15148,5 +15148,23 @@
     "en_oneliner": "A live playground for an agent-permission layer: ask the AI to redesign this page and watch each action get allowed, sent for approval, or blocked.",
     "zh_title": "Actera Playground：让 AI 智能体来改这个网页",
     "zh_oneliner": "一个能现场试玩的智能体权限层演示：你让 AI 改页面，它按规则放行、送审或拦截，每一步都看得见。"
+  },
+  "https://dmarcguard.io/tools/spf-syntax-inspector": {
+    "en_oneliner": "Paste an SPF record and check its syntax piece by piece, so you can catch mistakes in your sending-domain setup.",
+    "en_title": "SPF Record Syntax Inspector",
+    "zh_oneliner": "粘贴一条 SPF 记录，逐项检查语法哪里写错了，域名发信配置不用再靠猜。",
+    "zh_title": "SPF 记录语法检查器：粘贴 SPF 记录查语法"
+  },
+  "https://furrow.land": {
+    "en_oneliner": "Search a place, click a field, and see farmland prices drawn from public government sales records — free, no account needed.",
+    "en_title": "Furrow: How Much Is Your Farmland Worth?",
+    "zh_oneliner": "搜一个地方、点一块田，就能看到按各国政府公开成交数据算出的农地参考价，免费不用注册。",
+    "zh_title": "Furrow：农地值多少钱，查政府公开成交价"
+  },
+  "https://upatch.dev": {
+    "en_oneliner": "A registry of vetted mitigations for 101 CVEs, each showing which attack path it blocks and how it held up in testing.",
+    "en_title": "upatch.dev: Vetted Mitigations for Every CVE",
+    "zh_oneliner": "101 个 CVE 的已验证缓解方案注册表，每个都说明拦住了哪条攻击路径、实测效果如何，边看边对照自己的系统。",
+    "zh_title": "upatch.dev：每个 CVE 的已验证缓解措施"
   }
 }
