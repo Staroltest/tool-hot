@@ -1708,6 +1708,11 @@ BLOCKED_URLS = {
     # 一律拦；只拦这一条链接，不封整个域名
     "https://think-complete.com",
     "https://www.think-complete.com",
+    # 2026-11-25 03:07 PST 轮：Ashen Hold（blakelapierre.github.io/
+    # meridian/hold/play）是可玩的体素 3D 世界入口页（队长、守望者、
+    # 战争桌、进谷参战），纯游戏，按游戏口径一律拦；只拦这一条链接，
+    # 不封整个域名
+    "https://blakelapierre.github.io/meridian/hold/play",
     # 2026-11-25 02:07 PST 轮：GPU Demo Gallery（gpu-demo-gallery.pages.dev）
     # 是 1998–2006 年 23 个显卡演示的合集，在浏览器里跑演示、看效果，
     # 没有任何工具功能（不是转换/生成/计算/编辑类工具），按严格工具-only
