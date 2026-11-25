@@ -14710,5 +14710,29 @@
     "zh_title": "Open Modeling：浏览器里的多维建模引擎",
     "zh_oneliner": "直接在浏览器里做多维建模，维度、数据集和视图都能管，计算在本地跑，适合财务模型这类多维表格场景。",
     "en_oneliner": "A multidimensional modeling engine that runs entirely in your browser — manage dimensions, cubes and views, with calculations done locally, built for financial-style models."
+  },
+  "https://fableclip.com": {
+    "en_title": "Fableclip",
+    "zh_title": "Fableclip：AI 无脸视频自动生成器",
+    "zh_oneliner": "给一个主题就能自动写稿、配音、配图并定时发布整套无脸视频，适合批量做系列内容。",
+    "en_oneliner": "Give it one topic and it writes, voices, illustrates and auto-publishes a whole faceless video series on your schedule — built for batching series content."
+  },
+  "https://mkornreich.me/projects/vibe-linux": {
+    "en_title": "Show HN: Vibe Linux",
+    "zh_title": "Vibe Linux：浏览器里跑的 Linux 虚拟机，带 AI 助手",
+    "zh_oneliner": "在浏览器里直接跑一个带 AI 助手的 Linux 虚拟机，能传文件、联网、保存进度，不用装任何东西。",
+    "en_oneliner": "Run a Linux virtual machine with an AI assistant right in your browser — upload files, browse the web, save your progress, nothing to install."
+  },
+  "https://pdftransform.pages.dev/edit-pdf-text": {
+    "en_title": "Show HN: Edit PDF text in browser RAM with zero uploads (PDFTransform)",
+    "zh_title": "PDFTransform：浏览器本地改 PDF 文字，零上传",
+    "zh_oneliner": "直接在浏览器内存里改 PDF 里的原文，不上传文件，改完就能下载。",
+    "en_oneliner": "Edit the original text in a PDF directly in your browser's memory — zero uploads, download when done."
+  },
+  "https://www.interstateweather.com": {
+    "en_title": "Show HN: U.S. Interstate Weather",
+    "zh_title": "U.S. Interstate Weather：美国州际公路沿途天气",
+    "zh_oneliner": "查美国州际公路沿途的天气，跑长途前先看一路会不会遇到恶劣天气。",
+    "en_oneliner": "Check the weather along U.S. Interstate highways, so you can see bad weather coming before a long drive."
   }
 }

@@ -199,6 +199,14 @@ BLOCKED_DOMAINS = {
     # 只能预约演示，没有访客点开能直接用的工具（2026-11-22 归档复查：
     # 11-07 日报里的 Webless Agents；域名后缀匹配，www 子域一并拦）
     "webless.ai",
+    # dravyra.com：短剧（short drama）观看指南与剧情介绍站（去哪看、
+    # 剧情梗概、演员信息），是阅读型内容站，不是点开就能用的工具
+    # （2026-11-25 13:37 CST 轮：热点榜第 3 条混入，实测确认）
+    "dravyra.com",
+    # best-gbagames.com：宝可梦 GBA 游戏与周边内容站（游戏、发售日历、
+    # 周边商品、TCG），整站都是游戏内容，纯游戏按游戏口径一律拦
+    # （2026-11-25 13:37 CST 轮：热点榜第 2 条混入，实测确认）
+    "best-gbagames.com",
     # perit.ai：卖数据与 RL 任务给 AI 实验室的数据集市（perit.ai/marketplace
     # 是数据集目录、按报价成交），不是点开能用的工具（2026-11-22 归档复查：
     # 11-15 日报与 W46/W47 周报、11 月月报里的 Perit Marketplace）
