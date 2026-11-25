@@ -2243,6 +2243,23 @@ BLOCKED_URLS = {
     # 只拦这一条链接，不封整个域名
     "https://3way.social/for-ai-agents/?ref=producthunt",
     "https://3way.social/for-ai-agents/",
+    # 2026-11-25 06:07 PST 轮热点榜自查补封（页面实测确认）：三条纯游戏——
+    # Qake（qake.se）是浏览器里的 2.5D 体素多人射击游戏（选昵称、进大厅、
+    # 开火对战）；Zork（sid2364.github.io/zork）是 D&D 风格文字冒险游戏
+    # （走格子、打怪、记分）；Clashroids（clashroids.com）是 50 人多人太空
+    # 对战游戏（Asteroids 玩法、抢地盘、PvP）；三条都是纯游戏，按游戏口径
+    # 一律拦，只拦精确链接，不封整个域名
+    "https://qake.se",
+    "https://www.qake.se",
+    "https://sid2364.github.io/zork",
+    "https://clashroids.com",
+    "https://www.clashroids.com",
+    # 2026-11-25 06:07 PST 轮热点榜自查补封（页面实测确认）：Rethink Phone
+    # （rethinkphone.tech）是“数字幕僚长”概念手机的项目展示页（设计理念、
+    # 通话演示视频、实验记录），访客在浏览器里用不了任何工具，按只收工具
+    # 网站标准拦；只拦这一条链接，不封整个域名
+    "https://rethinkphone.tech",
+    "https://www.rethinkphone.tech",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
