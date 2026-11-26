@@ -1373,6 +1373,12 @@
   "zh_oneliner": "这个系列的第六篇，讲如何一次一个分子地搭建虚拟细胞，把细胞当作黑匣子来拆解和理解。",
   "zh_title": "细胞如黑匣子（六）：一次一个分子，搭建虚拟细胞"
  },
+ "https://cellular-wsp-maze.onrender.com": {
+  "en_oneliner": "A neural cellular automaton whose 115 nonzero weights were written directly by Claude with no training — draw walls and move the goal in your browser and it finds every shortest path.",
+  "en_title": "Claude wrote the 115 nonzero weights of a maze-solving net, no training",
+  "zh_oneliner": "不用训练、直接由 Claude 写下 115 个非零权重的神经元胞自动机，在浏览器里画墙、挪终点，它能找出每条最短路径。",
+  "zh_title": "115 个权重解迷宫：Claude 手写神经元网络，零训练"
+ },
  "https://certnudge.dev": {
   "en_oneliner": "Checks the SSL certificate each host actually serves and the domain registration expiry, then alerts you by email or chat before either lapses.",
   "en_title": "Show HN: CertNudge – Cert and domain expiry alerts",
@@ -10637,6 +10643,12 @@
   "zh_oneliner": "按星座测一测哪座美国城市最合你，图个乐的趣味小测试。",
   "zh_title": "RealZodiacTest：按星座找最适合你的美国城市"
  },
+ "https://rebillkit.com/en": {
+  "en_oneliner": "Recover failed Stripe payments with three plain-text reminders and a one-click card-update link — zero revenue share — plus an ROI calculator you can try right on the page.",
+  "en_title": "RebillKit – BYOK failed-payment recovery for Stripe (0% rev share)",
+  "zh_oneliner": "Stripe 扣款失败后自动发三封纯文本提醒、附一键更新卡片的链接，追回多少都不抽成，页上还有个能直接算的回款测算器。",
+  "zh_title": "RebillKit：帮 Stripe 商家追回失败付款，零抽成"
+ },
  "https://receipt2csv.com": {
   "en_oneliner": "Turn invoices, receipts and bank statements into CSV or Excel.",
   "en_title": "DocExtract: receipts to spreadsheets",
@@ -13756,6 +13768,12 @@
   "en_title": "Show HN: Postcode map colouring tool for sales territories and delivery zones",
   "zh_oneliner": "在英国邮编地图上给不同区域涂色，划销售片区或配送范围一目了然。",
   "zh_title": "GBMaps：给邮编区上色的地图工具"
+ },
+ "https://www.gearlint.com": {
+  "en_oneliner": "Find out whether your mouse, keyboard or controller is actually faulty — drift, chatter and double-click tests run entirely in your browser and end with a repair, replace or return verdict.",
+  "en_title": "GearLint – Browser-based mouse, keyboard, and controller fault tests",
+  "zh_oneliner": "手柄漂移、按键连击、鼠标双击，分不清是硬件坏了还是设置问题？在浏览器里跑个测试，几十秒就有修、换还是退的结论。",
+  "zh_title": "GearLint：浏览器里测鼠标、键盘、手柄有没有毛病"
  },
  "https://www.gematriaexplorer.com": {
   "en_oneliner": "Calculate the gematria value of words with Hebrew, English, and Jewish ciphers — for exploring the numerology behind the text.",

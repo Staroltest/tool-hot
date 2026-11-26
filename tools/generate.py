@@ -2466,6 +2466,21 @@ BLOCKED_URLS = {
     # 者的代码库目录（含多个可玩小游戏），不是能直接用的工具；只拦这一
     # 条链接，不封 game-dna.pages.dev 整个域名
     "https://game-dna.pages.dev/site/preview",
+    # 2026-11-26 07:07 PST 轮热点榜自查补封（浏览器实测确认）：
+    # steve.ly/travels 是个人十年旅行博客（各国游记、住宿/航班统计、
+    # 餐厅推荐），内容是文章与个人记录，点开没有能直接用的工具功能，
+    # 按“不收文章/博客”标准拦；steve.ly 是个人站，只拦这一条链接，
+    # 不封整个域名
+    "https://steve.ly/travels",
+    "https://steve.ly/travels/",
+    # 2026-11-26 07:07 PST 轮热点榜自查补封（浏览器实测确认）：
+    # evalkit.inferedge.com 是智能体评估工具 Evalkit 的营销落地页，
+    # 页上没有能直接用的交互工具，只能复制安装命令（uv tool install
+    # evalkit-py）或去登录/注册托管版；工具本身开源可自托管，按
+    # “不收自托管工具、须下载安装的不算、点开就能用”标准拦；只拦这
+    # 一条链接，不封整个域名
+    "https://evalkit.inferedge.com",
+    "https://evalkit.inferedge.com/",
     # 2026-11-26 22:07 CST 轮时间线抽查补封（浏览器实测确认）：PokerAmp
     # （pokeramp.com）是纯娱乐玩法币德州扑克 GTO 训练与 AI 陪练，含单桌
     # 赛、每日挑战、人格化对手，本质是打扑克的游戏（虽标榜训练，玩的活
