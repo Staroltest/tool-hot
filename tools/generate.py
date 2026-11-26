@@ -231,6 +231,11 @@ BLOCKED_DOMAINS = {
     # 是数据集目录、按报价成交），不是点开能用的工具（2026-11-22 归档复查：
     # 11-15 日报与 W46/W47 周报、11 月月报里的 Perit Marketplace）
     "perit.ai",
+    # probablystolenguide.com：游戏《Probably Stolen》（像素风赛博朋克
+    # 店主模拟）的 Wiki 与攻略站（272 件物品价格、机制指南），整站都是
+    # 游戏内容，纯游戏按游戏口径一律拦（2026-11-27 07:37 CST 轮：热点榜
+    # 第 1 条混入，实测确认）
+    "probablystolenguide.com",
     "facebook.com", "instagram.com", "linkedin.com", "tiktok.com",
     "apps.apple.com", "play.google.com",
     # Steam 商店页：须下载安装的游戏/软件，不是浏览器里能直接用的工具
