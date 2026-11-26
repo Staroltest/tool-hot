@@ -9293,6 +9293,12 @@
   "zh_oneliner": "单位换算和文件转换都在浏览器里完成，免费免注册，换算结果随手就能用。",
   "zh_title": "Metric Converter：免费单位与文件转换器"
  },
+ "https://mettlespark.com": {
+  "en_oneliner": "Match your skills against real job ads for your target tech role, then get a week-by-week learning plan, portfolio projects, and a CV tailored to each job.",
+  "en_title": "Mettlespark: Hyper-Personalized Career Development and Job Search",
+  "zh_oneliner": "对照目标岗位的真实招聘广告找出你缺的技能，再按周排好学习计划、作品项目和针对每份工作的简历。",
+  "zh_title": "Mettlespark：按真实招聘数据规划技术职业"
+ },
  "https://mib-viewer.com/products/mib-viewer-desktop": {
   "en_oneliner": "A Show HN desktop SNMP MIB browser shipping with 20,000 MIBs, so you can browse network-device definitions without digging through raw MIB files.",
   "en_title": "Show HN: MIB Viewer Desktop – SNMP MIB Browser with 20k MIBs",

@@ -1818,6 +1818,11 @@ BLOCKED_EXACT = {
 # 这一条链接，绝不封 margeux.com 整个域名
 BLOCKED_URLS = {
     "https://margeux.com/temporaland/login.html",
+    # 2026-11-27 06:07 CST 日报轮：RotateAd（rotate.ad）是付费广告位
+    # 轮换网络的售卖页（$2 买永久编号位、$4.99/月横幅网络），点开只能看
+    # 销售页、付费后才能加入，本质是付费收录/上榜服务，按 LaunchPulse
+    # （付费目录代投售卖页）先例拦；只拦这一条链接，不封整个域名
+    "https://rotate.ad",
     # 2026-11-22 09:37 CST 轮实测封禁：erikbethke.com/coreweave 是
     # CoreWeave GPU 租赁经济学的交互分析长文（相位图 + 滑杆 + 图表，
     # 讲一家公司的 10-Q 财报），不是能直接用的工具；标题“Show HN: A
