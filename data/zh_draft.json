@@ -15658,5 +15658,17 @@
     "en_oneliner": "List your activities and honors, have the teacher or coach who was there confirm each one, and share a single link on your college application so every entry is vouched for.",
     "zh_title": "Fairwind：请老师为你的活动经历背书",
     "zh_oneliner": "把课外活动和获奖经历列出来，请在场的老师或教练逐条确认，生成一条链接附在大学申请里，让每段经历都有人作证。"
+  },
+  "https://bloomtutor.app": {
+    "en_title": "Bloom (BloomTutor)",
+    "en_oneliner": "Tell it what you want to learn or upload your own materials, and it writes a study outline, teaches one lesson at a time, and shapes the next lesson around your highlights, questions and feedback — all in the browser.",
+    "zh_title": "Bloom：为你量身定制的 AI 家教",
+    "zh_oneliner": "说出想学的东西或上传自己的资料，它就为你写一份学习大纲、一次讲一课，还会根据你的划线提问和反馈调整下一课，全程在浏览器里完成。"
+  },
+  "https://weblidar.com": {
+    "en_title": "Show HN: WebLidar, every website you run, graded",
+    "en_oneliner": "Enter your company and it finds every site you run, grades each one, and flags typos, broken links and broken images with what to fix first — free for 3 sites, no sign-up needed.",
+    "zh_title": "WebLidar：给手里每个网站逐个打分",
+    "zh_oneliner": "输入公司名，它就找出你名下的网站逐个打分，揪出错别字、死链和坏图并告诉你先修什么，免费查 3 个站，不用注册。"
   }
 }
