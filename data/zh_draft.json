@@ -923,6 +923,12 @@
     "zh_oneliner": "一篇讲 NvALT 复活的文章，回顾这款老牌 macOS 效率工具如何被重新带回人们视野。",
     "zh_title": "Bicycle for Your Mind：NvALT 的复兴"
   },
+  "https://bild-zu-bild.de": {
+    "en_oneliner": "Upload a reference photo, describe the change you want in plain words, and get a reimagined image — handy for product shots, portraits, and marketing visuals.",
+    "en_title": "Bild zu Bild – AI Image-to-Image Generator",
+    "zh_oneliner": "上传一张参考图，再用一句话说清想要的效果，就能生成改好的新图，产品照、人像和营销图都适用。",
+    "zh_title": "Bild zu Bild：AI 以图生图工具"
+  },
   "https://bill-import-gate.mayasmile.workers.dev": {
     "en_oneliner": "A free browser checker that compares mapped incoming bill CSV or JSON against exported history before ledger import, flagging duplicate records and vendor mix-ups with no sign-up or upload.",
     "en_title": "Bill Import Gate: Check Bills Before Ledger Import",
@@ -5981,6 +5987,12 @@
     "zh_oneliner": "在浏览器里用文字或照片生成视频和图片，集成了 Veo、Kling、Wan 等多个模型，导出无水印，不用安装。",
     "zh_title": "Domer AI 视频图片生成器"
   },
+  "https://doodletoart.site/en": {
+    "en_oneliner": "Turn a rough sketch into a finished AI illustration or chibi avatar — pick a style and aspect ratio, and download your first watermark-free image free after signing in.",
+    "en_title": "Doodle to Art – Turn Sketches into AI Illustrations",
+    "zh_oneliner": "随手画几笔涂鸦，选个画风和比例，就能生成一张成品插画，还能做 Q 版头像，登录后可免费生成一张无水印图。",
+    "zh_title": "Doodle to Art：涂鸦变插画 AI 工具"
+  },
   "https://doom2d.oddbench.co": {
     "en_oneliner": "The author loved Doom2D as a kid and always wanted a version shareable by link — now rewritten in Rust and playable in the browser.",
     "en_title": "Show HN: I rewrote Doom2D Forever in Rust, playable in browser",
@@ -7907,6 +7919,12 @@
     "zh_oneliner": "把图片、截图和 PDF 里的表格转成可编辑的 XLSX，识别结果能在界面里直接核对，需登录使用，送一次性体验额度。",
     "zh_title": "ImageToExcel：图片表格转 Excel"
   },
+  "https://imagetoimage.im": {
+    "en_oneliner": "Upload a reference photo, describe the edit you want, and generate a new image — try different models on the same task, from product shots to portraits.",
+    "en_title": "Image to Image – Free AI Image-to-Image Generator",
+    "zh_oneliner": "上传参考图并写下想要的改动，就能生成新图，多个模型可以换着试，产品照和人像都拿手。",
+    "zh_title": "Image to Image：免费 AI 以图生图工具"
+  },
   "https://imahora.com": {
     "en_oneliner": "A visual website showing the time, exact weather and daylight for any place on Earth.",
     "en_title": "I built a visual website that shows the time and the exact weather and daylight for any place",
@@ -8266,6 +8284,12 @@
     "en_title": "US Has Lost Measles Elimination Status, Global Health Authorities Say",
     "zh_oneliner": "全球卫生机构表示美国因麻疹持续传播已失去消除状态，讲清这一判定背后的疫情发展，适合关注公共卫生动态的读者。",
     "zh_title": "全球卫生机构称美国已失去麻疹消除状态"
+  },
+  "https://kibildererstellen.im": {
+    "en_oneliner": "Type a prompt to generate images with a choice of 7 AI models at up to 4K, and edit your own photos in the same editor.",
+    "en_title": "KI Bilder erstellen – Free German AI Image Generator",
+    "zh_oneliner": "写一句提示词就能生成图片，7 个 AI 模型任选，最高支持 4K，还能在同一个编辑器里修自己的照片。",
+    "zh_title": "KI Bilder erstellen：免费德语 AI 图片生成器"
   },
   "https://kikkupico.github.io/DAAG2": {
     "en_oneliner": "Interactive visual explanations of distributed algorithms, as practiced in Ancient Greece.",
@@ -9406,6 +9430,12 @@
     "en_title": "Rebuild it from the picture Dynamic Programming",
     "zh_oneliner": "一个练算法的互动页面：给你一张图，自己动手把动态规划的解法重建出来，适合备战面试时换个方式练手。",
     "zh_title": "照着图重建出来：动态规划"
+  },
+  "https://norestrictionsai.com": {
+    "en_oneliner": "Generate images from text or a reference photo with a choice of models, and download the results with no watermark added.",
+    "en_title": "No Restrictions AI – Unrestricted AI Image Generator",
+    "zh_oneliner": "文生图和图生图都能做，多个模型任选，生成结果可以直接下载，而且不带水印。",
+    "zh_title": "No Restrictions AI：无限制 AI 图片生成器"
   },
   "https://norskalkulator.com/?ref=smollaunch": {
     "en_oneliner": "Free online calculators and tools for everyday life in Norway.",
@@ -11986,6 +12016,12 @@
     "en_title": "Tulvo",
     "zh_oneliner": "用一句话描述团队的工作方式，AI 就搭出对应的看板、文档和报表，CRM、库存、排班都装进同一个工作台。",
     "zh_title": "Tulvo 自适应 AI 工作台"
+  },
+  "https://tunemori.com": {
+    "en_oneliner": "Describe a mood or a short story in your browser, pick a vibe and a length, and get an original song — with custom lyrics and a personal library to keep your tracks.",
+    "en_title": "Tunemori",
+    "zh_oneliner": "在浏览器里写一句心情或小故事、选个曲风和时长，就能生成一首原创歌曲，还能自己填词、存进曲库随时回放。",
+    "zh_title": "Tunemori：用一句话生成原创歌曲的个人 AI 音乐工作室"
   },
   "https://turbo51.com/compiler-design/tpc16-turbo-pascal-compiler-written-in-turbo-pascal": {
     "en_oneliner": "A 16-bit Turbo Pascal compiler bootstrapped in Turbo Pascal itself — a treat for retro-programming fans.",
@@ -15256,11 +15292,5 @@
     "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
     "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
     "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
-  },
-  "https://tunemori.com": {
-    "zh_title": "Tunemori：用一句话生成原创歌曲的个人 AI 音乐工作室",
-    "zh_oneliner": "在浏览器里写一句心情或小故事、选个曲风和时长，就能生成一首原创歌曲，还能自己填词、存进曲库随时回放。",
-    "en_title": "Tunemori",
-    "en_oneliner": "Describe a mood or a short story in your browser, pick a vibe and a length, and get an original song — with custom lyrics and a personal library to keep your tracks."
   }
 }
