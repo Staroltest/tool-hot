@@ -2379,6 +2379,13 @@ BLOCKED_URLS = {
     # 按售卖页不收口径拦；只拦这一条链接
     "https://subredditmarketing.co",
     "https://www.subredditmarketing.co",
+    # 2026-11-26 09:07 CST 轮热点榜自查补封（浏览器实测确认）：PortalGate
+    # （portalgate-landing.vercel.app）是付费 monday.com 客户门户应用的营销
+    # 落地页（$39/月起，14 天试用，入口链向 monday.com 应用市场），页面本身
+    # 没有能直接用的工具，按严格工具-only 标准拦；vercel.app 是通用托管域，
+    # 只拦这一条链接，不封整个域名
+    "https://portalgate-landing.vercel.app",
+    "https://portalgate-landing.vercel.app/",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {

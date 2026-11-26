@@ -10877,6 +10877,12 @@
   "zh_oneliner": "作者的妈妈是摄影师兼艺术家，嫌现有工具存图、分享、整理都不顺手，作者就给她做了 Shutters，帮她打理作品。",
   "zh_title": "Shutters：照片与更多"
  },
+ "https://sidelong.app": {
+  "en_oneliner": "Save articles, videos and podcasts to read later, highlight the key parts as you go, and keep scattered content in one place to catch up on.",
+  "en_title": "Show HN: Sidelong – read-it-later and highlighting for every type of content",
+  "zh_oneliner": "文章、视频、播客都能先存下来稍后看，重点处随手高亮，碎片内容集中到一处慢慢消化。",
+  "zh_title": "Sidelong：全类型内容稍后读与高亮工具"
+ },
  "https://sign.aboard.com/?ref=producthunt": {
   "en_oneliner": "Get any agreement signed by email — just CC one address and everyone receives a link to sign, no signup needed.",
   "en_title": "Aboard Sign",
@@ -10912,6 +10918,12 @@
   "en_title": "OLED iPad mini review: A modern multitasker",
   "zh_oneliner": "换上 OLED 屏的 iPad mini 不只是屏幕更好了，这篇评测认为它已经是一台够用的随身多任务设备。",
   "zh_title": "OLED 版 iPad mini 评测：小身材的现代多面手"
+ },
+ "https://sleighdraw.com": {
+  "en_oneliner": "A free Secret Santa draw with no sign-up: enter the names, watch Santa's sleigh draw them, and not even the organiser sees who got whom — just share one link.",
+  "en_title": "Sleigh Draw: Free Secret Santa Draw",
+  "zh_oneliner": "免注册的圣诞老人抽签工具，输入参与者名单后由圣诞老人的雪橇动画抽签，连组织者也看不到谁抽到了谁，分享一个链接就能开抽。",
+  "zh_title": "Sleigh Draw：免费秘密圣诞老人抽签工具"
  },
  "https://slides.zoom.us/?ref=producthunt": {
   "en_oneliner": "Turns meeting discussions or a short prompt into polished, editable decks, with AI rewriting, collaboration, and PowerPoint export.",
@@ -11656,6 +11668,12 @@
   "en_title": "TINTY: AI virtual staging",
   "zh_oneliner": "房产照片 AI 软装：空房间一键摆上家具，挂牌照立刻好看。",
   "zh_title": "TINTY：房产虚拟布置"
+ },
+ "https://tinyai.run": {
+  "en_oneliner": "Write a tiny chess or shogi engine, compile it to WebAssembly and enter the arena, where engines play rated games against each other — or play against them right in your browser.",
+  "en_title": "Show HN: A never-ending programming contest for chess and shogi engines",
+  "zh_oneliner": "写一个迷你象棋或将棋引擎编译成 WebAssembly 就能报名参赛，引擎之间自动对弈打分，也能直接在浏览器里和它们下一盘。",
+  "zh_title": "TinyAI：国际象棋与将棋引擎竞技场"
  },
  "https://tinydeskaivideo.cc": {
   "en_oneliner": "An AI band video generator — pick your cast, set the stage and open your own tiny concert.",
@@ -15238,17 +15256,5 @@
   "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
   "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
   "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
- },
- "https://sidelong.app": {
-  "en_title": "Show HN: Sidelong – read-it-later and highlighting for every type of content",
-  "en_oneliner": "Save articles, videos and podcasts to read later, highlight the key parts as you go, and keep scattered content in one place to catch up on.",
-  "zh_title": "Sidelong：全类型内容稍后读与高亮工具",
-  "zh_oneliner": "文章、视频、播客都能先存下来稍后看，重点处随手高亮，碎片内容集中到一处慢慢消化。"
- },
- "https://tinyai.run": {
-  "en_title": "Show HN: A never-ending programming contest for chess and shogi engines",
-  "en_oneliner": "Write a tiny chess or shogi engine, compile it to WebAssembly and enter the arena, where engines play rated games against each other — or play against them right in your browser.",
-  "zh_title": "TinyAI：国际象棋与将棋引擎竞技场",
-  "zh_oneliner": "写一个迷你象棋或将棋引擎编译成 WebAssembly 就能报名参赛，引擎之间自动对弈打分，也能直接在浏览器里和它们下一盘。"
  }
 }
