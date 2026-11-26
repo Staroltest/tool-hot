@@ -422,6 +422,14 @@ BLOCKED_DOMAINS = {
     # 目录站（首页罗列 475+ 工具、链到站外），不是能直接用的工具本身；
     # 按目录站（aitoolmix.com、theresanaiforthat.com）口径封整个域名
     "zipzax.com",
+    # 2026-11-26 08:07 PST 轮：pikkai.com 是 AI 工具目录站（按任务找工具、
+    # 对比收藏，首页罗列站外工具），不是能直接用的工具本身；本轮由时间线
+    # 升入热点榜才被发现，按目录站口径封整个域名
+    "pikkai.com",
+    # 2026-11-26 08:07 PST 轮：meminto.com 是付费定制印刷书礼品服务
+    # （每周提问、最后印成精装实体书，$99 起售卖页），核心产出是实体书
+    # 而非浏览器里能用的工具，按售卖页口径封整个域名
+    "meminto.com",
     "opensoundconnect.app",
     # 2026-11-17 扩源实测封禁（Smol Launch 首批 50 条）：
     # talat.app 是桌面转录应用（Download for Mac/Windows）；
@@ -438,6 +446,11 @@ BLOCKED_DOMAINS = {
     # 等候名单；fast.io 是 AI 数据层 B2B 服务（无直接可用工具）；
     # intakerun.com 是原生邮件客户端（macOS/iPhone/iPad/Android）
     "talat.app", "hiapi.ai", "toklab.ai", "newbornlog.com", "tapmap.net",
+    # 2026-11-26 08:07 PST 轮：01router.com 是统一 AI 视频/图片生成 API
+    # 平台（一个 API key、调 API 生成，按 toklab.ai 纯 API 平台口径封整个
+    # 域名；FAQ 虽提到站内有视频生成器，但本轮链接指向的是 API 营销首页，
+    # 点开不能直接用；若日后出现直达生成器的链接可再评估）
+    "01router.com",
     "publishyoursaas.com", "listmaro.com", "secretpass.com",
     "myzucoins.org", "fundraisebase.com", "importz.fi", "gpt288.com",
     "pluginpeer.com", "alook.ai", "applylah.com", "fast.io",
@@ -1802,10 +1815,13 @@ BLOCKED_URLS = {
     # 与实测信号都拦不住，人工抽查封禁；erikbethke.com 是个人站，只拦
     # 这一条链接，不封整个域名
     "https://erikbethke.com/coreweave/index.html",
-    # 2026-11-22 04:24 PST：Kakurenbo（ezfurigana.com/kakurenbo）是日语
-    # 假名 Wordle 纯游戏，按新定游戏口径（纯游戏一律拦）封禁；ezfurigana.com
-    # 本身是注音工具站，只拦这一条链接，不封整个域名
-    "https://www.ezfurigana.com/kakurenbo",
+    # 2026-11-26 08:07 PST 轮：themouseless.dev/vim 是《Learning to Play
+    # Vim》一书的售书页（介绍章节、练习、纸质版、订阅通知、可退款），不是
+    # 能直接用的工具；标题“I wrote an entire Vim manual over 4 years”
+    # 不露书的痕迹，标题门与实测信号都拦不住，人工抽查封禁；
+    # themouseless.dev 是作者个人博客站，只拦这一条链接，不封整个域名
+    "http://themouseless.dev/vim",
+    "https://themouseless.dev/vim",
     # 2026-11-23 07:07 CST 轮：SlayArcade（slayarcade.com）是 70 个原创
     # 浏览器小游戏合集（免注册、可离线玩），纯游戏，按游戏口径一律拦；
     # 只拦这一条链接，不封整个域名

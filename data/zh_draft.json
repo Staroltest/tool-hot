@@ -2003,6 +2003,12 @@
   "zh_oneliner": "界面不用再一行行硬编码了，这篇聊了 AI 正在如何改变图形界面的构建方式。",
   "zh_title": "硬编码图形界面的终结"
  },
+ "https://dear.website": {
+  "en_oneliner": "Skip the editor: send an email to create a small website, and send another one to change it.",
+  "en_title": "Build and Edit a Website by Email",
+  "zh_oneliner": "不用打开编辑器，给它发一封邮件就能做出一个小网站，改内容也是再发一封邮件的事。",
+  "zh_title": "发邮件就能建改网站"
+ },
  "https://demo.glyphh.ai/bot": {
   "en_oneliner": "An interactive demo where you teach a bot a secret rule, then watch it learn the rule from your answers.",
   "en_title": "HN: Teach a bot a secret rule and watch it learn from your answers",
@@ -6677,6 +6683,12 @@
   "zh_oneliner": "不用服务器也能发布网站和直播：内容就放在你的浏览器标签页里，访客通过 WebRTC 直连你的浏览器读取。",
   "zh_title": "fmrl.live：用浏览器标签页托管网站和直播"
  },
+ "https://foaktee.github.io/rubin-euclid-discovery/eyes_3d": {
+  "en_oneliner": "Roam a WebGL 3D model of the Solar System and the Milky Way in your browser, including many newly catalogued trans-Neptunian objects.",
+  "en_title": "3D Solar System and Milky Way Explorer",
+  "zh_oneliner": "在浏览器里用 WebGL 漫游太阳系和银河系的三维模型，还能看到许多新发现的海王星外天体。",
+  "zh_title": "三维太阳系与银河系模拟"
+ },
  "https://focushours.app/app": {
   "en_oneliner": "Track your weekly focus hours on side projects — local-first, right in your browser.",
   "en_title": "FocusHours",
@@ -7882,6 +7894,12 @@
   "en_title": "HookStead",
   "zh_oneliner": "接收、验证并转发 webhook，自动重试、回放、报警与完整投递记录，每月免费 1 万次事件，托管在德国。",
   "zh_title": "HookStead：接收、验证并转发 webhook 的中转站"
+ },
+ "https://houseprecheck.com": {
+  "en_oneliner": "Enter any Toronto home address and get its official records, permits and history gathered on a single page before you buy.",
+  "en_title": "Toronto House Records on One Page",
+  "zh_oneliner": "输入多伦多任意一处房产地址，一页汇总官方登记、许可与历史记录，买房前先查个明白。",
+  "zh_title": "多伦多房屋背景速查"
  },
  "https://hoverine.com/?ref=producthunt": {
   "en_oneliner": "Interactive Rive templates you can poke, customize with your own logo, colors, and words, then download as working .riv files.",
@@ -9226,6 +9244,12 @@
   "en_title": "Show HN: MIB Viewer Desktop – SNMP MIB Browser with 20k MIBs",
   "zh_oneliner": "Show HN 新品：内置 2 万个 MIB 的 SNMP 浏览器，查网络设备不用再翻枯燥的 MIB 定义文件。",
   "zh_title": "Show HN：MIB Viewer Desktop，内置 2 万个 MIB 的 SNMP 浏览器"
+ },
+ "https://michidk.github.io/sidebyside": {
+  "en_oneliner": "Boot three Linux virtual machines side by side in a single browser tab, each running a different browser, with nothing to install.",
+  "en_title": "Three Linux VMs in One Browser Tab",
+  "zh_oneliner": "一个浏览器标签页里同时启动三台 Linux 虚拟机，每台跑不同的浏览器，免安装、打开就能试。",
+  "zh_title": "浏览器里并排跑三台 Linux"
  },
  "https://millionshort.com": {
   "en_oneliner": "A search engine that lets you remove a million sites for cleaner results.",
@@ -11182,6 +11206,12 @@
   "en_title": "Sandboxes for AI Agents",
   "zh_oneliner": "让 AI Agent 放手干活之前得先关进沙箱，文章讲沙箱该怎么搭、该隔离什么，才能既让 Agent 帮你跑命令改文件，又不至于把系统搞砸。",
   "zh_title": "给 AI Agent 的沙箱"
+ },
+ "https://shopnx.in": {
+  "en_oneliner": "A free, open-source ecommerce builder for India: open a store with a phone number, take UPI or cash-on-delivery payments, and get order updates on WhatsApp.",
+  "en_title": "ShopNx Free Online Store Builder",
+  "zh_oneliner": "免费开源的印度电商建站工具，手机号注册就能开店，支持 UPI 收款、货到付款和 WhatsApp 订单通知。",
+  "zh_title": "ShopNx 免费开网店"
  },
  "https://shoptimist.co": {
   "en_oneliner": "Shop Amazon-style, but every product is hand-curated so you skip the low-quality listings.",
