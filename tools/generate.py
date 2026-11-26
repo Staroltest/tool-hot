@@ -1837,6 +1837,11 @@ BLOCKED_URLS = {
     # themouseless.dev 是作者个人博客站，只拦这一条链接，不封整个域名
     "http://themouseless.dev/vim",
     "https://themouseless.dev/vim",
+    # 2026-11-26 15:07 PST 轮：Turkey Trot（turkey-trot.replit.app）是
+    # 感恩节主题街机游戏（HARVEST ARCADE，躲厨师农夫、收集金玉米、打
+    # Neon Chef），纯游戏，按游戏口径一律拦；只拦这一条链接，不封
+    # replit.app 整个域名
+    "https://turkey-trot.replit.app",
     # 2026-11-23 07:07 CST 轮：SlayArcade（slayarcade.com）是 70 个原创
     # 浏览器小游戏合集（免注册、可离线玩），纯游戏，按游戏口径一律拦；
     # 只拦这一条链接，不封整个域名
