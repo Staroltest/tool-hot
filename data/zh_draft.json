@@ -8975,6 +8975,12 @@
   "zh_oneliner": "给 AI Agent 的工具调用做统一入口，像 OpenRouter 聚合模型那样聚合各家工具。",
   "zh_title": "Show HN：Maglev：Agent 工具界的 OpenRouter"
  },
+ "https://maic.me/alpoge": {
+  "en_oneliner": "Browse the Riemann Hypothesis's 17-million-line Lean formal proof in your browser, line by line.",
+  "en_title": "Explore the 17M-Line Lean Proof of the Riemann Hypothesis",
+  "zh_oneliner": "在浏览器里漫游黎曼猜想那 1700 万行 Lean 形式化证明，逐行查看推导细节。",
+  "zh_title": "黎曼猜想 1700 万行 Lean 证明浏览器"
+ },
  "https://maido.place": {
   "en_oneliner": "Practise 9 languages by walking through 11 Three.js towns with live voice and open chat — language learning as a shared stroll.",
   "en_title": "Show HN: 11 Three.js towns to practise 9 languages, live voice and open chat",
@@ -10451,6 +10457,12 @@
   "zh_oneliner": "一分钟搭个手绘风的个人链接页，六种风格随便挑，还能让 AI 帮你更新链接和内容，免费版不限链接数。",
   "zh_title": "Posy：手绘风个人链接页"
  },
+ "https://potluckpicks.com": {
+  "en_oneliner": "Everyone brings five favorite picks to the table — see what your friends chose and discover each other's taste.",
+  "en_title": "Potluck – Bring 5 Picks to the Table, See What Your Friends Brought",
+  "zh_oneliner": "每人带 5 个精选推荐上桌，看看朋友都带来了什么，顺便发现彼此的品味。",
+  "zh_title": "Potluck：和朋友互晒 5 个心头好"
+ },
  "https://powersizeguide.com": {
   "en_oneliner": "Pick your appliances and hours, and it tells you the Wh capacity, watts and surge your portable power station needs.",
   "en_title": "Power Size Guide",
@@ -11326,6 +11338,12 @@
   "en_title": "SimplestCalc",
   "zh_oneliner": "不用注册，直接在浏览器里算课程总成绩、加权成绩，还能反推期末考要拿多少分才够目标。",
   "zh_title": "SimplestCalc 成绩计算器"
+ },
+ "https://singlecalendar.com": {
+  "en_oneliner": "Merge multiple Google Calendars into a single synced view, so you stop switching back and forth.",
+  "en_title": "Single Calendar – Sync Multiple Google Calendars",
+  "zh_oneliner": "把多个 Google 日历合并到一个视图里同步查看，不用来回切换账号。",
+  "zh_title": "Single Calendar：多个 Google 日历一处同步"
  },
  "https://sixcolors.com/post/2026/11/ipad-mini-review-a-modern-multitasker": {
   "en_oneliner": "The OLED iPad mini is more than a screen upgrade — this review finds it a capable little multitasking machine.",
@@ -12689,6 +12707,12 @@
   "zh_oneliner": "给客户发大文件时带上自己的品牌、域名和封面，收件人不用注册就能下载，文件存在欧盟。",
   "zh_title": "file.spot：给创意人的品牌化大文件传输"
  },
+ "https://usefootprint.app": {
+  "en_oneliner": "Learn electronics visually, look up the component encyclopedia, and search part specs — all in one place.",
+  "en_title": "Footprint – Visual Electronics Learning, Encyclopedia, and Part Search",
+  "zh_oneliner": "用可视化方式学电子学，查元器件百科、搜零件参数都在一个站里。",
+  "zh_title": "Footprint：可视化电子学学习与元器件搜索"
+ },
  "https://usefullweek.com": {
   "en_oneliner": "AI agents that answer calls and book jobs for home service businesses, keeping the schedule full.",
   "en_title": "Fullweek",
@@ -13000,6 +13024,12 @@
   "en_title": "Show HN: Comparing pricing across 100 web search APIs",
   "zh_oneliner": "把近百家搜索 API 按每千次搜索的价格排开，免费档、计费方式和返回内容一目了然，选 API 前先来这儿比个价。",
   "zh_title": "100 家网页搜索 API 报价大比价"
+ },
+ "https://vst.run": {
+  "en_oneliner": "Load VST/CLAP instruments and effects right in the browser — no DAW install needed.",
+  "en_title": "Play with VST/CLAP Instruments and Effects in the Browser",
+  "zh_oneliner": "不用装 DAW，直接在浏览器里加载 VST/CLAP 乐器和效果器试音。",
+  "zh_title": "VST.run：浏览器里玩 VST/CLAP 乐器与效果器"
  },
  "https://vyroclipping.org": {
   "en_oneliner": "Enter your clip's view stats and see what each video actually earns, so clipping creators can see their real revenue.",
