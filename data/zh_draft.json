@@ -11339,6 +11339,12 @@
   "zh_oneliner": "从图片里提取文字并整理成干净的摘要，截图里的内容不用再一字一字抄。",
   "zh_title": "Summarize Text from Image：图片文字提取与摘要"
  },
+ "https://summarizer.video": {
+  "en_oneliner": "Paste a YouTube, TikTok or Instagram link and get summaries at three depths, chapters and a timestamped transcript in seconds, plus mind maps and flashcards.",
+  "en_title": "summarizer.video: Summarize Any Video in Seconds",
+  "zh_oneliner": "粘贴 YouTube、TikTok 或 Instagram 链接，几秒得到三种深度的摘要、章节划分和带时间戳的全文稿，还能顺手生成思维导图和闪卡。",
+  "zh_title": "summarizer.video：粘贴链接秒出视频摘要、章节与逐字稿"
+ },
  "https://sumtranscribe.com": {
   "en_oneliner": "Upload audio or video and get a transcript with speaker labels and timestamps, plus an AI summary — one free file up to 30 minutes a day, no account needed.",
   "en_title": "Sum: Transcribe audio to text with speaker labels and AI summaries",
