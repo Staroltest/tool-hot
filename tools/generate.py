@@ -1474,6 +1474,35 @@ BLOCKED_DOMAINS = {
     # Claude Code 等 CLI 才能用），是目录页不是能直接用的工具网站，
     # 按目录页不收口径拦（2026-11-25 热点榜第 3 条混入）
     "skilltrove.dev",
+    # 2026-11-26 16:07 CST 轮自查补封（本轮新到 83 条里人工审描述发现，
+    # 5 条已混进热点榜、9 条在时间线）：
+    # sachess.com 是免费在线象棋对弈（Xiangqi + Pikafish AI），纯游戏，
+    # 按游戏口径拦；mineillion.app 是每日 Minecraft 反向 trivia 游戏，
+    # 纯游戏；slotbound.net 是 Slotbound 游戏的 wiki 与攻略站（内容站）；
+    # shufflechat.app 是与陌生人随机一对一聊天服务，不是工具；
+    # digimarketbuzz.com 是营销指南博客站（指南文章为主，首页非工具）；
+    # playersorter.com 是球员 pairwise 排名小游戏；characterlabs.org 是
+    # 七美德人格测试站（测试/问卷内容）；readthepassage.com 是圣经阅读
+    # 指南站；designtoscale.org 是系统设计动画课程站（课程/文章）；
+    # smalldealdesk.com 是每周一笔小生意交易简报（内容站）；
+    # solarpage.org 是太阳能企业名录站（目录页）；appiconvault.com 是
+    # iOS/Android 应用图标存档站（图库存档）；neatsave.com 是 Instagram
+    # Reels/图片下载器（下载工具）；psflow.io 是 Photoshop 插件（须装
+    # PS 与插件才能用）
+    "sachess.com",
+    "slotbound.net",
+    "mineillion.app",
+    "shufflechat.app",
+    "digimarketbuzz.com",
+    "playersorter.com",
+    "characterlabs.org",
+    "readthepassage.com",
+    "designtoscale.org",
+    "smalldealdesk.com",
+    "solarpage.org",
+    "appiconvault.com",
+    "neatsave.com",
+    "psflow.io",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -1547,6 +1576,11 @@ BLOCKED_EXACT = {
     # 画圈点灯玩法）；游戏不是工具，只拦这一个 host
     # （2026-11-19 07:37 CST 轮实测）
     "robinduckett.github.io",
+    # Anthropic and OpenAI Math Tracker：汇总 Anthropic 与 OpenAI 数学
+    # 预印本/解答的追踪页（按日期并列论文链接与 PDF 直链），是内容聚合
+    # feed 不是能直接用的工具（2026-11-26 16:07 CST 轮自查，本轮混进
+    # 热点榜）；只拦这一个 host
+    "bedolpab.github.io",
     # Kruftle：桌面磁盘清理应用（官网自述下载安装器、macOS Gatekeeper /
     # Windows SmartScreen / Linux 可执行位，须下载安装才能用），不是
     # 浏览器工具；标题“reclaim disk space with each toolchain's own
