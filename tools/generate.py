@@ -2455,6 +2455,24 @@ BLOCKED_URLS = {
     # 只拦这一条链接，不封整个域名
     "https://portalgate-landing.vercel.app",
     "https://portalgate-landing.vercel.app/",
+    # 2026-11-26 22:07 CST 轮时间线抽查补封（浏览器实测确认）：flying-test
+    # （crocone.github.io/flying-test）是开源飞行测试台硬件项目的展示页
+    # （俄语页面：测试台参数），访客点开用不了任何浏览器工具，是项目页
+    # 不是工具站；只拦这一条链接，不封 crocone.github.io 整个域名
+    "https://crocone.github.io/flying-test",
+    # 2026-11-26 22:07 CST 轮时间线抽查补封（浏览器实测确认）：Game DNA
+    # （game-dna.pages.dev/site/preview）是 103 个游戏元素的代码模块 +
+    # 提示词库，访客复制提示词让自家 coding agent 接入，本质是面向开发
+    # 者的代码库目录（含多个可玩小游戏），不是能直接用的工具；只拦这一
+    # 条链接，不封 game-dna.pages.dev 整个域名
+    "https://game-dna.pages.dev/site/preview",
+    # 2026-11-26 22:07 CST 轮时间线抽查补封（浏览器实测确认）：PokerAmp
+    # （pokeramp.com）是纯娱乐玩法币德州扑克 GTO 训练与 AI 陪练，含单桌
+    # 赛、每日挑战、人格化对手，本质是打扑克的游戏（虽标榜训练，玩的活
+    # 动本身就是扑克），按游戏口径（纯游戏一律拦）封禁；只拦这一条链接，
+    # 不封整个域名
+    "https://pokeramp.com",
+    "https://www.pokeramp.com",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
