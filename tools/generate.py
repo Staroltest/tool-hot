@@ -1506,6 +1506,12 @@ BLOCKED_DOMAINS = {
     "solarpage.org",
     "appiconvault.com",
     "neatsave.com",
+    # 2026-11-26 20:37 CST 轮自查补封（页面实测确认）：
+    # dirfa.st（DirFast）是付费目录网站模板/脚手架（$29 一次性购买，
+    # 交付私有 GitHub 仓库代码 + Supabase 后台，须自己部署才能用），
+    # 站上没有能直接用的工具，首页本身是售卖页（Live demo 只是模板
+    # 演示），按“需要下载安装/部署才能用”口径拦
+    "dirfa.st",
     "psflow.io",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）

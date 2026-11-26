@@ -485,6 +485,12 @@
   "zh_oneliner": "把现成的 PNG、SVG 或 JPG 标志变成动态 Logo，8 种动效带音效可在浏览器里预览，免费下 720p MP4，高清和透明视频按需付费。",
   "zh_title": "Animated Logo AI：Logo 一键变动效"
  },
+ "https://animateoldphotosai.com": {
+  "en_oneliner": "Upload an old photo and get a short video where the people blink and smile gently, with restore and colorize included.",
+  "en_title": "Animate Old Photos",
+  "zh_oneliner": "上传一张老照片，生成一段几秒钟的短视频，照片里的人会轻轻眨眼、微笑，还能顺手修复和上色。",
+  "zh_title": "让老照片动起来"
+ },
  "https://anonimostories.com": {
   "en_oneliner": "View and download public Instagram stories, highlights, posts and reels anonymously, no login needed.",
   "en_title": "AnonimoStories: View Instagram Stories Anonymously",
@@ -6461,6 +6467,12 @@
   "zh_oneliner": "新闻直播进行时实时核查刚说过的话，有说法就当场贴出核查结果。",
   "zh_title": "Fack’d：直播新闻实时核查"
  },
+ "https://facturawiz.com": {
+  "en_oneliner": "Upload a PDF invoice, let AI extract the billing fields for your review, then download Facturae and EN 16931 e-invoices that meet Spain's new rules — no account, pay per invoice.",
+  "en_title": "FacturaWiz",
+  "zh_oneliner": "上传 PDF 发票，AI 提取开票信息并人工核对后，下载符合西班牙新规的 Facturae 与 EN 16931 电子发票，无需注册，按张付费。",
+  "zh_title": "FacturaWiz：PDF 发票转西班牙电子发票"
+ },
  "https://fakemetrics.com": {
   "en_oneliner": "Pick a platform, invent some glorious numbers, and export a convincing screenshot of your entirely fictional success.",
   "en_title": "Show HN: Fakemetrics.com – \"build in public\" like a superstar",
@@ -11069,6 +11081,12 @@
   "zh_oneliner": "接上店铺和广告账户，算清每个订单、每条广告到底赚了多少，还能顺手揪出九种利润漏洞。",
   "zh_title": "Selixer：电商利润操作系统"
  },
+ "https://setenforce.org": {
+  "en_oneliner": "Scan any domain for free across DNS, mail, web and registration, with 110+ checks mapped to 14 security standards.",
+  "en_title": "SetEnforce: free domain security and compliance check",
+  "zh_oneliner": "输入一个域名就能免费扫描 DNS、邮件、网站与注册信息，110 多项检查对照 14 套安全标准逐条列出问题。",
+  "zh_title": "SetEnforce：免费域名安全与合规检查"
+ },
  "https://setscout.app": {
   "en_oneliner": "Tracks Lego set prices over time so you can tell whether a sale is a real deal or just a markup in disguise.",
   "en_title": "Show HN: SetScout – A Lego price tracker that checks if a \"sale\" is a real deal",
@@ -11206,6 +11224,12 @@
   "en_title": "silo.host",
   "zh_oneliner": "会说话的网站生成器：用大白话描述想要的网站，布局和内容边看边变，做好了直接上线。",
   "zh_title": "silo.host：说句话就能建网站"
+ },
+ "https://simplestcalc.com": {
+  "en_oneliner": "Calculate your course grade and weighted average right in the browser, and work out the final exam score you need to hit your target.",
+  "en_title": "SimplestCalc",
+  "zh_oneliner": "不用注册，直接在浏览器里算课程总成绩、加权成绩，还能反推期末考要拿多少分才够目标。",
+  "zh_title": "SimplestCalc 成绩计算器"
  },
  "https://sixcolors.com/post/2026/11/ipad-mini-review-a-modern-multitasker": {
   "en_oneliner": "The OLED iPad mini is more than a screen upgrade — this review finds it a capable little multitasking machine.",
@@ -12959,6 +12983,12 @@
   "zh_oneliner": "1959 年的工程师数学讲义，收藏在密歇根大学的课程库里，喜欢老教材的人可以下载看看。",
   "zh_title": "《工程师数学笔记》（1959 年）[PDF]"
  },
+ "https://webtestnavi.com/en": {
+  "en_oneliner": "Search a question to see its answer and explanation together, covering SPI, Tamatebako, GAB and CAB web aptitude tests for Japanese job hunting.",
+  "en_title": "WebTestNavi: SPI & Tamatebako Web Test Question Bank",
+  "zh_oneliner": "搜一道题就能看到题目、答案和解析，覆盖 SPI、玉手箱、GAB、CAB 等日本求职网测，按自己的节奏刷题。",
+  "zh_title": "WebTestNavi：日本求职笔试 SPI / 玉手箱题库"
+ },
  "https://wechatai.app": {
   "en_oneliner": "Connect your own AI models and agents to WeChat for chatting and getting things done.",
   "en_title": "Wechatai",
@@ -13114,6 +13144,12 @@
   "en_title": "Show HN: Reaktiv Workbook – A spreadsheet where every cell is Python",
   "zh_oneliner": "一张每个单元格都能写 Python 的电子表格，在浏览器里直接算数据、做分析。",
   "zh_title": "Reaktiv Workbook：每个单元格都是 Python 的电子表格"
+ },
+ "https://workingremote.pl/en": {
+  "en_oneliner": "Look up B2B rates for remote tech roles by city and compare direct hiring with agency hiring across Poland and Central and Eastern Europe.",
+  "en_title": "WorkingRemote B2B Calculator: Remote Tech Rates in Poland & CEE",
+  "zh_oneliner": "按岗位和城市查波兰及中东欧远程技术岗的 B2B 费率，对比直聘和中介两种雇佣方式的成本分成。",
+  "zh_title": "WorkingRemote B2B 计算器：波兰远程技术岗费率对照"
  },
  "https://workiq.xyz": {
   "en_oneliner": "A collection of 78 free tools for PDFs, images, text and calculations — no signup, just open and use.",
@@ -15694,35 +15730,5 @@
   "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
   "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
   "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
- },
- "https://facturawiz.com": {
-  "en_title": "FacturaWiz",
-  "en_oneliner": "Upload a PDF invoice, let AI extract the billing fields for your review, then download Facturae and EN 16931 e-invoices that meet Spain's new rules — no account, pay per invoice.",
-  "zh_title": "FacturaWiz：PDF 发票转西班牙电子发票",
-  "zh_oneliner": "上传 PDF 发票，AI 提取开票信息并人工核对后，下载符合西班牙新规的 Facturae 与 EN 16931 电子发票，无需注册，按张付费。"
- },
- "https://webtestnavi.com/en": {
-  "en_title": "WebTestNavi: SPI & Tamatebako Web Test Question Bank",
-  "en_oneliner": "Search a question to see its answer and explanation together, covering SPI, Tamatebako, GAB and CAB web aptitude tests for Japanese job hunting.",
-  "zh_title": "WebTestNavi：日本求职笔试 SPI / 玉手箱题库",
-  "zh_oneliner": "搜一道题就能看到题目、答案和解析，覆盖 SPI、玉手箱、GAB、CAB 等日本求职网测，按自己的节奏刷题。"
- },
- "https://workingremote.pl/en": {
-  "en_title": "WorkingRemote B2B Calculator: Remote Tech Rates in Poland & CEE",
-  "en_oneliner": "Look up B2B rates for remote tech roles by city and compare direct hiring with agency hiring across Poland and Central and Eastern Europe.",
-  "zh_title": "WorkingRemote B2B 计算器：波兰远程技术岗费率对照",
-  "zh_oneliner": "按岗位和城市查波兰及中东欧远程技术岗的 B2B 费率，对比直聘和中介两种雇佣方式的成本分成。"
- },
- "https://animateoldphotosai.com": {
-  "zh_title": "让老照片动起来",
-  "zh_oneliner": "上传一张老照片，生成一段几秒钟的短视频，照片里的人会轻轻眨眼、微笑，还能顺手修复和上色。",
-  "en_title": "Animate Old Photos",
-  "en_oneliner": "Upload an old photo and get a short video where the people blink and smile gently, with restore and colorize included."
- },
- "https://simplestcalc.com": {
-  "zh_title": "SimplestCalc 成绩计算器",
-  "zh_oneliner": "不用注册，直接在浏览器里算课程总成绩、加权成绩，还能反推期末考要拿多少分才够目标。",
-  "en_title": "SimplestCalc",
-  "en_oneliner": "Calculate your course grade and weighted average right in the browser, and work out the final exam score you need to hit your target."
  }
 }
