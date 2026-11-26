@@ -2504,6 +2504,40 @@ BLOCKED_URLS = {
     # 不封整个域名
     "https://pokeramp.com",
     "https://www.pokeramp.com",
+    # 2026-11-27 00:37 CST 轮自查补封（页面实测确认）：Manabrew
+    # （play.manabrew.app）是在浏览器里打万智牌（Magic: The Gathering，
+    # Forge/WASM 引擎）的纯游戏，无工具功能，按游戏口径（纯游戏一律拦）
+    # 封禁；只拦这一条链接，不封 manabrew.app 整个域名
+    "https://play.manabrew.app",
+    # 2026-11-27 00:37 CST 轮自查补封（页面实测确认）：Voom
+    # （voom.ink/agents）是“Human feedback, as an API”，供 Claude、
+    # ChatGPT、Codex、Cursor 等智能体调用的人类反馈 API，纯 API 平台，
+    # 点开不能直接在浏览器里用，按“纯 API 平台不收”口径拦（与此前
+    # TokLab、PennyCompute 同类处理）；只拦这一条链接，不封 voom.ink
+    # 整个域名
+    "https://voom.ink/agents",
+    "https://www.voom.ink/agents",
+    # 2026-11-27 00:37 CST 轮自查补封（页面实测确认）：Hubris
+    # （hubris.live）是桌面端协作笔记应用的售卖页（“Download v3”、
+    # “Purchase license $35”、“add up to 4 devices”，经 yard.sh 结账），
+    # 须下载安装才能用，按“需要下载安装的工具不算”拦；只拦这一条链接，
+    # 不封整个域名
+    "https://hubris.live",
+    "https://www.hubris.live",
+    # 2026-11-27 00:37 CST 轮自查补封（页面实测确认）：PauseCrew
+    # （pausecrew.com）根地址是“第二意见”社区站首页（发帖问买不买、
+    # 等社区给意见、动态信息流），本身不是工具；站内 /tools/ 下虽有
+    # cost-per-use、gift-finder 等小工具，但提交的根链接不是工具页，
+    # 按“只拦根链接”先例（Beauty Advent Guide）拦；只拦这一条链接，
+    # 不封整个域名
+    "https://pausecrew.com",
+    "https://www.pausecrew.com",
+    # 2026-11-27 00:37 CST 轮自查补封（页面实测确认）：WorkingRemote
+    # （workingremote.pl/en）是波兰/中东欧远程技术招聘的比价与内容站
+    # 首页（招聘平台对比、人才指数、指南），本身不是能直接用的计算器；
+    # 标题“WorkingRemote B2B Calculator”名不副实，链到的 /en 页没有
+    # 计算器入口；只拦这一条链接，不封整个域名
+    "https://workingremote.pl/en",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {

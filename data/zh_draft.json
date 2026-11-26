@@ -809,6 +809,12 @@
   "zh_oneliner": "从大纲、章节草稿到封面设计和电子书导出，在一个网页里把一本书写完并做成能上架的版本。",
   "zh_title": "Authoric AI 写书出版平台"
  },
+ "https://autocaptions.cc": {
+  "en_oneliner": "Auto-generates word-by-word, karaoke and emoji captions for TikTok, Reels and Shorts in one click, on the web or inside Premiere Pro and After Effects.",
+  "en_title": "AutoCaptions: Animated Word-by-Word Captions for Short Videos",
+  "zh_oneliner": "一键给 TikTok、Reels、Shorts 生成逐词弹出、卡拉 OK 或表情字幕，网页上直接做，也能接进 Premiere Pro 和 After Effects。",
+  "zh_title": "AutoCaptions：一键给短视频加逐词动画字幕"
+ },
  "https://auxiliarymemory.com/2026/11/15/how-i-remember-the-byrds": {
   "en_oneliner": "A piece of reminiscence about The Byrds, the 1960s rock band, as the author remembers them.",
   "en_title": "How I Remember the Byrds",
@@ -1534,6 +1540,12 @@
   "en_title": "CitedBy: AI search audit",
   "zh_oneliner": "贴个网址，一分钟告诉你谷歌和 ChatGPT 读不懂你网站的哪些地方，每个问题都附修复方法。",
   "zh_title": "CitedBy：AI 搜索体检"
+ },
+ "https://citesieve.braivex.com": {
+  "en_oneliner": "Asks ChatGPT, Gemini and four more AI engines every day which brands they name and cite, so you can track how your brand shows up in AI answers.",
+  "en_title": "CiteSieve: See How ChatGPT and Perplexity Cite Your Brand",
+  "zh_oneliner": "每天让 ChatGPT、Gemini 等六个 AI 搜索引擎回答一遍，看看它们在回答里提到了谁、引用了谁，盯住自家品牌在 AI 回答里的露出。",
+  "zh_title": "CiteSieve：查 ChatGPT 和 Perplexity 如何引用你的品牌"
  },
  "https://citymoods311.com": {
   "en_oneliner": "Maps what residents of five US cities complained about to 311 each night, neighborhood by neighborhood, so you can see what is bugging each city.",
@@ -6064,6 +6076,12 @@
   "en_title": "Show HN: Doku, a browser-based Sudoku app I built",
   "zh_oneliner": "在浏览器里玩每日数独，也能扫描报纸或书上的数独题、或手动输入一道题，扫过的题目都会存下来随时接着玩。",
   "zh_title": "Doku：浏览器里的数独"
+ },
+ "https://domainyze.com/tools": {
+  "en_oneliner": "Check if a domain is available and when it expires, run WHOIS and DNS lookups, test SSL certificates, and build SPF and DMARC records — no signup needed.",
+  "en_title": "Domainyze: Free Domain Expiry, WHOIS, DNS and SSL Checks",
+  "zh_oneliner": "不用注册就能查域名是否可注册、何时过期，还能跑 WHOIS、DNS 查询、测 SSL 证书、拼 SPF 和 DMARC 记录。",
+  "zh_title": "Domainyze：免费查域名过期、WHOIS、DNS 与 SSL"
  },
  "https://domer.io": {
   "en_oneliner": "Generate videos and images in the browser from text or photos, with Veo, Kling, Wan and more in one place — watermark-free exports, nothing to install.",
@@ -14110,6 +14128,12 @@
   "en_title": "Show HN: Free OPT tracker, built after a $5k filing mistake",
   "zh_oneliner": "两个问题算出你的 OPT 申请窗口、截止日期和剩余失业天数，附一份待办清单，全程免费不用注册。",
   "zh_title": "OPT Tracker：F-1 学生免费的 OPT 倒计时与清单"
+ },
+ "https://www.myscreenbreak.com": {
+  "en_oneliner": "Paste an article link and get it laid out as a broadsheet, magazine or book page — no menus, ads or pop-ups — ready to print and read on paper.",
+  "en_title": "Screenbreak: Print Any Article as a Magazine Page",
+  "zh_oneliner": "输入文章链接，去掉菜单、广告和弹窗，把正文排成报纸、杂志或图书三种版式，直接打印成纸质版慢慢读。",
+  "zh_title": "Screenbreak：把任意文章排成杂志版式打印出来"
  },
  "https://www.mythlingua.com": {
   "en_oneliner": "Learn Mandarin through mythology: HSK 1–7 graded stories with pinyin and audio, an interactive knowledge graph and spaced-repetition flashcards.",
