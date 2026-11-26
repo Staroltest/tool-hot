@@ -7085,6 +7085,12 @@
   "zh_oneliner": "STL、ATL 和自定义池分配器同台对比，实测了谁的 C++ 字符串类最快，写 C++ 的性能党可以围观结果。",
   "zh_title": "魔镜魔镜，谁是最快的 C++ 字符串类？"
  },
+ "https://git-star-ranking.com": {
+  "en_oneliner": "Daily rankings of GitHub users, organizations and repositories by stars — look up where your profile stands.",
+  "en_title": "Check where your GitHub profile ranks",
+  "zh_oneliner": "按 Star 数给 GitHub 用户、组织和仓库排座次，每天更新，输用户名就能查到自己的排名。",
+  "zh_title": "GitHub Star 排名：查你的 GitHub 账号排第几"
+ },
  "https://github.com/AltharIDE/althar": {
   "en_oneliner": "An open-source IDE where AI agents review each other's work — for readers curious about multi-agent development workflows.",
   "en_title": "Show HN: Althar – an open-source IDE where agents review each other's work",
