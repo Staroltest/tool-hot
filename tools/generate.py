@@ -222,6 +222,11 @@ BLOCKED_DOMAINS = {
     # Save Us”不露文章痕迹，实测确认（2026-11-26 21:07 CST 轮：热点榜
     # 混入，人工核实后封）
     "doomanalysis.com",
+    # seekquarry.com：Yioop 开源 PHP 搜索引擎的项目页/下载站（“Download
+    # it, start it, and you have a search engine of your own”），须下载安
+    # 装才能用，不是浏览器里能直接用的工具；可直接用的演示在 yioop.com，
+    # 不在该链接上（2026-11-26 19:37 CST 轮：热点榜第 2 条混入，实测确认）
+    "seekquarry.com",
     # perit.ai：卖数据与 RL 任务给 AI 实验室的数据集市（perit.ai/marketplace
     # 是数据集目录、按报价成交），不是点开能用的工具（2026-11-22 归档复查：
     # 11-15 日报与 W46/W47 周报、11 月月报里的 Perit Marketplace）
