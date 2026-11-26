@@ -2543,6 +2543,19 @@ BLOCKED_URLS = {
     # 标题“WorkingRemote B2B Calculator”名不副实，链到的 /en 页没有
     # 计算器入口；只拦这一条链接，不封整个域名
     "https://workingremote.pl/en",
+    # 2026-11-27 01:37 CST 轮热点榜自查补封（浏览器实测确认）：三条泄漏——
+    # BenchSaaS（nocoly.com/landing/benchsaas）是“企业应用 LLM 基准报告
+    # V1.0”落地页（关键发现、排行榜、案例、方法论，附 51 页 PDF 下载），是
+    # 读的报告不是能用的工具，按“不收文章”拦；CSS 3D 演示（k-adam.github.io/
+    # CSS3D-Renderer/demos/lights-out）是纯 CSS 3D 光影技术演示（滚动走近、
+    # 看墙上的页面），在浏览器里跑演示、看效果，没有任何工具功能，按严格
+    # 工具-only 标准拦（同 GPU Demo Gallery 先例）；Turkey Hand
+    # （highdimensionalcoconuts.com/Work/Sandbox/TurkeyHand）是用 AR 把手变
+    # 成火鸡的新奇小玩具，没有任何工具功能，按严格工具-only 标准拦；三条都
+    # 只拦精确链接，不封整个域名
+    "https://www.nocoly.com/landing/benchsaas",
+    "https://k-adam.github.io/CSS3D-Renderer/demos/lights-out/index.html",
+    "https://www.highdimensionalcoconuts.com/Work/Sandbox/TurkeyHand",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
