@@ -1898,6 +1898,13 @@ BLOCKED_URLS = {
     # tile puzzle（标题自写“a daily tile puzzle”），纯游戏，按游戏口径一律
     # 拦；标题门已同步加 tile puzzle 规则
     "https://lotlark.app",
+    # 2026-11-26 10:37 CST 轮热点榜自查补封（页面实测确认）：I Know Your
+    # Age（iknowyourage.app）是免费在线年龄竞猜问答游戏——按 300+ 怀旧提示
+    # （流行文化、童年习惯）答题，贝叶斯推断猜年龄、生成六十年记忆地层卡，
+    # 站方自称 "age guessing game"，纯游戏，无工具功能，按游戏口径一律拦；
+    # 只拦这一条链接，不封整个域名
+    "https://iknowyourage.app",
+    "https://www.iknowyourage.app",
     "https://www.lotlark.app",
     # 2026-11-24 05:07 CST 轮自查补封（页面实测确认）：Same Place?
     # （addressmatcher.vercel.app）是“两条地址记录是不是同一地点”的猜谜游戏
