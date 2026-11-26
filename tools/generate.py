@@ -2555,6 +2555,12 @@ BLOCKED_URLS = {
     # 只拦精确链接，不封整个域名
     "https://www.nocoly.com/landing/benchsaas",
     "https://k-adam.github.io/CSS3D-Renderer/demos/lights-out/index.html",
+    # 2026-11-27 03:13 CST 中午汇总核验补封（与 lights-out 同仓库的纯演示）：
+    # CSS 3D 码头漫步（k-adam.github.io/CSS3D-Renderer/demos/still-water）
+    # 站内只有一句 "Scroll to walk out along the dock"，滚动走出码头、
+    # 看水面效果，没有任何工具功能，按严格工具-only 标准拦；只拦精确
+    # 链接，不封整个域名
+    "https://k-adam.github.io/CSS3D-Renderer/demos/still-water/index.html",
     "https://www.highdimensionalcoconuts.com/Work/Sandbox/TurkeyHand",
 }
 # 文章味路径段（按段全等匹配）
