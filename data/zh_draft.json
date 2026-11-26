@@ -15334,5 +15334,17 @@
   "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
   "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
   "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
+ },
+ "https://talira.ai": {
+  "en_title": "Show HN: Talira – Search engine for software, built for AI agents",
+  "zh_title": "Talira：按问题找软件的搜索引擎",
+  "zh_oneliner": "说出你遇到的问题，它就从 5000 多个软件里找出真正解决过这问题、还被人一直用着的工具，还能直接连上你的 AI 助手。",
+  "en_oneliner": "Describe the problem you're facing and it finds the software that actually solved it for people who kept using it, and it plugs straight into your AI assistant."
+ },
+ "https://www.usefattura.com.br/en": {
+  "en_title": "Show HN: Fattura – Parse credit card PDF statements and split family bills",
+  "zh_title": "Fattura：信用卡账单 AI 分账工具",
+  "zh_oneliner": "上传银行信用卡账单 PDF，AI 自动读出每笔消费、按家人分账，还能生成准确的 Pix 收款码。",
+  "en_oneliner": "Upload your bank's credit card statement PDF and its AI reads every charge, splits the bill across the family, and generates the exact Pix payment code."
  }
 }
