@@ -16390,5 +16390,11 @@
   "en_oneliner": "Turns math expressions into blocks you can drag around, building intuition for how operations work through hands-on lessons and practice instead of memorized rules.",
   "zh_title": "DragDropMath：拖拽学数学，凭手感理解运算",
   "zh_oneliner": "把数学式子变成可以拖来拖去的积木，从加减项的顺序练起，用手感而不是死记规则来理解运算。"
+ },
+ "https://uplytics.si": {
+  "zh_title": "Uplytics：网站监控、无 Cookie 分析与业务数据合一",
+  "zh_oneliner": "把宕机监控、无 Cookie 访客分析和支付、注册等业务数据收进同一个仪表盘，网站一出状况就立刻提醒你。",
+  "en_title": "Uplytics: Uptime Monitoring, Cookie-Free Analytics and Business Data in One Dashboard",
+  "en_oneliner": "Uptime monitoring, cookie-free visitor analytics, and business data like payments and signups in a single dashboard, alerting you the moment a site goes down."
  }
 }

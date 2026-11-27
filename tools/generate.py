@@ -1869,6 +1869,13 @@ BLOCKED_EXACT = {
 # 本身正常，Margeux 工具（margeux.com/studio.html）仍可收，所以只拦
 # 这一条链接，绝不封 margeux.com 整个域名
 BLOCKED_URLS = {
+    # 2026-11-28 03:37 CST 轮人工抽查封禁：Journey To Europa
+    #（journeytoeuropa.com）是关于欧罗巴快船任务的互动 3D 叙事页，
+    # 点开只能看任务故事的可视化，没有能直接用的工具功能，属于互动
+    # 文章/内容页而非工具站，按“不收文章”口径拦；只拦这一条链接，
+    # 不封整个域名
+    "https://journeytoeuropa.com",
+    "https://www.journeytoeuropa.com",
     # 2026-11-28 01:37 CST 轮人工抽查封禁：Krillion Unlimited
     #（dailyplay.org/krillion）是稀有答案问答游戏（七道开放题、每题
     # 25 秒，按答案稀有度计分、可多人对战），站方自述“Free Game”、
