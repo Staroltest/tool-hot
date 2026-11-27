@@ -15946,5 +15946,17 @@
   "en_oneliner": "Turn your story into a custom AI song — lyrics, vocals, cover art and a gift-ready share page for birthdays, weddings and other moments worth singing about.",
   "zh_title": "SongStory：把你的故事唱成一首专属歌",
   "zh_oneliner": "把一段故事、名字和梗写下来，AI 帮你写词、演唱并制作成歌，还附封面和可分享的礼物页，适合生日、婚礼、毕业这些送礼时刻。"
+ },
+ "https://www.lioratools.com": {
+  "en_oneliner": "A full set of handy utilities that run entirely in your browser — your data never leaves your machine — in 6 languages, ready the moment you open it.",
+  "en_title": "Show HN: Liora Tools – 100% client-side browser utilities in 6 languages",
+  "zh_oneliner": "一整套完全在浏览器本地运行的实用小工具，数据不出本机，还支持 6 种语言，打开即用。",
+  "zh_title": "Liora Tools：100% 本地运行的浏览器工具合集，支持 6 种语言"
+ },
+ "https://pictcraft.com": {
+  "en_oneliner": "Upload a photo and describe the change in one sentence — the AI redraws only that part while keeping the person, composition and lighting intact.",
+  "en_title": "AI Image to Image by PictCraft",
+  "zh_oneliner": "上传照片、用一句话说出想改的地方，AI 只重绘你说的那一处，人物、构图和光线都原样保留。",
+  "zh_title": "PictCraft：一句话改图的 AI 图片编辑器"
  }
 }
