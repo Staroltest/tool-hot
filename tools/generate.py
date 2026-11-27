@@ -1839,6 +1839,26 @@ BLOCKED_EXACT = {
 # 本身正常，Margeux 工具（margeux.com/studio.html）仍可收，所以只拦
 # 这一条链接，绝不封 margeux.com 整个域名
 BLOCKED_URLS = {
+    # 2026-11-27 17:37 CST 轮人工抽查封禁：Pangolinfo（pangolinfo.com）
+    # 是实时 Amazon 抓取 API 平台（“Scraper API & MCP Skills for AI
+    # Agents”，接 Claude/Cursor 或数据管道用），纯 API 服务，点开的站
+    # 本身不是能在浏览器里直接用的工具，按纯 API 平台（TokLab）先例拦；
+    # X-PHY（x-phy.com）是硬件级网络安全产品公司的营销站，卖的是硬件
+    # 防护方案，站上没有能直接用的工具，按产品营销页先例拦；两站整个
+    # 域名就是泄漏，www 与非 www 各拦一条
+    "https://www.pangolinfo.com",
+    "https://pangolinfo.com",
+    "https://x-phy.com",
+    "https://www.x-phy.com",
+    # Flexxon（flexxon.com）是工业 SSD/NAND 硬件制造商官网，只有产品
+    # 营销页，站上没有任何能直接用的工具，按产品营销页先例拦；
+    # EP Journey（epjourney.com）根地址是“What Is an EP?”讲解文章
+    # 页，点开是文章不是工具，按文章页先例拦根链接；站内 /tools/
+    # 下确有 EP 长度计算器，信源直接链到计算器时仍可收，故不封域名
+    "https://flexxon.com",
+    "https://www.flexxon.com",
+    "https://epjourney.com",
+    "https://www.epjourney.com",
     # 2026-11-27 14:07 CST 轮人工抽查封禁：Potluck（potluckpicks.com）
     # 是邀请制的社交分享小游戏——每人带 5 个推荐（视频/歌/书/电影/
     # 游戏/文章）给朋友看，无转换、生成、编辑、计算等任何工具功能，
