@@ -1822,6 +1822,13 @@ BLOCKED_EXACT = {
 # 本身正常，Margeux 工具（margeux.com/studio.html）仍可收，所以只拦
 # 这一条链接，绝不封 margeux.com 整个域名
 BLOCKED_URLS = {
+    # 2026-11-27 13:37 CST 轮：AlexChen Image Bot（alexchen-imgbot-sales.
+    # containers.snapdeploy.app）是 Telegram 图片机器人的售卖页（3 张免
+    # 费/天、1 USDT = 10 张，TRC20 收款地址），工具本体在 Telegram 里、
+    # 需装 Telegram 才能用，点开的页面只是营销/收款页，不是能在浏览器
+    # 里直接用的工具，按售卖页 + 需下载安装先例拦；只拦这一条链接，不
+    # 封整个 snapdeploy.app 域名
+    "https://alexchen-imgbot-sales.containers.snapdeploy.app",
     # 2026-11-27 11:07 CST 轮：EarthCiv（earthciv.org）是“真实世界按策略
     # 游戏方式呈现”的 Civ 风格地图游戏（Surveying the land…，在世界地图
     # 上玩文明式策略），纯游戏，按游戏口径一律拦；只拦这一条链接，不封
