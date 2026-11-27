@@ -13781,6 +13781,12 @@
   "zh_oneliner": "上传一张照片，生成一本属于你自己的 AI 绘本故事，送给孩子刚刚好。",
   "zh_title": "Doodara：AI 定制绘本生成器"
  },
+ "https://www.drawpic.ai/en/tools/edit-text-in-image": {
+  "en_oneliner": "Box the text in your image, type the replacement, and AI rewrites just that spot in the original font and layout — fix typos, swap prices or headlines without redoing the design.",
+  "en_title": "DrawPic Edit Text in Image",
+  "zh_oneliner": "框住图片里要改的文字，输入新内容，AI 按原字体原排版只改这一处，改错别字、换价格、换标题都不用重做设计。",
+  "zh_title": "DrawPic 在线修改图片中的文字"
+ },
  "https://www.dw.com/en/how-ai-is-likely-to-change-germanys-job-market/a-79941597": {
   "en_oneliner": "An analysis of how AI is likely to reshape Germany's job market, which roles will change, and which skills will matter more.",
   "en_title": "How AI is likely to change Germany's job market",
