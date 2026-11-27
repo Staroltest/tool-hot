@@ -1869,6 +1869,18 @@ BLOCKED_EXACT = {
 # 本身正常，Margeux 工具（margeux.com/studio.html）仍可收，所以只拦
 # 这一条链接，绝不封 margeux.com 整个域名
 BLOCKED_URLS = {
+    # 2026-11-28 01:37 CST 轮人工抽查封禁：Krillion Unlimited
+    #（dailyplay.org/krillion）是稀有答案问答游戏（七道开放题、每题
+    # 25 秒，按答案稀有度计分、可多人对战），站方自述“Free Game”、
+    # “Original daily practice games”，纯游戏，按游戏口径一律拦；
+    # Snibbly（snibbly.com）是免费浏览器小游戏站，主打“I Know Your
+    # Age”（答 12–24 道怀旧线索猜年龄），纯游戏，按游戏口径一律拦；
+    # 两条都是热点榜新到条目，实测确认后封禁；只拦这两条链接，不封
+    # 整个域名
+    "https://dailyplay.org/krillion",
+    "https://www.dailyplay.org/krillion",
+    "https://snibbly.com",
+    "https://www.snibbly.com",
     # 2026-11-28 01:07 CST 轮人工抽查封禁：GPT Plays Civilization
     #（civ-bot.varchas.fyi）是看语言模型打《文明》游戏的研究展示站，
     # 点开只能看对局回放和统计，没有能直接用的工具，纯游戏内容，按游
