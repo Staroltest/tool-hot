@@ -1822,6 +1822,13 @@ BLOCKED_EXACT = {
 # 本身正常，Margeux 工具（margeux.com/studio.html）仍可收，所以只拦
 # 这一条链接，绝不封 margeux.com 整个域名
 BLOCKED_URLS = {
+    # 2026-11-27 14:07 CST 轮人工抽查封禁：Potluck（potluckpicks.com）
+    # 是邀请制的社交分享小游戏——每人带 5 个推荐（视频/歌/书/电影/
+    # 游戏/文章）给朋友看，无转换、生成、编辑、计算等任何工具功能，
+    # 本质是娱乐社交玩法，且只能凭邀请加入（同 Tabletop 邀请制先例）；
+    # 按游戏口径（纯游戏一律拦）封禁；只拦这一条链接，不封整个域名
+    "https://potluckpicks.com",
+    "https://www.potluckpicks.com",
     # 2026-11-27 13:37 CST 轮：AlexChen Image Bot（alexchen-imgbot-sales.
     # containers.snapdeploy.app）是 Telegram 图片机器人的售卖页（3 张免
     # 费/天、1 USDT = 10 张，TRC20 收款地址），工具本体在 Telegram 里、
