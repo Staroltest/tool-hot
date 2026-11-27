@@ -15898,5 +15898,11 @@
   "en_oneliner": "Turn a prompt or an image into a 4–30 second video with the Magi-2 model, with first and last frames to steer the shot.",
   "zh_title": "Magi-2 Video：用文字或图片生成视频的 AI 创作台",
   "zh_oneliner": "用 Magi-2 模型把一句话或一张图变成 4 到 30 秒的视频，还能指定首尾帧来控制镜头走向。"
+ },
+ "https://bayainy.com/en": {
+  "en_oneliner": "Drop in a bank statement and get a clean, tidy Excel spreadsheet in one click — no more copying rows by hand.",
+  "en_title": "Bayainy: The fastest, most accurate way to convert bank statements to Excel",
+  "zh_oneliner": "把银行对账单拖进来，一键转成干净整齐的 Excel 表格，省掉逐行复制粘贴的麻烦。",
+  "zh_title": "Bayainy：最快最准的银行对账单转 Excel 工具"
  }
 }

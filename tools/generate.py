@@ -1847,6 +1847,12 @@ BLOCKED_URLS = {
     # Neon Chef），纯游戏，按游戏口径一律拦；只拦这一条链接，不封
     # replit.app 整个域名
     "https://turkey-trot.replit.app",
+    # 2026-11-26 18:07 PST 轮：Pardon Me（pardonme.shiptiffin.app）是
+    # 感恩节主题游戏（扮演火鸡躲农夫、奶奶、狗和叔叔，撑到日落、拿南瓜
+    # 砸追兵），纯游戏，按游戏口径一律拦；标题带 game、摘要也明说玩法，
+    # 但标题门与实测都放行（页面本身就是可玩的游戏），热点榜自查补封；
+    # 只拦这一条链接，不封 shiptiffin.app 整个域名
+    "https://pardonme.shiptiffin.app",
     # 2026-11-23 07:07 CST 轮：SlayArcade（slayarcade.com）是 70 个原创
     # 浏览器小游戏合集（免注册、可离线玩），纯游戏，按游戏口径一律拦；
     # 只拦这一条链接，不封整个域名
