@@ -574,6 +574,12 @@ BLOCKED_DOMAINS = {
     # 资讯聚合（每小时重建的事件登记），新闻类一律拦，域名封禁
     "onefairwaygolf.com", "bouncemarket.minhanhday.com",
     "pulse.statementflow.win", "cyber.askgina.ai",
+    # 2026-11-27 15:37 CST 轮：Flatkey 是统一 AI 模型 API 平台
+    # （“One API key for multiple AI models”、调 API 生成 + GPU 租赁，
+    # Tools 页是“1,000+ AI tools, one key and one balance”的 API 目录，
+    # Playground 须注册后在控制台里试模型，首页本身不是点开能用
+    # 的工具；同已封的 TokLab、01router 等纯 API 平台，域名封禁）
+    "flatkey.ai",
     # 2026-11-24 06:37 CST 轮：Everything Is Outdated
     # （everythingisoutdated.dev）是标题自带 (Game) 的终端主题纯游戏，
     # 按游戏口径（纯游戏一律拦）封禁；整站即游戏，域名封禁

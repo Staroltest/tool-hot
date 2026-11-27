@@ -8075,6 +8075,12 @@
   "zh_oneliner": "压缩、转换、裁剪等图片处理都在浏览器本地完成，文件从不上传到服务器，隐私更放心。",
   "zh_title": "ihateimg.cv：图片全程本地处理，文件不上传"
  },
+ "https://ilovesong.ai": {
+  "en_oneliner": "Type a few lyrics, pick a style, and generate a full song online — then turn it into rap or singer performance videos.",
+  "en_title": "iLoveSong: AI Song Generator",
+  "zh_oneliner": "写几句歌词、选个风格，就能在线生成完整歌曲，还能接着做说唱视频与歌手表演视频。",
+  "zh_title": "iLoveSong：AI 歌曲生成器"
+ },
  "https://ilovethesmiths.org": {
   "en_oneliner": "Put yourself in the famous elevator scene from (500) Days of Summer and generate your own version.",
   "en_title": "I Love the Smiths AI",
@@ -9556,6 +9562,12 @@
   "en_title": "Show HN: Name the World – An Atlas Quiz",
   "zh_oneliner": "在世界地图上猜国家名字，边玩边记住各国的位置。",
   "zh_title": "Name the World：世界地图猜国家测验"
+ },
+ "https://napizotools.com": {
+  "en_oneliner": "13 free tools for images, PDFs, AI and text — no sign-up, everything runs right in your browser.",
+  "en_title": "Napizo: Free Online Toolbox",
+  "zh_oneliner": "图片、PDF、AI 与文字工具一共 13 个，全免费、不用注册，在浏览器里打开就能用。",
+  "zh_title": "Napizo：免费在线工具箱"
  },
  "https://nathanclonts.com/visualizing-neural-networks": {
   "en_oneliner": "A visualization project that draws how neural networks connect across text, image and other modalities, turning abstract network structure into something you can actually see.",
