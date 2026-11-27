@@ -15922,5 +15922,11 @@
   "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
   "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
   "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
+ },
+ "https://removetext.video": {
+  "zh_title": "RemoveText.video：在线去除视频里的文字",
+  "zh_oneliner": "用 AI 把视频里烧录的字幕、标题和水印抹掉，框选区域后自动补全背景，不用装剪辑软件。",
+  "en_title": "RemoveText.video | Remove Text from Video Online",
+  "en_oneliner": "AI removes hardcoded subtitles, captions and watermarks from video — select the area and it rebuilds the background, no editing software needed."
  }
 }
