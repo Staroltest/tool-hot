@@ -2582,6 +2582,28 @@ BLOCKED_URLS = {
     # 链接，不封整个域名
     "https://k-adam.github.io/CSS3D-Renderer/demos/still-water/index.html",
     "https://www.highdimensionalcoconuts.com/Work/Sandbox/TurkeyHand",
+    # 2026-11-27 08:07 CST 轮热点榜自查补封（页面实测确认）：两条纯游戏——
+    # Isekai Boys（i.0oat.com）是浏览器乙女恋爱游戏（异世界恋爱、100 多位
+    # 男性角色、结婚即通关），标题门已同步加 otome game 规则；Dailydev
+    # （dailydev.gg）是每日开发者知识问答（每天 5 道题、全员同题），标题与
+    # 信源摘要都不露游戏痕迹、标题门拦不住，按 Think Complete（每日解谜）
+    # 与 Dawdle（每日拼词）先例只拦精确链接；两条都不封整个域名
+    "https://i.0oat.com",
+    "https://dailydev.gg",
+    # 2026-11-27 08:07 CST 轮热点榜自查补封（页面实测确认）：三条演示/
+    # 浏览类泄漏，都不是能直接用的工具——Sandpile Lab（hrih.si/projects/
+    # sandpile-lab）是撒沙看分形与雪崩的元胞自动机模拟玩具，只看不做事，
+    # 与此前已封的 GPU Demo Gallery、CSS3D 码头漫步同类；Eyes on the
+    # Cosmos（foaktee.github.io/rubin-euclid-discovery/eyes_3d）是三维
+    # 太阳系与银河系浏览可视化，与此前已封的 HN 话题条形图竞逐同类；
+    # Alpoge（maic.me/alpoge）是 1700 万行黎曼猜想 Lean 证明的浏览
+    # 器，只浏览单一数据集、无通用任务功能，与上面两条同类；标题都不露
+    # 通用可拦的说法，只拦精确链接，不封整个域名
+    "https://hrih.si/projects/sandpile-lab",
+    "https://hrih.si/projects/sandpile-lab/",
+    "https://foaktee.github.io/rubin-euclid-discovery/eyes_3d",
+    "https://maic.me/alpoge",
+    "https://maic.me/alpoge/",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
@@ -2858,6 +2880,13 @@ _TITLE_BLOCK_RES = [
         # （2026-11-24 07:07 CST 轮：该条已进热点榜；离线验过全库 4453 条
         # 在库条目，只拦这一条，0 误伤；链接门同步封 anduil.neocities.org/n）
         r"\bflash game\b",
+        # “otome game”（如“Show HN: Isekai Boys – a free browser otome
+        # game with over 100 love interests”）：乙女恋爱游戏的类型自述，
+        # “browser otome game”里 browser 与 game 之间隔了 otome，旧的
+        # browser game 规则拦不住；网页工具标题里不会出现
+        # （2026-11-27 08:07 CST 轮：Isekai Boys 已进热点榜；离线验过
+        # 全库 5313 条在库条目，只拦这一条，0 误伤；链接门同步封 i.0oat.com）
+        r"\botome game\b",
         # “a game about …”（如“Show HN: End User, a game about smuggling
         # AI chips past export controls”）：标题自认是游戏，网页工具标题里
         # 不会出现
