@@ -15940,5 +15940,11 @@
   "zh_oneliner": "把黎曼猜想的证明拆成一张可缩放探索的星图，沿着章节节点一步步看懂证明的来龙去脉。",
   "en_title": "Riemann Atlas – An interactive map of the Riemann Hypothesis proof",
   "en_oneliner": "An interactive star map of the Riemann Hypothesis proof — zoom through its chapters and follow how the argument fits together."
+ },
+ "https://songstory.ai": {
+  "en_title": "SongStory",
+  "en_oneliner": "Turn your story into a custom AI song — lyrics, vocals, cover art and a gift-ready share page for birthdays, weddings and other moments worth singing about.",
+  "zh_title": "SongStory：把你的故事唱成一首专属歌",
+  "zh_oneliner": "把一段故事、名字和梗写下来，AI 帮你写词、演唱并制作成歌，还附封面和可分享的礼物页，适合生日、婚礼、毕业这些送礼时刻。"
  }
 }
