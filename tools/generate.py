@@ -1564,6 +1564,25 @@ BLOCKED_DOMAINS = {
     # TokLab、modelflare.dev、proofable.me、voxoria.ai 同类
     # （2026-11-27 16:37 CST 轮：热点榜第 1 条混入，实测确认）
     "groundsocial.dev",
+    # snibl.app：桌面应用（官网自述“Snibl is a desktop app”，首页只有
+    # Download / Pricing / Read the docs，保存高亮文本、问 AI 的功能须
+    # 下载客户端才能用），浏览器里点开没有能直接用的工具，按“需要下载
+    # 安装的不算”口径拦；标题“snibl”与摘要均不露安装痕迹，实测放行，
+    # 缺翻译自查时发现（2026-11-27 18:07 CST 轮：11-22 日报里混入）
+    "snibl.app",
+    # europeinstead.com：欧洲软件替代品目录站（1,818 个工具按分类/国家
+    # 罗列排名，附“查你的工具栈有多欧洲”小测），本质是找工具的目录，
+    # 不是能直接用的工具本身，与此前已封的 aitoolmix.com、npx.tools
+    # 同类；标题“find the European version of the tools you use”不露
+    # 目录痕迹，人工抽查封禁（2026-11-27 18:07 CST 轮：当日热点榜
+    # 混入，实测确认）
+    "europeinstead.com",
+    # foldeo.cc：面向会计所等服务业的客户文件收集 SaaS 营销页（品牌客
+    # 户门户 $29/月起，点“Create your portal”进付费注册），访客点开
+    # 没有能免费直接用的工具，按“售卖页/预约演示不收”口径拦，与此前
+    # 已封的 webless.ai、supacheap.eu 同类（2026-11-27 18:07 CST 轮：
+    # 当日时间线混入，实测确认）
+    "foldeo.cc",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -2667,6 +2686,12 @@ BLOCKED_URLS = {
     "https://foaktee.github.io/rubin-euclid-discovery/eyes_3d",
     "https://maic.me/alpoge",
     "https://maic.me/alpoge/",
+    # 2026-11-27 18:07 CST 轮缺翻译自查补封（页面实测确认）：Factoroids
+    # （rupertlinacre.com/facteroids）是心算游戏（WebGL 图形、计分
+    # 回合），纯游戏、不是能直接用的工具，按游戏口径一律拦；与已封的
+    # Kakurenbo（学假名的 Wordle 游戏）、DossierQL（学 GraphQL 的游戏）
+    # 同类；只拦这一条链接，不封 rupertlinacre.com 整个域名
+    "https://rupertlinacre.com/facteroids",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
