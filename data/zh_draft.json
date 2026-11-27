@@ -15886,5 +15886,17 @@
   "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
   "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
   "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
+ },
+ "https://scolast.com": {
+  "en_title": "Scolast – AI tutor for autodidacts inspired by Bloom's 2 sigma problem",
+  "en_oneliner": "An AI tutor built on Bloom's mastery learning that first finds your real level, then makes you do the work until you've actually got it.",
+  "zh_title": "Scolast：按布鲁姆掌握学习法逼你动手学进去的 AI 家教",
+  "zh_oneliner": "基于布鲁姆掌握学习法的 AI 导师，不直接给答案，先测出你的真实水平，再一步步带你练到真正掌握为止。"
+ },
+ "https://magi2.video": {
+  "en_title": "Magi-2 Video",
+  "en_oneliner": "Turn a prompt or an image into a 4–30 second video with the Magi-2 model, with first and last frames to steer the shot.",
+  "zh_title": "Magi-2 Video：用文字或图片生成视频的 AI 创作台",
+  "zh_oneliner": "用 Magi-2 模型把一句话或一张图变成 4 到 30 秒的视频，还能指定首尾帧来控制镜头走向。"
  }
 }
