@@ -15928,5 +15928,17 @@
   "zh_oneliner": "用 AI 把视频里烧录的字幕、标题和水印抹掉，框选区域后自动补全背景，不用装剪辑软件。",
   "en_title": "RemoveText.video | Remove Text from Video Online",
   "en_oneliner": "AI removes hardcoded subtitles, captions and watermarks from video — select the area and it rebuilds the background, no editing software needed."
+ },
+ "https://ashuteacher.vercel.app": {
+  "zh_title": "AshuTeacher：免费 AI 家教，语音黑板加论文工作室",
+  "zh_oneliner": "免费 AI 家教：语音黑板讲课、试卷拍照出分步解答，还能按考试大纲生成课程、刷题和背单词卡。",
+  "en_title": "AshuTeacher – Free AI tutor with voice blackboard and thesis studio",
+  "en_oneliner": "A free AI tutor that teaches on a voice-narrated blackboard, solves scanned exam papers step by step, and builds courses, quizzes and flashcards around any exam syllabus."
+ },
+ "https://longbinlai.github.io/riemann-atlas/?lang=en&step=reflection&view=overview": {
+  "zh_title": "Riemann Atlas：交互式探索黎曼猜想证明的星图",
+  "zh_oneliner": "把黎曼猜想的证明拆成一张可缩放探索的星图，沿着章节节点一步步看懂证明的来龙去脉。",
+  "en_title": "Riemann Atlas – An interactive map of the Riemann Hypothesis proof",
+  "en_oneliner": "An interactive star map of the Riemann Hypothesis proof — zoom through its chapters and follow how the argument fits together."
  }
 }
