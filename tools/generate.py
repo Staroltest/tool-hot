@@ -1822,6 +1822,12 @@ BLOCKED_EXACT = {
 # 本身正常，Margeux 工具（margeux.com/studio.html）仍可收，所以只拦
 # 这一条链接，绝不封 margeux.com 整个域名
 BLOCKED_URLS = {
+    # 2026-11-27 11:07 CST 轮：EarthCiv（earthciv.org）是“真实世界按策略
+    # 游戏方式呈现”的 Civ 风格地图游戏（Surveying the land…，在世界地图
+    # 上玩文明式策略），纯游戏，按游戏口径一律拦；只拦这一条链接，不封
+    # 整个域名（earthciv.org 本身就是这个游戏）
+    "https://earthciv.org",
+    "https://www.earthciv.org",
     "https://margeux.com/temporaland/login.html",
     # 2026-11-27 06:07 CST 日报轮：RotateAd（rotate.ad）是付费广告位
     # 轮换网络的售卖页（$2 买永久编号位、$4.99/月横幅网络），点开只能看

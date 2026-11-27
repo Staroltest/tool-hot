@@ -413,6 +413,12 @@
   "zh_oneliner": "把两个互相矛盾的 AI 回答丢进来，它会组织一场结构化辩论，帮你看出哪边更有道理。",
   "zh_title": "AI Spar：让互相矛盾的 AI 答案当面辩论"
  },
+ "https://aistemsplitter.net": {
+  "en_oneliner": "Split a song into up to 12 stems — lead and backing vocals, drums, bass, guitar and more — then mix and export WAV and MIDI in the browser.",
+  "en_title": "AI Stem Splitter | Split Songs Into 12 Stems, WAV & MIDI",
+  "zh_oneliner": "把一首歌拆成主唱、和声、鼓、贝斯等最多 12 条音轨，浏览器里混音试听，还能导出 WAV 和 MIDI。",
+  "zh_title": "AI Stem Splitter：一首歌拆成 12 条音轨"
+ },
  "https://aiteam.space/?ref=producthunt": {
   "en_oneliner": "An AI team where every agent has its own computer, so they can get real work done on their own.",
   "en_title": "aiteam.space",
@@ -886,6 +892,12 @@
   "en_title": "Looking for playtesters for my GitHub Game Off 2026 entry 🎮",
   "zh_oneliner": "武器就是一串比特：边打边左右移位，凑出连招去拍扁无限循环、空指针这些活生生的软件 Bug，浏览器里直接开打，不用安装。",
   "zh_title": "Wild Shift：拿比特寄存器当武器的除虫动作游戏"
+ },
+ "https://bayainy.com/en": {
+  "en_oneliner": "Drop in a bank statement and get a clean, tidy Excel spreadsheet in one click — no more copying rows by hand.",
+  "en_title": "Bayainy: The fastest, most accurate way to convert bank statements to Excel",
+  "zh_oneliner": "把银行对账单拖进来，一键转成干净整齐的 Excel 表格，省掉逐行复制粘贴的麻烦。",
+  "zh_title": "Bayainy：最快最准的银行对账单转 Excel 工具"
  },
  "https://bellripple.com": {
   "en_oneliner": "A quiet 3D temple garden in your browser. Walk, sit, bow, and ring the bell, alone or with others. Free, no account.",
@@ -7577,6 +7589,12 @@
   "zh_oneliner": "在一座 AI 建模的真实海岛上开车、探索、做任务，打开浏览器就能玩的 GTA 风格游戏。",
   "zh_title": "Grand Treasure Island：AI 建模的海岛版 GTA 游戏"
  },
+ "https://gravityfinder.com": {
+  "en_oneliner": "See what you'd weigh on 6,473 exoplanets, with each world's gravity, size, and habitability.",
+  "en_title": "Show HN: GravityFinder – Explore Exoplanets and More",
+  "zh_oneliner": "输体重、看你在 6473 颗系外行星上有多重，顺带了解每颗行星的重力、大小和宜居性。",
+  "zh_title": "GravityFinder：探索系外行星的重力、大小与宜居性"
+ },
  "https://greatai.dev/clinic": {
   "en_oneliner": "Paste a public repo link for a one-minute AI scan, then watch an AI review team work through the code on a live board, with an optional human expert review for maintainers.",
   "en_title": "Greatai Review: Free AI Code Review for Open Source",
@@ -8962,6 +8980,12 @@
   "en_title": "Show HN: Prompt Upgrader – a no-signup tool that scores and rewrites AI prompts",
   "zh_oneliner": "给 AI 提示词打分并帮你改得更好，打开即用，不用注册。",
   "zh_title": "Prompt Upgrader：免注册的 AI 提示词评分与改写工具"
+ },
+ "https://magi2.video": {
+  "en_oneliner": "Turn a prompt or an image into a 4–30 second video with the Magi-2 model, with first and last frames to steer the shot.",
+  "en_title": "Magi-2 Video",
+  "zh_oneliner": "用 Magi-2 模型把一句话或一张图变成 4 到 30 秒的视频，还能指定首尾帧来控制镜头走向。",
+  "zh_title": "Magi-2 Video：用文字或图片生成视频的 AI 创作台"
  },
  "https://magi2ai.video": {
   "en_oneliner": "Generate AI videos online with synchronized native audio and lip-sync — picture and sound come out together, right in the browser.",
@@ -10643,6 +10667,12 @@
   "zh_oneliner": "给每日竞答玩家准备的提示与候选答案检查器，照着日期查就行。",
   "zh_title": "Quiet Trivia：每日竞答提示助手"
  },
+ "https://radianui.com/resources/brand-logos": {
+  "en_oneliner": "245 brand logos in one place — pick icon or wordmark, light or dark, then download SVG/PNG or copy a CDN link.",
+  "en_title": "Show HN: Brand logos as SVG/PNG with CDN links and light/dark variants",
+  "zh_oneliner": "245 个品牌标志一处找齐，图标与字标、浅色深色版本任选，SVG、PNG 下载或复制 CDN 链接即用。",
+  "zh_title": "品牌 Logo 库：245 个品牌标志，SVG/PNG 导出与 CDN 链接"
+ },
  "https://ragdollsandbox.com": {
   "en_oneliner": "A free ragdoll physics sandbox in your browser — toss, drop and fling ragdolls around and watch them tumble by the laws of physics.",
   "en_title": "Ragdoll Sandbox",
@@ -11098,6 +11128,12 @@
   "en_title": "SCloudConvert: Save SoundCloud Tracks in the Browser",
   "zh_oneliner": "免费在浏览器里保存公开的 SoundCloud 音轨和歌单，M4A 保留原始音质，整张歌单打包成一个编号 ZIP，免注册。",
   "zh_title": "SCloudConvert：SoundCloud 音乐保存工具"
+ },
+ "https://scolast.com": {
+  "en_oneliner": "An AI tutor built on Bloom's mastery learning that first finds your real level, then makes you do the work until you've actually got it.",
+  "en_title": "Scolast – AI tutor for autodidacts inspired by Bloom's 2 sigma problem",
+  "zh_oneliner": "基于布鲁姆掌握学习法的 AI 导师，不直接给答案，先测出你的真实水平，再一步步带你练到真正掌握为止。",
+  "zh_title": "Scolast：按布鲁姆掌握学习法逼你动手学进去的 AI 家教"
  },
  "https://scorpion-ai1.vercel.app": {
   "en_oneliner": "A Portuguese AI chat assistant for Q&A and image generation and editing, right in the browser.",
@@ -15886,23 +15922,5 @@
   "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
   "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
   "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
- },
- "https://scolast.com": {
-  "en_title": "Scolast – AI tutor for autodidacts inspired by Bloom's 2 sigma problem",
-  "en_oneliner": "An AI tutor built on Bloom's mastery learning that first finds your real level, then makes you do the work until you've actually got it.",
-  "zh_title": "Scolast：按布鲁姆掌握学习法逼你动手学进去的 AI 家教",
-  "zh_oneliner": "基于布鲁姆掌握学习法的 AI 导师，不直接给答案，先测出你的真实水平，再一步步带你练到真正掌握为止。"
- },
- "https://magi2.video": {
-  "en_title": "Magi-2 Video",
-  "en_oneliner": "Turn a prompt or an image into a 4–30 second video with the Magi-2 model, with first and last frames to steer the shot.",
-  "zh_title": "Magi-2 Video：用文字或图片生成视频的 AI 创作台",
-  "zh_oneliner": "用 Magi-2 模型把一句话或一张图变成 4 到 30 秒的视频，还能指定首尾帧来控制镜头走向。"
- },
- "https://bayainy.com/en": {
-  "en_oneliner": "Drop in a bank statement and get a clean, tidy Excel spreadsheet in one click — no more copying rows by hand.",
-  "en_title": "Bayainy: The fastest, most accurate way to convert bank statements to Excel",
-  "zh_oneliner": "把银行对账单拖进来，一键转成干净整齐的 Excel 表格，省掉逐行复制粘贴的麻烦。",
-  "zh_title": "Bayainy：最快最准的银行对账单转 Excel 工具"
  }
 }
