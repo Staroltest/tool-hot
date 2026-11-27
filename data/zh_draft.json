@@ -16264,5 +16264,17 @@
     "en_title": "Gerber 3D – view, compare and fab-check PCB files in the browser",
     "zh_oneliner": "直接在浏览器里打开 Gerber 文件，看 3D 渲染、比对版本，还能在打板前做可制造性检查。",
     "zh_title": "Gerber 3D：浏览器里查看比对 PCB 文件"
+  },
+  "https://getjobfaster.com": {
+    "en_oneliner": "Six AI agents research target companies, find decision-makers, and draft outreach emails you approve and send from your own inbox.",
+    "en_title": "Get Job Faster AI: AI Job Search Agent",
+    "zh_oneliner": "六个 AI 智能体每天帮你研究目标公司、找到决策人并起草求职邮件，审核通过后从你的邮箱直接发出。",
+    "zh_title": "Get Job Faster AI：AI 求职代办"
+  },
+  "https://vidone.ai": {
+    "en_oneliner": "Type a prompt or upload an image to generate Sora 2 videos in your browser, then download the finished clip for shorts and ads.",
+    "en_title": "VidOne AI: Sora 2 Video Generator",
+    "zh_oneliner": "输入一句话或上传一张图，就能在浏览器里生成 Sora 2 视频，成片可直接下载，拿去发短视频或做广告。",
+    "zh_title": "VidOne AI：Sora 2 视频生成器"
   }
 }
