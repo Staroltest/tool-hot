@@ -7973,6 +7973,12 @@
   "zh_oneliner": "开源智能体，替你在手机上操作各种应用完成任务。",
   "zh_title": "Mode：替你操作手机应用的开源智能体"
  },
+ "https://hiitbuilder.app": {
+  "en_oneliner": "Generates no-equipment HIIT workout plans for your time and goals, with 3D-to-2D SVG exercise figures and a built-in interval timer.",
+  "en_title": "Show HN: No-equipment workout generator with 3D-to-2D SVG figures",
+  "zh_oneliner": "按你的时间与目标生成徒手 HIIT 训练计划，动作配有 3D 转 2D 的示意图，还自带间歇计时器。",
+  "zh_title": "HIIT Builder：无需器械的 HIIT 训练生成器"
+ },
  "https://hiringnow.ai/?ref=producthunt": {
   "en_oneliner": "An AI job search agent that scans 247,000+ company career pages every 5 minutes, matches fresh jobs to your profile, tailors your resume, and auto-applies only after your approval.",
   "en_title": "HiringNow",
@@ -11063,6 +11069,12 @@
   "zh_oneliner": "免费在线工具：查网站重定向有没有问题，开发者和 SEO 都用得上。",
   "zh_title": "Redirect Audit：重定向体检"
  },
+ "https://reelcraze.app": {
+  "en_oneliner": "Pick a trending AI video style and recast it with your own photos to make a short video in the same style.",
+  "en_title": "ReelCraze",
+  "zh_oneliner": "挑一个正火的 AI 视频潮流，换上自己的照片就能生成同款短视频。",
+  "zh_title": "ReelCraze：用你的照片复刻热门 AI 视频"
+ },
  "https://reeling.app": {
   "en_oneliner": "A social publishing workspace with AI-assisted content preparation.",
   "en_title": "Reeling",
@@ -13384,6 +13396,12 @@
   "en_title": "Show HN: Comparing pricing across 100 web search APIs",
   "zh_oneliner": "把近百家搜索 API 按每千次搜索的价格排开，免费档、计费方式和返回内容一目了然，选 API 前先来这儿比个价。",
   "zh_title": "100 家网页搜索 API 报价大比价"
+ },
+ "https://vramglass.com": {
+  "en_oneliner": "Compare GPUs and estimate how much VRAM you need to run a language model locally, so you can pick the right card before downloading anything.",
+  "en_title": "VRAMGlass",
+  "zh_oneliner": "对比显卡、估算本地跑大模型要多少显存，买卡或下载模型之前先算清楚能装下哪个。",
+  "zh_title": "VRAMGlass：本地大模型显存估算器"
  },
  "https://vst.run": {
   "en_oneliner": "Load VST/CLAP instruments and effects right in the browser — no DAW install needed.",
@@ -16300,17 +16318,5 @@
   "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
   "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
   "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
- },
- "https://reelcraze.app": {
-  "en_title": "ReelCraze",
-  "zh_title": "ReelCraze：用你的照片复刻热门 AI 视频",
-  "zh_oneliner": "挑一个正火的 AI 视频潮流，换上自己的照片就能生成同款短视频。",
-  "en_oneliner": "Pick a trending AI video style and recast it with your own photos to make a short video in the same style."
- },
- "https://hiitbuilder.app": {
-  "en_title": "Show HN: No-equipment workout generator with 3D-to-2D SVG figures",
-  "zh_title": "HIIT Builder：无需器械的 HIIT 训练生成器",
-  "zh_oneliner": "按你的时间与目标生成徒手 HIIT 训练计划，动作配有 3D 转 2D 的示意图，还自带间歇计时器。",
-  "en_oneliner": "Generates no-equipment HIIT workout plans for your time and goals, with 3D-to-2D SVG exercise figures and a built-in interval timer."
  }
 }
