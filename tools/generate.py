@@ -1587,6 +1587,13 @@ BLOCKED_DOMAINS = {
     # 已封的 webless.ai、supacheap.eu 同类（2026-11-27 18:07 CST 轮：
     # 当日时间线混入，实测确认）
     "foldeo.cc",
+    # rentagoon.com：虚构收债公司“Big Ray's Alternative Collections”
+    # 的 1999 复古风恶搞网站（站内注释自认 parody，人物与地名均为虚构），
+    # 整站是玩笑内容页，没有访客能输入并得到结果的工具功能，不是能直
+    # 接用的工具；标题“1999 small-business website”不露恶搞痕迹，实
+    # 测放行，缺翻译自查时发现（2026-11-28 00:07 CST 轮：热点榜第 9
+    # 条混入，实测确认）
+    "rentagoon.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
