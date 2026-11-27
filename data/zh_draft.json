@@ -16300,5 +16300,17 @@
   "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
   "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
   "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
+ },
+ "https://reelcraze.app": {
+  "en_title": "ReelCraze",
+  "zh_title": "ReelCraze：用你的照片复刻热门 AI 视频",
+  "zh_oneliner": "挑一个正火的 AI 视频潮流，换上自己的照片就能生成同款短视频。",
+  "en_oneliner": "Pick a trending AI video style and recast it with your own photos to make a short video in the same style."
+ },
+ "https://hiitbuilder.app": {
+  "en_title": "Show HN: No-equipment workout generator with 3D-to-2D SVG figures",
+  "zh_title": "HIIT Builder：无需器械的 HIIT 训练生成器",
+  "zh_oneliner": "按你的时间与目标生成徒手 HIIT 训练计划，动作配有 3D 转 2D 的示意图，还自带间歇计时器。",
+  "en_oneliner": "Generates no-equipment HIIT workout plans for your time and goals, with 3D-to-2D SVG exercise figures and a built-in interval timer."
  }
 }

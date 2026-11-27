@@ -1862,6 +1862,14 @@ BLOCKED_EXACT = {
 # 本身正常，Margeux 工具（margeux.com/studio.html）仍可收，所以只拦
 # 这一条链接，绝不封 margeux.com 整个域名
 BLOCKED_URLS = {
+    # 2026-11-27 22:07 CST 轮人工抽查封禁：Teach Your Kid Electronics
+    #（teachyourkidelectronics.com）是手把手教家长和孩子搭面包板电路
+    # 的分步教程站（初级/中级/高级共 30 多个实体搭建项目，附零件清单、
+    # 术语表和文章），点开是图文教程内容，不是能在浏览器里直接用的工
+    # 具，按文章/教程站先例拦；站内面包板示意图只是插图，没有可交互的
+    # 仿真器或生成器；只拦这一条链接，不封整个域名
+    "https://teachyourkidelectronics.com",
+    "https://www.teachyourkidelectronics.com",
     # 2026-11-27 17:37 CST 轮人工抽查封禁：Pangolinfo（pangolinfo.com）
     # 是实时 Amazon 抓取 API 平台（“Scraper API & MCP Skills for AI
     # Agents”，接 Claude/Cursor 或数据管道用），纯 API 服务，点开的站
