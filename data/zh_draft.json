@@ -2135,6 +2135,12 @@
   "zh_oneliner": "用文字或参考图免费生成定制纹身图案，20 多种风格可选，新用户有 30 个免费额度。",
   "zh_title": "DermInk：免费 AI 纹身图案生成器"
  },
+ "https://designbycurio.com": {
+  "en_oneliner": "Pick a design style, hand its DESIGN.md to your AI agent, and your site, deck or report gets dressed in seconds.",
+  "en_title": "Curio: A Design Style Library for AI",
+  "zh_oneliner": "挑一种设计风格，把它的 DESIGN.md 发给 AI 智能体，网站、幻灯片和报告几秒钟就换上这套风格。",
+  "zh_title": "Curio：给 AI 智能体的设计风格库"
+ },
  "https://destinymatrix.one": {
   "en_oneliner": "A free Destiny Matrix chart calculator that reads your birth date into a personal chart and relationship insights, no signup needed.",
   "en_title": "Destiny Matrix",
@@ -9148,6 +9154,12 @@
   "en_title": "Show HN: Prompt Upgrader – a no-signup tool that scores and rewrites AI prompts",
   "zh_oneliner": "给 AI 提示词打分并帮你改得更好，打开即用，不用注册。",
   "zh_title": "Prompt Upgrader：免注册的 AI 提示词评分与改写工具"
+ },
+ "https://magi-2.im": {
+  "en_oneliner": "Type a prompt or add an image to generate a 1080p video with synchronized sound, up to 30 seconds long.",
+  "en_title": "Magi-2 AI Video Generator",
+  "zh_oneliner": "写一句话或传一张图，就能生成带同步音效的 1080p 视频，最长 30 秒。",
+  "zh_title": "Magi-2：AI 视频生成器"
  },
  "https://magi2.video": {
   "en_oneliner": "Turn a prompt or an image into a 4–30 second video with the Magi-2 model, with first and last frames to steer the shot.",
@@ -16288,11 +16300,5 @@
   "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
   "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
   "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
- },
- "https://designbycurio.com": {
-  "en_title": "Curio: A Design Style Library for AI",
-  "en_oneliner": "Pick a design style, hand its DESIGN.md to your AI agent, and your site, deck or report gets dressed in seconds.",
-  "zh_title": "Curio：给 AI 智能体的设计风格库",
-  "zh_oneliner": "挑一种设计风格，把它的 DESIGN.md 发给 AI 智能体，网站、幻灯片和报告几秒钟就换上这套风格。"
  }
 }

@@ -461,6 +461,10 @@ BLOCKED_DOMAINS = {
     # 域名；FAQ 虽提到站内有视频生成器，但本轮链接指向的是 API 营销首页，
     # 点开不能直接用；若日后出现直达生成器的链接可再评估）
     "01router.com",
+    # 2026-11-27 05:07 PST 轮：bloque.run 是托管 MCP 网关平台（集中管理
+    # MCP 服务器、发 API key 供 AI 客户端调用，Playground 只是平台内测功
+    # 能），按 toklab.ai 纯 API 平台口径封整个域名
+    "bloque.run",
     "publishyoursaas.com", "listmaro.com", "secretpass.com",
     "myzucoins.org", "fundraisebase.com", "importz.fi", "gpt288.com",
     "pluginpeer.com", "alook.ai", "applylah.com", "fast.io",
