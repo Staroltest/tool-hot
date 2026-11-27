@@ -15970,5 +15970,23 @@
   "en_title": "AI Image to Image by PictCraft",
   "zh_oneliner": "上传照片、用一句话说出想改的地方，AI 只重绘你说的那一处，人物、构图和光线都原样保留。",
   "zh_title": "PictCraft：一句话改图的 AI 图片编辑器"
+ },
+ "https://ploid.com/?ref=producthunt": {
+  "en_oneliner": "A living index of over two billion people, built as a data layer for AI agents to search, research, and enrich — describe who you are looking for and get an evidence-backed list back.",
+  "en_title": "Ploid",
+  "zh_oneliner": "覆盖 20 亿人的实时人物索引，给 AI 智能体用的检索与补全数据层，描述一下要找谁就能拿到一份有据可查的人物清单。",
+  "zh_title": "Ploid：20 亿人的实时人物索引"
+ },
+ "https://onsetapp.in/?ref=producthunt": {
+  "en_oneliner": "Connect your YouTube channel and get a review 48 hours after every upload, comparing click-through and retention against your own average, then draft your next title, thumbnail, and video brief from what worked.",
+  "en_title": "Onset",
+  "zh_oneliner": "接上你的 YouTube 频道，每次发片 48 小时后对照你自己的平均数据复盘点击与留存，再按爆款的路子拟好下期标题、封面和拍摄提纲。",
+  "zh_title": "Onset：YouTube 创作者的复盘助手"
+ },
+ "https://handwritingtoocr.com": {
+  "en_oneliner": "Turn handwritten notes, photos, and scans into editable text — it reads messy cursive, math equations, and table layouts in over 170 languages, with 5 free pages for new users.",
+  "en_title": "Handwriting to OCR",
+  "zh_oneliner": "把手写笔记、照片和扫描件转成可编辑文字，连潦草字迹、数学公式和表格排版都能认，支持 170 多种语言，新用户免费转 5 页。",
+  "zh_title": "Handwriting to OCR：手写笔记转可编辑文字"
  }
 }

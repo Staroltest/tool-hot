@@ -1553,6 +1553,11 @@ BLOCKED_DOMAINS = {
     # 演示），按“需要下载安装/部署才能用”口径拦
     "dirfa.st",
     "psflow.io",
+    # contral.ai：Contral 是桌面 IDE（macOS/Windows/Linux 均须下载安装，
+    # 官网 FAQ 明确写“There is no web IDE yet”），另有 VS Code 扩展；
+    # 浏览器里点开只有营销页，没有能直接用的工具，按“需要下载安装
+    # 的不算”口径拦（2026-11-27 00:07 PST 轮：热点榜混入，实测确认）
+    "contral.ai",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
