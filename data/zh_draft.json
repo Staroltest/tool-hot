@@ -13505,6 +13505,12 @@
   "zh_oneliner": "下单之前先问一句：把东西、价格和理由发上去，让朋友们帮你拿主意。",
   "zh_title": "WalletWait：买前问问大家"
  },
+ "https://warblize.com": {
+  "en_oneliner": "Upload an EPUB or PDF manuscript, give each character a distinct AI voice, re-record line by line, and export audiobook files ready for stores.",
+  "en_title": "Warblize: Create Immersive Audiobooks",
+  "zh_oneliner": "上传 EPUB 或 PDF 书稿，给每个角色配上不同的 AI 声音，还能逐句修改重录，导出可直接上架的有声书文件。",
+  "zh_title": "Warblize：把书稿做成沉浸式有声书"
+ },
  "https://warmy.dev": {
   "en_oneliner": "Sends light periodic calls while you're away so Claude's prompt cache stays warm and there's no cold-start wait when you're back.",
   "en_title": "Show HN: Warmy – keeps Claude's prompt cache warm while you're away",
