@@ -16342,5 +16342,11 @@
   "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
   "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
   "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
+ },
+ "https://foxylab.ai": {
+  "en_title": "FoxyLab",
+  "en_oneliner": "Describe your product or paste a site link in chat, and it reads your brand, writes the script, records the voice, and renders videos and banner ads in every size.",
+  "zh_title": "FoxyLab：聊天里做 AI 视频和横幅广告",
+  "zh_oneliner": "在聊天框里描述产品或贴上网站链接，它就能读懂品牌、写脚本配音，并渲染出视频和各尺寸横幅广告。"
  }
 }
