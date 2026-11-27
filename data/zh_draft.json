@@ -16372,5 +16372,23 @@
   "en_oneliner": "A place-indexed search for Show HN projects — see what people near you are building.",
   "zh_title": "搜你附近的 HN 项目",
   "zh_oneliner": "按地点检索 Show HN 项目的地图工具，看看你家附近都有人在折腾什么。"
+ },
+ "https://flowmaps.ai": {
+  "en_title": "Flowmaps: The Logic Layer for Agents and Developers",
+  "en_oneliner": "Maps every flow in your codebase into plain-language steps that stay in sync with the code, so developers and AI agents work from the same understanding of the system.",
+  "zh_title": "Flowmaps：给开发者和 AI 智能体的代码逻辑层",
+  "zh_oneliner": "把代码库里的每条流程画成通俗易懂的步骤图，随代码更新自动同步，开发者和 AI 智能体都能照着同一张图理解系统。"
+ },
+ "https://costpertoken.vercel.app": {
+  "en_title": "CostPerToken: Rank LLM API Providers by Your Monthly Bill",
+  "en_oneliner": "Don't just compare per-token prices — enter your request volume and token usage and it ranks every provider of a model by what your month would actually cost, and emails you when a price drops.",
+  "zh_title": "CostPerToken：按月度账单给 LLM API 供应商排名",
+  "zh_oneliner": "别只看单价，输入你的调用量和 token 用量，它按整月账单给同一模型的所有供应商排个名，降价还会发邮件提醒你。"
+ },
+ "https://dragdropmath.com": {
+  "en_title": "DragDropMath: Learn Math by Feel",
+  "en_oneliner": "Turns math expressions into blocks you can drag around, building intuition for how operations work through hands-on lessons and practice instead of memorized rules.",
+  "zh_title": "DragDropMath：拖拽学数学，凭手感理解运算",
+  "zh_oneliner": "把数学式子变成可以拖来拖去的积木，从加减项的顺序练起，用手感而不是死记规则来理解运算。"
  }
 }
