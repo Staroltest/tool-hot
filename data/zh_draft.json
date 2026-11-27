@@ -977,6 +977,12 @@
   "zh_oneliner": "一篇通俗讲解人体免疫系统如何工作的文章，把复杂的免疫机制讲得明白易懂，适合对生物学感兴趣的普通读者。",
   "zh_title": "我们神奇的免疫系统"
  },
+ "https://bestmagi2.com": {
+  "en_oneliner": "Generate 1080p video from text, images or references, with dialogue, sound effects and music rendered in the same pass.",
+  "en_title": "Best MAGI-2: AI video generator with native sound",
+  "zh_oneliner": "用文字、图片或参考图生成带对白、音效和音乐的 1080p 视频，画面声音一次成型。",
+  "zh_title": "Best MAGI-2：带原生配音的 AI 视频生成器"
+ },
  "https://bethe.one/meet-higher-self-ai": {
   "en_oneliner": "Talk with an AI version of your higher self to reflect, plan, and check in — turning coaching conversations into a daily habit.",
   "en_title": "BE THE ONE",
@@ -1840,6 +1846,12 @@
   "en_title": "CostCal Pro: Selling Price Calculator",
   "zh_oneliner": "输入成本、手续费和目标利润，直接算出该卖多少钱，摆摊开店都用得上。",
   "zh_title": "CostCal Pro：售价利润计算器"
+ },
+ "https://costpertoken.vercel.app": {
+  "en_oneliner": "Don't just compare per-token prices — enter your request volume and token usage and it ranks every provider of a model by what your month would actually cost, and emails you when a price drops.",
+  "en_title": "CostPerToken: Rank LLM API Providers by Your Monthly Bill",
+  "zh_oneliner": "别只看单价，输入你的调用量和 token 用量，它按整月账单给同一模型的所有供应商排个名，降价还会发邮件提醒你。",
+  "zh_title": "CostPerToken：按月度账单给 LLM API 供应商排名"
  },
  "https://cpagm.co.uk/instant-quote": {
   "en_oneliner": "Get free guide prices for garden and exterior maintenance around Chester in a few clicks in your browser, no phone call needed.",
@@ -6221,6 +6233,12 @@
   "zh_oneliner": "把 AI 写的文字改得更像人手写，语气自然不生硬，免费就能用。",
   "zh_title": "DraftLikeYou：AI 文本拟人化工具"
  },
+ "https://dragdropmath.com": {
+  "en_oneliner": "Turns math expressions into blocks you can drag around, building intuition for how operations work through hands-on lessons and practice instead of memorized rules.",
+  "en_title": "DragDropMath: Learn Math by Feel",
+  "zh_oneliner": "把数学式子变成可以拖来拖去的积木，从加减项的顺序练起，用手感而不是死记规则来理解运算。",
+  "zh_title": "DragDropMath：拖拽学数学，凭手感理解运算"
+ },
  "https://drawingtoanimation.app": {
   "en_oneliner": "Turn a photo of a child's drawing into an eight-second animation, no prompt needed.",
   "en_title": "Drawing to Animation: Turn a Drawing into an Animation",
@@ -6821,6 +6839,12 @@
   "zh_oneliner": "用 AI 写出能直接商用的免版税歌曲，旋律歌词一次成型。",
   "zh_title": "FloatSong"
  },
+ "https://flowmaps.ai": {
+  "en_oneliner": "Maps every flow in your codebase into plain-language steps that stay in sync with the code, so developers and AI agents work from the same understanding of the system.",
+  "en_title": "Flowmaps: The Logic Layer for Agents and Developers",
+  "zh_oneliner": "把代码库里的每条流程画成通俗易懂的步骤图，随代码更新自动同步，开发者和 AI 智能体都能照着同一张图理解系统。",
+  "zh_title": "Flowmaps：给开发者和 AI 智能体的代码逻辑层"
+ },
  "https://floxolab.com/sitemap-checker": {
   "en_oneliner": "A free checker that scans your XML sitemap and flags indexing issues — paste a URL and get the report.",
   "en_title": "Floxolab Sitemap Checker: Free XML Sitemap Checker",
@@ -6946,6 +6970,12 @@
   "en_title": "Building a Company Without Losing Your Marriage",
   "zh_oneliner": "一篇创始人访谈，聊创业对婚姻的冲击，以及怎么在公司和家庭之间找到平衡。",
   "zh_title": "创业而不丢掉婚姻"
+ },
+ "https://foxylab.ai": {
+  "en_oneliner": "Describe your product or paste a site link in chat, and it reads your brand, writes the script, records the voice, and renders videos and banner ads in every size.",
+  "en_title": "FoxyLab",
+  "zh_oneliner": "在聊天框里描述产品或贴上网站链接，它就能读懂品牌、写脚本配音，并渲染出视频和各尺寸横幅广告。",
+  "zh_title": "FoxyLab：聊天里做 AI 视频和横幅广告"
  },
  "https://framegloss.app": {
   "en_oneliner": "Polish screen recordings in the browser with zooms, callouts, and captions, and turn them into launch-ready product demos in 60 seconds — nothing is uploaded.",
@@ -8645,6 +8675,12 @@
   "zh_oneliner": "访客管理与会议智能平台：大堂签到、到访提醒、会议室看板和 Teams 会议记录集成在一个平台里。",
   "zh_title": "Kahrbon"
  },
+ "https://kanadash.com/?hiragana=all": {
+  "en_oneliner": "A free online drill for hiragana and katakana: quiz yourself by row, race the clock, and practice stroke order and real sentences.",
+  "en_title": "Kana Dash: hiragana and katakana practice",
+  "zh_oneliner": "练五十音的免费在线测验：按行抽查假名读音，计时计分，还能练笔顺和读课文句子。",
+  "zh_title": "Kana Dash：五十音假名练习"
+ },
  "https://kaomojihub.org": {
   "en_oneliner": "Search kaomoji and copy them in one click — handy for chats and posts that need a cute touch.",
   "en_title": "KaomojiHub",
@@ -9928,6 +9964,12 @@
   "en_title": "Nexuro AI",
   "zh_oneliner": "拿自己的内容几分钟搭一个 AI 聊天机器人，访客提问它照着你的资料回答。",
   "zh_title": "Nexuro AI：用自己的内容做聊天机器人"
+ },
+ "https://nhn.alexvd.dev": {
+  "en_oneliner": "A place-indexed search for Show HN projects — see what people near you are building.",
+  "en_title": "Find HN projects near you",
+  "zh_oneliner": "按地点检索 Show HN 项目的地图工具，看看你家附近都有人在折腾什么。",
+  "zh_title": "搜你附近的 HN 项目"
  },
  "https://nhstakehomecalculator.co.uk": {
   "en_oneliner": "A free pay calculator for NHS staff that shows take-home pay after tax, NI, pension and student loan deductions.",
@@ -11825,6 +11867,12 @@
   "zh_oneliner": "27 个音频工具全在浏览器里本地运行，AI 去人声、格式转换、转写、变速变调都不用上传文件。",
   "zh_title": "SoundBench：浏览器里的免费音频工具箱"
  },
+ "https://soundetch.org": {
+  "en_oneliner": "An open source podcast and media editor that runs entirely in the browser — open it and start cutting, no install needed.",
+  "en_title": "SoundEtch: open source podcast/media editor for the browser",
+  "zh_oneliner": "在浏览器里直接剪播客和媒体的开源编辑器，不用安装，打开就能剪。",
+  "zh_title": "SoundEtch：浏览器里的开源播客/媒体编辑器"
+ },
  "https://spa-mvc-pages.duckdns.org/wordmap": {
   "en_oneliner": "WordNet drawn as an explorable mind map — look up a word and follow its meanings outward through linked ideas.",
   "en_title": "Show HN: Wordmap – WordNet but it's a mind-map",
@@ -13043,6 +13091,12 @@
   "zh_oneliner": "101 个 CVE 的已验证缓解方案注册表，每个都说明拦住了哪条攻击路径、实测效果如何，边看边对照自己的系统。",
   "zh_title": "upatch.dev：每个 CVE 的已验证缓解措施"
  },
+ "https://uplytics.si": {
+  "en_oneliner": "Uptime monitoring, cookie-free visitor analytics, and business data like payments and signups in a single dashboard, alerting you the moment a site goes down.",
+  "en_title": "Uplytics: Uptime Monitoring, Cookie-Free Analytics and Business Data in One Dashboard",
+  "zh_oneliner": "把宕机监控、无 Cookie 访客分析和支付、注册等业务数据收进同一个仪表盘，网站一出状况就立刻提醒你。",
+  "zh_title": "Uplytics：网站监控、无 Cookie 分析与业务数据合一"
+ },
  "https://upronix.dev": {
   "en_oneliner": "Monitor your site's uptime for free and build a visual status page to show it off.",
   "en_title": "Upronix – Free uptime monitoring and visual status page builder",
@@ -13060,6 +13114,12 @@
   "en_title": "Beck",
   "zh_oneliner": "项目、任务、日历、客户审稿都放在一个工作区里，14 天免费试用。",
   "zh_title": "Beck 项目管理"
+ },
+ "https://usecodela.com": {
+  "en_oneliner": "After every deploy it checks your monitoring for slowdowns or new errors and writes the lesson into your repo, so Claude Code, Cursor and Codex read it before touching that code again and never repeat the same production mistake.",
+  "en_title": "Codela: Production Memory for AI Coding Agents",
+  "zh_oneliner": "每次部署后对照监控检查变慢或新报错，把教训写进仓库，Claude Code、Cursor、Codex 下次改这块代码前先读到，不再重复踩同一个生产事故。",
+  "zh_title": "Codela：给 AI 编程助手记生产教训的记忆层"
  },
  "https://usecropdesk.com": {
   "en_oneliner": "Free online photo, PDF and document tools — compress photos, make passport photos, merge and sign PDFs — files stay on your device.",
@@ -16342,59 +16402,5 @@
   "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
   "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
   "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
- },
- "https://foxylab.ai": {
-  "en_title": "FoxyLab",
-  "en_oneliner": "Describe your product or paste a site link in chat, and it reads your brand, writes the script, records the voice, and renders videos and banner ads in every size.",
-  "zh_title": "FoxyLab：聊天里做 AI 视频和横幅广告",
-  "zh_oneliner": "在聊天框里描述产品或贴上网站链接，它就能读懂品牌、写脚本配音，并渲染出视频和各尺寸横幅广告。"
- },
- "https://soundetch.org": {
-  "en_title": "SoundEtch: open source podcast/media editor for the browser",
-  "en_oneliner": "An open source podcast and media editor that runs entirely in the browser — open it and start cutting, no install needed.",
-  "zh_title": "SoundEtch：浏览器里的开源播客/媒体编辑器",
-  "zh_oneliner": "在浏览器里直接剪播客和媒体的开源编辑器，不用安装，打开就能剪。"
- },
- "https://bestmagi2.com": {
-  "en_title": "Best MAGI-2: AI video generator with native sound",
-  "en_oneliner": "Generate 1080p video from text, images or references, with dialogue, sound effects and music rendered in the same pass.",
-  "zh_title": "Best MAGI-2：带原生配音的 AI 视频生成器",
-  "zh_oneliner": "用文字、图片或参考图生成带对白、音效和音乐的 1080p 视频，画面声音一次成型。"
- },
- "https://kanadash.com/?hiragana=all": {
-  "en_title": "Kana Dash: hiragana and katakana practice",
-  "en_oneliner": "A free online drill for hiragana and katakana: quiz yourself by row, race the clock, and practice stroke order and real sentences.",
-  "zh_title": "Kana Dash：五十音假名练习",
-  "zh_oneliner": "练五十音的免费在线测验：按行抽查假名读音，计时计分，还能练笔顺和读课文句子。"
- },
- "https://nhn.alexvd.dev": {
-  "en_title": "Find HN projects near you",
-  "en_oneliner": "A place-indexed search for Show HN projects — see what people near you are building.",
-  "zh_title": "搜你附近的 HN 项目",
-  "zh_oneliner": "按地点检索 Show HN 项目的地图工具，看看你家附近都有人在折腾什么。"
- },
- "https://flowmaps.ai": {
-  "en_title": "Flowmaps: The Logic Layer for Agents and Developers",
-  "en_oneliner": "Maps every flow in your codebase into plain-language steps that stay in sync with the code, so developers and AI agents work from the same understanding of the system.",
-  "zh_title": "Flowmaps：给开发者和 AI 智能体的代码逻辑层",
-  "zh_oneliner": "把代码库里的每条流程画成通俗易懂的步骤图，随代码更新自动同步，开发者和 AI 智能体都能照着同一张图理解系统。"
- },
- "https://costpertoken.vercel.app": {
-  "en_title": "CostPerToken: Rank LLM API Providers by Your Monthly Bill",
-  "en_oneliner": "Don't just compare per-token prices — enter your request volume and token usage and it ranks every provider of a model by what your month would actually cost, and emails you when a price drops.",
-  "zh_title": "CostPerToken：按月度账单给 LLM API 供应商排名",
-  "zh_oneliner": "别只看单价，输入你的调用量和 token 用量，它按整月账单给同一模型的所有供应商排个名，降价还会发邮件提醒你。"
- },
- "https://dragdropmath.com": {
-  "en_title": "DragDropMath: Learn Math by Feel",
-  "en_oneliner": "Turns math expressions into blocks you can drag around, building intuition for how operations work through hands-on lessons and practice instead of memorized rules.",
-  "zh_title": "DragDropMath：拖拽学数学，凭手感理解运算",
-  "zh_oneliner": "把数学式子变成可以拖来拖去的积木，从加减项的顺序练起，用手感而不是死记规则来理解运算。"
- },
- "https://uplytics.si": {
-  "zh_title": "Uplytics：网站监控、无 Cookie 分析与业务数据合一",
-  "zh_oneliner": "把宕机监控、无 Cookie 访客分析和支付、注册等业务数据收进同一个仪表盘，网站一出状况就立刻提醒你。",
-  "en_title": "Uplytics: Uptime Monitoring, Cookie-Free Analytics and Business Data in One Dashboard",
-  "en_oneliner": "Uptime monitoring, cookie-free visitor analytics, and business data like payments and signups in a single dashboard, alerting you the moment a site goes down."
  }
 }

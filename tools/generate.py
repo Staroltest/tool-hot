@@ -1860,6 +1860,25 @@ BLOCKED_EXACT = {
     # 身，不是工具功能；整站就是这一个竞技场，只拦这一 host
     "tinyai.run",
     "www.tinyai.run",
+    # 2026-11-28 04:37 CST 轮热点榜自查补封（浏览器实测确认）：
+    # spawn.co 是游戏创作/分享平台，The Velvet Point（www.spawn.co/
+    # @ilkkah/the-velvet-point）是雨夜西洋双陆棋俱乐部（和真人/AI 房主
+    # 玩双陆棋、赢筹码），纯游戏，按游戏口径一律拦；标题门同步加
+    # backgammon 规则；平台上全是游戏，根域与 www 一起封；
+    # smartdrugs.com.br 是巴西益智药（nootropics）内容站：109 个物质
+    # 档案是带来源的科普长文，首页就是档案目录，工具（剂量计算器、
+    # 相互作用检查等）只是附属栏目，链到的根地址本身是内容站不是工具，
+    # 按“不收文章/内容站”口径拦；整站就是这一个内容站，根域与 www
+    # 一起封；sms-verification-number.com 是短信验证号租赁售卖页
+    # （“Buy a phone number for SMS verification”、充值余额按条付费租
+    # 20 分钟号码），点开是销售页不是能直接用的工具，按售卖页先例拦；
+    # 整站就是这一个售卖服务，根域与 www 一起封
+    "spawn.co",
+    "www.spawn.co",
+    "smartdrugs.com.br",
+    "www.smartdrugs.com.br",
+    "sms-verification-number.com",
+    "www.sms-verification-number.com",
 }
 # 精确链接封禁（只拦这一条完整链接，不拦整个域名；与 BLOCKED_EXACT
 # 按 host 封禁不同，这里是按 norm_link 后的完整链接精确匹配）：
@@ -1869,6 +1888,12 @@ BLOCKED_EXACT = {
 # 本身正常，Margeux 工具（margeux.com/studio.html）仍可收，所以只拦
 # 这一条链接，绝不封 margeux.com 整个域名
 BLOCKED_URLS = {
+    # 2026-11-28 04:37 CST 轮人工抽查封禁：After Proof
+    #（labs.opentangle.com/after-proof）是“数学新发现故事”的免费有声书
+    # 与电子书，点开是听书房（JS 空壳页、“Loading the listening room…”），
+    # 内容本身就是书/音频，不是能直接用的工具，按“不收文章/内容”口径拦；
+    # 标题门同步加 audiobook 规则；只拦这一条链接，不封整个域名
+    "https://labs.opentangle.com/after-proof",
     # 2026-11-28 03:37 CST 轮人工抽查封禁：Journey To Europa
     #（journeytoeuropa.com）是关于欧罗巴快船任务的互动 3D 叙事页，
     # 点开只能看任务故事的可视化，没有能直接用的工具功能，属于互动
@@ -3037,6 +3062,20 @@ _TITLE_BLOCK_RES = [
         # （Wipeout 风格迷你赛车、TEB RUN 街机赛车、Paper Sky Rally），0 误伤；
         # 链接门同步封 paperskyrally.com）
         r"\bracer\b",
+        # “backgammon”（如“Show HN: A free browser backgammon club,
+        # gnubg's net under the hood”）：西洋双陆棋就是棋类游戏，网页工具
+        # 标题里不会出现
+        # （2026-11-28 04:37 CST 轮：The Velvet Point 纯双陆棋游戏混入
+        # 热点榜；离线验过全库 5499 条在库条目，只拦这一条，0 误伤；
+        # 域名门同步封 spawn.co）
+        r"\bbackgammon\b",
+        # “audiobook”（如“Show HN: Free audiobook and eBook with the story
+        # of recent discoveries in math”）：有声书本身是音频内容，不是能
+        # 直接用的工具，网页工具标题里不会出现
+        # （2026-11-28 04:37 CST 轮：After Proof 有声书/电子书混入热点榜；
+        # 离线验过全库 5499 条在库条目，只拦这一条，0 误伤；链接门同步封
+        # labs.opentangle.com/after-proof）
+        r"\baudiobook\b",
         # “a game about …”（如“Show HN: End User, a game about smuggling
         # AI chips past export controls”）：标题自认是游戏，网页工具标题里
         # 不会出现
