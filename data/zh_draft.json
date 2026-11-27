@@ -15988,5 +15988,11 @@
   "en_title": "Handwriting to OCR",
   "zh_oneliner": "把手写笔记、照片和扫描件转成可编辑文字，连潦草字迹、数学公式和表格排版都能认，支持 170 多种语言，新用户免费转 5 页。",
   "zh_title": "Handwriting to OCR：手写笔记转可编辑文字"
+ },
+ "https://depost.ai/?ref=producthunt": {
+  "en_oneliner": "An AI agent that learns your brand voice, past posts, and knowledge base, then drafts, designs, schedules, and publishes LinkedIn content in your style — the more you use it, the more it sounds like you.",
+  "en_title": "Depost AI",
+  "zh_oneliner": "记住你品牌的语气、过往帖子和知识库，自动分析、起草、配图、排期并发布 LinkedIn 内容，越用越像你自己写的。",
+  "zh_title": "Depost AI：越用越懂你品牌的 LinkedIn 发帖助手"
  }
 }

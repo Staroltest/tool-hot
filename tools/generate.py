@@ -1558,6 +1558,12 @@ BLOCKED_DOMAINS = {
     # 浏览器里点开只有营销页，没有能直接用的工具，按“需要下载安装
     # 的不算”口径拦（2026-11-27 00:07 PST 轮：热点榜混入，实测确认）
     "contral.ai",
+    # groundsocial.dev：纯社交数据 API 平台（一个 API key 调 77 个平台的
+    # 帖子/评论/画像数据，REST/MCP + 按量计费），点开是 API 营销页、浏览
+    # 器里没有能直接用的工具，按“纯 API 平台不收”口径拦，与此前已封的
+    # TokLab、modelflare.dev、proofable.me、voxoria.ai 同类
+    # （2026-11-27 16:37 CST 轮：热点榜第 1 条混入，实测确认）
+    "groundsocial.dev",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
