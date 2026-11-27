@@ -1799,6 +1799,12 @@
   "zh_oneliner": "免费的在线内容感知缩放，改图片尺寸时自动保住主体，不用装 Photoshop。",
   "zh_title": "Content Aware Scale：内容感知缩放"
  },
+ "https://controlata.com": {
+  "en_oneliner": "An inventory management system for manufacturers that tracks stock in real time, plans production, calculates costs and manages purchasing and sales, all in the browser.",
+  "en_title": "Controlata: Cloud Inventory Management for Manufacturers",
+  "zh_oneliner": "面向制造企业的库存管理工具，实时看库存、排生产、算成本，还能管采购销售与多仓库，全程在浏览器里操作。",
+  "zh_title": "Controlata：给制造企业的云端库存管理系统"
+ },
  "https://conversaflex.com/?ref=producthunt": {
   "en_oneliner": "AI speaking practice for corporate teams: rehearse real workplace conversations in French, English or Spanish, with progress tracking for HR.",
   "en_title": "Conversaflex",
@@ -6838,6 +6844,12 @@
   "en_title": "FocusHours",
   "zh_oneliner": "给副业项目记每周专注时长，数据只存在本地，打开浏览器就能记。",
   "zh_title": "FocusHours：每周专注时长追踪"
+ },
+ "https://folio-eta-bay-59.vercel.app": {
+  "en_oneliner": "A free notes app that saves every note as a text file in your own Google Drive, and lets ChatGPT, Claude or Codex read and edit your notes on request.",
+  "en_title": "Folio: Notes That Live in Your Google Drive, Editable by Your AI",
+  "zh_oneliner": "免费记笔记工具，每条笔记就是你 Drive 里的一份文本文件，接上 ChatGPT、Claude 或 Codex 后直接开口让 AI 帮你读写修改。",
+  "zh_title": "Folio：笔记存进自己的 Google Drive，还能叫 AI 来改"
  },
  "https://followerfuel.site": {
   "en_oneliner": "24 social media utilities in one place with no signup — quick help for formatting, counts, and everyday creator chores.",
@@ -13691,6 +13703,12 @@
   "zh_oneliner": "一个实时旋转的地球仪，游戏开发者每推一次代码就亮一个点，过去一小时的动态一目了然。",
   "zh_title": "Worldspace：实时看全球游戏开发者的 GitHub 推送"
  },
+ "https://wots.io": {
+  "en_oneliner": "Name a few places you love and it finds people who share your taste, then shows their other favourites on your map in every city.",
+  "en_title": "Wots: Restaurant Picks from People with Your Taste",
+  "zh_oneliner": "说出几家你喜欢的餐厅，它就找出和你口味相投的人，把他们在各个城市的心头好标到你的地图上。",
+  "zh_title": "Wots：找和你口味一样的人推荐餐厅"
+ },
  "https://wreg.com/news/chemical-spills-into-drainage-ditch-at-spacexai-in-southaven": {
   "en_oneliner": "A chemical spill at the SpaceXAI facility in Southaven flowed into a drainage ditch, according to local news coverage.",
   "en_title": "Chemical spills into drainage ditch at SpaceXAI in Southaven",
@@ -16240,6 +16258,12 @@
   "en_title": "You Never Let Her Pay",
   "zh_oneliner": "AI 视频梗：这顿晚餐绝不能让她买单，主角换成你也一样成立。",
   "zh_title": "You Never Let Her Pay：晚餐买单梗视频"
+ },
+ "https://youraitimelines.com": {
+  "en_oneliner": "Place your bets on when major AI and math breakthroughs will happen, from IMO gold to the Riemann Hypothesis, and compare them against Scott Aaronson's predictions.",
+  "en_title": "Your AI Timelines: Bet AI and Math Breakthroughs on a Timeline",
+  "zh_oneliner": "在一条时间线上押注 AI 与数学重大突破何时发生，从 IMO 金牌到黎曼猜想，再和 Scott Aaronson 的预测当面对照。",
+  "zh_title": "Your AI Timelines：把 AI 与数学突破押上时间线"
  },
  "https://youtweaking.com": {
   "en_oneliner": "Make a two-photo conversation meme in seconds and download the PNG — ready to drop into the group chat.",

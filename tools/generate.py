@@ -1862,6 +1862,12 @@ BLOCKED_EXACT = {
 # 本身正常，Margeux 工具（margeux.com/studio.html）仍可收，所以只拦
 # 这一条链接，绝不封 margeux.com 整个域名
 BLOCKED_URLS = {
+    # 2026-11-27 23:07 CST 轮人工抽查封禁：Paper Sky Rally（paperskyrally.com）
+    # 是免费多人纸飞机竞速游戏（12 条赛道、赢比赛赚积分、特技回充加速），
+    # 首页自述“a free paper plane racing game”，纯游戏，按游戏口径一律拦；
+    # 标题门同步加 racer 规则；只拦这一条链接，不封整个域名
+    "https://paperskyrally.com",
+    "https://www.paperskyrally.com",
     # 2026-11-27 22:07 CST 轮人工抽查封禁：Teach Your Kid Electronics
     #（teachyourkidelectronics.com）是手把手教家长和孩子搭面包板电路
     # 的分步教程站（初级/中级/高级共 30 多个实体搭建项目，附零件清单、
@@ -2987,6 +2993,14 @@ _TITLE_BLOCK_RES = [
         # （2026-11-27 08:07 CST 轮：Isekai Boys 已进热点榜；离线验过
         # 全库 5313 条在库条目，只拦这一条，0 误伤；链接门同步封 i.0oat.com）
         r"\botome game\b",
+        # “racer”（如“Show HN: Paper Sky Rally – a multiplayer paper-plane
+        # racer in the browser”）：赛车/竞速游戏的明确说法，网页工具标题里
+        # 不会出现
+        # （2026-11-27 23:07 CST 轮：Paper Sky Rally 纯纸飞机竞速游戏混入
+        # 热点榜；离线验过全库 5459 条在库条目，标题命中 3 条全是纯竞速游戏
+        # （Wipeout 风格迷你赛车、TEB RUN 街机赛车、Paper Sky Rally），0 误伤；
+        # 链接门同步封 paperskyrally.com）
+        r"\bracer\b",
         # “a game about …”（如“Show HN: End User, a game about smuggling
         # AI chips past export controls”）：标题自认是游戏，网页工具标题里
         # 不会出现
