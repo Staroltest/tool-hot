@@ -16408,5 +16408,11 @@
   "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
   "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
   "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
+ },
+ "https://statusmeter.web.app": {
+  "en_title": "StatusMeter: Anonymous real-time status generator for anything",
+  "en_oneliner": "Create a status page, get a QR code and password, stick it on a door or share it — update the status anytime, no sign-up, no name attached.",
+  "zh_title": "StatusMeter：给任何东西做匿名实时状态牌",
+  "zh_oneliner": "建一个状态页，拿到二维码和密码，贴在门口或发给别人，状态随时改，不用注册也不留名。"
  }
 }
