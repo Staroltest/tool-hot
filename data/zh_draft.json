@@ -16252,5 +16252,17 @@
     "en_oneliner": "Type a disease to see its approved medicines, ongoing trials and new research clues — for learning and research, not medical advice.",
     "zh_title": "Show HN：Moonlight：查疾病的获批药物与临床试验",
     "zh_oneliner": "输入疾病名称，就能查到已获批的药物、正在进行的临床试验和最新研究线索，仅供学习参考，不能代替医嘱。"
+  },
+  "https://www.crewworks.kr": {
+    "en_oneliner": "Clock in from phone or PC, track work hours, and handle corrections and approvals — attendance and groupware for teams in one place.",
+    "en_title": "CrewWorks AI",
+    "zh_oneliner": "手机电脑都能打卡，工时统计、考勤修正和电子审批一站搞定，是团队协同办公的好帮手。",
+    "zh_title": "CrewWorks AI：团队考勤与协同办公工具"
+  },
+  "https://wespeakenglish.github.io/VisualGerber": {
+    "en_oneliner": "Open Gerber files right in the browser to view them in 3D, compare revisions, and run fab checks before sending boards to production.",
+    "en_title": "Gerber 3D – view, compare and fab-check PCB files in the browser",
+    "zh_oneliner": "直接在浏览器里打开 Gerber 文件，看 3D 渲染、比对版本，还能在打板前做可制造性检查。",
+    "zh_title": "Gerber 3D：浏览器里查看比对 PCB 文件"
   }
 }
