@@ -1869,6 +1869,16 @@ BLOCKED_EXACT = {
 # 本身正常，Margeux 工具（margeux.com/studio.html）仍可收，所以只拦
 # 这一条链接，绝不封 margeux.com 整个域名
 BLOCKED_URLS = {
+    # 2026-11-28 01:07 CST 轮人工抽查封禁：GPT Plays Civilization
+    #（civ-bot.varchas.fyi）是看语言模型打《文明》游戏的研究展示站，
+    # 点开只能看对局回放和统计，没有能直接用的工具，纯游戏内容，按游
+    # 戏口径一律拦；King − Man（kingminusman.com）是每日词向量类比猜
+    # 词谜游戏（king − man + woman = queen，每天 10 局），纯游戏，按
+    # 游戏口径一律拦；两站整个域名就是游戏，www 与非 www 各拦一条
+    "https://civ-bot.varchas.fyi",
+    "https://www.civ-bot.varchas.fyi",
+    "https://kingminusman.com",
+    "https://www.kingminusman.com",
     # 2026-11-27 23:07 CST 轮人工抽查封禁：Paper Sky Rally（paperskyrally.com）
     # 是免费多人纸飞机竞速游戏（12 条赛道、赢比赛赚积分、特技回充加速），
     # 首页自述“a free paper plane racing game”，纯游戏，按游戏口径一律拦；

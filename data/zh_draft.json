@@ -16348,5 +16348,29 @@
   "en_oneliner": "Describe your product or paste a site link in chat, and it reads your brand, writes the script, records the voice, and renders videos and banner ads in every size.",
   "zh_title": "FoxyLab：聊天里做 AI 视频和横幅广告",
   "zh_oneliner": "在聊天框里描述产品或贴上网站链接，它就能读懂品牌、写脚本配音，并渲染出视频和各尺寸横幅广告。"
+ },
+ "https://soundetch.org": {
+  "en_title": "SoundEtch: open source podcast/media editor for the browser",
+  "en_oneliner": "An open source podcast and media editor that runs entirely in the browser — open it and start cutting, no install needed.",
+  "zh_title": "SoundEtch：浏览器里的开源播客/媒体编辑器",
+  "zh_oneliner": "在浏览器里直接剪播客和媒体的开源编辑器，不用安装，打开就能剪。"
+ },
+ "https://bestmagi2.com": {
+  "en_title": "Best MAGI-2: AI video generator with native sound",
+  "en_oneliner": "Generate 1080p video from text, images or references, with dialogue, sound effects and music rendered in the same pass.",
+  "zh_title": "Best MAGI-2：带原生配音的 AI 视频生成器",
+  "zh_oneliner": "用文字、图片或参考图生成带对白、音效和音乐的 1080p 视频，画面声音一次成型。"
+ },
+ "https://kanadash.com/?hiragana=all": {
+  "en_title": "Kana Dash: hiragana and katakana practice",
+  "en_oneliner": "A free online drill for hiragana and katakana: quiz yourself by row, race the clock, and practice stroke order and real sentences.",
+  "zh_title": "Kana Dash：五十音假名练习",
+  "zh_oneliner": "练五十音的免费在线测验：按行抽查假名读音，计时计分，还能练笔顺和读课文句子。"
+ },
+ "https://nhn.alexvd.dev": {
+  "en_title": "Find HN projects near you",
+  "en_oneliner": "A place-indexed search for Show HN projects — see what people near you are building.",
+  "zh_title": "搜你附近的 HN 项目",
+  "zh_oneliner": "按地点检索 Show HN 项目的地图工具，看看你家附近都有人在折腾什么。"
  }
 }
