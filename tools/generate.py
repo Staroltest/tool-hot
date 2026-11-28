@@ -366,6 +366,22 @@ BLOCKED_DOMAINS = {
     # 倾诉对话、日记），是陪伴娱乐型聊天应用不是任务工具
     # （2026-11-25 15:07 CST 轮：当日时间线混入，实测确认）
     "good-morning-gorgeous.pages.dev",
+    # machinerylearning.eu：交互式指南站（“How AI like ChatGPT works,
+    # explained”，分章讲解、每章标阅读时长，“This guide explains it from
+    # the ground up”），是阅读型讲解内容不是能直接用的工具；标题门同步加
+    # interactive guide 规则
+    # （2026-11-28 19:07 CST 轮：热点榜第 1 条混入，浏览器实测确认）
+    "machinerylearning.eu",
+    # damn.academy：在线学习平台（“A learning platform…with professions
+    # and courses”，DevOps 工程师课程、理论+考试），是课程站不是能直接用
+    # 的工具；标题门同步加 open source course 规则
+    # （2026-11-28 19:07 CST 轮：热点榜第 4 条混入，浏览器实测确认）
+    "damn.academy",
+    # studio.sinapsdata.com.br：AI 智能体治理免费互动课程站（标题自述
+    # “A free interactive course on AI agent governance”），是课程不是
+    # 能直接用的工具；标题门同步加 interactive course 规则
+    # （2026-11-28 19:07 CST 轮：当日时间线混入，标题自述确认）
+    "studio.sinapsdata.com.br",
     "nytimes.com", "theguardian.com", "reuters.com", "washingtonpost.com",
     "cnn.com", "bbc.com", "bbc.co.uk", "economist.com", "ft.com", "wsj.com",
     "theatlantic.com", "newyorker.com", "thehill.com", "cnbc.com",
@@ -3251,6 +3267,30 @@ _TITLE_BLOCK_RES = [
         # 全库 5512 条在库条目，命中 2 条全是纯游戏（Far Worlds 体素
         # RPG、求职主题 RPG），0 误伤；链接门同步封 farworlds.com/play）
         r"\brpg\b",
+        # “interactive guide”（如“Show HN: Machinery Learning – an
+        # interactive guide to how LLMs work”）：交互式指南是分章讲解的
+        # 阅读内容，不是能直接用的工具，网页工具标题里不会出现
+        # （2026-11-28 19:07 CST 轮：Machinery Learning 已进热点榜第 1
+        # 条，浏览器实测确认是指南站；离线验过全库 5612 条在库条目，命中
+        # 3 条全是交互式指南（另两条是 What is localhost? 与 Scalar
+        # codebook quantization 博客文，均未在榜），在榜条目只多拦这一条，
+        # 0 误伤；域名门同步封 machinerylearning.eu）
+        r"\binteractive guide\b",
+        # “interactive course”（如“Show HN: A free interactive course on
+        # AI agent governance”）：互动课程是教学内容不是能直接用的工具，
+        # 网页工具标题里不会出现
+        # （2026-11-28 19:07 CST 轮：该条已进当日时间线；离线验过全库
+        # 5612 条在库条目，只拦这一条，0 误伤；域名门同步封
+        # studio.sinapsdata.com.br）
+        r"\binteractive course\b",
+        # “open source course”（如“Show HN: Started open source course
+        # for DevOps engineers with open governance”）：开源课程是教学内容
+        # 不是能直接用的工具，网页工具标题里不会出现；不用裸 course——
+        # 课程规划类工具标题里也可能出现 course
+        # （2026-11-28 19:07 CST 轮：damn.academy 已进热点榜第 4 条，
+        # 浏览器实测确认是学习平台；离线验过全库 5612 条在库条目，只拦
+        # 这一条，0 误伤；域名门同步封 damn.academy）
+        r"\bopen source course\b",
     )
 ]
 

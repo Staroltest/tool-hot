@@ -16726,5 +16726,17 @@
     "zh_title": "Voicehook：语音回复编码助手",
     "zh_oneliner": "编码助手在等你确认时直接语音告诉你，不用盯着屏幕也能开口回答、继续干活。",
     "en_oneliner": "Get a voice nudge when your coding agent is waiting on you, and answer by voice without watching the screen."
+  },
+  "https://voidwear.app": {
+    "en_title": "Voidwear",
+    "zh_title": "Voidwear：AI 幽灵模特，服装照片一键变商品图",
+    "zh_oneliner": "上传一张服装照片，AI 一分钟左右就能生成干净整洁的电商商品图，不用摄影棚也不用学 Photoshop。",
+    "en_oneliner": "Upload a clothing photo and AI turns it into a clean, store-ready product image in about a minute — no studio setup or Photoshop skills needed."
+  },
+  "https://www.onestoplinkedin.com/reddit-reply-generator": {
+    "en_title": "Show HN: I built a tool that helps in marketing on Reddit without getting banned",
+    "zh_title": "Reddit 回复生成器：营销推广不怕被封号",
+    "zh_oneliner": "帮你生成自然不违规的 Reddit 回复，做营销推广也不怕被封号。",
+    "en_oneliner": "Generates natural, rule-friendly Reddit replies so you can promote without getting banned."
   }
 }
