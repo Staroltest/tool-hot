@@ -584,6 +584,12 @@ BLOCKED_DOMAINS = {
     # Playground 须注册后在控制台里试模型，首页本身不是点开能用
     # 的工具；同已封的 TokLab、01router 等纯 API 平台，域名封禁）
     "flatkey.ai",
+    # 2026-11-28 12:37 CST 轮：SonoJS API 是免费 Fake REST API 平台
+    # （"Free fake REST APIs with live JSON"、十个共享演示数据集，
+    # 供前端开发调 API 做原型；站内 Playground 只是 API 测试台，
+    # 产品本身是 API 端点而非浏览器里直接用的工具；同已封的
+    # TokLab、01router、bloque.run、flatkey.ai 等纯 API 平台，域名封禁）
+    "sonojs.com",
     # 2026-11-24 06:37 CST 轮：Everything Is Outdated
     # （everythingisoutdated.dev）是标题自带 (Game) 的终端主题纯游戏，
     # 按游戏口径（纯游戏一律拦）封禁；整站即游戏，域名封禁
