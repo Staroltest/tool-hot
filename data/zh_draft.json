@@ -1247,6 +1247,12 @@
     "zh_oneliner": "给静态网站接表单不用写后端代码，生成一个表单 ID、把 HTML 表单指过去就能收提交，自带反垃圾、邮件与 Discord 通知，还有给 AI 助手用的 MCP 服务。",
     "zh_title": "BootForm：不用注册就能用的静态站表单后端"
   },
+  "https://bouquetgram.com": {
+    "en_oneliner": "Build a digital bouquet that blooms when opened, and send it to someone as a simple link.",
+    "en_title": "Bouquetgram",
+    "zh_oneliner": "做一束会绽放的数字花束，发一条链接就能送给对方，点开即见花开。",
+    "zh_title": "Bouquetgram：链接送花"
+  },
   "https://boxrouter.ai": {
     "en_oneliner": "One integration routes agent sandboxes and compute jobs to the best-fitting provider by price or speed, with coding agents and GitHub Actions runners ready to go.",
     "en_title": "BoxRouter – One Router for Agent Sandboxes and Compute",
@@ -6869,6 +6875,12 @@
     "zh_oneliner": "输入一个行业或商家，就能找到竞争对手并放在一个工作区里比评分、定位、定价与口碑。",
     "zh_title": "FindRivals：免费竞品查找与分析工具"
   },
+  "https://firstreport.cc": {
+    "en_oneliner": "Tracks breaking news across outlets, showing who published first and each outlet's bias on a publication timeline.",
+    "en_title": "First Report",
+    "zh_oneliner": "追踪突发新闻在各家媒体的发布时间线，并标注每家媒体的立场倾向，帮你一眼看清消息源头。",
+    "zh_title": "First Report"
+  },
   "https://fizzler.ai": {
     "en_oneliner": "Plug it into your AI agent and, for open-ended questions, it first offers a few real things from other worlds so the answer escapes the obvious.",
     "en_title": "Show HN: Fizzler – a simple tool that pulls agents out of defaultthink",
@@ -9275,6 +9287,12 @@
     "zh_oneliner": "扮演被 AI 抢走工作的工程师，在浏览器里砍树解压的网页小游戏。",
     "zh_title": "Lumberjack：被 AI 抢了饭碗的工程师砍树记"
   },
+  "https://lumiumai.github.io/svelto": {
+    "en_oneliner": "Write Svelte components in the browser using any scripting language — even Lua runs live against the real DOM — and see the result instantly.",
+    "en_title": "Show HN: Svelto, a Language-Agnostic Svelte",
+    "zh_oneliner": "在浏览器里写 Svelte 组件，脚本语言随便换，Lua 也能直接跑在真实 DOM 上，改完立刻看到效果。",
+    "zh_title": "Svelto：不挑语言的 Svelte 游乐场"
+  },
   "https://lumyna-community-212355732863.europe-west1.run.app/?ref=producthunt": {
     "en_oneliner": "A community challenge covering a million virtual meters, turning footsteps into a small pledge against hunger.",
     "en_title": "Lumyna Community Challenge",
@@ -9868,6 +9886,12 @@
     "en_title": "Murer AI – Single Platform Multiple Models",
     "zh_oneliner": "一个平台接入多个 AI 模型，不用来回切换，想比效果、换模型都方便。",
     "zh_title": "Murer AI：一个平台用多个模型"
+  },
+  "https://music.rorz.io/stretch": {
+    "en_oneliner": "Drop in an audio file and stretch it with the PaulStretch algorithm into ethereal soundscapes — tweak a few knobs and export production-ready WAV.",
+    "en_title": "Show HN: PaulStretch Editor",
+    "zh_oneliner": "上传一段音频，用 PaulStretch 算法拉伸成空灵的氛围音景，调几个旋钮就能导出 WAV 直接用到制作里。",
+    "zh_title": "PaulStretch Editor：在线拉伸音频做空灵音景"
   },
   "https://myclaw.ai/?ref=producthunt": {
     "en_oneliner": "Build a team of AI teammates in the cloud — each with its own role for research, writing or coding — that works in your tools around the clock.",
@@ -10673,6 +10697,12 @@
     "zh_oneliner": "免费在线修图工具，图层、蒙版、滤镜都有，全在浏览器里跑。",
     "zh_title": "PhotoCraft：免费在线修图"
   },
+  "https://photogenerai.com": {
+    "en_oneliner": "Generate and edit photos from a text prompt or an uploaded image — swap backgrounds and restyle shots in a single sentence.",
+    "en_title": "PhotoGenerAI",
+    "zh_oneliner": "用文字描述或上传图片就能生成、编辑照片，换背景、改风格一句话搞定。",
+    "zh_title": "PhotoGenerAI：AI 照片生成与编辑"
+  },
   "https://photomuseum.davidemornatta.it": {
     "en_oneliner": "Drop in up to 20 photos and wander through a tiny 3D museum built from them — your memories, hung on the wall.",
     "en_title": "Photo Museum: Turn Your Photos into a Walkable 3D Museum",
@@ -10798,6 +10828,12 @@
     "en_title": "Show HN: PlanCity – I find new housing developments across Europe every day",
     "zh_oneliner": "每天汇总欧洲各地新开盘的住宅项目，想找新房、看市场动向都能用。",
     "zh_title": "PlanCity：每天发现欧洲新建楼盘"
+  },
+  "https://plane.deals": {
+    "en_oneliner": "Pick your home airports and get emailed when a cash fare drops, with the bag limit shown on every deal.",
+    "en_title": "Plane Deals",
+    "zh_oneliner": "选好出发机场，机票一降价就发邮件提醒，每条特价都标明行李额度。",
+    "zh_title": "Plane Deals"
   },
   "https://planremodel.app": {
     "en_oneliner": "Upload a photo of a room, kitchen, or yard and try out new paint, cabinets, landscaping, and lighting with AI, while the walls and furniture stay put.",
@@ -13673,6 +13709,18 @@
     "zh_oneliner": "AI 语音前台，替你接听来电。",
     "zh_title": "VoiceFleet"
   },
+  "https://voicehook.ai": {
+    "en_oneliner": "Get a voice nudge when your coding agent is waiting on you, and answer by voice without watching the screen.",
+    "en_title": "Voicehook",
+    "zh_oneliner": "编码助手在等你确认时直接语音告诉你，不用盯着屏幕也能开口回答、继续干活。",
+    "zh_title": "Voicehook：语音回复编码助手"
+  },
+  "https://voidwear.app": {
+    "en_oneliner": "Upload a clothing photo and AI turns it into a clean, store-ready product image in about a minute — no studio setup or Photoshop skills needed.",
+    "en_title": "Voidwear",
+    "zh_oneliner": "上传一张服装照片，AI 一分钟左右就能生成干净整洁的电商商品图，不用摄影棚也不用学 Photoshop。",
+    "zh_title": "Voidwear：AI 幽灵模特，服装照片一键变商品图"
+  },
   "https://vonng.com/en/pg/maintain-vchord": {
     "en_oneliner": "The author explains why they took on maintaining a VectorChord fork, and the trade-offs behind forking a vector database.",
     "en_title": "Why I'm Maintaining a VectorChord Fork",
@@ -15077,6 +15125,12 @@
     "zh_oneliner": "把简历和岗位描述一起粘贴，立刻检查匹配度，投简历前先过一遍机器筛。",
     "zh_title": "ATS 简历检查器：粘贴简历对照岗位描述"
   },
+  "https://www.onestoplinkedin.com/reddit-reply-generator": {
+    "en_oneliner": "Generates natural, rule-friendly Reddit replies so you can promote without getting banned.",
+    "en_title": "Show HN: I built a tool that helps in marketing on Reddit without getting banned",
+    "zh_oneliner": "帮你生成自然不违规的 Reddit 回复，做营销推广也不怕被封号。",
+    "zh_title": "Reddit 回复生成器：营销推广不怕被封号"
+  },
   "https://www.onetworesume.com": {
     "en_oneliner": "Upload your resume and the AI rewrites weak bullet points into achievement statements, formats it to pass ATS filters, and has it ready to send in minutes.",
     "en_title": "OneTwo Resume",
@@ -15130,6 +15184,12 @@
     "en_title": "PassPhoto: Passport Photo Maker",
     "zh_oneliner": "按各国官方尺寸生成证件照，还能免费检查照片是否合规，不用跑照相馆。",
     "zh_title": "PassPhoto：证件照制作工具"
+  },
+  "https://www.passrules.fyi": {
+    "en_oneliner": "Look up any platform’s password rules, then generate a compliant password locally in your browser — no sign-up, nothing uploaded.",
+    "en_title": "Show HN: Password Rules Registry",
+    "zh_oneliner": "查任意平台的密码规则，再按规则在浏览器本地生成合规密码，不用注册也不上传数据。",
+    "zh_title": "Password Rules Registry：各平台密码规则速查"
   },
   "https://www.penelope.ink": {
     "en_oneliner": "Transcribe meeting recordings right in your browser using your own API key.",
@@ -16696,47 +16756,5 @@
     "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
     "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
     "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
-  },
-  "https://plane.deals": {
-    "en_title": "Plane Deals",
-    "en_oneliner": "Pick your home airports and get emailed when a cash fare drops, with the bag limit shown on every deal.",
-    "zh_title": "Plane Deals",
-    "zh_oneliner": "选好出发机场，机票一降价就发邮件提醒，每条特价都标明行李额度。"
-  },
-  "https://firstreport.cc": {
-    "en_title": "First Report",
-    "en_oneliner": "Tracks breaking news across outlets, showing who published first and each outlet's bias on a publication timeline.",
-    "zh_title": "First Report",
-    "zh_oneliner": "追踪突发新闻在各家媒体的发布时间线，并标注每家媒体的立场倾向，帮你一眼看清消息源头。"
-  },
-  "https://photogenerai.com": {
-    "en_title": "PhotoGenerAI",
-    "zh_title": "PhotoGenerAI：AI 照片生成与编辑",
-    "zh_oneliner": "用文字描述或上传图片就能生成、编辑照片，换背景、改风格一句话搞定。",
-    "en_oneliner": "Generate and edit photos from a text prompt or an uploaded image — swap backgrounds and restyle shots in a single sentence."
-  },
-  "https://bouquetgram.com": {
-    "en_title": "Bouquetgram",
-    "zh_title": "Bouquetgram：链接送花",
-    "zh_oneliner": "做一束会绽放的数字花束，发一条链接就能送给对方，点开即见花开。",
-    "en_oneliner": "Build a digital bouquet that blooms when opened, and send it to someone as a simple link."
-  },
-  "https://voicehook.ai": {
-    "en_title": "Voicehook",
-    "zh_title": "Voicehook：语音回复编码助手",
-    "zh_oneliner": "编码助手在等你确认时直接语音告诉你，不用盯着屏幕也能开口回答、继续干活。",
-    "en_oneliner": "Get a voice nudge when your coding agent is waiting on you, and answer by voice without watching the screen."
-  },
-  "https://voidwear.app": {
-    "en_title": "Voidwear",
-    "zh_title": "Voidwear：AI 幽灵模特，服装照片一键变商品图",
-    "zh_oneliner": "上传一张服装照片，AI 一分钟左右就能生成干净整洁的电商商品图，不用摄影棚也不用学 Photoshop。",
-    "en_oneliner": "Upload a clothing photo and AI turns it into a clean, store-ready product image in about a minute — no studio setup or Photoshop skills needed."
-  },
-  "https://www.onestoplinkedin.com/reddit-reply-generator": {
-    "en_title": "Show HN: I built a tool that helps in marketing on Reddit without getting banned",
-    "zh_title": "Reddit 回复生成器：营销推广不怕被封号",
-    "zh_oneliner": "帮你生成自然不违规的 Reddit 回复，做营销推广也不怕被封号。",
-    "en_oneliner": "Generates natural, rule-friendly Reddit replies so you can promote without getting banned."
   }
 }
