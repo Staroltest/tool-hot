@@ -16456,5 +16456,23 @@
   "en_oneliner": "Generate images and videos in one browser workspace — text-to-image, photo editing, product shots, virtual try-on and viral video templates, across models from OpenAI, Google, FLUX and more.",
   "zh_title": "ImgAI",
   "zh_oneliner": "一个浏览器里的 AI 图片视频工作台，文生图、修图、产品图、虚拟试穿和爆款视频模板都在这儿，OpenAI、Google、FLUX 等多个模型共用一个积分余额。"
+ },
+ "https://dearlytune.com": {
+  "en_oneliner": "Turn a name and a few memories into a personalized AI song in about two minutes, with a free 45-second preview before you unlock the full track.",
+  "en_title": "DearlyTune",
+  "zh_oneliner": "输入名字和几段回忆，两分钟生成一首唱出对方名字的 AI 定制歌曲，先免费试听 45 秒，满意再解锁完整版。",
+  "zh_title": "DearlyTune 定制歌曲"
+ },
+ "https://www.lalal.ai": {
+  "en_oneliner": "Split vocals and instruments out of any song with AI, right in the browser — no software to install.",
+  "en_title": "LALAL.AI",
+  "zh_oneliner": "AI 一键把歌曲里的人声和伴奏拆开，也能单独分离鼓、贝斯、吉他等音轨，直接在浏览器里处理，不用装软件。",
+  "zh_title": "LALAL.AI 音轨分离"
+ },
+ "https://ourbuildstudio.com/app/demo": {
+  "en_oneliner": "Plan new-home selections and upgrade budgets, comparing options and quotes before you commit.",
+  "en_title": "Our Build Studio",
+  "zh_oneliner": "给自建房和新房装修算升级账的工具，逐项比对升级方案与报价，帮你在动工前把预算聊清楚。",
+  "zh_title": "Our Build Studio 新房装修预算"
  }
 }

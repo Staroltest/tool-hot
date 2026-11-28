@@ -1888,6 +1888,13 @@ BLOCKED_EXACT = {
 # 本身正常，Margeux 工具（margeux.com/studio.html）仍可收，所以只拦
 # 这一条链接，绝不封 margeux.com 整个域名
 BLOCKED_URLS = {
+    # 2026-11-28 12:07 CST 轮人工抽查封禁：Flokk Hunter
+    #（www.zeitgames.com/games/flokk-hunter）是浏览器潜行游戏（标题自写
+    # “a browser stealth game about surveillance cameras”，躲监控摄像头
+    # 潜行），纯游戏，按游戏口径一律拦；zeitgames.com 本身是游戏站，只拦
+    # 这一条链接，不封整个域名；标题门同步加 stealth game 规则
+    "https://www.zeitgames.com/games/flokk-hunter",
+    "https://zeitgames.com/games/flokk-hunter",
     # 2026-11-28 08:07 CST 轮人工抽查封禁：Vending Bench
     #（vending-bench-game.flo.st）是 Prosus Vending Bench 基准的真人
     # 可玩版，站方自述“This independent game lets you play”，经营自动
@@ -3073,6 +3080,13 @@ _TITLE_BLOCK_RES = [
         # （2026-11-27 08:07 CST 轮：Isekai Boys 已进热点榜；离线验过
         # 全库 5313 条在库条目，只拦这一条，0 误伤；链接门同步封 i.0oat.com）
         r"\botome game\b",
+        # “stealth game”（如“Show HN: Flokk Hunter – a browser stealth
+        # game about surveillance cameras”）：潜行游戏的类型自述，网页
+        # 工具标题里不会出现
+        # （2026-11-28 12:07 CST 轮：Flokk Hunter 纯浏览器潜行游戏混入
+        # 热点榜；离线验过全库 5520 条在库条目，只拦这一条，0 误伤；
+        # 链接门同步封 www.zeitgames.com/games/flokk-hunter）
+        r"\bstealth game\b",
         # “racer”（如“Show HN: Paper Sky Rally – a multiplayer paper-plane
         # racer in the browser”）：赛车/竞速游戏的明确说法，网页工具标题里
         # 不会出现
