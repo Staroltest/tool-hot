@@ -16810,5 +16810,11 @@
     "zh_oneliner": "把一张照片或视频切成 3、6 或 9 张贴纸，做成 TikTok 主页横幅，免费无水印。",
     "en_title": "Sticker Banner Maker",
     "en_oneliner": "Split a photo or video into 3, 6 or 9 stickers for a TikTok profile banner, free with no watermark."
+  },
+  "https://pentestlynx.com": {
+    "en_title": "PentestLynx",
+    "zh_title": "PentestLynx",
+    "en_oneliner": "AI-powered penetration testing that attacks your web apps and APIs like a human tester, proving every finding with replayed exploits and fix guidance.",
+    "zh_oneliner": "AI 驱动的渗透测试平台，像真人黑客一样攻击你的网站和 API，每个漏洞都附带可复现的利用证据与修复建议。"
   }
 }
