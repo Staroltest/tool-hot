@@ -1979,6 +1979,14 @@ BLOCKED_EXACT = {
 # 本身正常，Margeux 工具（margeux.com/studio.html）仍可收，所以只拦
 # 这一条链接，绝不封 margeux.com 整个域名
 BLOCKED_URLS = {
+    # 2026-11-28 21:07 CST 轮人工抽查封禁（浏览器实测确认）：Luciole Mono
+    #（scriptor-pro.github.io/luciole-mono）是等宽终端字体 specimen 页，
+    # 页面主体是 Download（四个 .ttf 文件）+ Install（下载后拷到字体目录
+    # 再到终端设置里选用），字体本身必须下载安装才能用，按“需要下载安装
+    # 的工具不算”口径拦；页面虽有“Type your own text”预览框，那只是字
+    # 体展示不是工具功能；只拦这一条链接，不封 scriptor-pro.github.io
+    # 整个域名
+    "https://scriptor-pro.github.io/luciole-mono",
     # 2026-11-28 16:07 CST 轮人工抽查封禁：Microsoft-Decision-1.1
     #（commandline.microsoft.com/microsoft-decision-model-ga）是微软开发
     # 者博客上的模型发布公告文章（宣布决策模型 GA、上线 Foundry 与
