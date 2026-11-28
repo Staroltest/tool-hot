@@ -1619,6 +1619,49 @@ BLOCKED_DOMAINS = {
     # 实测放行，人工抽查封禁（2026-11-28 14:37 CST 轮：热点榜混入，
     # 实测确认）
     "werenota.com",
+    # 2026-11-28 15:37 CST 轮热点榜自查补封（浏览器实测确认，本轮 44 条
+    # 新到里抽查出 16 个泄漏）：
+    # spidersolitaireworld.com 是免费蜘蛛纸牌在线游戏（1 花色蜘蛛纸牌、
+    # 每日谜题、换牌桌背景），纯游戏，按游戏口径一律拦；标题门同步加
+    # solitaire 规则
+    "spidersolitaireworld.com",
+    # playimposter.com 是 Imposter / Spyfall 派对游戏生成器（分发暗号词、
+    # 投票找内鬼，另有 Spyfall），整站就是这个派对游戏，纯游戏，按游戏
+    # 口径一律拦
+    "playimposter.com",
+    # justshippedai.com 是“每日新 AI 工具”上新目录站（按投票排行的产品
+    # 清单，点进去才是别人的工具），目录页不收
+    "justshippedai.com",
+    # skyhost247.com 是巴基斯坦主机商销售页（主机套餐定价、Order 按钮、
+    # WhatsApp 下单、网站代建套餐），售卖页不是能直接用的工具
+    "skyhost247.com",
+    # dledock.com 是每日游戏目录站（114 个 Wordle 类每日游戏合集，链出站
+    # 外游玩），目录页 + 游戏，按目录与游戏口径一律拦
+    "dledock.com",
+    # superbuytaobao.com 是淘宝代购 finds 目录站（11.2 万条商品清单、QC
+    # 照、比价，赚代购返佣），目录页不收
+    "superbuytaobao.com",
+    # tcg95.com 是宝可梦/海贼王卡牌价格查询站（价格表 + 收藏账本），首页
+    # 主推 iPhone / 安卓 App 下载（App Store 与 Google Play 徽章），
+    # 是价格目录 + 应用下载页，按目录与下载口径拦
+    "tcg95.com",
+    # botpool.ai 是雇佣 AI 自由职业者中介市场（按类目浏览自由职业者、
+    # 发项目、托管付款），是人力市场不是能直接用的工具
+    "botpool.ai",
+    # miraluna.life 是约会交友 App 营销页（EIQ 匹配、教练套餐），首页挂
+    # Google Play 下载按钮，核心功能在手机 App 里，网站本身只是营销页
+    "miraluna.life",
+    # aipccompare.com 是本地 AI 迷你主机价格对比表（按 $/GB 排行、Buy on
+    # Amazon / 官网购买链接），是导购价格目录不是能直接用的工具
+    "aipccompare.com",
+    # hostpayapp.com 是 Solana 代币发行台 HOSTPAY（$HPAY）营销页（发币、
+    # 换币、40/30/20/10 分成，数据全是“未验证/暂无”），是加密代币营销
+    # 页不是通用工具
+    "hostpayapp.com",
+    # mirabox.net 是 MiraBox 直播硬件网店（Stream Dock、键盘、采集卡等
+    # 硬件商品页 + 驱动下载），整站是硬件售卖页不是能直接用的工具；
+    # 链到的“Stream Dock”就是该店首页
+    "mirabox.net",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
@@ -1933,6 +1976,25 @@ BLOCKED_URLS = {
     "https://www.vending-bench-game.flo.st",
     "https://hypereffect.dev/demo",
     "https://www.hypereffect.dev/demo",
+    # 2026-11-28 15:37 CST 轮人工抽查封禁（浏览器实测确认）：
+    # gameplayzone-dfq.pages.dev 是 HTML5 游戏门户（动作、经营类游戏
+    # 列表，另有 +18 社交赌场分区），纯游戏站，按游戏口径一律拦；是
+    # pages.dev 部署子域，只拦这一条链接，不封整个 pages.dev；
+    # monkeycat.sites.xryptokat.com 是 $MONKAT 迷因币营销页（代币合约
+    # 地址、Solscan 链接，表情包生成器只是配菜），是加密代币营销页不
+    # 是通用工具；是 xryptokat.com 的部署子域，只拦这一条链接；
+    # matchaty.pages.dev 是阿拉伯语足球比分新闻站（赛程、赛果、新闻与
+    # 预测），是体育新闻内容站不是工具；是 pages.dev 部署子域，只拦
+    # 这一条链接；daliliya.com 是阿拉伯语综合门户首页（指南、职业目录、
+    # 奖学金搜索、工具导航），标题写的“Franco–Arabic Converter”转换
+    # 器并不在该链接上，链到的首页本身不是能直接用的工具，按“链接必
+    # 须直达工具本身”口径拦首页这一条；站内转换器等工具页若被信源直链
+    # 仍可收，只拦根地址与 www 根地址
+    "https://gameplayzone-dfq.pages.dev",
+    "https://monkeycat.sites.xryptokat.com",
+    "https://matchaty.pages.dev",
+    "https://daliliya.com",
+    "https://www.daliliya.com",
     # 2026-11-28 04:37 CST 轮人工抽查封禁：After Proof
     #（labs.opentangle.com/after-proof）是“数学新发现故事”的免费有声书
     # 与电子书，点开是听书房（JS 空壳页、“Loading the listening room…”），
@@ -3127,6 +3189,12 @@ _TITLE_BLOCK_RES = [
         # 热点榜；离线验过全库 5499 条在库条目，只拦这一条，0 误伤；
         # 域名门同步封 spawn.co）
         r"\bbackgammon\b",
+        # “solitaire”（如“Spider Solitaire World”）：纸牌接龙就是纸牌游戏，
+        # 网页工具标题里不会出现
+        # （2026-11-28 15:37 CST 轮：Spider Solitaire World 纯蜘蛛纸牌游戏
+        # 混入热点榜；离线验过全库 5577 条在库条目，只拦这一条，0 误伤；
+        # 域名门同步封 spidersolitaireworld.com）
+        r"\bsolitaire\b",
         # “audiobook”（如“Show HN: Free audiobook and eBook with the story
         # of recent discoveries in math”）：有声书本身是音频内容，不是能
         # 直接用的工具，网页工具标题里不会出现
