@@ -2015,6 +2015,12 @@
     "zh_oneliner": "上传视频就能去掉背景，导出带透明通道的 WebM 或绿幕 MP4，剪视频做抠像不用装软件。",
     "zh_title": "CutoutVideo：在线视频抠像去背景"
   },
+  "https://cutune.com": {
+    "en_oneliner": "Generate 4–30s 1080p videos with synced audio from text or images in the browser, powered by MAGI-2; first sign-in includes one free clip.",
+    "en_title": "Cutune: MAGI-2 AI Video Generator",
+    "zh_oneliner": "在浏览器里用 MAGI-2 模型把文字或图片变成带同步配音的 1080p 视频，4 到 30 秒，首次登录送一次免费试生成。",
+    "zh_title": "Cutune：MAGI-2 AI 视频生成器"
+  },
   "https://cvobjective.com": {
     "en_oneliner": "Build and edit a targeted resume, compare it with a job description, and draft a matching cover letter in one workspace.",
     "en_title": "CV Objective",
@@ -8819,6 +8825,12 @@
     "zh_oneliner": "一个身份、多重证明的身份方案，主页信息不多，先把它当作值得留意的身份工具新面孔。",
     "zh_title": "Keytrace：一个身份，多重证明"
   },
+  "https://keywordtrail.com": {
+    "en_oneliner": "Type a seed word and collect Google Autocomplete suggestions, questions and preposition phrases across 52 languages and 249 countries, then filter and export as CSV.",
+    "en_title": "KeywordTrail: Free Keyword Suggestion Tool",
+    "zh_oneliner": "输入一个词，抓取 Google 联想词里的相关说法、提问和介词搭配，按国家和语言筛选，还能导出 CSV，每天免费查 3 次。",
+    "zh_title": "KeywordTrail：免费关键词联想工具"
+  },
   "https://kffhealthnews.org/public-health/us-measles-elimination-status-lost-outbreaks-continuous-spread-year-paho-cdc": {
     "en_oneliner": "Global health authorities say the US has lost its measles elimination status after sustained spread, explaining how the outbreaks led to the decision — for readers following public health news.",
     "en_title": "US Has Lost Measles Elimination Status, Global Health Authorities Say",
@@ -10174,6 +10186,12 @@
     "en_title": "Npx.tools, a keyboard-friendly index of developer tools",
     "zh_oneliner": "收录常用开发者工具的索引站，全程键盘操作就能快速定位想要的工具。",
     "zh_title": "Npx.tools：键盘友好的开发者工具索引"
+  },
+  "https://nuclearsimulator.com": {
+    "en_oneliner": "Pick any spot on the map and a warhead yield, and instantly see the fireball, blast and thermal rings and the downwind fallout plume on a 3D map, with casualty estimates included.",
+    "en_title": "Show HN: NukeSim – Interactive 3D Nuclear Blast Radius and Fallout Map",
+    "zh_oneliner": "在地图上任意选点、挑一枚核弹当量，立刻在 3D 地图上看到火球、冲击波与热辐射圈和顺风放射性沉降范围，还能估算伤亡人数。",
+    "zh_title": "NukeSim：3D 核爆冲击范围与放射性沉降模拟器"
   },
   "https://nukebg.com/?ref=makerhunt": {
     "en_oneliner": "A background remover for sellers and developers — drop an image in and the background is gone in one click.",
@@ -16678,11 +16696,5 @@
     "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
     "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
     "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
-  },
-  "https://nuclearsimulator.com": {
-    "en_title": "Show HN: NukeSim – Interactive 3D Nuclear Blast Radius and Fallout Map",
-    "en_oneliner": "Pick any spot on the map and a warhead yield, and instantly see the fireball, blast and thermal rings and the downwind fallout plume on a 3D map, with casualty estimates included.",
-    "zh_title": "NukeSim：3D 核爆冲击范围与放射性沉降模拟器",
-    "zh_oneliner": "在地图上任意选点、挑一枚核弹当量，立刻在 3D 地图上看到火球、冲击波与热辐射圈和顺风放射性沉降范围，还能估算伤亡人数。"
   }
 }
