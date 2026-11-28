@@ -16756,5 +16756,47 @@
     "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
     "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
     "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
+  },
+  "https://repmates.com": {
+    "zh_title": "RepMates",
+    "zh_oneliner": "用语音记录力量训练，自动生成训练进度可视化。",
+    "en_title": "RepMates",
+    "en_oneliner": "Log strength workouts by voice and see your progress visualized automatically."
+  },
+  "https://mathfun.me": {
+    "zh_title": "MathFun",
+    "zh_oneliner": "免费的儿童数学练习站，能生成练习题和可打印习题纸，还支持双人对战。",
+    "en_title": "MathFun",
+    "en_oneliner": "A free math practice site for kids that generates exercises and printable worksheets, with two-player battles too."
+  },
+  "https://toaudio.app": {
+    "zh_title": "toaudio",
+    "zh_oneliner": "把公开文章和 X 上的帖子转成语音，在浏览器里直接收听。",
+    "en_title": "toaudio",
+    "en_oneliner": "Turn public articles and X posts into audio you can listen to right in your browser."
+  },
+  "https://caimai.cc": {
+    "zh_title": "Caimai",
+    "zh_oneliner": "记录生命中重要的人和事，把有意义的连接一一存下来。",
+    "en_title": "Caimai",
+    "en_oneliner": "Record the people and moments that matter and keep life's meaningful connections in one place."
+  },
+  "https://mathfrogs.com": {
+    "zh_title": "Math Frogs",
+    "zh_oneliner": "青蛙主题的免费儿童数学练习，覆盖幼儿园到七年级，可计时挑战也可慢慢练。",
+    "en_title": "Math Frogs",
+    "en_oneliner": "Free frog-themed math practice for kids from kindergarten through grade 7, with optional timed challenges."
+  },
+  "https://www.mathbrawlz.com": {
+    "zh_title": "MathBrawlz",
+    "zh_oneliner": "免费的数学对战与练习站，还有小测验、可打印习题纸和互动教学白板。",
+    "en_title": "MathBrawlz",
+    "en_oneliner": "Free math battles, practice and quizzes, plus printable worksheets and an interactive teaching board."
+  },
+  "https://stickerbanner.org": {
+    "zh_title": "Sticker Banner Maker",
+    "zh_oneliner": "把一张照片或视频切成 3、6 或 9 张贴纸，做成 TikTok 主页横幅，免费无水印。",
+    "en_title": "Sticker Banner Maker",
+    "en_oneliner": "Split a photo or video into 3, 6 or 9 stickers for a TikTok profile banner, free with no watermark."
   }
 }
