@@ -1956,6 +1956,16 @@ BLOCKED_EXACT = {
 # 本身正常，Margeux 工具（margeux.com/studio.html）仍可收，所以只拦
 # 这一条链接，绝不封 margeux.com 整个域名
 BLOCKED_URLS = {
+    # 2026-11-28 16:07 CST 轮人工抽查封禁：Microsoft-Decision-1.1
+    #（commandline.microsoft.com/microsoft-decision-model-ga）是微软开发
+    # 者博客上的模型发布公告文章（宣布决策模型 GA、上线 Foundry 与
+    # OpenRouter），页面本身是文章不是能直接用的工具站，按“不收文章”
+    # 口径拦；实测通过（页面能打开、无下载信号）属于语义泄漏；只拦这
+    # 一条链接，不封 commandline.microsoft.com 整个域名
+    "https://commandline.microsoft.com/microsoft-decision-model-ga",
+    "https://commandline.microsoft.com/microsoft-decision-model-ga/?ref=producthunt",
+    "https://www.commandline.microsoft.com/microsoft-decision-model-ga",
+    "https://www.commandline.microsoft.com/microsoft-decision-model-ga/?ref=producthunt",
     # 2026-11-28 12:07 CST 轮人工抽查封禁：Flokk Hunter
     #（www.zeitgames.com/games/flokk-hunter）是浏览器潜行游戏（标题自写
     # “a browser stealth game about surveillance cameras”，躲监控摄像头
