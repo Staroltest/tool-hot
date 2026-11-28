@@ -30,6 +30,7 @@
 <url><loc>https://staroltest.github.io/tool-hot/topics/productivity.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/topics/automation.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/topics/tutorial.html</loc><lastmod>2026-11-28</lastmod></url>
+<url><loc>https://staroltest.github.io/tool-hot/items/1666d7c5155df63d345832afdbd954f32086a698.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/efec094273d093cd664f340d2c9b7e97139da1fd.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/0596b9047f16dc5622b51b7636630a19ec05dcb5.html</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/7d120cff4801765f909e18e26b6d6c7aa7057ee7.html</loc><lastmod>2026-11-27</lastmod></url>
@@ -97,8 +98,6 @@
 <url><loc>https://staroltest.github.io/tool-hot/items/7553b8b81b3d88efabcf552438e3877c730ebf53.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/99bf102733151e6b524b9753c0ca41a3648a8d96.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/9bf3f8350c25587d04bab63a568f6f8cf0e396d3.html</loc><lastmod>2026-11-28</lastmod></url>
-<url><loc>https://staroltest.github.io/tool-hot/items/98d0e30a4b931e5258e22409d4a296b53cf0d8e6.html</loc><lastmod>2026-11-28</lastmod></url>
-<url><loc>https://staroltest.github.io/tool-hot/items/784f7b2242396baa69c62466abb5ab34df667c28.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/78b765bf383534f9100b4ed7ebe041923603c94a.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/a2b0a54cc73476ebcf5031e7a4ab17615aad6df9.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/696985e23e1a0010d3a0b896e9feedfc1b42847e.html</loc><lastmod>2026-11-28</lastmod></url>
@@ -141,7 +140,6 @@
 <url><loc>https://staroltest.github.io/tool-hot/items/4f4398bb085a64364eb04fbccd34ffa8542323b0.html</loc><lastmod>2026-11-26</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/0ca00926d95ea885ee7bb0d293d94318d0518c3e.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/a998fec186dd7279f1fa5820a0a9d51cd8106f22.html</loc><lastmod>2026-11-27</lastmod></url>
-<url><loc>https://staroltest.github.io/tool-hot/items/c8af139a9b3058c268e5464311c502c51191afe3.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/c7f7c04d37a59079ec6ed203811658bd8dca45b8.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/a9533a11a0eafe3743df547fd2cae821e5911c30.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/66036e72c52650dcb0a0a231c19f42f6ec8cb396.html</loc><lastmod>2026-11-27</lastmod></url>
@@ -171,6 +169,8 @@
 <url><loc>https://staroltest.github.io/tool-hot/items/572e5c92c7194302258b2ae1cc06d1e72e7c9e4c.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/f8c4ff61f5bffbf29ac87c5385a28a6cdc145aab.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/4f3e6d845609b22ba7b4916f54424510edcc2ef4.html</loc><lastmod>2026-11-28</lastmod></url>
+<url><loc>https://staroltest.github.io/tool-hot/items/98d0e30a4b931e5258e22409d4a296b53cf0d8e6.html</loc><lastmod>2026-11-28</lastmod></url>
+<url><loc>https://staroltest.github.io/tool-hot/items/784f7b2242396baa69c62466abb5ab34df667c28.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/10c8dceaf1b5a265f9754c8e40bf1f5b0eddc2a3.html</loc><lastmod>2026-11-10</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/3090562cbfc8e216fb983062fc570f213dcde3bf.html</loc><lastmod>2026-11-13</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/84964dcbaf8d0245787057e85209f06c77855408.html</loc><lastmod>2026-11-07</lastmod></url>
@@ -506,7 +506,6 @@
 <url><loc>https://staroltest.github.io/tool-hot/items/ec387fb083e312f57e27e1bd281b1787779c6fe6.html</loc><lastmod>2026-11-24</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/4e63b78de70d912f211d4a0076a7890adf3b3265.html</loc><lastmod>2026-11-24</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/e44313534ff09eaa3ac1e5a0435c4db1ebe675aa.html</loc><lastmod>2026-11-25</lastmod></url>
-<url><loc>https://staroltest.github.io/tool-hot/items/b2bea88ab81011f33159d940524defc1b272f36d.html</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/22b15c1468cc80f94e84c23dbef2db519b7e35d4.html</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/4fbbe4540753d58886566fc442ebb0fc2a4174dd.html</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/8676d89ad233a6c5b834202fcb508d5fd0cc248c.html</loc><lastmod>2026-11-25</lastmod></url>
@@ -576,6 +575,7 @@
 <url><loc>https://staroltest.github.io/tool-hot/items/68c18e1aa3ee9a76580a20157e2d81ce2e539e22.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/a3031d962d410037ca1f1227c37922993550b823.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/41925859ee8050d772a0c2a010fa37c7f898cf69.html</loc><lastmod>2026-11-27</lastmod></url>
+<url><loc>https://staroltest.github.io/tool-hot/items/c8af139a9b3058c268e5464311c502c51191afe3.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/427365285611f401cb68545d17c1810b54bc46ee.html</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/520b4708a69c3aaec08ca4c97fe1f6793b974124.html</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/f0aeb7bf26226e411f98a9cf6afda3bcb89fa946.html</loc><lastmod>2026-11-16</lastmod></url>
@@ -1343,6 +1343,7 @@
 <url><loc>https://staroltest.github.io/tool-hot/items/1b1b6fb8c4f479ced6ce21cd3b24d2dfeb9a50b6.html</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/8282878fe78d907371aae45907b054bfdea40b4f.html</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/a8e0b3ed19b5f038f797940047a624bb980ef82b.html</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://staroltest.github.io/tool-hot/items/b2bea88ab81011f33159d940524defc1b272f36d.html</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/1d4c4dc3f5602d15609a9f06eecabacafa3dada1.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/1d1cf4ab6837e5df6b18e7f84cf2b2501f83ce35.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/fdca1d535f470c991acecc3ef672b1742d7bd0d6.html</loc><lastmod>2026-11-12</lastmod></url>
@@ -1378,8 +1379,10 @@
 <url><loc>https://staroltest.github.io/tool-hot/weekly/2026-W47.html</loc><lastmod>2026-11-16</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/weekly/2026-W48.html</loc><lastmod>2026-11-23</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/monthly/2026-11.html</loc><lastmod>2026-11-01</lastmod></url>
+<url><loc>https://staroltest.github.io/tool-hot/items/1011b7655b671bb76ccf3ced6717aaab98b45ba1.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/63cabc3284816317f6749fda1ecca0b3e6b6d737.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/7c889db8decfc3c5f79ef966b279c13872dd1741.html</loc><lastmod>2026-11-28</lastmod></url>
+<url><loc>https://staroltest.github.io/tool-hot/items/8d569a53aa2e06588e06e26c5a652ed94e2c6a7b.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/d21564f1066bd78ecd5b3d9af0163a7b0d5f5e6c.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/items/f161714c2a35229991f8c06b3e487405337f5211.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/</loc><lastmod>2026-11-28</lastmod></url>
@@ -1411,6 +1414,7 @@
 <url><loc>https://staroltest.github.io/tool-hot/en/topics/Productivity.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/topics/Automation.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/topics/tutorial.html</loc><lastmod>2026-11-28</lastmod></url>
+<url><loc>https://staroltest.github.io/tool-hot/en/items/1666d7c5155df63d345832afdbd954f32086a698.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/efec094273d093cd664f340d2c9b7e97139da1fd.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/0596b9047f16dc5622b51b7636630a19ec05dcb5.html</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/7d120cff4801765f909e18e26b6d6c7aa7057ee7.html</loc><lastmod>2026-11-27</lastmod></url>
@@ -1478,8 +1482,6 @@
 <url><loc>https://staroltest.github.io/tool-hot/en/items/7553b8b81b3d88efabcf552438e3877c730ebf53.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/99bf102733151e6b524b9753c0ca41a3648a8d96.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/9bf3f8350c25587d04bab63a568f6f8cf0e396d3.html</loc><lastmod>2026-11-28</lastmod></url>
-<url><loc>https://staroltest.github.io/tool-hot/en/items/98d0e30a4b931e5258e22409d4a296b53cf0d8e6.html</loc><lastmod>2026-11-28</lastmod></url>
-<url><loc>https://staroltest.github.io/tool-hot/en/items/784f7b2242396baa69c62466abb5ab34df667c28.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/78b765bf383534f9100b4ed7ebe041923603c94a.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/a2b0a54cc73476ebcf5031e7a4ab17615aad6df9.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/696985e23e1a0010d3a0b896e9feedfc1b42847e.html</loc><lastmod>2026-11-28</lastmod></url>
@@ -1522,7 +1524,6 @@
 <url><loc>https://staroltest.github.io/tool-hot/en/items/4f4398bb085a64364eb04fbccd34ffa8542323b0.html</loc><lastmod>2026-11-26</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/0ca00926d95ea885ee7bb0d293d94318d0518c3e.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/a998fec186dd7279f1fa5820a0a9d51cd8106f22.html</loc><lastmod>2026-11-27</lastmod></url>
-<url><loc>https://staroltest.github.io/tool-hot/en/items/c8af139a9b3058c268e5464311c502c51191afe3.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/c7f7c04d37a59079ec6ed203811658bd8dca45b8.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/a9533a11a0eafe3743df547fd2cae821e5911c30.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/66036e72c52650dcb0a0a231c19f42f6ec8cb396.html</loc><lastmod>2026-11-27</lastmod></url>
@@ -1552,6 +1553,8 @@
 <url><loc>https://staroltest.github.io/tool-hot/en/items/572e5c92c7194302258b2ae1cc06d1e72e7c9e4c.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/f8c4ff61f5bffbf29ac87c5385a28a6cdc145aab.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/4f3e6d845609b22ba7b4916f54424510edcc2ef4.html</loc><lastmod>2026-11-28</lastmod></url>
+<url><loc>https://staroltest.github.io/tool-hot/en/items/98d0e30a4b931e5258e22409d4a296b53cf0d8e6.html</loc><lastmod>2026-11-28</lastmod></url>
+<url><loc>https://staroltest.github.io/tool-hot/en/items/784f7b2242396baa69c62466abb5ab34df667c28.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/10c8dceaf1b5a265f9754c8e40bf1f5b0eddc2a3.html</loc><lastmod>2026-11-10</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/3090562cbfc8e216fb983062fc570f213dcde3bf.html</loc><lastmod>2026-11-13</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/84964dcbaf8d0245787057e85209f06c77855408.html</loc><lastmod>2026-11-07</lastmod></url>
@@ -1887,7 +1890,6 @@
 <url><loc>https://staroltest.github.io/tool-hot/en/items/ec387fb083e312f57e27e1bd281b1787779c6fe6.html</loc><lastmod>2026-11-24</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/4e63b78de70d912f211d4a0076a7890adf3b3265.html</loc><lastmod>2026-11-24</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/e44313534ff09eaa3ac1e5a0435c4db1ebe675aa.html</loc><lastmod>2026-11-25</lastmod></url>
-<url><loc>https://staroltest.github.io/tool-hot/en/items/b2bea88ab81011f33159d940524defc1b272f36d.html</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/22b15c1468cc80f94e84c23dbef2db519b7e35d4.html</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/4fbbe4540753d58886566fc442ebb0fc2a4174dd.html</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/8676d89ad233a6c5b834202fcb508d5fd0cc248c.html</loc><lastmod>2026-11-25</lastmod></url>
@@ -1957,6 +1959,7 @@
 <url><loc>https://staroltest.github.io/tool-hot/en/items/68c18e1aa3ee9a76580a20157e2d81ce2e539e22.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/a3031d962d410037ca1f1227c37922993550b823.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/41925859ee8050d772a0c2a010fa37c7f898cf69.html</loc><lastmod>2026-11-27</lastmod></url>
+<url><loc>https://staroltest.github.io/tool-hot/en/items/c8af139a9b3058c268e5464311c502c51191afe3.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/427365285611f401cb68545d17c1810b54bc46ee.html</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/520b4708a69c3aaec08ca4c97fe1f6793b974124.html</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/f0aeb7bf26226e411f98a9cf6afda3bcb89fa946.html</loc><lastmod>2026-11-16</lastmod></url>
@@ -2724,6 +2727,7 @@
 <url><loc>https://staroltest.github.io/tool-hot/en/items/1b1b6fb8c4f479ced6ce21cd3b24d2dfeb9a50b6.html</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/8282878fe78d907371aae45907b054bfdea40b4f.html</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/a8e0b3ed19b5f038f797940047a624bb980ef82b.html</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://staroltest.github.io/tool-hot/en/items/b2bea88ab81011f33159d940524defc1b272f36d.html</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/1d4c4dc3f5602d15609a9f06eecabacafa3dada1.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/1d1cf4ab6837e5df6b18e7f84cf2b2501f83ce35.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/fdca1d535f470c991acecc3ef672b1742d7bd0d6.html</loc><lastmod>2026-11-12</lastmod></url>
@@ -2759,8 +2763,10 @@
 <url><loc>https://staroltest.github.io/tool-hot/en/weekly/2026-W47.html</loc><lastmod>2026-11-16</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/weekly/2026-W48.html</loc><lastmod>2026-11-23</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/monthly/2026-11.html</loc><lastmod>2026-11-01</lastmod></url>
+<url><loc>https://staroltest.github.io/tool-hot/en/items/1011b7655b671bb76ccf3ced6717aaab98b45ba1.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/63cabc3284816317f6749fda1ecca0b3e6b6d737.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/7c889db8decfc3c5f79ef966b279c13872dd1741.html</loc><lastmod>2026-11-28</lastmod></url>
+<url><loc>https://staroltest.github.io/tool-hot/en/items/8d569a53aa2e06588e06e26c5a652ed94e2c6a7b.html</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/d21564f1066bd78ecd5b3d9af0163a7b0d5f5e6c.html</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://staroltest.github.io/tool-hot/en/items/f161714c2a35229991f8c06b3e487405337f5211.html</loc><lastmod>2026-11-28</lastmod></url>
 </urlset>

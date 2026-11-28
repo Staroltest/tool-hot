@@ -1888,6 +1888,19 @@ BLOCKED_EXACT = {
 # 本身正常，Margeux 工具（margeux.com/studio.html）仍可收，所以只拦
 # 这一条链接，绝不封 margeux.com 整个域名
 BLOCKED_URLS = {
+    # 2026-11-28 08:07 CST 轮人工抽查封禁：Vending Bench
+    #（vending-bench-game.flo.st）是 Prosus Vending Bench 基准的真人
+    # 可玩版，站方自述“This independent game lets you play”，经营自动
+    # 售货机生意、30 天模拟、与 AI 模型比拼分数，纯游戏，按游戏口径一
+    # 律拦；Hypereffect 演示页（hypereffect.dev/demo）是 Rust hypereffect
+    # 库的三个 WASM 小应用演示，只是框架功能展示，不是能直接用的工具，
+    # Show HN 帖子介绍的是一门嵌入式 UI 语言本身，按“不收文章/演示”
+    # 口径拦；两条都是热点榜新到条目，实测确认后封禁；只拦这两条链接，
+    # 不封整个域名
+    "https://vending-bench-game.flo.st",
+    "https://www.vending-bench-game.flo.st",
+    "https://hypereffect.dev/demo",
+    "https://www.hypereffect.dev/demo",
     # 2026-11-28 04:37 CST 轮人工抽查封禁：After Proof
     #（labs.opentangle.com/after-proof）是“数学新发现故事”的免费有声书
     # 与电子书，点开是听书房（JS 空壳页、“Loading the listening room…”），

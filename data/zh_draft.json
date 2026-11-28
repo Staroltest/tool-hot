@@ -593,6 +593,12 @@
   "zh_oneliner": "把 YouTube 和社媒视频转成带出处链接的文字稿，边读边核对来源，适合做内容研究的学生和创作者。",
   "zh_title": "AnyScript：视频转文字稿与溯源研究"
  },
+ "https://api.sonojs.com": {
+  "en_oneliner": "Free mock REST APIs with live JSON, an in-browser playground, a JSON workbench and fake data and image generators — prototype a frontend without setting up a backend.",
+  "en_title": "Free Temporary and Mock REST API for Front End Developers",
+  "zh_oneliner": "免费的模拟 REST API，十个可直接调用的示例接口，附带浏览器内演练场、JSON 工作台和假数据、图片生成器，前端开发不用搭后端就能联调。",
+  "zh_title": "SonoJS API"
+ },
  "https://apnews.com/article/ao3-fandom-archive-transformative-9e752c2cf91409434fcde7188140d066": {
   "en_oneliner": "AO3, the world's largest fanfiction archive, is back online after a 17-day outage, and fandom can finally breathe again.",
   "en_title": "Archive Of Our Own (AO3) back online after 17 days",
@@ -12023,6 +12029,12 @@
   "zh_oneliner": "把流量、广告、收入、评价、客服和代码数据都接到一块看板上，每天早上打开一个页面就知道生意怎么样。",
   "zh_title": "Statnest：创业者的一站式数据看板"
  },
+ "https://statusmeter.web.app": {
+  "en_oneliner": "Create a status page, get a QR code and password, stick it on a door or share it — update the status anytime, no sign-up, no name attached.",
+  "en_title": "StatusMeter: Anonymous real-time status generator for anything",
+  "zh_oneliner": "建一个状态页，拿到二维码和密码，贴在门口或发给别人，状态随时改，不用注册也不留名。",
+  "zh_title": "StatusMeter：给任何东西做匿名实时状态牌"
+ },
  "https://stencil-maker.net": {
   "en_oneliner": "Upload a photo or sketch and AI turns it into a clean tattoo stencil you can print at true size on transfer paper.",
   "en_title": "Stencil Maker",
@@ -12268,6 +12280,12 @@
   "en_title": "Talk to Me Doja",
   "zh_oneliner": "上传一张照片就能生成一段跳舞视频，一次付费、不用注册，玩梗神器。",
   "zh_title": "Talk to Me Doja：照片变跳舞视频"
+ },
+ "https://tallycatalog.com": {
+  "en_oneliner": "Look up any company's numbers with their full history and sources — every value traces back to the sentence it came from, with charts and CSVs to quote and reuse.",
+  "en_title": "Tally – Company Numbers with Their History and Source",
+  "zh_oneliner": "查任何一家公司的数字，附带完整历史与出处，每条数值都能追溯到原句和来源，还能导出图表与 CSV，引用起来有据可查。",
+  "zh_title": "Tally"
  },
  "https://tangled.org/nvim-mini.org/mini.nvim": {
   "en_oneliner": "The mini.nvim Neovim plugin collection is now on Tangled, the decentralized code hosting platform — worth a look for editor tinkerers.",
@@ -16408,11 +16426,5 @@
   "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
   "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
   "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
- },
- "https://statusmeter.web.app": {
-  "en_title": "StatusMeter: Anonymous real-time status generator for anything",
-  "en_oneliner": "Create a status page, get a QR code and password, stick it on a door or share it — update the status anytime, no sign-up, no name attached.",
-  "zh_title": "StatusMeter：给任何东西做匿名实时状态牌",
-  "zh_oneliner": "建一个状态页，拿到二维码和密码，贴在门口或发给别人，状态随时改，不用注册也不留名。"
  }
 }
