@@ -1612,6 +1612,13 @@ BLOCKED_DOMAINS = {
     # breakthroughs on a timeline”不露游戏痕迹，实测放行，人工抽查封
     # 禁（2026-11-28 14:07 CST 轮：热点榜第 20 条混入，实测确认）
     "youraitimelines.com",
+    # werenota.com：Renota 是 Chrome 扩展 + Zotero 插件 + Android 应用
+    # 组成的 AI 阅读助手（官网自述“Three apps”：browser、Zotero、
+    # Android），核心功能须下载安装扩展/应用才能用，网站本身只是营销
+    # 与下载落地页，不是点开就能用的工具；标题“Renota”不露安装痕迹，
+    # 实测放行，人工抽查封禁（2026-11-28 14:37 CST 轮：热点榜混入，
+    # 实测确认）
+    "werenota.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
