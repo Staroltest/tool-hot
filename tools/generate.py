@@ -465,6 +465,10 @@ BLOCKED_DOMAINS = {
     # MCP 服务器、发 API key 供 AI 客户端调用，Playground 只是平台内测功
     # 能），按 toklab.ai 纯 API 平台口径封整个域名
     "bloque.run",
+    # 2026-11-27 21:37 PST 轮：wikivectors.com 是维基百科搜索 API（给 AI
+    # 应用调 API 用，需申请 key 接入；站内 Try it 只是 API 试调用演示，
+    # 不是浏览器里能直接用的工具），按 toklab.ai 纯 API 平台口径封整个域名
+    "wikivectors.com",
     "publishyoursaas.com", "listmaro.com", "secretpass.com",
     "myzucoins.org", "fundraisebase.com", "importz.fi", "gpt288.com",
     "pluginpeer.com", "alook.ai", "applylah.com", "fast.io",
