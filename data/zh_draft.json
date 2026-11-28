@@ -71,6 +71,12 @@
     "zh_oneliner": "不用注册就能用的发票生成器和利润计算器，做副业算账、开发票都顺手。",
     "zh_title": "Show HN：SideLedger Tools：免注册发票与利润计算器"
   },
+  "https://1heal.org/silent-healing-room.html": {
+    "en_oneliner": "Pick a length, press begin, and sit in silence with a witness present — a quiet space for meditation and nervous system regulation.",
+    "en_title": "The Silent Healing Room",
+    "zh_oneliner": "选一个时长，按下开始，就能在静默中打坐冥想，全程有人静静陪伴，帮你放松神经、沉淀内心。",
+    "zh_title": "The Silent Healing Room：静默疗愈室"
+  },
   "https://3dfile.app": {
     "en_oneliner": "Open and view 3D models right in the browser, and convert between formats — no modelling software needed.",
     "en_title": "3dfile – free online 3D model viewer and converter",
@@ -790,6 +796,12 @@
     "en_title": "Show HN: AI Infra Finance tracker (Data-vis project)",
     "zh_oneliner": "一张实时更新的 AI 基建金融风险仪表盘，盯着大厂资本开支、借贷成本、GPU 租赁价和二手芯片行情这些早期预警信号，帮你判断这轮 AI 建设潮是不是跑得太快了。",
     "zh_title": "Artificial Liabilities：追踪 AI 基建泡沫风险的数据仪表盘"
+  },
+  "https://ashareeri.tinkeringdao.dev": {
+    "en_oneliner": "An open-source civic, road and live radar map for Kerala you can explore right in your browser.",
+    "en_title": "Ashareeri",
+    "zh_oneliner": "开源的喀拉拉邦地图，市民设施、路况和实时雷达都能在线查看，不用安装。",
+    "zh_title": "Ashareeri：喀拉拉邦市民地图"
   },
   "https://ashuteacher.vercel.app": {
     "en_oneliner": "A free AI tutor that teaches on a voice-narrated blackboard, solves scanned exam papers step by step, and builds courses, quizzes and flashcards around any exam syllabus.",
