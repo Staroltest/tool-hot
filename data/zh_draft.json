@@ -16678,5 +16678,11 @@
     "en_title": "ZZP Bewijskluis – free 2-minute Wet DBA self-employment check",
     "zh_oneliner": "荷兰个体户花两分钟自测是否符合 Wet DBA 自雇法规，免费在线完成。",
     "zh_title": "ZZP Bewijskluis：荷兰自由职业合规自测"
+  },
+  "https://nuclearsimulator.com": {
+    "en_title": "Show HN: NukeSim – Interactive 3D Nuclear Blast Radius and Fallout Map",
+    "en_oneliner": "Pick any spot on the map and a warhead yield, and instantly see the fireball, blast and thermal rings and the downwind fallout plume on a 3D map, with casualty estimates included.",
+    "zh_title": "NukeSim：3D 核爆冲击范围与放射性沉降模拟器",
+    "zh_oneliner": "在地图上任意选点、挑一枚核弹当量，立刻在 3D 地图上看到火球、冲击波与热辐射圈和顺风放射性沉降范围，还能估算伤亡人数。"
   }
 }
