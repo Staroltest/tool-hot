@@ -1979,6 +1979,17 @@ BLOCKED_EXACT = {
 # 本身正常，Margeux 工具（margeux.com/studio.html）仍可收，所以只拦
 # 这一条链接，绝不封 margeux.com 整个域名
 BLOCKED_URLS = {
+    # 2026-11-28 21:37 CST 轮人工抽查封禁：Math Frogs（mathfrogs.com）
+    # 是儿童数学练习游戏（站方自述 "math practice game"，玩法是倒计时内
+    # 答题让荷叶接住掉落的青蛙，计分+连对 streak），除答题玩法外没有任
+    # 何工具产出（无可打印练习题、无生成器/计算器），纯游戏，按游戏口径
+    # 一律拦；标题 "Math Frogs" 本身不露游戏信号，标题门拦不住，只拦这
+    # 一条链接，不封 mathfrogs.com 以外；同批另两条数学站留：MathBrawlz
+    # 与 MathFun 均带可打印练习题（MathBrawlz 还有互动教学白板），属带
+    # 工具属性的游戏化工具，按中间路线保留；Block Blast Solver 是截图
+    # 解题工具本身，不是游戏，保留
+    "https://mathfrogs.com",
+    "https://www.mathfrogs.com",
     # 2026-11-28 21:07 CST 轮人工抽查封禁（浏览器实测确认）：Luciole Mono
     #（scriptor-pro.github.io/luciole-mono）是等宽终端字体 specimen 页，
     # 页面主体是 Download（四个 .ttf 文件）+ Install（下载后拷到字体目录
