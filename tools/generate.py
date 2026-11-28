@@ -2784,6 +2784,12 @@ BLOCKED_URLS = {
     # Kakurenbo（学假名的 Wordle 游戏）、DossierQL（学 GraphQL 的游戏）
     # 同类；只拦这一条链接，不封 rupertlinacre.com 整个域名
     "https://rupertlinacre.com/facteroids",
+    # 2026-11-28 09:07 CST 轮热点榜自查补封（标题自述确认）：Far Worlds
+    # （farworlds.com/play）是浏览器里跑的多人合作体素 RPG 游戏
+    # （WebGPU/WebRTC），纯游戏，按游戏口径一律拦；标题门同步加 RPG
+    # 规则；只拦这一条链接，不封 farworlds.com 整个域名
+    "https://farworlds.com/play",
+    "https://www.farworlds.com/play",
 }
 # 文章味路径段（按段全等匹配）
 ARTICLE_PATH_SEGMENTS = {
@@ -3115,6 +3121,12 @@ _TITLE_BLOCK_RES = [
         # Modelflare 混入当日时间线；离线验过全库 4287 条在库条目，只拦
         # 这一条，0 误伤；域名门同步封 modelflare.dev）
         r"\bapi\s+key\s+for\b",
+        # “RPG”（如“Show HN: Far Worlds, a co-op voxel RPG that runs in
+        # the browser”）：角色扮演游戏的类型自述，网页工具标题里不会出现
+        # （2026-11-28 09:07 CST 轮：Far Worlds 已进热点榜；离线验过
+        # 全库 5512 条在库条目，命中 2 条全是纯游戏（Far Worlds 体素
+        # RPG、求职主题 RPG），0 误伤；链接门同步封 farworlds.com/play）
+        r"\brpg\b",
     )
 ]
 
