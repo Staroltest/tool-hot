@@ -16438,5 +16438,11 @@
     "zh_oneliner": "一个只有 52KB 的 WebAssembly 引擎，不用安装、不用服务器，在浏览器标签页里直接跑起 Qwen3.5-2B 小模型。",
     "en_title": "Tesseracted: A 52 KB WebAssembly Engine That Runs Qwen3.5-2B in a Browser Tab",
     "en_oneliner": "A tiny 52 KB WebAssembly engine that runs the Qwen3.5-2B model right in a browser tab — no install, no server needed."
+  },
+  "https://eternityforest.github.io/calcurio": {
+    "zh_title": "Calcurio 在线计算器合集",
+    "zh_oneliner": "浏览器里直接用的计算器合集，涵盖日常各类计算，LLM 辅助开发的概念验证项目，结果使用前请自行核对。",
+    "en_title": "Calcurio",
+    "en_oneliner": "A collection of calculators that run right in the browser, built with LLM assistance as a proof of concept — double-check results before trusting them."
   }
 }
