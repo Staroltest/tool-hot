@@ -1604,6 +1604,14 @@ BLOCKED_DOMAINS = {
     # 测放行，缺翻译自查时发现（2026-11-28 00:07 CST 轮：热点榜第 9
     # 条混入，实测确认）
     "rentagoon.com",
+    # youraitimelines.com：AI 与数学突破预测游戏（在时间线上押注 IMO
+    # 金牌、黎曼猜想等何时发生，再和 Scott Aaronson 的预测对照），
+    # 核心玩法是竞猜/对赌，没有访客能输入并得到结果的工具功能，纯游
+    # 戏按游戏口径一律拦，与此前已封的 best-gbagames.com、
+    # clueffygame.com、krillionhint.com 同类；标题“Place AI and math
+    # breakthroughs on a timeline”不露游戏痕迹，实测放行，人工抽查封
+    # 禁（2026-11-28 14:07 CST 轮：热点榜第 20 条混入，实测确认）
+    "youraitimelines.com",
 }
 # 只拦根域本身（部署子域仍可收，如 *.vercel.app 上的工具）
 BLOCKED_EXACT = {
